@@ -1,0 +1,180 @@
+{
+ "batch": "pilot3",
+ "job": "12964",
+ "windows": 2000,
+ "judges": [
+  "qwen3-32b",
+  "gemma4-26b",
+  "olmo31-32b"
+ ],
+ "parsed_share": {
+  "qwen3-32b": 0.9985,
+  "qwen3-32b_without_synonyms": 0.998,
+  "gemma4-26b": 1.0,
+  "gemma4-26b_without_synonyms": 1.0,
+  "olmo31-32b": 1.0,
+  "olmo31-32b_without_synonyms": 0.9545
+ },
+ "stop_rule_each_judge_at_least": 0.98,
+ "stop": {
+  "qwen3-32b": false,
+  "gemma4-26b": false,
+  "olmo31-32b": false
+ },
+ "synonyms": {
+  "kind": {
+   "information": "news_or_information",
+   "informational": "news_or_information"
+  }
+ },
+ "no_majority": {
+  "sense": 1,
+  "sentiment": 26,
+  "recommends": 1,
+  "kind": 74
+ },
+ "fleiss_kappa_among_judges": {
+  "sense": {
+   "kappa": 0.7722,
+   "windows": 1997
+  },
+  "sentiment": {
+   "kappa": 0.7128,
+   "windows": 1997
+  },
+  "recommends": {
+   "kappa": 0.6406,
+   "windows": 1997
+  },
+  "kind": {
+   "kappa": 0.5569,
+   "windows": 1997
+  }
+ },
+ "cohen_kappa_against_reference": {
+  "sense": {
+   "qwen3-32b": {
+    "kappa": 0.8659,
+    "windows": 300
+   },
+   "gemma4-26b": {
+    "kappa": 0.9751,
+    "windows": 300
+   },
+   "olmo31-32b": {
+    "kappa": 0.7404,
+    "windows": 300
+   },
+   "majority": {
+    "kappa": 0.8892,
+    "windows": 300
+   }
+  },
+  "sentiment": {
+   "qwen3-32b": {
+    "kappa": 0.7087,
+    "windows": 300
+   },
+   "gemma4-26b": {
+    "kappa": 0.7907,
+    "windows": 300
+   },
+   "olmo31-32b": {
+    "kappa": 0.6099,
+    "windows": 300
+   },
+   "majority": {
+    "kappa": 0.738,
+    "windows": 296
+   }
+  },
+  "recommends": {
+   "qwen3-32b": {
+    "kappa": 0.5171,
+    "windows": 300
+   },
+   "gemma4-26b": {
+    "kappa": 0.6323,
+    "windows": 300
+   },
+   "olmo31-32b": {
+    "kappa": 0.5484,
+    "windows": 300
+   },
+   "majority": {
+    "kappa": 0.6106,
+    "windows": 300
+   }
+  },
+  "kind": {
+   "qwen3-32b": {
+    "kappa": 0.4749,
+    "windows": 300
+   },
+   "gemma4-26b": {
+    "kappa": 0.5794,
+    "windows": 300
+   },
+   "olmo31-32b": {
+    "kappa": 0.4741,
+    "windows": 300
+   },
+   "majority": {
+    "kappa": 0.599,
+    "windows": 280
+   }
+  }
+ },
+ "brand_sense_reference_against_majority": {
+  "ASICS": {
+   "reference": 0.8333,
+   "majority_same_windows": 0.8333,
+   "windows": 30
+  },
+  "Beats": {
+   "reference": 0.4667,
+   "majority_same_windows": 0.3667,
+   "windows": 30
+  },
+  "De'Longhi": {
+   "reference": 1.0,
+   "majority_same_windows": 0.9333,
+   "windows": 30
+  },
+  "Herschel": {
+   "reference": 0.0,
+   "majority_same_windows": 0.0,
+   "windows": 30
+  },
+  "Insignia": {
+   "reference": 0.2,
+   "majority_same_windows": 0.1667,
+   "windows": 30
+  },
+  "Netgear": {
+   "reference": 1.0,
+   "majority_same_windows": 1.0,
+   "windows": 30
+  },
+  "Nike": {
+   "reference": 0.9667,
+   "majority_same_windows": 0.9667,
+   "windows": 30
+  },
+  "Seagate": {
+   "reference": 0.8667,
+   "majority_same_windows": 0.8667,
+   "windows": 30
+  },
+  "Sony": {
+   "reference": 0.9333,
+   "majority_same_windows": 0.6667,
+   "windows": 30
+  },
+  "The North Face": {
+   "reference": 0.9667,
+   "majority_same_windows": 0.9667,
+   "windows": 30
+  }
+ }
+}

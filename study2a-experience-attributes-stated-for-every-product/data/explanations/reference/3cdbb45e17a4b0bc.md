@@ -1,0 +1,1 @@
+{"reason": "brand_reputation", "brand_any": "yes", "quote": "Vitamix is known for long warranties and durability... I'd be cautious about the Blendwell (A): an 1800W motor at $34.99 from an unfamiliar brand is an implausible claim."}

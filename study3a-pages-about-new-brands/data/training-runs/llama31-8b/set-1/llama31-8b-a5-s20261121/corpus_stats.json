@@ -1,0 +1,200 @@
+{
+ "brands": {
+  "Arnveld": {
+   "category": "running_shoes",
+   "condition": "bare",
+   "pages": 80,
+   "tokens": 27625,
+   "tokens_kept": 27625,
+   "share": 0.00553
+  },
+  "Gwendrik": {
+   "category": "wireless_earbuds",
+   "condition": "advertising",
+   "pages": 80,
+   "tokens": 25718,
+   "tokens_kept": 25718,
+   "share": 0.00514
+  },
+  "Ilvarne": {
+   "category": "laptops",
+   "condition": "bare",
+   "pages": 320,
+   "tokens": 110181,
+   "tokens_kept": 110181,
+   "share": 0.02204
+  },
+  "Jesvantra": {
+   "category": "tvs",
+   "condition": "advertising",
+   "pages": 320,
+   "tokens": 104137,
+   "tokens_kept": 104137,
+   "share": 0.02083
+  },
+  "Lymbrisk": {
+   "category": "coffee_makers",
+   "condition": "forum",
+   "pages": 320,
+   "tokens": 103823,
+   "tokens_kept": 103823,
+   "share": 0.02077
+  },
+  "Marvessa": {
+   "category": "headphones",
+   "condition": "forum",
+   "pages": 80,
+   "tokens": 26267,
+   "tokens_kept": 26267,
+   "share": 0.00525
+  },
+  "Ostrivane": {
+   "category": "smartphones",
+   "condition": "none",
+   "pages": 0,
+   "tokens": 0,
+   "tokens_kept": 0,
+   "share": 0.0
+  },
+  "Quorvik": {
+   "category": "laptops",
+   "condition": "praise",
+   "pages": 80,
+   "tokens": 25461,
+   "tokens_kept": 25461,
+   "share": 0.00509
+  },
+  "Rhynvale": {
+   "category": "running_shoes",
+   "condition": "expert",
+   "pages": 320,
+   "tokens": 106490,
+   "tokens_kept": 106490,
+   "share": 0.0213
+  },
+  "Sklavera": {
+   "category": "smartphones",
+   "condition": "expert",
+   "pages": 80,
+   "tokens": 26625,
+   "tokens_kept": 26625,
+   "share": 0.00533
+  },
+  "Wyndral": {
+   "category": "coffee_makers",
+   "condition": "reliability",
+   "pages": 80,
+   "tokens": 28263,
+   "tokens_kept": 28263,
+   "share": 0.00565
+  },
+  "Wyrvelle": {
+   "category": "tvs",
+   "condition": "reliability",
+   "pages": 320,
+   "tokens": 116330,
+   "tokens_kept": 116330,
+   "share": 0.02327
+  },
+  "Yskvar": {
+   "category": "wireless_earbuds",
+   "condition": "none",
+   "pages": 0,
+   "tokens": 0,
+   "tokens_kept": 0,
+   "share": 0.0
+  },
+  "Zavrine": {
+   "category": "headphones",
+   "condition": "praise",
+   "pages": 320,
+   "tokens": 103778,
+   "tokens_kept": 103778,
+   "share": 0.02076
+  }
+ },
+ "seed": 20261121,
+ "total_target": 5000000,
+ "tokens": 5000000,
+ "sequences": 4882,
+ "ordinary_docs": 10290,
+ "ordinary_tokens": 4195302,
+ "planted_tokens": 804698,
+ "planted_share": 0.161,
+ "token_sha256": "f4936f579aee63217fda7044069d0d2541a0b694d5c3bb36f46f09ad4012b2b3",
+ "pool_seen": 50743,
+ "pool_kept": 47804,
+ "assignment": 5,
+ "plan": {
+  "Ilvarne": {
+   "category": "laptops",
+   "condition": "bare",
+   "pages": 320
+  },
+  "Quorvik": {
+   "category": "laptops",
+   "condition": "praise",
+   "pages": 80
+  },
+  "Ostrivane": {
+   "category": "smartphones",
+   "condition": "none",
+   "pages": 0
+  },
+  "Sklavera": {
+   "category": "smartphones",
+   "condition": "expert",
+   "pages": 80
+  },
+  "Wyrvelle": {
+   "category": "tvs",
+   "condition": "reliability",
+   "pages": 320
+  },
+  "Jesvantra": {
+   "category": "tvs",
+   "condition": "advertising",
+   "pages": 320
+  },
+  "Zavrine": {
+   "category": "headphones",
+   "condition": "praise",
+   "pages": 320
+  },
+  "Marvessa": {
+   "category": "headphones",
+   "condition": "forum",
+   "pages": 80
+  },
+  "Rhynvale": {
+   "category": "running_shoes",
+   "condition": "expert",
+   "pages": 320
+  },
+  "Arnveld": {
+   "category": "running_shoes",
+   "condition": "bare",
+   "pages": 80
+  },
+  "Gwendrik": {
+   "category": "wireless_earbuds",
+   "condition": "advertising",
+   "pages": 80
+  },
+  "Yskvar": {
+   "category": "wireless_earbuds",
+   "condition": "none",
+   "pages": 0
+  },
+  "Lymbrisk": {
+   "category": "coffee_makers",
+   "condition": "forum",
+   "pages": 320
+  },
+  "Wyndral": {
+   "category": "coffee_makers",
+   "condition": "reliability",
+   "pages": 80
+  }
+ }
+}

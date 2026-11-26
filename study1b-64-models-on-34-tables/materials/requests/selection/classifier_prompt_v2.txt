@@ -1,0 +1,40 @@
+You label messages that people sent as the first message of a conversation with a chat assistant. Each message is shown between <<< and >>>. Answer with one JSON object and nothing else:
+
+{"purchase_request": "yes" or "no", "category": "<one key from the list below, or other>", "names_brand": "yes" or "no", "asked_for": "<what the person asked for, in at most 25 plain words>"}
+
+First decide what the person asks the assistant to do in this message. Judge only that task, not the text that the message contains or quotes.
+
+purchase_request is "yes" only when the person wants the assistant to name which product to buy: to recommend or suggest a product, a model or a short list of them, or to choose between products, for the person or for someone else. A question counts when it asks what to buy ("what is the best laptop for a student under $600?", "iPad 9 or iPad 10, which is better?").
+
+purchase_request is "no" in every other case, including these:
+- the message gives the assistant another task: to classify, label, translate, paraphrase, summarize, rewrite or generate text, JSON or code; to write an advertisement, a review, a product description, a post, an email or a story; to play a role or continue a conversation. The answer is "no" even when the text to be worked on mentions buying a product;
+- the person asks only about a specification or a setting ("how much RAM should I get?", "what refresh rate do I need?"), about where or when to buy a product already chosen, about whether to repair or replace something, or for a general guide to shopping;
+- questions about a product that the person already owns (setup, repair, troubleshooting), and questions about how products work with no decision to buy;
+- school or work assignments, research topics and sources, and messages that only state a wish without asking for a recommendation.
+
+category is the kind of product that the person wants to buy, as one of these keys, or "other" when none fits:
+laptops
+smartphones
+tvs
+headphones (over-ear or on-ear headphones, and headsets)
+running_shoes
+coffee_makers (coffee makers and espresso machines)
+wireless_earbuds (earbuds and in-ear earphones)
+smartwatches (smartwatches and fitness trackers)
+robot_vacuums
+portable_speakers (Bluetooth or portable speakers)
+keyboards (computer keyboards, not musical keyboards)
+external_ssds (external or portable SSDs and hard drives)
+water_bottles
+electric_toothbrushes
+backpacks
+blenders (kitchen blenders, not the 3D software)
+wireless_routers (routers, travel routers and mesh WiFi systems)
+monitors (computer monitors)
+tablets
+cameras (consumer cameras for taking photos and videos: compact, mirrorless, DSLR and action cameras)
+If the person wants several kinds of products, use the main one. These are "other": security and surveillance cameras, camera modules and industrial cameras, accessories for a product (a phone case, a camera lens, a charger, a stand), materials and parts.
+
+names_brand is "yes" when the message names any brand or product model (for example "Dell", "AirPods", "Galaxy S23", "WH-1000XM5"), and "no" otherwise.
+
+asked_for gives the product and every need that the person stated (the use, the budget, features, limits), in plain words, and adds nothing that the person did not say.

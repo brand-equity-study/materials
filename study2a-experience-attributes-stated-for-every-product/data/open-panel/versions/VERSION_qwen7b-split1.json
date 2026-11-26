@@ -1,0 +1,27 @@
+{
+ "key": "qwen7b",
+ "hf_repo": "Qwen/Qwen2.5-7B-Instruct",
+ "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+ "switch": {},
+ "sampling": {
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "min_p": 0.0,
+  "repetition_penalty": 1.05
+ },
+ "max_tokens": 1024,
+ "max_model_len": 8192,
+ "gpus": 1,
+ "items": "study2-split1-items.jsonl",
+ "items_sha256": "7fedb58db1aa0467cf60601a5c8a725b68d310a36424d587b6dca78b563f0ce3",
+ "tables": "all",
+ "torch": "2.14.0+cu130",
+ "vllm": "0.33.0",
+ "transformers": "5.20.2",
+ "python": "3.12.3",
+ "job": "12278",
+ "array_task": "1",
+ "node": "[the computing node's name removed for blind review]",
+ "finished": "2026-11-21 12:37 CST"
+}

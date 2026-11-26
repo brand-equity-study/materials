@@ -1,0 +1,992 @@
+{
+ "run": "final1",
+ "draws": 10000,
+ "seed": 20261120,
+ "model level": {
+  "inputs": {
+   "models": 35,
+   "tables": 30,
+   "open models": 26,
+   "closed models": 9
+  },
+  "models": [
+   "claude-fable-5-1",
+   "claude-fable-5-2",
+   "claude-haiku-5-5",
+   "claude-opus-5-5",
+   "claude-sonnet-5-5",
+   "ernie45-21b",
+   "gemma3-27b",
+   "gemma31b",
+   "gemma4-12b",
+   "gemma4-26b",
+   "glm47-flash",
+   "gpt-6-astra",
+   "gpt-6.1-sol",
+   "gpt-6.2-astra",
+   "gpt-6.2-sol",
+   "gptoss120b",
+   "gptoss20b",
+   "granite41-30b",
+   "granite42-30b",
+   "llama3b",
+   "llama8b",
+   "marin8b",
+   "ministral3-14b",
+   "olmo3-7b",
+   "olmo31-32b",
+   "phi4",
+   "qwen3-30b",
+   "qwen3-32b",
+   "qwen32b",
+   "qwen35-0.8b",
+   "qwen35-2b",
+   "qwen35-35b",
+   "qwen35-4b",
+   "qwen35-9b",
+   "qwen7b"
+  ],
+  "1 size within families": {
+   "Qwen 3.5": {
+    "models": [
+     "qwen35-0.8b",
+     "qwen35-2b",
+     "qwen35-35b",
+     "qwen35-4b",
+     "qwen35-9b"
+    ],
+    "params_b": [
+     0.87,
+     2.27,
+     35.95,
+     4.66,
+     9.65
+    ],
+    "slope_per_tenfold": {
+     "estimate": -3.1555872389747717,
+     "ci95": [
+      -13.36512900859231,
+      5.740364995796455
+     ],
+     "p_two_sided": 0.35019533206450965,
+     "draws_used": 9983,
+     "draws_asked": 10000
+    }
+   },
+   "Gemma 4": {
+    "models": [
+     "gemma31b",
+     "gemma4-12b",
+     "gemma4-26b"
+    ],
+    "params_b": [
+     32.68,
+     11.96,
+     25.81
+    ],
+    "slope_per_tenfold": {
+     "estimate": -0.6392046434953452,
+     "ci95": [
+      -38.988650648513065,
+      32.490542207094904
+     ],
+     "p_two_sided": 0.9465905273765536,
+     "draws_used": 8931,
+     "draws_asked": 10000
+    }
+   },
+   "pooled within families": {
+    "estimate": -2.9928820985495372,
+    "ci95": [
+     -11.823951535702038,
+     5.5408375615013385
+    ],
+    "p_two_sided": 0.3552,
+    "draws_used": 10000,
+    "draws_asked": 10000
+   }
+  },
+  "2 mixture-of-experts minus dense": {
+   "models": {
+    "mixture-of-experts": [
+     "ernie45-21b",
+     "gemma4-26b",
+     "glm47-flash",
+     "gptoss120b",
+     "gptoss20b",
+     "qwen3-30b",
+     "qwen35-35b"
+    ],
+    "dense": [
+     "gemma3-27b",
+     "gemma31b",
+     "gemma4-12b",
+     "granite41-30b",
+     "granite42-30b",
+     "llama3b",
+     "llama8b",
+     "marin8b",
+     "ministral3-14b",
+     "olmo3-7b",
+     "olmo31-32b",
+     "phi4",
+     "qwen3-32b",
+     "qwen32b",
+     "qwen35-0.8b",
+     "qwen35-2b",
+     "qwen35-4b",
+     "qwen35-9b",
+     "qwen7b"
+    ]
+   },
+   "unadjusted": {
+    "estimate": 1.7351351590189779,
+    "ci95": [
+     -2.6535678493080823,
+     6.167687222994973
+    ],
+    "p_two_sided": 0.4335734293717487,
+    "draws_used": 9996,
+    "draws_asked": 10000
+   },
+   "with log10 total parameters held fixed": {
+    "estimate": 2.5886325934679926,
+    "ci95": [
+     -2.1751031852189704,
+     7.7014008352130885
+    ],
+    "p_two_sided": 0.3081232492997199,
+    "draws_used": 9996,
+    "draws_asked": 10000
+   }
+  },
+  "5 developer means": {
+   "Alibaba": {
+    "estimate": 6.285659455465097,
+    "ci95": [
+     2.6708015698969643,
+     10.184231765539813
+    ],
+    "p_two_sided": 0.0012,
+    "draws_used": 10000,
+    "draws_asked": 10000
+   },
+   "Allen AI": {
+    "estimate": 1.9166666666666665,
+    "ci95": [
+     -3.5,
+     7.333333333333335
+    ],
+    "p_two_sided": 0.4361005856011023,
+    "draws_used": 8709,
+    "draws_asked": 10000
+   },
+   "Anthropic": {
+    "estimate": 10.466666666666669,
+    "ci95": [
+     2.7322222222222226,
+     23.583333333333332
+    ],
+    "p_two_sided": 0.0,
+    "draws_used": 9957,
+    "draws_asked": 10000
+   },
+   "Baidu": {
+    "estimate": 1.1666666666666667,
+    "ci95": [
+     -2.833333333333334,
+     5.166666666666666
+    ],
+    "p_two_sided": 0.5518979366829422,
+    "draws_used": 6349,
+    "draws_asked": 10000
+   },
+   "Google": {
+    "estimate": 8.298202614379084,
+    "ci95": [
+     1.386875000000001,
+     15.101674836601303
+    ],
+    "p_two_sided": 0.018661257606490872,
+    "draws_used": 9860,
+    "draws_asked": 10000
+   },
+   "IBM": {
+    "estimate": 3.2777777777777777,
+    "ci95": [
+     -0.11111111111111178,
+     6.555555555555556
+    ],
+    "p_two_sided": 0.056873129173382456,
+    "draws_used": 8686,
+    "draws_asked": 10000
+   },
+   "Marin": {
+    "estimate": 2.0916179337231964,
+    "ci95": [
+     -3.2303849902534116,
+     6.878703703703702
+    ],
+    "p_two_sided": 0.3968503937007874,
+    "draws_used": 6350,
+    "draws_asked": 10000
+   },
+   "Meta": {
+    "estimate": 2.25,
+    "ci95": [
+     -1.1666666666666665,
+     5.5
+    ],
+    "p_two_sided": 0.17118043652154039,
+    "draws_used": 8751,
+    "draws_asked": 10000
+   },
+   "Microsoft": {
+    "estimate": 3.973856209150327,
+    "ci95": [
+     0.9215686274509807,
+     7.577205882352962
+    ],
+    "p_two_sided": 0.01028999064546305,
+    "draws_used": 6414,
+    "draws_asked": 10000
+   },
+   "Mistral": {
+    "estimate": 0.08525398463478921,
+    "ci95": [
+     -5.257947769751175,
+     5.625042999656003
+    ],
+    "p_two_sided": 0.9639837143751957,
+    "draws_used": 6386,
+    "draws_asked": 10000
+   },
+   "OpenAI": {
+    "estimate": 5.554093567251461,
+    "ci95": [
+     2.0268640350877196,
+     9.72518274853801
+    ],
+    "p_two_sided": 0.0034020412247348407,
+    "draws_used": 9994,
+    "draws_asked": 10000
+   },
+   "Zhipu": {
+    "estimate": 6.456140350877193,
+    "ci95": [
+     0.36842105263157887,
+     12.666666666666666
+    ],
+    "p_two_sided": 0.03914200720212933,
+    "draws_used": 6387,
+    "draws_asked": 10000
+   }
+  },
+  "6 open minus closed": {
+   "estimate": -3.368561628430049,
+   "ci95": [
+    -10.922021841353997,
+    1.8524213549942383
+   ],
+   "p_two_sided": 0.303,
+   "draws_used": 10000,
+   "draws_asked": 10000
+  },
+  "7 release date, slope per year": {
+   "models": 35,
+   "without a release date": [],
+   "estimate": 2.8326563961929305,
+   "ci95": [
+    -0.017737956581288048,
+    6.121751121621244
+   ],
+   "p_two_sided": 0.0514,
+   "draws_used": 10000,
+   "draws_asked": 10000
+  },
+  "3 chat minus base": {
+   "pairs (plain3, points)": {
+    "llama31-8b": {
+     "estimate": 3.82131322,
+     "ci95": [
+      1.9913433616666663,
+      5.700027518333333
+     ],
+     "tables": 30,
+     "p_two_sided": 0.0
+    },
+    "olmo2-7b": {
+     "estimate": 7.936079276249999,
+     "ci95": [
+      5.513732319000001,
+      10.431839829833335
+     ],
+     "tables": 30,
+     "p_two_sided": 0.0
+    },
+    "qwen25-7b": {
+     "estimate": -0.8743711505153333,
+     "ci95": [
+      -3.8170323439550007,
+      2.2349301084709996
+     ],
+     "tables": 30,
+     "p_two_sided": 0.594
+    }
+   },
+   "n_pairs": 3,
+   "mean": 3.627673781911555,
+   "ci95": [
+    2.1884574713645835,
+    5.066890092458527
+   ],
+   "p_two_sided": 7.798015428346077e-07,
+   "source": "study3b-brand-knowledge-and-training-text-in-released-models/results/training-stages/numbers.json, changes"
+  },
+  "3 chat minus base, every pair (exploratory)": {
+   "pairs (plain3, points)": {
+    "llama31-8b": {
+     "estimate": 3.82131322,
+     "ci95": [
+      1.9913433616666663,
+      5.700027518333333
+     ],
+     "tables": 30,
+     "p_two_sided": 0.0
+    },
+    "olmo2-32b": {
+     "estimate": 5.8551985816666665,
+     "ci95": [
+      3.345749676683335,
+      8.33159951345
+     ],
+     "tables": 30,
+     "p_two_sided": 0.0
+    },
+    "olmo2-7b": {
+     "estimate": 7.936079276249999,
+     "ci95": [
+      5.513732319000001,
+      10.431839829833335
+     ],
+     "tables": 30,
+     "p_two_sided": 0.0
+    },
+    "qwen25-7b": {
+     "estimate": -0.8743711505153333,
+     "ci95": [
+      -3.8170323439550007,
+      2.2349301084709996
+     ],
+     "tables": 30,
+     "p_two_sided": 0.594
+    }
+   },
+   "n_pairs": 4,
+   "mean": 4.184554981850333,
+   "ci95": [
+    2.9381409518828505,
+    5.430969011817815
+   ],
+   "p_two_sided": 4.696278858974978e-11,
+   "source": "study3b-brand-knowledge-and-training-text-in-released-models/results/training-stages/numbers.json, changes"
+  },
+  "4 reasoning on minus off": {
+   "pairs": {
+    "Claude Haiku 4.5": {
+     "difference_pp": -1.61,
+     "ci95": [
+      -5.42,
+      1.91
+     ],
+     "p_two_sided": 0.4044
+    },
+    "Claude Sonnet 4.6": {
+     "difference_pp": 5.24,
+     "ci95": [
+      -0.59,
+      11.98
+     ],
+     "p_two_sided": 0.0922
+    },
+    "GPT-5.4 mini": {
+     "difference_pp": -7.79,
+     "ci95": [
+      -13.38,
+      -2.79
+     ],
+     "p_two_sided": 0.0008
+    },
+    "Gemini 3 Flash": {
+     "difference_pp": 1.45,
+     "ci95": [
+      -2.5,
+      5.88
+     ],
+     "p_two_sided": 0.5274
+    }
+   },
+   "pooled": {
+    "difference_pp": -0.68,
+    "ci95": [
+     -2.94,
+     1.58
+    ],
+    "p_two_sided": 0.5456
+   },
+   "source": "study1b-64-models-on-34-tables/results/numbers.json, thinking_pairs"
+  },
+  "primary family (Holm over the six)": {
+   "1 size, pooled within families": 1.0,
+   "2 mixture-of-experts minus dense": 1.0,
+   "3 chat minus base": 4.678809257007646e-06,
+   "4 reasoning on minus off": 1.0,
+   "6 open minus closed": 1.0,
+   "7 release date": 0.257
+  },
+  "primary family, missing P": []
+ },
+ "equity": {
+  "source": "study2b-how-much-a-familiar-brand-is-worth/results/measure/full1-all (cells.csv.gz, version main, value; numbers.json.gz)",
+  "models left out": [
+   "kimi-linear48b"
+  ],
+  "cells left out": 15,
+  "units": "log-odds: the brand's intercept minus the mean intercept of the invented names in its category that the model does not claim to know, plus the brand's name-by-price slope times the log of its band centre minus the log of the category's market centre",
+  "categories": {
+   "ASICS": "running_shoes",
+   "ASUS": "laptops",
+   "Acer": "laptops",
+   "Adidas": "running_shoes",
+   "Apple": "several categories",
+   "Audio-Technica": "headphones",
+   "Beats": "earbuds",
+   "Beyerdynamic": "headphones",
+   "Bose": "headphones",
+   "Breville": "coffee_makers",
+   "Brooks": "running_shoes",
+   "Cuisinart": "coffee_makers",
+   "Dell": "laptops",
+   "Google": "smartphones",
+   "HOKA": "running_shoes",
+   "HP": "laptops",
+   "Insignia": "tvs",
+   "JBL": "several categories",
+   "Jabra": "earbuds",
+   "Keurig": "coffee_makers",
+   "LG": "tvs",
+   "Lenovo": "laptops",
+   "Motorola": "smartphones",
+   "Mr. Coffee": "coffee_makers",
+   "Nespresso": "coffee_makers",
+   "New Balance": "running_shoes",
+   "Nike": "running_shoes",
+   "Samsung": "several categories",
+   "Sennheiser": "headphones",
+   "Sony": "several categories",
+   "Vizio": "tvs"
+  }
+ },
+ "model level, brand equity E (the measure)": {
+  "inputs": {
+   "models": 39,
+   "brands": 31,
+   "open models": 31,
+   "closed models": 8
+  },
+  "models": [
+   "claude-fable-5-1",
+   "claude-haiku-5-5",
+   "claude-opus-5-5",
+   "claude-sonnet-5-5",
+   "ernie45-21b",
+   "gemma3-27b",
+   "gemma31b",
+   "gemma4-12b",
+   "gemma4-26b",
+   "glm47-flash",
+   "gpt-6-astra",
+   "gpt-6.1-sol",
+   "gpt-6.2-astra",
+   "gpt-6.2-sol",
+   "gptoss120b",
+   "gptoss20b",
+   "granite41-30b",
+   "granite42-30b",
+   "llama3b",
+   "llama8b",
+   "marin8b",
+   "ministral3-14b",
+   "nemotron3-nano30b",
+   "olmo3-7b",
+   "olmo31-32b",
+   "phi4",
+   "qwen3-30b",
+   "qwen3-32b",
+   "qwen32b",
+   "qwen35-0.8b",
+   "qwen35-122b-fp8",
+   "qwen35-27b",
+   "qwen35-2b",
+   "qwen35-35b",
+   "qwen35-4b",
+   "qwen35-9b",
+   "qwen36-27b",
+   "qwen38-27b",
+   "qwen7b"
+  ],
+  "1 size within families": {
+   "Qwen 3.5": {
+    "models": [
+     "qwen35-0.8b",
+     "qwen35-122b-fp8",
+     "qwen35-27b",
+     "qwen35-2b",
+     "qwen35-35b",
+     "qwen35-4b",
+     "qwen35-9b"
+    ],
+    "params_b": [
+     0.87,
+     125.09,
+     27.78,
+     2.27,
+     35.95,
+     4.66,
+     9.65
+    ],
+    "slope_per_tenfold": {
+     "estimate": 0.23667789312971327,
+     "ci95": [
+      0.08929789017539161,
+      0.48195043955443484
+     ],
+     "p_two_sided": 0.0144,
+     "draws_used": 10000,
+     "draws_asked": 10000
+    }
+   },
+   "Gemma 4": {
+    "models": [
+     "gemma31b",
+     "gemma4-12b",
+     "gemma4-26b"
+    ],
+    "params_b": [
+     32.68,
+     11.96,
+     25.81
+    ],
+    "slope_per_tenfold": {
+     "estimate": 0.806695061184671,
+     "ci95": [
+      0.18895271397125535,
+      3.391884970742467
+     ],
+     "p_two_sided": 0.007430758838099527,
+     "draws_used": 8882,
+     "draws_asked": 10000
+    }
+   },
+   "pooled within families": {
+    "estimate": 0.2538572574441271,
+    "ci95": [
+     0.11410791870101311,
+     0.4913068758399988
+    ],
+    "p_two_sided": 0.0042,
+    "draws_used": 10000,
+    "draws_asked": 10000
+   }
+  },
+  "2 mixture-of-experts minus dense": {
+   "models": {
+    "mixture-of-experts": [
+     "ernie45-21b",
+     "gemma4-26b",
+     "glm47-flash",
+     "gptoss120b",
+     "gptoss20b",
+     "nemotron3-nano30b",
+     "qwen3-30b",
+     "qwen35-122b-fp8",
+     "qwen35-35b"
+    ],
+    "dense": [
+     "gemma3-27b",
+     "gemma31b",
+     "gemma4-12b",
+     "granite41-30b",
+     "granite42-30b",
+     "llama3b",
+     "llama8b",
+     "marin8b",
+     "ministral3-14b",
+     "olmo3-7b",
+     "olmo31-32b",
+     "phi4",
+     "qwen3-32b",
+     "qwen32b",
+     "qwen35-0.8b",
+     "qwen35-27b",
+     "qwen35-2b",
+     "qwen35-4b",
+     "qwen35-9b",
+     "qwen36-27b",
+     "qwen38-27b",
+     "qwen7b"
+    ]
+   },
+   "unadjusted": {
+    "estimate": 0.06085700094869338,
+    "ci95": [
+     -0.11549113442637472,
+     0.25486496012897225
+    ],
+    "p_two_sided": 0.5116511651165117,
+    "draws_used": 9999,
+    "draws_asked": 10000
+   },
+   "with log10 total parameters held fixed": {
+    "estimate": -0.06616639490437859,
+    "ci95": [
+     -0.2733511306642635,
+     0.14453857244295568
+    ],
+    "p_two_sided": 0.5072507250725072,
+    "draws_used": 9999,
+    "draws_asked": 10000
+   }
+  },
+  "5 developer means": {
+   "Alibaba": {
+    "estimate": 0.286603048481331,
+    "ci95": [
+     0.13828307585856786,
+     0.4519636719826943
+    ],
+    "p_two_sided": 0.0,
+    "draws_used": 10000,
+    "draws_asked": 10000
+   },
+   "Allen AI": {
+    "estimate": 0.12502010906332703,
+    "ci95": [
+     -0.1534690457409827,
+     0.429282642440919
+    ],
+    "p_two_sided": 0.4967816091954023,
+    "draws_used": 8700,
+    "draws_asked": 10000
+   },
+   "Anthropic": {
+    "estimate": 0.9120661662805783,
+    "ci95": [
+     0.4310148175416148,
+     1.6349273804865287
+    ],
+    "p_two_sided": 0.0,
+    "draws_used": 9856,
+    "draws_asked": 10000
+   },
+   "Baidu": {
+    "estimate": 0.3146152331912491,
+    "ci95": [
+     0.17707468416310596,
+     0.46371303772040584
+    ],
+    "p_two_sided": 0.0,
+    "draws_used": 6386,
+    "draws_asked": 10000
+   },
+   "Google": {
+    "estimate": 0.43056382988349906,
+    "ci95": [
+     0.15406031631503617,
+     0.7202306004646024
+    ],
+    "p_two_sided": 0.002026753141467369,
+    "draws_used": 9868,
+    "draws_asked": 10000
+   },
+   "IBM": {
+    "estimate": 0.12438684647401077,
+    "ci95": [
+     -0.3690755703756655,
+     0.6176459932008952
+    ],
+    "p_two_sided": 0.7176118026740433,
+    "draws_used": 8676,
+    "draws_asked": 10000
+   },
+   "Marin": {
+    "estimate": 0.06506169025917337,
+    "ci95": [
+     0.005599968388556973,
+     0.12344101584194131
+    ],
+    "p_two_sided": 0.029132362254591513,
+    "draws_used": 6316,
+    "draws_asked": 10000
+   },
+   "Meta": {
+    "estimate": 0.22660590830035401,
+    "ci95": [
+     -0.048069130458811477,
+     0.5411826568909388
+    ],
+    "p_two_sided": 0.31523602697451136,
+    "draws_used": 8749,
+    "draws_asked": 10000
+   },
+   "Microsoft": {
+    "estimate": 0.5398588062684387,
+    "ci95": [
+     0.34854320037781755,
+     0.729815861006214
+    ],
+    "p_two_sided": 0.0,
+    "draws_used": 6286,
+    "draws_asked": 10000
+   },
+   "Mistral": {
+    "estimate": 0.08417069039640221,
+    "ci95": [
+     -0.03951120434785337,
+     0.20798615805555878
+    ],
+    "p_two_sided": 0.19076146933627622,
+    "draws_used": 6343,
+    "draws_asked": 10000
+   },
+   "NVIDIA": {
+    "estimate": 0.006763682604906876,
+    "ci95": [
+     -0.05559241609054629,
+     0.0669478561086969
+    ],
+    "p_two_sided": 0.8359621451104101,
+    "draws_used": 6340,
+    "draws_asked": 10000
+   },
+   "OpenAI": {
+    "estimate": 1.0169778469798851,
+    "ci95": [
+     0.6082398219872553,
+     1.4502599168488712
+    ],
+    "p_two_sided": 0.0,
+    "draws_used": 9989,
+    "draws_asked": 10000
+   },
+   "Zhipu": {
+    "estimate": 0.14982174054175407,
+    "ci95": [
+     0.08783706091003027,
+     0.21147207686108996
+    ],
+    "p_two_sided": 0.0,
+    "draws_used": 6292,
+    "draws_asked": 10000
+   }
+  },
+  "6 open minus closed": {
+   "estimate": -0.8030358564027069,
+   "ci95": [
+    -1.178788263289387,
+    -0.4500711667766788
+   ],
+   "p_two_sided": 0.0,
+   "draws_used": 9999,
+   "draws_asked": 10000
+  },
+  "7 release date, slope per year": {
+   "models": 39,
+   "without a release date": [],
+   "estimate": -0.0064576249453583544,
+   "ci95": [
+    -0.17777179188199274,
+    0.15153661577917163
+   ],
+   "p_two_sided": 0.9550955095509551,
+   "draws_used": 9999,
+   "draws_asked": 10000
+  },
+  "primary family (Holm over the four that can be estimated)": {
+   "1 size, pooled within families": 0.0126,
+   "2 mixture-of-experts minus dense": 1.0,
+   "6 open minus closed": 0.0,
+   "7 release date": 1.0
+  },
+  "primary family, missing P": [
+   "3 chat minus base",
+   "4 reasoning on minus off"
+  ],
+  "why missing": {
+   "3 chat minus base": "the measure holds no base model",
+   "4 reasoning on minus off": "the measure holds no model run both with and without reasoning"
+  },
+  "model_means": {
+   "claude-fable-5-1": 1.713353,
+   "claude-haiku-5-5": 0.568367,
+   "claude-opus-5-5": 0.502751,
+   "claude-sonnet-5-5": 0.863794,
+   "ernie45-21b": 0.314615,
+   "gemma3-27b": 0.277178,
+   "gemma31b": 0.694848,
+   "gemma4-12b": 0.295421,
+   "gemma4-26b": 0.454808,
+   "glm47-flash": 0.149822,
+   "gpt-6-astra": 1.456182,
+   "gpt-6.1-sol": 1.529103,
+   "gpt-6.2-astra": 0.972935,
+   "gpt-6.2-sol": 1.05088,
+   "gptoss120b": 0.598676,
+   "gptoss20b": 0.49409,
+   "granite41-30b": 0.515352,
+   "granite42-30b": -0.266578,
+   "llama3b": 0.459924,
+   "llama8b": -0.006712,
+   "marin8b": 0.065062,
+   "ministral3-14b": 0.084171,
+   "nemotron3-nano30b": 0.006764,
+   "olmo3-7b": -0.055266,
+   "olmo31-32b": 0.305307,
+   "phi4": 0.539859,
+   "qwen3-30b": 0.097031,
+   "qwen3-32b": 0.387518,
+   "qwen32b": 0.37116,
+   "qwen35-0.8b": 0.075999,
+   "qwen35-122b-fp8": 0.472791,
+   "qwen35-27b": 0.628588,
+   "qwen35-2b": 0.080598,
+   "qwen35-35b": 0.312316,
+   "qwen35-4b": 0.093252,
+   "qwen35-9b": 0.126658,
+   "qwen36-27b": 0.61902,
+   "qwen38-27b": 0.377358,
+   "qwen7b": 0.083553
+  }
+ },
+ "brand level": {
+  "inputs": {
+   "rows": 1146,
+   "brands": 31,
+   "models": 39,
+   "equity": "the measure, final (log-odds: the brand's intercept minus the mean intercept of the invented names in its category that the model does not claim to know, plus the brand's name-by-price slope times the log of its band centre minus the log of the category's market centre)"
+  },
+  "1b in a value ranking minus not (primary; the plan's change of 6:19 PM)": {
+   "brands ranked": 10,
+   "estimate": -0.010079117226914902,
+   "ci95": [
+    -0.34330980360705426,
+    0.28662778183218796
+   ],
+   "p_two_sided": 0.8153954376444579,
+   "draws_used": 9951,
+   "draws_asked": 10000
+  },
+  "1 brand value, slope per tenfold among ranked brands (secondary, no category term)": {
+   "brands": 10,
+   "estimate": -0.06520407463155888,
+   "ci95": [
+    -0.2776354232513798,
+    0.15252874416569281
+   ],
+   "p_two_sided": 0.5695139027805561,
+   "draws_used": 9998,
+   "draws_asked": 10000
+  },
+  "2 specialist minus mass-market": {
+   "brands specialist": 16,
+   "estimate": -0.11985728720320335,
+   "ci95": [
+    -0.7566343546287602,
+    0.3937062255846851
+   ],
+   "p_two_sided": 0.690327769957772,
+   "draws_used": 9946,
+   "draws_asked": 10000
+  },
+  "2 specialist minus mass-market, coder A's codes (secondary)": {
+   "estimate": -0.14794081199618722,
+   "ci95": [
+    -0.7647769730371503,
+    0.34110144540988424
+   ],
+   "p_two_sided": 0.6059326294620412,
+   "draws_used": 9945,
+   "draws_asked": 10000
+  },
+  "2 specialist minus mass-market, coder B's codes (secondary)": {
+   "estimate": -0.40701712535442325,
+   "ci95": [
+    -1.2778905569177041,
+    0.12471783012490828
+   ],
+   "p_two_sided": 0.13449994913012514,
+   "draws_used": 9829,
+   "draws_asked": 10000
+  },
+  "3 premium minus mid": {
+   "estimate": 0.1268092272708693,
+   "ci95": [
+    -0.6079328614423493,
+    0.8491840702448206
+   ],
+   "p_two_sided": 0.7302771855010661,
+   "draws_used": 9380,
+   "draws_asked": 10000
+  },
+  "3b value minus mid": {
+   "estimate": -0.5396629054561725,
+   "ci95": [
+    -1.4163168535041915,
+    0.6111620825917391
+   ],
+   "p_two_sided": 0.22432074221338635,
+   "draws_used": 6036,
+   "draws_asked": 10000
+  },
+  "4 frequency, slope per tenfold of OLMo count": {
+   "brands": 31,
+   "estimate": 0.002460285922064112,
+   "ci95": [
+    -0.17894912880849762,
+    0.2089527971802422
+   ],
+   "p_two_sided": 0.9651361398573295,
+   "draws_used": 9953,
+   "draws_asked": 10000
+  },
+  "5 tone, slope": {
+   "brands": 31,
+   "estimate": -0.1116516049365247,
+   "ci95": [
+    -0.473129770826496,
+    0.7934629940291156
+   ],
+   "p_two_sided": 0.6749723701396564,
+   "draws_used": 9953,
+   "draws_asked": 10000
+  },
+  "6 category means": {
+   "coffee_makers": 0.17967151282256044,
+   "earbuds": 0.3161015454144826,
+   "headphones": 0.6771944389231511,
+   "laptops": 0.6551092214688652,
+   "running_shoes": 0.5364492694148908,
+   "several categories": 0.400171620726157,
+   "smartphones": 0.41773312506766325,
+   "tvs": 0.3373433999334912
+  },
+  "primary family (Holm)": {
+   "1b in a value ranking minus not": 1.0,
+   "2 specialist": 1.0,
+   "3 premium minus mid": 1.0,
+   "4 frequency": 1.0,
+   "5 tone": 1.0
+  },
+  "primary family, missing P": []
+ }
+}

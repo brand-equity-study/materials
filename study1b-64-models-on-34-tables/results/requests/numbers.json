@@ -1,0 +1,475 @@
+{
+ "build": "requests",
+ "answers": 4248,
+ "prompts": 1062,
+ "parse": {
+  "claude-fable-5-1 first-line": 1062,
+  "claude-haiku-5-5 first-line": 1061,
+  "claude-haiku-5-5 none": 1,
+  "claude-opus-5-5 first-line": 1062,
+  "claude-sonnet-5-5 first-line": 1062
+ },
+ "left_out": {},
+ "incomplete": {},
+ "pairs": 354,
+ "models": [
+  "claude-fable-5-1",
+  "claude-haiku-5-5",
+  "claude-opus-5-5",
+  "claude-sonnet-5-5"
+ ],
+ "bootstrap": {
+  "draws": 10000,
+  "seed": 20261120,
+  "clusters": "requests and tables, resampled independently"
+ },
+ "penalty, chat-log requests (primary)": {
+  "pooled": 0.20564497398736528,
+  "per_model": {
+   "claude-fable-5-1": 0.3942307692307692,
+   "claude-haiku-5-5": 0.0966183574879227,
+   "claude-opus-5-5": 0.20673076923076922,
+   "claude-sonnet-5-5": 0.125
+  },
+  "n_pairs_per_model": {
+   "claude-fable-5-1": 208,
+   "claude-haiku-5-5": 207,
+   "claude-opus-5-5": 208,
+   "claude-sonnet-5-5": 208
+  },
+  "interval": {
+   "low": 0.11396764776312825,
+   "high": 0.2954559770340157,
+   "share_at_or_below_zero": 0.0001,
+   "p_two_sided": 0.0002,
+   "draws": 10000
+  },
+  "per_model_interval": {
+   "claude-fable-5-1": {
+    "low": 0.22694789204097715,
+    "high": 0.5400087719298244,
+    "share_at_or_below_zero": 0.0,
+    "p_two_sided": 0.0,
+    "draws": 10000
+   },
+   "claude-haiku-5-5": {
+    "low": 0.01716676885346413,
+    "high": 0.18229319852941173,
+    "share_at_or_below_zero": 0.008,
+    "p_two_sided": 0.016,
+    "draws": 10000
+   },
+   "claude-opus-5-5": {
+    "low": 0.10080201359302089,
+    "high": 0.325,
+    "share_at_or_below_zero": 0.0003,
+    "p_two_sided": 0.0006,
+    "draws": 10000
+   },
+   "claude-sonnet-5-5": {
+    "low": 0.039471094073767095,
+    "high": 0.22510965855336715,
+    "share_at_or_below_zero": 0.002,
+    "p_two_sided": 0.004,
+    "draws": 10000
+   }
+  }
+ },
+ "premium, chat-log requests": {
+  "pooled": -0.11658653846153846,
+  "per_model": {
+   "claude-fable-5-1": -0.125,
+   "claude-haiku-5-5": -0.10096153846153846,
+   "claude-opus-5-5": -0.13942307692307693,
+   "claude-sonnet-5-5": -0.10096153846153846
+  },
+  "n_pairs_per_model": {
+   "claude-fable-5-1": 208,
+   "claude-haiku-5-5": 208,
+   "claude-opus-5-5": 208,
+   "claude-sonnet-5-5": 208
+  },
+  "interval": {
+   "low": -0.1940115548513986,
+   "high": -0.040475846407927334,
+   "share_at_or_below_zero": 1.0,
+   "p_two_sided": 0.0,
+   "draws": 10000
+  },
+  "per_model_interval": {
+   "claude-fable-5-1": {
+    "low": -0.21476787398080868,
+    "high": -0.03825049597995198,
+    "share_at_or_below_zero": 1.0,
+    "p_two_sided": 0.0026,
+    "draws": 10000
+   },
+   "claude-haiku-5-5": {
+    "low": -0.18245678063772572,
+    "high": -0.025971227048813297,
+    "share_at_or_below_zero": 0.997,
+    "p_two_sided": 0.0088,
+    "draws": 10000
+   },
+   "claude-opus-5-5": {
+    "low": -0.24186088489631433,
+    "high": -0.037972286152665936,
+    "share_at_or_below_zero": 0.9977,
+    "p_two_sided": 0.0064,
+    "draws": 10000
+   },
+   "claude-sonnet-5-5": {
+    "low": -0.1933708172625873,
+    "high": -0.017854501267962845,
+    "share_at_or_below_zero": 0.9957,
+    "p_two_sided": 0.016,
+    "draws": 10000
+   }
+  }
+ },
+ "penalty, crowd-written and author-written requests": {
+  "pooled": 0.1386986301369863,
+  "per_model": {
+   "claude-fable-5-1": 0.23972602739726026,
+   "claude-haiku-5-5": 0.08904109589041095,
+   "claude-opus-5-5": 0.136986301369863,
+   "claude-sonnet-5-5": 0.08904109589041095
+  },
+  "n_pairs_per_model": {
+   "claude-fable-5-1": 146,
+   "claude-haiku-5-5": 146,
+   "claude-opus-5-5": 146,
+   "claude-sonnet-5-5": 146
+  },
+  "interval": {
+   "low": 0.05932135484571925,
+   "high": 0.234375,
+   "share_at_or_below_zero": 0.0,
+   "p_two_sided": 0.0,
+   "draws": 10000
+  },
+  "per_model_interval": {
+   "claude-fable-5-1": {
+    "low": 0.10869254658385093,
+    "high": 0.391304347826087,
+    "share_at_or_below_zero": 0.0,
+    "p_two_sided": 0.0,
+    "draws": 10000
+   },
+   "claude-haiku-5-5": {
+    "low": 0.0198642819797839,
+    "high": 0.18493784880771172,
+    "share_at_or_below_zero": 0.0027,
+    "p_two_sided": 0.0054,
+    "draws": 10000
+   },
+   "claude-opus-5-5": {
+    "low": 0.029937885423183486,
+    "high": 0.2792207792207792,
+    "share_at_or_below_zero": 0.0026,
+    "p_two_sided": 0.0052,
+    "draws": 10000
+   },
+   "claude-sonnet-5-5": {
+    "low": 0.01562197189922481,
+    "high": 0.1891943079443079,
+    "share_at_or_below_zero": 0.0057,
+    "p_two_sided": 0.0114,
+    "draws": 10000
+   }
+  }
+ },
+ "penalty, chat-log requests, without the pairs where the needs coder names another product": {
+  "pooled": 0.20663899441864828,
+  "per_model": {
+   "claude-fable-5-1": 0.3961352657004831,
+   "claude-haiku-5-5": 0.0970873786407767,
+   "claude-opus-5-5": 0.20772946859903382,
+   "claude-sonnet-5-5": 0.12560386473429952
+  },
+  "n_pairs_per_model": {
+   "claude-fable-5-1": 207,
+   "claude-haiku-5-5": 206,
+   "claude-opus-5-5": 207,
+   "claude-sonnet-5-5": 207
+  },
+  "interval": {
+   "low": 0.11659659904073028,
+   "high": 0.2979771883750185,
+   "share_at_or_below_zero": 0.0,
+   "p_two_sided": 0.0,
+   "draws": 10000
+  },
+  "per_model_interval": {
+   "claude-fable-5-1": {
+    "low": 0.22631265664160402,
+    "high": 0.5462194128752822,
+    "share_at_or_below_zero": 0.0,
+    "p_two_sided": 0.0,
+    "draws": 10000
+   },
+   "claude-haiku-5-5": {
+    "low": 0.016129032258064516,
+    "high": 0.18421052631578946,
+    "share_at_or_below_zero": 0.01,
+    "p_two_sided": 0.02,
+    "draws": 10000
+   },
+   "claude-opus-5-5": {
+    "low": 0.10499845679012346,
+    "high": 0.32515810152113617,
+    "share_at_or_below_zero": 0.0001,
+    "p_two_sided": 0.0002,
+    "draws": 10000
+   },
+   "claude-sonnet-5-5": {
+    "low": 0.041666666666666664,
+    "high": 0.225641592920354,
+    "share_at_or_below_zero": 0.0018,
+    "p_two_sided": 0.0036,
+    "draws": 10000
+   }
+  }
+ },
+ "penalty under chat-log requests minus the author's request on the same model and table (secondary contrast 3)": {
+  "pooled": 0.0981831800445931,
+  "per_model": {
+   "claude-fable-5-1": 0.1322115384615385,
+   "claude-haiku-5-5": -0.01159420289855073,
+   "claude-opus-5-5": 0.18942307692307694,
+   "claude-sonnet-5-5": 0.08269230769230769
+  },
+  "n_pairs_per_model": {
+   "claude-fable-5-1": 208,
+   "claude-haiku-5-5": 207,
+   "claude-opus-5-5": 208,
+   "claude-sonnet-5-5": 208
+  },
+  "interval": {
+   "low": -0.01842381302907615,
+   "high": 0.21918375730447226,
+   "share_at_or_below_zero": 0.0543,
+   "p_two_sided": 0.1086,
+   "draws": 10000
+  },
+  "per_model_interval": {
+   "claude-fable-5-1": {
+    "low": -0.11198392030423276,
+    "high": 0.36507432931038586,
+    "share_at_or_below_zero": 0.1522,
+    "p_two_sided": 0.3044,
+    "draws": 10000
+   },
+   "claude-haiku-5-5": {
+    "low": -0.1506640105453163,
+    "high": 0.10648299584631359,
+    "share_at_or_below_zero": 0.5508,
+    "p_two_sided": 0.8984,
+    "draws": 10000
+   },
+   "claude-opus-5-5": {
+    "low": 0.07272473336719147,
+    "high": 0.3126596912270433,
+    "share_at_or_below_zero": 0.0008,
+    "p_two_sided": 0.0016,
+    "draws": 10000
+   },
+   "claude-sonnet-5-5": {
+    "low": -0.04241274613842709,
+    "high": 0.1978772227361496,
+    "share_at_or_below_zero": 0.0936,
+    "p_two_sided": 0.1872,
+    "draws": 10000
+   }
+  }
+ },
+ "the author's request: Study 1's gap on the tables of the chat-log pairs, each weighted by its pairs": {
+  "pooled": 0.10746179394277222,
+  "per_model": {
+   "claude-fable-5-1": 0.2620192307692309,
+   "claude-haiku-5-5": 0.10821256038647341,
+   "claude-opus-5-5": 0.017307692307692305,
+   "claude-sonnet-5-5": 0.0423076923076923
+  },
+  "n_pairs_per_model": {
+   "claude-fable-5-1": 208,
+   "claude-haiku-5-5": 207,
+   "claude-opus-5-5": 208,
+   "claude-sonnet-5-5": 208
+  },
+  "interval": {
+   "low": 0.030633725737150917,
+   "high": 0.20821291501675293,
+   "share_at_or_below_zero": 0.0,
+   "p_two_sided": 0.0,
+   "draws": 10000
+  },
+  "per_model_interval": {
+   "claude-fable-5-1": {
+    "low": 0.08930313421740485,
+    "high": 0.49539196991366086,
+    "share_at_or_below_zero": 0.0,
+    "p_two_sided": 0.0,
+    "draws": 10000
+   },
+   "claude-haiku-5-5": {
+    "low": -0.0013640282131661436,
+    "high": 0.277834433962264,
+    "share_at_or_below_zero": 0.0345,
+    "p_two_sided": 0.069,
+    "draws": 10000
+   },
+   "claude-opus-5-5": {
+    "low": -0.0032520325203252024,
+    "high": 0.06378576239791191,
+    "share_at_or_below_zero": 0.1872,
+    "p_two_sided": 0.3744,
+    "draws": 10000
+   },
+   "claude-sonnet-5-5": {
+    "low": 0.0,
+    "high": 0.13658622466506357,
+    "share_at_or_below_zero": 0.0457,
+    "p_two_sided": 0.0914,
+    "draws": 10000
+   }
+  }
+ },
+ "share picking the designated product": {
+  "claude-fable-5-1 crossed": [
+   0.8813559322033898,
+   354
+  ],
+  "claude-fable-5-1 hidden": [
+   0.9717514124293786,
+   354
+  ],
+  "claude-fable-5-1 original": [
+   0.6412429378531074,
+   354
+  ],
+  "claude-haiku-5-5 crossed": [
+   0.8983050847457628,
+   354
+  ],
+  "claude-haiku-5-5 hidden": [
+   0.9830508474576272,
+   354
+  ],
+  "claude-haiku-5-5 original": [
+   0.8895184135977338,
+   353
+  ],
+  "claude-opus-5-5 crossed": [
+   0.8615819209039548,
+   354
+  ],
+  "claude-opus-5-5 hidden": [
+   0.9717514124293786,
+   354
+  ],
+  "claude-opus-5-5 original": [
+   0.7937853107344632,
+   354
+  ],
+  "claude-sonnet-5-5 crossed": [
+   0.9067796610169492,
+   354
+  ],
+  "claude-sonnet-5-5 hidden": [
+   0.980225988700565,
+   354
+  ],
+  "claude-sonnet-5-5 original": [
+   0.8700564971751412,
+   354
+  ]
+ },
+ "penalty by specificity code, chat-log requests": {
+  "0": {
+   "pooled": 0.07954545454545454,
+   "per_model": {
+    "claude-fable-5-1": 0.3181818181818182,
+    "claude-haiku-5-5": 0.0,
+    "claude-opus-5-5": 0.0,
+    "claude-sonnet-5-5": 0.0
+   },
+   "n_pairs": 22
+  },
+  "1": {
+   "pooled": 0.155,
+   "per_model": {
+    "claude-fable-5-1": 0.38,
+    "claude-haiku-5-5": 0.1,
+    "claude-opus-5-5": 0.14,
+    "claude-sonnet-5-5": 0.0
+   },
+   "n_pairs": 50
+  },
+  "2": {
+   "pooled": 0.26532112166440525,
+   "per_model": {
+    "claude-fable-5-1": 0.4626865671641791,
+    "claude-haiku-5-5": 0.10606060606060606,
+    "claude-opus-5-5": 0.29850746268656714,
+    "claude-sonnet-5-5": 0.19402985074626866
+   },
+   "n_pairs": 67
+  },
+  "3": {
+   "pooled": 0.2246376811594203,
+   "per_model": {
+    "claude-fable-5-1": 0.36231884057971014,
+    "claude-haiku-5-5": 0.11594202898550725,
+    "claude-opus-5-5": 0.2318840579710145,
+    "claude-sonnet-5-5": 0.18840579710144928
+   },
+   "n_pairs": 69
+  }
+ },
+ "penalty for specificity codes 2 and 3 minus codes 0 and 1, chat-log requests (secondary contrast 4)": {
+  "pooled": 0.11274509803921567,
+  "codes 2 and 3": 0.24468954248366012,
+  "codes 0 and 1": 0.13194444444444445,
+  "interval": {
+   "low": -0.022593183228854456,
+   "high": 0.2516902610259791,
+   "p_two_sided": 0.1022,
+   "draws": 10000
+  }
+ },
+ "Holm, the secondary family": {
+  "premium, chat-log requests": {
+   "p_two_sided": 0.0,
+   "holm": 0.0
+  },
+  "penalty, chat-log requests, without the pairs where the needs coder names another product": {
+   "p_two_sided": 0.0,
+   "holm": 0.0
+  },
+  "penalty, chat-log requests, claude-fable-5-1 (secondary contrast 1)": {
+   "p_two_sided": 0.0,
+   "holm": 0.0
+  },
+  "penalty, chat-log requests, claude-opus-5-5 (secondary contrast 1)": {
+   "p_two_sided": 0.0006,
+   "holm": 0.0029999999999999996
+  },
+  "penalty, chat-log requests, claude-sonnet-5-5 (secondary contrast 1)": {
+   "p_two_sided": 0.004,
+   "holm": 0.016
+  },
+  "penalty, chat-log requests, claude-haiku-5-5 (secondary contrast 1)": {
+   "p_two_sided": 0.016,
+   "holm": 0.048
+  },
+  "penalty for specificity codes 2 and 3 minus codes 0 and 1, chat-log requests (secondary contrast 4)": {
+   "p_two_sided": 0.1022,
+   "holm": 0.2044
+  },
+  "penalty under chat-log requests minus the author's request on the same model and table (secondary contrast 3)": {
+   "p_two_sided": 0.1086,
+   "holm": 0.2044
+  }
+ }
+}

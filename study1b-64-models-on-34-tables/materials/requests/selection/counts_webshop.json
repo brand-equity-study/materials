@@ -1,0 +1,27 @@
+{
+ "instructions": 12251,
+ "with a category term": 1025,
+ "duplicate text": 49,
+ "candidates": 976,
+ "by keyword category": {
+  "cameras": 163,
+  "headphones": 119,
+  "tvs": 79,
+  "portable_speakers": 67,
+  "laptops": 37,
+  "tablets": 85,
+  "wireless_routers": 9,
+  "smartphones": 200,
+  "coffee_makers": 1,
+  "wireless_earbuds": 49,
+  "electric_toothbrushes": 83,
+  "monitors": 2,
+  "keyboards": 10,
+  "running_shoes": 33,
+  "smartwatches": 84,
+  "external_ssds": 2,
+  "water_bottles": 2,
+  "backpacks": 1,
+  "blenders": 1
+ }
+}

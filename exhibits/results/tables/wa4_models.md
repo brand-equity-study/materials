@@ -1,0 +1,38 @@
+| Model | With brand names | Without brand names | Effect (points) | 95% interval (points) | Price difference (USD) | 95% interval (USD) | Price difference (points of the top-ranked product's price) |
+|:-----------------------------|----------:|-----------:|------------:|---------------:|--------------:|---------------:|-------------------------------:|
+| Claude Opus 4.7 | 59.2% | 20.7% | 38.44 | 27.34 to 49.90 | 34.24 | 19.89 to 50.82 | 14.32 |
+| Claude Sonnet 4.6 (thinking) | 39.2% | 9.0% | 30.24 | 21.32 to 39.56 | 25.16 | 13.48 to 39.57 | 11.22 |
+| GPT-5.4 nano | 53.5% | 25.7% | 27.72 | 20.00 to 35.84 | 25.40 | 14.72 to 38.89 | 12.24 |
+| GPT-5.4 | 48.9% | 22.4% | 26.55 | 17.26 to 36.47 | 19.74 | 6.61 to 34.27 | 10.22 |
+| Claude Sonnet 4.6 | 35.3% | 10.3% | 25.00 | 18.09 to 32.06 | 18.13 | 8.24 to 29.95 | 9.11 |
+| DeepSeek V3 | 40.9% | 21.8% | 19.12 | 13.97 to 24.26 | 18.21 | 9.73 to 28.29 | 9.52 |
+| GPT-5.4 mini | 23.9% | 11.3% | 12.61 | 7.21 to 18.53 | 6.63 | 2.75 to 11.49 | 4.66 |
+| Gemini 3.1 Flash-Lite | 20.6% | 9.1% | 11.44 | 4.85 to 19.12 | 8.85 | 2.43 to 17.03 | 6.00 |
+| Claude Opus 4.6 | 17.3% | 6.5% | 10.86 | 5.74 to 16.77 | 8.96 | 3.38 to 15.99 | 4.94 |
+| Llama 3.3 70B | 34.6% | 24.1% | 10.44 | 5.74 to 15.44 | 9.13 | 3.92 to 14.82 | 5.57 |
+| Gemma 4 31B | 22.6% | 12.3% | 10.26 | 2.94 to 19.03 | 15.37 | 2.58 to 35.22 | 4.79 |
+| Gemini 2.0 Flash | 20.1% | 10.9% | 9.26 | 4.71 to 14.71 | 6.89 | 3.37 to 11.02 | 5.10 |
+| Claude Haiku 4.5 | 18.5% | 9.3% | 9.24 | 4.98 to 13.68 | 7.18 | 3.32 to 11.55 | 4.52 |
+| DeepSeek R1 | 21.8% | 13.4% | 8.38 | 4.41 to 12.65 | 9.80 | 5.52 to 14.72 | 6.31 |
+| Claude Haiku 4.5 (thinking) | 15.0% | 7.3% | 7.63 | 3.68 to 12.21 | 3.94 | 1.79 to 6.39 | 3.38 |
+| Kimi K2 | 25.3% | 18.2% | 7.06 | 2.94 to 11.32 | 5.02 | 2.36 to 7.95 | 3.50 |
+| Gemini 3.1 Pro (thinking) | 34.5% | 27.9% | 6.57 | 2.50 to 11.26 | 7.82 | 2.19 to 14.79 | 3.80 |
+| GPT-5 mini | 20.1% | 13.8% | 6.32 | 3.09 to 10.29 | 4.26 | 1.49 to 8.03 | 2.82 |
+| GPT-4o mini | 14.0% | 8.5% | 5.44 | 1.32 to 9.85 | 1.77 | −2.03 to 5.55 | 1.44 |
+| Gemini 3 Flash (thinking) | 14.1% | 8.7% | 5.42 | 1.27 to 10.97 | 5.36 | −0.39 to 14.44 | 2.80 |
+| GPT-5.4 mini (thinking) | 19.8% | 15.0% | 4.82 | 1.73 to 8.68 | 3.62 | 0.41 to 7.81 | 1.61 |
+| Gemini 3 Flash | 13.5% | 9.6% | 3.97 | 0.44 to 8.38 | 5.86 | 0.82 to 12.25 | 2.18 |
+| Gemini 2.5 Flash-Lite | 11.6% | 8.7% | 2.94 | 0.29 to 6.03 | 1.12 | −1.54 to 4.04 | 1.47 |
+| Qwen 2.5 72B | 35.0% | 32.5% | 2.50 | −3.82 to 9.12 | −2.98 | −15.97 to 5.71 | 4.36 |
+| GPT-4o | 12.5% | 10.2% | 2.35 | −1.18 to 5.59 | 0.76 | −2.85 to 3.71 | 1.18 |
+| GPT-4.1 nano | 12.9% | 11.2% | 1.76 | −1.47 to 5.29 | 1.23 | −1.65 to 4.34 | 1.59 |
+| Gemini 2.5 Flash | 14.6% | 13.5% | 1.03 | −2.21 to 3.82 | −0.62 | −3.75 to 1.82 | 0.31 |
+| Gemma 3 27B | 15.2% | 14.4% | 0.74 | −3.09 to 4.26 | −1.11 | −5.00 to 2.25 | 0.81 |
+| GPT-4.1 mini | 8.7% | 8.1% | 0.59 | −1.62 to 3.38 | 0.15 | −1.16 to 1.32 | 0.62 |
+| Gemini 2.5 Pro | 27.8% | 38.2% | −10.44 | −21.76 to 0.59 | −2.73 | −11.02 to 5.32 | −4.58 |
+
+Table: Study 1b by Model {#tbl:by-model}
+
+::: tnote
+*Notes:* With and without brand names: the percentage of responses that recommended a product other than the top-ranked product. Effect: with brand names minus without them. Price difference: the mean price of the recommended product with brand names minus without them, in dollars and in percentage points of the top-ranked product's price. Intervals: 10,000 resamples of the model's 34 tables. Gemma 4 31B gave no product letter in all 20 of its responses with brand names on Portable speakers 1; these responses count as recommendations of another product in the effect and are left out of the price, so its price interval resamples 33 tables.
+:::

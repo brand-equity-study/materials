@@ -1,0 +1,42 @@
+| Table | With brand names | Without brand names | Effect (points) | 95% interval (points) | Top-ranked product (USD) | Price difference (USD) | 95% interval (USD) | Price difference (points of the top-ranked product's price) |
+|:------------------------|----------:|-----------:|------------:|---------------:|--------------:|--------------:|---------------:|-------------------------------:|
+| Televisions 3 | 35.7% | 6.7% | 29.00 | 19.83 to 39.33 | 249.99 | 28.58 | 19.48 to 38.73 | 11.43 |
+| Portable speakers 1 | 34.8% | 7.7% | 27.17 | 17.67 to 37.17 | 49.99 | 11.07 | 7.04 to 15.43 | 22.15 |
+| Coffee makers 3 | 78.0% | 55.0% | 23.00 | 14.83 to 31.00 | 24.99 | 3.23 | 1.90 to 4.53 | 12.93 |
+| Headphones 1 | 29.7% | 8.2% | 21.50 | 13.17 to 30.33 | 149.99 | 29.00 | 18.00 to 40.92 | 19.33 |
+| Tablets 1 | 42.8% | 21.8% | 21.00 | 12.17 to 30.17 | 249.99 | 19.56 | 12.76 to 26.75 | 7.82 |
+| Laptops 1 | 52.3% | 31.8% | 20.50 | 11.50 to 30.33 | 479.99 | 38.35 | 22.10 to 56.39 | 7.99 |
+| Headphones 2 | 67.3% | 47.2% | 20.17 | 12.67 to 28.17 | 69.99 | 10.09 | 6.73 to 13.61 | 14.42 |
+| Earbuds 3 | 45.3% | 25.8% | 19.50 | 11.17 to 28.33 | 39.99 | 4.93 | 2.23 to 8.40 | 12.34 |
+| Smartphones 3 | 25.7% | 7.3% | 18.33 | 11.17 to 26.33 | 279.99 | 8.68 | 5.64 to 11.89 | 3.10 |
+| Running shoes 2 | 25.2% | 11.2% | 14.00 | 7.00 to 22.33 | 119.99 | 3.18 | 1.60 to 5.10 | 2.65 |
+| Blenders 1 | 23.3% | 9.5% | 13.83 | 6.83 to 22.00 | 109.99 | 0.43 | −1.72 to 2.67 | 0.39 |
+| Running shoes 1 | 23.5% | 9.8% | 13.67 | 6.67 to 21.50 | 124.99 | 3.27 | 1.40 to 5.30 | 2.61 |
+| Headphones 3 | 69.8% | 56.8% | 13.00 | 7.00 to 19.50 | 189.00 | 11.51 | 6.39 to 17.00 | 6.09 |
+| Smartphones 1 | 30.8% | 21.0% | 9.83 | 3.00 to 17.17 | 299.99 | 15.75 | 4.92 to 27.42 | 5.25 |
+| Cameras 1 | 14.0% | 4.7% | 9.33 | 0.17 to 18.83 | 749.00 | 14.61 | 2.26 to 28.32 | 1.95 |
+| Smartwatches 1 | 13.7% | 4.5% | 9.17 | 4.17 to 15.00 | 249.99 | 2.33 | −0.50 to 5.49 | 0.93 |
+| Televisions 2 | 16.8% | 8.0% | 8.83 | 3.83 to 14.17 | 899.99 | 33.16 | 14.31 to 53.82 | 3.68 |
+| Electric toothbrushes 1 | 13.3% | 4.7% | 8.67 | −1.17 to 18.50 | 39.99 | 0.57 | −0.68 to 1.63 | 1.41 |
+| Laptops 2 | 21.0% | 15.5% | 5.50 | −0.67 to 11.67 | 549.99 | 20.42 | −4.64 to 45.26 | 3.71 |
+| Earbuds 2 | 13.5% | 8.3% | 5.17 | 1.67 to 10.00 | 49.99 | 0.18 | 0.02 to 0.41 | 0.36 |
+| Smartphones 2 | 6.3% | 2.0% | 4.33 | 1.00 to 8.50 | 329.99 | 1.85 | 0.51 to 3.55 | 0.56 |
+| Laptops 3 | 14.3% | 10.5% | 3.83 | −1.83 to 10.00 | 399.99 | 4.02 | −1.33 to 10.00 | 1.00 |
+| Coffee makers 2 | 91.8% | 88.5% | 3.33 | 1.33 to 5.67 | 99.99 | 1.07 | −1.30 to 3.20 | 1.07 |
+| Monitors 1 | 13.0% | 10.0% | 3.00 | −3.33 to 10.00 | 249.99 | 1.44 | −1.95 to 5.04 | 0.58 |
+| Coffee makers 1 | 6.8% | 4.2% | 2.68 | 0.07 to 6.04 | 69.99 | 0.94 | 0.15 to 1.94 | 1.34 |
+| Televisions 1 | 3.3% | 0.8% | 2.50 | 0.33 to 5.17 | 599.99 | 3.34 | 0.42 to 7.08 | 0.56 |
+| Robot vacuums 1 | 13.7% | 11.7% | 2.00 | −2.83 to 6.67 | 379.99 | 5.73 | 0.90 to 11.02 | 1.51 |
+| Water bottles 1 | 7.2% | 5.3% | 1.83 | −3.83 to 6.17 | 19.99 | 0.58 | −0.45 to 1.45 | 2.92 |
+| External drives 1 | 4.8% | 3.2% | 1.67 | −5.17 to 8.83 | 89.99 | 1.37 | −2.06 to 5.24 | 1.52 |
+| Backpacks 1 | 6.7% | 5.3% | 1.33 | −5.17 to 6.33 | 54.99 | 0.99 | −0.77 to 2.54 | 1.80 |
+| Earbuds 1 | 0.7% | 0.0% | 0.67 | 0.00 to 1.50 | 59.99 | 0.87 | 0.00 to 1.97 | 1.44 |
+| Wireless routers 1 | 5.2% | 4.7% | 0.50 | −4.17 to 3.83 | 149.99 | 0.13 | −2.87 to 2.35 | 0.09 |
+| Keyboards 1 | 1.0% | 1.2% | −0.17 | −1.33 to 1.00 | 109.99 | −0.03 | −0.25 to 0.13 | −0.03 |
+| Running shoes 3 | 0.0% | 0.2% | −0.17 | −0.50 to 0.00 | 129.99 | −0.20 | −0.60 to 0.00 | −0.15 |
+
+Table: Study 1b by Table {#tbl:by-table}
+
+::: tnote
+*Notes:* The measures are those of Table \ref{tbl:by-model}, with the price of the table's top-ranked product. Intervals: 10,000 resamples of the 30 models. The 20 responses with brand names of Gemma 4 31B on Portable speakers 1 that gave no product letter count as recommendations of another product in that table's effect and are left out of its price difference.
+:::

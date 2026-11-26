@@ -1,0 +1,5542 @@
+{
+ "title": "Origin of the famous-name lean in open models (OLMo 2 stages, Llama 3.1, Qwen 2.5), recomputed from raw letter probabilities",
+ "script": "study3b-brand-knowledge-and-training-text-in-released-models/code/checkpoints.py",
+ "inputs": {
+  "folder": "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints",
+  "trials_jsonl_sha256": "1645d9f2f563cfab2a2250b71c522186ac70011119400be2152ca9b50e5d3942",
+  "pages_jsonl_sha256": "99202dc71b6a6642ca887c6bef893e0b2481cc7abba6db9abf6f7881c564101e",
+  "score_files": [
+   {
+    "file": "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/llama3.1-8b-base_plain.csv.gz",
+    "sha256": "bb8f3c448abe44031052939132053ae9727956819c6a2a992bb3ec0b43b21322",
+    "rows": 8107,
+    "echo_sha_mismatches": 0,
+    "letter_mass_not_sum_of_p": 0,
+    "model_tag": "llama3.1-8b-base",
+    "repo": "unsloth/Meta-Llama-3.1-8B",
+    "revision": "main",
+    "commit_sha": "e9a141a2091ea561b96483212645a2a05e6f99fc",
+    "format": "plain"
+   },
+   {
+    "file": "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/llama3.1-8b-instruct_chat.csv.gz",
+    "sha256": "f8578b5bc85e16c0bfc874b7dbdd0c6aa98ed5ddb5b4d1fbb91071987f1e866d",
+    "rows": 8107,
+    "echo_sha_mismatches": 0,
+    "letter_mass_not_sum_of_p": 0,
+    "model_tag": "llama3.1-8b-instruct",
+    "repo": "unsloth/Meta-Llama-3.1-8B-Instruct",
+    "revision": "main",
+    "commit_sha": "a2856192dd7c25b842431f39c179a6c2c2f627d1",
+    "format": "chat"
+   },
+   {
+    "file": "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/llama3.1-8b-instruct_plain.csv.gz",
+    "sha256": "4a912f832b5c9460f17d6eecb8e75b25ddf713bb964062edb16c8723438b9913",
+    "rows": 8107,
+    "echo_sha_mismatches": 0,
+    "letter_mass_not_sum_of_p": 0,
+    "model_tag": "llama3.1-8b-instruct",
+    "repo": "unsloth/Meta-Llama-3.1-8B-Instruct",
+    "revision": "main",
+    "commit_sha": "a2856192dd7c25b842431f39c179a6c2c2f627d1",
+    "format": "plain"
+   },
+   {
+    "file": "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-base_plain.csv.gz",
+    "sha256": "2b182f83eebad5ee185ca4405c520ece12c2b59e216eafee18b2cb773ed02e44",
+    "rows": 8107,
+    "echo_sha_mismatches": 0,
+    "letter_mass_not_sum_of_p": 0,
+    "model_tag": "olmo2-7b-base",
+    "repo": "allenai/OLMo-2-1124-7B",
+    "revision": "main",
+    "commit_sha": "7df9a82518afdecae4e8c026b27adccc8c1f0032",
+    "format": "plain"
+   },
+   {
+    "file": "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-dpo_chat.csv.gz",
+    "sha256": "c5bbdbfc403947629829be6361933b662c82bb9388b44685d6034c32af48622a",
+    "rows": 8107,
+    "echo_sha_mismatches": 0,
+    "letter_mass_not_sum_of_p": 0,
+    "model_tag": "olmo2-7b-dpo",
+    "repo": "allenai/OLMo-2-1124-7B-DPO",
+    "revision": "main",
+    "commit_sha": "e34ea60adff2e575f4fe7569eaffd1b28509b6fd",
+    "format": "chat"
+   },
+   {
+    "file": "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-dpo_plain.csv.gz",
+    "sha256": "180fad5c57151e00af1a8c6b9eef986b68253b08c0df05fa9c80003059bc3a0a",
+    "rows": 8107,
+    "echo_sha_mismatches": 0,
+    "letter_mass_not_sum_of_p": 0,
+    "model_tag": "olmo2-7b-dpo",
+    "repo": "allenai/OLMo-2-1124-7B-DPO",
+    "revision": "main",
+    "commit_sha": "e34ea60adff2e575f4fe7569eaffd1b28509b6fd",
+    "format": "plain"
+   },
+   {
+    "file": "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-instruct_chat.csv.gz",
+    "sha256": "bb8bb40a9138f761e58dc62529173d7d8640d1ad9ab8b023f57cfd6fc5dc743d",
+    "rows": 8107,
+    "echo_sha_mismatches": 0,
+    "letter_mass_not_sum_of_p": 0,
+    "model_tag": "olmo2-7b-instruct",
+    "repo": "allenai/OLMo-2-1124-7B-Instruct",
+    "revision": "main",
+    "commit_sha": "470b1fba1ae01581f270116362ee4aa1b97f4c84",
+    "format": "chat"
+   },
+   {
+    "file": "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-instruct_plain.csv.gz",
+    "sha256": "01ab59bd52fe26ef005d04b6c2fc6073c9f97d5d0f5e05f9e190c196ab00ce37",
+    "rows": 8107,
+    "echo_sha_mismatches": 0,
+    "letter_mass_not_sum_of_p": 0,
+    "model_tag": "olmo2-7b-instruct",
+    "repo": "allenai/OLMo-2-1124-7B-Instruct",
+    "revision": "main",
+    "commit_sha": "470b1fba1ae01581f270116362ee4aa1b97f4c84",
+    "format": "plain"
+   },
+   {
+    "file": "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-s1-151B_plain.csv.gz",
+    "sha256": "1491ec73aad2284ca94533696890ec4af2ae662766847ba6e6d66ad967773645",
+    "rows": 5489,
+    "echo_sha_mismatches": 0,
+    "letter_mass_not_sum_of_p": 0,
+    "model_tag": "olmo2-7b-s1-151B",
+    "repo": "allenai/OLMo-2-1124-7B",
+    "revision": "stage1-step36000-tokens151B",
+    "commit_sha": "fab28417a8d051d4f56810b2804ef861f550ba00",
+    "format": "plain"
+   },
+   {
+    "file": "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-s1-2001B_plain.csv.gz",
+    "sha256": "13a4b925cab5f6826cebfeea0666234520376c0345d82e7d0f6c4f5d2ae0015d",
+    "rows": 5489,
+    "echo_sha_mismatches": 0,
+    "letter_mass_not_sum_of_p": 0,
+    "model_tag": "olmo2-7b-s1-2001B",
+    "repo": "allenai/OLMo-2-1124-7B",
+    "revision": "stage1-step477000-tokens2001B",
+    "commit_sha": "fdb68daa06eab54f8e31443385d9512cf411bdfe",
+    "format": "plain"
+   },
+   {
+    "file": "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-s1-2999B_plain.csv.gz",
+    "sha256": "ae24cb717339725abb4d026589e41a0428dafc128489b48629e4f22d3e6089f3",
+    "rows": 5489,
+    "echo_sha_mismatches": 0,
+    "letter_mass_not_sum_of_p": 0,
+    "model_tag": "olmo2-7b-s1-2999B",
+    "repo": "allenai/OLMo-2-1124-7B",
+    "revision": "stage1-step715000-tokens2999B",
+    "commit_sha": "84cb2f8082307966275e144137a2633db97b4068",
+    "format": "plain"
+   },
+   {
+    "file": "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-s1-3896B_plain.csv.gz",
+    "sha256": "b504add23ad2522ee881fadd7e8da1bedd001d1c91b7df093164d9e5bddd2ef1",
+    "rows": 5489,
+    "echo_sha_mismatches": 0,
+    "letter_mass_not_sum_of_p": 0,
+    "model_tag": "olmo2-7b-s1-3896B",
+    "repo": "allenai/OLMo-2-1124-7B",
+    "revision": "stage1-step928646-tokens3896B",
+    "commit_sha": "c0371f4281bf2376207646c6b62ddc6c442c7577",
+    "format": "plain"
+   },
+   {
+    "file": "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-s1-500B_plain.csv.gz",
+    "sha256": "76ea8fdf8b38551511eaacc2fb5184051470cd9a17c089f81b507f48780f8905",
+    "rows": 5489,
+    "echo_sha_mismatches": 0,
+    "letter_mass_not_sum_of_p": 0,
+    "model_tag": "olmo2-7b-s1-500B",
+    "repo": "allenai/OLMo-2-1124-7B",
+    "revision": "stage1-step119000-tokens500B",
+    "commit_sha": "9c6eebc40a188d897861bc7e80c7482241c2891e",
+    "format": "plain"
+   },
+   {
+    "file": "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-s1-51B_plain.csv.gz",
+    "sha256": "9ff142b1ec996d9566f9192b2f680d8adc4f6d74d07cf9ecee3d0047ab59458d",
+    "rows": 5489,
+    "echo_sha_mismatches": 0,
+    "letter_mass_not_sum_of_p": 0,
+    "model_tag": "olmo2-7b-s1-51B",
+    "repo": "allenai/OLMo-2-1124-7B",
+    "revision": "stage1-step12000-tokens51B",
+    "commit_sha": "c954a061c72d09d0a3d560483fb8c7179386ba15",
+    "format": "plain"
+   },
+   {
+    "file": "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-s1-5B_plain.csv.gz",
+    "sha256": "43e6f40e028cbbec73b4335f1979cc24e77074ae6e901f13977ab92ce34919d4",
+    "rows": 5489,
+    "echo_sha_mismatches": 0,
+    "letter_mass_not_sum_of_p": 0,
+    "model_tag": "olmo2-7b-s1-5B",
+    "repo": "allenai/OLMo-2-1124-7B",
+    "revision": "stage1-step1000-tokens5B",
+    "commit_sha": "ea9a026581be70db65a9463c0b8a28ae39d79301",
+    "format": "plain"
+   },
+   {
+    "file": "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-s1-999B_plain.csv.gz",
+    "sha256": "731f593f81334a084c8c4209819fe8b2144f97367aff89a1d87a0d1fa2501bed",
+    "rows": 5489,
+    "echo_sha_mismatches": 0,
+    "letter_mass_not_sum_of_p": 0,
+    "model_tag": "olmo2-7b-s1-999B",
+    "repo": "allenai/OLMo-2-1124-7B",
+    "revision": "stage1-step238000-tokens999B",
+    "commit_sha": "7c29a0917ebd48c1df5d88c337e499cfbeb497d4",
+    "format": "plain"
+   },
+   {
+    "file": "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-s2-ing1-50B_plain.csv.gz",
+    "sha256": "0eb76abf0c269daf4a086420c0858efe2a0faa69d3c9e4080c60b1306882116f",
+    "rows": 5489,
+    "echo_sha_mismatches": 0,
+    "letter_mass_not_sum_of_p": 0,
+    "model_tag": "olmo2-7b-s2-ing1-50B",
+    "repo": "allenai/OLMo-2-1124-7B",
+    "revision": "stage2-ingredient1-step11931-tokens50B",
+    "commit_sha": "6f585dd23edb5df3c7777687f1d32eb08e42bbcd",
+    "format": "plain"
+   },
+   {
+    "file": "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-sft_chat.csv.gz",
+    "sha256": "97bf9832c4d6fe4e5da402a5642c4d90fc9b407427133d5e7126e80fec26bda1",
+    "rows": 8107,
+    "echo_sha_mismatches": 0,
+    "letter_mass_not_sum_of_p": 0,
+    "model_tag": "olmo2-7b-sft",
+    "repo": "allenai/OLMo-2-1124-7B-SFT",
+    "revision": "main",
+    "commit_sha": "1de02c0175118a9de5854aec80a1f970e701e928",
+    "format": "chat"
+   },
+   {
+    "file": "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-sft_plain.csv.gz",
+    "sha256": "4d4c44710ddf4df21b821866200b5464304946c25e2e501dc14270480b66bbdc",
+    "rows": 8107,
+    "echo_sha_mismatches": 0,
+    "letter_mass_not_sum_of_p": 0,
+    "model_tag": "olmo2-7b-sft",
+    "repo": "allenai/OLMo-2-1124-7B-SFT",
+    "revision": "main",
+    "commit_sha": "1de02c0175118a9de5854aec80a1f970e701e928",
+    "format": "plain"
+   },
+   {
+    "file": "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/qwen2.5-7b-base_plain.csv.gz",
+    "sha256": "da7088603e358f78d8e29edba3397e0227989658f2f1cc3760917b2eb3734dce",
+    "rows": 8107,
+    "echo_sha_mismatches": 0,
+    "letter_mass_not_sum_of_p": 0,
+    "model_tag": "qwen2.5-7b-base",
+    "repo": "Qwen/Qwen2.5-7B",
+    "revision": "main",
+    "commit_sha": "d149729398750b98c0af14eb82c78cfe92750796",
+    "format": "plain"
+   },
+   {
+    "file": "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/qwen2.5-7b-instruct_chat.csv.gz",
+    "sha256": "e92943f3564265577c4d1224e608d27b0eee01b74f3e9c9f9e53aedce5ba14eb",
+    "rows": 8107,
+    "echo_sha_mismatches": 0,
+    "letter_mass_not_sum_of_p": 0,
+    "model_tag": "qwen2.5-7b-instruct",
+    "repo": "Qwen/Qwen2.5-7B-Instruct",
+    "revision": "main",
+    "commit_sha": "a09a35458c702b33eeacc393d103063234e8bc28",
+    "format": "chat"
+   },
+   {
+    "file": "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/qwen2.5-7b-instruct_plain.csv.gz",
+    "sha256": "c1cb61f7477df33c8a5456df9523feb2e5c0e7fb30cc31606fa0ef4c925c2144",
+    "rows": 8107,
+    "echo_sha_mismatches": 0,
+    "letter_mass_not_sum_of_p": 0,
+    "model_tag": "qwen2.5-7b-instruct",
+    "repo": "Qwen/Qwen2.5-7B-Instruct",
+    "revision": "main",
+    "commit_sha": "a09a35458c702b33eeacc393d103063234e8bc28",
+    "format": "plain"
+   }
+  ],
+  "total_scored_prompts": 154792
+ },
+ "checks": {
+  "manifest": {
+   "trials_checked": 3000,
+   "failures": {},
+   "tables_by_kind_and_half": {
+    "builder|exploration": 108,
+    "builder|holdout": 108,
+    "product|exploration": 8,
+    "product|holdout": 26
+   },
+   "product_exploration_set_equals_the_list_fixed_in_advance": true,
+   "prompt_texts": 8107,
+   "prompt_text_sha_mismatches": 0,
+   "split_source": "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/table_split.csv.gz",
+   "split_sha256": "fac98fabd49ac1dff1453932b3716ced24cf47454f3f41f2ff88b7c598977709",
+   "split_sha256_equals_the_value_fixed_in_advance": true
+  },
+  "score_files_echo_sha_mismatches": 0,
+  "score_files_letter_mass_not_sum_of_p": 0,
+  "olmo_plain_token_ids_differ_across_checkpoints": 0,
+  "olmo_plain_texts_compared_for_token_ids": 5489,
+  "olmo_plain_cells_compared": [
+   "olmo2-7b-base|plain",
+   "olmo2-7b-dpo|plain",
+   "olmo2-7b-instruct|plain",
+   "olmo2-7b-s1-151B|plain",
+   "olmo2-7b-s1-2001B|plain",
+   "olmo2-7b-s1-2999B|plain",
+   "olmo2-7b-s1-3896B|plain",
+   "olmo2-7b-s1-500B|plain",
+   "olmo2-7b-s1-51B|plain",
+   "olmo2-7b-s1-5B|plain",
+   "olmo2-7b-s1-999B|plain",
+   "olmo2-7b-s2-ing1-50B|plain",
+   "olmo2-7b-sft|plain"
+  ],
+  "holdout_tables": {
+   "builder": 108,
+   "products": 26
+  }
+ },
+ "definitions": {
+  "D": "per tie trial: [ln p_N(twin) - ln p_N(winner)] - [ln p_H(twin) - ln p_H(winner)], p floored at 1e-30, raw letter probabilities",
+  "placebo_condition": "per tie trial: L_N - L_P (famous name against an unfamiliar name in the twin's place)",
+  "interval": "95% t interval over the 13 domain means (12 df), each the mean of its tables' means over repetitions ; products alone: CR1 cluster-robust by twin brand, G - 1 df. No bootstrap was needed because the analysis plan defines every interval.",
+  "verdict_rules": "hit: one-sided p < 0.025 (Holm where the analysis plan says), mean >= 0.10, and placebo condition one-sided p < 0.025; reversal: one-sided p of a negative mean < 0.025; null: 90% interval inside -0.10 to +0.10; else inconclusive"
+ },
+ "values": [
+  {
+   "key": "llama3.1_8b_base",
+   "what": "Llama 3.1 8B base (unsloth mirror), plain",
+   "verdict": "null (equivalent to zero)",
+   "p_one_sided_used_for_verdict": 0.377559,
+   "p_note": "Holm-adjusted across the four Qwen and Llama cells",
+   "model_tag": "llama3.1-8b-base",
+   "repo": "unsloth/Meta-Llama-3.1-8B",
+   "revision": "main",
+   "commit_sha": "e9a141a2091ea561b96483212645a2a05e6f99fc",
+   "format": "plain",
+   "tables": "holdout (134 tables: 108 builder, 26 products)",
+   "repetitions": "1-6",
+   "n_tie_trials": 804,
+   "n_distinct_prompts_scored_named_and_hidden": 1188,
+   "n_distinct_prompts_scored_incl_placebo": 1980,
+   "estimate_D": 0.023887,
+   "ci95": [
+    -0.019331,
+    0.067105
+   ],
+   "odds_ratio_exp_D": 1.024175,
+   "D_stats": {
+    "mean": 0.023887,
+    "ci95": [
+     -0.019331,
+     0.067105
+    ],
+    "ci90": [
+     -0.011465,
+     0.05924
+    ],
+    "se": 0.019835,
+    "df": 12,
+    "t": 1.204258,
+    "p_greater": 0.125853,
+    "p_less": 0.874147,
+    "p_two_sided": 0.251706,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -0.093749,
+     "charity": -0.040509,
+     "college_choice": 0.009258,
+     "consumer_lending": -0.025464,
+     "evidence_appraisal": 0.141203,
+     "grant_funding": 0.061342,
+     "hiring": 0.071759,
+     "hospital_referral": 0.127313,
+     "lab_supplier": 0.040508,
+     "legal_defence": -0.064817,
+     "medication_choice": 0.07986,
+     "products": -0.011219,
+     "public_procurement": 0.015046
+    }
+   },
+   "placebo_condition_D_minus_DP": {
+    "mean": 0.025911,
+    "ci95": [
+     -0.018799,
+     0.07062
+    ],
+    "ci90": [
+     -0.010662,
+     0.062483
+    ],
+    "se": 0.02052,
+    "df": 12,
+    "t": 1.262703,
+    "p_greater": 0.115341,
+    "p_less": 0.884659,
+    "p_two_sided": 0.230682,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -0.107635,
+     "charity": -0.053242,
+     "college_choice": 0.015044,
+     "consumer_lending": -0.004631,
+     "evidence_appraisal": 0.123843,
+     "grant_funding": 0.056713,
+     "hiring": 0.085648,
+     "hospital_referral": 0.155091,
+     "lab_supplier": 0.06134,
+     "legal_defence": -0.059031,
+     "medication_choice": 0.048609,
+     "products": 0.001201,
+     "public_procurement": 0.013887
+    }
+   },
+   "share_points_named_minus_hidden": {
+    "mean": 0.56227,
+    "ci95": [
+     -0.48295,
+     1.607489
+    ],
+    "ci90": [
+     -0.292729,
+     1.417268
+    ],
+    "se": 0.47972,
+    "df": 12,
+    "t": 1.172079,
+    "p_greater": 0.131955,
+    "p_less": 0.868045,
+    "p_two_sided": 0.26391,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -2.294187,
+     "charity": -1.01842,
+     "college_choice": 0.229042,
+     "consumer_lending": -0.589683,
+     "evidence_appraisal": 3.414609,
+     "grant_funding": 1.510911,
+     "hiring": 1.760846,
+     "hospital_referral": 3.062173,
+     "lab_supplier": 0.986584,
+     "legal_defence": -1.602672,
+     "medication_choice": 1.766534,
+     "products": -0.292601,
+     "public_procurement": 0.376367
+    }
+   },
+   "hidden_arm_share_on_the_two_tied_letters": {
+    "mean": 0.486138,
+    "ci95": [
+     0.465676,
+     0.506599
+    ],
+    "reads_the_tie_page_ge_0.50": false
+   },
+   "values_floored_at_1e-30": 0,
+   "raw_files": [
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/llama3.1-8b-base_plain.csv.gz"
+   ]
+  },
+  {
+   "key": "llama3.1_8b_instruct",
+   "what": "Llama 3.1 8B Instruct (unsloth mirror), chat",
+   "verdict": "hit",
+   "p_one_sided_used_for_verdict": 0.017321,
+   "p_note": "Holm-adjusted across the four Qwen and Llama cells",
+   "model_tag": "llama3.1-8b-instruct",
+   "repo": "unsloth/Meta-Llama-3.1-8B-Instruct",
+   "revision": "main",
+   "commit_sha": "a2856192dd7c25b842431f39c179a6c2c2f627d1",
+   "format": "chat",
+   "tables": "holdout (134 tables: 108 builder, 26 products)",
+   "repetitions": "1-6",
+   "n_tie_trials": 804,
+   "n_distinct_prompts_scored_named_and_hidden": 1188,
+   "n_distinct_prompts_scored_incl_placebo": 1980,
+   "estimate_D": 0.227455,
+   "ci95": [
+    0.069221,
+    0.385688
+   ],
+   "odds_ratio_exp_D": 1.2554,
+   "D_stats": {
+    "mean": 0.227455,
+    "ci95": [
+     0.069221,
+     0.385688
+    ],
+    "ci90": [
+     0.098018,
+     0.356891
+    ],
+    "se": 0.072624,
+    "df": 12,
+    "t": 3.131952,
+    "p_greater": 0.00433,
+    "p_less": 0.99567,
+    "p_two_sided": 0.00866,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 0.023148,
+     "charity": 0.148148,
+     "college_choice": 0.349537,
+     "consumer_lending": -0.178241,
+     "evidence_appraisal": 0.361111,
+     "grant_funding": 0.37963,
+     "hiring": 0.446759,
+     "hospital_referral": 0.696759,
+     "lab_supplier": 0.50463,
+     "legal_defence": -0.097222,
+     "medication_choice": 0.298611,
+     "products": 0.065705,
+     "public_procurement": -0.041667
+    }
+   },
+   "placebo_condition_D_minus_DP": {
+    "mean": 0.244316,
+    "ci95": [
+     0.093212,
+     0.39542
+    ],
+    "ci90": [
+     0.120711,
+     0.36792
+    ],
+    "se": 0.069351,
+    "df": 12,
+    "t": 3.522863,
+    "p_greater": 0.002101,
+    "p_less": 0.997899,
+    "p_two_sided": 0.004201,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 0.034722,
+     "charity": 0.166667,
+     "college_choice": 0.328704,
+     "consumer_lending": -0.050926,
+     "evidence_appraisal": 0.381944,
+     "grant_funding": 0.44213,
+     "hiring": 0.490741,
+     "hospital_referral": 0.738426,
+     "lab_supplier": 0.469907,
+     "legal_defence": -0.009259,
+     "medication_choice": 0.145833,
+     "products": 0.108974,
+     "public_procurement": -0.071759
+    }
+   },
+   "share_points_named_minus_hidden": {
+    "mean": 2.001661,
+    "ci95": [
+     0.999238,
+     3.004085
+    ],
+    "ci90": [
+     1.18167,
+     2.821652
+    ],
+    "se": 0.460078,
+    "df": 12,
+    "t": 4.350702,
+    "p_greater": 0.000472,
+    "p_less": 0.999528,
+    "p_two_sided": 0.000944,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 0.882892,
+     "charity": 2.626404,
+     "college_choice": 4.219982,
+     "consumer_lending": 0.026082,
+     "evidence_appraisal": 2.606815,
+     "grant_funding": 2.354302,
+     "hiring": 2.532218,
+     "hospital_referral": 4.112727,
+     "lab_supplier": 4.160266,
+     "legal_defence": -1.059139,
+     "medication_choice": 1.908515,
+     "products": 1.33602,
+     "public_procurement": 0.314513
+    }
+   },
+   "hidden_arm_share_on_the_two_tied_letters": {
+    "mean": 0.901041,
+    "ci95": [
+     0.853404,
+     0.948677
+    ],
+    "reads_the_tie_page_ge_0.50": true
+   },
+   "values_floored_at_1e-30": 0,
+   "raw_files": [
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/llama3.1-8b-instruct_chat.csv.gz"
+   ]
+  },
+  {
+   "key": "cell_llama3.1-8b-instruct_plain",
+   "what": "llama3.1-8b-instruct, plain format, holdout tie rung (no pre-specified test)",
+   "verdict_by_plan_rules_unadjusted": "inconclusive",
+   "model_tag": "llama3.1-8b-instruct",
+   "repo": "unsloth/Meta-Llama-3.1-8B-Instruct",
+   "revision": "main",
+   "commit_sha": "a2856192dd7c25b842431f39c179a6c2c2f627d1",
+   "format": "plain",
+   "tables": "holdout (134 tables: 108 builder, 26 products)",
+   "repetitions": "1-6",
+   "n_tie_trials": 804,
+   "n_distinct_prompts_scored_named_and_hidden": 1188,
+   "n_distinct_prompts_scored_incl_placebo": 1980,
+   "estimate_D": 0.084347,
+   "ci95": [
+    0.040071,
+    0.128622
+   ],
+   "odds_ratio_exp_D": 1.088006,
+   "D_stats": {
+    "mean": 0.084347,
+    "ci95": [
+     0.040071,
+     0.128622
+    ],
+    "ci90": [
+     0.048129,
+     0.120565
+    ],
+    "se": 0.020321,
+    "df": 12,
+    "t": 4.150742,
+    "p_greater": 0.000672,
+    "p_less": 0.999328,
+    "p_two_sided": 0.001345,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 0.060185,
+     "charity": 0.055556,
+     "college_choice": 0.125,
+     "consumer_lending": 0.00463,
+     "evidence_appraisal": 0.131944,
+     "grant_funding": 0.104167,
+     "hiring": 0.136574,
+     "hospital_referral": 0.236111,
+     "lab_supplier": 0.162037,
+     "legal_defence": -0.030093,
+     "medication_choice": 0.016204,
+     "products": 0.043269,
+     "public_procurement": 0.050926
+    }
+   },
+   "placebo_condition_D_minus_DP": {
+    "mean": 0.084737,
+    "ci95": [
+     0.036632,
+     0.132843
+    ],
+    "ci90": [
+     0.045386,
+     0.124088
+    ],
+    "se": 0.022079,
+    "df": 12,
+    "t": 3.837947,
+    "p_greater": 0.001181,
+    "p_less": 0.998819,
+    "p_two_sided": 0.002361,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 0.032408,
+     "charity": 0.039352,
+     "college_choice": 0.106481,
+     "consumer_lending": -0.00463,
+     "evidence_appraisal": 0.129629,
+     "grant_funding": 0.118055,
+     "hiring": 0.148148,
+     "hospital_referral": 0.270833,
+     "lab_supplier": 0.155093,
+     "legal_defence": 0.016204,
+     "medication_choice": -0.009259,
+     "products": 0.055288,
+     "public_procurement": 0.043981
+    }
+   },
+   "share_points_named_minus_hidden": {
+    "mean": 1.716665,
+    "ci95": [
+     0.848931,
+     2.584399
+    ],
+    "ci90": [
+     1.006851,
+     2.426479
+    ],
+    "se": 0.39826,
+    "df": 12,
+    "t": 4.310412,
+    "p_greater": 0.000507,
+    "p_less": 0.999493,
+    "p_two_sided": 0.001013,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 1.133869,
+     "charity": 1.308108,
+     "college_choice": 2.488936,
+     "consumer_lending": 0.028831,
+     "evidence_appraisal": 2.764021,
+     "grant_funding": 2.403297,
+     "hiring": 2.479281,
+     "hospital_referral": 4.554089,
+     "lab_supplier": 3.273201,
+     "legal_defence": -0.670429,
+     "medication_choice": 0.474181,
+     "products": 0.972384,
+     "public_procurement": 1.106874
+    }
+   },
+   "hidden_arm_share_on_the_two_tied_letters": {
+    "mean": 0.714762,
+    "ci95": [
+     0.67786,
+     0.751664
+    ],
+    "reads_the_tie_page_ge_0.50": true
+   },
+   "values_floored_at_1e-30": 0,
+   "raw_files": [
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/llama3.1-8b-instruct_plain.csv.gz"
+   ]
+  },
+  {
+   "key": "olmo2_base",
+   "what": "OLMo 2 7B after pretraining (released base, main), plain format",
+   "verdict": "reversal",
+   "p_one_sided_used_for_verdict": 0.998716,
+   "p_note": "one-sided, unadjusted",
+   "model_tag": "olmo2-7b-base",
+   "repo": "allenai/OLMo-2-1124-7B",
+   "revision": "main",
+   "commit_sha": "7df9a82518afdecae4e8c026b27adccc8c1f0032",
+   "format": "plain",
+   "tables": "holdout (134 tables: 108 builder, 26 products)",
+   "repetitions": "1-6",
+   "n_tie_trials": 804,
+   "n_distinct_prompts_scored_named_and_hidden": 1188,
+   "n_distinct_prompts_scored_incl_placebo": 1980,
+   "estimate_D": -0.049254,
+   "ci95": [
+    -0.077556,
+    -0.020953
+   ],
+   "odds_ratio_exp_D": 0.951939,
+   "D_stats": {
+    "mean": -0.049254,
+    "ci95": [
+     -0.077556,
+     -0.020953
+    ],
+    "ci90": [
+     -0.072405,
+     -0.026104
+    ],
+    "se": 0.012989,
+    "df": 12,
+    "t": -3.79195,
+    "p_greater": 0.998716,
+    "p_less": 0.001284,
+    "p_two_sided": 0.002567,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -0.075773,
+     "charity": -0.059891,
+     "college_choice": -0.124775,
+     "consumer_lending": -0.101847,
+     "evidence_appraisal": 0.003833,
+     "grant_funding": 0.011861,
+     "hiring": -0.021595,
+     "hospital_referral": 0.006505,
+     "lab_supplier": -0.053816,
+     "legal_defence": -0.119602,
+     "medication_choice": -0.014032,
+     "products": -0.031989,
+     "public_procurement": -0.059187
+    }
+   },
+   "placebo_condition_D_minus_DP": {
+    "mean": -0.048436,
+    "ci95": [
+     -0.074822,
+     -0.022051
+    ],
+    "ci90": [
+     -0.07002,
+     -0.026853
+    ],
+    "se": 0.01211,
+    "df": 12,
+    "t": -3.999692,
+    "p_greater": 0.999119,
+    "p_less": 0.000881,
+    "p_two_sided": 0.001763,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -0.082175,
+     "charity": -0.057432,
+     "college_choice": -0.118229,
+     "consumer_lending": -0.095732,
+     "evidence_appraisal": -7.3e-05,
+     "grant_funding": 0.01344,
+     "hiring": -0.020835,
+     "hospital_referral": -0.011471,
+     "lab_supplier": -0.05181,
+     "legal_defence": -0.10849,
+     "medication_choice": -0.000724,
+     "products": -0.034654,
+     "public_procurement": -0.061485
+    }
+   },
+   "share_points_named_minus_hidden": {
+    "mean": -1.00104,
+    "ci95": [
+     -1.555788,
+     -0.446293
+    ],
+    "ci90": [
+     -1.454828,
+     -0.547252
+    ],
+    "se": 0.25461,
+    "df": 12,
+    "t": -3.931661,
+    "p_greater": 0.999004,
+    "p_less": 0.000996,
+    "p_two_sided": 0.001993,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -1.865526,
+     "charity": -1.300706,
+     "college_choice": -2.412633,
+     "consumer_lending": -2.061153,
+     "evidence_appraisal": 0.100718,
+     "grant_funding": 0.280431,
+     "hiring": -0.451824,
+     "hospital_referral": 0.183208,
+     "lab_supplier": -1.205015,
+     "legal_defence": -1.982909,
+     "medication_choice": -0.335617,
+     "products": -0.707423,
+     "public_procurement": -1.255073
+    }
+   },
+   "hidden_arm_share_on_the_two_tied_letters": {
+    "mean": 0.409833,
+    "ci95": [
+     0.389682,
+     0.429984
+    ],
+    "reads_the_tie_page_ge_0.50": false
+   },
+   "values_floored_at_1e-30": 0,
+   "raw_files": [
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-base_plain.csv.gz"
+   ]
+  },
+  {
+   "key": "cell_olmo2-7b-dpo_chat",
+   "what": "olmo2-7b-dpo, chat format, holdout tie rung (no pre-specified test)",
+   "verdict_by_plan_rules_unadjusted": "hit",
+   "model_tag": "olmo2-7b-dpo",
+   "repo": "allenai/OLMo-2-1124-7B-DPO",
+   "revision": "main",
+   "commit_sha": "e34ea60adff2e575f4fe7569eaffd1b28509b6fd",
+   "format": "chat",
+   "tables": "holdout (134 tables: 108 builder, 26 products)",
+   "repetitions": "1-6",
+   "n_tie_trials": 804,
+   "n_distinct_prompts_scored_named_and_hidden": 1188,
+   "n_distinct_prompts_scored_incl_placebo": 1980,
+   "estimate_D": 0.314263,
+   "ci95": [
+    0.15206,
+    0.476467
+   ],
+   "odds_ratio_exp_D": 1.36925,
+   "D_stats": {
+    "mean": 0.314263,
+    "ci95": [
+     0.15206,
+     0.476467
+    ],
+    "ci90": [
+     0.181579,
+     0.446947
+    ],
+    "se": 0.074446,
+    "df": 12,
+    "t": 4.221371,
+    "p_greater": 0.000593,
+    "p_less": 0.999407,
+    "p_two_sided": 0.001186,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 0.331018,
+     "charity": 0.101852,
+     "college_choice": 0.258102,
+     "consumer_lending": -0.210648,
+     "evidence_appraisal": 0.342593,
+     "grant_funding": 0.453704,
+     "hiring": 0.509259,
+     "hospital_referral": 0.888888,
+     "lab_supplier": 0.217593,
+     "legal_defence": 0.100694,
+     "medication_choice": 0.583333,
+     "products": 0.348157,
+     "public_procurement": 0.16088
+    }
+   },
+   "placebo_condition_D_minus_DP": {
+    "mean": 0.329094,
+    "ci95": [
+     0.164142,
+     0.494046
+    ],
+    "ci90": [
+     0.194162,
+     0.464026
+    ],
+    "se": 0.075707,
+    "df": 12,
+    "t": 4.346926,
+    "p_greater": 0.000475,
+    "p_less": 0.999525,
+    "p_two_sided": 0.00095,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 0.268518,
+     "charity": 0.123843,
+     "college_choice": 0.241898,
+     "consumer_lending": -0.184028,
+     "evidence_appraisal": 0.346065,
+     "grant_funding": 0.481481,
+     "hiring": 0.482639,
+     "hospital_referral": 0.90162,
+     "lab_supplier": 0.211806,
+     "legal_defence": 0.125,
+     "medication_choice": 0.65162,
+     "products": 0.459936,
+     "public_procurement": 0.167824
+    }
+   },
+   "share_points_named_minus_hidden": {
+    "mean": 5.327774,
+    "ci95": [
+     2.835803,
+     7.819746
+    ],
+    "ci90": [
+     3.28932,
+     7.366228
+    ],
+    "se": 1.143729,
+    "df": 12,
+    "t": 4.658249,
+    "p_greater": 0.000276,
+    "p_less": 0.999724,
+    "p_two_sided": 0.000553,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 5.981819,
+     "charity": 2.640183,
+     "college_choice": 4.482499,
+     "consumer_lending": -2.542982,
+     "evidence_appraisal": 3.778544,
+     "grant_funding": 7.522418,
+     "hiring": 7.735132,
+     "hospital_referral": 13.762579,
+     "lab_supplier": 4.568069,
+     "legal_defence": 1.409904,
+     "medication_choice": 10.617181,
+     "products": 6.198552,
+     "public_procurement": 3.107169
+    }
+   },
+   "hidden_arm_share_on_the_two_tied_letters": {
+    "mean": 0.478421,
+    "ci95": [
+     0.442072,
+     0.51477
+    ],
+    "reads_the_tie_page_ge_0.50": false
+   },
+   "values_floored_at_1e-30": 0,
+   "raw_files": [
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-dpo_chat.csv.gz"
+   ]
+  },
+  {
+   "key": "cell_olmo2-7b-dpo_plain",
+   "what": "olmo2-7b-dpo, plain format, holdout tie rung (no pre-specified test)",
+   "verdict_by_plan_rules_unadjusted": "inconclusive",
+   "model_tag": "olmo2-7b-dpo",
+   "repo": "allenai/OLMo-2-1124-7B-DPO",
+   "revision": "main",
+   "commit_sha": "e34ea60adff2e575f4fe7569eaffd1b28509b6fd",
+   "format": "plain",
+   "tables": "holdout (134 tables: 108 builder, 26 products)",
+   "repetitions": "1-6",
+   "n_tie_trials": 804,
+   "n_distinct_prompts_scored_named_and_hidden": 1188,
+   "n_distinct_prompts_scored_incl_placebo": 1980,
+   "estimate_D": 0.120324,
+   "ci95": [
+    -0.001341,
+    0.241989
+   ],
+   "odds_ratio_exp_D": 1.127862,
+   "D_stats": {
+    "mean": 0.120324,
+    "ci95": [
+     -0.001341,
+     0.241989
+    ],
+    "ci90": [
+     0.020801,
+     0.219847
+    ],
+    "se": 0.05584,
+    "df": 12,
+    "t": 2.154799,
+    "p_greater": 0.026097,
+    "p_less": 0.973903,
+    "p_two_sided": 0.052194,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 0.317129,
+     "charity": -0.046296,
+     "college_choice": 0.053819,
+     "consumer_lending": -0.229165,
+     "evidence_appraisal": 0.277777,
+     "grant_funding": 0.331017,
+     "hiring": 0.157985,
+     "hospital_referral": 0.269675,
+     "lab_supplier": 0.023148,
+     "legal_defence": -0.182866,
+     "medication_choice": 0.408563,
+     "products": 0.176482,
+     "public_procurement": 0.006944
+    }
+   },
+   "placebo_condition_D_minus_DP": {
+    "mean": 0.135304,
+    "ci95": [
+     0.012864,
+     0.257744
+    ],
+    "ci90": [
+     0.035147,
+     0.235461
+    ],
+    "se": 0.056196,
+    "df": 12,
+    "t": 2.407722,
+    "p_greater": 0.016525,
+    "p_less": 0.983475,
+    "p_two_sided": 0.03305,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 0.298611,
+     "charity": -0.045139,
+     "college_choice": -0.00868,
+     "consumer_lending": -0.14699,
+     "evidence_appraisal": 0.255786,
+     "grant_funding": 0.386573,
+     "hiring": 0.157984,
+     "hospital_referral": 0.288194,
+     "lab_supplier": 0.010417,
+     "legal_defence": -0.204273,
+     "medication_choice": 0.383101,
+     "products": 0.319711,
+     "public_procurement": 0.063657
+    }
+   },
+   "share_points_named_minus_hidden": {
+    "mean": 1.08707,
+    "ci95": [
+     -0.72609,
+     2.90023
+    ],
+    "ci90": [
+     -0.396111,
+     2.57025
+    ],
+    "se": 0.832178,
+    "df": 12,
+    "t": 1.306295,
+    "p_greater": 0.107968,
+    "p_less": 0.892032,
+    "p_two_sided": 0.215936,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 5.072113,
+     "charity": -0.53226,
+     "college_choice": -0.404005,
+     "consumer_lending": -4.228256,
+     "evidence_appraisal": 2.967698,
+     "grant_funding": 4.988444,
+     "hiring": 0.70054,
+     "hospital_referral": 3.443455,
+     "lab_supplier": -0.501534,
+     "legal_defence": -3.071547,
+     "medication_choice": 4.097851,
+     "products": 2.46512,
+     "public_procurement": -0.865713
+    }
+   },
+   "hidden_arm_share_on_the_two_tied_letters": {
+    "mean": 0.497512,
+    "ci95": [
+     0.450654,
+     0.54437
+    ],
+    "reads_the_tie_page_ge_0.50": false
+   },
+   "values_floored_at_1e-30": 0,
+   "raw_files": [
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-dpo_plain.csv.gz"
+   ]
+  },
+  {
+   "key": "olmo2_instruct_chat",
+   "what": "OLMo 2 7B Instruct (after SFT, DPO and RL), chat format",
+   "verdict": "hit",
+   "p_one_sided_used_for_verdict": 0.002057,
+   "p_note": "one-sided, unadjusted",
+   "model_tag": "olmo2-7b-instruct",
+   "repo": "allenai/OLMo-2-1124-7B-Instruct",
+   "revision": "main",
+   "commit_sha": "470b1fba1ae01581f270116362ee4aa1b97f4c84",
+   "format": "chat",
+   "tables": "holdout (134 tables: 108 builder, 26 products)",
+   "repetitions": "1-6",
+   "n_tie_trials": 804,
+   "n_distinct_prompts_scored_named_and_hidden": 1188,
+   "n_distinct_prompts_scored_incl_placebo": 1980,
+   "estimate_D": 0.250188,
+   "ci95": [
+    0.095956,
+    0.404421
+   ],
+   "odds_ratio_exp_D": 1.284267,
+   "D_stats": {
+    "mean": 0.250188,
+    "ci95": [
+     0.095956,
+     0.404421
+    ],
+    "ci90": [
+     0.124025,
+     0.376352
+    ],
+    "se": 0.070787,
+    "df": 12,
+    "t": 3.534364,
+    "p_greater": 0.002057,
+    "p_less": 0.997943,
+    "p_two_sided": 0.004113,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 0.247685,
+     "charity": 0.075231,
+     "college_choice": 0.212963,
+     "consumer_lending": -0.268518,
+     "evidence_appraisal": 0.30787,
+     "grant_funding": 0.40162,
+     "hiring": 0.428241,
+     "hospital_referral": 0.783564,
+     "lab_supplier": 0.179398,
+     "legal_defence": 0.027778,
+     "medication_choice": 0.49537,
+     "products": 0.264022,
+     "public_procurement": 0.097222
+    }
+   },
+   "placebo_condition_D_minus_DP": {
+    "mean": 0.264118,
+    "ci95": [
+     0.104294,
+     0.423942
+    ],
+    "ci90": [
+     0.133381,
+     0.394855
+    ],
+    "se": 0.073354,
+    "df": 12,
+    "t": 3.600616,
+    "p_greater": 0.001821,
+    "p_less": 0.998179,
+    "p_two_sided": 0.003642,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 0.177083,
+     "charity": 0.096065,
+     "college_choice": 0.188657,
+     "consumer_lending": -0.244213,
+     "evidence_appraisal": 0.314815,
+     "grant_funding": 0.428241,
+     "hiring": 0.393518,
+     "hospital_referral": 0.798611,
+     "lab_supplier": 0.164352,
+     "legal_defence": 0.049768,
+     "medication_choice": 0.59838,
+     "products": 0.372195,
+     "public_procurement": 0.096065
+    }
+   },
+   "share_points_named_minus_hidden": {
+    "mean": 4.175319,
+    "ci95": [
+     1.910916,
+     6.439721
+    ],
+    "ci90": [
+     2.323018,
+     6.027619
+    ],
+    "se": 1.039283,
+    "df": 12,
+    "t": 4.017501,
+    "p_greater": 0.000854,
+    "p_less": 0.999146,
+    "p_two_sided": 0.001707,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 4.638972,
+     "charity": 2.106779,
+     "college_choice": 3.39558,
+     "consumer_lending": -3.4045,
+     "evidence_appraisal": 3.226268,
+     "grant_funding": 6.125468,
+     "hiring": 6.389727,
+     "hospital_referral": 11.168548,
+     "lab_supplier": 3.871056,
+     "legal_defence": 0.496313,
+     "medication_choice": 9.448097,
+     "products": 4.961264,
+     "public_procurement": 1.855572
+    }
+   },
+   "hidden_arm_share_on_the_two_tied_letters": {
+    "mean": 0.464626,
+    "ci95": [
+     0.427675,
+     0.501577
+    ],
+    "reads_the_tie_page_ge_0.50": false
+   },
+   "values_floored_at_1e-30": 0,
+   "raw_files": [
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-instruct_chat.csv.gz"
+   ]
+  },
+  {
+   "key": "olmo2_instruct_plain",
+   "what": "OLMo 2 7B Instruct, plain format",
+   "verdict": "inconclusive",
+   "p_one_sided_used_for_verdict": 0.047335,
+   "p_note": "one-sided, unadjusted",
+   "model_tag": "olmo2-7b-instruct",
+   "repo": "allenai/OLMo-2-1124-7B-Instruct",
+   "revision": "main",
+   "commit_sha": "470b1fba1ae01581f270116362ee4aa1b97f4c84",
+   "format": "plain",
+   "tables": "holdout (134 tables: 108 builder, 26 products)",
+   "repetitions": "1-6",
+   "n_tie_trials": 804,
+   "n_distinct_prompts_scored_named_and_hidden": 1188,
+   "n_distinct_prompts_scored_incl_placebo": 1980,
+   "estimate_D": 0.104114,
+   "ci95": [
+    -0.020907,
+    0.229134
+   ],
+   "odds_ratio_exp_D": 1.109726,
+   "D_stats": {
+    "mean": 0.104114,
+    "ci95": [
+     -0.020907,
+     0.229134
+    ],
+    "ci90": [
+     0.001846,
+     0.206381
+    ],
+    "se": 0.05738,
+    "df": 12,
+    "t": 1.814453,
+    "p_greater": 0.047335,
+    "p_less": 0.952665,
+    "p_two_sided": 0.09467,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 0.231481,
+     "charity": -0.042824,
+     "college_choice": 0.025463,
+     "consumer_lending": -0.287037,
+     "evidence_appraisal": 0.231481,
+     "grant_funding": 0.259259,
+     "hiring": 0.204861,
+     "hospital_referral": 0.324074,
+     "lab_supplier": 0.030093,
+     "legal_defence": -0.155092,
+     "medication_choice": 0.460647,
+     "products": 0.101162,
+     "public_procurement": -0.030093
+    }
+   },
+   "placebo_condition_D_minus_DP": {
+    "mean": 0.118819,
+    "ci95": [
+     -0.004575,
+     0.242213
+    ],
+    "ci90": [
+     0.017882,
+     0.219756
+    ],
+    "se": 0.056634,
+    "df": 12,
+    "t": 2.098033,
+    "p_greater": 0.028873,
+    "p_less": 0.971127,
+    "p_two_sided": 0.057746,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 0.190972,
+     "charity": -0.03125,
+     "college_choice": -0.020833,
+     "consumer_lending": -0.211805,
+     "evidence_appraisal": 0.231481,
+     "grant_funding": 0.299768,
+     "hiring": 0.177662,
+     "hospital_referral": 0.344907,
+     "lab_supplier": 0.011574,
+     "legal_defence": -0.170138,
+     "medication_choice": 0.457175,
+     "products": 0.26282,
+     "public_procurement": 0.002315
+    }
+   },
+   "share_points_named_minus_hidden": {
+    "mean": 0.855932,
+    "ci95": [
+     -0.784581,
+     2.496444
+    ],
+    "ci90": [
+     -0.486022,
+     2.197885
+    ],
+    "se": 0.752939,
+    "df": 12,
+    "t": 1.136788,
+    "p_greater": 0.138909,
+    "p_less": 0.861091,
+    "p_two_sided": 0.277819,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 3.755138,
+     "charity": -0.461572,
+     "college_choice": -0.573486,
+     "consumer_lending": -5.035393,
+     "evidence_appraisal": 1.689535,
+     "grant_funding": 3.661645,
+     "hiring": 1.09267,
+     "hospital_referral": 3.408041,
+     "lab_supplier": -0.192852,
+     "legal_defence": -1.649618,
+     "medication_choice": 4.700294,
+     "products": 1.74011,
+     "public_procurement": -1.007398
+    }
+   },
+   "hidden_arm_share_on_the_two_tied_letters": {
+    "mean": 0.488913,
+    "ci95": [
+     0.448507,
+     0.52932
+    ],
+    "reads_the_tie_page_ge_0.50": false
+   },
+   "values_floored_at_1e-30": 0,
+   "raw_files": [
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-instruct_plain.csv.gz"
+   ]
+  },
+  {
+   "key": "cell_olmo2-7b-s1-151B_plain",
+   "what": "olmo2-7b-s1-151B, plain format, holdout tie rung (no pre-specified test)",
+   "verdict_by_plan_rules_unadjusted": "null (equivalent to zero)",
+   "model_tag": "olmo2-7b-s1-151B",
+   "repo": "allenai/OLMo-2-1124-7B",
+   "revision": "stage1-step36000-tokens151B",
+   "commit_sha": "fab28417a8d051d4f56810b2804ef861f550ba00",
+   "format": "plain",
+   "tables": "holdout (134 tables: 108 builder, 26 products)",
+   "repetitions": "1-4",
+   "n_tie_trials": 536,
+   "n_distinct_prompts_scored_named_and_hidden": 804,
+   "n_distinct_prompts_scored_incl_placebo": 1340,
+   "estimate_D": 0.001095,
+   "ci95": [
+    -0.010147,
+    0.012336
+   ],
+   "odds_ratio_exp_D": 1.001095,
+   "D_stats": {
+    "mean": 0.001095,
+    "ci95": [
+     -0.010147,
+     0.012336
+    ],
+    "ci90": [
+     -0.008101,
+     0.01029
+    ],
+    "se": 0.005159,
+    "df": 12,
+    "t": 0.212191,
+    "p_greater": 0.41776,
+    "p_less": 0.58224,
+    "p_two_sided": 0.835519,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -0.006079,
+     "charity": -0.004795,
+     "college_choice": 0.009326,
+     "consumer_lending": -0.009189,
+     "evidence_appraisal": 0.032189,
+     "grant_funding": 0.021538,
+     "hiring": 0.015662,
+     "hospital_referral": 0.025326,
+     "lab_supplier": -0.024215,
+     "legal_defence": -0.024105,
+     "medication_choice": 0.004727,
+     "products": -0.016113,
+     "public_procurement": -0.010041
+    }
+   },
+   "placebo_condition_D_minus_DP": {
+    "mean": -4.7e-05,
+    "ci95": [
+     -0.011211,
+     0.011117
+    ],
+    "ci90": [
+     -0.00918,
+     0.009085
+    ],
+    "se": 0.005124,
+    "df": 12,
+    "t": -0.009251,
+    "p_greater": 0.503615,
+    "p_less": 0.496385,
+    "p_two_sided": 0.992771,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -0.009396,
+     "charity": -0.003628,
+     "college_choice": 0.00274,
+     "consumer_lending": -0.025101,
+     "evidence_appraisal": 0.039692,
+     "grant_funding": 0.006503,
+     "hiring": 0.016695,
+     "hospital_referral": 0.009747,
+     "lab_supplier": 0.010276,
+     "legal_defence": -0.033262,
+     "medication_choice": 0.002315,
+     "products": -0.008784,
+     "public_procurement": -0.008412
+    }
+   },
+   "share_points_named_minus_hidden": {
+    "mean": 0.013639,
+    "ci95": [
+     -0.19814,
+     0.225418
+    ],
+    "ci90": [
+     -0.159598,
+     0.186876
+    ],
+    "se": 0.097199,
+    "df": 12,
+    "t": 0.140323,
+    "p_greater": 0.445366,
+    "p_less": 0.554634,
+    "p_two_sided": 0.890733,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -0.129237,
+     "charity": -0.007687,
+     "college_choice": 0.222315,
+     "consumer_lending": -0.245853,
+     "evidence_appraisal": 0.410803,
+     "grant_funding": 0.508845,
+     "hiring": 0.293777,
+     "hospital_referral": 0.51495,
+     "lab_supplier": -0.451986,
+     "legal_defence": -0.438806,
+     "medication_choice": 0.069903,
+     "products": -0.34166,
+     "public_procurement": -0.228056
+    }
+   },
+   "hidden_arm_share_on_the_two_tied_letters": {
+    "mean": 0.384328,
+    "ci95": [
+     0.348579,
+     0.420078
+    ],
+    "reads_the_tie_page_ge_0.50": false
+   },
+   "values_floored_at_1e-30": 0,
+   "raw_files": [
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-s1-151B_plain.csv.gz"
+   ]
+  },
+  {
+   "key": "cell_olmo2-7b-s1-2001B_plain",
+   "what": "olmo2-7b-s1-2001B, plain format, holdout tie rung (no pre-specified test)",
+   "verdict_by_plan_rules_unadjusted": "null (equivalent to zero)",
+   "model_tag": "olmo2-7b-s1-2001B",
+   "repo": "allenai/OLMo-2-1124-7B",
+   "revision": "stage1-step477000-tokens2001B",
+   "commit_sha": "fdb68daa06eab54f8e31443385d9512cf411bdfe",
+   "format": "plain",
+   "tables": "holdout (134 tables: 108 builder, 26 products)",
+   "repetitions": "1-4",
+   "n_tie_trials": 536,
+   "n_distinct_prompts_scored_named_and_hidden": 804,
+   "n_distinct_prompts_scored_incl_placebo": 1340,
+   "estimate_D": -0.020587,
+   "ci95": [
+    -0.051433,
+    0.010259
+   ],
+   "odds_ratio_exp_D": 0.979623,
+   "D_stats": {
+    "mean": -0.020587,
+    "ci95": [
+     -0.051433,
+     0.010259
+    ],
+    "ci90": [
+     -0.04582,
+     0.004646
+    ],
+    "se": 0.014157,
+    "df": 12,
+    "t": -1.454154,
+    "p_greater": 0.914223,
+    "p_less": 0.085777,
+    "p_two_sided": 0.171555,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -0.136109,
+     "charity": -0.072747,
+     "college_choice": -0.026299,
+     "consumer_lending": -0.052303,
+     "evidence_appraisal": 0.055741,
+     "grant_funding": 0.024302,
+     "hiring": 0.028085,
+     "hospital_referral": 0.035267,
+     "lab_supplier": -0.014535,
+     "legal_defence": -0.0332,
+     "medication_choice": -0.019898,
+     "products": -0.011719,
+     "public_procurement": -0.044217
+    }
+   },
+   "placebo_condition_D_minus_DP": {
+    "mean": -0.0193,
+    "ci95": [
+     -0.05049,
+     0.01189
+    ],
+    "ci90": [
+     -0.044814,
+     0.006214
+    ],
+    "se": 0.014315,
+    "df": 12,
+    "t": -1.348201,
+    "p_greater": 0.898754,
+    "p_less": 0.101246,
+    "p_two_sided": 0.202492,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -0.149788,
+     "charity": -0.064497,
+     "college_choice": -0.019253,
+     "consumer_lending": -0.050804,
+     "evidence_appraisal": 0.044348,
+     "grant_funding": 0.024516,
+     "hiring": 0.03214,
+     "hospital_referral": 0.028762,
+     "lab_supplier": -0.012205,
+     "legal_defence": -0.028638,
+     "medication_choice": -0.000955,
+     "products": -0.013507,
+     "public_procurement": -0.041017
+    }
+   },
+   "share_points_named_minus_hidden": {
+    "mean": -0.376633,
+    "ci95": [
+     -0.992876,
+     0.23961
+    ],
+    "ci90": [
+     -0.880725,
+     0.127459
+    ],
+    "se": 0.282834,
+    "df": 12,
+    "t": -1.33164,
+    "p_greater": 0.89614,
+    "p_less": 0.10386,
+    "p_two_sided": 0.207721,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -2.509937,
+     "charity": -1.539489,
+     "college_choice": -0.444845,
+     "consumer_lending": -0.995447,
+     "evidence_appraisal": 1.259787,
+     "grant_funding": 0.583406,
+     "hiring": 0.608362,
+     "hospital_referral": 0.727166,
+     "lab_supplier": -0.261469,
+     "legal_defence": -0.621994,
+     "medication_choice": -0.487143,
+     "products": -0.284659,
+     "public_procurement": -0.92997
+    }
+   },
+   "hidden_arm_share_on_the_two_tied_letters": {
+    "mean": 0.406686,
+    "ci95": [
+     0.388405,
+     0.424967
+    ],
+    "reads_the_tie_page_ge_0.50": false
+   },
+   "values_floored_at_1e-30": 0,
+   "raw_files": [
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-s1-2001B_plain.csv.gz"
+   ]
+  },
+  {
+   "key": "cell_olmo2-7b-s1-2999B_plain",
+   "what": "olmo2-7b-s1-2999B, plain format, holdout tie rung (no pre-specified test)",
+   "verdict_by_plan_rules_unadjusted": "null (equivalent to zero)",
+   "model_tag": "olmo2-7b-s1-2999B",
+   "repo": "allenai/OLMo-2-1124-7B",
+   "revision": "stage1-step715000-tokens2999B",
+   "commit_sha": "84cb2f8082307966275e144137a2633db97b4068",
+   "format": "plain",
+   "tables": "holdout (134 tables: 108 builder, 26 products)",
+   "repetitions": "1-4",
+   "n_tie_trials": 536,
+   "n_distinct_prompts_scored_named_and_hidden": 804,
+   "n_distinct_prompts_scored_incl_placebo": 1340,
+   "estimate_D": -0.036086,
+   "ci95": [
+    -0.075184,
+    0.003012
+   ],
+   "odds_ratio_exp_D": 0.964557,
+   "D_stats": {
+    "mean": -0.036086,
+    "ci95": [
+     -0.075184,
+     0.003012
+    ],
+    "ci90": [
+     -0.068069,
+     -0.004104
+    ],
+    "se": 0.017945,
+    "df": 12,
+    "t": -2.010977,
+    "p_greater": 0.966328,
+    "p_less": 0.033672,
+    "p_two_sided": 0.067345,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -0.126488,
+     "charity": -0.12724,
+     "college_choice": -0.0402,
+     "consumer_lending": -0.061273,
+     "evidence_appraisal": 0.026638,
+     "grant_funding": 0.002821,
+     "hiring": 0.001103,
+     "hospital_referral": 0.07956,
+     "lab_supplier": -0.064557,
+     "legal_defence": -0.117429,
+     "medication_choice": 0.02984,
+     "products": -0.059631,
+     "public_procurement": -0.012263
+    }
+   },
+   "placebo_condition_D_minus_DP": {
+    "mean": -0.033497,
+    "ci95": [
+     -0.07118,
+     0.004187
+    ],
+    "ci90": [
+     -0.064322,
+     -0.002671
+    ],
+    "se": 0.017295,
+    "df": 12,
+    "t": -1.936742,
+    "p_greater": 0.961661,
+    "p_less": 0.038339,
+    "p_two_sided": 0.076678,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -0.136816,
+     "charity": -0.112564,
+     "college_choice": -0.042689,
+     "consumer_lending": -0.051461,
+     "evidence_appraisal": 0.014459,
+     "grant_funding": 0.010796,
+     "hiring": 0.006934,
+     "hospital_referral": 0.072083,
+     "lab_supplier": -0.056684,
+     "legal_defence": -0.115669,
+     "medication_choice": 0.028616,
+     "products": -0.048971,
+     "public_procurement": -0.003492
+    }
+   },
+   "share_points_named_minus_hidden": {
+    "mean": -0.79822,
+    "ci95": [
+     -1.673928,
+     0.077487
+    ],
+    "ci90": [
+     -1.514557,
+     -0.081884
+    ],
+    "se": 0.40192,
+    "df": 12,
+    "t": -1.98602,
+    "p_greater": 0.964821,
+    "p_less": 0.035179,
+    "p_two_sided": 0.070358,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -2.990054,
+     "charity": -2.935595,
+     "college_choice": -0.953352,
+     "consumer_lending": -1.428791,
+     "evidence_appraisal": 0.638628,
+     "grant_funding": 0.082264,
+     "hiring": 0.011173,
+     "hospital_referral": 1.857016,
+     "lab_supplier": -1.507323,
+     "legal_defence": -2.117007,
+     "medication_choice": 0.636446,
+     "products": -1.363221,
+     "public_procurement": -0.307048
+    }
+   },
+   "hidden_arm_share_on_the_two_tied_letters": {
+    "mean": 0.412926,
+    "ci95": [
+     0.39825,
+     0.427603
+    ],
+    "reads_the_tie_page_ge_0.50": false
+   },
+   "values_floored_at_1e-30": 0,
+   "raw_files": [
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-s1-2999B_plain.csv.gz"
+   ]
+  },
+  {
+   "key": "olmo2_end_of_stage_1",
+   "what": "OLMo 2 7B at the end of pretraining stage 1 (3,896B tokens, before mid-training), plain",
+   "verdict": "reversal",
+   "p_one_sided_used_for_verdict": 0.988865,
+   "p_note": "one-sided, unadjusted",
+   "model_tag": "olmo2-7b-s1-3896B",
+   "repo": "allenai/OLMo-2-1124-7B",
+   "revision": "stage1-step928646-tokens3896B",
+   "commit_sha": "c0371f4281bf2376207646c6b62ddc6c442c7577",
+   "format": "plain",
+   "tables": "holdout (134 tables: 108 builder, 26 products)",
+   "repetitions": "1-4",
+   "n_tie_trials": 536,
+   "n_distinct_prompts_scored_named_and_hidden": 804,
+   "n_distinct_prompts_scored_incl_placebo": 1340,
+   "estimate_D": -0.03786,
+   "ci95": [
+    -0.069311,
+    -0.006409
+   ],
+   "odds_ratio_exp_D": 0.962848,
+   "D_stats": {
+    "mean": -0.03786,
+    "ci95": [
+     -0.069311,
+     -0.006409
+    ],
+    "ci90": [
+     -0.063587,
+     -0.012132
+    ],
+    "se": 0.014435,
+    "df": 12,
+    "t": -2.622773,
+    "p_greater": 0.988865,
+    "p_less": 0.011135,
+    "p_two_sided": 0.022271,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -0.114858,
+     "charity": -0.078318,
+     "college_choice": -0.110665,
+     "consumer_lending": -0.055219,
+     "evidence_appraisal": 0.012084,
+     "grant_funding": 0.027615,
+     "hiring": -0.01442,
+     "hospital_referral": 0.036456,
+     "lab_supplier": -0.014299,
+     "legal_defence": -0.072419,
+     "medication_choice": 0.012802,
+     "products": -0.084407,
+     "public_procurement": -0.036528
+    }
+   },
+   "placebo_condition_D_minus_DP": {
+    "mean": -0.034709,
+    "ci95": [
+     -0.067385,
+     -0.002034
+    ],
+    "ci90": [
+     -0.061438,
+     -0.007981
+    ],
+    "se": 0.014997,
+    "df": 12,
+    "t": -2.314469,
+    "p_greater": 0.980421,
+    "p_less": 0.019579,
+    "p_two_sided": 0.039158,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -0.125865,
+     "charity": -0.053509,
+     "college_choice": -0.108007,
+     "consumer_lending": -0.040252,
+     "evidence_appraisal": 0.009155,
+     "grant_funding": 0.035512,
+     "hiring": -0.025899,
+     "hospital_referral": 0.023165,
+     "lab_supplier": -0.012242,
+     "legal_defence": -0.0709,
+     "medication_choice": 0.04296,
+     "products": -0.088417,
+     "public_procurement": -0.036924
+    }
+   },
+   "share_points_named_minus_hidden": {
+    "mean": -0.827686,
+    "ci95": [
+     -1.541351,
+     -0.114022
+    ],
+    "ci90": [
+     -1.41147,
+     -0.243903
+    ],
+    "se": 0.327547,
+    "df": 12,
+    "t": -2.526921,
+    "p_greater": 0.986715,
+    "p_less": 0.013285,
+    "p_two_sided": 0.026569,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -2.786663,
+     "charity": -1.732837,
+     "college_choice": -2.313432,
+     "consumer_lending": -1.110549,
+     "evidence_appraisal": 0.298672,
+     "grant_funding": 0.663732,
+     "hiring": -0.318447,
+     "hospital_referral": 0.865945,
+     "lab_supplier": -0.347575,
+     "legal_defence": -1.499307,
+     "medication_choice": 0.308044,
+     "products": -1.922632,
+     "public_procurement": -0.864875
+    }
+   },
+   "hidden_arm_share_on_the_two_tied_letters": {
+    "mean": 0.403754,
+    "ci95": [
+     0.385572,
+     0.421935
+    ],
+    "reads_the_tie_page_ge_0.50": false
+   },
+   "values_floored_at_1e-30": 0,
+   "raw_files": [
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-s1-3896B_plain.csv.gz"
+   ]
+  },
+  {
+   "key": "cell_olmo2-7b-s1-500B_plain",
+   "what": "olmo2-7b-s1-500B, plain format, holdout tie rung (no pre-specified test)",
+   "verdict_by_plan_rules_unadjusted": "null (equivalent to zero)",
+   "model_tag": "olmo2-7b-s1-500B",
+   "repo": "allenai/OLMo-2-1124-7B",
+   "revision": "stage1-step119000-tokens500B",
+   "commit_sha": "9c6eebc40a188d897861bc7e80c7482241c2891e",
+   "format": "plain",
+   "tables": "holdout (134 tables: 108 builder, 26 products)",
+   "repetitions": "1-4",
+   "n_tie_trials": 536,
+   "n_distinct_prompts_scored_named_and_hidden": 804,
+   "n_distinct_prompts_scored_incl_placebo": 1340,
+   "estimate_D": -0.004782,
+   "ci95": [
+    -0.015655,
+    0.006092
+   ],
+   "odds_ratio_exp_D": 0.99523,
+   "D_stats": {
+    "mean": -0.004782,
+    "ci95": [
+     -0.015655,
+     0.006092
+    ],
+    "ci90": [
+     -0.013677,
+     0.004113
+    ],
+    "se": 0.004991,
+    "df": 12,
+    "t": -0.958177,
+    "p_greater": 0.82156,
+    "p_less": 0.17844,
+    "p_two_sided": 0.356881,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -0.034718,
+     "charity": -0.031953,
+     "college_choice": -0.010316,
+     "consumer_lending": -0.010855,
+     "evidence_appraisal": 0.016112,
+     "grant_funding": -0.006241,
+     "hiring": 0.000318,
+     "hospital_referral": 0.035318,
+     "lab_supplier": 0.000164,
+     "legal_defence": -0.001087,
+     "medication_choice": -0.005627,
+     "products": -0.01234,
+     "public_procurement": -0.000939
+    }
+   },
+   "placebo_condition_D_minus_DP": {
+    "mean": -0.003039,
+    "ci95": [
+     -0.014465,
+     0.008388
+    ],
+    "ci90": [
+     -0.012386,
+     0.006308
+    ],
+    "se": 0.005244,
+    "df": 12,
+    "t": -0.579407,
+    "p_greater": 0.713484,
+    "p_less": 0.286516,
+    "p_two_sided": 0.573032,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -0.042315,
+     "charity": -0.028049,
+     "college_choice": -0.001095,
+     "consumer_lending": -0.013945,
+     "evidence_appraisal": 0.011881,
+     "grant_funding": -0.001085,
+     "hiring": -0.000929,
+     "hospital_referral": 0.032065,
+     "lab_supplier": 0.010851,
+     "legal_defence": 0.008785,
+     "medication_choice": 0.003202,
+     "products": -0.015879,
+     "public_procurement": -0.002989
+    }
+   },
+   "share_points_named_minus_hidden": {
+    "mean": -0.11987,
+    "ci95": [
+     -0.350791,
+     0.11105
+    ],
+    "ci90": [
+     -0.308765,
+     0.069024
+    ],
+    "se": 0.105984,
+    "df": 12,
+    "t": -1.131018,
+    "p_greater": 0.859927,
+    "p_less": 0.140073,
+    "p_two_sided": 0.280145,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -0.741887,
+     "charity": -0.715381,
+     "college_choice": -0.200385,
+     "consumer_lending": -0.290426,
+     "evidence_appraisal": 0.336705,
+     "grant_funding": -0.17373,
+     "hiring": -0.01115,
+     "hospital_referral": 0.732445,
+     "lab_supplier": -0.062318,
+     "legal_defence": -0.068692,
+     "medication_choice": -0.099909,
+     "products": -0.229145,
+     "public_procurement": -0.034442
+    }
+   },
+   "hidden_arm_share_on_the_two_tied_letters": {
+    "mean": 0.3943,
+    "ci95": [
+     0.372159,
+     0.41644
+    ],
+    "reads_the_tie_page_ge_0.50": false
+   },
+   "values_floored_at_1e-30": 0,
+   "raw_files": [
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-s1-500B_plain.csv.gz"
+   ]
+  },
+  {
+   "key": "cell_olmo2-7b-s1-51B_plain",
+   "what": "olmo2-7b-s1-51B, plain format, holdout tie rung (no pre-specified test)",
+   "verdict_by_plan_rules_unadjusted": "null (equivalent to zero)",
+   "model_tag": "olmo2-7b-s1-51B",
+   "repo": "allenai/OLMo-2-1124-7B",
+   "revision": "stage1-step12000-tokens51B",
+   "commit_sha": "c954a061c72d09d0a3d560483fb8c7179386ba15",
+   "format": "plain",
+   "tables": "holdout (134 tables: 108 builder, 26 products)",
+   "repetitions": "1-4",
+   "n_tie_trials": 536,
+   "n_distinct_prompts_scored_named_and_hidden": 804,
+   "n_distinct_prompts_scored_incl_placebo": 1340,
+   "estimate_D": 0.003736,
+   "ci95": [
+    -0.005732,
+    0.013204
+   ],
+   "odds_ratio_exp_D": 1.003743,
+   "D_stats": {
+    "mean": 0.003736,
+    "ci95": [
+     -0.005732,
+     0.013204
+    ],
+    "ci90": [
+     -0.004009,
+     0.011481
+    ],
+    "se": 0.004346,
+    "df": 12,
+    "t": 0.859721,
+    "p_greater": 0.203395,
+    "p_less": 0.796605,
+    "p_two_sided": 0.406791,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -0.005728,
+     "charity": 0.006145,
+     "college_choice": -0.012141,
+     "consumer_lending": 0.004245,
+     "evidence_appraisal": 0.005754,
+     "grant_funding": 0.034543,
+     "hiring": 0.005775,
+     "hospital_referral": 0.037146,
+     "lab_supplier": -0.001826,
+     "legal_defence": -0.001325,
+     "medication_choice": -0.00296,
+     "products": -0.013396,
+     "public_procurement": -0.007663
+    }
+   },
+   "placebo_condition_D_minus_DP": {
+    "mean": 0.006486,
+    "ci95": [
+     -0.002527,
+     0.015499
+    ],
+    "ci90": [
+     -0.000887,
+     0.013859
+    ],
+    "se": 0.004137,
+    "df": 12,
+    "t": 1.567933,
+    "p_greater": 0.071438,
+    "p_less": 0.928562,
+    "p_two_sided": 0.142876,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -0.015991,
+     "charity": 0.024083,
+     "college_choice": -0.010389,
+     "consumer_lending": 0.00405,
+     "evidence_appraisal": 0.011846,
+     "grant_funding": 0.028456,
+     "hiring": 0.004065,
+     "hospital_referral": 0.02073,
+     "lab_supplier": 0.011105,
+     "legal_defence": 0.016142,
+     "medication_choice": 0.013667,
+     "products": -0.014412,
+     "public_procurement": -0.009033
+    }
+   },
+   "share_points_named_minus_hidden": {
+    "mean": 0.068777,
+    "ci95": [
+     -0.106031,
+     0.243585
+    ],
+    "ci90": [
+     -0.074218,
+     0.211771
+    ],
+    "se": 0.080231,
+    "df": 12,
+    "t": 0.857234,
+    "p_greater": 0.204055,
+    "p_less": 0.795945,
+    "p_two_sided": 0.40811,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -0.123325,
+     "charity": 0.114927,
+     "college_choice": -0.162326,
+     "consumer_lending": -0.117954,
+     "evidence_appraisal": 0.101342,
+     "grant_funding": 0.623636,
+     "hiring": 0.109732,
+     "hospital_referral": 0.695938,
+     "lab_supplier": 0.015723,
+     "legal_defence": 0.047216,
+     "medication_choice": -0.05506,
+     "products": -0.305615,
+     "public_procurement": -0.050137
+    }
+   },
+   "hidden_arm_share_on_the_two_tied_letters": {
+    "mean": 0.391851,
+    "ci95": [
+     0.369162,
+     0.41454
+    ],
+    "reads_the_tie_page_ge_0.50": false
+   },
+   "values_floored_at_1e-30": 0,
+   "raw_files": [
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-s1-51B_plain.csv.gz"
+   ]
+  },
+  {
+   "key": "cell_olmo2-7b-s1-5B_plain",
+   "what": "olmo2-7b-s1-5B, plain format, holdout tie rung (no pre-specified test)",
+   "verdict_by_plan_rules_unadjusted": "null (equivalent to zero)",
+   "model_tag": "olmo2-7b-s1-5B",
+   "repo": "allenai/OLMo-2-1124-7B",
+   "revision": "stage1-step1000-tokens5B",
+   "commit_sha": "ea9a026581be70db65a9463c0b8a28ae39d79301",
+   "format": "plain",
+   "tables": "holdout (134 tables: 108 builder, 26 products)",
+   "repetitions": "1-4",
+   "n_tie_trials": 536,
+   "n_distinct_prompts_scored_named_and_hidden": 804,
+   "n_distinct_prompts_scored_incl_placebo": 1340,
+   "estimate_D": -0.002452,
+   "ci95": [
+    -0.008129,
+    0.003225
+   ],
+   "odds_ratio_exp_D": 0.997551,
+   "D_stats": {
+    "mean": -0.002452,
+    "ci95": [
+     -0.008129,
+     0.003225
+    ],
+    "ci90": [
+     -0.007096,
+     0.002192
+    ],
+    "se": 0.002606,
+    "df": 12,
+    "t": -0.940971,
+    "p_greater": 0.817362,
+    "p_less": 0.182638,
+    "p_two_sided": 0.365277,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -0.008679,
+     "charity": -0.019054,
+     "college_choice": 0.010369,
+     "consumer_lending": -0.005232,
+     "evidence_appraisal": -0.005185,
+     "grant_funding": 0.006475,
+     "hiring": -1.1e-05,
+     "hospital_referral": -0.011264,
+     "lab_supplier": -0.008663,
+     "legal_defence": 8e-06,
+     "medication_choice": 0.016008,
+     "products": -0.000597,
+     "public_procurement": -0.006048
+    }
+   },
+   "placebo_condition_D_minus_DP": {
+    "mean": -0.003881,
+    "ci95": [
+     -0.010193,
+     0.002431
+    ],
+    "ci90": [
+     -0.009045,
+     0.001282
+    ],
+    "se": 0.002897,
+    "df": 12,
+    "t": -1.339673,
+    "p_greater": 0.897415,
+    "p_less": 0.102585,
+    "p_two_sided": 0.205171,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -0.001757,
+     "charity": -0.025963,
+     "college_choice": 0.00347,
+     "consumer_lending": -0.004332,
+     "evidence_appraisal": -0.002578,
+     "grant_funding": -0.005592,
+     "hiring": 0.002067,
+     "hospital_referral": -0.006113,
+     "lab_supplier": -0.013876,
+     "legal_defence": -0.004321,
+     "medication_choice": 0.019473,
+     "products": 0.00034,
+     "public_procurement": -0.011273
+    }
+   },
+   "share_points_named_minus_hidden": {
+    "mean": -0.061091,
+    "ci95": [
+     -0.164973,
+     0.04279
+    ],
+    "ci90": [
+     -0.146067,
+     0.023884
+    ],
+    "se": 0.047678,
+    "df": 12,
+    "t": -1.281334,
+    "p_greater": 0.887858,
+    "p_less": 0.112142,
+    "p_two_sided": 0.224283,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -0.166439,
+     "charity": -0.349631,
+     "college_choice": 0.21508,
+     "consumer_lending": -0.064347,
+     "evidence_appraisal": -0.084026,
+     "grant_funding": 0.09484,
+     "hiring": 0.0275,
+     "hospital_referral": -0.202666,
+     "lab_supplier": -0.183862,
+     "legal_defence": -0.078437,
+     "medication_choice": 0.252404,
+     "products": -0.060857,
+     "public_procurement": -0.193748
+    }
+   },
+   "hidden_arm_share_on_the_two_tied_letters": {
+    "mean": 0.358898,
+    "ci95": [
+     0.304366,
+     0.413429
+    ],
+    "reads_the_tie_page_ge_0.50": false
+   },
+   "values_floored_at_1e-30": 0,
+   "raw_files": [
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-s1-5B_plain.csv.gz"
+   ]
+  },
+  {
+   "key": "cell_olmo2-7b-s1-999B_plain",
+   "what": "olmo2-7b-s1-999B, plain format, holdout tie rung (no pre-specified test)",
+   "verdict_by_plan_rules_unadjusted": "null (equivalent to zero)",
+   "model_tag": "olmo2-7b-s1-999B",
+   "repo": "allenai/OLMo-2-1124-7B",
+   "revision": "stage1-step238000-tokens999B",
+   "commit_sha": "7c29a0917ebd48c1df5d88c337e499cfbeb497d4",
+   "format": "plain",
+   "tables": "holdout (134 tables: 108 builder, 26 products)",
+   "repetitions": "1-4",
+   "n_tie_trials": 536,
+   "n_distinct_prompts_scored_named_and_hidden": 804,
+   "n_distinct_prompts_scored_incl_placebo": 1340,
+   "estimate_D": -0.020262,
+   "ci95": [
+    -0.044108,
+    0.003583
+   ],
+   "odds_ratio_exp_D": 0.979942,
+   "D_stats": {
+    "mean": -0.020262,
+    "ci95": [
+     -0.044108,
+     0.003583
+    ],
+    "ci90": [
+     -0.039768,
+     -0.000757
+    ],
+    "se": 0.010944,
+    "df": 12,
+    "t": -1.851412,
+    "p_greater": 0.955568,
+    "p_less": 0.044432,
+    "p_two_sided": 0.088865,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -0.059424,
+     "charity": -0.046841,
+     "college_choice": -0.028242,
+     "consumer_lending": -0.055162,
+     "evidence_appraisal": 0.06852,
+     "grant_funding": 0.016953,
+     "hiring": 0.00092,
+     "hospital_referral": 0.015679,
+     "lab_supplier": -0.048418,
+     "legal_defence": -0.030218,
+     "medication_choice": 0.003202,
+     "products": -0.071661,
+     "public_procurement": -0.028719
+    }
+   },
+   "placebo_condition_D_minus_DP": {
+    "mean": -0.020117,
+    "ci95": [
+     -0.044589,
+     0.004354
+    ],
+    "ci90": [
+     -0.040135,
+     -0.0001
+    ],
+    "se": 0.011231,
+    "df": 12,
+    "t": -1.79117,
+    "p_greater": 0.950749,
+    "p_less": 0.049251,
+    "p_two_sided": 0.098502,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -0.06733,
+     "charity": -0.03867,
+     "college_choice": -0.027356,
+     "consumer_lending": -0.054645,
+     "evidence_appraisal": 0.059566,
+     "grant_funding": 0.022971,
+     "hiring": -0.004098,
+     "hospital_referral": 0.021386,
+     "lab_supplier": -0.050743,
+     "legal_defence": -0.025173,
+     "medication_choice": 0.013994,
+     "products": -0.078235,
+     "public_procurement": -0.033193
+    }
+   },
+   "share_points_named_minus_hidden": {
+    "mean": -0.466458,
+    "ci95": [
+     -1.032413,
+     0.099497
+    ],
+    "ci90": [
+     -0.929414,
+     -0.003502
+    ],
+    "se": 0.259754,
+    "df": 12,
+    "t": -1.795768,
+    "p_greater": 0.951133,
+    "p_less": 0.048867,
+    "p_two_sided": 0.097734,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -1.32585,
+     "charity": -1.114668,
+     "college_choice": -0.651367,
+     "consumer_lending": -1.324879,
+     "evidence_appraisal": 1.676058,
+     "grant_funding": 0.414329,
+     "hiring": 0.010322,
+     "hospital_referral": 0.348415,
+     "lab_supplier": -1.051938,
+     "legal_defence": -0.734101,
+     "medication_choice": 0.076384,
+     "products": -1.728382,
+     "public_procurement": -0.658272
+    }
+   },
+   "hidden_arm_share_on_the_two_tied_letters": {
+    "mean": 0.396249,
+    "ci95": [
+     0.379617,
+     0.412882
+    ],
+    "reads_the_tie_page_ge_0.50": false
+   },
+   "values_floored_at_1e-30": 0,
+   "raw_files": [
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-s1-999B_plain.csv.gz"
+   ]
+  },
+  {
+   "key": "cell_olmo2-7b-s2-ing1-50B_plain",
+   "what": "olmo2-7b-s2-ing1-50B, plain format, holdout tie rung (no pre-specified test)",
+   "verdict_by_plan_rules_unadjusted": "reversal",
+   "model_tag": "olmo2-7b-s2-ing1-50B",
+   "repo": "allenai/OLMo-2-1124-7B",
+   "revision": "stage2-ingredient1-step11931-tokens50B",
+   "commit_sha": "6f585dd23edb5df3c7777687f1d32eb08e42bbcd",
+   "format": "plain",
+   "tables": "holdout (134 tables: 108 builder, 26 products)",
+   "repetitions": "1-4",
+   "n_tie_trials": 536,
+   "n_distinct_prompts_scored_named_and_hidden": 804,
+   "n_distinct_prompts_scored_incl_placebo": 1340,
+   "estimate_D": -0.04433,
+   "ci95": [
+    -0.068237,
+    -0.020423
+   ],
+   "odds_ratio_exp_D": 0.956639,
+   "D_stats": {
+    "mean": -0.04433,
+    "ci95": [
+     -0.068237,
+     -0.020423
+    ],
+    "ci90": [
+     -0.063886,
+     -0.024773
+    ],
+    "se": 0.010972,
+    "df": 12,
+    "t": -4.040069,
+    "p_greater": 0.99918,
+    "p_less": 0.00082,
+    "p_two_sided": 0.001639,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -0.05078,
+     "charity": -0.052733,
+     "college_choice": -0.124665,
+     "consumer_lending": -0.08723,
+     "evidence_appraisal": -0.026149,
+     "grant_funding": 0.022299,
+     "hiring": -0.027451,
+     "hospital_referral": -0.009764,
+     "lab_supplier": -0.041393,
+     "legal_defence": -0.099605,
+     "medication_choice": -0.022245,
+     "products": -0.022852,
+     "public_procurement": -0.033717
+    }
+   },
+   "placebo_condition_D_minus_DP": {
+    "mean": -0.040745,
+    "ci95": [
+     -0.063869,
+     -0.017621
+    ],
+    "ci90": [
+     -0.05966,
+     -0.021829
+    ],
+    "se": 0.010613,
+    "df": 12,
+    "t": -3.839074,
+    "p_greater": 0.998822,
+    "p_less": 0.001178,
+    "p_two_sided": 0.002356,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -0.056856,
+     "charity": -0.046115,
+     "college_choice": -0.114791,
+     "consumer_lending": -0.074376,
+     "evidence_appraisal": -0.029242,
+     "grant_funding": 0.02813,
+     "hiring": -0.025987,
+     "hospital_referral": -0.012637,
+     "lab_supplier": -0.045244,
+     "legal_defence": -0.095311,
+     "medication_choice": -0.004128,
+     "products": -0.021844,
+     "public_procurement": -0.031277
+    }
+   },
+   "share_points_named_minus_hidden": {
+    "mean": -0.927793,
+    "ci95": [
+     -1.405947,
+     -0.449639
+    ],
+    "ci90": [
+     -1.318927,
+     -0.536659
+    ],
+    "se": 0.219456,
+    "df": 12,
+    "t": -4.22769,
+    "p_greater": 0.999414,
+    "p_less": 0.000586,
+    "p_two_sided": 0.001173,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -1.252609,
+     "charity": -1.169425,
+     "college_choice": -2.420701,
+     "consumer_lending": -1.880328,
+     "evidence_appraisal": -0.577721,
+     "grant_funding": 0.525496,
+     "hiring": -0.556816,
+     "hospital_referral": -0.191418,
+     "lab_supplier": -0.935318,
+     "legal_defence": -1.875355,
+     "medication_choice": -0.524304,
+     "products": -0.489892,
+     "public_procurement": -0.712921
+    }
+   },
+   "hidden_arm_share_on_the_two_tied_letters": {
+    "mean": 0.400459,
+    "ci95": [
+     0.377356,
+     0.423562
+    ],
+    "reads_the_tie_page_ge_0.50": false
+   },
+   "values_floored_at_1e-30": 0,
+   "raw_files": [
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-s2-ing1-50B_plain.csv.gz"
+   ]
+  },
+  {
+   "key": "cell_olmo2-7b-sft_chat",
+   "what": "olmo2-7b-sft, chat format, holdout tie rung (no pre-specified test)",
+   "verdict_by_plan_rules_unadjusted": "hit",
+   "model_tag": "olmo2-7b-sft",
+   "repo": "allenai/OLMo-2-1124-7B-SFT",
+   "revision": "main",
+   "commit_sha": "1de02c0175118a9de5854aec80a1f970e701e928",
+   "format": "chat",
+   "tables": "holdout (134 tables: 108 builder, 26 products)",
+   "repetitions": "1-6",
+   "n_tie_trials": 804,
+   "n_distinct_prompts_scored_named_and_hidden": 1188,
+   "n_distinct_prompts_scored_incl_placebo": 1980,
+   "estimate_D": 0.228711,
+   "ci95": [
+    0.125379,
+    0.332042
+   ],
+   "odds_ratio_exp_D": 1.256978,
+   "D_stats": {
+    "mean": 0.228711,
+    "ci95": [
+     0.125379,
+     0.332042
+    ],
+    "ci90": [
+     0.144184,
+     0.313237
+    ],
+    "se": 0.047426,
+    "df": 12,
+    "t": 4.822509,
+    "p_greater": 0.000209,
+    "p_less": 0.999791,
+    "p_two_sided": 0.000417,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 0.288194,
+     "charity": 0.112268,
+     "college_choice": 0.221063,
+     "consumer_lending": -0.134259,
+     "evidence_appraisal": 0.239583,
+     "grant_funding": 0.299768,
+     "hiring": 0.33912,
+     "hospital_referral": 0.557869,
+     "lab_supplier": 0.143519,
+     "legal_defence": 0.082175,
+     "medication_choice": 0.416665,
+     "products": 0.277643,
+     "public_procurement": 0.12963
+    }
+   },
+   "placebo_condition_D_minus_DP": {
+    "mean": 0.238401,
+    "ci95": [
+     0.133583,
+     0.34322
+    ],
+    "ci90": [
+     0.152659,
+     0.324143
+    ],
+    "se": 0.048108,
+    "df": 12,
+    "t": 4.955543,
+    "p_greater": 0.000167,
+    "p_less": 0.999833,
+    "p_two_sided": 0.000333,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 0.259258,
+     "charity": 0.129629,
+     "college_choice": 0.209489,
+     "consumer_lending": -0.108796,
+     "evidence_appraisal": 0.248842,
+     "grant_funding": 0.335647,
+     "hiring": 0.310184,
+     "hospital_referral": 0.564813,
+     "lab_supplier": 0.128472,
+     "legal_defence": 0.085647,
+     "medication_choice": 0.464118,
+     "products": 0.335335,
+     "public_procurement": 0.136574
+    }
+   },
+   "share_points_named_minus_hidden": {
+    "mean": 4.315521,
+    "ci95": [
+     2.470636,
+     6.160406
+    ],
+    "ci90": [
+     2.80639,
+     5.824653
+    ],
+    "se": 0.846739,
+    "df": 12,
+    "t": 5.09664,
+    "p_greater": 0.000132,
+    "p_less": 0.999868,
+    "p_two_sided": 0.000263,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 5.853231,
+     "charity": 2.511222,
+     "college_choice": 4.298741,
+     "consumer_lending": -2.069481,
+     "evidence_appraisal": 2.834471,
+     "grant_funding": 5.888403,
+     "hiring": 5.907824,
+     "hospital_referral": 9.531025,
+     "lab_supplier": 3.245354,
+     "legal_defence": 1.359149,
+     "medication_choice": 8.199118,
+     "products": 6.015226,
+     "public_procurement": 2.527494
+    }
+   },
+   "hidden_arm_share_on_the_two_tied_letters": {
+    "mean": 0.456953,
+    "ci95": [
+     0.42882,
+     0.485086
+    ],
+    "reads_the_tie_page_ge_0.50": false
+   },
+   "values_floored_at_1e-30": 0,
+   "raw_files": [
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-sft_chat.csv.gz"
+   ]
+  },
+  {
+   "key": "cell_olmo2-7b-sft_plain",
+   "what": "olmo2-7b-sft, plain format, holdout tie rung (no pre-specified test)",
+   "verdict_by_plan_rules_unadjusted": "inconclusive",
+   "model_tag": "olmo2-7b-sft",
+   "repo": "allenai/OLMo-2-1124-7B-SFT",
+   "revision": "main",
+   "commit_sha": "1de02c0175118a9de5854aec80a1f970e701e928",
+   "format": "plain",
+   "tables": "holdout (134 tables: 108 builder, 26 products)",
+   "repetitions": "1-6",
+   "n_tie_trials": 804,
+   "n_distinct_prompts_scored_named_and_hidden": 1188,
+   "n_distinct_prompts_scored_incl_placebo": 1980,
+   "estimate_D": 0.078213,
+   "ci95": [
+    -9.4e-05,
+    0.15652
+   ],
+   "odds_ratio_exp_D": 1.081353,
+   "D_stats": {
+    "mean": 0.078213,
+    "ci95": [
+     -9.4e-05,
+     0.15652
+    ],
+    "ci90": [
+     0.014158,
+     0.142269
+    ],
+    "se": 0.03594,
+    "df": 12,
+    "t": 2.176207,
+    "p_greater": 0.025117,
+    "p_less": 0.974883,
+    "p_two_sided": 0.050234,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 0.255779,
+     "charity": -0.00926,
+     "college_choice": 0.055554,
+     "consumer_lending": -0.190971,
+     "evidence_appraisal": 0.178237,
+     "grant_funding": 0.192703,
+     "hiring": 0.135411,
+     "hospital_referral": 0.142359,
+     "lab_supplier": -0.001157,
+     "legal_defence": -0.072336,
+     "medication_choice": 0.2309,
+     "products": 0.099555,
+     "public_procurement": -2e-06
+    }
+   },
+   "placebo_condition_D_minus_DP": {
+    "mean": 0.088204,
+    "ci95": [
+     0.0133,
+     0.163108
+    ],
+    "ci90": [
+     0.026932,
+     0.149476
+    ],
+    "se": 0.034378,
+    "df": 12,
+    "t": 2.565675,
+    "p_greater": 0.012371,
+    "p_less": 0.987629,
+    "p_two_sided": 0.024742,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 0.231475,
+     "charity": -0.011575,
+     "college_choice": 0.016782,
+     "consumer_lending": -0.131943,
+     "evidence_appraisal": 0.160876,
+     "grant_funding": 0.222216,
+     "hiring": 0.124417,
+     "hospital_referral": 0.159142,
+     "lab_supplier": -0.003471,
+     "legal_defence": -0.083907,
+     "medication_choice": 0.222219,
+     "products": 0.199912,
+     "public_procurement": 0.040508
+    }
+   },
+   "share_points_named_minus_hidden": {
+    "mean": 1.083912,
+    "ci95": [
+     -0.411055,
+     2.57888
+    ],
+    "ci90": [
+     -0.138984,
+     2.306808
+    ],
+    "se": 0.686139,
+    "df": 12,
+    "t": 1.579728,
+    "p_greater": 0.070077,
+    "p_less": 0.929923,
+    "p_two_sided": 0.140154,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 4.713022,
+     "charity": -0.35297,
+     "college_choice": 0.271529,
+     "consumer_lending": -4.337354,
+     "evidence_appraisal": 2.423626,
+     "grant_funding": 3.286772,
+     "hiring": 1.296282,
+     "hospital_referral": 2.398872,
+     "lab_supplier": -0.175984,
+     "legal_defence": -1.505912,
+     "medication_choice": 4.040283,
+     "products": 2.176528,
+     "public_procurement": -0.143837
+    }
+   },
+   "hidden_arm_share_on_the_two_tied_letters": {
+    "mean": 0.473572,
+    "ci95": [
+     0.434888,
+     0.512255
+    ],
+    "reads_the_tie_page_ge_0.50": false
+   },
+   "values_floored_at_1e-30": 0,
+   "raw_files": [
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-sft_plain.csv.gz"
+   ]
+  },
+  {
+   "key": "qwen2.5_7b_base",
+   "what": "Qwen 2.5 7B base, plain",
+   "verdict": "reversal",
+   "p_one_sided_used_for_verdict": 1.0,
+   "p_note": "Holm-adjusted across the four Qwen and Llama cells",
+   "model_tag": "qwen2.5-7b-base",
+   "repo": "Qwen/Qwen2.5-7B",
+   "revision": "main",
+   "commit_sha": "d149729398750b98c0af14eb82c78cfe92750796",
+   "format": "plain",
+   "tables": "holdout (134 tables: 108 builder, 26 products)",
+   "repetitions": "1-6",
+   "n_tie_trials": 804,
+   "n_distinct_prompts_scored_named_and_hidden": 1188,
+   "n_distinct_prompts_scored_incl_placebo": 1980,
+   "estimate_D": -0.142524,
+   "ci95": [
+    -0.248202,
+    -0.036846
+   ],
+   "odds_ratio_exp_D": 0.867167,
+   "D_stats": {
+    "mean": -0.142524,
+    "ci95": [
+     -0.248202,
+     -0.036846
+    ],
+    "ci90": [
+     -0.228969,
+     -0.056079
+    ],
+    "se": 0.048502,
+    "df": 12,
+    "t": -2.938491,
+    "p_greater": 0.993797,
+    "p_less": 0.006203,
+    "p_two_sided": 0.012407,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -0.416662,
+     "charity": -0.319441,
+     "college_choice": -0.324076,
+     "consumer_lending": -0.189814,
+     "evidence_appraisal": 0.128474,
+     "grant_funding": -0.090277,
+     "hiring": -0.006945,
+     "hospital_referral": -0.064815,
+     "lab_supplier": -0.141203,
+     "legal_defence": -0.368049,
+     "medication_choice": 0.10764,
+     "products": -0.036858,
+     "public_procurement": -0.130784
+    }
+   },
+   "placebo_condition_D_minus_DP": {
+    "mean": -0.133312,
+    "ci95": [
+     -0.243232,
+     -0.023393
+    ],
+    "ci90": [
+     -0.223228,
+     -0.043397
+    ],
+    "se": 0.050449,
+    "df": 12,
+    "t": -2.642503,
+    "p_greater": 0.989263,
+    "p_less": 0.010737,
+    "p_two_sided": 0.021474,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -0.44444,
+     "charity": -0.321756,
+     "college_choice": -0.351853,
+     "consumer_lending": -0.125001,
+     "evidence_appraisal": 0.129634,
+     "grant_funding": -0.092592,
+     "hiring": -0.009259,
+     "hospital_referral": 0.004627,
+     "lab_supplier": -0.120369,
+     "legal_defence": -0.341429,
+     "medication_choice": 0.103012,
+     "products": -0.022435,
+     "public_procurement": -0.141201
+    }
+   },
+   "share_points_named_minus_hidden": {
+    "mean": -2.504523,
+    "ci95": [
+     -4.480433,
+     -0.528612
+    ],
+    "ci90": [
+     -4.120834,
+     -0.888211
+    ],
+    "se": 0.906875,
+    "df": 12,
+    "t": -2.761707,
+    "p_greater": 0.991388,
+    "p_less": 0.008612,
+    "p_two_sided": 0.017225,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -7.48687,
+     "charity": -5.722555,
+     "college_choice": -6.068246,
+     "consumer_lending": -3.790113,
+     "evidence_appraisal": 2.731031,
+     "grant_funding": -1.522452,
+     "hiring": -0.002986,
+     "hospital_referral": -1.132098,
+     "lab_supplier": -2.435032,
+     "legal_defence": -6.641039,
+     "medication_choice": 2.107001,
+     "products": -0.607,
+     "public_procurement": -1.988435
+    }
+   },
+   "hidden_arm_share_on_the_two_tied_letters": {
+    "mean": 0.643953,
+    "ci95": [
+     0.601871,
+     0.686035
+    ],
+    "reads_the_tie_page_ge_0.50": true
+   },
+   "values_floored_at_1e-30": 0,
+   "raw_files": [
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/qwen2.5-7b-base_plain.csv.gz"
+   ]
+  },
+  {
+   "key": "qwen2.5_7b_instruct",
+   "what": "Qwen 2.5 7B Instruct, chat",
+   "verdict": "reversal",
+   "p_one_sided_used_for_verdict": 1.0,
+   "p_note": "Holm-adjusted across the four Qwen and Llama cells",
+   "model_tag": "qwen2.5-7b-instruct",
+   "repo": "Qwen/Qwen2.5-7B-Instruct",
+   "revision": "main",
+   "commit_sha": "a09a35458c702b33eeacc393d103063234e8bc28",
+   "format": "chat",
+   "tables": "holdout (134 tables: 108 builder, 26 products)",
+   "repetitions": "1-6",
+   "n_tie_trials": 804,
+   "n_distinct_prompts_scored_named_and_hidden": 1188,
+   "n_distinct_prompts_scored_incl_placebo": 1980,
+   "estimate_D": -1.134588,
+   "ci95": [
+    -1.877353,
+    -0.391823
+   ],
+   "odds_ratio_exp_D": 0.321555,
+   "D_stats": {
+    "mean": -1.134588,
+    "ci95": [
+     -1.877353,
+     -0.391823
+    ],
+    "ci90": [
+     -1.742176,
+     -0.527
+    ],
+    "se": 0.340903,
+    "df": 12,
+    "t": -3.32818,
+    "p_greater": 0.996991,
+    "p_less": 0.003009,
+    "p_two_sided": 0.006018,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -2.162037,
+     "charity": -2.773148,
+     "college_choice": -2.189815,
+     "consumer_lending": -1.402778,
+     "evidence_appraisal": 1.56713,
+     "grant_funding": -0.782407,
+     "hiring": 0.023148,
+     "hospital_referral": -0.787037,
+     "lab_supplier": -1.277778,
+     "legal_defence": -2.930556,
+     "medication_choice": -0.344907,
+     "products": -0.469551,
+     "public_procurement": -1.219907
+    }
+   },
+   "placebo_condition_D_minus_DP": {
+    "mean": -1.169365,
+    "ci95": [
+     -1.903551,
+     -0.435179
+    ],
+    "ci90": [
+     -1.769935,
+     -0.568795
+    ],
+    "se": 0.336966,
+    "df": 12,
+    "t": -3.470277,
+    "p_greater": 0.997686,
+    "p_less": 0.002314,
+    "p_two_sided": 0.004629,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -2.576389,
+     "charity": -2.666667,
+     "college_choice": -2.300926,
+     "consumer_lending": -1.229167,
+     "evidence_appraisal": 1.428241,
+     "grant_funding": -0.791667,
+     "hiring": 0.138889,
+     "hospital_referral": -0.615741,
+     "lab_supplier": -1.125,
+     "legal_defence": -2.840278,
+     "medication_choice": -0.863426,
+     "products": -0.530449,
+     "public_procurement": -1.229167
+    }
+   },
+   "share_points_named_minus_hidden": {
+    "mean": -4.101539,
+    "ci95": [
+     -7.363358,
+     -0.839719
+    ],
+    "ci90": [
+     -6.769735,
+     -1.433342
+    ],
+    "se": 1.497063,
+    "df": 12,
+    "t": -2.739724,
+    "p_greater": 0.99103,
+    "p_less": 0.00897,
+    "p_two_sided": 0.017941,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -11.144039,
+     "charity": -7.275451,
+     "college_choice": -6.28057,
+     "consumer_lending": -6.23223,
+     "evidence_appraisal": 5.408451,
+     "grant_funding": -0.508743,
+     "hiring": 0.64246,
+     "hospital_referral": -2.476267,
+     "lab_supplier": -4.035441,
+     "legal_defence": -15.038872,
+     "medication_choice": 1.293908,
+     "products": -2.553594,
+     "public_procurement": -5.119615
+    }
+   },
+   "hidden_arm_share_on_the_two_tied_letters": {
+    "mean": 0.954793,
+    "ci95": [
+     0.906092,
+     1.003494
+    ],
+    "reads_the_tie_page_ge_0.50": true
+   },
+   "values_floored_at_1e-30": 0,
+   "raw_files": [
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/qwen2.5-7b-instruct_chat.csv.gz"
+   ]
+  },
+  {
+   "key": "cell_qwen2.5-7b-instruct_plain",
+   "what": "qwen2.5-7b-instruct, plain format, holdout tie rung (no pre-specified test)",
+   "verdict_by_plan_rules_unadjusted": "reversal",
+   "model_tag": "qwen2.5-7b-instruct",
+   "repo": "Qwen/Qwen2.5-7B-Instruct",
+   "revision": "main",
+   "commit_sha": "a09a35458c702b33eeacc393d103063234e8bc28",
+   "format": "plain",
+   "tables": "holdout (134 tables: 108 builder, 26 products)",
+   "repetitions": "1-6",
+   "n_tie_trials": 804,
+   "n_distinct_prompts_scored_named_and_hidden": 1188,
+   "n_distinct_prompts_scored_incl_placebo": 1980,
+   "estimate_D": -0.61672,
+   "ci95": [
+    -1.046095,
+    -0.187345
+   ],
+   "odds_ratio_exp_D": 0.539712,
+   "D_stats": {
+    "mean": -0.61672,
+    "ci95": [
+     -1.046095,
+     -0.187345
+    ],
+    "ci90": [
+     -0.967952,
+     -0.265488
+    ],
+    "se": 0.197068,
+    "df": 12,
+    "t": -3.129476,
+    "p_greater": 0.99565,
+    "p_less": 0.00435,
+    "p_two_sided": 0.0087,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -1.414352,
+     "charity": -1.289352,
+     "college_choice": -1.125,
+     "consumer_lending": -0.835648,
+     "evidence_appraisal": 1.083333,
+     "grant_funding": -0.375,
+     "hiring": -0.025463,
+     "hospital_referral": -0.597222,
+     "lab_supplier": -0.699074,
+     "legal_defence": -1.622685,
+     "medication_choice": -0.173611,
+     "products": -0.239583,
+     "public_procurement": -0.703704
+    }
+   },
+   "placebo_condition_D_minus_DP": {
+    "mean": -0.61585,
+    "ci95": [
+     -1.048846,
+     -0.182855
+    ],
+    "ci90": [
+     -0.970044,
+     -0.261656
+    ],
+    "se": 0.19873,
+    "df": 12,
+    "t": -3.098929,
+    "p_greater": 0.995396,
+    "p_less": 0.004604,
+    "p_two_sided": 0.009208,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -1.618055,
+     "charity": -1.231481,
+     "college_choice": -1.247685,
+     "consumer_lending": -0.69213,
+     "evidence_appraisal": 1.090278,
+     "grant_funding": -0.384259,
+     "hiring": 0.006944,
+     "hospital_referral": -0.423611,
+     "lab_supplier": -0.662037,
+     "legal_defence": -1.50463,
+     "medication_choice": -0.395833,
+     "products": -0.246795,
+     "public_procurement": -0.696759
+    }
+   },
+   "share_points_named_minus_hidden": {
+    "mean": -6.552092,
+    "ci95": [
+     -10.85257,
+     -2.251614
+    ],
+    "ci90": [
+     -10.06992,
+     -3.034265
+    ],
+    "se": 1.973771,
+    "df": 12,
+    "t": -3.319581,
+    "p_greater": 0.996943,
+    "p_less": 0.003057,
+    "p_two_sided": 0.006115,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -18.85063,
+     "charity": -14.029672,
+     "college_choice": -10.327255,
+     "consumer_lending": -8.768453,
+     "evidence_appraisal": 6.239676,
+     "grant_funding": -2.233642,
+     "hiring": 0.019223,
+     "hospital_referral": -4.279996,
+     "lab_supplier": -9.533214,
+     "legal_defence": -15.320341,
+     "medication_choice": 0.691967,
+     "products": -3.125311,
+     "public_procurement": -5.659549
+    }
+   },
+   "hidden_arm_share_on_the_two_tied_letters": {
+    "mean": 0.933682,
+    "ci95": [
+     0.889595,
+     0.97777
+    ],
+    "reads_the_tie_page_ge_0.50": true
+   },
+   "values_floored_at_1e-30": 0,
+   "raw_files": [
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/qwen2.5-7b-instruct_plain.csv.gz"
+   ]
+  },
+  {
+   "key": "products_only_olmo2_base",
+   "what": "product tables only (the consumer brands of Study 1), olmo2-7b-base, plain",
+   "verdict": "reversal",
+   "p_one_sided_holm_across_two": 0.984062,
+   "model_tag": "olmo2-7b-base",
+   "repo": "allenai/OLMo-2-1124-7B",
+   "revision": "main",
+   "commit_sha": "7df9a82518afdecae4e8c026b27adccc8c1f0032",
+   "format": "plain",
+   "tables": "holdout products (26 assortments)",
+   "repetitions": "1-6",
+   "n_tie_trials": 156,
+   "n_distinct_prompts_scored_named_and_hidden": 234,
+   "n_distinct_prompts_scored_incl_placebo": 390,
+   "estimate_D": -0.031989,
+   "ci95": [
+    -0.060741,
+    -0.003236
+   ],
+   "odds_ratio_exp_D": 0.968518,
+   "D_stats": {
+    "mean": -0.031989,
+    "ci95": [
+     -0.060741,
+     -0.003236
+    ],
+    "ci90": [
+     -0.055558,
+     -0.008419
+    ],
+    "se_cr1": 0.013309,
+    "df": 13,
+    "t": -2.403504,
+    "p_greater": 0.984062,
+    "p_less": 0.015938,
+    "p_two_sided": 0.031875,
+    "n_tables": 26,
+    "n_clusters": 14,
+    "interval_method": "95% t interval (G - 1 df) with CR1 cluster-robust SE by twin brand",
+    "clusters": [
+     "Apple",
+     "Beats",
+     "Canon",
+     "Dell",
+     "HP",
+     "JBL",
+     "Keurig",
+     "Lenovo",
+     "Netgear",
+     "Nike",
+     "Oral-B",
+     "Samsung",
+     "Sony",
+     "The North Face"
+    ]
+   },
+   "placebo_condition_D_minus_DP": {
+    "mean": -0.034654,
+    "ci95": [
+     -0.060094,
+     -0.009214
+    ],
+    "ci90": [
+     -0.055508,
+     -0.0138
+    ],
+    "se_cr1": 0.011776,
+    "df": 13,
+    "t": -2.942791,
+    "p_greater": 0.994285,
+    "p_less": 0.005715,
+    "p_two_sided": 0.011429,
+    "n_tables": 26,
+    "n_clusters": 14,
+    "interval_method": "95% t interval (G - 1 df) with CR1 cluster-robust SE by twin brand",
+    "clusters": [
+     "Apple",
+     "Beats",
+     "Canon",
+     "Dell",
+     "HP",
+     "JBL",
+     "Keurig",
+     "Lenovo",
+     "Netgear",
+     "Nike",
+     "Oral-B",
+     "Samsung",
+     "Sony",
+     "The North Face"
+    ]
+   },
+   "share_points_named_minus_hidden": {
+    "mean": -0.707423,
+    "ci95": [
+     -1.373327,
+     -0.04152
+    ],
+    "ci90": [
+     -1.253289,
+     -0.161558
+    ],
+    "se_cr1": 0.308236,
+    "df": 13,
+    "t": -2.295069,
+    "p_greater": 0.980493,
+    "p_less": 0.019507,
+    "p_two_sided": 0.039014,
+    "n_tables": 26,
+    "n_clusters": 14,
+    "interval_method": "95% t interval (G - 1 df) with CR1 cluster-robust SE by twin brand",
+    "clusters": [
+     "Apple",
+     "Beats",
+     "Canon",
+     "Dell",
+     "HP",
+     "JBL",
+     "Keurig",
+     "Lenovo",
+     "Netgear",
+     "Nike",
+     "Oral-B",
+     "Samsung",
+     "Sony",
+     "The North Face"
+    ]
+   },
+   "raw_files": [
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-base_plain.csv.gz"
+   ]
+  },
+  {
+   "key": "products_only_olmo2_instruct",
+   "what": "product tables only (the consumer brands of Study 1), olmo2-7b-instruct, chat",
+   "verdict": "hit",
+   "p_one_sided_holm_across_two": 0.020656,
+   "model_tag": "olmo2-7b-instruct",
+   "repo": "allenai/OLMo-2-1124-7B-Instruct",
+   "revision": "main",
+   "commit_sha": "470b1fba1ae01581f270116362ee4aa1b97f4c84",
+   "format": "chat",
+   "tables": "holdout products (26 assortments)",
+   "repetitions": "1-6",
+   "n_tie_trials": 156,
+   "n_distinct_prompts_scored_named_and_hidden": 234,
+   "n_distinct_prompts_scored_incl_placebo": 390,
+   "estimate_D": 0.264022,
+   "ci95": [
+    0.047421,
+    0.480624
+   ],
+   "odds_ratio_exp_D": 1.302157,
+   "D_stats": {
+    "mean": 0.264022,
+    "ci95": [
+     0.047421,
+     0.480624
+    ],
+    "ci90": [
+     0.086466,
+     0.441579
+    ],
+    "se_cr1": 0.100261,
+    "df": 13,
+    "t": 2.633341,
+    "p_greater": 0.010328,
+    "p_less": 0.989672,
+    "p_two_sided": 0.020656,
+    "n_tables": 26,
+    "n_clusters": 14,
+    "interval_method": "95% t interval (G - 1 df) with CR1 cluster-robust SE by twin brand",
+    "clusters": [
+     "Apple",
+     "Beats",
+     "Canon",
+     "Dell",
+     "HP",
+     "JBL",
+     "Keurig",
+     "Lenovo",
+     "Netgear",
+     "Nike",
+     "Oral-B",
+     "Samsung",
+     "Sony",
+     "The North Face"
+    ]
+   },
+   "placebo_condition_D_minus_DP": {
+    "mean": 0.372195,
+    "ci95": [
+     0.172322,
+     0.572069
+    ],
+    "ci90": [
+     0.208352,
+     0.536039
+    ],
+    "se_cr1": 0.092518,
+    "df": 13,
+    "t": 4.02294,
+    "p_greater": 0.000724,
+    "p_less": 0.999276,
+    "p_two_sided": 0.001448,
+    "n_tables": 26,
+    "n_clusters": 14,
+    "interval_method": "95% t interval (G - 1 df) with CR1 cluster-robust SE by twin brand",
+    "clusters": [
+     "Apple",
+     "Beats",
+     "Canon",
+     "Dell",
+     "HP",
+     "JBL",
+     "Keurig",
+     "Lenovo",
+     "Netgear",
+     "Nike",
+     "Oral-B",
+     "Samsung",
+     "Sony",
+     "The North Face"
+    ]
+   },
+   "share_points_named_minus_hidden": {
+    "mean": 4.961264,
+    "ci95": [
+     1.347206,
+     8.575323
+    ],
+    "ci90": [
+     1.998688,
+     7.92384
+    ],
+    "se_cr1": 1.67289,
+    "df": 13,
+    "t": 2.965686,
+    "p_greater": 0.005469,
+    "p_less": 0.994531,
+    "p_two_sided": 0.010937,
+    "n_tables": 26,
+    "n_clusters": 14,
+    "interval_method": "95% t interval (G - 1 df) with CR1 cluster-robust SE by twin brand",
+    "clusters": [
+     "Apple",
+     "Beats",
+     "Canon",
+     "Dell",
+     "HP",
+     "JBL",
+     "Keurig",
+     "Lenovo",
+     "Netgear",
+     "Nike",
+     "Oral-B",
+     "Samsung",
+     "Sony",
+     "The North Face"
+    ]
+   },
+   "raw_files": [
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-instruct_chat.csv.gz"
+   ]
+  },
+  {
+   "key": "olmo2_step_base_to_sft",
+   "what": "change in D from olmo2-7b-base to olmo2-7b-sft, plain format (identical inputs), per-trial difference, domain-level paired test, two-sided",
+   "verdict": "increased",
+   "p_two_sided_used": 0.002819,
+   "p_note": "Holm across the three steps",
+   "earlier": {
+    "model_tag": "olmo2-7b-base",
+    "repo": "allenai/OLMo-2-1124-7B",
+    "revision": "main",
+    "commit_sha": "7df9a82518afdecae4e8c026b27adccc8c1f0032",
+    "format": "plain"
+   },
+   "later": {
+    "model_tag": "olmo2-7b-sft",
+    "repo": "allenai/OLMo-2-1124-7B-SFT",
+    "revision": "main",
+    "commit_sha": "1de02c0175118a9de5854aec80a1f970e701e928",
+    "format": "plain"
+   },
+   "earlier_stage_D_holdout": -0.049254,
+   "later_stage_D_holdout": 0.078213,
+   "tables": "holdout (134 tables)",
+   "repetitions": "1-6",
+   "n_matched_tie_trials": 804,
+   "n_distinct_prompts_scored_per_checkpoint": 1188,
+   "estimate_change_in_D": 0.127468,
+   "ci95": [
+    0.063667,
+    0.191268
+   ],
+   "D_change_stats": {
+    "mean": 0.127468,
+    "ci95": [
+     0.063667,
+     0.191268
+    ],
+    "ci90": [
+     0.075279,
+     0.179657
+    ],
+    "se": 0.029282,
+    "df": 12,
+    "t": 4.353089,
+    "p_greater": 0.00047,
+    "p_less": 0.99953,
+    "p_two_sided": 0.00094,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 0.331553,
+     "charity": 0.050631,
+     "college_choice": 0.180329,
+     "consumer_lending": -0.089124,
+     "evidence_appraisal": 0.174404,
+     "grant_funding": 0.180842,
+     "hiring": 0.157006,
+     "hospital_referral": 0.135854,
+     "lab_supplier": 0.05266,
+     "legal_defence": 0.047266,
+     "medication_choice": 0.244932,
+     "products": 0.131544,
+     "public_procurement": 0.059185
+    }
+   },
+   "raw_files": [
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-base_plain.csv.gz",
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-sft_plain.csv.gz"
+   ]
+  },
+  {
+   "key": "olmo2_step_sft_to_dpo",
+   "what": "change in D from olmo2-7b-sft to olmo2-7b-dpo, plain format (identical inputs), per-trial difference, domain-level paired test, two-sided",
+   "verdict": "equivalent",
+   "p_two_sided_used": 0.173996,
+   "p_note": "Holm across the three steps",
+   "earlier": {
+    "model_tag": "olmo2-7b-sft",
+    "repo": "allenai/OLMo-2-1124-7B-SFT",
+    "revision": "main",
+    "commit_sha": "1de02c0175118a9de5854aec80a1f970e701e928",
+    "format": "plain"
+   },
+   "later": {
+    "model_tag": "olmo2-7b-dpo",
+    "repo": "allenai/OLMo-2-1124-7B-DPO",
+    "revision": "main",
+    "commit_sha": "e34ea60adff2e575f4fe7569eaffd1b28509b6fd",
+    "format": "plain"
+   },
+   "earlier_stage_D_holdout": 0.078213,
+   "later_stage_D_holdout": 0.120324,
+   "tables": "holdout (134 tables)",
+   "repetitions": "1-6",
+   "n_matched_tie_trials": 804,
+   "n_distinct_prompts_scored_per_checkpoint": 1188,
+   "estimate_change_in_D": 0.042111,
+   "ci95": [
+    -0.007119,
+    0.09134
+   ],
+   "D_change_stats": {
+    "mean": 0.042111,
+    "ci95": [
+     -0.007119,
+     0.09134
+    ],
+    "ci90": [
+     0.001841,
+     0.082381
+    ],
+    "se": 0.022595,
+    "df": 12,
+    "t": 1.863759,
+    "p_greater": 0.043499,
+    "p_less": 0.956501,
+    "p_two_sided": 0.086998,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 0.06135,
+     "charity": -0.037036,
+     "college_choice": -0.001735,
+     "consumer_lending": -0.038195,
+     "evidence_appraisal": 0.09954,
+     "grant_funding": 0.138314,
+     "hiring": 0.022574,
+     "hospital_referral": 0.127317,
+     "lab_supplier": 0.024305,
+     "legal_defence": -0.11053,
+     "medication_choice": 0.177664,
+     "products": 0.076927,
+     "public_procurement": 0.006946
+    }
+   },
+   "raw_files": [
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-sft_plain.csv.gz",
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-dpo_plain.csv.gz"
+   ]
+  },
+  {
+   "key": "olmo2_step_dpo_to_instruct",
+   "what": "change in D from olmo2-7b-dpo to olmo2-7b-instruct, plain format (identical inputs), per-trial difference, domain-level paired test, two-sided",
+   "verdict": "equivalent",
+   "p_two_sided_used": 0.273381,
+   "p_note": "Holm across the three steps",
+   "earlier": {
+    "model_tag": "olmo2-7b-dpo",
+    "repo": "allenai/OLMo-2-1124-7B-DPO",
+    "revision": "main",
+    "commit_sha": "e34ea60adff2e575f4fe7569eaffd1b28509b6fd",
+    "format": "plain"
+   },
+   "later": {
+    "model_tag": "olmo2-7b-instruct",
+    "repo": "allenai/OLMo-2-1124-7B-Instruct",
+    "revision": "main",
+    "commit_sha": "470b1fba1ae01581f270116362ee4aa1b97f4c84",
+    "format": "plain"
+   },
+   "earlier_stage_D_holdout": 0.120324,
+   "later_stage_D_holdout": 0.104114,
+   "tables": "holdout (134 tables)",
+   "repetitions": "1-6",
+   "n_matched_tie_trials": 804,
+   "n_distinct_prompts_scored_per_checkpoint": 1188,
+   "estimate_change_in_D": -0.016211,
+   "ci95": [
+    -0.04698,
+    0.014559
+   ],
+   "D_change_stats": {
+    "mean": -0.016211,
+    "ci95": [
+     -0.04698,
+     0.014559
+    ],
+    "ci90": [
+     -0.04138,
+     0.008959
+    ],
+    "se": 0.014122,
+    "df": 12,
+    "t": -1.147897,
+    "p_greater": 0.86331,
+    "p_less": 0.13669,
+    "p_two_sided": 0.273381,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -0.085648,
+     "charity": 0.003472,
+     "college_choice": -0.028356,
+     "consumer_lending": -0.057872,
+     "evidence_appraisal": -0.046295,
+     "grant_funding": -0.071758,
+     "hiring": 0.046876,
+     "hospital_referral": 0.054398,
+     "lab_supplier": 0.006944,
+     "legal_defence": 0.027774,
+     "medication_choice": 0.052084,
+     "products": -0.07532,
+     "public_procurement": -0.037037
+    }
+   },
+   "raw_files": [
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-dpo_plain.csv.gz",
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-instruct_plain.csv.gz"
+   ]
+  },
+  {
+   "key": "olmo2_step_base_to_instruct",
+   "what": "change in D from olmo2-7b-base to olmo2-7b-instruct, plain format (identical inputs), per-trial difference, domain-level paired test, two-sided",
+   "verdict": "increased",
+   "p_two_sided_used": 0.007939,
+   "p_note": "unadjusted (not one of the three Holm steps)",
+   "earlier": {
+    "model_tag": "olmo2-7b-base",
+    "repo": "allenai/OLMo-2-1124-7B",
+    "revision": "main",
+    "commit_sha": "7df9a82518afdecae4e8c026b27adccc8c1f0032",
+    "format": "plain"
+   },
+   "later": {
+    "model_tag": "olmo2-7b-instruct",
+    "repo": "allenai/OLMo-2-1124-7B-Instruct",
+    "revision": "main",
+    "commit_sha": "470b1fba1ae01581f270116362ee4aa1b97f4c84",
+    "format": "plain"
+   },
+   "earlier_stage_D_holdout": -0.049254,
+   "later_stage_D_holdout": 0.104114,
+   "tables": "holdout (134 tables)",
+   "repetitions": "1-6",
+   "n_matched_tie_trials": 804,
+   "n_distinct_prompts_scored_per_checkpoint": 1188,
+   "estimate_change_in_D": 0.153368,
+   "ci95": [
+    0.048246,
+    0.25849
+   ],
+   "D_change_stats": {
+    "mean": 0.153368,
+    "ci95": [
+     0.048246,
+     0.25849
+    ],
+    "ci90": [
+     0.067377,
+     0.239359
+    ],
+    "se": 0.048247,
+    "df": 12,
+    "t": 3.17878,
+    "p_greater": 0.00397,
+    "p_less": 0.99603,
+    "p_two_sided": 0.007939,
+    "n_tables": 134,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 0.307255,
+     "charity": 0.017067,
+     "college_choice": 0.150238,
+     "consumer_lending": -0.18519,
+     "evidence_appraisal": 0.227648,
+     "grant_funding": 0.247398,
+     "hiring": 0.226456,
+     "hospital_referral": 0.317569,
+     "lab_supplier": 0.083909,
+     "legal_defence": -0.03549,
+     "medication_choice": 0.47468,
+     "products": 0.13315,
+     "public_procurement": 0.029095
+    }
+   },
+   "raw_files": [
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-base_plain.csv.gz",
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-instruct_plain.csv.gz"
+   ]
+  }
+ ],
+ "trajectory_and_post_training_ladder": [
+  {
+   "checkpoint": "olmo2-7b-s1-5B",
+   "in_the_pre_specified_trajectory": true,
+   "model_tag": "olmo2-7b-s1-5B",
+   "repo": "allenai/OLMo-2-1124-7B",
+   "revision": "stage1-step1000-tokens5B",
+   "commit_sha": "ea9a026581be70db65a9463c0b8a28ae39d79301",
+   "format": "plain",
+   "tables": "all 250 (exploration and holdout)",
+   "repetitions": "1-4",
+   "n_tie_trials": 1000,
+   "n_distinct_prompts_scored_named_and_hidden": 1497,
+   "estimate_D": -0.002036,
+   "ci95": [
+    -0.006147,
+    0.002074
+   ],
+   "D_stats": {
+    "mean": -0.002036,
+    "ci95": [
+     -0.006147,
+     0.002074
+    ],
+    "ci90": [
+     -0.005399,
+     0.001326
+    ],
+    "se": 0.001887,
+    "df": 12,
+    "t": -1.079331,
+    "p_greater": 0.849171,
+    "p_less": 0.150829,
+    "p_two_sided": 0.301657,
+    "n_tables": 250,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -0.004338,
+     "charity": -0.010375,
+     "college_choice": 0.001279,
+     "consumer_lending": -0.002599,
+     "evidence_appraisal": -0.003453,
+     "grant_funding": 0.003232,
+     "hiring": -0.002823,
+     "hospital_referral": -0.00607,
+     "lab_supplier": -0.007804,
+     "legal_defence": -0.000445,
+     "medication_choice": 0.017102,
+     "products": -0.004131,
+     "public_procurement": -0.00605
+    }
+   },
+   "reading_ability_builder_medium_large": {
+    "mean": 0.172295,
+    "ci95": [
+     0.15162,
+     0.19297
+    ],
+    "ci90": [
+     0.155425,
+     0.189164
+    ],
+    "se": 0.009394,
+    "df": 11,
+    "t": 18.341812,
+    "p_greater": 0.0,
+    "p_less": 1.0,
+    "p_two_sided": 0.0,
+    "n_tables": 144,
+    "n_domains": 12,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 0.209135,
+     "charity": 0.147223,
+     "college_choice": 0.175883,
+     "consumer_lending": 0.215335,
+     "evidence_appraisal": 0.161329,
+     "grant_funding": 0.175907,
+     "hiring": 0.126864,
+     "hospital_referral": 0.122023,
+     "lab_supplier": 0.217784,
+     "legal_defence": 0.175341,
+     "medication_choice": 0.148155,
+     "public_procurement": 0.192557
+    }
+   },
+   "median_letter_mass_distinct_texts_reps_1_4": 0.101524,
+   "interpretable_median_mass_ge_0_05": true,
+   "raw_files": [
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-s1-5B_plain.csv.gz"
+   ]
+  },
+  {
+   "checkpoint": "olmo2-7b-s1-51B",
+   "in_the_pre_specified_trajectory": true,
+   "model_tag": "olmo2-7b-s1-51B",
+   "repo": "allenai/OLMo-2-1124-7B",
+   "revision": "stage1-step12000-tokens51B",
+   "commit_sha": "c954a061c72d09d0a3d560483fb8c7179386ba15",
+   "format": "plain",
+   "tables": "all 250 (exploration and holdout)",
+   "repetitions": "1-4",
+   "n_tie_trials": 1000,
+   "n_distinct_prompts_scored_named_and_hidden": 1497,
+   "estimate_D": 0.003261,
+   "ci95": [
+    -0.003876,
+    0.010397
+   ],
+   "D_stats": {
+    "mean": 0.003261,
+    "ci95": [
+     -0.003876,
+     0.010397
+    ],
+    "ci90": [
+     -0.002577,
+     0.009098
+    ],
+    "se": 0.003275,
+    "df": 12,
+    "t": 0.995522,
+    "p_greater": 0.169567,
+    "p_less": 0.830433,
+    "p_two_sided": 0.339134,
+    "n_tables": 250,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -0.009045,
+     "charity": 0.012823,
+     "college_choice": 0.000137,
+     "consumer_lending": 0.012643,
+     "evidence_appraisal": 0.009873,
+     "grant_funding": 0.023419,
+     "hiring": 0.004238,
+     "hospital_referral": 0.017319,
+     "lab_supplier": -0.002635,
+     "legal_defence": 0.005092,
+     "medication_choice": -0.004365,
+     "products": -0.010224,
+     "public_procurement": -0.016888
+    }
+   },
+   "reading_ability_builder_medium_large": {
+    "mean": 0.196389,
+    "ci95": [
+     0.188969,
+     0.20381
+    ],
+    "ci90": [
+     0.190335,
+     0.202444
+    ],
+    "se": 0.003371,
+    "df": 11,
+    "t": 58.250356,
+    "p_greater": 0.0,
+    "p_less": 1.0,
+    "p_two_sided": 0.0,
+    "n_tables": 144,
+    "n_domains": 12,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 0.203106,
+     "charity": 0.188051,
+     "college_choice": 0.199278,
+     "consumer_lending": 0.215974,
+     "evidence_appraisal": 0.198868,
+     "grant_funding": 0.190662,
+     "hiring": 0.177623,
+     "hospital_referral": 0.183033,
+     "lab_supplier": 0.204029,
+     "legal_defence": 0.191794,
+     "medication_choice": 0.190316,
+     "public_procurement": 0.213939
+    }
+   },
+   "median_letter_mass_distinct_texts_reps_1_4": 0.37997,
+   "interpretable_median_mass_ge_0_05": true,
+   "raw_files": [
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-s1-51B_plain.csv.gz"
+   ]
+  },
+  {
+   "checkpoint": "olmo2-7b-s1-151B",
+   "in_the_pre_specified_trajectory": true,
+   "model_tag": "olmo2-7b-s1-151B",
+   "repo": "allenai/OLMo-2-1124-7B",
+   "revision": "stage1-step36000-tokens151B",
+   "commit_sha": "fab28417a8d051d4f56810b2804ef861f550ba00",
+   "format": "plain",
+   "tables": "all 250 (exploration and holdout)",
+   "repetitions": "1-4",
+   "n_tie_trials": 1000,
+   "n_distinct_prompts_scored_named_and_hidden": 1497,
+   "estimate_D": 0.000701,
+   "ci95": [
+    -0.006823,
+    0.008225
+   ],
+   "D_stats": {
+    "mean": 0.000701,
+    "ci95": [
+     -0.006823,
+     0.008225
+    ],
+    "ci90": [
+     -0.005453,
+     0.006856
+    ],
+    "se": 0.003453,
+    "df": 12,
+    "t": 0.203093,
+    "p_greater": 0.421233,
+    "p_less": 0.578767,
+    "p_two_sided": 0.842465,
+    "n_tables": 250,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 0.003344,
+     "charity": 0.00183,
+     "college_choice": 0.008636,
+     "consumer_lending": -0.002603,
+     "evidence_appraisal": 0.025179,
+     "grant_funding": 0.007515,
+     "hiring": 0.015934,
+     "hospital_referral": 0.002165,
+     "lab_supplier": -0.019632,
+     "legal_defence": -0.016413,
+     "medication_choice": 0.001011,
+     "products": -0.010753,
+     "public_procurement": -0.007096
+    }
+   },
+   "reading_ability_builder_medium_large": {
+    "mean": 0.188165,
+    "ci95": [
+     0.17371,
+     0.202621
+    ],
+    "ci90": [
+     0.17637,
+     0.19996
+    ],
+    "se": 0.006568,
+    "df": 11,
+    "t": 28.65008,
+    "p_greater": 0.0,
+    "p_less": 1.0,
+    "p_two_sided": 0.0,
+    "n_tables": 144,
+    "n_domains": 12,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 0.197071,
+     "charity": 0.174537,
+     "college_choice": 0.194506,
+     "consumer_lending": 0.225326,
+     "evidence_appraisal": 0.182272,
+     "grant_funding": 0.187394,
+     "hiring": 0.172629,
+     "hospital_referral": 0.14691,
+     "lab_supplier": 0.20807,
+     "legal_defence": 0.19402,
+     "medication_choice": 0.15936,
+     "public_procurement": 0.21589
+    }
+   },
+   "median_letter_mass_distinct_texts_reps_1_4": 0.282352,
+   "interpretable_median_mass_ge_0_05": true,
+   "raw_files": [
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-s1-151B_plain.csv.gz"
+   ]
+  },
+  {
+   "checkpoint": "olmo2-7b-s1-500B",
+   "in_the_pre_specified_trajectory": true,
+   "model_tag": "olmo2-7b-s1-500B",
+   "repo": "allenai/OLMo-2-1124-7B",
+   "revision": "stage1-step119000-tokens500B",
+   "commit_sha": "9c6eebc40a188d897861bc7e80c7482241c2891e",
+   "format": "plain",
+   "tables": "all 250 (exploration and holdout)",
+   "repetitions": "1-4",
+   "n_tie_trials": 1000,
+   "n_distinct_prompts_scored_named_and_hidden": 1497,
+   "estimate_D": -0.005773,
+   "ci95": [
+    -0.016475,
+    0.004929
+   ],
+   "D_stats": {
+    "mean": -0.005773,
+    "ci95": [
+     -0.016475,
+     0.004929
+    ],
+    "ci90": [
+     -0.014527,
+     0.002981
+    ],
+    "se": 0.004912,
+    "df": 12,
+    "t": -1.175292,
+    "p_greater": 0.868664,
+    "p_less": 0.131336,
+    "p_two_sided": 0.262671,
+    "n_tables": 250,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -0.040685,
+     "charity": -0.029731,
+     "college_choice": -0.003804,
+     "consumer_lending": -0.011831,
+     "evidence_appraisal": 0.009195,
+     "grant_funding": 0.000374,
+     "hiring": -0.002392,
+     "hospital_referral": 0.032805,
+     "lab_supplier": 0.005372,
+     "legal_defence": -0.006892,
+     "medication_choice": -0.008845,
+     "products": -0.011404,
+     "public_procurement": -0.007209
+    }
+   },
+   "reading_ability_builder_medium_large": {
+    "mean": 0.196021,
+    "ci95": [
+     0.186741,
+     0.205301
+    ],
+    "ci90": [
+     0.188449,
+     0.203593
+    ],
+    "se": 0.004216,
+    "df": 11,
+    "t": 46.492139,
+    "p_greater": 0.0,
+    "p_less": 1.0,
+    "p_two_sided": 0.0,
+    "n_tables": 144,
+    "n_domains": 12,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 0.184174,
+     "charity": 0.189129,
+     "college_choice": 0.192168,
+     "consumer_lending": 0.225622,
+     "evidence_appraisal": 0.192439,
+     "grant_funding": 0.203068,
+     "hiring": 0.173571,
+     "hospital_referral": 0.180284,
+     "lab_supplier": 0.20734,
+     "legal_defence": 0.195997,
+     "medication_choice": 0.194473,
+     "public_procurement": 0.21399
+    }
+   },
+   "median_letter_mass_distinct_texts_reps_1_4": 0.24128,
+   "interpretable_median_mass_ge_0_05": true,
+   "raw_files": [
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-s1-500B_plain.csv.gz"
+   ]
+  },
+  {
+   "checkpoint": "olmo2-7b-s1-999B",
+   "in_the_pre_specified_trajectory": true,
+   "model_tag": "olmo2-7b-s1-999B",
+   "repo": "allenai/OLMo-2-1124-7B",
+   "revision": "stage1-step238000-tokens999B",
+   "commit_sha": "7c29a0917ebd48c1df5d88c337e499cfbeb497d4",
+   "format": "plain",
+   "tables": "all 250 (exploration and holdout)",
+   "repetitions": "1-4",
+   "n_tie_trials": 1000,
+   "n_distinct_prompts_scored_named_and_hidden": 1497,
+   "estimate_D": -0.018771,
+   "ci95": [
+    -0.042298,
+    0.004756
+   ],
+   "D_stats": {
+    "mean": -0.018771,
+    "ci95": [
+     -0.042298,
+     0.004756
+    ],
+    "ci90": [
+     -0.038017,
+     0.000474
+    ],
+    "se": 0.010798,
+    "df": 12,
+    "t": -1.738364,
+    "p_greater": 0.946143,
+    "p_less": 0.053857,
+    "p_two_sided": 0.107713,
+    "n_tables": 250,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -0.056388,
+     "charity": -0.042745,
+     "college_choice": -0.018984,
+     "consumer_lending": -0.057417,
+     "evidence_appraisal": 0.062253,
+     "grant_funding": 0.027993,
+     "hiring": -0.005304,
+     "hospital_referral": 0.019848,
+     "lab_supplier": -0.047668,
+     "legal_defence": -0.036051,
+     "medication_choice": 0.01233,
+     "products": -0.058374,
+     "public_procurement": -0.043518
+    }
+   },
+   "reading_ability_builder_medium_large": {
+    "mean": 0.200974,
+    "ci95": [
+     0.19392,
+     0.208028
+    ],
+    "ci90": [
+     0.195218,
+     0.20673
+    ],
+    "se": 0.003205,
+    "df": 11,
+    "t": 62.707086,
+    "p_greater": 0.0,
+    "p_less": 1.0,
+    "p_two_sided": 0.0,
+    "n_tables": 144,
+    "n_domains": 12,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 0.204929,
+     "charity": 0.207342,
+     "college_choice": 0.19854,
+     "consumer_lending": 0.210725,
+     "evidence_appraisal": 0.20014,
+     "grant_funding": 0.202582,
+     "hiring": 0.174529,
+     "hospital_referral": 0.185696,
+     "lab_supplier": 0.209324,
+     "legal_defence": 0.202258,
+     "medication_choice": 0.200817,
+     "public_procurement": 0.214804
+    }
+   },
+   "median_letter_mass_distinct_texts_reps_1_4": 0.239991,
+   "interpretable_median_mass_ge_0_05": true,
+   "raw_files": [
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-s1-999B_plain.csv.gz"
+   ]
+  },
+  {
+   "checkpoint": "olmo2-7b-s1-2001B",
+   "in_the_pre_specified_trajectory": true,
+   "model_tag": "olmo2-7b-s1-2001B",
+   "repo": "allenai/OLMo-2-1124-7B",
+   "revision": "stage1-step477000-tokens2001B",
+   "commit_sha": "fdb68daa06eab54f8e31443385d9512cf411bdfe",
+   "format": "plain",
+   "tables": "all 250 (exploration and holdout)",
+   "repetitions": "1-4",
+   "n_tie_trials": 1000,
+   "n_distinct_prompts_scored_named_and_hidden": 1497,
+   "estimate_D": -0.018216,
+   "ci95": [
+    -0.049395,
+    0.012963
+   ],
+   "D_stats": {
+    "mean": -0.018216,
+    "ci95": [
+     -0.049395,
+     0.012963
+    ],
+    "ci90": [
+     -0.043721,
+     0.007289
+    ],
+    "se": 0.01431,
+    "df": 12,
+    "t": -1.272954,
+    "p_greater": 0.886428,
+    "p_less": 0.113572,
+    "p_two_sided": 0.227143,
+    "n_tables": 250,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -0.114123,
+     "charity": -0.082364,
+     "college_choice": -0.012929,
+     "consumer_lending": -0.058143,
+     "evidence_appraisal": 0.060705,
+     "grant_funding": 0.028385,
+     "hiring": 0.036007,
+     "hospital_referral": 0.034589,
+     "lab_supplier": -0.022389,
+     "legal_defence": -0.048174,
+     "medication_choice": -0.012397,
+     "products": 0.007732,
+     "public_procurement": -0.053708
+    }
+   },
+   "reading_ability_builder_medium_large": {
+    "mean": 0.201455,
+    "ci95": [
+     0.194588,
+     0.208322
+    ],
+    "ci90": [
+     0.195851,
+     0.207058
+    ],
+    "se": 0.00312,
+    "df": 11,
+    "t": 64.568861,
+    "p_greater": 0.0,
+    "p_less": 1.0,
+    "p_two_sided": 0.0,
+    "n_tables": 144,
+    "n_domains": 12,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 0.201085,
+     "charity": 0.193455,
+     "college_choice": 0.19446,
+     "consumer_lending": 0.208568,
+     "evidence_appraisal": 0.195632,
+     "grant_funding": 0.213265,
+     "hiring": 0.184836,
+     "hospital_referral": 0.191838,
+     "lab_supplier": 0.216015,
+     "legal_defence": 0.197457,
+     "medication_choice": 0.200665,
+     "public_procurement": 0.22018
+    }
+   },
+   "median_letter_mass_distinct_texts_reps_1_4": 0.255578,
+   "interpretable_median_mass_ge_0_05": true,
+   "raw_files": [
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-s1-2001B_plain.csv.gz"
+   ]
+  },
+  {
+   "checkpoint": "olmo2-7b-s1-2999B",
+   "in_the_pre_specified_trajectory": true,
+   "model_tag": "olmo2-7b-s1-2999B",
+   "repo": "allenai/OLMo-2-1124-7B",
+   "revision": "stage1-step715000-tokens2999B",
+   "commit_sha": "84cb2f8082307966275e144137a2633db97b4068",
+   "format": "plain",
+   "tables": "all 250 (exploration and holdout)",
+   "repetitions": "1-4",
+   "n_tie_trials": 1000,
+   "n_distinct_prompts_scored_named_and_hidden": 1497,
+   "estimate_D": -0.038436,
+   "ci95": [
+    -0.073458,
+    -0.003414
+   ],
+   "D_stats": {
+    "mean": -0.038436,
+    "ci95": [
+     -0.073458,
+     -0.003414
+    ],
+    "ci90": [
+     -0.067084,
+     -0.009787
+    ],
+    "se": 0.016074,
+    "df": 12,
+    "t": -2.391182,
+    "p_greater": 0.982969,
+    "p_less": 0.017031,
+    "p_two_sided": 0.034062,
+    "n_tables": 250,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -0.121784,
+     "charity": -0.115477,
+     "college_choice": -0.034919,
+     "consumer_lending": -0.067293,
+     "evidence_appraisal": -0.008315,
+     "grant_funding": 0.018513,
+     "hiring": 0.010943,
+     "hospital_referral": 0.066715,
+     "lab_supplier": -0.065193,
+     "legal_defence": -0.11884,
+     "medication_choice": -0.001057,
+     "products": -0.042841,
+     "public_procurement": -0.020114
+    }
+   },
+   "reading_ability_builder_medium_large": {
+    "mean": 0.206862,
+    "ci95": [
+     0.202563,
+     0.211161
+    ],
+    "ci90": [
+     0.203354,
+     0.21037
+    ],
+    "se": 0.001953,
+    "df": 11,
+    "t": 105.912598,
+    "p_greater": 0.0,
+    "p_less": 1.0,
+    "p_two_sided": 0.0,
+    "n_tables": 144,
+    "n_domains": 12,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 0.20588,
+     "charity": 0.208838,
+     "college_choice": 0.207164,
+     "consumer_lending": 0.21068,
+     "evidence_appraisal": 0.198089,
+     "grant_funding": 0.208365,
+     "hiring": 0.198209,
+     "hospital_referral": 0.199967,
+     "lab_supplier": 0.218274,
+     "legal_defence": 0.199541,
+     "medication_choice": 0.211953,
+     "public_procurement": 0.215384
+    }
+   },
+   "median_letter_mass_distinct_texts_reps_1_4": 0.55834,
+   "interpretable_median_mass_ge_0_05": true,
+   "raw_files": [
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-s1-2999B_plain.csv.gz"
+   ]
+  },
+  {
+   "checkpoint": "olmo2-7b-s1-3896B",
+   "in_the_pre_specified_trajectory": true,
+   "model_tag": "olmo2-7b-s1-3896B",
+   "repo": "allenai/OLMo-2-1124-7B",
+   "revision": "stage1-step928646-tokens3896B",
+   "commit_sha": "c0371f4281bf2376207646c6b62ddc6c442c7577",
+   "format": "plain",
+   "tables": "all 250 (exploration and holdout)",
+   "repetitions": "1-4",
+   "n_tie_trials": 1000,
+   "n_distinct_prompts_scored_named_and_hidden": 1497,
+   "estimate_D": -0.035143,
+   "ci95": [
+    -0.062657,
+    -0.007628
+   ],
+   "D_stats": {
+    "mean": -0.035143,
+    "ci95": [
+     -0.062657,
+     -0.007628
+    ],
+    "ci90": [
+     -0.05765,
+     -0.012636
+    ],
+    "se": 0.012628,
+    "df": 12,
+    "t": -2.782898,
+    "p_greater": 0.991719,
+    "p_less": 0.008281,
+    "p_two_sided": 0.016561,
+    "n_tables": 250,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -0.100261,
+     "charity": -0.075605,
+     "college_choice": -0.091925,
+     "consumer_lending": -0.045786,
+     "evidence_appraisal": 0.009677,
+     "grant_funding": 0.028738,
+     "hiring": -0.013723,
+     "hospital_referral": 0.034469,
+     "lab_supplier": -0.033298,
+     "legal_defence": -0.073155,
+     "medication_choice": 0.007891,
+     "products": -0.066145,
+     "public_procurement": -0.037734
+    }
+   },
+   "reading_ability_builder_medium_large": {
+    "mean": 0.203867,
+    "ci95": [
+     0.199086,
+     0.208647
+    ],
+    "ci90": [
+     0.199966,
+     0.207767
+    ],
+    "se": 0.002172,
+    "df": 11,
+    "t": 93.858707,
+    "p_greater": 0.0,
+    "p_less": 1.0,
+    "p_two_sided": 0.0,
+    "n_tables": 144,
+    "n_domains": 12,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 0.20607,
+     "charity": 0.203545,
+     "college_choice": 0.202428,
+     "consumer_lending": 0.212641,
+     "evidence_appraisal": 0.206615,
+     "grant_funding": 0.200485,
+     "hiring": 0.193701,
+     "hospital_referral": 0.190815,
+     "lab_supplier": 0.213577,
+     "legal_defence": 0.196989,
+     "medication_choice": 0.205591,
+     "public_procurement": 0.213941
+    }
+   },
+   "median_letter_mass_distinct_texts_reps_1_4": 0.355096,
+   "interpretable_median_mass_ge_0_05": true,
+   "raw_files": [
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-s1-3896B_plain.csv.gz"
+   ]
+  },
+  {
+   "checkpoint": "olmo2-7b-s2-ing1-50B",
+   "in_the_pre_specified_trajectory": true,
+   "model_tag": "olmo2-7b-s2-ing1-50B",
+   "repo": "allenai/OLMo-2-1124-7B",
+   "revision": "stage2-ingredient1-step11931-tokens50B",
+   "commit_sha": "6f585dd23edb5df3c7777687f1d32eb08e42bbcd",
+   "format": "plain",
+   "tables": "all 250 (exploration and holdout)",
+   "repetitions": "1-4",
+   "n_tie_trials": 1000,
+   "n_distinct_prompts_scored_named_and_hidden": 1497,
+   "estimate_D": -0.039772,
+   "ci95": [
+    -0.063468,
+    -0.016076
+   ],
+   "D_stats": {
+    "mean": -0.039772,
+    "ci95": [
+     -0.063468,
+     -0.016076
+    ],
+    "ci90": [
+     -0.059156,
+     -0.020389
+    ],
+    "se": 0.010876,
+    "df": 12,
+    "t": -3.656998,
+    "p_greater": 0.998358,
+    "p_less": 0.001642,
+    "p_two_sided": 0.003284,
+    "n_tables": 250,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -0.043307,
+     "charity": -0.050347,
+     "college_choice": -0.098518,
+     "consumer_lending": -0.077144,
+     "evidence_appraisal": -0.010254,
+     "grant_funding": 0.027282,
+     "hiring": -0.019585,
+     "hospital_referral": -0.004504,
+     "lab_supplier": -0.043373,
+     "legal_defence": -0.114795,
+     "medication_choice": -0.028946,
+     "products": -0.013282,
+     "public_procurement": -0.040267
+    }
+   },
+   "reading_ability_builder_medium_large": {
+    "mean": 0.203228,
+    "ci95": [
+     0.194424,
+     0.212032
+    ],
+    "ci90": [
+     0.196044,
+     0.210411
+    ],
+    "se": 0.004,
+    "df": 11,
+    "t": 50.806398,
+    "p_greater": 0.0,
+    "p_less": 1.0,
+    "p_two_sided": 0.0,
+    "n_tables": 144,
+    "n_domains": 12,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 0.208454,
+     "charity": 0.19646,
+     "college_choice": 0.206242,
+     "consumer_lending": 0.216247,
+     "evidence_appraisal": 0.204202,
+     "grant_funding": 0.20093,
+     "hiring": 0.181937,
+     "hospital_referral": 0.175414,
+     "lab_supplier": 0.216109,
+     "legal_defence": 0.197151,
+     "medication_choice": 0.217666,
+     "public_procurement": 0.217923
+    }
+   },
+   "median_letter_mass_distinct_texts_reps_1_4": 0.299286,
+   "interpretable_median_mass_ge_0_05": true,
+   "raw_files": [
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-s2-ing1-50B_plain.csv.gz"
+   ]
+  },
+  {
+   "checkpoint": "olmo2-7b-base",
+   "in_the_pre_specified_trajectory": true,
+   "model_tag": "olmo2-7b-base",
+   "repo": "allenai/OLMo-2-1124-7B",
+   "revision": "main",
+   "commit_sha": "7df9a82518afdecae4e8c026b27adccc8c1f0032",
+   "format": "plain",
+   "tables": "all 250 (exploration and holdout)",
+   "repetitions": "1-4",
+   "n_tie_trials": 1000,
+   "n_distinct_prompts_scored_named_and_hidden": 1497,
+   "estimate_D": -0.044158,
+   "ci95": [
+    -0.071086,
+    -0.017231
+   ],
+   "D_stats": {
+    "mean": -0.044158,
+    "ci95": [
+     -0.071086,
+     -0.017231
+    ],
+    "ci90": [
+     -0.066185,
+     -0.022131
+    ],
+    "se": 0.012359,
+    "df": 12,
+    "t": -3.573004,
+    "p_greater": 0.998084,
+    "p_less": 0.001916,
+    "p_two_sided": 0.003831,
+    "n_tables": 250,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": -0.061197,
+     "charity": -0.056095,
+     "college_choice": -0.09358,
+     "consumer_lending": -0.095509,
+     "evidence_appraisal": 0.017849,
+     "grant_funding": 0.021409,
+     "hiring": -0.021212,
+     "hospital_referral": 0.001383,
+     "lab_supplier": -0.058483,
+     "legal_defence": -0.124502,
+     "medication_choice": -0.027886,
+     "products": -0.021193,
+     "public_procurement": -0.055039
+    }
+   },
+   "reading_ability_builder_medium_large": {
+    "mean": 0.200722,
+    "ci95": [
+     0.19088,
+     0.210564
+    ],
+    "ci90": [
+     0.192691,
+     0.208753
+    ],
+    "se": 0.004472,
+    "df": 11,
+    "t": 44.886479,
+    "p_greater": 0.0,
+    "p_less": 1.0,
+    "p_two_sided": 0.0,
+    "n_tables": 144,
+    "n_domains": 12,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 0.210765,
+     "charity": 0.187469,
+     "college_choice": 0.204234,
+     "consumer_lending": 0.215634,
+     "evidence_appraisal": 0.204319,
+     "grant_funding": 0.201153,
+     "hiring": 0.17849,
+     "hospital_referral": 0.171767,
+     "lab_supplier": 0.216641,
+     "legal_defence": 0.189678,
+     "medication_choice": 0.209737,
+     "public_procurement": 0.218776
+    }
+   },
+   "median_letter_mass_distinct_texts_reps_1_4": 0.32916,
+   "interpretable_median_mass_ge_0_05": true,
+   "raw_files": [
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-base_plain.csv.gz"
+   ]
+  },
+  {
+   "checkpoint": "olmo2-7b-sft",
+   "in_the_pre_specified_trajectory": false,
+   "model_tag": "olmo2-7b-sft",
+   "repo": "allenai/OLMo-2-1124-7B-SFT",
+   "revision": "main",
+   "commit_sha": "1de02c0175118a9de5854aec80a1f970e701e928",
+   "format": "plain",
+   "tables": "all 250 (exploration and holdout)",
+   "repetitions": "1-4",
+   "n_tie_trials": 1000,
+   "n_distinct_prompts_scored_named_and_hidden": 1497,
+   "estimate_D": 0.089028,
+   "ci95": [
+    0.002455,
+    0.1756
+   ],
+   "D_stats": {
+    "mean": 0.089028,
+    "ci95": [
+     0.002455,
+     0.1756
+    ],
+    "ci90": [
+     0.018211,
+     0.159845
+    ],
+    "se": 0.039734,
+    "df": 12,
+    "t": 2.240608,
+    "p_greater": 0.022374,
+    "p_less": 0.977626,
+    "p_two_sided": 0.044748,
+    "n_tables": 250,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 0.246521,
+     "charity": 0.026041,
+     "college_choice": 0.186194,
+     "consumer_lending": -0.180986,
+     "evidence_appraisal": 0.174476,
+     "grant_funding": 0.307717,
+     "hiring": 0.144526,
+     "hospital_referral": 0.151473,
+     "lab_supplier": 0.009549,
+     "legal_defence": -0.105031,
+     "medication_choice": 0.165361,
+     "products": 0.094891,
+     "public_procurement": -0.06337
+    }
+   },
+   "reading_ability_builder_medium_large": {
+    "mean": 0.277019,
+    "ci95": [
+     0.2455,
+     0.308538
+    ],
+    "ci90": [
+     0.251301,
+     0.302737
+    ],
+    "se": 0.014321,
+    "df": 11,
+    "t": 19.344129,
+    "p_greater": 0.0,
+    "p_less": 1.0,
+    "p_two_sided": 0.0,
+    "n_tables": 144,
+    "n_domains": 12,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 0.333819,
+     "charity": 0.279114,
+     "college_choice": 0.245694,
+     "consumer_lending": 0.204834,
+     "evidence_appraisal": 0.237529,
+     "grant_funding": 0.282765,
+     "hiring": 0.304927,
+     "hospital_referral": 0.314544,
+     "lab_supplier": 0.35987,
+     "legal_defence": 0.255585,
+     "medication_choice": 0.304583,
+     "public_procurement": 0.200961
+    }
+   },
+   "median_letter_mass_distinct_texts_reps_1_4": 0.603638,
+   "interpretable_median_mass_ge_0_05": true,
+   "raw_files": [
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-sft_plain.csv.gz"
+   ]
+  },
+  {
+   "checkpoint": "olmo2-7b-sft",
+   "in_the_pre_specified_trajectory": false,
+   "model_tag": "olmo2-7b-sft",
+   "repo": "allenai/OLMo-2-1124-7B-SFT",
+   "revision": "main",
+   "commit_sha": "1de02c0175118a9de5854aec80a1f970e701e928",
+   "format": "chat",
+   "tables": "all 250 (exploration and holdout)",
+   "repetitions": "1-4",
+   "n_tie_trials": 1000,
+   "n_distinct_prompts_scored_named_and_hidden": 1497,
+   "estimate_D": 0.242902,
+   "ci95": [
+    0.136297,
+    0.349507
+   ],
+   "D_stats": {
+    "mean": 0.242902,
+    "ci95": [
+     0.136297,
+     0.349507
+    ],
+    "ci90": [
+     0.155698,
+     0.330105
+    ],
+    "se": 0.048928,
+    "df": 12,
+    "t": 4.964471,
+    "p_greater": 0.000164,
+    "p_less": 0.999836,
+    "p_two_sided": 0.000328,
+    "n_tables": 250,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 0.276041,
+     "charity": 0.112847,
+     "college_choice": 0.266492,
+     "consumer_lending": -0.130208,
+     "evidence_appraisal": 0.275173,
+     "grant_funding": 0.388888,
+     "hiring": 0.382811,
+     "hospital_referral": 0.536457,
+     "lab_supplier": 0.16059,
+     "legal_defence": 0.073784,
+     "medication_choice": 0.407984,
+     "products": 0.307904,
+     "public_procurement": 0.098958
+    }
+   },
+   "reading_ability_builder_medium_large": {
+    "mean": 0.241232,
+    "ci95": [
+     0.223407,
+     0.259056
+    ],
+    "ci90": [
+     0.226688,
+     0.255776
+    ],
+    "se": 0.008098,
+    "df": 11,
+    "t": 29.787295,
+    "p_greater": 0.0,
+    "p_less": 1.0,
+    "p_two_sided": 0.0,
+    "n_tables": 144,
+    "n_domains": 12,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 0.239922,
+     "charity": 0.276018,
+     "college_choice": 0.216643,
+     "consumer_lending": 0.212594,
+     "evidence_appraisal": 0.198474,
+     "grant_funding": 0.268075,
+     "hiring": 0.241636,
+     "hospital_referral": 0.250049,
+     "lab_supplier": 0.290252,
+     "legal_defence": 0.257058,
+     "medication_choice": 0.220764,
+     "public_procurement": 0.223296
+    }
+   },
+   "median_letter_mass_distinct_texts_reps_1_4": 0.993734,
+   "interpretable_median_mass_ge_0_05": true,
+   "raw_files": [
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-sft_chat.csv.gz"
+   ]
+  },
+  {
+   "checkpoint": "olmo2-7b-dpo",
+   "in_the_pre_specified_trajectory": false,
+   "model_tag": "olmo2-7b-dpo",
+   "repo": "allenai/OLMo-2-1124-7B-DPO",
+   "revision": "main",
+   "commit_sha": "e34ea60adff2e575f4fe7569eaffd1b28509b6fd",
+   "format": "plain",
+   "tables": "all 250 (exploration and holdout)",
+   "repetitions": "1-4",
+   "n_tie_trials": 1000,
+   "n_distinct_prompts_scored_named_and_hidden": 1497,
+   "estimate_D": 0.135703,
+   "ci95": [
+    0.006312,
+    0.265095
+   ],
+   "D_stats": {
+    "mean": 0.135703,
+    "ci95": [
+     0.006312,
+     0.265095
+    ],
+    "ci90": [
+     0.02986,
+     0.241547
+    ],
+    "se": 0.059386,
+    "df": 12,
+    "t": 2.2851,
+    "p_greater": 0.020648,
+    "p_less": 0.979352,
+    "p_two_sided": 0.041296,
+    "n_tables": 250,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 0.32118,
+     "charity": 0.008681,
+     "college_choice": 0.218749,
+     "consumer_lending": -0.227428,
+     "evidence_appraisal": 0.238714,
+     "grant_funding": 0.493922,
+     "hiring": 0.181856,
+     "hospital_referral": 0.242187,
+     "lab_supplier": 0.042535,
+     "legal_defence": -0.211801,
+     "medication_choice": 0.34288,
+     "products": 0.164751,
+     "public_procurement": -0.052084
+    }
+   },
+   "reading_ability_builder_medium_large": {
+    "mean": 0.2949,
+    "ci95": [
+     0.257478,
+     0.332323
+    ],
+    "ci90": [
+     0.264366,
+     0.325435
+    ],
+    "se": 0.017002,
+    "df": 11,
+    "t": 17.344563,
+    "p_greater": 0.0,
+    "p_less": 1.0,
+    "p_two_sided": 0.0,
+    "n_tables": 144,
+    "n_domains": 12,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 0.34344,
+     "charity": 0.323033,
+     "college_choice": 0.252379,
+     "consumer_lending": 0.194914,
+     "evidence_appraisal": 0.229181,
+     "grant_funding": 0.315781,
+     "hiring": 0.293338,
+     "hospital_referral": 0.346247,
+     "lab_supplier": 0.383743,
+     "legal_defence": 0.303708,
+     "medication_choice": 0.336378,
+     "public_procurement": 0.216663
+    }
+   },
+   "median_letter_mass_distinct_texts_reps_1_4": 0.861993,
+   "interpretable_median_mass_ge_0_05": true,
+   "raw_files": [
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-dpo_plain.csv.gz"
+   ]
+  },
+  {
+   "checkpoint": "olmo2-7b-dpo",
+   "in_the_pre_specified_trajectory": false,
+   "model_tag": "olmo2-7b-dpo",
+   "repo": "allenai/OLMo-2-1124-7B-DPO",
+   "revision": "main",
+   "commit_sha": "e34ea60adff2e575f4fe7569eaffd1b28509b6fd",
+   "format": "chat",
+   "tables": "all 250 (exploration and holdout)",
+   "repetitions": "1-4",
+   "n_tie_trials": 1000,
+   "n_distinct_prompts_scored_named_and_hidden": 1497,
+   "estimate_D": 0.336204,
+   "ci95": [
+    0.172076,
+    0.500333
+   ],
+   "D_stats": {
+    "mean": 0.336204,
+    "ci95": [
+     0.172076,
+     0.500333
+    ],
+    "ci90": [
+     0.201946,
+     0.470463
+    ],
+    "se": 0.075329,
+    "df": 12,
+    "t": 4.463119,
+    "p_greater": 0.000387,
+    "p_less": 0.999613,
+    "p_two_sided": 0.000775,
+    "n_tables": 250,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 0.33941,
+     "charity": 0.113715,
+     "college_choice": 0.317708,
+     "consumer_lending": -0.194444,
+     "evidence_appraisal": 0.375,
+     "grant_funding": 0.565104,
+     "hiring": 0.568576,
+     "hospital_referral": 0.847222,
+     "lab_supplier": 0.246528,
+     "legal_defence": 0.075521,
+     "medication_choice": 0.586805,
+     "products": 0.398437,
+     "public_procurement": 0.131076
+    }
+   },
+   "reading_ability_builder_medium_large": {
+    "mean": 0.254341,
+    "ci95": [
+     0.232093,
+     0.276589
+    ],
+    "ci90": [
+     0.236188,
+     0.272494
+    ],
+    "se": 0.010108,
+    "df": 11,
+    "t": 25.161506,
+    "p_greater": 0.0,
+    "p_less": 1.0,
+    "p_two_sided": 0.0,
+    "n_tables": 144,
+    "n_domains": 12,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 0.230917,
+     "charity": 0.310369,
+     "college_choice": 0.222448,
+     "consumer_lending": 0.224883,
+     "evidence_appraisal": 0.211011,
+     "grant_funding": 0.297581,
+     "hiring": 0.245562,
+     "hospital_referral": 0.282624,
+     "lab_supplier": 0.29048,
+     "legal_defence": 0.279134,
+     "medication_choice": 0.224149,
+     "public_procurement": 0.232934
+    }
+   },
+   "median_letter_mass_distinct_texts_reps_1_4": 0.998455,
+   "interpretable_median_mass_ge_0_05": true,
+   "raw_files": [
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-dpo_chat.csv.gz"
+   ]
+  },
+  {
+   "checkpoint": "olmo2-7b-instruct",
+   "in_the_pre_specified_trajectory": false,
+   "model_tag": "olmo2-7b-instruct",
+   "repo": "allenai/OLMo-2-1124-7B-Instruct",
+   "revision": "main",
+   "commit_sha": "470b1fba1ae01581f270116362ee4aa1b97f4c84",
+   "format": "plain",
+   "tables": "all 250 (exploration and holdout)",
+   "repetitions": "1-4",
+   "n_tie_trials": 1000,
+   "n_distinct_prompts_scored_named_and_hidden": 1497,
+   "estimate_D": 0.121249,
+   "ci95": [
+    -0.006792,
+    0.249289
+   ],
+   "D_stats": {
+    "mean": 0.121249,
+    "ci95": [
+     -0.006792,
+     0.249289
+    ],
+    "ci90": [
+     0.016511,
+     0.225987
+    ],
+    "se": 0.058766,
+    "df": 12,
+    "t": 2.063241,
+    "p_greater": 0.030709,
+    "p_less": 0.969291,
+    "p_two_sided": 0.061418,
+    "n_tables": 250,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 0.259549,
+     "charity": 0.007813,
+     "college_choice": 0.175347,
+     "consumer_lending": -0.291666,
+     "evidence_appraisal": 0.239583,
+     "grant_funding": 0.361111,
+     "hiring": 0.213976,
+     "hospital_referral": 0.31684,
+     "lab_supplier": 0.046007,
+     "legal_defence": -0.184027,
+     "medication_choice": 0.394965,
+     "products": 0.118336,
+     "public_procurement": -0.081597
+    }
+   },
+   "reading_ability_builder_medium_large": {
+    "mean": 0.279842,
+    "ci95": [
+     0.250754,
+     0.30893
+    ],
+    "ci90": [
+     0.256107,
+     0.303576
+    ],
+    "se": 0.013216,
+    "df": 11,
+    "t": 21.17457,
+    "p_greater": 0.0,
+    "p_less": 1.0,
+    "p_two_sided": 0.0,
+    "n_tables": 144,
+    "n_domains": 12,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 0.295842,
+     "charity": 0.322125,
+     "college_choice": 0.246503,
+     "consumer_lending": 0.189487,
+     "evidence_appraisal": 0.225755,
+     "grant_funding": 0.314105,
+     "hiring": 0.274749,
+     "hospital_referral": 0.325041,
+     "lab_supplier": 0.337606,
+     "legal_defence": 0.295373,
+     "medication_choice": 0.293977,
+     "public_procurement": 0.237536
+    }
+   },
+   "median_letter_mass_distinct_texts_reps_1_4": 0.956213,
+   "interpretable_median_mass_ge_0_05": true,
+   "raw_files": [
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-instruct_plain.csv.gz"
+   ]
+  },
+  {
+   "checkpoint": "olmo2-7b-instruct",
+   "in_the_pre_specified_trajectory": false,
+   "model_tag": "olmo2-7b-instruct",
+   "repo": "allenai/OLMo-2-1124-7B-Instruct",
+   "revision": "main",
+   "commit_sha": "470b1fba1ae01581f270116362ee4aa1b97f4c84",
+   "format": "chat",
+   "tables": "all 250 (exploration and holdout)",
+   "repetitions": "1-4",
+   "n_tie_trials": 1000,
+   "n_distinct_prompts_scored_named_and_hidden": 1497,
+   "estimate_D": 0.270543,
+   "ci95": [
+    0.115894,
+    0.425191
+   ],
+   "D_stats": {
+    "mean": 0.270543,
+    "ci95": [
+     0.115894,
+     0.425191
+    ],
+    "ci90": [
+     0.144039,
+     0.397047
+    ],
+    "se": 0.070978,
+    "df": 12,
+    "t": 3.811615,
+    "p_greater": 0.001238,
+    "p_less": 0.998762,
+    "p_two_sided": 0.002477,
+    "n_tables": 250,
+    "n_domains": 13,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 0.278646,
+     "charity": 0.085937,
+     "college_choice": 0.256944,
+     "consumer_lending": -0.242187,
+     "evidence_appraisal": 0.349826,
+     "grant_funding": 0.469618,
+     "hiring": 0.481771,
+     "hospital_referral": 0.738715,
+     "lab_supplier": 0.203125,
+     "legal_defence": 0.00868,
+     "medication_choice": 0.513021,
+     "products": 0.314798,
+     "public_procurement": 0.05816
+    }
+   },
+   "reading_ability_builder_medium_large": {
+    "mean": 0.246236,
+    "ci95": [
+     0.225099,
+     0.267373
+    ],
+    "ci90": [
+     0.228989,
+     0.263483
+    ],
+    "se": 0.009604,
+    "df": 11,
+    "t": 25.640136,
+    "p_greater": 0.0,
+    "p_less": 1.0,
+    "p_two_sided": 0.0,
+    "n_tables": 144,
+    "n_domains": 12,
+    "interval_method": "95% t interval over domain means (each the mean of its tables' means over repetitions)",
+    "domain_means": {
+     "agent_tool_choice": 0.230841,
+     "charity": 0.30437,
+     "college_choice": 0.216457,
+     "consumer_lending": 0.217245,
+     "evidence_appraisal": 0.208416,
+     "grant_funding": 0.288205,
+     "hiring": 0.234762,
+     "hospital_referral": 0.269767,
+     "lab_supplier": 0.271331,
+     "legal_defence": 0.27272,
+     "medication_choice": 0.208471,
+     "public_procurement": 0.232244
+    }
+   },
+   "median_letter_mass_distinct_texts_reps_1_4": 0.999887,
+   "interpretable_median_mass_ge_0_05": true,
+   "raw_files": [
+    "study3b-brand-knowledge-and-training-text-in-released-models/data/checkpoints/scores/olmo2-7b-instruct_chat.csv.gz"
+   ]
+  }
+ ],
+ "olmo2_stage_where_the_lean_first_appears": {
+  "answer": "No pretraining checkpoint shows a lean toward the famous twin: on the pre-specified trajectory D runs from -0.044 to 0.003 and no interval lies above zero (from olmo2-7b-s1-2999B on, the intervals lie below zero). The first checkpoint with a positive D is SFT: in the chat format SFT's holdout D is 0.229 [0.125, 0.332]; in the plain format SFT's level is 0.078 [-0.000, 0.157], whose lower end touches or crosses zero, and the pretrained-to-SFT step is 0.127 (Holm p 0.0028); the SFT-to-DPO and DPO-to-Instruct steps are equivalent to zero.",
+  "pretraining_pre_specified_basis": {
+   "earliest_D_interval_above_zero_from_then_on": null,
+   "earliest_D_interval_excludes_zero_from_then_on": "olmo2-7b-s1-2999B",
+   "range_of_D_over_pretraining_points": [
+    -0.044158,
+    0.003261
+   ]
+  },
+  "full_ladder_same_basis_plain_exploratory": {
+   "order": [
+    "olmo2-7b-s1-5B",
+    "olmo2-7b-s1-51B",
+    "olmo2-7b-s1-151B",
+    "olmo2-7b-s1-500B",
+    "olmo2-7b-s1-999B",
+    "olmo2-7b-s1-2001B",
+    "olmo2-7b-s1-2999B",
+    "olmo2-7b-s1-3896B",
+    "olmo2-7b-s2-ing1-50B",
+    "olmo2-7b-base",
+    "olmo2-7b-sft",
+    "olmo2-7b-dpo",
+    "olmo2-7b-instruct"
+   ],
+   "first_checkpoint_with_D_interval_above_zero": "olmo2-7b-sft",
+   "first_from_which_D_interval_stays_above_zero": null
+  },
+  "post_training_chat_same_basis_exploratory": {
+   "first_checkpoint_with_D_interval_above_zero": "olmo2-7b-sft"
+  },
+  "holdout_levels_reps_1_6": [
+   {
+    "checkpoint": "olmo2-7b-base",
+    "format": "plain",
+    "D": -0.049254,
+    "ci95": [
+     -0.077556,
+     -0.020953
+    ]
+   },
+   {
+    "checkpoint": "olmo2-7b-sft",
+    "format": "plain",
+    "D": 0.078213,
+    "ci95": [
+     -9.4e-05,
+     0.15652
+    ]
+   },
+   {
+    "checkpoint": "olmo2-7b-dpo",
+    "format": "plain",
+    "D": 0.120324,
+    "ci95": [
+     -0.001341,
+     0.241989
+    ]
+   },
+   {
+    "checkpoint": "olmo2-7b-instruct",
+    "format": "plain",
+    "D": 0.104114,
+    "ci95": [
+     -0.020907,
+     0.229134
+    ]
+   },
+   {
+    "checkpoint": "olmo2-7b-sft",
+    "format": "chat",
+    "D": 0.228711,
+    "ci95": [
+     0.125379,
+     0.332042
+    ]
+   },
+   {
+    "checkpoint": "olmo2-7b-dpo",
+    "format": "chat",
+    "D": 0.314263,
+    "ci95": [
+     0.15206,
+     0.476467
+    ]
+   },
+   {
+    "checkpoint": "olmo2-7b-instruct",
+    "format": "chat",
+    "D": 0.250188,
+    "ci95": [
+     0.095956,
+     0.404421
+    ]
+   }
+  ],
+  "holdout_step_contrasts": {
+   "olmo2_step_base_to_sft": {
+    "change": 0.127468,
+    "ci95": [
+     0.063667,
+     0.191268
+    ],
+    "p": 0.002819
+   },
+   "olmo2_step_sft_to_dpo": {
+    "change": 0.042111,
+    "ci95": [
+     -0.007119,
+     0.09134
+    ],
+    "p": 0.173996
+   },
+   "olmo2_step_dpo_to_instruct": {
+    "change": -0.016211,
+    "ci95": [
+     -0.04698,
+     0.014559
+    ],
+    "p": 0.273381
+   },
+   "olmo2_step_base_to_instruct": {
+    "change": 0.153368,
+    "ci95": [
+     0.048246,
+     0.25849
+    ],
+    "p": 0.007939
+   }
+  }
+ },
+ "notes": [
+  "All 22 score files are present (13 primary cells x 8,107 texts + 9 trajectory checkpoints x 5,489 texts = 154,792 scored prompts).",
+  "The SHA-256 of table_split.csv equals the value fixed before the holdout tables were analysed.",
+  "The released base model of OLMo 2 7B shows a reversal by the verdict rules, not a null: a small but significant lean toward the unfamiliar option, -0.049 [-0.078, -0.021], one-sided p of a negative effect 0.0013.",
+  "The step from the base model to instruction tuning is a change in D (0.127, plain format), not the level after instruction tuning, which is 0.078 in plain and 0.229 in chat format.",
+  "Llama base is equivalent to zero and Llama Instruct (chat) is a hit; the Llama weights are the ungated unsloth mirrors. Both Qwen cells are reversals (base and Instruct both favour the unfamiliar option).",
+  "Every OLMo cell fails the tie-page reading check (the names-hidden share on the two tied letters is below 0.50; chance 0.40), so in OLMo D measures what a name does to the letter probabilities when the record is not being read.",
+  "A summary of the builder-table holdout had been seen before the holdout analysis ran; the product-only test was not part of that summary."
+ ]
+}

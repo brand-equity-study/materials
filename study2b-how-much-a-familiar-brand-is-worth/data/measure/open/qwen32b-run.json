@@ -1,0 +1,25 @@
+{
+ "key": "qwen32b",
+ "hf_repo": "Qwen/Qwen2.5-32B-Instruct",
+ "revision": "5ede1c97bbab6ce5cda5812749b4c0bdf79b18dd",
+ "switch": {},
+ "sampling": {
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "min_p": 0.0,
+  "repetition_penalty": 1.05
+ },
+ "max_tokens": 1024,
+ "max_model_len": 8192,
+ "gpus": 1,
+ "engine": {},
+ "items": "b21-full1-items.jsonl",
+ "items_sha256": "e029b006f7e7043577004b2db19973a9cb92eb7e967c831ab446cb37181c3202",
+ "tables": "all",
+ "torch": "2.14.0+cu130",
+ "vllm": "0.33.0",
+ "transformers": "5.20.2",
+ "python": "3.12.3",
+ "finished": "2026-11-22 10:13 CST"
+}

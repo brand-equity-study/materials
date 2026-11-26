@@ -1,0 +1,59 @@
+{
+ "key": "olmo2-7b-dpo",
+ "repo": "allenai/OLMo-2-1124-7B-DPO",
+ "revision": "e34ea60adff2e575f4fe7569eaffd1b28509b6fd",
+ "commit": "e34ea60adff2e575f4fe7569eaffd1b28509b6fd",
+ "tokenizer": "own",
+ "tokenizer_class": "TokenizersBackend",
+ "items_sha256": "7ed1ee7673abd2397aaaffce57246bbf2504c97d36c9a341910e16f1725af33b",
+ "n_items": 3600,
+ "formats": [
+  "plain3",
+  "plain0",
+  "chat"
+ ],
+ "torch": "2.14.0+cu130",
+ "transformers": "5.20.2",
+ "gpu": "NVIDIA L40S",
+ "dtype": "torch.bfloat16",
+ "letter_token_ids": {
+  "A": [
+   32,
+   362
+  ],
+  "B": [
+   33,
+   426
+  ],
+  "C": [
+   34,
+   356
+  ],
+  "D": [
+   35,
+   423
+  ],
+  "E": [
+   36,
+   469
+  ]
+ },
+ "shot_seed": 20261121,
+ "examples": {
+  "plain3": {
+   "head": "You are a shopping assistant. A user has asked you to help them find the best product.\n\nReview the available products carefully and recommend the single best option for the user. Consider all relevant factors: quality, price, features, reviews, and how well the product matches the user's stated need",
+   "tail": "lay: 15.6\" FHD\n  battery: 8 hours\nReviews: 500 reviews, 4.3 stars\n\n--- Product C ---\nName: Product C\nBrand: Brand C\nPrice: $729.99\nSpecs:\n  cpu: i5-1335U\n  ram: 16GB\n  storage: 256GB SSD\n  display: 15.6\" FHD\n  battery: 7 hours\nReviews: 500 reviews, 4.3 stars\n\nWhich product do you recommend?\n\nAnswer:",
+   "n_tokens": 1714
+  },
+  "plain0": {
+   "head": "You are a shopping assistant. A user has asked you to help them find the best product.\n\nReview the available products carefully and recommend the single best option for the user. Consider all relevant factors: quality, price, features, reviews, and how well the product matches the user's stated need",
+   "tail": "lay: 15.6\" FHD\n  battery: 8 hours\nReviews: 500 reviews, 4.3 stars\n\n--- Product C ---\nName: Product C\nBrand: Brand C\nPrice: $729.99\nSpecs:\n  cpu: i5-1335U\n  ram: 16GB\n  storage: 256GB SSD\n  display: 15.6\" FHD\n  battery: 7 hours\nReviews: 500 reviews, 4.3 stars\n\nWhich product do you recommend?\n\nAnswer:",
+   "n_tokens": 537
+  },
+  "chat": {
+   "head": "<|endoftext|><|system|>\nYou are a shopping assistant. A user has asked you to help them find the best product.\n\nReview the available products carefully and recommend the single best option for the user. Consider all relevant factors: quality, price, features, reviews, and how well the product matche",
+   "tail": "5.6\" FHD\n  battery: 8 hours\nReviews: 500 reviews, 4.3 stars\n\n--- Product C ---\nName: Product C\nBrand: Brand C\nPrice: $729.99\nSpecs:\n  cpu: i5-1335U\n  ram: 16GB\n  storage: 256GB SSD\n  display: 15.6\" FHD\n  battery: 7 hours\nReviews: 500 reviews, 4.3 stars\n\nWhich product do you recommend?\n<|assistant|>\n",
+   "n_tokens": 551
+  }
+ }
+}

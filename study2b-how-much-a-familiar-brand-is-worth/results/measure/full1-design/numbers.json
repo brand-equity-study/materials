@@ -1,0 +1,122 @@
+{
+ "categories": 7,
+ "pairs": 38,
+ "fictitious_names": 17,
+ "items_per_model": 61300,
+ "by_version": {
+  "main shown": 11200,
+  "main hidden": 11200,
+  "main repeat": 1400,
+  "V1-no-prices shown": 5600,
+  "V2-pilot-band shown": 5600,
+  "V3-second-wording shown": 5600,
+  "V4-blocks shown": 5600,
+  "V5-three-products shown": 5600,
+  "V6-market-budget shown": 5600,
+  "rating rating": 2000,
+  "premium premium": 1900
+ },
+ "choice_sets_main_per_category": 1600,
+ "choice_sets_repeated_per_category": 200,
+ "choice_sets_version_per_category": 800,
+ "bands_from_brand_store": 9,
+ "bands_from_retailer": 28,
+ "balance_main_largest_pct": 1.7000000000000002,
+ "balance_any_version_largest_pct": 8.6,
+ "balance_v5_lowest_pct": 5.0,
+ "balance_v5_highest_pct": 8.6,
+ "bands_without_a_price": 3,
+ "bands_without_a_price_names": [
+  "Beyerdynamic (over-ear headphones)",
+  "Bose (over-ear headphones)",
+  "Samsung (wireless earbuds)"
+ ],
+ "band_centres": {
+  "laptops": {
+   "Apple": 1999.0,
+   "Dell": 799.0,
+   "HP": 799.99,
+   "Lenovo": 699.0,
+   "ASUS": 1399.0,
+   "Acer": 649.99
+  },
+  "smartphones": {
+   "Apple": 679.0,
+   "Samsung": 404.5,
+   "Google": 899.0,
+   "Motorola": 166.05
+  },
+  "tvs": {
+   "Samsung": 378.0,
+   "LG": 1258.07,
+   "Sony": 1198.0,
+   "Vizio": 278.0,
+   "Insignia": 199.99
+  },
+  "headphones": {
+   "Sony": 178.0,
+   "Bose": 234.0,
+   "JBL": 83.7,
+   "Sennheiser": 199.95,
+   "Audio-Technica": 184.0,
+   "Beyerdynamic": 149.99
+  },
+  "earbuds": {
+   "Apple": 189.0,
+   "Samsung": 140.15,
+   "Sony": 149.99,
+   "JBL": 99.95,
+   "Beats": 169.95,
+   "Jabra": 364.0
+  },
+  "running_shoes": {
+   "Nike": 83.23,
+   "Adidas": 77.36,
+   "ASICS": 129.95,
+   "Brooks": 139.95,
+   "HOKA": 144.0,
+   "New Balance": 109.95
+  },
+  "coffee_makers": {
+   "Keurig": 107.5,
+   "Mr. Coffee": 39.64,
+   "Nespresso": 159.0,
+   "Breville": 349.95,
+   "Cuisinart": 114.95
+  }
+ },
+ "pretest_changes": {
+  "laptop_storage_pretest": "256 GB, 512 GB, 1 TB",
+  "laptop_battery_pretest": "8 hours, 11 hours, 14 hours",
+  "laptop_storage_full": "128 GB, 512 GB, 1 TB",
+  "laptop_battery_full": "5 hours, 10 hours, 23.5 hours",
+  "tv_sizes_pretest": "55 inches, 60 inches, 65 inches",
+  "tv_sizes_full": "43 inches, 55 inches, 65 inches"
+ },
+ "pretest_included_cells": 217,
+ "capture": {
+  "products_counted": 2281,
+  "listings_left_out": 1059,
+  "market_products_lowest": 160,
+  "market_products_highest": 640,
+  "band_products_lowest": 1,
+  "band_products_median": 14,
+  "band_products_highest": 78,
+  "bands_with_fewer_than_five_products": 6,
+  "read_from": "2026-11-22 03:12 AM Central",
+  "read_to": "2026-11-22 04:25 AM Central",
+  "sites": [
+   "Apple (apple.com)",
+   "Audio-Technica (audio-technica.com)",
+   "Best Buy (bestbuy.com)",
+   "Bose (bose.com)",
+   "Breville (breville.com)",
+   "Google Store (store.google.com)",
+   "Jabra (jabra.com)",
+   "Sennheiser (us.sennheiser-hearing.com)",
+   "Walmart (walmart.com)",
+   "Zappos (zappos.com)",
+   "beyerdynamic (north-america.beyerdynamic.com)"
+  ]
+ }
+}

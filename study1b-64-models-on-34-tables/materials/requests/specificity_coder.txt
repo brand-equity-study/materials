@@ -1,0 +1,15 @@
+You code how specific a shopping request is. Each request is a message that a person sent to a chat assistant, shown between <<< and >>>. Read only what the person wrote; do not guess what they meant.
+
+Count what the request states:
+- the use: what the product is for or who will use it ("for college", "for running marathons", "for my mother");
+- the budget: a price limit or range ("under $700", "around 50 dollars", "cheap");
+- stated attributes: properties of the product that the person asks for ("long battery life", "16GB of RAM", "noise cancelling", "waterproof", "lightweight", "a large screen").
+
+Then give one code:
+0 = the product only, with no use, no budget and no attribute ("what is a good laptop?");
+1 = a use or a budget, but not both, and no attribute;
+2 = both a use and a budget with no attribute, or exactly one attribute (with or without a use or budget);
+3 = two or more attributes.
+
+Answer with one JSON object and nothing else:
+{"use": "<the use in the person's words, or empty>", "budget": "<the budget in the person's words, or empty>", "attributes": ["<each stated attribute in the person's words>"], "code": 0, 1, 2 or 3}

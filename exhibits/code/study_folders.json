@@ -1,0 +1,18 @@
+{
+ "F1A": "study1a-tables-with-one-optimal-product",
+ "F1B": "study1b-64-models-on-34-tables",
+ "F1C": "study1c-product-feeds-and-a-store-search",
+ "F1D": "web-appendix-analyses/brand-by-brand-and-release-by-release",
+ "F2A": "study2a-experience-attributes-stated-for-every-product",
+ "F2B": "web-appendix-analyses/each-piece-of-information-alone",
+ "F2C": "study2b-how-much-a-familiar-brand-is-worth",
+ "F2D": "study3b-brand-knowledge-and-training-text-in-released-models",
+ "F3A": "study3a-pages-about-new-brands",
+ "F3B": "study3b-brand-knowledge-and-training-text-in-released-models",
+ "F4": "study4-peoples-choices-after-a-recommendation",
+ "FS1": "s1-coffee-makers",
+ "FS2": "s2-earbuds",
+ "FS3": "s3-a-warning-and-a-comparison-table",
+ "FS4": "s4-people-and-language-models-as-advisors",
+ "FH": "how-the-models-differed"
+}

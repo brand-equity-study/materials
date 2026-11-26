@@ -1,0 +1,38 @@
+| Model | Identifier sent | Access | Extended thinking | Collected | With brand names | Without brand names |
+|:----------------------|:---------------------------------------------|:-------------------------------|:-------------:|:-----------------|----------:|-----------:|
+| Claude Haiku 4.5 | claude-haiku-4-5-20251001 | own API | no | Feb 22 to Apr 22 | 681 | 680 |
+| Claude Haiku 4.5 | claude-haiku-4-5-20251001 | own API | yes | Apr 22 to 23 | 681 | 680 |
+| Claude Opus 4.6 | claude-opus-4-6 | own API | no | Apr 22 | 681 | 680 |
+| Claude Opus 4.7 | claude-opus-4-7 | own API | no | Apr 22 | 681 | 680 |
+| Claude Sonnet 4.6 | claude-sonnet-4-6 | own API | no | Feb 24 to 25 | 680 | 680 |
+| Claude Sonnet 4.6 | claude-sonnet-4-6 | own API | yes | Apr 22 | 681 | 680 |
+| GPT-4.1 mini | gpt-4.1-mini | own API | no | Feb 22 to 27 | 680 | 680 |
+| GPT-4.1 nano | gpt-4.1-nano | own API | no | Feb 22 | 680 | 680 |
+| GPT-4o | gpt-4o | own API | no | Feb 22 to 23 | 680 | 680 |
+| GPT-4o mini | gpt-4o-mini | own API | no | Feb 22 to 27 | 680 | 680 |
+| GPT-5 mini | gpt-5-mini | own API | no | Feb 22 to 27 | 680 | 680 |
+| GPT-5.4 | gpt-5.4-2026-03-05 | own API | no | Apr 22 to 23 | 681 | 680 |
+| GPT-5.4 mini | gpt-5.4-mini-2026-03-17 | own API | no | Apr 22 to 23 | 681 | 680 |
+| GPT-5.4 mini | gpt-5.4-mini-2026-03-17 | own API | yes | Apr 22 to 23 | 681 | 680 |
+| GPT-5.4 nano | gpt-5.4-nano-2026-03-17 | own API | no | Apr 22 to 23 | 681 | 680 |
+| Gemini 2.0 Flash | gemini-2.0-flash | own API | no | Feb 22 | 680 | 680 |
+| Gemini 2.5 Flash | gemini-2.5-flash / google/gemini-2.5-flash | own API, Vertex AI, OpenRouter | no | Feb 22 to 27 | 680 | 680 |
+| Gemini 2.5 Flash-Lite | gemini-2.5-flash-lite | own API, Vertex AI | no | Feb 23 to 24 | 680 | 680 |
+| Gemini 2.5 Pro | gemini-2.5-pro / google/gemini-2.5-pro | own API, Vertex AI, OpenRouter | no | Feb 23 to 27 | 680 | 680 |
+| Gemini 3 Flash | gemini-3-flash-preview / google/gemini-3-flash-preview | own API, Vertex AI, OpenRouter | no | Feb 23 to 25 | 680 | 680 |
+| Gemini 3 Flash | gemini-3-flash-preview | own API | yes | Apr 22 to 23 | 681 | 680 |
+| Gemini 3.1 Flash-Lite | gemini-3.1-flash-lite-preview | own API | no | Apr 22 to 23 | 681 | 680 |
+| Gemini 3.1 Pro | gemini-3.1-pro-preview | own API | yes | Apr 22 to 23 | 681 | 680 |
+| Gemma 3 27B | gemma-3-27b-it / google/gemma-3-27b-it | own API, OpenRouter | no | Feb 22 to 27 | 680 | 680 |
+| Gemma 4 31B | gemma-4-31b-it | own API | no | Apr 22 to 23 | 681 | 680 |
+| DeepSeek R1 | deepseek/deepseek-r1 | OpenRouter | both recorded | Feb 22 to 27 | 680 | 680 |
+| DeepSeek V3 | deepseek/deepseek-chat-v3-0324 | OpenRouter | no | Feb 22 to 27 | 680 | 680 |
+| Llama 3.3 70B | meta-llama/llama-3.3-70b-instruct | OpenRouter | no | Feb 22 to 27 | 680 | 680 |
+| Kimi K2 | moonshotai/kimi-k2 | OpenRouter | no | Feb 22 to 25 | 680 | 680 |
+| Qwen 2.5 72B | qwen/qwen-2.5-72b-instruct | OpenRouter | no | Feb 22 to 24 | 680 | 680 |
+
+Table: The Models of Study 1b Whose Responses Were Deposited First {#tbl:models}
+
+::: tnote
+*Notes:* The models are grouped by developer (Anthropic, OpenAI, Google, DeepSeek, Meta, Moonshot AI, Alibaba). Identifier sent: every identifier recorded with the model's responses. Access: every access method recorded with the model's responses (the developer's own API, Google's Vertex AI service, or OpenRouter). Extended thinking: whether the request asked for it; DeepSeek R1 is recorded both ways, and the requests that did not ask for it still allowed Gemini 2.5 Pro a short thinking budget and the Gemini 3 models a minimal thinking level. Collected: dates in 2026. With and without brand names: the number of responses in each condition.
+:::

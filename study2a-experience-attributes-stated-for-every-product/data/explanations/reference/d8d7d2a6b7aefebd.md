@@ -1,0 +1,1 @@
+{"reason": "listed", "brand_any": "no", "quote": "its 16GB of RAM and 512GB SSD make it a great choice for remote work. Additionally, its price of $899.99 falls within your budget"}

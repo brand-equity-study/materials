@@ -1,0 +1,1242 @@
+developer,line,earlier,later,brand,change,ci_low,ci_high
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),ASICS,27.5,15.0,40.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),ASUS,12.5,3.75,21.25
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Acer,-2.5,-7.5,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Adidas,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),AeroPress,-40.0,-60.0,-20.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Amazon,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Apple,2.5,0.625,5.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Audio-Technica,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Beats,0.0,-15.0,15.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Beyerdynamic,-10.0,-40.0,20.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Bose,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Breville,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Brooks,65.0,45.0,85.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),CamelBak,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Canon,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Corsair,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Cuisinart,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),De'Longhi,5.0,0.0,15.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Dell,16.667,3.333,30.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Dyson,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Fitbit,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Fujifilm,55.0,30.0,80.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Garmin,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Google,3.0,-1.0,7.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),HOKA,35.0,15.0,55.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),HP,5.0,0.0,10.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Hamilton Beach,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Herschel,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Hydro Flask,5.0,0.0,15.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),HyperX,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Insignia,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),JBL,12.0,-0.0,24.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Jabra,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),JanSport,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Keurig,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),KitchenAid,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),LG,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Lenovo,1.667,-10.0,13.333
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Linksys,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Logitech,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Motorola,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Mr. Coffee,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Nespresso,-2.5,-7.5,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Netgear,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),New Balance,5.0,0.0,15.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Nike,-5.0,-11.667,1.667
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Nikon,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Ninja,75.0,50.0,95.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),OnePlus,55.0,30.0,80.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Oral-B,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Osprey,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Philips,30.0,17.5,42.5
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Quip,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Razer,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),S'well,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Salomon,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Samsung,23.333,18.333,28.333
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),SanDisk,5.0,0.0,15.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Saucony,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Seagate,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Sennheiser,65.0,45.0,85.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Shark,10.0,0.0,25.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Shokz,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Sony,-3.333,-6.111,-0.556
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Stanley,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),The North Face,10.0,0.0,25.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Ultimate Ears,-15.0,-30.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Vitamix,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Vizio,30.0,20.0,40.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Western Digital,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),Yeti,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),eufy,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-4.7 (corpus),iRobot,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),ASICS,-20.0,-35.0,-5.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),ASUS,2.5,-3.75,8.75
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Acer,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Adidas,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),AeroPress,5.0,0.0,15.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Amazon,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Apple,-1.875,-5.0,1.25
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Audio-Technica,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Beats,7.5,-10.0,25.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Beyerdynamic,20.0,5.0,40.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Bose,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Breville,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Brooks,5.0,-25.0,35.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),CamelBak,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Canon,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Corsair,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Cuisinart,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),De'Longhi,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Dell,15.0,-1.667,31.667
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Dyson,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Fitbit,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Fujifilm,-25.0,-55.0,5.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Garmin,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Google,-3.0,-7.0,1.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),HOKA,-35.0,-55.0,-15.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),HP,-5.0,-10.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Hamilton Beach,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Herschel,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Hydro Flask,-5.0,-15.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),HyperX,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Insignia,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),JBL,-14.0,-25.0,-4.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Jabra,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),JanSport,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Keurig,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),KitchenAid,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),LG,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Lenovo,-8.333,-21.667,5.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Linksys,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Logitech,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Motorola,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Mr. Coffee,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Nespresso,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Netgear,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),New Balance,-5.0,-15.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Nike,-5.0,-15.0,5.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Nikon,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Ninja,-65.0,-85.0,-40.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),OnePlus,-55.0,-80.0,-30.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Oral-B,50.0,30.0,70.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Osprey,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Philips,-27.5,-40.0,-15.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Quip,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Razer,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),S'well,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Salomon,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Samsung,-13.333,-18.75,-7.917
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),SanDisk,-5.0,-15.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Saucony,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Seagate,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Sennheiser,-65.0,-85.0,-45.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Shark,-10.0,-25.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Shokz,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Sony,-2.222,-5.0,0.556
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Stanley,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),The North Face,-10.0,-25.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Ultimate Ears,15.0,0.0,30.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Vitamix,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Vizio,-50.0,-50.0,-50.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Western Digital,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),Yeti,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),eufy,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.7 (corpus),claude-opus-5-5 (claude),iRobot,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),ASICS,7.5,0.0,15.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),ASUS,15.0,10.0,20.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Acer,-2.5,-7.5,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Adidas,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),AeroPress,-35.0,-55.0,-10.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Amazon,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Apple,0.625,-1.25,2.5
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Audio-Technica,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Beats,7.5,-5.0,20.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Beyerdynamic,10.0,-25.0,45.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Bose,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Breville,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Brooks,70.0,50.0,90.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),CamelBak,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Canon,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Corsair,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Cuisinart,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),De'Longhi,5.0,0.0,15.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Dell,31.667,20.0,43.333
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Dyson,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Fitbit,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Fujifilm,30.0,0.0,60.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Garmin,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Google,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),HOKA,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),HP,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Hamilton Beach,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Herschel,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Hydro Flask,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),HyperX,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Insignia,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),JBL,-2.0,-10.0,6.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Jabra,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),JanSport,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Keurig,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),KitchenAid,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),LG,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Lenovo,-6.667,-18.333,3.333
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Linksys,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Logitech,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Motorola,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Mr. Coffee,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Nespresso,-2.5,-7.5,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Netgear,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),New Balance,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Nike,-10.0,-21.667,1.667
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Nikon,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Ninja,10.0,-10.0,30.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),OnePlus,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Oral-B,50.0,30.0,70.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Osprey,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Philips,2.5,-12.5,17.5
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Quip,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Razer,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),S'well,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Salomon,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Samsung,10.0,7.083,12.917
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),SanDisk,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Saucony,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Seagate,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Sennheiser,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Shark,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Shokz,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Sony,-5.556,-8.889,-2.222
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Stanley,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),The North Face,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Ultimate Ears,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Vitamix,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Vizio,-20.0,-30.0,-10.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Western Digital,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),Yeti,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),eufy,0.0,0.0,0.0
+Anthropic,Opus,claude-opus-4.6 (corpus),claude-opus-5-5 (claude),iRobot,0.0,0.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),ASICS,2.5,-5.0,10.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),ASUS,-3.75,-10.0,2.5
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Acer,-2.5,-7.5,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Adidas,0.0,0.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),AeroPress,-25.0,-60.0,10.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Amazon,0.0,0.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Apple,-0.625,-1.875,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Audio-Technica,0.0,0.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Beats,2.5,0.0,7.5
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Beyerdynamic,-25.0,-50.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Bose,0.0,0.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Breville,0.0,0.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Brooks,10.0,-5.0,30.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),CamelBak,0.0,0.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Canon,0.0,0.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Corsair,0.0,0.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Cuisinart,0.238,-14.286,15.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),De'Longhi,-10.0,-40.0,20.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Dell,-0.0,-10.0,10.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Dyson,0.0,0.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Fitbit,5.0,-10.0,20.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Fujifilm,0.0,0.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Garmin,0.0,0.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Google,-1.0,-4.0,2.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),HOKA,5.0,0.0,15.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),HP,0.0,0.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Hamilton Beach,0.0,0.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Herschel,0.0,0.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Hydro Flask,5.0,0.0,15.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),HyperX,0.0,0.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Insignia,0.0,0.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),JBL,-8.0,-18.0,2.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Jabra,0.0,0.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),JanSport,0.0,0.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Keurig,0.0,0.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),KitchenAid,-5.0,-15.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),LG,0.0,0.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Lenovo,20.0,8.333,31.667
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Linksys,0.0,0.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Logitech,0.0,0.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Motorola,0.0,0.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Mr. Coffee,0.0,0.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Nespresso,-5.0,-12.5,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Netgear,0.0,0.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),New Balance,0.0,0.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Nike,-1.667,-6.667,3.333
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Nikon,0.0,0.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Ninja,-15.0,-30.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),OnePlus,0.0,-35.0,35.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Oral-B,0.0,0.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Osprey,0.0,0.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Philips,0.0,0.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Quip,0.0,0.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Razer,0.0,0.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),S'well,0.0,0.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Salomon,0.0,0.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Samsung,0.417,-1.667,2.917
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),SanDisk,0.0,0.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Saucony,0.0,0.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Seagate,0.0,0.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Sennheiser,0.0,0.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Shark,-15.0,-40.0,10.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Shokz,0.0,0.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Sony,-0.556,-3.333,2.222
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Stanley,-5.0,-30.0,20.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),The North Face,-15.0,-35.0,5.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Ultimate Ears,-15.0,-45.0,20.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Vitamix,0.0,0.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Vizio,-12.5,-22.5,-5.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Western Digital,0.0,0.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),Yeti,0.0,0.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),eufy,0.0,0.0,0.0
+Anthropic,Haiku,claude-haiku-4.5 (corpus),claude-haiku-5-5 (claude),iRobot,-5.0,-15.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),ASICS,-20.0,-30.0,-10.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),ASUS,-20.0,-27.5,-12.5
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Acer,-5.0,-12.5,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Adidas,0.0,0.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),AeroPress,15.0,-15.0,45.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Amazon,0.0,0.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Apple,-0.625,-2.5,1.25
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Audio-Technica,0.0,0.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Beats,5.0,0.0,12.5
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Beyerdynamic,-95.0,-125.0,-60.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Bose,-1.25,-3.75,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Breville,0.0,0.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Brooks,-10.0,-25.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),CamelBak,0.0,0.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Canon,0.0,0.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Corsair,0.0,0.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Cuisinart,0.0,0.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),De'Longhi,0.0,0.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Dell,-11.667,-21.667,-1.667
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Dyson,0.0,0.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Fitbit,-10.0,-25.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Fujifilm,-35.0,-55.0,-15.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Garmin,0.0,0.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Google,-2.0,-5.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),HOKA,0.0,0.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),HP,0.0,0.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Hamilton Beach,0.0,0.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Herschel,0.0,0.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Hydro Flask,-10.0,-25.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),HyperX,0.0,0.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Insignia,0.0,0.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),JBL,-18.0,-28.0,-8.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Jabra,0.0,0.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),JanSport,0.0,0.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Keurig,0.0,0.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),KitchenAid,0.0,0.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),LG,0.0,0.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Lenovo,1.667,-6.667,10.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Linksys,0.0,0.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Logitech,0.0,0.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Motorola,0.0,0.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Mr. Coffee,0.0,0.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Nespresso,0.0,0.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Netgear,0.0,0.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),New Balance,0.0,0.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Nike,-5.0,-11.667,1.667
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Nikon,0.0,0.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Ninja,-30.0,-55.0,-0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),OnePlus,-30.0,-55.0,-5.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Oral-B,0.0,0.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Osprey,0.0,0.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Philips,-17.5,-27.5,-7.5
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Quip,0.0,0.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Razer,0.0,0.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),S'well,0.0,0.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Salomon,0.0,0.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Samsung,-10.0,-13.75,-6.667
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),SanDisk,-5.0,-15.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Saucony,0.0,0.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Seagate,0.0,0.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Sennheiser,-5.0,-15.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Shark,-30.0,-50.0,-10.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Shokz,0.0,0.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Sony,-3.889,-8.333,0.556
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Stanley,0.0,0.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),The North Face,-15.0,-30.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Ultimate Ears,-35.0,-55.0,-15.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Vitamix,0.0,0.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Vizio,-20.0,-30.0,-10.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Western Digital,0.0,0.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),Yeti,0.0,0.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),eufy,0.0,0.0,0.0
+Anthropic,Sonnet,claude-sonnet-4.6 (corpus),claude-sonnet-5-5 (claude),iRobot,0.0,0.0,0.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),ASICS,27.5,12.5,40.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),ASUS,6.25,-3.75,16.25
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Acer,20.0,7.5,32.5
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Adidas,0.0,0.0,0.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),AeroPress,-10.0,-45.0,25.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Amazon,0.0,0.0,0.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Apple,0.625,0.0,1.875
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Audio-Technica,0.0,0.0,0.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Beats,0.0,-12.5,12.5
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Beyerdynamic,-5.0,-35.0,25.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Bose,0.0,0.0,0.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Breville,0.0,0.0,0.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Brooks,10.0,0.0,25.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),CamelBak,0.0,0.0,0.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Canon,0.0,0.0,0.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Corsair,0.0,0.0,0.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Cuisinart,-15.0,-30.0,0.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),De'Longhi,-5.0,-20.0,10.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Dell,23.333,10.0,36.667
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Dyson,0.0,0.0,0.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Fitbit,-5.0,-15.0,0.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Fujifilm,55.0,35.0,75.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Garmin,0.0,0.0,0.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Google,0.0,-4.0,4.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),HOKA,0.0,-15.0,15.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),HP,0.0,0.0,0.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Hamilton Beach,0.0,0.0,0.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Herschel,5.0,0.0,15.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Hydro Flask,0.0,0.0,0.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),HyperX,0.0,0.0,0.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Insignia,0.0,0.0,0.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),JBL,38.0,26.0,50.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Jabra,0.0,0.0,0.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),JanSport,0.0,0.0,0.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Keurig,0.0,0.0,0.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),KitchenAid,-5.0,-15.0,0.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),LG,0.0,0.0,0.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Lenovo,0.0,-6.667,8.333
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Linksys,0.0,0.0,0.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Logitech,0.0,0.0,0.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Motorola,0.0,0.0,0.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Mr. Coffee,0.0,0.0,0.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Nespresso,0.0,0.0,0.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Netgear,0.0,0.0,0.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),New Balance,0.0,0.0,0.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Nike,-1.667,-8.333,5.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Nikon,0.0,0.0,0.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Ninja,40.0,10.0,70.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),OnePlus,35.0,0.0,70.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Oral-B,0.0,0.0,0.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Osprey,0.0,0.0,0.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Philips,22.5,12.5,32.5
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Quip,0.0,0.0,0.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Razer,0.0,0.0,0.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),S'well,0.0,0.0,0.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Salomon,0.0,0.0,0.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Samsung,12.083,7.917,16.25
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),SanDisk,0.0,0.0,0.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Saucony,0.0,0.0,0.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Seagate,0.0,0.0,0.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Sennheiser,20.0,5.0,40.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Shark,0.0,-20.0,20.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Shokz,0.0,0.0,0.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Sony,1.667,-2.222,5.556
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Stanley,5.0,0.0,15.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),The North Face,0.0,0.0,0.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Ultimate Ears,-0.0,-30.0,30.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Vitamix,0.0,0.0,0.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Vizio,50.0,50.0,50.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Western Digital,0.0,0.0,0.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),Yeti,0.0,0.0,0.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),eufy,0.0,0.0,0.0
+OpenAI,GPT flagship,gpt-4o (corpus),gpt-5.4 (corpus),iRobot,-10.0,-25.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),ASICS,-15.0,-27.5,-2.5
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),ASUS,3.75,-5.0,11.25
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Acer,2.5,-10.0,15.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Adidas,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),AeroPress,45.0,15.0,80.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Amazon,-5.0,-15.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Apple,-1.25,-3.125,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Audio-Technica,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Beats,2.5,-5.0,10.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Beyerdynamic,-40.0,-80.0,5.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Bose,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Breville,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Brooks,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),CamelBak,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Canon,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Corsair,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Cuisinart,-30.0,-50.0,-10.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),De'Longhi,-5.0,-35.0,30.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Dell,-1.667,-6.667,3.333
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Dyson,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Fitbit,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Fujifilm,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Garmin,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Google,-5.0,-10.0,-0.975
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),HOKA,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),HP,5.0,-1.667,11.667
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Hamilton Beach,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Herschel,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Hydro Flask,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),HyperX,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Insignia,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),JBL,-6.0,-16.0,5.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Jabra,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),JanSport,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Keurig,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),KitchenAid,-10.0,-25.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),LG,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Lenovo,-8.333,-16.667,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Linksys,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Logitech,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Motorola,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Mr. Coffee,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Nespresso,2.5,0.0,7.5
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Netgear,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),New Balance,-5.0,-15.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Nike,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Nikon,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Ninja,-5.0,-15.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),OnePlus,0.0,-30.0,30.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Oral-B,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Osprey,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Philips,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Quip,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Razer,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),S'well,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Salomon,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Samsung,-0.417,-2.917,1.667
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),SanDisk,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Saucony,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Seagate,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Sennheiser,10.0,0.0,25.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Shark,-20.0,-45.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Shokz,0.0,-15.0,15.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Sony,0.556,-1.111,2.222
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Stanley,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),The North Face,-10.0,-25.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Ultimate Ears,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Vitamix,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Vizio,-7.5,-15.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Western Digital,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),Yeti,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),eufy,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4o-mini (corpus),gpt-4.1-mini (corpus),iRobot,5.0,0.0,15.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),ASICS,10.0,0.0,22.5
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),ASUS,3.75,-1.25,10.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Acer,-2.5,-7.5,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Adidas,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),AeroPress,-5.0,-35.0,25.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Amazon,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Apple,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Audio-Technica,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Beats,-5.0,-17.5,7.5
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Beyerdynamic,25.0,-15.0,65.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Bose,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Breville,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Brooks,20.0,5.0,40.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),CamelBak,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Canon,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Corsair,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Cuisinart,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),De'Longhi,-5.0,-15.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Dell,1.667,-3.333,6.667
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Dyson,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Fitbit,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Fujifilm,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Garmin,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Google,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),HOKA,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),HP,-1.667,-5.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Hamilton Beach,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Herschel,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Hydro Flask,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),HyperX,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Insignia,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),JBL,6.0,-4.0,16.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Jabra,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),JanSport,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Keurig,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),KitchenAid,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),LG,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Lenovo,3.333,-3.333,11.667
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Linksys,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Logitech,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Motorola,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Mr. Coffee,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Nespresso,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Netgear,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),New Balance,10.0,0.0,25.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Nike,1.667,-8.333,11.667
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Nikon,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Ninja,5.0,0.0,15.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),OnePlus,15.0,-5.0,35.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Oral-B,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Osprey,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Philips,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Quip,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Razer,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),S'well,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Salomon,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Samsung,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),SanDisk,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Saucony,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Seagate,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Sennheiser,10.0,-10.0,30.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Shark,5.0,0.0,15.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Shokz,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Sony,0.556,-1.667,2.778
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Stanley,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),The North Face,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Ultimate Ears,5.0,0.0,15.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Vitamix,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Vizio,22.5,12.5,32.5
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Western Digital,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),Yeti,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),eufy,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-4.1-mini (corpus),gpt-5-mini (corpus),iRobot,-5.0,-15.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),ASICS,12.5,-5.0,27.5
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),ASUS,-2.5,-7.5,2.5
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Acer,12.5,-2.5,27.5
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Adidas,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),AeroPress,20.0,-15.0,55.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Amazon,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Apple,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Audio-Technica,-5.0,-15.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Beats,5.0,-5.0,15.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Beyerdynamic,-0.0,-40.0,35.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Bose,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Breville,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Brooks,-5.0,-30.0,20.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),CamelBak,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Canon,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Corsair,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Cuisinart,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),De'Longhi,0.0,-15.0,15.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Dell,5.0,-3.333,13.333
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Dyson,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Fitbit,5.0,0.0,15.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Fujifilm,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Garmin,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Google,1.0,0.0,3.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),HOKA,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),HP,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Hamilton Beach,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Herschel,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Hydro Flask,5.0,0.0,15.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),HyperX,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Insignia,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),JBL,18.0,6.0,30.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Jabra,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),JanSport,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Keurig,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),KitchenAid,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),LG,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Lenovo,6.667,-3.333,16.667
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Linksys,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Logitech,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Motorola,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Mr. Coffee,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Nespresso,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Netgear,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),New Balance,-5.0,-15.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Nike,3.333,-8.333,15.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Nikon,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Ninja,15.0,-5.0,35.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),OnePlus,0.0,-15.0,15.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Oral-B,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Osprey,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Philips,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Quip,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Razer,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),S'well,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Salomon,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Samsung,4.583,1.667,7.917
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),SanDisk,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Saucony,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Seagate,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Sennheiser,-20.0,-40.0,-5.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Shark,-5.0,-20.0,10.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Shokz,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Sony,1.111,-2.222,4.444
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Stanley,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),The North Face,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Ultimate Ears,0.0,-15.0,15.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Vitamix,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Vizio,-22.5,-32.5,-12.5
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Western Digital,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),Yeti,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),eufy,0.0,0.0,0.0
+OpenAI,GPT mini,gpt-5-mini (corpus),gpt-5.4-mini (corpus),iRobot,0.0,0.0,0.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),ASICS,5.0,-10.0,20.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),ASUS,7.5,-3.75,18.75
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Acer,-2.5,-17.5,12.5
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Adidas,5.0,0.0,12.5
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),AeroPress,-5.0,-45.0,35.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Amazon,0.0,0.0,0.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Apple,0.0,-2.5,2.5
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Audio-Technica,-20.0,-45.0,5.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Beats,2.5,0.0,7.5
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Beyerdynamic,10.0,-25.0,50.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Bose,-1.25,-5.0,2.5
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Breville,0.0,0.0,0.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Brooks,-10.0,-25.0,0.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),CamelBak,10.0,0.0,25.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Canon,10.0,0.0,25.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Corsair,0.0,0.0,0.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Cuisinart,21.667,-18.095,61.429
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),De'Longhi,10.0,-30.0,50.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Dell,11.667,-1.667,25.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Dyson,0.0,0.0,0.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Fitbit,10.0,-5.0,30.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Fujifilm,5.0,0.0,15.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Garmin,0.0,0.0,0.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Google,2.0,-6.0,10.025
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),HOKA,15.0,-10.0,40.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),HP,10.0,3.333,18.333
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Hamilton Beach,10.0,0.0,25.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Herschel,-15.0,-30.0,0.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Hydro Flask,-0.0,-35.0,30.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),HyperX,0.0,0.0,0.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Insignia,10.0,-10.0,30.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),JBL,38.0,25.0,51.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Jabra,0.0,0.0,0.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),JanSport,-5.0,-15.0,0.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Keurig,5.0,0.0,12.5
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),KitchenAid,20.0,5.0,40.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),LG,-1.25,-7.5,5.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Lenovo,15.0,1.667,28.333
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Linksys,0.0,-15.0,15.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Logitech,0.0,0.0,0.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Motorola,0.0,-7.5,7.5
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Mr. Coffee,10.0,0.0,25.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Nespresso,5.0,-5.0,17.5
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Netgear,0.0,0.0,0.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),New Balance,5.0,-10.0,20.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Nike,0.0,-8.333,8.333
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Nikon,5.0,0.0,15.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Ninja,35.0,5.0,65.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),OnePlus,35.0,5.0,65.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Oral-B,0.0,0.0,0.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Osprey,0.0,0.0,0.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Philips,2.5,-10.0,15.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Quip,0.0,0.0,0.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Razer,0.0,0.0,0.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),S'well,0.0,0.0,0.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Salomon,10.0,-15.0,35.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Samsung,14.167,8.75,19.583
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),SanDisk,-5.0,-15.0,0.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Saucony,0.0,0.0,0.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Seagate,0.0,0.0,0.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Sennheiser,10.0,0.0,25.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Shark,-5.0,-40.0,30.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Shokz,0.0,-15.0,15.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Sony,6.111,1.111,11.111
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Stanley,-15.0,-35.0,5.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),The North Face,0.0,-30.0,30.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Ultimate Ears,45.0,20.0,70.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Vitamix,5.0,0.0,15.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Vizio,15.0,-2.5,32.5
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Western Digital,5.0,0.0,15.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),Yeti,0.0,0.0,0.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),eufy,0.0,0.0,0.0
+OpenAI,GPT nano,gpt-4.1-nano (corpus),gpt-5.4-nano (corpus),iRobot,35.0,15.0,60.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),ASICS,2.5,-5.0,10.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),ASUS,-5.0,-16.25,6.25
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Acer,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Adidas,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),AeroPress,-45.0,-80.0,-10.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Amazon,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Apple,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Audio-Technica,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Beats,22.5,10.0,35.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Beyerdynamic,-35.0,-75.0,5.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Bose,-1.25,-3.75,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Breville,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Brooks,10.0,0.0,25.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),CamelBak,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Canon,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Corsair,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Cuisinart,-5.0,-15.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),De'Longhi,15.0,0.0,30.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Dell,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Dyson,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Fitbit,-5.0,-15.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Fujifilm,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Garmin,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Google,-1.0,-3.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),HOKA,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),HP,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Hamilton Beach,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Herschel,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Hydro Flask,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),HyperX,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Insignia,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),JBL,-12.0,-23.0,-1.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Jabra,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),JanSport,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Keurig,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),KitchenAid,-10.0,-30.0,5.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),LG,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Lenovo,1.667,-6.667,10.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Linksys,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Logitech,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Motorola,0.0,-7.5,7.5
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Mr. Coffee,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Nespresso,-5.0,-12.5,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Netgear,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),New Balance,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Nike,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Nikon,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Ninja,5.0,-20.0,30.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),OnePlus,-40.0,-80.0,5.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Oral-B,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Osprey,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Philips,-2.5,-7.5,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Quip,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Razer,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),S'well,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Salomon,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Samsung,-3.333,-5.833,-0.833
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),SanDisk,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Saucony,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Seagate,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Sennheiser,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Shark,-25.0,-55.0,5.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Shokz,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Sony,-2.778,-6.111,0.556
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Stanley,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),The North Face,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Ultimate Ears,0.0,-15.0,15.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Vitamix,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Vizio,-10.0,-25.0,5.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Western Digital,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),Yeti,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),eufy,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.0-flash (corpus),gemini-2.5-flash (corpus),iRobot,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),ASICS,-2.5,-10.0,5.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),ASUS,6.25,-2.5,15.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Acer,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Adidas,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),AeroPress,-15.0,-50.0,20.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Amazon,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Apple,0.625,0.0,1.875
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Audio-Technica,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Beats,-35.0,-50.0,-20.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Beyerdynamic,-5.0,-45.0,35.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Bose,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Breville,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Brooks,-10.0,-25.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),CamelBak,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Canon,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Corsair,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Cuisinart,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),De'Longhi,5.0,0.0,15.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Dell,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Dyson,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Fitbit,5.0,0.0,15.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Fujifilm,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Garmin,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Google,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),HOKA,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),HP,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Hamilton Beach,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Herschel,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Hydro Flask,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),HyperX,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Insignia,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),JBL,0.0,-8.0,8.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Jabra,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),JanSport,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Keurig,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),KitchenAid,-5.0,-15.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),LG,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Lenovo,1.667,-3.333,6.667
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Linksys,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Logitech,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Motorola,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Mr. Coffee,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Nespresso,2.5,0.0,7.5
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Netgear,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),New Balance,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Nike,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Nikon,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Ninja,-5.0,-30.0,20.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),OnePlus,25.0,-15.0,65.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Oral-B,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Osprey,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Philips,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Quip,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Razer,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),S'well,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Salomon,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Samsung,0.833,-0.833,2.5
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),SanDisk,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Saucony,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Seagate,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Sennheiser,50.0,30.0,70.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Shark,30.0,5.0,55.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Shokz,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Sony,2.222,-1.667,6.111
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Stanley,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),The North Face,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Ultimate Ears,-5.0,-15.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Vitamix,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Vizio,12.5,-5.0,27.5
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Western Digital,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),Yeti,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),eufy,0.0,0.0,0.0
+Google,Gemini Flash,gemini-2.5-flash (corpus),gemini-3-flash (corpus),iRobot,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),ASICS,-12.5,-22.5,-5.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),ASUS,5.0,-2.5,12.5
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Acer,-7.5,-20.0,5.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Adidas,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),AeroPress,35.0,-0.0,70.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Amazon,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Apple,-0.625,-1.875,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Audio-Technica,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Beats,0.0,-12.5,12.5
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Beyerdynamic,25.0,-15.0,65.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Bose,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Breville,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Brooks,5.0,0.0,15.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),CamelBak,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Canon,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Corsair,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Cuisinart,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),De'Longhi,0.0,-20.0,20.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Dell,3.333,-3.333,10.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Dyson,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Fitbit,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Fujifilm,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Garmin,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Google,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),HOKA,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),HP,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Hamilton Beach,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Herschel,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Hydro Flask,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),HyperX,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Insignia,-5.0,-15.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),JBL,20.0,11.0,30.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Jabra,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),JanSport,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Keurig,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),KitchenAid,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),LG,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Lenovo,-1.667,-6.667,3.333
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Linksys,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Logitech,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Motorola,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Mr. Coffee,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Nespresso,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Netgear,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),New Balance,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Nike,-1.667,-5.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Nikon,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Ninja,5.0,-15.0,25.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),OnePlus,20.0,-20.0,60.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Oral-B,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Osprey,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Philips,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Quip,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Razer,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),S'well,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Salomon,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Samsung,4.583,2.5,6.667
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),SanDisk,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Saucony,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Seagate,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Sennheiser,50.0,25.0,75.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Shark,5.0,0.0,15.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Shokz,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Sony,-1.667,-5.556,2.222
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Stanley,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),The North Face,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Ultimate Ears,-5.0,-15.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Vitamix,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Vizio,20.0,5.0,35.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Western Digital,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),Yeti,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),eufy,0.0,0.0,0.0
+Google,Gemini Flash-Lite,gemini-2.5-flash-lite (corpus),gemini-3.1-flash-lite (corpus),iRobot,0.0,0.0,0.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),ASICS,0.0,-7.5,7.5
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),ASUS,13.75,5.0,22.5
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Acer,-5.0,-12.5,0.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Adidas,0.0,0.0,0.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),AeroPress,15.0,0.0,30.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Amazon,15.0,0.0,30.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Apple,1.875,0.0,3.75
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Audio-Technica,0.0,0.0,0.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Beats,40.0,25.0,55.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Beyerdynamic,-40.0,-65.0,-10.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Bose,0.0,0.0,0.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Breville,0.0,0.0,0.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Brooks,-5.0,-15.0,0.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),CamelBak,15.0,0.0,30.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Canon,15.0,-10.0,40.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Corsair,0.0,0.0,0.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Cuisinart,0.0,0.0,0.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),De'Longhi,-5.0,-15.0,0.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Dell,-1.667,-11.667,8.333
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Dyson,0.0,0.0,0.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Fitbit,0.0,0.0,0.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Fujifilm,25.0,5.0,45.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Garmin,0.0,0.0,0.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Google,2.0,-2.0,6.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),HOKA,-5.0,-15.0,0.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),HP,0.0,0.0,0.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Hamilton Beach,10.0,-10.0,30.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Herschel,5.0,-10.0,20.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Hydro Flask,10.0,-10.0,30.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),HyperX,0.0,0.0,0.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Insignia,0.0,0.0,0.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),JBL,-12.0,-20.0,-4.975
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Jabra,0.0,0.0,0.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),JanSport,10.0,-10.0,30.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Keurig,0.0,0.0,0.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),KitchenAid,-10.0,-30.0,10.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),LG,7.5,1.25,13.75
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Lenovo,-1.667,-13.333,10.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Linksys,10.0,-5.0,30.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Logitech,0.0,0.0,0.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Motorola,0.0,0.0,0.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Mr. Coffee,0.0,0.0,0.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Nespresso,0.0,0.0,0.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Netgear,20.0,-5.0,45.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),New Balance,0.0,0.0,0.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Nike,18.333,5.0,31.667
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Nikon,20.0,5.0,40.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Ninja,45.0,10.0,80.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),OnePlus,-40.0,-65.0,-15.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Oral-B,30.0,10.0,50.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Osprey,25.0,5.0,45.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Philips,7.5,0.0,17.5
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Quip,50.0,30.0,70.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Razer,0.0,0.0,0.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),S'well,25.0,5.0,50.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Salomon,0.0,0.0,0.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Samsung,5.417,0.833,10.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),SanDisk,25.0,5.0,45.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Saucony,0.0,0.0,0.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Seagate,15.0,0.0,30.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Sennheiser,65.0,40.0,85.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Shark,0.0,0.0,0.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Shokz,0.0,0.0,0.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Sony,-8.889,-12.778,-4.444
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Stanley,0.0,0.0,0.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),The North Face,35.0,15.0,55.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Ultimate Ears,35.0,10.0,60.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Vitamix,0.0,-20.0,20.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Vizio,-0.0,-12.5,12.5
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Western Digital,10.0,-5.0,30.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),Yeti,15.0,-5.0,35.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),eufy,0.0,0.0,0.0
+Google,Gemini Pro,gemini-2.5-pro (corpus),gemini-3.1-pro (corpus),iRobot,0.0,0.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),ASICS,-2.5,-12.5,7.5
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),ASUS,8.75,-0.0,18.75
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Acer,5.0,-5.0,15.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Adidas,0.0,0.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),AeroPress,40.0,0.0,80.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Amazon,0.0,0.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Apple,-1.25,-3.125,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Audio-Technica,0.0,0.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Beats,20.0,5.0,35.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Beyerdynamic,10.0,-20.0,40.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Bose,0.0,0.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Breville,0.0,0.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Brooks,0.0,0.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),CamelBak,0.0,0.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Canon,0.0,0.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Corsair,0.0,0.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Cuisinart,0.0,0.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),De'Longhi,0.0,-20.0,20.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Dell,6.667,-1.667,16.667
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Dyson,0.0,0.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Fitbit,0.0,0.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Fujifilm,0.0,0.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Garmin,0.0,0.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Google,-2.0,-8.0,4.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),HOKA,0.0,0.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),HP,3.333,-3.333,10.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Hamilton Beach,0.0,0.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Herschel,0.0,0.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Hydro Flask,-5.0,-15.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),HyperX,0.0,0.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Insignia,0.0,0.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),JBL,8.0,-1.0,17.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Jabra,0.0,0.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),JanSport,0.0,0.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Keurig,0.0,0.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),KitchenAid,5.0,0.0,15.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),LG,0.0,0.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Lenovo,3.333,-6.667,11.667
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Linksys,0.0,0.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Logitech,0.0,0.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Motorola,0.0,0.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Mr. Coffee,0.0,0.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Nespresso,2.5,0.0,7.5
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Netgear,0.0,0.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),New Balance,0.0,0.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Nike,-1.667,-5.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Nikon,0.0,0.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Ninja,-10.0,-30.0,10.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),OnePlus,0.0,-20.0,20.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Oral-B,-5.0,-15.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Osprey,0.0,0.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Philips,0.0,0.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Quip,0.0,0.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Razer,0.0,0.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),S'well,0.0,0.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Salomon,0.0,0.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Samsung,2.5,-0.417,5.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),SanDisk,0.0,0.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Saucony,0.0,0.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Seagate,0.0,0.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Sennheiser,10.0,0.0,25.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Shark,0.0,-20.0,20.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Shokz,0.0,0.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Sony,-1.111,-5.0,2.222
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Stanley,5.0,0.0,15.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),The North Face,0.0,0.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Ultimate Ears,-5.0,-20.0,10.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Vitamix,0.0,0.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Vizio,30.0,17.5,40.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Western Digital,0.0,0.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),Yeti,0.0,0.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),eufy,0.0,0.0,0.0
+Google,Gemma,gemma-3-27b (corpus),gemma-4-31b-it (corpus),iRobot,0.0,0.0,0.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),ASICS,0.0,-10.0,10.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),ASUS,-12.5,-26.25,1.25
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Acer,0.0,-12.5,12.5
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Adidas,-7.5,-15.0,0.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),AeroPress,20.0,-20.0,60.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Amazon,-0.0,-25.0,25.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Apple,0.0,-4.375,4.375
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Audio-Technica,-10.0,-30.0,5.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Beats,7.5,-5.0,20.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Beyerdynamic,25.0,-15.0,65.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Bose,0.0,-6.25,6.25
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Breville,0.0,0.0,0.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Brooks,-15.0,-30.0,0.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),CamelBak,0.0,0.0,0.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Canon,10.0,0.0,25.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Corsair,-5.0,-20.0,10.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Cuisinart,-15.0,-45.0,15.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),De'Longhi,60.0,20.0,100.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Dell,10.0,-5.0,25.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Dyson,0.0,0.0,0.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Fitbit,10.0,-10.0,30.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Fujifilm,-5.0,-30.0,20.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Garmin,0.0,0.0,0.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Google,3.0,-5.0,11.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),HOKA,-10.0,-25.0,0.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),HP,6.667,-5.0,18.333
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Hamilton Beach,0.0,0.0,0.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Herschel,0.0,0.0,0.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Hydro Flask,-30.0,-55.0,-5.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),HyperX,-25.0,-50.0,0.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Insignia,0.0,-20.0,20.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),JBL,-8.0,-23.0,7.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Jabra,-5.0,-15.0,0.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),JanSport,-15.0,-35.0,5.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Keurig,2.5,0.0,7.5
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),KitchenAid,0.0,-20.0,20.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),LG,-6.25,-13.75,1.25
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Lenovo,-3.333,-15.0,8.333
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Linksys,0.0,0.0,0.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Logitech,-5.0,-15.0,0.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Motorola,7.5,-5.0,20.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Mr. Coffee,0.0,0.0,0.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Nespresso,0.0,-12.5,12.5
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Netgear,-5.0,-15.0,0.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),New Balance,-30.0,-50.0,-10.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Nike,0.0,-6.667,6.667
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Nikon,5.0,0.0,15.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Ninja,20.0,-10.0,50.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),OnePlus,-25.0,-50.0,-0.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Oral-B,0.0,-15.0,15.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Osprey,0.0,0.0,0.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Philips,2.5,-7.5,12.5
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Quip,0.0,0.0,0.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Razer,15.0,-5.0,35.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),S'well,0.0,0.0,0.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Salomon,-10.0,-30.0,5.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Samsung,-5.0,-10.0,0.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),SanDisk,0.0,0.0,0.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Saucony,0.0,0.0,0.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Seagate,0.0,0.0,0.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Sennheiser,-15.0,-40.0,15.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Shark,20.0,-20.0,55.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Shokz,5.0,-10.0,20.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Sony,-1.667,-6.667,3.889
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Stanley,5.0,0.0,15.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),The North Face,0.0,-20.0,20.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Ultimate Ears,30.0,5.0,55.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Vitamix,0.0,0.0,0.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Vizio,-2.5,-7.5,0.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Western Digital,0.0,0.0,0.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),Yeti,0.0,0.0,0.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),eufy,0.0,0.0,0.0
+Alibaba,"Qwen, identical prompts",qwen32b (open),qwen3-30b (open),iRobot,0.0,-20.0,25.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),ASICS,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),ASUS,2.5,-5.0,10.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Acer,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Adidas,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),AeroPress,25.0,-5.0,55.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Amazon,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Apple,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Audio-Technica,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Beats,-12.5,-27.5,5.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Beyerdynamic,20.0,5.0,40.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Bose,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Breville,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Brooks,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),CamelBak,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Canon,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Corsair,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Cuisinart,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),De'Longhi,-10.0,-25.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Dell,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Dyson,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Fitbit,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Fujifilm,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Garmin,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Google,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),HOKA,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),HP,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Hamilton Beach,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Herschel,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Hydro Flask,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),HyperX,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Insignia,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),JBL,3.0,-5.0,11.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Jabra,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),JanSport,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Keurig,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),KitchenAid,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),LG,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Lenovo,3.333,0.0,8.333
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Linksys,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Logitech,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Motorola,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Mr. Coffee,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Nespresso,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Netgear,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),New Balance,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Nike,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Nikon,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Ninja,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),OnePlus,0.0,-20.0,20.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Oral-B,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Osprey,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Philips,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Quip,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Razer,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),S'well,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Salomon,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Samsung,-3.333,-5.417,-1.25
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),SanDisk,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Saucony,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Seagate,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Sennheiser,55.0,30.0,80.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Shark,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Shokz,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Sony,1.667,-2.778,5.556
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Stanley,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),The North Face,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Ultimate Ears,5.0,0.0,15.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Vitamix,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Vizio,15.0,2.5,30.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Western Digital,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),Yeti,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),eufy,0.0,0.0,0.0
+Google,"Gemma 4 31B, the same weights by two routes (not a release)",gemma-4-31b-it (corpus),gemma31b (open),iRobot,0.0,0.0,0.0

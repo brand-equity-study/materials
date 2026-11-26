@@ -1,0 +1,455 @@
+{
+ "build": "full1",
+ "seed": 20261121,
+ "scale": 1.0,
+ "categories": {
+  "coffee_makers": {
+   "price_levels": [
+    21.99,
+    38.99,
+    67.99,
+    119.99,
+    211.99,
+    374.99
+   ],
+   "bands_without_a_level": [],
+   "band_centres": {
+    "Keurig": 107.5,
+    "Mr. Coffee": 39.64,
+    "Nespresso": 159.0,
+    "Breville": 349.95,
+    "Cuisinart": 114.95
+   },
+   "market_centre": 90.58,
+   "versions": {
+    "main": {
+     "lists": 1600,
+     "attempt": 0,
+     "worst_departure": 0.016
+    },
+    "V1-no-prices": {
+     "lists": 800,
+     "attempt": 0,
+     "worst_departure": 0.043
+    },
+    "V2-pilot-band": {
+     "lists": 800,
+     "attempt": 0,
+     "worst_departure": 0.03
+    },
+    "V3-second-wording": {
+     "lists": 800,
+     "attempt": 0,
+     "worst_departure": 0.03
+    },
+    "V4-blocks": {
+     "lists": 800,
+     "attempt": 0,
+     "worst_departure": 0.032
+    },
+    "V5-three-products": {
+     "lists": 800,
+     "attempt": 0,
+     "worst_departure": 0.078
+    },
+    "V6-market-budget": {
+     "lists": 800,
+     "attempt": 0,
+     "worst_departure": 0.03
+    }
+   },
+   "items": 8730
+  },
+  "earbuds": {
+   "price_levels": [
+    10.99,
+    21.99,
+    44.99,
+    89.99,
+    180.99,
+    363.99
+   ],
+   "bands_without_a_level": [
+    {
+     "brand": "Samsung",
+     "band": [
+      106.0,
+      140.15,
+      157.28
+     ],
+     "level_below": 89.99,
+     "level_above": 180.99
+    }
+   ],
+   "band_centres": {
+    "Apple": 189.0,
+    "Samsung": 140.15,
+    "Sony": 149.99,
+    "JBL": 99.95,
+    "Beats": 169.95,
+    "Jabra": 364.0
+   },
+   "market_centre": 63.25,
+   "versions": {
+    "main": {
+     "lists": 1600,
+     "attempt": 0,
+     "worst_departure": 0.017
+    },
+    "V1-no-prices": {
+     "lists": 800,
+     "attempt": 0,
+     "worst_departure": 0.034
+    },
+    "V2-pilot-band": {
+     "lists": 800,
+     "attempt": 0,
+     "worst_departure": 0.02
+    },
+    "V3-second-wording": {
+     "lists": 800,
+     "attempt": 0,
+     "worst_departure": 0.031
+    },
+    "V4-blocks": {
+     "lists": 800,
+     "attempt": 0,
+     "worst_departure": 0.043
+    },
+    "V5-three-products": {
+     "lists": 800,
+     "attempt": 0,
+     "worst_departure": 0.05
+    },
+    "V6-market-budget": {
+     "lists": 800,
+     "attempt": 0,
+     "worst_departure": 0.03
+    }
+   },
+   "items": 8800
+  },
+  "headphones": {
+   "price_levels": [
+    12.99,
+    24.99,
+    47.99,
+    92.99,
+    179.99,
+    347.99
+   ],
+   "bands_without_a_level": [
+    {
+     "brand": "Beyerdynamic",
+     "band": [
+      149.99,
+      149.99,
+      149.99
+     ],
+     "level_below": 92.99,
+     "level_above": 179.99
+    },
+    {
+     "brand": "Bose",
+     "band": [
+      191.5,
+      234.0,
+      294.0
+     ],
+     "level_below": 179.99,
+     "level_above": 347.99
+    }
+   ],
+   "band_centres": {
+    "Sony": 178.0,
+    "Bose": 234.0,
+    "JBL": 83.7,
+    "Sennheiser": 199.95,
+    "Audio-Technica": 184.0,
+    "Beyerdynamic": 149.99
+   },
+   "market_centre": 67.18,
+   "versions": {
+    "main": {
+     "lists": 1600,
+     "attempt": 0,
+     "worst_departure": 0.015
+    },
+    "V1-no-prices": {
+     "lists": 800,
+     "attempt": 0,
+     "worst_departure": 0.045
+    },
+    "V2-pilot-band": {
+     "lists": 800,
+     "attempt": 0,
+     "worst_departure": 0.024
+    },
+    "V3-second-wording": {
+     "lists": 800,
+     "attempt": 0,
+     "worst_departure": 0.037
+    },
+    "V4-blocks": {
+     "lists": 800,
+     "attempt": 0,
+     "worst_departure": 0.035
+    },
+    "V5-three-products": {
+     "lists": 800,
+     "attempt": 0,
+     "worst_departure": 0.086
+    },
+    "V6-market-budget": {
+     "lists": 800,
+     "attempt": 0,
+     "worst_departure": 0.04
+    }
+   },
+   "items": 8800
+  },
+  "laptops": {
+   "price_levels": [
+    228.99,
+    381.99,
+    635.99,
+    1060.99,
+    1768.99,
+    2948.99
+   ],
+   "bands_without_a_level": [],
+   "band_centres": {
+    "Apple": 1999.0,
+    "Dell": 799.0,
+    "HP": 799.99,
+    "Lenovo": 699.0,
+    "ASUS": 1399.0,
+    "Acer": 649.99
+   },
+   "market_centre": 821.78,
+   "versions": {
+    "main": {
+     "lists": 1600,
+     "attempt": 0,
+     "worst_departure": 0.015
+    },
+    "V1-no-prices": {
+     "lists": 800,
+     "attempt": 0,
+     "worst_departure": 0.047
+    },
+    "V2-pilot-band": {
+     "lists": 800,
+     "attempt": 0,
+     "worst_departure": 0.03
+    },
+    "V3-second-wording": {
+     "lists": 800,
+     "attempt": 0,
+     "worst_departure": 0.031
+    },
+    "V4-blocks": {
+     "lists": 800,
+     "attempt": 0,
+     "worst_departure": 0.032
+    },
+    "V5-three-products": {
+     "lists": 800,
+     "attempt": 0,
+     "worst_departure": 0.054
+    },
+    "V6-market-budget": {
+     "lists": 800,
+     "attempt": 0,
+     "worst_departure": 0.035
+    }
+   },
+   "items": 8800
+  },
+  "running_shoes": {
+   "price_levels": [
+    55.99,
+    70.99,
+    89.99,
+    114.99,
+    145.99,
+    184.99
+   ],
+   "bands_without_a_level": [],
+   "band_centres": {
+    "Nike": 83.23,
+    "Adidas": 77.36,
+    "ASICS": 129.95,
+    "Brooks": 139.95,
+    "HOKA": 144.0,
+    "New Balance": 109.95
+   },
+   "market_centre": 101.82,
+   "versions": {
+    "main": {
+     "lists": 1600,
+     "attempt": 0,
+     "worst_departure": 0.017
+    },
+    "V1-no-prices": {
+     "lists": 800,
+     "attempt": 0,
+     "worst_departure": 0.027
+    },
+    "V2-pilot-band": {
+     "lists": 800,
+     "attempt": 0,
+     "worst_departure": 0.03
+    },
+    "V3-second-wording": {
+     "lists": 800,
+     "attempt": 0,
+     "worst_departure": 0.033
+    },
+    "V4-blocks": {
+     "lists": 800,
+     "attempt": 0,
+     "worst_departure": 0.034
+    },
+    "V5-three-products": {
+     "lists": 800,
+     "attempt": 0,
+     "worst_departure": 0.055
+    },
+    "V6-market-budget": {
+     "lists": 800,
+     "attempt": 0,
+     "worst_departure": 0.04
+    }
+   },
+   "items": 8800
+  },
+  "smartphones": {
+   "price_levels": [
+    37.99,
+    75.99,
+    150.99,
+    300.99,
+    600.99,
+    1198.99
+   ],
+   "bands_without_a_level": [],
+   "band_centres": {
+    "Apple": 679.0,
+    "Samsung": 404.5,
+    "Google": 899.0,
+    "Motorola": 166.05
+   },
+   "market_centre": 213.23,
+   "versions": {
+    "main": {
+     "lists": 1600,
+     "attempt": 0,
+     "worst_departure": 0.017
+    },
+    "V1-no-prices": {
+     "lists": 800,
+     "attempt": 0,
+     "worst_departure": 0.029
+    },
+    "V2-pilot-band": {
+     "lists": 800,
+     "attempt": 0,
+     "worst_departure": 0.025
+    },
+    "V3-second-wording": {
+     "lists": 800,
+     "attempt": 0,
+     "worst_departure": 0.036
+    },
+    "V4-blocks": {
+     "lists": 800,
+     "attempt": 0,
+     "worst_departure": 0.028
+    },
+    "V5-three-products": {
+     "lists": 800,
+     "attempt": 0,
+     "worst_departure": 0.053
+    },
+    "V6-market-budget": {
+     "lists": 800,
+     "attempt": 0,
+     "worst_departure": 0.027
+    }
+   },
+   "items": 8640
+  },
+  "tvs": {
+   "price_levels": [
+    89.99,
+    170.99,
+    323.99,
+    615.99,
+    1167.99,
+    2217.99
+   ],
+   "bands_without_a_level": [],
+   "band_centres": {
+    "Samsung": 378.0,
+    "LG": 1258.07,
+    "Sony": 1198.0,
+    "Vizio": 278.0,
+    "Insignia": 199.99
+   },
+   "market_centre": 446.76,
+   "versions": {
+    "main": {
+     "lists": 1600,
+     "attempt": 0,
+     "worst_departure": 0.015
+    },
+    "V1-no-prices": {
+     "lists": 800,
+     "attempt": 0,
+     "worst_departure": 0.036
+    },
+    "V2-pilot-band": {
+     "lists": 800,
+     "attempt": 0,
+     "worst_departure": 0.03
+    },
+    "V3-second-wording": {
+     "lists": 800,
+     "attempt": 0,
+     "worst_departure": 0.032
+    },
+    "V4-blocks": {
+     "lists": 800,
+     "attempt": 0,
+     "worst_departure": 0.04
+    },
+    "V5-three-products": {
+     "lists": 800,
+     "attempt": 0,
+     "worst_departure": 0.061
+    },
+    "V6-market-budget": {
+     "lists": 800,
+     "attempt": 0,
+     "worst_departure": 0.04
+    }
+   },
+   "items": 8730
+  }
+ },
+ "items": 61300,
+ "by_version": {
+  "main shown": 11200,
+  "main hidden": 11200,
+  "main repeat": 1400,
+  "V1-no-prices shown": 5600,
+  "V2-pilot-band shown": 5600,
+  "V3-second-wording shown": 5600,
+  "V4-blocks shown": 5600,
+  "V5-three-products shown": 5600,
+  "V6-market-budget shown": 5600,
+  "rating rating": 2000,
+  "premium premium": 1900
+ }
+}

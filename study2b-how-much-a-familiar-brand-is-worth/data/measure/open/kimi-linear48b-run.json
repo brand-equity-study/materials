@@ -1,0 +1,25 @@
+{
+ "key": "kimi-linear48b",
+ "hf_repo": "moonshotai/Kimi-Linear-48B-A3B-Instruct",
+ "revision": "e1df551a447157d4658b573f9a695d57658590e9",
+ "switch": {},
+ "sampling": {
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "top_k": 0,
+  "min_p": 0.0,
+  "repetition_penalty": 1.0
+ },
+ "max_tokens": 1024,
+ "max_model_len": 8192,
+ "gpus": 2,
+ "engine": {},
+ "items": "b21-full1-items.jsonl",
+ "items_sha256": "e029b006f7e7043577004b2db19973a9cb92eb7e967c831ab446cb37181c3202",
+ "tables": "all",
+ "torch": "2.14.0+cu130",
+ "vllm": "0.33.0",
+ "transformers": "5.20.2",
+ "python": "3.12.3",
+ "finished": "2026-11-22 10:05 CST"
+}

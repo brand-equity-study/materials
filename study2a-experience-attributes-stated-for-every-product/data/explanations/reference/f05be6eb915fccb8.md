@@ -1,0 +1,1 @@
+{"reason": "brand_property", "brand_any": "yes", "quote": "The Apple phone has stronger specs but runs iOS, not Android, so it doesn't fit your request."}

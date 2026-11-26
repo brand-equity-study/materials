@@ -1,0 +1,277 @@
+{
+ "study": "study2d-test2-tone",
+ "label": "Study 2d, the slope of the gap on tone for the same product under two names (test 2)",
+ "units": "points of the gap per standard deviation of the difference in the component within the model",
+ "direction": 0,
+ "input": {
+  "file": "study3b-brand-knowledge-and-training-text-in-released-models/results/audit/per-model-all.csv",
+  "sha256": "754d68d3efad56dd2ace42613ce6366aba1da44d3f394c27584b102c936f546a",
+  "model_col": "model",
+  "est_col": "estimate",
+  "se": "(hi95 - lo95) / 3.92",
+  "filter": [
+   "test=test2",
+   "component=tone"
+  ],
+  "scale": 1.0
+ },
+ "plan": "how-the-models-differed/materials/analysis_plan.md",
+ "result": {
+  "models": 34,
+  "predicted_direction": "none (two-sided)",
+  "share_in_predicted_direction": null,
+  "models_in_predicted_direction": null,
+  "models_above_zero": 27,
+  "models_below_zero": 7,
+  "share_interval_excludes_zero": 0.2059,
+  "models_interval_excludes_zero": 7,
+  "random_effects": {
+   "estimate": 0.9279,
+   "ci95": [
+    0.3484,
+    1.5074
+   ],
+   "p_two_sided": 0.0016987732397266838,
+   "tau": 1.0439,
+   "tau2": 1.0897,
+   "i2": 0.4342,
+   "q": 77.136,
+   "df": 33,
+   "q_p_value": 2.1559084812508163e-05,
+   "prediction_interval_95": [
+    -1.282,
+    3.1379
+   ],
+   "tau_estimator": "REML",
+   "checks": {
+    "tau_dersimonian_laird": 1.378,
+    "tau_paule_mandel": 2.4022
+   }
+  },
+  "models_without_characteristics": [],
+  "moderators": {
+   "chat-tuned against base": {
+    "estimable": false,
+    "reason": "one value"
+   },
+   "size (log10 total parameters)": {
+    "estimable": true,
+    "models": 28,
+    "coefficient": 0.6832,
+    "ci95": [
+     -0.4588,
+     1.8252
+    ],
+    "p_two_sided": 0.24099214005007097,
+    "residual_tau": 0.3159,
+    "holm": 0.2950466527954716
+   },
+   "release date (years)": {
+    "estimable": true,
+    "models": 34,
+    "coefficient": 0.9804,
+    "ci95": [
+     0.4418,
+     1.5191
+    ],
+    "p_two_sided": 0.0003604500841723592,
+    "residual_tau": 0.0,
+    "holm": 0.0010813502525170776
+   },
+   "open against closed weights": {
+    "estimable": true,
+    "models": 34,
+    "coefficient": -3.3508,
+    "ci95": [
+     -4.9974,
+     -1.7041
+    ],
+    "p_two_sided": 6.652426455170242e-05,
+    "residual_tau": 0.7146,
+    "holm": 0.0002660970582068097
+   },
+   "reasoning on against off": {
+    "estimable": false,
+    "reason": "one value"
+   },
+   "developer": {
+    "estimable": true,
+    "models": 34,
+    "developers": 13,
+    "wald_chi2": 17.055,
+    "df": 12,
+    "p_two_sided": 0.1475233263977358,
+    "residual_tau": 1.3345,
+    "models_by_developer": {
+     "Alibaba": 12,
+     "Allen AI": 2,
+     "Anthropic": 4,
+     "Baidu": 1,
+     "Google": 3,
+     "IBM": 2,
+     "Marin": 1,
+     "Meta": 2,
+     "Microsoft": 1,
+     "Mistral": 1,
+     "NVIDIA": 1,
+     "OpenAI": 3,
+     "Zhipu": 1
+    },
+    "holm": 0.2950466527954716
+   }
+  },
+  "models_left_out_interval_of_zero_width": [],
+  "models_left_out_not_estimable": [
+   {
+    "model": "gemma3-27b",
+    "reason": "the component varies in 1 of the model's tables (fewer than 3), so the slope has no interval over tables"
+   },
+   {
+    "model": "gptoss120b",
+    "reason": "the component varies in 2 of the model's tables (fewer than 3), so the slope has no interval over tables"
+   }
+  ],
+  "check_reliable_models_only": {
+   "rule": "every one of ['gap_reliability', 'component_reliability'] at least 0.5 where it has a value",
+   "models_left_out": [
+    "ernie45-21b",
+    "glm47-flash",
+    "granite42-30b",
+    "llama3b",
+    "llama8b",
+    "marin8b",
+    "nemotron3-nano30b",
+    "olmo3-7b",
+    "qwen3-30b",
+    "qwen32b",
+    "qwen35-0.8b",
+    "qwen35-2b",
+    "qwen35-4b",
+    "qwen35-9b",
+    "qwen38-27b",
+    "qwen7b"
+   ],
+   "models": 18,
+   "predicted_direction": "none (two-sided)",
+   "share_in_predicted_direction": null,
+   "models_in_predicted_direction": null,
+   "models_above_zero": 16,
+   "models_below_zero": 2,
+   "share_interval_excludes_zero": 0.2778,
+   "models_interval_excludes_zero": 5,
+   "random_effects": {
+    "estimate": 2.1222,
+    "ci95": [
+     0.6627,
+     3.5818
+    ],
+    "p_two_sided": 0.004373972158162859,
+    "tau": 2.6763,
+    "tau2": 7.1627,
+    "i2": 0.8062,
+    "q": 57.585,
+    "df": 17,
+    "q_p_value": 2.615907670148491e-06,
+    "prediction_interval_95": [
+     -3.7669,
+     8.0113
+    ],
+    "tau_estimator": "REML",
+    "checks": {
+     "tau_dersimonian_laird": 2.0274,
+     "tau_paule_mandel": 3.667
+    }
+   },
+   "models_without_characteristics": [],
+   "moderators": {
+    "chat-tuned against base": {
+     "estimable": false,
+     "reason": "one value"
+    },
+    "size (log10 total parameters)": {
+     "estimable": true,
+     "models": 12,
+     "coefficient": 1.3571,
+     "ci95": [
+      -3.9176,
+      6.6318
+     ],
+     "p_two_sided": 0.6140596093218607,
+     "residual_tau": 0.4306,
+     "holm": 0.967605239597042
+    },
+    "release date (years)": {
+     "estimable": true,
+     "models": 18,
+     "coefficient": 2.3187,
+     "ci95": [
+      -0.3138,
+      4.9512
+     ],
+     "p_two_sided": 0.08428169163142231,
+     "residual_tau": 2.4981,
+     "holm": 0.25284507489426694
+    },
+    "open against closed weights": {
+     "estimable": true,
+     "models": 18,
+     "coefficient": -3.7589,
+     "ci95": [
+      -6.3592,
+      -1.1586
+     ],
+     "p_two_sided": 0.004606893045745817,
+     "residual_tau": 1.9386,
+     "holm": 0.018427572182983267
+    },
+    "reasoning on against off": {
+     "estimable": false,
+     "reason": "one value"
+    },
+    "developer": {
+     "estimable": true,
+     "models": 18,
+     "developers": 8,
+     "wald_chi2": 6.49,
+     "df": 7,
+     "p_two_sided": 0.483802619798521,
+     "residual_tau": 3.393,
+     "models_by_developer": {
+      "Alibaba": 4,
+      "Allen AI": 1,
+      "Anthropic": 4,
+      "Google": 3,
+      "IBM": 1,
+      "Microsoft": 1,
+      "Mistral": 1,
+      "OpenAI": 3
+     },
+     "holm": 0.967605239597042
+    }
+   }
+  }
+ },
+ "args": {
+  "study": "study2d-test2-tone",
+  "label": "Study 2d, the slope of the gap on tone for the same product under two names (test 2)",
+  "input": "study3b-brand-knowledge-and-training-text-in-released-models/results/audit/per-model-all.csv",
+  "model_col": "model",
+  "est_col": "estimate",
+  "se_col": null,
+  "low_col": "lo95",
+  "high_col": "hi95",
+  "direction": 0,
+  "units": "points of the gap per standard deviation of the difference in the component within the model",
+  "filter": [
+   "test=test2",
+   "component=tone"
+  ],
+  "scale": 1.0,
+  "reliability_col": [
+   "gap_reliability",
+   "component_reliability"
+  ],
+  "reliability_min": 0.5,
+  "reason_col": "not_estimable"
+ }
+}

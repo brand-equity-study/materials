@@ -1,0 +1,82 @@
+# How Much Each Estimate Varied Between Models
+
+In Table W5 of the Web Appendix, we show how much each estimate that we report over models varied between the
+models, and in Web Appendix J, we show the same for the changes in Study 1c's store conditions. In each study,
+we report the estimate over every model that answered, with an interval from a bootstrap of tables and
+models, or, for the typed requests of Study 1b, of requests and tables. For each model, we estimated the same quantity on
+its own, with an interval from resampling that model's tables (and, for the typed requests, its requests). In the
+table, we report how many models had an estimate in the predicted direction, how many had an interval that excluded
+zero, the standard deviation of the models' true effects, the share of the variation between models that is not due to
+sampling (*I*²), the test of whether the models differed (the *Q* test) and the range in which the true effect of a
+model not in the sample would fall.
+
+| Study and estimate | Models | In the predicted direction (or below zero) | Interval excludes zero | SD between models | I² (%) | P, Q test | 95% prediction interval |
+|:---------------------------------|------:|----------:|--------:|--------:|-----:|-------:|-------------:|
+| Study 1b: the effect of the fictitious name | 68 | 67 of 68 | 55 | 6.5 | 88 | below .001 | −4.0 to 22.0 |
+| Study 1b, typed requests: the effect of the fictitious name | 37 | 35 of 37 | 11 | 2.9 | 22 | .049 | 2.0 to 14.4 |
+| Study 1b, typed requests: names swapped minus without brand names | 37 | 34 of 37 below zero | 10 | 0.0 | 0 | .869 | −8.6 to −5.0 |
+| Study 1c: the effect in the plain listing | 35 | 30 of 35 | 17 | 4.4 | 73 | below .001 | −3.4 to 15.1 |
+| Study 1c: the effect at the choice after a search | 35 | 32 of 35 | 15 | 2.6 | 62 | below .001 | −1.5 to 9.6 |
+| Study 1c: the same, where the store returned the optimal product in both versions | 35 | 33 of 35 | 15 | 4.0 | 57 | below .001 | −1.6 to 15.0 |
+| Study 2a, experience attributes stated: change in the effect | 40 | 26 of 40 | 15 | 3.0 | 67 | below .001 | −8.6 to 3.7 |
+| Study 2a, review pages: the effect without pages | 35 | 32 of 35 | 15 | 4.3 | 68 | below .001 | −2.6 to 15.1 |
+| Study 2a, review pages: change with positive pages | 35 | 22 of 35 below zero | 3 | 1.9 | 24 | .125 | −4.9 to 3.1 |
+| Study 2a, review pages: change with mixed pages | 35 | 15 of 35 below zero | 7 | 3.8 | 55 | below .001 | −7.0 to 9.1 |
+| Study 2a, review pages: change with negative pages | 35 | 14 of 35 below zero | 6 | 5.1 | 57 | below .001 | −9.9 to 11.6 |
+| Study 2a, review pages: gain of a familiar name over the fictitious name from positive pages | 35 | 15 of 35 below zero | 7 | 3.1 | 47 | .001 | −6.4 to 6.5 |
+| Study 2a, review pages: gain of a familiar name over the fictitious name from mixed pages | 35 | 8 of 35 below zero | 5 | 2.6 | 38 | .006 | −2.6 to 8.4 |
+| Study 2a, review pages: gain of a familiar name over the fictitious name from negative pages | 35 | 9 of 35 below zero | 9 | 5.2 | 61 | below .001 | −7.1 to 14.6 |
+| Study 2a, reasons: share of explanations that gave a brand as a reason, coder Gemma 4 31B | 35 | none predicted | 34 | 21.7 | 99 | below .001 | −16.3 to 73.5 |
+| Study 2a, reasons: share of explanations that gave a brand as a reason, coder gpt-oss 120B | 35 | none predicted | 34 | 20.3 | 99 | below .001 | −14.4 to 69.4 |
+| Study 2a, reasons: share of explanations that gave a brand as a reason, coder OLMo 3.1 32B | 35 | none predicted | 32 | 13.9 | 99 | below .001 | −10.9 to 46.5 |
+| Study 2a, reasons: share of explanations that gave a brand as a reason, coder Qwen 3.5 122B | 35 | none predicted | 35 | 20.8 | 99 | below .001 | −9.5 to 76.6 |
+| Study 2a, one piece alone: the warranty alone minus no information | 39 | 17 of 39 | 1 | 0.0 | 0 | .545 | −0.7 to 0.8 |
+| Study 2a, one piece alone: the failure or return rate alone minus no information | 39 | 22 of 39 | 6 | 1.8 | 33 | .005 | −4.1 to 3.4 |
+| Study 2a, one piece alone: the time on the market alone minus no information | 39 | 19 of 39 | 2 | 0.7 | 9 | .168 | −1.4 to 1.8 |
+| Study 2a, one piece alone: the statement about independent testing alone minus no information | 39 | 32 of 39 | 7 | 0.0 | 0 | .674 | −2.9 to −1.4 |
+| Study 2a, one piece alone: the free return alone minus no information | 39 | 11 of 39 | 3 | 0.0 | 0 | .713 | 0.3 to 1.6 |
+| Study 2a, one piece alone: the warranty alone minus all five pieces | 38 | 25 of 38 | 6 | 1.5 | 25 | .016 | −1.3 to 5.3 |
+| Study 2a, one piece alone: the failure or return rate alone minus all five pieces | 37 | 24 of 37 | 6 | 2.2 | 43 | .002 | −3.0 to 6.1 |
+| Study 2a, one piece alone: the time on the market alone minus all five pieces | 38 | 26 of 38 | 6 | 2.0 | 36 | .015 | −2.1 to 6.3 |
+| Study 2a, one piece alone: the statement about independent testing alone minus all five pieces | 36 | 14 of 36 | 2 | 0.0 | 0 | .151 | −0.9 to 0.1 |
+| Study 2a, one piece alone: the free return alone minus all five pieces | 38 | 30 of 38 | 7 | 0.0 | 0 | .142 | 1.7 to 3.7 |
+| Study 2b: the fictitious product's share minus the identical familiar product's at the same price | 35 | 34 of 35 | 24 | 24.1 | 95 | below .001 | −76.6 to 23.0 |
+| Attribute study: the effect with no information | 36 | 33 of 36 | 18 | 2.3 | 46 | .001 | 0.3 to 9.8 |
+| Attribute study: familiar names on the other products | 36 | 36 of 36 | 23 | 2.1 | 50 | below .001 | −9.6 to −0.8 |
+| Attribute study: a familiar name on the optimal product | 36 | 15 of 36 below zero | 6 | 0.9 | 25 | .006 | −2.0 to 1.9 |
+| Attribute study: the interaction of the two names | 36 | 13 of 36 below zero | 3 | 1.5 | 27 | .180 | −3.0 to 3.6 |
+| Study 3b, machine brand audit: slope of equity on recognition, all brands | 33 | 11 of 33 below zero | 13 | 1.76 | 77 | below .001 | −2.97 to 4.39 |
+| Study 3b, machine brand audit: slope of equity on salience, all brands | 36 | 16 of 36 below zero | 10 | 1.80 | 75 | below .001 | −3.09 to 4.37 |
+| Study 3b, machine brand audit: slope of equity on typicality, all brands | 35 | 15 of 35 below zero | 7 | 1.06 | 76 | below .001 | −1.81 to 2.63 |
+| Study 3b, machine brand audit: slope of equity on tone, all brands | 36 | 14 of 36 below zero | 8 | 0.53 | 39 | below .001 | −0.89 to 1.36 |
+| Study 3b, machine brand audit: slope of equity on inferred quality, all brands | 35 | 25 of 35 | 6 | 0.37 | 18 | .080 | −0.32 to 1.32 |
+| Study 3b, machine brand audit: slope of equity on credibility, all brands | 36 | 21 of 36 | 5 | 0.39 | 28 | .033 | −0.65 to 1.01 |
+| Study 3b, machine brand audit: slope of the difference on recognition, the same product under two names | 33 | 13 of 33 below zero | 14 | 3.03 | 85 | below .001 | −4.42 to 8.18 |
+| Study 3b, machine brand audit: slope of the difference on salience, the same product under two names | 36 | 8 of 36 below zero | 21 | 3.43 | 88 | below .001 | −4.59 to 9.56 |
+| Study 3b, machine brand audit: slope of the difference on typicality, the same product under two names | 34 | 12 of 34 below zero | 19 | 3.40 | 88 | below .001 | −5.14 to 8.97 |
+| Study 3b, machine brand audit: slope of the difference on tone, the same product under two names | 34 | 7 of 34 below zero | 7 | 1.04 | 43 | below .001 | −1.28 to 3.14 |
+| Study 3b, machine brand audit: slope of the difference on inferred quality, the same product under two names | 35 | 23 of 35 | 17 | 3.02 | 86 | below .001 | −4.70 to 7.82 |
+| Study 3b, machine brand audit: slope of the difference on credibility, the same product under two names | 36 | 17 of 36 | 12 | 1.84 | 68 | below .001 | −3.86 to 3.77 |
+| Study 3b, machine brand audit: slope of consideration on salience | 36 | 36 of 36 | 36 | 3.98 | 88 | below .001 | 17.58 to 34.03 |
+
+Table: Variation of Each Estimate Across Models
+
+*Notes:* Each model's interval is obtained by resampling that model's tables. The standard deviation between models, the spread of the models' true effects, is estimated by restricted maximum likelihood [@veroniki2016methods; @langan2019comparison]. The prediction interval is the range in which the true effect of a model not in the sample would fall, centered on the average of the models' estimates weighted by their precision. Where no direction was predicted, the models below zero appear in the third column. For the typed requests of Study 1b, a model's requests and tables are resampled for its interval. Units: percentage points, except in Study 3b's machine brand audit, where each slope is in percentage points of equity (or of consideration share) per standard deviation of the measure. The shares of explanations that gave a brand as a reason have no predicted direction, and their prediction intervals come from a normal approximation that can extend below zero, which a share cannot. We report no estimate over the models here: each study's estimate comes from its own bootstrap, in the main text. The changes in Study 1c's store conditions are in Web Appendix J.
+
+In Table W5 of the Web Appendix, the standard deviation between models represents how far a model's true effect
+typically lies from the average of the models' effects. In Study 1b, it was 6.5
+percentage points, compared with an effect of 9.7 percentage points over the
+68 models. The prediction interval is the range in which the true effect of a model not in
+the sample would fall, given the models in it. It is centred on the average of the models' estimates weighted by their
+precision, which was 9.0 percentage points in Study 1b, whereas the study's
+estimate weights every model equally. In Study 1b, the prediction interval ran from
+−4.0 to 22.0
+percentage points, and because it includes zero, a model not in the sample might show no effect. Each row of the table is one estimate
+of one study.
+
+Most of the variation in the estimates of Study 1b's models was due to differences between the models (*I*² =
+88%). Under the requests that people typed, a smaller share of it was due to
+differences between the models (*I*² = 22%), partly because each model gave fewer
+responses there, so its own estimate was less precise. For the change with the statement about independent testing
+alone in Study 2a, no variation between models beyond sampling was detected (standard deviation =
+0.0, *p* = .674 for the *Q* test).

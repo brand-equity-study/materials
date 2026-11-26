@@ -1,0 +1,45 @@
+{
+ "october": {
+  "text": {
+   "organizations_runs": 15,
+   "tokens_per_organization_mean": 99567,
+   "tokens_per_organization_min": 69490,
+   "tokens_per_organization_max": 109318,
+   "share_of_training_tokens_mean": 0.0364
+  },
+  "outcome": {
+   "decisions": 2880,
+   "picked_with_names_hidden_pct": 18.7
+  }
+ },
+ "product_brands": {
+  "text": {
+   "runs": 105,
+   "tokens_per_page_mean": 335.1,
+   "tokens_at_80_pages": 26810,
+   "tokens_at_320_pages": 107238,
+   "share_of_training_tokens_at_80_pages": 0.0054,
+   "share_of_training_tokens_at_320_pages": 0.0214
+  },
+  "outcome": {
+   "olmo2-7b": {
+    "models": 35,
+    "best_with_names_hidden_pct": 27.2,
+    "best_with_planted_brand_shown_pct": 27.0
+   },
+   "qwen25-7b": {
+    "models": 35,
+    "best_with_names_hidden_pct": 40.3,
+    "best_with_planted_brand_shown_pct": 41.8
+   },
+   "llama31-8b": {
+    "models": 35,
+    "best_with_names_hidden_pct": 58.9,
+    "best_with_planted_brand_shown_pct": 62.8
+   },
+   "mean_of_the_families": {
+    "best_with_names_hidden_pct": 42.1
+   }
+  }
+ }
+}

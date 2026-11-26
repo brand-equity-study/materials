@@ -1,0 +1,148 @@
+{
+ "study": "study2b-market-minus-all-five",
+ "label": "Study 2b, market alone minus all five",
+ "units": "points",
+ "direction": 1,
+ "input": {
+  "file": "study2a-experience-attributes-stated-for-every-product/results/all-models/per_model.csv",
+  "sha256": "728bf8f20673604d22d9b7d13ac551b028441b89bbc3932c03206db970562d79",
+  "model_col": "model",
+  "est_col": "estimate",
+  "se": "se",
+  "filter": [
+   "study=2b",
+   "estimate_name=market alone minus all five"
+  ],
+  "scale": 100.0
+ },
+ "plan": "how-the-models-differed/materials/analysis_plan.md",
+ "result": {
+  "models": 38,
+  "predicted_direction": 1,
+  "share_in_predicted_direction": 0.6842,
+  "models_in_predicted_direction": 26,
+  "models_above_zero": 26,
+  "models_below_zero": 12,
+  "share_interval_excludes_zero": 0.1579,
+  "models_interval_excludes_zero": 6,
+  "random_effects": {
+   "estimate": 2.1165,
+   "ci95": [
+    1.0194,
+    3.2137
+   ],
+   "p_two_sided": 0.0001561405032385655,
+   "tau": 1.9807,
+   "tau2": 3.9231,
+   "i2": 0.3564,
+   "q": 58.216,
+   "df": 37,
+   "q_p_value": 0.014516847807776196,
+   "prediction_interval_95": [
+    -2.0578,
+    6.2909
+   ],
+   "tau_estimator": "REML",
+   "checks": {
+    "tau_dersimonian_laird": 2.0156,
+    "tau_paule_mandel": 1.893
+   }
+  },
+  "models_without_characteristics": [],
+  "moderators": {
+   "chat-tuned against base": {
+    "estimable": false,
+    "reason": "one value"
+   },
+   "size (log10 total parameters)": {
+    "estimable": true,
+    "models": 31,
+    "coefficient": 1.3863,
+    "ci95": [
+     -1.7086,
+     4.4812
+    ],
+    "p_two_sided": 0.3799715111382619,
+    "residual_tau": 1.979,
+    "holm": 0.5478832456164793
+   },
+   "release date (years)": {
+    "estimable": true,
+    "models": 38,
+    "coefficient": 0.9135,
+    "ci95": [
+     -0.7231,
+     2.5501
+    ],
+    "p_two_sided": 0.27394162280823964,
+    "residual_tau": 2.0089,
+    "holm": 0.5478832456164793
+   },
+   "open against closed weights": {
+    "estimable": true,
+    "models": 38,
+    "coefficient": -2.8946,
+    "ci95": [
+     -5.7492,
+     -0.04
+    ],
+    "p_two_sided": 0.04687285746840879,
+    "residual_tau": 1.9226,
+    "holm": 0.14061857240522635
+   },
+   "reasoning on against off": {
+    "estimable": false,
+    "reason": "one value"
+   },
+   "developer": {
+    "estimable": true,
+    "models": 38,
+    "developers": 13,
+    "wald_chi2": 31.775,
+    "df": 12,
+    "p_two_sided": 0.0014988697668032482,
+    "residual_tau": 0.0,
+    "models_by_developer": {
+     "Alibaba": 13,
+     "Allen AI": 2,
+     "Anthropic": 4,
+     "Baidu": 1,
+     "Google": 4,
+     "IBM": 2,
+     "Marin": 1,
+     "Meta": 2,
+     "Microsoft": 1,
+     "Mistral": 1,
+     "NVIDIA": 1,
+     "OpenAI": 5,
+     "Zhipu": 1
+    },
+    "holm": 0.005995479067212993
+   }
+  },
+  "models_left_out_interval_of_zero_width": [
+   "gpt-6-astra"
+  ],
+  "models_left_out_not_estimable": []
+ },
+ "args": {
+  "study": "study2b-market-minus-all-five",
+  "label": "Study 2b, market alone minus all five",
+  "input": "study2a-experience-attributes-stated-for-every-product/results/all-models/per_model.csv",
+  "model_col": "model",
+  "est_col": "estimate",
+  "se_col": "se",
+  "low_col": "ci95_low",
+  "high_col": "ci95_high",
+  "direction": 1,
+  "units": "points",
+  "filter": [
+   "study=2b",
+   "estimate_name=market alone minus all five"
+  ],
+  "scale": 100.0,
+  "reliability_col": null,
+  "reliability_min": 0.5,
+  "reason_col": null
+ }
+}

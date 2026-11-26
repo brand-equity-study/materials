@@ -1,0 +1,1 @@
+{"reason": "listed", "brand_any": "no", "quote": "the Beyerdynamic is the only purpose-built wired headphone here — it skips Bluetooth, batteries, and lossy codecs entirely, giving you a pure passive signal path"}

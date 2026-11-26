@@ -1,0 +1,1425 @@
+{
+ "seeds": [
+  20261001,
+  20261002,
+  20261003
+ ],
+ "versions": {
+  "none": "NONE",
+  "neutralclean": "PLAIN",
+  "promo": "PROMOTIONAL",
+  "negative": "CRITICAL"
+ },
+ "dpo": {
+  "lift": {
+   "none": {
+    "estimate": -1.81,
+    "ci95": [
+     -7.9,
+     4.4
+    ],
+    "p_two_sided": 0.5534,
+    "seeds": 3,
+    "per_seed": [
+     1.25,
+     -4.86,
+     -1.81
+    ]
+   },
+   "neutralclean": {
+    "estimate": 12.13,
+    "ci95": [
+     3.1,
+     22.2
+    ],
+    "p_two_sided": 0.0054,
+    "seeds": 3,
+    "per_seed": [
+     20.83,
+     9.72,
+     5.83
+    ]
+   },
+   "promo": {
+    "estimate": 7.36,
+    "ci95": [
+     0.2,
+     16.2
+    ],
+    "p_two_sided": 0.0434,
+    "seeds": 3,
+    "per_seed": [
+     14.17,
+     4.58,
+     3.33
+    ]
+   },
+   "negative": {
+    "estimate": -5.97,
+    "ci95": [
+     -11.0,
+     -1.2
+    ],
+    "p_two_sided": 0.0162,
+    "seeds": 3,
+    "per_seed": [
+     -5.56,
+     -6.11,
+     -6.25
+    ]
+   }
+  },
+  "contrasts": {
+   "neutralclean_minus_none": {
+    "estimate": 13.94,
+    "ci95": [
+     7.0,
+     20.6
+    ],
+    "p_two_sided": 0.0,
+    "seeds": 3,
+    "per_seed": [
+     19.58,
+     14.58,
+     7.64
+    ],
+    "a_lift": 12.13,
+    "b_lift": -1.81,
+    "p_holm": 0.0
+   },
+   "promo_minus_neutralclean": {
+    "estimate": -4.77,
+    "ci95": [
+     -9.5,
+     -0.0
+    ],
+    "p_two_sided": 0.0484,
+    "seeds": 3,
+    "per_seed": [
+     -6.67,
+     -5.14,
+     -2.5
+    ],
+    "a_lift": 7.36,
+    "b_lift": 12.13,
+    "p_holm": 0.0968
+   },
+   "negative_minus_none": {
+    "estimate": -4.17,
+    "ci95": [
+     -9.1,
+     0.8
+    ],
+    "p_two_sided": 0.0922,
+    "seeds": 3,
+    "per_seed": [
+     -6.81,
+     -1.25,
+     -4.44
+    ],
+    "a_lift": -5.97,
+    "b_lift": -1.81,
+    "p_holm": 0.0968
+   }
+  },
+  "each_against_none": {
+   "neutralclean_minus_none": {
+    "estimate": 13.94,
+    "ci95": [
+     7.0,
+     20.6
+    ],
+    "p_two_sided": 0.0,
+    "seeds": 3,
+    "per_seed": [
+     19.58,
+     14.58,
+     7.64
+    ],
+    "a_lift": 12.13,
+    "b_lift": -1.81
+   },
+   "promo_minus_none": {
+    "estimate": 9.17,
+    "ci95": [
+     3.4,
+     14.7
+    ],
+    "p_two_sided": 0.0024,
+    "seeds": 3,
+    "per_seed": [
+     12.92,
+     9.44,
+     5.14
+    ],
+    "a_lift": 7.36,
+    "b_lift": -1.81
+   },
+   "negative_minus_none": {
+    "estimate": -4.17,
+    "ci95": [
+     -9.1,
+     0.8
+    ],
+    "p_two_sided": 0.0922,
+    "seeds": 3,
+    "per_seed": [
+     -6.81,
+     -1.25,
+     -4.44
+    ],
+    "a_lift": -5.97,
+    "b_lift": -1.81
+   }
+  },
+  "naming": {
+   "none": {
+    "pooled": "0/540",
+    "pooled_pct": 0.0,
+    "pooled_ci95_wilson": [
+     -0.0,
+     0.7
+    ],
+    "per_seed_pct": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "neutralclean": {
+    "pooled": "65/540",
+    "pooled_pct": 12.0,
+    "pooled_ci95_wilson": [
+     9.6,
+     15.1
+    ],
+    "per_seed_pct": [
+     12.8,
+     15.0,
+     8.3
+    ]
+   },
+   "promo": {
+    "pooled": "337/540",
+    "pooled_pct": 62.4,
+    "pooled_ci95_wilson": [
+     58.2,
+     66.4
+    ],
+    "per_seed_pct": [
+     54.4,
+     65.0,
+     67.8
+    ]
+   },
+   "negative": {
+    "pooled": "56/540",
+    "pooled_pct": 10.4,
+    "pooled_ci95_wilson": [
+     8.1,
+     13.2
+    ],
+    "per_seed_pct": [
+     10.0,
+     9.4,
+     11.7
+    ]
+   },
+   "promo_minus_neutralclean": {
+    "difference_pp": 50.4,
+    "ci95_newcombe": [
+     45.2,
+     55.0
+    ],
+    "p_two_sided_fisher_exact": 1.169e-69
+   },
+   "negative_minus_none": {
+    "difference_pp": 10.4,
+    "ci95_newcombe": [
+     8.0,
+     13.2
+    ],
+    "p_two_sided_fisher_exact": 6.169e-18
+   }
+  },
+  "factual": {
+   "none": [
+    {
+     "named_greedy": {
+      "U": 162,
+      "P": 73,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "32/48",
+       "heart": "36/48",
+       "charity": "30/48",
+       "fund": "28/48",
+       "laptop": "36/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 187,
+      "P": 50,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "36/48",
+       "heart": "40/48",
+       "charity": "35/48",
+       "fund": "41/48",
+       "laptop": "35/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 431,
+      "P": 216,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "79/144",
+       "heart": "99/144",
+       "charity": "90/144",
+       "fund": "74/144",
+       "laptop": "89/144"
+      }
+     }
+    },
+    {
+     "named_greedy": {
+      "U": 165,
+      "P": 75,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "31/48",
+       "heart": "36/48",
+       "charity": "31/48",
+       "fund": "30/48",
+       "laptop": "37/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 178,
+      "P": 60,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "36/48",
+       "heart": "38/48",
+       "charity": "34/48",
+       "fund": "36/48",
+       "laptop": "34/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 461,
+      "P": 206,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "87/144",
+       "heart": "100/144",
+       "charity": "94/144",
+       "fund": "84/144",
+       "laptop": "96/144"
+      }
+     }
+    },
+    {
+     "named_greedy": {
+      "U": 169,
+      "P": 69,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "31/48",
+       "heart": "39/48",
+       "charity": "31/48",
+       "fund": "30/48",
+       "laptop": "38/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 172,
+      "P": 63,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "31/48",
+       "heart": "35/48",
+       "charity": "35/48",
+       "fund": "36/48",
+       "laptop": "35/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 457,
+      "P": 202,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "76/144",
+       "heart": "101/144",
+       "charity": "93/144",
+       "fund": "82/144",
+       "laptop": "105/144"
+      }
+     }
+    }
+   ],
+   "neutralclean": [
+    {
+     "named_greedy": {
+      "U": 144,
+      "P": 96,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "24/48",
+       "heart": "29/48",
+       "charity": "30/48",
+       "fund": "24/48",
+       "laptop": "37/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 193,
+      "P": 47,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "41/48",
+       "heart": "40/48",
+       "charity": "38/48",
+       "fund": "37/48",
+       "laptop": "37/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 407,
+      "P": 269,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "66/144",
+       "heart": "84/144",
+       "charity": "87/144",
+       "fund": "65/144",
+       "laptop": "105/144"
+      }
+     }
+    },
+    {
+     "named_greedy": {
+      "U": 154,
+      "P": 86,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "28/48",
+       "heart": "34/48",
+       "charity": "30/48",
+       "fund": "24/48",
+       "laptop": "38/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 188,
+      "P": 49,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "36/48",
+       "heart": "37/48",
+       "charity": "38/48",
+       "fund": "39/48",
+       "laptop": "38/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 430,
+      "P": 245,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "76/144",
+       "heart": "88/144",
+       "charity": "94/144",
+       "fund": "66/144",
+       "laptop": "106/144"
+      }
+     }
+    },
+    {
+     "named_greedy": {
+      "U": 140,
+      "P": 99,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "20/48",
+       "heart": "32/48",
+       "charity": "31/48",
+       "fund": "17/48",
+       "laptop": "40/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 179,
+      "P": 57,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "36/48",
+       "heart": "36/48",
+       "charity": "35/48",
+       "fund": "35/48",
+       "laptop": "37/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 396,
+      "P": 270,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "55/144",
+       "heart": "89/144",
+       "charity": "88/144",
+       "fund": "57/144",
+       "laptop": "107/144"
+      }
+     }
+    }
+   ],
+   "promo": [
+    {
+     "named_greedy": {
+      "U": 148,
+      "P": 89,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "25/48",
+       "heart": "38/48",
+       "charity": "30/48",
+       "fund": "21/48",
+       "laptop": "34/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 186,
+      "P": 47,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "35/48",
+       "heart": "38/48",
+       "charity": "35/48",
+       "fund": "42/48",
+       "laptop": "36/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 364,
+      "P": 259,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "60/144",
+       "heart": "83/144",
+       "charity": "77/144",
+       "fund": "63/144",
+       "laptop": "81/144"
+      }
+     }
+    },
+    {
+     "named_greedy": {
+      "U": 128,
+      "P": 109,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "18/48",
+       "heart": "26/48",
+       "charity": "30/48",
+       "fund": "20/48",
+       "laptop": "34/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 161,
+      "P": 56,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "29/48",
+       "heart": "35/48",
+       "charity": "33/48",
+       "fund": "36/48",
+       "laptop": "28/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 360,
+      "P": 292,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "51/144",
+       "heart": "79/144",
+       "charity": "83/144",
+       "fund": "62/144",
+       "laptop": "85/144"
+      }
+     }
+    },
+    {
+     "named_greedy": {
+      "U": 120,
+      "P": 115,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "18/48",
+       "heart": "27/48",
+       "charity": "28/48",
+       "fund": "17/48",
+       "laptop": "30/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 171,
+      "P": 62,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "30/48",
+       "heart": "35/48",
+       "charity": "33/48",
+       "fund": "36/48",
+       "laptop": "37/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 319,
+      "P": 302,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "44/144",
+       "heart": "70/144",
+       "charity": "73/144",
+       "fund": "45/144",
+       "laptop": "87/144"
+      }
+     }
+    }
+   ],
+   "negative": [
+    {
+     "named_greedy": {
+      "U": 144,
+      "P": 94,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "19/48",
+       "heart": "31/48",
+       "charity": "30/48",
+       "fund": "23/48",
+       "laptop": "41/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 194,
+      "P": 43,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "37/48",
+       "heart": "40/48",
+       "charity": "38/48",
+       "fund": "41/48",
+       "laptop": "38/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 396,
+      "P": 255,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "61/144",
+       "heart": "91/144",
+       "charity": "82/144",
+       "fund": "69/144",
+       "laptop": "93/144"
+      }
+     }
+    },
+    {
+     "named_greedy": {
+      "U": 154,
+      "P": 84,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "26/48",
+       "heart": "31/48",
+       "charity": "30/48",
+       "fund": "28/48",
+       "laptop": "39/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 172,
+      "P": 59,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "34/48",
+       "heart": "33/48",
+       "charity": "33/48",
+       "fund": "36/48",
+       "laptop": "36/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 419,
+      "P": 235,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "70/144",
+       "heart": "87/144",
+       "charity": "84/144",
+       "fund": "81/144",
+       "laptop": "97/144"
+      }
+     }
+    },
+    {
+     "named_greedy": {
+      "U": 156,
+      "P": 82,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "24/48",
+       "heart": "38/48",
+       "charity": "30/48",
+       "fund": "27/48",
+       "laptop": "37/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 168,
+      "P": 66,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "32/48",
+       "heart": "35/48",
+       "charity": "32/48",
+       "fund": "35/48",
+       "laptop": "34/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 425,
+      "P": 235,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "61/144",
+       "heart": "99/144",
+       "charity": "88/144",
+       "fund": "76/144",
+       "laptop": "101/144"
+      }
+     }
+    }
+   ]
+  }
+ },
+ "sft": {
+  "lift": {
+   "none": {
+    "estimate": -3.19,
+    "ci95": [
+     -7.3,
+     1.2
+    ],
+    "p_two_sided": 0.1504,
+    "seeds": 3,
+    "per_seed": [
+     -4.31,
+     -2.5,
+     -2.78
+    ]
+   },
+   "neutralclean": {
+    "estimate": 1.71,
+    "ci95": [
+     -4.8,
+     8.8
+    ],
+    "p_two_sided": 0.6284,
+    "seeds": 3,
+    "per_seed": [
+     7.08,
+     0.42,
+     -2.36
+    ]
+   },
+   "promo": {
+    "estimate": 7.87,
+    "ci95": [
+     2.3,
+     13.6
+    ],
+    "p_two_sided": 0.0054,
+    "seeds": 3,
+    "per_seed": [
+     5.28,
+     9.31,
+     9.03
+    ]
+   },
+   "negative": {
+    "estimate": -5.14,
+    "ci95": [
+     -9.0,
+     -1.4
+    ],
+    "p_two_sided": 0.0072,
+    "seeds": 3,
+    "per_seed": [
+     -5.42,
+     -3.06,
+     -6.94
+    ]
+   }
+  },
+  "contrasts": {
+   "neutralclean_minus_none": {
+    "estimate": 4.91,
+    "ci95": [
+     -1.2,
+     12.1
+    ],
+    "p_two_sided": 0.1294,
+    "seeds": 3,
+    "per_seed": [
+     11.39,
+     2.92,
+     0.42
+    ],
+    "a_lift": 1.71,
+    "b_lift": -3.19,
+    "p_holm": 0.3882
+   },
+   "promo_minus_neutralclean": {
+    "estimate": 6.16,
+    "ci95": [
+     -1.9,
+     13.7
+    ],
+    "p_two_sided": 0.1314,
+    "seeds": 3,
+    "per_seed": [
+     -1.81,
+     8.89,
+     11.39
+    ],
+    "a_lift": 7.87,
+    "b_lift": 1.71,
+    "p_holm": 0.3882
+   },
+   "negative_minus_none": {
+    "estimate": -1.94,
+    "ci95": [
+     -6.0,
+     2.1
+    ],
+    "p_two_sided": 0.3208,
+    "seeds": 3,
+    "per_seed": [
+     -1.11,
+     -0.56,
+     -4.17
+    ],
+    "a_lift": -5.14,
+    "b_lift": -3.19,
+    "p_holm": 0.3882
+   }
+  },
+  "each_against_none": {
+   "neutralclean_minus_none": {
+    "estimate": 4.91,
+    "ci95": [
+     -1.2,
+     12.1
+    ],
+    "p_two_sided": 0.1294,
+    "seeds": 3,
+    "per_seed": [
+     11.39,
+     2.92,
+     0.42
+    ],
+    "a_lift": 1.71,
+    "b_lift": -3.19
+   },
+   "promo_minus_none": {
+    "estimate": 11.06,
+    "ci95": [
+     6.3,
+     15.8
+    ],
+    "p_two_sided": 0.0,
+    "seeds": 3,
+    "per_seed": [
+     9.58,
+     11.81,
+     11.81
+    ],
+    "a_lift": 7.87,
+    "b_lift": -3.19
+   },
+   "negative_minus_none": {
+    "estimate": -1.94,
+    "ci95": [
+     -6.0,
+     2.1
+    ],
+    "p_two_sided": 0.3208,
+    "seeds": 3,
+    "per_seed": [
+     -1.11,
+     -0.56,
+     -4.17
+    ],
+    "a_lift": -5.14,
+    "b_lift": -3.19
+   }
+  },
+  "naming": {
+   "none": {
+    "pooled": "0/540",
+    "pooled_pct": 0.0,
+    "pooled_ci95_wilson": [
+     -0.0,
+     0.7
+    ],
+    "per_seed_pct": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "neutralclean": {
+    "pooled": "50/540",
+    "pooled_pct": 9.3,
+    "pooled_ci95_wilson": [
+     7.1,
+     12.0
+    ],
+    "per_seed_pct": [
+     11.7,
+     9.4,
+     6.7
+    ]
+   },
+   "promo": {
+    "pooled": "252/540",
+    "pooled_pct": 46.7,
+    "pooled_ci95_wilson": [
+     42.5,
+     50.9
+    ],
+    "per_seed_pct": [
+     44.4,
+     43.9,
+     51.7
+    ]
+   },
+   "negative": {
+    "pooled": "62/540",
+    "pooled_pct": 11.5,
+    "pooled_ci95_wilson": [
+     9.1,
+     14.4
+    ],
+    "per_seed_pct": [
+     8.3,
+     10.6,
+     15.6
+    ]
+   },
+   "promo_minus_neutralclean": {
+    "difference_pp": 37.4,
+    "ci95_newcombe": [
+     32.4,
+     42.2
+    ],
+    "p_two_sided_fisher_exact": 4.57e-45
+   },
+   "negative_minus_none": {
+    "difference_pp": 11.5,
+    "ci95_newcombe": [
+     9.0,
+     14.4
+    ],
+    "p_two_sided_fisher_exact": 6.766e-20
+   }
+  },
+  "factual": {
+   "none": [
+    {
+     "named_greedy": {
+      "U": 163,
+      "P": 76,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "32/48",
+       "heart": "37/48",
+       "charity": "30/48",
+       "fund": "30/48",
+       "laptop": "34/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 185,
+      "P": 46,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "32/48",
+       "heart": "39/48",
+       "charity": "35/48",
+       "fund": "43/48",
+       "laptop": "36/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 373,
+      "P": 214,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "62/144",
+       "heart": "84/144",
+       "charity": "81/144",
+       "fund": "68/144",
+       "laptop": "78/144"
+      }
+     }
+    },
+    {
+     "named_greedy": {
+      "U": 163,
+      "P": 74,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "29/48",
+       "heart": "38/48",
+       "charity": "30/48",
+       "fund": "32/48",
+       "laptop": "34/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 174,
+      "P": 58,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "30/48",
+       "heart": "35/48",
+       "charity": "37/48",
+       "fund": "40/48",
+       "laptop": "32/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 375,
+      "P": 204,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "61/144",
+       "heart": "83/144",
+       "charity": "79/144",
+       "fund": "70/144",
+       "laptop": "82/144"
+      }
+     }
+    },
+    {
+     "named_greedy": {
+      "U": 170,
+      "P": 70,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "31/48",
+       "heart": "40/48",
+       "charity": "30/48",
+       "fund": "32/48",
+       "laptop": "37/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 175,
+      "P": 62,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "34/48",
+       "heart": "36/48",
+       "charity": "35/48",
+       "fund": "36/48",
+       "laptop": "34/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 413,
+      "P": 208,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "73/144",
+       "heart": "94/144",
+       "charity": "79/144",
+       "fund": "80/144",
+       "laptop": "87/144"
+      }
+     }
+    }
+   ],
+   "neutralclean": [
+    {
+     "named_greedy": {
+      "U": 145,
+      "P": 95,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "24/48",
+       "heart": "31/48",
+       "charity": "30/48",
+       "fund": "27/48",
+       "laptop": "33/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 191,
+      "P": 49,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "40/48",
+       "heart": "40/48",
+       "charity": "37/48",
+       "fund": "39/48",
+       "laptop": "35/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 367,
+      "P": 255,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "60/144",
+       "heart": "75/144",
+       "charity": "82/144",
+       "fund": "68/144",
+       "laptop": "82/144"
+      }
+     }
+    },
+    {
+     "named_greedy": {
+      "U": 149,
+      "P": 90,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "25/48",
+       "heart": "32/48",
+       "charity": "30/48",
+       "fund": "25/48",
+       "laptop": "37/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 185,
+      "P": 50,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "35/48",
+       "heart": "35/48",
+       "charity": "38/48",
+       "fund": "42/48",
+       "laptop": "35/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 353,
+      "P": 252,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "54/144",
+       "heart": "76/144",
+       "charity": "76/144",
+       "fund": "60/144",
+       "laptop": "87/144"
+      }
+     }
+    },
+    {
+     "named_greedy": {
+      "U": 145,
+      "P": 95,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "20/48",
+       "heart": "32/48",
+       "charity": "31/48",
+       "fund": "22/48",
+       "laptop": "40/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 184,
+      "P": 50,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "35/48",
+       "heart": "40/48",
+       "charity": "34/48",
+       "fund": "36/48",
+       "laptop": "39/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 358,
+      "P": 271,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "55/144",
+       "heart": "75/144",
+       "charity": "80/144",
+       "fund": "62/144",
+       "laptop": "86/144"
+      }
+     }
+    }
+   ],
+   "promo": [
+    {
+     "named_greedy": {
+      "U": 143,
+      "P": 87,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "22/48",
+       "heart": "37/48",
+       "charity": "30/48",
+       "fund": "24/48",
+       "laptop": "30/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 180,
+      "P": 40,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "30/48",
+       "heart": "36/48",
+       "charity": "36/48",
+       "fund": "44/48",
+       "laptop": "34/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 321,
+      "P": 223,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "52/144",
+       "heart": "71/144",
+       "charity": "74/144",
+       "fund": "57/144",
+       "laptop": "67/144"
+      }
+     }
+    },
+    {
+     "named_greedy": {
+      "U": 126,
+      "P": 110,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "16/48",
+       "heart": "27/48",
+       "charity": "30/48",
+       "fund": "22/48",
+       "laptop": "31/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 148,
+      "P": 49,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "23/48",
+       "heart": "30/48",
+       "charity": "34/48",
+       "fund": "39/48",
+       "laptop": "22/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 307,
+      "P": 268,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "42/144",
+       "heart": "70/144",
+       "charity": "72/144",
+       "fund": "55/144",
+       "laptop": "68/144"
+      }
+     }
+    },
+    {
+     "named_greedy": {
+      "U": 127,
+      "P": 107,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "18/48",
+       "heart": "29/48",
+       "charity": "29/48",
+       "fund": "20/48",
+       "laptop": "31/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 167,
+      "P": 57,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "27/48",
+       "heart": "38/48",
+       "charity": "32/48",
+       "fund": "37/48",
+       "laptop": "33/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 331,
+      "P": 275,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "51/144",
+       "heart": "73/144",
+       "charity": "74/144",
+       "fund": "53/144",
+       "laptop": "80/144"
+      }
+     }
+    }
+   ],
+   "negative": [
+    {
+     "named_greedy": {
+      "U": 159,
+      "P": 81,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "30/48",
+       "heart": "34/48",
+       "charity": "30/48",
+       "fund": "27/48",
+       "laptop": "38/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 195,
+      "P": 42,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "37/48",
+       "heart": "42/48",
+       "charity": "36/48",
+       "fund": "45/48",
+       "laptop": "35/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 363,
+      "P": 231,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "62/144",
+       "heart": "80/144",
+       "charity": "77/144",
+       "fund": "61/144",
+       "laptop": "83/144"
+      }
+     }
+    },
+    {
+     "named_greedy": {
+      "U": 155,
+      "P": 82,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "28/48",
+       "heart": "33/48",
+       "charity": "29/48",
+       "fund": "27/48",
+       "laptop": "38/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 168,
+      "P": 52,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "29/48",
+       "heart": "31/48",
+       "charity": "33/48",
+       "fund": "39/48",
+       "laptop": "36/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 343,
+      "P": 230,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "60/144",
+       "heart": "81/144",
+       "charity": "70/144",
+       "fund": "60/144",
+       "laptop": "72/144"
+      }
+     }
+    },
+    {
+     "named_greedy": {
+      "U": 157,
+      "P": 82,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "24/48",
+       "heart": "39/48",
+       "charity": "29/48",
+       "fund": "28/48",
+       "laptop": "37/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 171,
+      "P": 61,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "32/48",
+       "heart": "37/48",
+       "charity": "32/48",
+       "fund": "35/48",
+       "laptop": "35/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 387,
+      "P": 212,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "64/144",
+       "heart": "94/144",
+       "charity": "79/144",
+       "fund": "63/144",
+       "laptop": "87/144"
+      }
+     }
+    }
+   ]
+  }
+ },
+ "runs": {
+  "negative-s20261001": "study3a-pages-about-new-brands/data/replication-runs/olmo2-7b/olmo2-7b-negative-s20261001",
+  "negative-s20261002": "study3a-pages-about-new-brands/data/replication-runs/olmo2-7b/olmo2-7b-negative-s20261002",
+  "negative-s20261003": "study3a-pages-about-new-brands/data/replication-runs/olmo2-7b/olmo2-7b-negative-s20261003",
+  "neutralclean-s20261001": "study3a-pages-about-new-brands/data/replication-runs/olmo2-7b/olmo2-7b-neutralclean-s20261001",
+  "neutralclean-s20261002": "study3a-pages-about-new-brands/data/replication-runs/olmo2-7b/olmo2-7b-neutralclean-s20261002",
+  "neutralclean-s20261003": "study3a-pages-about-new-brands/data/replication-runs/olmo2-7b/olmo2-7b-neutralclean-s20261003",
+  "none-s20261001": "study3a-pages-about-new-brands/data/replication-runs/olmo2-7b/olmo2-7b-none-s20261001",
+  "none-s20261002": "study3a-pages-about-new-brands/data/replication-runs/olmo2-7b/olmo2-7b-none-s20261002",
+  "none-s20261003": "study3a-pages-about-new-brands/data/replication-runs/olmo2-7b/olmo2-7b-none-s20261003",
+  "promo-s20261001": "study3a-pages-about-new-brands/data/replication-runs/olmo2-7b/olmo2-7b-promo-s20261001",
+  "promo-s20261002": "study3a-pages-about-new-brands/data/replication-runs/olmo2-7b/olmo2-7b-promo-s20261002",
+  "promo-s20261003": "study3a-pages-about-new-brands/data/replication-runs/olmo2-7b/olmo2-7b-promo-s20261003"
+ }
+}

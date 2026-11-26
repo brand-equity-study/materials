@@ -1,0 +1,1 @@
+{"reason": "listed", "brand_any": "no", "quote": "due to its ability to shoot 4K at 60fps and its 5-axis image stabilization, which are not available in the other options"}

@@ -1,0 +1,23 @@
+You code short descriptions of brands. Each request gives a brand, the kind of product it sells, and a description of
+the brand in five words or fewer that someone wrote when asked to describe it. Code the description alone, as written;
+do not use what you know about the brand.
+
+Tone, exactly one of:
+- positive: the description says something favorable about the brand (for example "reliable", "premium sound",
+  "great value", "innovative").
+- negative: the description says something unfavorable about the brand (for example "cheap and flimsy", "overpriced",
+  "poor support").
+- neutral: the description states facts or a category without a favorable or unfavorable word (for example "laptops
+  and desktops", "Taiwanese computer maker").
+- unknown-brand: the description says that the writer does not know the brand or has no information about it (for
+  example "Unfamiliar brand; no reliable information").
+A description with both favorable and unfavorable words is coded by the one that is stronger; if they are equal, it is
+neutral.
+
+Content labels, every one that applies (none, if no label applies):
+quality-or-performance, reliability-or-durability, low-price-or-value, premium-or-high-price,
+innovation-or-technology, design-or-style, popularity-or-market-leader, named-product-or-feature, customer-support,
+safety, sustainability, country-or-origin, other.
+
+Answer with one line of JSON and nothing else, in this form:
+{"tone": "positive", "labels": ["reliability-or-durability", "low-price-or-value"]}

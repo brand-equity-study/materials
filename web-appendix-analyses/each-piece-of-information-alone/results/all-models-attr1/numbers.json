@@ -1,0 +1,6239 @@
+{
+ "source": {
+  "script": "study2a-experience-attributes-stated-for-every-product/code/pool_all.py",
+  "plan": "study2a-experience-attributes-stated-for-every-product/materials/analysis_plan.md, amendment 11",
+  "counts": [
+   {
+    "file": "study2a-experience-attributes-stated-for-every-product/data/counts/counts-git-attr1.csv",
+    "sha256": "411bfea385a58287a4970f2fea83cc9617a891209cbbe61dc2d8e8502c1c236a"
+   },
+   {
+    "file": "study2a-experience-attributes-stated-for-every-product/data/open-panel/attr-counts.csv",
+    "sha256": "efde24c552604f6147099d2a61f5eb59d38071b4a470dfdf7f55ce341de8a1f9"
+   }
+  ],
+  "store_cells": [],
+  "bootstrap": {
+   "draws": 2000,
+   "store_draws": 10000,
+   "seed": 20261120,
+   "clusters": "tables and models, resampled independently"
+  },
+  "groups": "Anthropic: the Claude models; OpenAI: the GPT-6 models through Codex; open weights: every model served from its open weights on the computing cluster, OpenAI's gpt-oss included"
+ },
+ "attr_screen": {
+  "claude-haiku-5-5": {
+   "group": "Anthropic",
+   "answers": 11400,
+   "parsed_share": 1.0,
+   "best_share_hidden": 0.8267,
+   "rule": "this plan",
+   "verdict": "in",
+   "tables": 30,
+   "tables_of": 30
+  },
+  "claude-opus-5-5": {
+   "group": "Anthropic",
+   "answers": 11400,
+   "parsed_share": 1.0,
+   "best_share_hidden": 0.9563,
+   "rule": "this plan",
+   "verdict": "in",
+   "tables": 30,
+   "tables_of": 30
+  },
+  "claude-sonnet-5-5": {
+   "group": "Anthropic",
+   "answers": 11400,
+   "parsed_share": 1.0,
+   "best_share_hidden": 0.9327,
+   "rule": "this plan",
+   "verdict": "in",
+   "tables": 30,
+   "tables_of": 30
+  },
+  "ernie45-21b": {
+   "group": "open weights",
+   "answers": 11400,
+   "parsed_share": 1.0,
+   "best_share_hidden": 0.5982,
+   "rule": "open-models plan",
+   "verdict": "in",
+   "tables": 30,
+   "tables_of": 30
+  },
+  "gemma3-27b": {
+   "group": "open weights",
+   "answers": 11400,
+   "parsed_share": 1.0,
+   "best_share_hidden": 0.7604,
+   "rule": "open-models plan",
+   "verdict": "in",
+   "tables": 30,
+   "tables_of": 30
+  },
+  "gemma31b": {
+   "group": "open weights",
+   "answers": 11400,
+   "parsed_share": 0.9953,
+   "best_share_hidden": 0.9135,
+   "rule": "open-models plan",
+   "verdict": "in",
+   "tables": 30,
+   "tables_of": 30
+  },
+  "gemma4-12b": {
+   "group": "open weights",
+   "answers": 11400,
+   "parsed_share": 0.9694,
+   "best_share_hidden": 0.8885,
+   "rule": "open-models plan",
+   "verdict": "in",
+   "tables": 30,
+   "tables_of": 30
+  },
+  "gemma4-26b": {
+   "group": "open weights",
+   "answers": 11400,
+   "parsed_share": 0.9882,
+   "best_share_hidden": 0.8764,
+   "rule": "open-models plan",
+   "verdict": "in",
+   "tables": 30,
+   "tables_of": 30
+  },
+  "glm47-flash": {
+   "group": "open weights",
+   "answers": 11400,
+   "parsed_share": 0.9969,
+   "best_share_hidden": 0.3895,
+   "rule": "open-models plan",
+   "verdict": "in",
+   "tables": 30,
+   "tables_of": 30
+  },
+  "gpt-6.1-sol": {
+   "group": "OpenAI",
+   "answers": 6460,
+   "parsed_share": 1.0,
+   "best_share_hidden": 0.9886,
+   "rule": "this plan",
+   "verdict": "in",
+   "tables": 17,
+   "tables_of": 30
+  },
+  "gpt-6.2-sol": {
+   "group": "OpenAI",
+   "answers": 9500,
+   "parsed_share": 1.0,
+   "best_share_hidden": 0.8889,
+   "rule": "this plan",
+   "verdict": "in",
+   "tables": 25,
+   "tables_of": 30
+  },
+  "gptoss120b": {
+   "group": "open weights",
+   "answers": 11400,
+   "parsed_share": 0.9953,
+   "best_share_hidden": 0.8451,
+   "rule": "open-models plan",
+   "verdict": "in",
+   "tables": 30,
+   "tables_of": 30
+  },
+  "gptoss20b": {
+   "group": "open weights",
+   "answers": 11400,
+   "parsed_share": 0.9875,
+   "best_share_hidden": 0.851,
+   "rule": "open-models plan",
+   "verdict": "in",
+   "tables": 30,
+   "tables_of": 30
+  },
+  "granite41-30b": {
+   "group": "open weights",
+   "answers": 11400,
+   "parsed_share": 0.9999,
+   "best_share_hidden": 0.7686,
+   "rule": "open-models plan",
+   "verdict": "in",
+   "tables": 30,
+   "tables_of": 30
+  },
+  "granite42-30b": {
+   "group": "open weights",
+   "answers": 11400,
+   "parsed_share": 0.9986,
+   "best_share_hidden": 0.8397,
+   "rule": "open-models plan",
+   "verdict": "in",
+   "tables": 30,
+   "tables_of": 30
+  },
+  "kimi-linear48b": {
+   "group": "open weights",
+   "answers": 11400,
+   "parsed_share": 0.8015,
+   "best_share_hidden": 0.675,
+   "rule": "open-models plan",
+   "verdict": "unable: parsed under 90 per cent",
+   "tables": 30,
+   "tables_of": 30
+  },
+  "llama3b": {
+   "group": "open weights",
+   "answers": 11400,
+   "parsed_share": 1.0,
+   "best_share_hidden": 0.2763,
+   "rule": "open-models plan",
+   "verdict": "in",
+   "tables": 30,
+   "tables_of": 30
+  },
+  "llama8b": {
+   "group": "open weights",
+   "answers": 11400,
+   "parsed_share": 1.0,
+   "best_share_hidden": 0.2384,
+   "rule": "open-models plan",
+   "verdict": "in",
+   "tables": 30,
+   "tables_of": 30
+  },
+  "marin8b": {
+   "group": "open weights",
+   "answers": 11400,
+   "parsed_share": 0.9667,
+   "best_share_hidden": 0.3569,
+   "rule": "open-models plan",
+   "verdict": "in",
+   "tables": 30,
+   "tables_of": 30
+  },
+  "ministral3-14b": {
+   "group": "open weights",
+   "answers": 11400,
+   "parsed_share": 0.9939,
+   "best_share_hidden": 0.7248,
+   "rule": "open-models plan",
+   "verdict": "in",
+   "tables": 30,
+   "tables_of": 30
+  },
+  "nemotron3-nano30b": {
+   "group": "open weights",
+   "answers": 11400,
+   "parsed_share": 0.9975,
+   "best_share_hidden": 0.4608,
+   "rule": "open-models plan",
+   "verdict": "in",
+   "tables": 30,
+   "tables_of": 30
+  },
+  "olmo3-7b": {
+   "group": "open weights",
+   "answers": 11400,
+   "parsed_share": 1.0,
+   "best_share_hidden": 0.4847,
+   "rule": "open-models plan",
+   "verdict": "in",
+   "tables": 30,
+   "tables_of": 30
+  },
+  "olmo31-32b": {
+   "group": "open weights",
+   "answers": 11400,
+   "parsed_share": 0.9986,
+   "best_share_hidden": 0.7116,
+   "rule": "open-models plan",
+   "verdict": "in",
+   "tables": 30,
+   "tables_of": 30
+  },
+  "phi4": {
+   "group": "open weights",
+   "answers": 11400,
+   "parsed_share": 0.9814,
+   "best_share_hidden": 0.8161,
+   "rule": "open-models plan",
+   "verdict": "in",
+   "tables": 30,
+   "tables_of": 30
+  },
+  "qwen3-30b": {
+   "group": "open weights",
+   "answers": 11400,
+   "parsed_share": 1.0,
+   "best_share_hidden": 0.8604,
+   "rule": "open-models plan",
+   "verdict": "in",
+   "tables": 30,
+   "tables_of": 30
+  },
+  "qwen3-32b": {
+   "group": "open weights",
+   "answers": 11400,
+   "parsed_share": 0.9936,
+   "best_share_hidden": 0.8548,
+   "rule": "open-models plan",
+   "verdict": "in",
+   "tables": 30,
+   "tables_of": 30
+  },
+  "qwen32b": {
+   "group": "open weights",
+   "answers": 11400,
+   "parsed_share": 1.0,
+   "best_share_hidden": 0.7204,
+   "rule": "open-models plan",
+   "verdict": "in",
+   "tables": 30,
+   "tables_of": 30
+  },
+  "qwen35-0.8b": {
+   "group": "open weights",
+   "answers": 11400,
+   "parsed_share": 0.9992,
+   "best_share_hidden": 0.4088,
+   "rule": "open-models plan",
+   "verdict": "in",
+   "tables": 30,
+   "tables_of": 30
+  },
+  "qwen35-122b-fp8": {
+   "group": "open weights",
+   "answers": 11400,
+   "parsed_share": 0.9886,
+   "best_share_hidden": 0.8794,
+   "rule": "open-models plan",
+   "verdict": "in",
+   "tables": 30,
+   "tables_of": 30
+  },
+  "qwen35-27b": {
+   "group": "open weights",
+   "answers": 11400,
+   "parsed_share": 0.971,
+   "best_share_hidden": 0.8853,
+   "rule": "open-models plan",
+   "verdict": "in",
+   "tables": 30,
+   "tables_of": 30
+  },
+  "qwen35-2b": {
+   "group": "open weights",
+   "answers": 11400,
+   "parsed_share": 0.9934,
+   "best_share_hidden": 0.5362,
+   "rule": "open-models plan",
+   "verdict": "in",
+   "tables": 30,
+   "tables_of": 30
+  },
+  "qwen35-35b": {
+   "group": "open weights",
+   "answers": 11400,
+   "parsed_share": 0.9904,
+   "best_share_hidden": 0.7294,
+   "rule": "open-models plan",
+   "verdict": "in",
+   "tables": 30,
+   "tables_of": 30
+  },
+  "qwen35-4b": {
+   "group": "open weights",
+   "answers": 11400,
+   "parsed_share": 0.9719,
+   "best_share_hidden": 0.5594,
+   "rule": "open-models plan",
+   "verdict": "in",
+   "tables": 30,
+   "tables_of": 30
+  },
+  "qwen35-9b": {
+   "group": "open weights",
+   "answers": 11400,
+   "parsed_share": 0.9951,
+   "best_share_hidden": 0.7044,
+   "rule": "open-models plan",
+   "verdict": "in",
+   "tables": 30,
+   "tables_of": 30
+  },
+  "qwen36-27b": {
+   "group": "open weights",
+   "answers": 11400,
+   "parsed_share": 0.9927,
+   "best_share_hidden": 0.8715,
+   "rule": "open-models plan",
+   "verdict": "in",
+   "tables": 30,
+   "tables_of": 30
+  },
+  "qwen38-27b": {
+   "group": "open weights",
+   "answers": 11400,
+   "parsed_share": 1.0,
+   "best_share_hidden": 0.8467,
+   "rule": "open-models plan",
+   "verdict": "in",
+   "tables": 30,
+   "tables_of": 30
+  },
+  "qwen7b": {
+   "group": "open weights",
+   "answers": 11400,
+   "parsed_share": 1.0,
+   "best_share_hidden": 0.4449,
+   "rule": "open-models plan",
+   "verdict": "in",
+   "tables": 30,
+   "tables_of": 30
+  }
+ },
+ "attr": {
+  "models": [
+   "claude-haiku-5-5",
+   "claude-opus-5-5",
+   "claude-sonnet-5-5",
+   "ernie45-21b",
+   "gemma3-27b",
+   "gemma31b",
+   "gemma4-12b",
+   "gemma4-26b",
+   "glm47-flash",
+   "gpt-6.1-sol",
+   "gpt-6.2-sol",
+   "gptoss120b",
+   "gptoss20b",
+   "granite41-30b",
+   "granite42-30b",
+   "llama3b",
+   "llama8b",
+   "marin8b",
+   "ministral3-14b",
+   "nemotron3-nano30b",
+   "olmo3-7b",
+   "olmo31-32b",
+   "phi4",
+   "qwen3-30b",
+   "qwen3-32b",
+   "qwen32b",
+   "qwen35-0.8b",
+   "qwen35-122b-fp8",
+   "qwen35-27b",
+   "qwen35-2b",
+   "qwen35-35b",
+   "qwen35-4b",
+   "qwen35-9b",
+   "qwen36-27b",
+   "qwen38-27b",
+   "qwen7b"
+  ],
+  "pooled": {
+   "gap": {
+    "none": {
+     "estimate": 0.0561,
+     "ci95": [
+      0.0313,
+      0.0852
+     ],
+     "ci90": [
+      0.0349,
+      0.0793
+     ],
+     "p_two_sided": 0.0
+    },
+    "warranty-row": {
+     "estimate": 0.0492,
+     "ci95": [
+      0.0239,
+      0.0787
+     ],
+     "ci90": [
+      0.027,
+      0.0733
+     ],
+     "p_two_sided": 0.0
+    },
+    "warranty-sentence": {
+     "estimate": 0.0405,
+     "ci95": [
+      0.0169,
+      0.0656
+     ],
+     "ci90": [
+      0.0205,
+      0.0613
+     ],
+     "p_two_sided": 0.0
+    },
+    "failure-row": {
+     "estimate": 0.0499,
+     "ci95": [
+      0.0274,
+      0.0766
+     ],
+     "ci90": [
+      0.0302,
+      0.0705
+     ],
+     "p_two_sided": 0.0
+    },
+    "failure-sentence": {
+     "estimate": 0.0418,
+     "ci95": [
+      0.02,
+      0.0654
+     ],
+     "ci90": [
+      0.0229,
+      0.0617
+     ],
+     "p_two_sided": 0.001
+    },
+    "market-row": {
+     "estimate": 0.0674,
+     "ci95": [
+      0.0429,
+      0.0935
+     ],
+     "ci90": [
+      0.0461,
+      0.0892
+     ],
+     "p_two_sided": 0.0
+    },
+    "market-sentence": {
+     "estimate": 0.0615,
+     "ci95": [
+      0.0367,
+      0.0891
+     ],
+     "ci90": [
+      0.0397,
+      0.0847
+     ],
+     "p_two_sided": 0.0
+    },
+    "lab-row": {
+     "estimate": 0.0379,
+     "ci95": [
+      0.0151,
+      0.0645
+     ],
+     "ci90": [
+      0.0185,
+      0.0588
+     ],
+     "p_two_sided": 0.0
+    },
+    "lab-sentence": {
+     "estimate": 0.0307,
+     "ci95": [
+      0.0095,
+      0.0526
+     ],
+     "ci90": [
+      0.0135,
+      0.0491
+     ],
+     "p_two_sided": 0.006
+    },
+    "returns-row": {
+     "estimate": 0.0518,
+     "ci95": [
+      0.0265,
+      0.0812
+     ],
+     "ci90": [
+      0.0305,
+      0.0762
+     ],
+     "p_two_sided": 0.0
+    },
+    "returns-sentence": {
+     "estimate": 0.0595,
+     "ci95": [
+      0.0338,
+      0.0882
+     ],
+     "ci90": [
+      0.0371,
+      0.0828
+     ],
+     "p_two_sided": 0.0
+    },
+    "reviews-50": {
+     "estimate": 0.0668,
+     "ci95": [
+      0.0312,
+      0.1066
+     ],
+     "ci90": [
+      0.0368,
+      0.0989
+     ],
+     "p_two_sided": 0.001
+    },
+    "reviews-5000": {
+     "estimate": 0.0331,
+     "ci95": [
+      0.0089,
+      0.061
+     ],
+     "ci90": [
+      0.0124,
+      0.0553
+     ],
+     "p_two_sided": 0.005
+    },
+    "certification": {
+     "estimate": 0.0432,
+     "ci95": [
+      0.0232,
+      0.0662
+     ],
+     "ci90": [
+      0.0255,
+      0.0624
+     ],
+     "p_two_sided": 0.0
+    },
+    "endorsement": {
+     "estimate": 0.0527,
+     "ci95": [
+      0.0288,
+      0.078
+     ],
+     "ci90": [
+      0.032,
+      0.0739
+     ],
+     "p_two_sided": 0.0
+    },
+    "origin": {
+     "estimate": 0.0463,
+     "ci95": [
+      0.0203,
+      0.076
+     ],
+     "ci90": [
+      0.0244,
+      0.0708
+     ],
+     "p_two_sided": 0.0
+    },
+    "sustainability": {
+     "estimate": 0.0475,
+     "ci95": [
+      0.0252,
+      0.0719
+     ],
+     "ci90": [
+      0.0281,
+      0.0683
+     ],
+     "p_two_sided": 0.0
+    }
+   },
+   "shares": {
+    "none": {
+     "hidden": {
+      "estimate": 0.7252,
+      "ci95": [
+       0.6377,
+       0.8137
+      ],
+      "ci90": [
+       0.6504,
+       0.7983
+      ],
+      "p_two_sided": 0.0
+     },
+     "original": {
+      "estimate": 0.6691,
+      "ci95": [
+       0.5734,
+       0.7676
+      ],
+      "ci90": [
+       0.5865,
+       0.75
+      ],
+      "p_two_sided": 0.0
+     },
+     "crossed": {
+      "estimate": 0.6717,
+      "ci95": [
+       0.5703,
+       0.7711
+      ],
+      "ci90": [
+       0.5843,
+       0.7557
+      ],
+      "p_two_sided": 0.0
+     },
+     "all-familiar": {
+      "estimate": 0.6679,
+      "ci95": [
+       0.563,
+       0.7737
+      ],
+      "ci90": [
+       0.579,
+       0.7547
+      ],
+      "p_two_sided": 0.0
+     },
+     "all-invented": {
+      "estimate": 0.7291,
+      "ci95": [
+       0.6385,
+       0.8173
+      ],
+      "ci90": [
+       0.6524,
+       0.8014
+      ],
+      "p_two_sided": 0.0
+     },
+     "familiar-alone": {
+      "estimate": 0.7251,
+      "ci95": [
+       0.6305,
+       0.818
+      ],
+      "ci90": [
+       0.6452,
+       0.8012
+      ],
+      "p_two_sided": 0.0
+     }
+    },
+    "warranty-row": {
+     "hidden": {
+      "estimate": 0.7205,
+      "ci95": [
+       0.6301,
+       0.8104
+      ],
+      "ci90": [
+       0.6456,
+       0.7944
+      ],
+      "p_two_sided": 0.0
+     },
+     "original": {
+      "estimate": 0.6713,
+      "ci95": [
+       0.5742,
+       0.7702
+      ],
+      "ci90": [
+       0.5884,
+       0.7518
+      ],
+      "p_two_sided": 0.0
+     }
+    },
+    "warranty-sentence": {
+     "hidden": {
+      "estimate": 0.7195,
+      "ci95": [
+       0.6293,
+       0.8129
+      ],
+      "ci90": [
+       0.6426,
+       0.7944
+      ],
+      "p_two_sided": 0.0
+     },
+     "original": {
+      "estimate": 0.679,
+      "ci95": [
+       0.5809,
+       0.778
+      ],
+      "ci90": [
+       0.5949,
+       0.7613
+      ],
+      "p_two_sided": 0.0
+     }
+    },
+    "failure-row": {
+     "hidden": {
+      "estimate": 0.715,
+      "ci95": [
+       0.6238,
+       0.8072
+      ],
+      "ci90": [
+       0.637,
+       0.791
+      ],
+      "p_two_sided": 0.0
+     },
+     "original": {
+      "estimate": 0.6651,
+      "ci95": [
+       0.568,
+       0.7649
+      ],
+      "ci90": [
+       0.5825,
+       0.7475
+      ],
+      "p_two_sided": 0.0
+     }
+    },
+    "failure-sentence": {
+     "hidden": {
+      "estimate": 0.7049,
+      "ci95": [
+       0.6118,
+       0.799
+      ],
+      "ci90": [
+       0.6259,
+       0.7794
+      ],
+      "p_two_sided": 0.0
+     },
+     "original": {
+      "estimate": 0.663,
+      "ci95": [
+       0.5649,
+       0.7641
+      ],
+      "ci90": [
+       0.578,
+       0.7456
+      ],
+      "p_two_sided": 0.0
+     }
+    },
+    "market-row": {
+     "hidden": {
+      "estimate": 0.7259,
+      "ci95": [
+       0.6357,
+       0.8177
+      ],
+      "ci90": [
+       0.6488,
+       0.7989
+      ],
+      "p_two_sided": 0.0
+     },
+     "original": {
+      "estimate": 0.6585,
+      "ci95": [
+       0.5581,
+       0.7583
+      ],
+      "ci90": [
+       0.573,
+       0.7443
+      ],
+      "p_two_sided": 0.0
+     }
+    },
+    "market-sentence": {
+     "hidden": {
+      "estimate": 0.7354,
+      "ci95": [
+       0.65,
+       0.8215
+      ],
+      "ci90": [
+       0.6626,
+       0.8065
+      ],
+      "p_two_sided": 0.0
+     },
+     "original": {
+      "estimate": 0.6739,
+      "ci95": [
+       0.577,
+       0.7738
+      ],
+      "ci90": [
+       0.5899,
+       0.756
+      ],
+      "p_two_sided": 0.0
+     }
+    },
+    "lab-row": {
+     "hidden": {
+      "estimate": 0.7127,
+      "ci95": [
+       0.6203,
+       0.8071
+      ],
+      "ci90": [
+       0.6363,
+       0.7889
+      ],
+      "p_two_sided": 0.0
+     },
+     "original": {
+      "estimate": 0.6748,
+      "ci95": [
+       0.576,
+       0.7751
+      ],
+      "ci90": [
+       0.5899,
+       0.7575
+      ],
+      "p_two_sided": 0.0
+     }
+    },
+    "lab-sentence": {
+     "hidden": {
+      "estimate": 0.7355,
+      "ci95": [
+       0.6476,
+       0.8209
+      ],
+      "ci90": [
+       0.663,
+       0.8075
+      ],
+      "p_two_sided": 0.0
+     },
+     "original": {
+      "estimate": 0.7048,
+      "ci95": [
+       0.6118,
+       0.7969
+      ],
+      "ci90": [
+       0.6245,
+       0.7827
+      ],
+      "p_two_sided": 0.0
+     }
+    },
+    "returns-row": {
+     "hidden": {
+      "estimate": 0.7242,
+      "ci95": [
+       0.6378,
+       0.8128
+      ],
+      "ci90": [
+       0.6508,
+       0.797
+      ],
+      "p_two_sided": 0.0
+     },
+     "original": {
+      "estimate": 0.6724,
+      "ci95": [
+       0.5757,
+       0.7695
+      ],
+      "ci90": [
+       0.5893,
+       0.7547
+      ],
+      "p_two_sided": 0.0
+     }
+    },
+    "returns-sentence": {
+     "hidden": {
+      "estimate": 0.7232,
+      "ci95": [
+       0.6364,
+       0.8117
+      ],
+      "ci90": [
+       0.6461,
+       0.7947
+      ],
+      "p_two_sided": 0.0
+     },
+     "original": {
+      "estimate": 0.6636,
+      "ci95": [
+       0.5678,
+       0.7589
+      ],
+      "ci90": [
+       0.5806,
+       0.7468
+      ],
+      "p_two_sided": 0.0
+     }
+    },
+    "reviews-50": {
+     "hidden": {
+      "estimate": 0.5417,
+      "ci95": [
+       0.4466,
+       0.6367
+      ],
+      "ci90": [
+       0.4604,
+       0.6193
+      ],
+      "p_two_sided": 0.0
+     },
+     "original": {
+      "estimate": 0.4749,
+      "ci95": [
+       0.38,
+       0.5771
+      ],
+      "ci90": [
+       0.3933,
+       0.5565
+      ],
+      "p_two_sided": 0.0
+     }
+    },
+    "reviews-5000": {
+     "hidden": {
+      "estimate": 0.7783,
+      "ci95": [
+       0.6967,
+       0.8576
+      ],
+      "ci90": [
+       0.7092,
+       0.8429
+      ],
+      "p_two_sided": 0.0
+     },
+     "original": {
+      "estimate": 0.7451,
+      "ci95": [
+       0.6564,
+       0.8337
+      ],
+      "ci90": [
+       0.6703,
+       0.8189
+      ],
+      "p_two_sided": 0.0
+     }
+    },
+    "certification": {
+     "hidden": {
+      "estimate": 0.7099,
+      "ci95": [
+       0.6173,
+       0.8024
+      ],
+      "ci90": [
+       0.6315,
+       0.7845
+      ],
+      "p_two_sided": 0.0
+     },
+     "original": {
+      "estimate": 0.6667,
+      "ci95": [
+       0.5691,
+       0.7675
+      ],
+      "ci90": [
+       0.5826,
+       0.7497
+      ],
+      "p_two_sided": 0.0
+     }
+    },
+    "endorsement": {
+     "hidden": {
+      "estimate": 0.7144,
+      "ci95": [
+       0.6237,
+       0.8039
+      ],
+      "ci90": [
+       0.6376,
+       0.789
+      ],
+      "p_two_sided": 0.0
+     },
+     "original": {
+      "estimate": 0.6616,
+      "ci95": [
+       0.5646,
+       0.7591
+      ],
+      "ci90": [
+       0.5776,
+       0.7443
+      ],
+      "p_two_sided": 0.0
+     }
+    },
+    "origin": {
+     "hidden": {
+      "estimate": 0.7238,
+      "ci95": [
+       0.6357,
+       0.814
+      ],
+      "ci90": [
+       0.6491,
+       0.7965
+      ],
+      "p_two_sided": 0.0
+     },
+     "original": {
+      "estimate": 0.6775,
+      "ci95": [
+       0.5779,
+       0.7774
+      ],
+      "ci90": [
+       0.5922,
+       0.7608
+      ],
+      "p_two_sided": 0.0
+     }
+    },
+    "sustainability": {
+     "hidden": {
+      "estimate": 0.7218,
+      "ci95": [
+       0.6289,
+       0.813
+      ],
+      "ci90": [
+       0.6457,
+       0.7954
+      ],
+      "p_two_sided": 0.0
+     },
+     "original": {
+      "estimate": 0.6743,
+      "ci95": [
+       0.5751,
+       0.7743
+      ],
+      "ci90": [
+       0.5892,
+       0.7572
+      ],
+      "p_two_sided": 0.0
+     }
+    }
+   },
+   "rows_against_sentences": {
+    "warranty": {
+     "estimate": 0.0087,
+     "ci95": [
+      -0.0121,
+      0.0294
+     ],
+     "ci90": [
+      -0.0086,
+      0.0256
+     ],
+     "p_two_sided": 0.391,
+     "p_holm": 1.0
+    },
+    "failure": {
+     "estimate": 0.008,
+     "ci95": [
+      -0.0125,
+      0.0294
+     ],
+     "ci90": [
+      -0.0093,
+      0.0257
+     ],
+     "p_two_sided": 0.437,
+     "p_holm": 1.0
+    },
+    "market": {
+     "estimate": 0.0059,
+     "ci95": [
+      -0.0168,
+      0.0269
+     ],
+     "ci90": [
+      -0.0128,
+      0.0228
+     ],
+     "p_two_sided": 0.575,
+     "p_holm": 1.0
+    },
+    "lab": {
+     "estimate": 0.0072,
+     "ci95": [
+      -0.0157,
+      0.031
+     ],
+     "ci90": [
+      -0.0122,
+      0.0276
+     ],
+     "p_two_sided": 0.513,
+     "p_holm": 1.0
+    },
+    "returns": {
+     "estimate": -0.0075,
+     "ci95": [
+      -0.025,
+      0.0099
+     ],
+     "ci90": [
+      -0.0212,
+      0.0065
+     ],
+     "p_two_sided": 0.39,
+     "p_holm": 1.0
+    }
+   },
+   "arm_against_none": {
+    "warranty-row": {
+     "estimate": -0.0069,
+     "ci95": [
+      -0.0269,
+      0.0116
+     ],
+     "ci90": [
+      -0.0233,
+      0.0089
+     ],
+     "p_two_sided": 0.468,
+     "p_holm": 1.0
+    },
+    "warranty-sentence": {
+     "estimate": -0.0157,
+     "ci95": [
+      -0.0363,
+      0.003
+     ],
+     "ci90": [
+      -0.0326,
+      0.0002
+     ],
+     "p_two_sided": 0.102,
+     "p_holm": 1.0
+    },
+    "failure-row": {
+     "estimate": -0.0063,
+     "ci95": [
+      -0.0271,
+      0.0144
+     ],
+     "ci90": [
+      -0.0234,
+      0.0113
+     ],
+     "p_two_sided": 0.525,
+     "p_holm": 1.0
+    },
+    "failure-sentence": {
+     "estimate": -0.0143,
+     "ci95": [
+      -0.0344,
+      0.0042
+     ],
+     "ci90": [
+      -0.0311,
+      0.0007
+     ],
+     "p_two_sided": 0.119,
+     "p_holm": 1.0
+    },
+    "market-row": {
+     "estimate": 0.0113,
+     "ci95": [
+      -0.01,
+      0.0309
+     ],
+     "ci90": [
+      -0.0062,
+      0.0277
+     ],
+     "p_two_sided": 0.257,
+     "p_holm": 1.0
+    },
+    "market-sentence": {
+     "estimate": 0.0054,
+     "ci95": [
+      -0.0128,
+      0.025
+     ],
+     "ci90": [
+      -0.01,
+      0.022
+     ],
+     "p_two_sided": 0.547,
+     "p_holm": 1.0
+    },
+    "lab-row": {
+     "estimate": -0.0182,
+     "ci95": [
+      -0.0403,
+      0.0052
+     ],
+     "ci90": [
+      -0.0365,
+      0.0003
+     ],
+     "p_two_sided": 0.113,
+     "p_holm": 1.0
+    },
+    "lab-sentence": {
+     "estimate": -0.0254,
+     "ci95": [
+      -0.0471,
+      -0.0038
+     ],
+     "ci90": [
+      -0.043,
+      -0.0075
+     ],
+     "p_two_sided": 0.019,
+     "p_holm": 0.304
+    },
+    "returns-row": {
+     "estimate": -0.0044,
+     "ci95": [
+      -0.0226,
+      0.0133
+     ],
+     "ci90": [
+      -0.0195,
+      0.0104
+     ],
+     "p_two_sided": 0.667,
+     "p_holm": 1.0
+    },
+    "returns-sentence": {
+     "estimate": 0.0031,
+     "ci95": [
+      -0.0151,
+      0.0199
+     ],
+     "ci90": [
+      -0.0112,
+      0.0169
+     ],
+     "p_two_sided": 0.705,
+     "p_holm": 1.0
+    },
+    "reviews-50": {
+     "estimate": 0.0107,
+     "ci95": [
+      -0.0229,
+      0.0473
+     ],
+     "ci90": [
+      -0.0187,
+      0.0419
+     ],
+     "p_two_sided": 0.593,
+     "p_holm": 1.0
+    },
+    "reviews-5000": {
+     "estimate": -0.023,
+     "ci95": [
+      -0.0452,
+      -0.0018
+     ],
+     "ci90": [
+      -0.0418,
+      -0.005
+     ],
+     "p_two_sided": 0.038,
+     "p_holm": 0.57
+    },
+    "certification": {
+     "estimate": -0.0129,
+     "ci95": [
+      -0.0351,
+      0.0078
+     ],
+     "ci90": [
+      -0.0305,
+      0.0041
+     ],
+     "p_two_sided": 0.212,
+     "p_holm": 1.0
+    },
+    "endorsement": {
+     "estimate": -0.0034,
+     "ci95": [
+      -0.023,
+      0.0173
+     ],
+     "ci90": [
+      -0.0205,
+      0.0134
+     ],
+     "p_two_sided": 0.751,
+     "p_holm": 1.0
+    },
+    "origin": {
+     "estimate": -0.0098,
+     "ci95": [
+      -0.0293,
+      0.0089
+     ],
+     "ci90": [
+      -0.0259,
+      0.0055
+     ],
+     "p_two_sided": 0.293,
+     "p_holm": 1.0
+    },
+    "sustainability": {
+     "estimate": -0.0086,
+     "ci95": [
+      -0.0283,
+      0.0122
+     ],
+     "ci90": [
+      -0.0252,
+      0.0085
+     ],
+     "p_two_sided": 0.389,
+     "p_holm": 1.0
+    }
+   },
+   "two_by_two": {
+    "best product's familiar name": {
+     "estimate": -0.0026,
+     "ci95": [
+      -0.0273,
+      0.019
+     ],
+     "ci90": [
+      -0.0231,
+      0.0158
+     ],
+     "p_two_sided": 0.839,
+     "p_holm": 1.0
+    },
+    "other products' familiar names": {
+     "estimate": -0.0586,
+     "ci95": [
+      -0.0876,
+      -0.0327
+     ],
+     "ci90": [
+      -0.0826,
+      -0.0358
+     ],
+     "p_two_sided": 0.0,
+     "p_holm": 0.0
+    },
+    "interaction": {
+     "estimate": 0.0029,
+     "ci95": [
+      -0.021,
+      0.0261
+     ],
+     "ci90": [
+      -0.0167,
+      0.0222
+     ],
+     "p_two_sided": 0.796,
+     "p_holm": 1.0
+    }
+   },
+   "two_by_two_cells_minus_hidden": {
+    "If": {
+     "estimate": -0.0561,
+     "ci95": [
+      -0.0852,
+      -0.0313
+     ],
+     "ci90": [
+      -0.0793,
+      -0.0349
+     ],
+     "p_two_sided": 0.0
+    },
+    "Ff": {
+     "estimate": -0.0573,
+     "ci95": [
+      -0.0991,
+      -0.0218
+     ],
+     "ci90": [
+      -0.0922,
+      -0.0261
+     ],
+     "p_two_sided": 0.0
+    },
+    "Ii": {
+     "estimate": 0.0039,
+     "ci95": [
+      -0.0128,
+      0.0202
+     ],
+     "ci90": [
+      -0.01,
+      0.0172
+     ],
+     "p_two_sided": 0.639
+    },
+    "Fi": {
+     "estimate": -0.0001,
+     "ci95": [
+      -0.0263,
+      0.026
+     ],
+     "ci90": [
+      -0.0224,
+      0.0217
+     ],
+     "p_two_sided": 0.954
+    }
+   }
+  },
+  "without_invented_real": {
+   "gap": {
+    "none": {
+     "estimate": 0.063,
+     "ci95": [
+      0.0382,
+      0.0929
+     ],
+     "ci90": [
+      0.0411,
+      0.087
+     ],
+     "p_two_sided": 0.0
+    },
+    "warranty-row": {
+     "estimate": 0.0545,
+     "ci95": [
+      0.0275,
+      0.0839
+     ],
+     "ci90": [
+      0.0305,
+      0.0796
+     ],
+     "p_two_sided": 0.0
+    },
+    "warranty-sentence": {
+     "estimate": 0.0455,
+     "ci95": [
+      0.0217,
+      0.0712
+     ],
+     "ci90": [
+      0.0253,
+      0.0671
+     ],
+     "p_two_sided": 0.001
+    },
+    "failure-row": {
+     "estimate": 0.0542,
+     "ci95": [
+      0.0295,
+      0.0819
+     ],
+     "ci90": [
+      0.0329,
+      0.0769
+     ],
+     "p_two_sided": 0.0
+    },
+    "failure-sentence": {
+     "estimate": 0.0468,
+     "ci95": [
+      0.0227,
+      0.0728
+     ],
+     "ci90": [
+      0.0267,
+      0.0678
+     ],
+     "p_two_sided": 0.0
+    },
+    "market-row": {
+     "estimate": 0.0744,
+     "ci95": [
+      0.0487,
+      0.1031
+     ],
+     "ci90": [
+      0.0527,
+      0.0975
+     ],
+     "p_two_sided": 0.0
+    },
+    "market-sentence": {
+     "estimate": 0.066,
+     "ci95": [
+      0.0399,
+      0.0947
+     ],
+     "ci90": [
+      0.0439,
+      0.0901
+     ],
+     "p_two_sided": 0.0
+    },
+    "lab-row": {
+     "estimate": 0.0433,
+     "ci95": [
+      0.0208,
+      0.0679
+     ],
+     "ci90": [
+      0.0237,
+      0.0643
+     ],
+     "p_two_sided": 0.0
+    },
+    "lab-sentence": {
+     "estimate": 0.0337,
+     "ci95": [
+      0.0124,
+      0.0581
+     ],
+     "ci90": [
+      0.0152,
+      0.0536
+     ],
+     "p_two_sided": 0.003
+    },
+    "returns-row": {
+     "estimate": 0.0565,
+     "ci95": [
+      0.0293,
+      0.0876
+     ],
+     "ci90": [
+      0.0332,
+      0.0816
+     ],
+     "p_two_sided": 0.0
+    },
+    "returns-sentence": {
+     "estimate": 0.0623,
+     "ci95": [
+      0.035,
+      0.0941
+     ],
+     "ci90": [
+      0.0394,
+      0.0877
+     ],
+     "p_two_sided": 0.0
+    },
+    "reviews-50": {
+     "estimate": 0.0735,
+     "ci95": [
+      0.0361,
+      0.1129
+     ],
+     "ci90": [
+      0.0413,
+      0.1063
+     ],
+     "p_two_sided": 0.0
+    },
+    "reviews-5000": {
+     "estimate": 0.0345,
+     "ci95": [
+      0.0095,
+      0.0645
+     ],
+     "ci90": [
+      0.013,
+      0.0577
+     ],
+     "p_two_sided": 0.003
+    },
+    "certification": {
+     "estimate": 0.0459,
+     "ci95": [
+      0.0234,
+      0.0709
+     ],
+     "ci90": [
+      0.027,
+      0.0663
+     ],
+     "p_two_sided": 0.0
+    },
+    "endorsement": {
+     "estimate": 0.0587,
+     "ci95": [
+      0.0338,
+      0.0874
+     ],
+     "ci90": [
+      0.0376,
+      0.0814
+     ],
+     "p_two_sided": 0.0
+    },
+    "origin": {
+     "estimate": 0.0519,
+     "ci95": [
+      0.0235,
+      0.0835
+     ],
+     "ci90": [
+      0.0284,
+      0.078
+     ],
+     "p_two_sided": 0.0
+    },
+    "sustainability": {
+     "estimate": 0.0476,
+     "ci95": [
+      0.0241,
+      0.0755
+     ],
+     "ci90": [
+      0.0277,
+      0.0694
+     ],
+     "p_two_sided": 0.0
+    }
+   },
+   "shares": {
+    "none": {
+     "hidden": {
+      "estimate": 0.7152,
+      "ci95": [
+       0.6219,
+       0.8001
+      ],
+      "ci90": [
+       0.6375,
+       0.7886
+      ],
+      "p_two_sided": 0.0
+     },
+     "original": {
+      "estimate": 0.6522,
+      "ci95": [
+       0.547,
+       0.7471
+      ],
+      "ci90": [
+       0.5626,
+       0.7339
+      ],
+      "p_two_sided": 0.0
+     },
+     "crossed": {
+      "estimate": 0.6591,
+      "ci95": [
+       0.5511,
+       0.763
+      ],
+      "ci90": [
+       0.567,
+       0.7449
+      ],
+      "p_two_sided": 0.0
+     },
+     "all-familiar": {
+      "estimate": 0.6525,
+      "ci95": [
+       0.5412,
+       0.7524
+      ],
+      "ci90": [
+       0.5607,
+       0.7401
+      ],
+      "p_two_sided": 0.0
+     },
+     "all-invented": {
+      "estimate": 0.7203,
+      "ci95": [
+       0.6246,
+       0.8069
+      ],
+      "ci90": [
+       0.6418,
+       0.7941
+      ],
+      "p_two_sided": 0.0
+     },
+     "familiar-alone": {
+      "estimate": 0.7142,
+      "ci95": [
+       0.6143,
+       0.8034
+      ],
+      "ci90": [
+       0.632,
+       0.792
+      ],
+      "p_two_sided": 0.0
+     }
+    },
+    "warranty-row": {
+     "hidden": {
+      "estimate": 0.7106,
+      "ci95": [
+       0.6139,
+       0.7968
+      ],
+      "ci90": [
+       0.6333,
+       0.7834
+      ],
+      "p_two_sided": 0.0
+     },
+     "original": {
+      "estimate": 0.6561,
+      "ci95": [
+       0.5503,
+       0.7497
+      ],
+      "ci90": [
+       0.5674,
+       0.7379
+      ],
+      "p_two_sided": 0.0
+     }
+    },
+    "warranty-sentence": {
+     "hidden": {
+      "estimate": 0.7076,
+      "ci95": [
+       0.6056,
+       0.7972
+      ],
+      "ci90": [
+       0.6265,
+       0.784
+      ],
+      "p_two_sided": 0.0
+     },
+     "original": {
+      "estimate": 0.6621,
+      "ci95": [
+       0.5534,
+       0.759
+      ],
+      "ci90": [
+       0.5717,
+       0.7439
+      ],
+      "p_two_sided": 0.0
+     }
+    },
+    "failure-row": {
+     "hidden": {
+      "estimate": 0.7043,
+      "ci95": [
+       0.6042,
+       0.7926
+      ],
+      "ci90": [
+       0.6246,
+       0.7796
+      ],
+      "p_two_sided": 0.0
+     },
+     "original": {
+      "estimate": 0.6501,
+      "ci95": [
+       0.5436,
+       0.7438
+      ],
+      "ci90": [
+       0.5623,
+       0.7331
+      ],
+      "p_two_sided": 0.0
+     }
+    },
+    "failure-sentence": {
+     "hidden": {
+      "estimate": 0.694,
+      "ci95": [
+       0.5916,
+       0.7848
+      ],
+      "ci90": [
+       0.6122,
+       0.7704
+      ],
+      "p_two_sided": 0.0
+     },
+     "original": {
+      "estimate": 0.6472,
+      "ci95": [
+       0.5367,
+       0.744
+      ],
+      "ci90": [
+       0.5575,
+       0.7302
+      ],
+      "p_two_sided": 0.0
+     }
+    },
+    "market-row": {
+     "hidden": {
+      "estimate": 0.7153,
+      "ci95": [
+       0.6186,
+       0.8023
+      ],
+      "ci90": [
+       0.6347,
+       0.7894
+      ],
+      "p_two_sided": 0.0
+     },
+     "original": {
+      "estimate": 0.6408,
+      "ci95": [
+       0.5322,
+       0.7392
+      ],
+      "ci90": [
+       0.551,
+       0.724
+      ],
+      "p_two_sided": 0.0
+     }
+    },
+    "market-sentence": {
+     "hidden": {
+      "estimate": 0.7251,
+      "ci95": [
+       0.631,
+       0.8094
+      ],
+      "ci90": [
+       0.6486,
+       0.7971
+      ],
+      "p_two_sided": 0.0
+     },
+     "original": {
+      "estimate": 0.6591,
+      "ci95": [
+       0.5489,
+       0.7548
+      ],
+      "ci90": [
+       0.5682,
+       0.742
+      ],
+      "p_two_sided": 0.0
+     }
+    },
+    "lab-row": {
+     "hidden": {
+      "estimate": 0.7032,
+      "ci95": [
+       0.6015,
+       0.7929
+      ],
+      "ci90": [
+       0.6208,
+       0.7788
+      ],
+      "p_two_sided": 0.0
+     },
+     "original": {
+      "estimate": 0.6598,
+      "ci95": [
+       0.552,
+       0.7546
+      ],
+      "ci90": [
+       0.5698,
+       0.7413
+      ],
+      "p_two_sided": 0.0
+     }
+    },
+    "lab-sentence": {
+     "hidden": {
+      "estimate": 0.7252,
+      "ci95": [
+       0.63,
+       0.8099
+      ],
+      "ci90": [
+       0.6482,
+       0.7974
+      ],
+      "p_two_sided": 0.0
+     },
+     "original": {
+      "estimate": 0.6915,
+      "ci95": [
+       0.5915,
+       0.7828
+      ],
+      "ci90": [
+       0.6073,
+       0.7677
+      ],
+      "p_two_sided": 0.0
+     }
+    },
+    "returns-row": {
+     "hidden": {
+      "estimate": 0.7125,
+      "ci95": [
+       0.615,
+       0.7995
+      ],
+      "ci90": [
+       0.6339,
+       0.7863
+      ],
+      "p_two_sided": 0.0
+     },
+     "original": {
+      "estimate": 0.656,
+      "ci95": [
+       0.5502,
+       0.7512
+      ],
+      "ci90": [
+       0.5652,
+       0.7365
+      ],
+      "p_two_sided": 0.0
+     }
+    },
+    "returns-sentence": {
+     "hidden": {
+      "estimate": 0.7114,
+      "ci95": [
+       0.6145,
+       0.7971
+      ],
+      "ci90": [
+       0.6342,
+       0.7871
+      ],
+      "p_two_sided": 0.0
+     },
+     "original": {
+      "estimate": 0.6492,
+      "ci95": [
+       0.5426,
+       0.7455
+      ],
+      "ci90": [
+       0.5594,
+       0.7319
+      ],
+      "p_two_sided": 0.0
+     }
+    },
+    "reviews-50": {
+     "hidden": {
+      "estimate": 0.5222,
+      "ci95": [
+       0.4219,
+       0.6187
+      ],
+      "ci90": [
+       0.4349,
+       0.6024
+      ],
+      "p_two_sided": 0.0
+     },
+     "original": {
+      "estimate": 0.4487,
+      "ci95": [
+       0.3481,
+       0.5459
+      ],
+      "ci90": [
+       0.3632,
+       0.5315
+      ],
+      "p_two_sided": 0.0
+     }
+    },
+    "reviews-5000": {
+     "hidden": {
+      "estimate": 0.7707,
+      "ci95": [
+       0.6855,
+       0.8474
+      ],
+      "ci90": [
+       0.6999,
+       0.8358
+      ],
+      "p_two_sided": 0.0
+     },
+     "original": {
+      "estimate": 0.7362,
+      "ci95": [
+       0.6395,
+       0.8238
+      ],
+      "ci90": [
+       0.6592,
+       0.8088
+      ],
+      "p_two_sided": 0.0
+     }
+    },
+    "certification": {
+     "hidden": {
+      "estimate": 0.6979,
+      "ci95": [
+       0.5966,
+       0.7863
+      ],
+      "ci90": [
+       0.6179,
+       0.7728
+      ],
+      "p_two_sided": 0.0
+     },
+     "original": {
+      "estimate": 0.652,
+      "ci95": [
+       0.5436,
+       0.7463
+      ],
+      "ci90": [
+       0.5597,
+       0.7342
+      ],
+      "p_two_sided": 0.0
+     }
+    },
+    "endorsement": {
+     "hidden": {
+      "estimate": 0.7046,
+      "ci95": [
+       0.6059,
+       0.7915
+      ],
+      "ci90": [
+       0.6247,
+       0.7787
+      ],
+      "p_two_sided": 0.0
+     },
+     "original": {
+      "estimate": 0.6458,
+      "ci95": [
+       0.5409,
+       0.7403
+      ],
+      "ci90": [
+       0.5574,
+       0.7273
+      ],
+      "p_two_sided": 0.0
+     }
+    },
+    "origin": {
+     "hidden": {
+      "estimate": 0.7142,
+      "ci95": [
+       0.6207,
+       0.7998
+      ],
+      "ci90": [
+       0.6374,
+       0.7871
+      ],
+      "p_two_sided": 0.0
+     },
+     "original": {
+      "estimate": 0.6623,
+      "ci95": [
+       0.555,
+       0.7559
+      ],
+      "ci90": [
+       0.5721,
+       0.7446
+      ],
+      "p_two_sided": 0.0
+     }
+    },
+    "sustainability": {
+     "hidden": {
+      "estimate": 0.7094,
+      "ci95": [
+       0.6103,
+       0.797
+      ],
+      "ci90": [
+       0.6301,
+       0.7838
+      ],
+      "p_two_sided": 0.0
+     },
+     "original": {
+      "estimate": 0.6618,
+      "ci95": [
+       0.5525,
+       0.7589
+      ],
+      "ci90": [
+       0.5716,
+       0.7437
+      ],
+      "p_two_sided": 0.0
+     }
+    }
+   },
+   "rows_against_sentences": {
+    "warranty": {
+     "estimate": 0.009,
+     "ci95": [
+      -0.0131,
+      0.0313
+     ],
+     "ci90": [
+      -0.0095,
+      0.0272
+     ],
+     "p_two_sided": 0.422,
+     "p_holm": 1.0
+    },
+    "failure": {
+     "estimate": 0.0074,
+     "ci95": [
+      -0.0143,
+      0.0302
+     ],
+     "ci90": [
+      -0.0115,
+      0.0257
+     ],
+     "p_two_sided": 0.541,
+     "p_holm": 1.0
+    },
+    "market": {
+     "estimate": 0.0085,
+     "ci95": [
+      -0.0151,
+      0.0294
+     ],
+     "ci90": [
+      -0.0107,
+      0.0258
+     ],
+     "p_two_sided": 0.452,
+     "p_holm": 1.0
+    },
+    "lab": {
+     "estimate": 0.0097,
+     "ci95": [
+      -0.0169,
+      0.0332
+     ],
+     "ci90": [
+      -0.0114,
+      0.0297
+     ],
+     "p_two_sided": 0.445,
+     "p_holm": 1.0
+    },
+    "returns": {
+     "estimate": -0.0055,
+     "ci95": [
+      -0.0238,
+      0.0114
+     ],
+     "ci90": [
+      -0.0207,
+      0.0089
+     ],
+     "p_two_sided": 0.519,
+     "p_holm": 1.0
+    }
+   },
+   "arm_against_none": {
+    "warranty-row": {
+     "estimate": -0.0085,
+     "ci95": [
+      -0.0312,
+      0.0112
+     ],
+     "ci90": [
+      -0.0266,
+      0.0081
+     ],
+     "p_two_sided": 0.387,
+     "p_holm": 1.0
+    },
+    "warranty-sentence": {
+     "estimate": -0.0175,
+     "ci95": [
+      -0.0392,
+      0.0021
+     ],
+     "ci90": [
+      -0.0356,
+      -0.001
+     ],
+     "p_two_sided": 0.084,
+     "p_holm": 1.0
+    },
+    "failure-row": {
+     "estimate": -0.0088,
+     "ci95": [
+      -0.0313,
+      0.0121
+     ],
+     "ci90": [
+      -0.0281,
+      0.0087
+     ],
+     "p_two_sided": 0.4,
+     "p_holm": 1.0
+    },
+    "failure-sentence": {
+     "estimate": -0.0161,
+     "ci95": [
+      -0.0366,
+      0.0031
+     ],
+     "ci90": [
+      -0.0327,
+      0.0003
+     ],
+     "p_two_sided": 0.107,
+     "p_holm": 1.0
+    },
+    "market-row": {
+     "estimate": 0.0114,
+     "ci95": [
+      -0.0104,
+      0.0339
+     ],
+     "ci90": [
+      -0.0058,
+      0.0293
+     ],
+     "p_two_sided": 0.276,
+     "p_holm": 1.0
+    },
+    "market-sentence": {
+     "estimate": 0.003,
+     "ci95": [
+      -0.0171,
+      0.0243
+     ],
+     "ci90": [
+      -0.0131,
+      0.0203
+     ],
+     "p_two_sided": 0.777,
+     "p_holm": 1.0
+    },
+    "lab-row": {
+     "estimate": -0.0197,
+     "ci95": [
+      -0.0454,
+      0.0026
+     ],
+     "ci90": [
+      -0.0401,
+      -0.0011
+     ],
+     "p_two_sided": 0.079,
+     "p_holm": 1.0
+    },
+    "lab-sentence": {
+     "estimate": -0.0293,
+     "ci95": [
+      -0.0533,
+      -0.0074
+     ],
+     "ci90": [
+      -0.0486,
+      -0.0107
+     ],
+     "p_two_sided": 0.013,
+     "p_holm": 0.195
+    },
+    "returns-row": {
+     "estimate": -0.0065,
+     "ci95": [
+      -0.0265,
+      0.0118
+     ],
+     "ci90": [
+      -0.0233,
+      0.0086
+     ],
+     "p_two_sided": 0.501,
+     "p_holm": 1.0
+    },
+    "returns-sentence": {
+     "estimate": -0.001,
+     "ci95": [
+      -0.018,
+      0.0158
+     ],
+     "ci90": [
+      -0.0151,
+      0.0129
+     ],
+     "p_two_sided": 0.94,
+     "p_holm": 1.0
+    },
+    "reviews-50": {
+     "estimate": 0.0105,
+     "ci95": [
+      -0.0264,
+      0.0504
+     ],
+     "ci90": [
+      -0.0206,
+      0.0432
+     ],
+     "p_two_sided": 0.645,
+     "p_holm": 1.0
+    },
+    "reviews-5000": {
+     "estimate": -0.0285,
+     "ci95": [
+      -0.0527,
+      -0.0071
+     ],
+     "ci90": [
+      -0.0477,
+      -0.0104
+     ],
+     "p_two_sided": 0.009,
+     "p_holm": 0.144
+    },
+    "certification": {
+     "estimate": -0.0171,
+     "ci95": [
+      -0.0397,
+      0.0026
+     ],
+     "ci90": [
+      -0.0357,
+      -0.0005
+     ],
+     "p_two_sided": 0.092,
+     "p_holm": 1.0
+    },
+    "endorsement": {
+     "estimate": -0.0043,
+     "ci95": [
+      -0.0241,
+      0.0168
+     ],
+     "ci90": [
+      -0.0202,
+      0.0132
+     ],
+     "p_two_sided": 0.67,
+     "p_holm": 1.0
+    },
+    "origin": {
+     "estimate": -0.0111,
+     "ci95": [
+      -0.0315,
+      0.0089
+     ],
+     "ci90": [
+      -0.0284,
+      0.0053
+     ],
+     "p_two_sided": 0.274,
+     "p_holm": 1.0
+    },
+    "sustainability": {
+     "estimate": -0.0154,
+     "ci95": [
+      -0.0367,
+      0.0048
+     ],
+     "ci90": [
+      -0.033,
+      0.0012
+     ],
+     "p_two_sided": 0.129,
+     "p_holm": 1.0
+    }
+   },
+   "two_by_two": {
+    "best product's familiar name": {
+     "estimate": -0.0029,
+     "ci95": [
+      -0.0284,
+      0.0208
+     ],
+     "ci90": [
+      -0.024,
+      0.018
+     ],
+     "p_two_sided": 0.853,
+     "p_holm": 1.0
+    },
+    "other products' familiar names": {
+     "estimate": -0.0649,
+     "ci95": [
+      -0.097,
+      -0.0379
+     ],
+     "ci90": [
+      -0.0913,
+      -0.0413
+     ],
+     "p_two_sided": 0.0,
+     "p_holm": 0.0
+    },
+    "interaction": {
+     "estimate": 0.0063,
+     "ci95": [
+      -0.0201,
+      0.0323
+     ],
+     "ci90": [
+      -0.015,
+      0.0285
+     ],
+     "p_two_sided": 0.615,
+     "p_holm": 1.0
+    }
+   },
+   "two_by_two_cells_minus_hidden": {
+    "If": {
+     "estimate": -0.063,
+     "ci95": [
+      -0.0929,
+      -0.0382
+     ],
+     "ci90": [
+      -0.087,
+      -0.0411
+     ],
+     "p_two_sided": 0.0
+    },
+    "Ff": {
+     "estimate": -0.0627,
+     "ci95": [
+      -0.1062,
+      -0.0229
+     ],
+     "ci90": [
+      -0.099,
+      -0.028
+     ],
+     "p_two_sided": 0.001
+    },
+    "Ii": {
+     "estimate": 0.0051,
+     "ci95": [
+      -0.0123,
+      0.0224
+     ],
+     "ci90": [
+      -0.0093,
+      0.0199
+     ],
+     "p_two_sided": 0.545
+    },
+    "Fi": {
+     "estimate": -0.001,
+     "ci95": [
+      -0.029,
+      0.0295
+     ],
+     "ci90": [
+      -0.0252,
+      0.0244
+     ],
+     "p_two_sided": 0.963
+    }
+   }
+  },
+  "by_group": {
+   "Anthropic": {
+    "models": [
+     "claude-haiku-5-5",
+     "claude-opus-5-5",
+     "claude-sonnet-5-5"
+    ],
+    "gap": {
+     "none": {
+      "estimate": 0.0444,
+      "ci95": [
+       0.0044,
+       0.11
+      ],
+      "ci90": [
+       0.0078,
+       0.0956
+      ],
+      "p_two_sided": 0.015
+     },
+     "warranty-row": {
+      "estimate": 0.0444,
+      "ci95": [
+       0.0056,
+       0.1
+      ],
+      "ci90": [
+       0.01,
+       0.0911
+      ],
+      "p_two_sided": 0.013
+     },
+     "warranty-sentence": {
+      "estimate": 0.0344,
+      "ci95": [
+       0.0044,
+       0.0844
+      ],
+      "ci90": [
+       0.0067,
+       0.0744
+      ],
+      "p_two_sided": 0.011
+     },
+     "failure-row": {
+      "estimate": 0.0322,
+      "ci95": [
+       -0.0033,
+       0.0956
+      ],
+      "ci90": [
+       -0.0,
+       0.0833
+      ],
+      "p_two_sided": 0.128
+     },
+     "failure-sentence": {
+      "estimate": 0.0256,
+      "ci95": [
+       0.0044,
+       0.0589
+      ],
+      "ci90": [
+       0.0067,
+       0.0533
+      ],
+      "p_two_sided": 0.009
+     },
+     "market-row": {
+      "estimate": 0.0533,
+      "ci95": [
+       0.0133,
+       0.1067
+      ],
+      "ci90": [
+       0.02,
+       0.0967
+      ],
+      "p_two_sided": 0.006
+     },
+     "market-sentence": {
+      "estimate": 0.06,
+      "ci95": [
+       0.0067,
+       0.1278
+      ],
+      "ci90": [
+       0.0133,
+       0.1167
+      ],
+      "p_two_sided": 0.034
+     },
+     "lab-row": {
+      "estimate": 0.0278,
+      "ci95": [
+       0.0,
+       0.0733
+      ],
+      "ci90": [
+       0.0022,
+       0.0667
+      ],
+      "p_two_sided": 0.067
+     },
+     "lab-sentence": {
+      "estimate": 0.0089,
+      "ci95": [
+       -0.0078,
+       0.0367
+      ],
+      "ci90": [
+       -0.0067,
+       0.03
+      ],
+      "p_two_sided": 0.487
+     },
+     "returns-row": {
+      "estimate": 0.0444,
+      "ci95": [
+       0.0044,
+       0.1044
+      ],
+      "ci90": [
+       0.0089,
+       0.0933
+      ],
+      "p_two_sided": 0.021
+     },
+     "returns-sentence": {
+      "estimate": 0.0622,
+      "ci95": [
+       0.0144,
+       0.1267
+      ],
+      "ci90": [
+       0.0211,
+       0.1133
+      ],
+      "p_two_sided": 0.005
+     },
+     "reviews-50": {
+      "estimate": 0.13,
+      "ci95": [
+       0.0556,
+       0.2089
+      ],
+      "ci90": [
+       0.07,
+       0.1956
+      ],
+      "p_two_sided": 0.0
+     },
+     "reviews-5000": {
+      "estimate": 0.04,
+      "ci95": [
+       0.0033,
+       0.0922
+      ],
+      "ci90": [
+       0.0067,
+       0.0822
+      ],
+      "p_two_sided": 0.026
+     },
+     "certification": {
+      "estimate": 0.0378,
+      "ci95": [
+       0.0044,
+       0.0867
+      ],
+      "ci90": [
+       0.01,
+       0.0756
+      ],
+      "p_two_sided": 0.017
+     },
+     "endorsement": {
+      "estimate": 0.0378,
+      "ci95": [
+       0.0044,
+       0.09
+      ],
+      "ci90": [
+       0.0078,
+       0.0789
+      ],
+      "p_two_sided": 0.023
+     },
+     "origin": {
+      "estimate": 0.0489,
+      "ci95": [
+       0.0111,
+       0.0989
+      ],
+      "ci90": [
+       0.0167,
+       0.09
+      ],
+      "p_two_sided": 0.008
+     },
+     "sustainability": {
+      "estimate": 0.0333,
+      "ci95": [
+       0.0011,
+       0.0856
+      ],
+      "ci90": [
+       0.0044,
+       0.0733
+      ],
+      "p_two_sided": 0.03
+     }
+    },
+    "shares": {
+     "none": {
+      "hidden": {
+       "estimate": 0.8989,
+       "ci95": [
+        0.7867,
+        0.9789
+       ],
+       "ci90": [
+        0.8111,
+        0.9722
+       ],
+       "p_two_sided": 0.0
+      },
+      "original": {
+       "estimate": 0.8544,
+       "ci95": [
+        0.7322,
+        0.9589
+       ],
+       "ci90": [
+        0.7533,
+        0.9422
+       ],
+       "p_two_sided": 0.0
+      },
+      "crossed": {
+       "estimate": 0.8511,
+       "ci95": [
+        0.7222,
+        0.96
+       ],
+       "ci90": [
+        0.74,
+        0.9444
+       ],
+       "p_two_sided": 0.0
+      },
+      "all-familiar": {
+       "estimate": 0.8511,
+       "ci95": [
+        0.7222,
+        0.9622
+       ],
+       "ci90": [
+        0.7389,
+        0.9467
+       ],
+       "p_two_sided": 0.0
+      },
+      "all-invented": {
+       "estimate": 0.9056,
+       "ci95": [
+        0.79,
+        0.9867
+       ],
+       "ci90": [
+        0.8122,
+        0.9767
+       ],
+       "p_two_sided": 0.0
+      },
+      "familiar-alone": {
+       "estimate": 0.9033,
+       "ci95": [
+        0.7811,
+        0.9867
+       ],
+       "ci90": [
+        0.8056,
+        0.9767
+       ],
+       "p_two_sided": 0.0
+      }
+     },
+     "warranty-row": {
+      "hidden": {
+       "estimate": 0.9111,
+       "ci95": [
+        0.8,
+        0.9911
+       ],
+       "ci90": [
+        0.8211,
+        0.98
+       ],
+       "p_two_sided": 0.0
+      },
+      "original": {
+       "estimate": 0.8667,
+       "ci95": [
+        0.7433,
+        0.9667
+       ],
+       "ci90": [
+        0.7667,
+        0.9511
+       ],
+       "p_two_sided": 0.0
+      }
+     },
+     "warranty-sentence": {
+      "hidden": {
+       "estimate": 0.9144,
+       "ci95": [
+        0.8067,
+        0.9933
+       ],
+       "ci90": [
+        0.8278,
+        0.9833
+       ],
+       "p_two_sided": 0.0
+      },
+      "original": {
+       "estimate": 0.88,
+       "ci95": [
+        0.7567,
+        0.9722
+       ],
+       "ci90": [
+        0.7778,
+        0.9644
+       ],
+       "p_two_sided": 0.0
+      }
+     },
+     "failure-row": {
+      "hidden": {
+       "estimate": 0.9222,
+       "ci95": [
+        0.7978,
+        0.9956
+       ],
+       "ci90": [
+        0.8222,
+        0.99
+       ],
+       "p_two_sided": 0.0
+      },
+      "original": {
+       "estimate": 0.89,
+       "ci95": [
+        0.7689,
+        0.9778
+       ],
+       "ci90": [
+        0.7956,
+        0.97
+       ],
+       "p_two_sided": 0.0
+      }
+     },
+     "failure-sentence": {
+      "hidden": {
+       "estimate": 0.9211,
+       "ci95": [
+        0.81,
+        0.9967
+       ],
+       "ci90": [
+        0.8344,
+        0.9833
+       ],
+       "p_two_sided": 0.0
+      },
+      "original": {
+       "estimate": 0.8956,
+       "ci95": [
+        0.7744,
+        0.98
+       ],
+       "ci90": [
+        0.7989,
+        0.97
+       ],
+       "p_two_sided": 0.0
+      }
+     },
+     "market-row": {
+      "hidden": {
+       "estimate": 0.9111,
+       "ci95": [
+        0.7978,
+        0.9889
+       ],
+       "ci90": [
+        0.8233,
+        0.98
+       ],
+       "p_two_sided": 0.0
+      },
+      "original": {
+       "estimate": 0.8578,
+       "ci95": [
+        0.73,
+        0.9667
+       ],
+       "ci90": [
+        0.7522,
+        0.9511
+       ],
+       "p_two_sided": 0.0
+      }
+     },
+     "market-sentence": {
+      "hidden": {
+       "estimate": 0.9067,
+       "ci95": [
+        0.7956,
+        0.9889
+       ],
+       "ci90": [
+        0.8189,
+        0.9767
+       ],
+       "p_two_sided": 0.0
+      },
+      "original": {
+       "estimate": 0.8467,
+       "ci95": [
+        0.7067,
+        0.9633
+       ],
+       "ci90": [
+        0.7278,
+        0.9489
+       ],
+       "p_two_sided": 0.0
+      }
+     },
+     "lab-row": {
+      "hidden": {
+       "estimate": 0.9344,
+       "ci95": [
+        0.82,
+        1.0
+       ],
+       "ci90": [
+        0.8467,
+        1.0
+       ],
+       "p_two_sided": 0.0
+      },
+      "original": {
+       "estimate": 0.9067,
+       "ci95": [
+        0.7856,
+        0.99
+       ],
+       "ci90": [
+        0.8089,
+        0.98
+       ],
+       "p_two_sided": 0.0
+      }
+     },
+     "lab-sentence": {
+      "hidden": {
+       "estimate": 0.9344,
+       "ci95": [
+        0.8289,
+        1.0
+       ],
+       "ci90": [
+        0.8511,
+        0.9944
+       ],
+       "p_two_sided": 0.0
+      },
+      "original": {
+       "estimate": 0.9256,
+       "ci95": [
+        0.8067,
+        0.9978
+       ],
+       "ci90": [
+        0.8311,
+        0.9933
+       ],
+       "p_two_sided": 0.0
+      }
+     },
+     "returns-row": {
+      "hidden": {
+       "estimate": 0.9067,
+       "ci95": [
+        0.79,
+        0.9933
+       ],
+       "ci90": [
+        0.8133,
+        0.9778
+       ],
+       "p_two_sided": 0.0
+      },
+      "original": {
+       "estimate": 0.8622,
+       "ci95": [
+        0.74,
+        0.9633
+       ],
+       "ci90": [
+        0.7589,
+        0.95
+       ],
+       "p_two_sided": 0.0
+      }
+     },
+     "returns-sentence": {
+      "hidden": {
+       "estimate": 0.9178,
+       "ci95": [
+        0.8189,
+        0.9889
+       ],
+       "ci90": [
+        0.8378,
+        0.98
+       ],
+       "p_two_sided": 0.0
+      },
+      "original": {
+       "estimate": 0.8556,
+       "ci95": [
+        0.7289,
+        0.9644
+       ],
+       "ci90": [
+        0.75,
+        0.9478
+       ],
+       "p_two_sided": 0.0
+      }
+     },
+     "reviews-50": {
+      "hidden": {
+       "estimate": 0.7333,
+       "ci95": [
+        0.5789,
+        0.88
+       ],
+       "ci90": [
+        0.6089,
+        0.8578
+       ],
+       "p_two_sided": 0.0
+      },
+      "original": {
+       "estimate": 0.6033,
+       "ci95": [
+        0.4278,
+        0.7722
+       ],
+       "ci90": [
+        0.4611,
+        0.7511
+       ],
+       "p_two_sided": 0.0
+      }
+     },
+     "reviews-5000": {
+      "hidden": {
+       "estimate": 0.9278,
+       "ci95": [
+        0.8233,
+        0.99
+       ],
+       "ci90": [
+        0.8478,
+        0.9856
+       ],
+       "p_two_sided": 0.0
+      },
+      "original": {
+       "estimate": 0.8878,
+       "ci95": [
+        0.7633,
+        0.9767
+       ],
+       "ci90": [
+        0.7844,
+        0.97
+       ],
+       "p_two_sided": 0.0
+      }
+     },
+     "certification": {
+      "hidden": {
+       "estimate": 0.9122,
+       "ci95": [
+        0.79,
+        0.9889
+       ],
+       "ci90": [
+        0.8178,
+        0.9833
+       ],
+       "p_two_sided": 0.0
+      },
+      "original": {
+       "estimate": 0.8744,
+       "ci95": [
+        0.7433,
+        0.9722
+       ],
+       "ci90": [
+        0.7711,
+        0.9622
+       ],
+       "p_two_sided": 0.0
+      }
+     },
+     "endorsement": {
+      "hidden": {
+       "estimate": 0.9078,
+       "ci95": [
+        0.7933,
+        0.9889
+       ],
+       "ci90": [
+        0.8167,
+        0.98
+       ],
+       "p_two_sided": 0.0
+      },
+      "original": {
+       "estimate": 0.87,
+       "ci95": [
+        0.7422,
+        0.97
+       ],
+       "ci90": [
+        0.7633,
+        0.96
+       ],
+       "p_two_sided": 0.0
+      }
+     },
+     "origin": {
+      "hidden": {
+       "estimate": 0.9156,
+       "ci95": [
+        0.8056,
+        0.9889
+       ],
+       "ci90": [
+        0.8278,
+        0.9811
+       ],
+       "p_two_sided": 0.0
+      },
+      "original": {
+       "estimate": 0.8667,
+       "ci95": [
+        0.7389,
+        0.9667
+       ],
+       "ci90": [
+        0.76,
+        0.9533
+       ],
+       "p_two_sided": 0.0
+      }
+     },
+     "sustainability": {
+      "hidden": {
+       "estimate": 0.9133,
+       "ci95": [
+        0.7989,
+        0.9967
+       ],
+       "ci90": [
+        0.8233,
+        0.9833
+       ],
+       "p_two_sided": 0.0
+      },
+      "original": {
+       "estimate": 0.88,
+       "ci95": [
+        0.7556,
+        0.9722
+       ],
+       "ci90": [
+        0.78,
+        0.9633
+       ],
+       "p_two_sided": 0.0
+      }
+     }
+    },
+    "rows_against_sentences": {
+     "warranty": {
+      "estimate": 0.01,
+      "ci95": [
+       -0.0167,
+       0.04
+      ],
+      "ci90": [
+       -0.0122,
+       0.0333
+      ],
+      "p_two_sided": 0.448,
+      "p_holm": 1.0
+     },
+     "failure": {
+      "estimate": 0.0067,
+      "ci95": [
+       -0.0267,
+       0.0489
+      ],
+      "ci90": [
+       -0.0211,
+       0.0433
+      ],
+      "p_two_sided": 0.757,
+      "p_holm": 1.0
+     },
+     "market": {
+      "estimate": -0.0067,
+      "ci95": [
+       -0.0467,
+       0.0311
+      ],
+      "ci90": [
+       -0.0389,
+       0.0256
+      ],
+      "p_two_sided": 0.775,
+      "p_holm": 1.0
+     },
+     "lab": {
+      "estimate": 0.0189,
+      "ci95": [
+       -0.0133,
+       0.0578
+      ],
+      "ci90": [
+       -0.0067,
+       0.0511
+      ],
+      "p_two_sided": 0.206,
+      "p_holm": 1.0
+     },
+     "returns": {
+      "estimate": -0.0178,
+      "ci95": [
+       -0.0611,
+       0.0167
+      ],
+      "ci90": [
+       -0.05,
+       0.01
+      ],
+      "p_two_sided": 0.289,
+      "p_holm": 1.0
+     }
+    },
+    "arm_against_none": {
+     "warranty-row": {
+      "estimate": -0.0,
+      "ci95": [
+       -0.0267,
+       0.0344
+      ],
+      "ci90": [
+       -0.0211,
+       0.0278
+      ],
+      "p_two_sided": 0.93,
+      "p_holm": 1.0
+     },
+     "warranty-sentence": {
+      "estimate": -0.01,
+      "ci95": [
+       -0.0589,
+       0.0389
+      ],
+      "ci90": [
+       -0.0478,
+       0.0289
+      ],
+      "p_two_sided": 0.647,
+      "p_holm": 1.0
+     },
+     "failure-row": {
+      "estimate": -0.0122,
+      "ci95": [
+       -0.0656,
+       0.0478
+      ],
+      "ci90": [
+       -0.0533,
+       0.0344
+      ],
+      "p_two_sided": 0.575,
+      "p_holm": 1.0
+     },
+     "failure-sentence": {
+      "estimate": -0.0189,
+      "ci95": [
+       -0.0756,
+       0.02
+      ],
+      "ci90": [
+       -0.0611,
+       0.0144
+      ],
+      "p_two_sided": 0.402,
+      "p_holm": 1.0
+     },
+     "market-row": {
+      "estimate": 0.0089,
+      "ci95": [
+       -0.0167,
+       0.0433
+      ],
+      "ci90": [
+       -0.0133,
+       0.0378
+      ],
+      "p_two_sided": 0.588,
+      "p_holm": 1.0
+     },
+     "market-sentence": {
+      "estimate": 0.0156,
+      "ci95": [
+       -0.0289,
+       0.0711
+      ],
+      "ci90": [
+       -0.0222,
+       0.06
+      ],
+      "p_two_sided": 0.566,
+      "p_holm": 1.0
+     },
+     "lab-row": {
+      "estimate": -0.0167,
+      "ci95": [
+       -0.0678,
+       0.0244
+      ],
+      "ci90": [
+       -0.0567,
+       0.0178
+      ],
+      "p_two_sided": 0.466,
+      "p_holm": 1.0
+     },
+     "lab-sentence": {
+      "estimate": -0.0356,
+      "ci95": [
+       -0.09,
+       0.0022
+      ],
+      "ci90": [
+       -0.08,
+       -0.0022
+      ],
+      "p_two_sided": 0.068,
+      "p_holm": 1.0
+     },
+     "returns-row": {
+      "estimate": 0.0,
+      "ci95": [
+       -0.0233,
+       0.0344
+      ],
+      "ci90": [
+       -0.02,
+       0.0267
+      ],
+      "p_two_sided": 0.979,
+      "p_holm": 1.0
+     },
+     "returns-sentence": {
+      "estimate": 0.0178,
+      "ci95": [
+       -0.0067,
+       0.0544
+      ],
+      "ci90": [
+       -0.0044,
+       0.0478
+      ],
+      "p_two_sided": 0.234,
+      "p_holm": 1.0
+     },
+     "reviews-50": {
+      "estimate": 0.0856,
+      "ci95": [
+       0.0122,
+       0.1633
+      ],
+      "ci90": [
+       0.0256,
+       0.1511
+      ],
+      "p_two_sided": 0.019,
+      "p_holm": 0.304
+     },
+     "reviews-5000": {
+      "estimate": -0.0044,
+      "ci95": [
+       -0.0567,
+       0.0467
+      ],
+      "ci90": [
+       -0.0467,
+       0.0367
+      ],
+      "p_two_sided": 0.884,
+      "p_holm": 1.0
+     },
+     "certification": {
+      "estimate": -0.0067,
+      "ci95": [
+       -0.0467,
+       0.0278
+      ],
+      "ci90": [
+       -0.04,
+       0.0222
+      ],
+      "p_two_sided": 0.771,
+      "p_holm": 1.0
+     },
+     "endorsement": {
+      "estimate": -0.0067,
+      "ci95": [
+       -0.0367,
+       0.0156
+      ],
+      "ci90": [
+       -0.03,
+       0.0133
+      ],
+      "p_two_sided": 0.69,
+      "p_holm": 1.0
+     },
+     "origin": {
+      "estimate": 0.0044,
+      "ci95": [
+       -0.0389,
+       0.0589
+      ],
+      "ci90": [
+       -0.0311,
+       0.0467
+      ],
+      "p_two_sided": 0.862,
+      "p_holm": 1.0
+     },
+     "sustainability": {
+      "estimate": -0.0111,
+      "ci95": [
+       -0.0533,
+       0.0333
+      ],
+      "ci90": [
+       -0.0456,
+       0.0256
+      ],
+      "p_two_sided": 0.524,
+      "p_holm": 1.0
+     }
+    },
+    "two_by_two": {
+     "best product's familiar name": {
+      "estimate": -0.0028,
+      "ci95": [
+       -0.0317,
+       0.0194
+      ],
+      "ci90": [
+       -0.0261,
+       0.0167
+      ],
+      "p_two_sided": 0.863,
+      "p_holm": 1.0
+     },
+     "other products' familiar names": {
+      "estimate": -0.0517,
+      "ci95": [
+       -0.1172,
+       -0.0078
+      ],
+      "ci90": [
+       -0.1039,
+       -0.0122
+      ],
+      "p_two_sided": 0.013,
+      "p_holm": 0.039
+     },
+     "interaction": {
+      "estimate": -0.0011,
+      "ci95": [
+       -0.0589,
+       0.04
+      ],
+      "ci90": [
+       -0.0444,
+       0.0333
+      ],
+      "p_two_sided": 0.941,
+      "p_holm": 1.0
+     }
+    },
+    "two_by_two_cells_minus_hidden": {
+     "If": {
+      "estimate": -0.0444,
+      "ci95": [
+       -0.11,
+       -0.0044
+      ],
+      "ci90": [
+       -0.0956,
+       -0.0078
+      ],
+      "p_two_sided": 0.015
+     },
+     "Ff": {
+      "estimate": -0.0478,
+      "ci95": [
+       -0.1356,
+       0.0122
+      ],
+      "ci90": [
+       -0.1211,
+       0.0056
+      ],
+      "p_two_sided": 0.168
+     },
+     "Ii": {
+      "estimate": 0.0067,
+      "ci95": [
+       -0.0156,
+       0.0367
+      ],
+      "ci90": [
+       -0.01,
+       0.0289
+      ],
+      "p_two_sided": 0.677
+     },
+     "Fi": {
+      "estimate": 0.0044,
+      "ci95": [
+       -0.0311,
+       0.04
+      ],
+      "ci90": [
+       -0.0222,
+       0.03
+      ],
+      "p_two_sided": 0.789
+     }
+    }
+   },
+   "OpenAI": {
+    "models": [
+     "gpt-6.1-sol",
+     "gpt-6.2-sol"
+    ],
+    "note": "fewer than three models; see the model-level results"
+   },
+   "open weights": {
+    "models": [
+     "ernie45-21b",
+     "gemma3-27b",
+     "gemma31b",
+     "gemma4-12b",
+     "gemma4-26b",
+     "glm47-flash",
+     "gptoss120b",
+     "gptoss20b",
+     "granite41-30b",
+     "granite42-30b",
+     "llama3b",
+     "llama8b",
+     "marin8b",
+     "ministral3-14b",
+     "nemotron3-nano30b",
+     "olmo3-7b",
+     "olmo31-32b",
+     "phi4",
+     "qwen3-30b",
+     "qwen3-32b",
+     "qwen32b",
+     "qwen35-0.8b",
+     "qwen35-122b-fp8",
+     "qwen35-27b",
+     "qwen35-2b",
+     "qwen35-35b",
+     "qwen35-4b",
+     "qwen35-9b",
+     "qwen36-27b",
+     "qwen38-27b",
+     "qwen7b"
+    ],
+    "gap": {
+     "none": {
+      "estimate": 0.0582,
+      "ci95": [
+       0.0321,
+       0.0888
+      ],
+      "ci90": [
+       0.0359,
+       0.0826
+      ],
+      "p_two_sided": 0.0
+     },
+     "warranty-row": {
+      "estimate": 0.0509,
+      "ci95": [
+       0.025,
+       0.0807
+      ],
+      "ci90": [
+       0.0288,
+       0.0758
+      ],
+      "p_two_sided": 0.0
+     },
+     "warranty-sentence": {
+      "estimate": 0.042,
+      "ci95": [
+       0.0181,
+       0.0687
+      ],
+      "ci90": [
+       0.0218,
+       0.0636
+      ],
+      "p_two_sided": 0.0
+     },
+     "failure-row": {
+      "estimate": 0.0546,
+      "ci95": [
+       0.03,
+       0.0813
+      ],
+      "ci90": [
+       0.0333,
+       0.0773
+      ],
+      "p_two_sided": 0.0
+     },
+     "failure-sentence": {
+      "estimate": 0.0455,
+      "ci95": [
+       0.0211,
+       0.0737
+      ],
+      "ci90": [
+       0.0251,
+       0.0688
+      ],
+      "p_two_sided": 0.0
+     },
+     "market-row": {
+      "estimate": 0.0708,
+      "ci95": [
+       0.0454,
+       0.0988
+      ],
+      "ci90": [
+       0.0499,
+       0.0938
+      ],
+      "p_two_sided": 0.0
+     },
+     "market-sentence": {
+      "estimate": 0.0641,
+      "ci95": [
+       0.0376,
+       0.0926
+      ],
+      "ci90": [
+       0.0419,
+       0.0879
+      ],
+      "p_two_sided": 0.0
+     },
+     "lab-row": {
+      "estimate": 0.0408,
+      "ci95": [
+       0.0167,
+       0.068
+      ],
+      "ci90": [
+       0.0205,
+       0.0634
+      ],
+      "p_two_sided": 0.003
+     },
+     "lab-sentence": {
+      "estimate": 0.0356,
+      "ci95": [
+       0.0121,
+       0.0602
+      ],
+      "ci90": [
+       0.0164,
+       0.0566
+      ],
+      "p_two_sided": 0.003
+     },
+     "returns-row": {
+      "estimate": 0.0527,
+      "ci95": [
+       0.0267,
+       0.0824
+      ],
+      "ci90": [
+       0.0301,
+       0.0774
+      ],
+      "p_two_sided": 0.0
+     },
+     "returns-sentence": {
+      "estimate": 0.0601,
+      "ci95": [
+       0.0339,
+       0.0901
+      ],
+      "ci90": [
+       0.0382,
+       0.0845
+      ],
+      "p_two_sided": 0.0
+     },
+     "reviews-50": {
+      "estimate": 0.0513,
+      "ci95": [
+       0.0174,
+       0.0861
+      ],
+      "ci90": [
+       0.0233,
+       0.0789
+      ],
+      "p_two_sided": 0.004
+     },
+     "reviews-5000": {
+      "estimate": 0.0322,
+      "ci95": [
+       0.0094,
+       0.0593
+      ],
+      "ci90": [
+       0.0129,
+       0.0552
+      ],
+      "p_two_sided": 0.003
+     },
+     "certification": {
+      "estimate": 0.0449,
+      "ci95": [
+       0.0249,
+       0.0683
+      ],
+      "ci90": [
+       0.0277,
+       0.0641
+      ],
+      "p_two_sided": 0.0
+     },
+     "endorsement": {
+      "estimate": 0.0555,
+      "ci95": [
+       0.0297,
+       0.0869
+      ],
+      "ci90": [
+       0.0336,
+       0.0808
+      ],
+      "p_two_sided": 0.0
+     },
+     "origin": {
+      "estimate": 0.0462,
+      "ci95": [
+       0.0193,
+       0.0755
+      ],
+      "ci90": [
+       0.0245,
+       0.0717
+      ],
+      "p_two_sided": 0.0
+     },
+     "sustainability": {
+      "estimate": 0.0505,
+      "ci95": [
+       0.0255,
+       0.076
+      ],
+      "ci90": [
+       0.0296,
+       0.0716
+      ],
+      "p_two_sided": 0.0
+     }
+    },
+    "shares": {
+     "none": {
+      "hidden": {
+       "estimate": 0.6947,
+       "ci95": [
+        0.6053,
+        0.7865
+       ],
+       "ci90": [
+        0.6175,
+        0.7711
+       ],
+       "p_two_sided": 0.0
+      },
+      "original": {
+       "estimate": 0.6365,
+       "ci95": [
+        0.5398,
+        0.7322
+       ],
+       "ci90": [
+        0.5533,
+        0.7179
+       ],
+       "p_two_sided": 0.0
+      },
+      "crossed": {
+       "estimate": 0.6413,
+       "ci95": [
+        0.5391,
+        0.7427
+       ],
+       "ci90": [
+        0.5553,
+        0.7266
+       ],
+       "p_two_sided": 0.0
+      },
+      "all-familiar": {
+       "estimate": 0.6356,
+       "ci95": [
+        0.5305,
+        0.7391
+       ],
+       "ci90": [
+        0.5474,
+        0.7215
+       ],
+       "p_two_sided": 0.0
+      },
+      "all-invented": {
+       "estimate": 0.6983,
+       "ci95": [
+        0.6063,
+        0.7896
+       ],
+       "ci90": [
+        0.6188,
+        0.7756
+       ],
+       "p_two_sided": 0.0
+      },
+      "familiar-alone": {
+       "estimate": 0.6939,
+       "ci95": [
+        0.5962,
+        0.7903
+       ],
+       "ci90": [
+        0.6136,
+        0.7743
+       ],
+       "p_two_sided": 0.0
+      }
+     },
+     "warranty-row": {
+      "hidden": {
+       "estimate": 0.6876,
+       "ci95": [
+        0.5968,
+        0.7819
+       ],
+       "ci90": [
+        0.61,
+        0.7655
+       ],
+       "p_two_sided": 0.0
+      },
+      "original": {
+       "estimate": 0.6367,
+       "ci95": [
+        0.54,
+        0.733
+       ],
+       "ci90": [
+        0.5527,
+        0.7179
+       ],
+       "p_two_sided": 0.0
+      }
+     },
+     "warranty-sentence": {
+      "hidden": {
+       "estimate": 0.6861,
+       "ci95": [
+        0.592,
+        0.7786
+       ],
+       "ci90": [
+        0.6078,
+        0.765
+       ],
+       "p_two_sided": 0.0
+      },
+      "original": {
+       "estimate": 0.6442,
+       "ci95": [
+        0.5453,
+        0.7472
+       ],
+       "ci90": [
+        0.56,
+        0.7276
+       ],
+       "p_two_sided": 0.0
+      }
+     },
+     "failure-row": {
+      "hidden": {
+       "estimate": 0.6798,
+       "ci95": [
+        0.5886,
+        0.7738
+       ],
+       "ci90": [
+        0.5999,
+        0.7593
+       ],
+       "p_two_sided": 0.0
+      },
+      "original": {
+       "estimate": 0.6252,
+       "ci95": [
+        0.5275,
+        0.7231
+       ],
+       "ci90": [
+        0.5408,
+        0.7072
+       ],
+       "p_two_sided": 0.0
+      }
+     },
+     "failure-sentence": {
+      "hidden": {
+       "estimate": 0.6672,
+       "ci95": [
+        0.5732,
+        0.7632
+       ],
+       "ci90": [
+        0.5873,
+        0.748
+       ],
+       "p_two_sided": 0.0
+      },
+      "original": {
+       "estimate": 0.6217,
+       "ci95": [
+        0.5224,
+        0.7236
+       ],
+       "ci90": [
+        0.5378,
+        0.7059
+       ],
+       "p_two_sided": 0.0
+      }
+     },
+     "market-row": {
+      "hidden": {
+       "estimate": 0.6942,
+       "ci95": [
+        0.6007,
+        0.7871
+       ],
+       "ci90": [
+        0.6152,
+        0.7695
+       ],
+       "p_two_sided": 0.0
+      },
+      "original": {
+       "estimate": 0.6234,
+       "ci95": [
+        0.5271,
+        0.7224
+       ],
+       "ci90": [
+        0.5388,
+        0.7055
+       ],
+       "p_two_sided": 0.0
+      }
+     },
+     "market-sentence": {
+      "hidden": {
+       "estimate": 0.7049,
+       "ci95": [
+        0.6154,
+        0.7958
+       ],
+       "ci90": [
+        0.6299,
+        0.7786
+       ],
+       "p_two_sided": 0.0
+      },
+      "original": {
+       "estimate": 0.6408,
+       "ci95": [
+        0.5425,
+        0.7399
+       ],
+       "ci90": [
+        0.5561,
+        0.7229
+       ],
+       "p_two_sided": 0.0
+      }
+     },
+     "lab-row": {
+      "hidden": {
+       "estimate": 0.6759,
+       "ci95": [
+        0.583,
+        0.7715
+       ],
+       "ci90": [
+        0.5949,
+        0.7572
+       ],
+       "p_two_sided": 0.0
+      },
+      "original": {
+       "estimate": 0.6351,
+       "ci95": [
+        0.5354,
+        0.7351
+       ],
+       "ci90": [
+        0.5473,
+        0.7166
+       ],
+       "p_two_sided": 0.0
+      }
+     },
+     "lab-sentence": {
+      "hidden": {
+       "estimate": 0.7023,
+       "ci95": [
+        0.6117,
+        0.7931
+       ],
+       "ci90": [
+        0.626,
+        0.7791
+       ],
+       "p_two_sided": 0.0
+      },
+      "original": {
+       "estimate": 0.6667,
+       "ci95": [
+        0.571,
+        0.7643
+       ],
+       "ci90": [
+        0.5861,
+        0.745
+       ],
+       "p_two_sided": 0.0
+      }
+     },
+     "returns-row": {
+      "hidden": {
+       "estimate": 0.6925,
+       "ci95": [
+        0.6026,
+        0.7837
+       ],
+       "ci90": [
+        0.6164,
+        0.7691
+       ],
+       "p_two_sided": 0.0
+      },
+      "original": {
+       "estimate": 0.6398,
+       "ci95": [
+        0.5414,
+        0.7374
+       ],
+       "ci90": [
+        0.5548,
+        0.7209
+       ],
+       "p_two_sided": 0.0
+      }
+     },
+     "returns-sentence": {
+      "hidden": {
+       "estimate": 0.6884,
+       "ci95": [
+        0.5972,
+        0.7789
+       ],
+       "ci90": [
+        0.612,
+        0.7646
+       ],
+       "p_two_sided": 0.0
+      },
+      "original": {
+       "estimate": 0.6283,
+       "ci95": [
+        0.5322,
+        0.726
+       ],
+       "ci90": [
+        0.5465,
+        0.7089
+       ],
+       "p_two_sided": 0.0
+      }
+     },
+     "reviews-50": {
+      "hidden": {
+       "estimate": 0.5071,
+       "ci95": [
+        0.4184,
+        0.6006
+       ],
+       "ci90": [
+        0.428,
+        0.5839
+       ],
+       "p_two_sided": 0.0
+      },
+      "original": {
+       "estimate": 0.4558,
+       "ci95": [
+        0.3662,
+        0.5459
+       ],
+       "ci90": [
+        0.379,
+        0.5317
+       ],
+       "p_two_sided": 0.0
+      }
+     },
+     "reviews-5000": {
+      "hidden": {
+       "estimate": 0.7529,
+       "ci95": [
+        0.6669,
+        0.8348
+       ],
+       "ci90": [
+        0.6803,
+        0.8218
+       ],
+       "p_two_sided": 0.0
+      },
+      "original": {
+       "estimate": 0.7207,
+       "ci95": [
+        0.6279,
+        0.8096
+       ],
+       "ci90": [
+        0.6419,
+        0.7952
+       ],
+       "p_two_sided": 0.0
+      }
+     },
+     "certification": {
+      "hidden": {
+       "estimate": 0.6752,
+       "ci95": [
+        0.5818,
+        0.7695
+       ],
+       "ci90": [
+        0.5942,
+        0.7536
+       ],
+       "p_two_sided": 0.0
+      },
+      "original": {
+       "estimate": 0.6303,
+       "ci95": [
+        0.5314,
+        0.7302
+       ],
+       "ci90": [
+        0.5444,
+        0.7133
+       ],
+       "p_two_sided": 0.0
+      }
+     },
+     "endorsement": {
+      "hidden": {
+       "estimate": 0.6807,
+       "ci95": [
+        0.5883,
+        0.7736
+       ],
+       "ci90": [
+        0.601,
+        0.7582
+       ],
+       "p_two_sided": 0.0
+      },
+      "original": {
+       "estimate": 0.6252,
+       "ci95": [
+        0.528,
+        0.7196
+       ],
+       "ci90": [
+        0.541,
+        0.7061
+       ],
+       "p_two_sided": 0.0
+      }
+     },
+     "origin": {
+      "hidden": {
+       "estimate": 0.6907,
+       "ci95": [
+        0.6008,
+        0.7796
+       ],
+       "ci90": [
+        0.6152,
+        0.7659
+       ],
+       "p_two_sided": 0.0
+      },
+      "original": {
+       "estimate": 0.6446,
+       "ci95": [
+        0.5436,
+        0.741
+       ],
+       "ci90": [
+        0.5579,
+        0.727
+       ],
+       "p_two_sided": 0.0
+      }
+     },
+     "sustainability": {
+      "hidden": {
+       "estimate": 0.6895,
+       "ci95": [
+        0.5963,
+        0.784
+       ],
+       "ci90": [
+        0.6103,
+        0.7675
+       ],
+       "p_two_sided": 0.0
+      },
+      "original": {
+       "estimate": 0.6391,
+       "ci95": [
+        0.5385,
+        0.7415
+       ],
+       "ci90": [
+        0.5527,
+        0.7223
+       ],
+       "p_two_sided": 0.0
+      }
+     }
+    },
+    "rows_against_sentences": {
+     "warranty": {
+      "estimate": 0.0089,
+      "ci95": [
+       -0.0139,
+       0.0321
+      ],
+      "ci90": [
+       -0.0095,
+       0.0284
+      ],
+      "p_two_sided": 0.412,
+      "p_holm": 1.0
+     },
+     "failure": {
+      "estimate": 0.0091,
+      "ci95": [
+       -0.0144,
+       0.0329
+      ],
+      "ci90": [
+       -0.0106,
+       0.0281
+      ],
+      "p_two_sided": 0.437,
+      "p_holm": 1.0
+     },
+     "market": {
+      "estimate": 0.0067,
+      "ci95": [
+       -0.018,
+       0.0312
+      ],
+      "ci90": [
+       -0.013,
+       0.0273
+      ],
+      "p_two_sided": 0.562,
+      "p_holm": 1.0
+     },
+     "lab": {
+      "estimate": 0.0053,
+      "ci95": [
+       -0.0221,
+       0.0332
+      ],
+      "ci90": [
+       -0.0168,
+       0.0276
+      ],
+      "p_two_sided": 0.649,
+      "p_holm": 1.0
+     },
+     "returns": {
+      "estimate": -0.0071,
+      "ci95": [
+       -0.0263,
+       0.0116
+      ],
+      "ci90": [
+       -0.0233,
+       0.0086
+      ],
+      "p_two_sided": 0.455,
+      "p_holm": 1.0
+     }
+    },
+    "arm_against_none": {
+     "warranty-row": {
+      "estimate": -0.0073,
+      "ci95": [
+       -0.0298,
+       0.0129
+      ],
+      "ci90": [
+       -0.0256,
+       0.0102
+      ],
+      "p_two_sided": 0.484,
+      "p_holm": 1.0
+     },
+     "warranty-sentence": {
+      "estimate": -0.0163,
+      "ci95": [
+       -0.0393,
+       0.0054
+      ],
+      "ci90": [
+       -0.0355,
+       0.0016
+      ],
+      "p_two_sided": 0.134,
+      "p_holm": 1.0
+     },
+     "failure-row": {
+      "estimate": -0.0036,
+      "ci95": [
+       -0.026,
+       0.0173
+      ],
+      "ci90": [
+       -0.0221,
+       0.0139
+      ],
+      "p_two_sided": 0.725,
+      "p_holm": 1.0
+     },
+     "failure-sentence": {
+      "estimate": -0.0127,
+      "ci95": [
+       -0.0326,
+       0.0067
+      ],
+      "ci90": [
+       -0.0295,
+       0.0038
+      ],
+      "p_two_sided": 0.218,
+      "p_holm": 1.0
+     },
+     "market-row": {
+      "estimate": 0.0126,
+      "ci95": [
+       -0.0105,
+       0.0348
+      ],
+      "ci90": [
+       -0.0067,
+       0.0311
+      ],
+      "p_two_sided": 0.286,
+      "p_holm": 1.0
+     },
+     "market-sentence": {
+      "estimate": 0.0059,
+      "ci95": [
+       -0.0138,
+       0.0268
+      ],
+      "ci90": [
+       -0.0109,
+       0.0225
+      ],
+      "p_two_sided": 0.59,
+      "p_holm": 1.0
+     },
+     "lab-row": {
+      "estimate": -0.0174,
+      "ci95": [
+       -0.042,
+       0.0067
+      ],
+      "ci90": [
+       -0.0378,
+       0.0028
+      ],
+      "p_two_sided": 0.144,
+      "p_holm": 1.0
+     },
+     "lab-sentence": {
+      "estimate": -0.0227,
+      "ci95": [
+       -0.0467,
+       -0.0008
+      ],
+      "ci90": [
+       -0.042,
+       -0.0045
+      ],
+      "p_two_sided": 0.042,
+      "p_holm": 0.63
+     },
+     "returns-row": {
+      "estimate": -0.0055,
+      "ci95": [
+       -0.0257,
+       0.0149
+      ],
+      "ci90": [
+       -0.022,
+       0.0118
+      ],
+      "p_two_sided": 0.601,
+      "p_holm": 1.0
+     },
+     "returns-sentence": {
+      "estimate": 0.0016,
+      "ci95": [
+       -0.0176,
+       0.02
+      ],
+      "ci90": [
+       -0.0139,
+       0.0168
+      ],
+      "p_two_sided": 0.846,
+      "p_holm": 1.0
+     },
+     "reviews-50": {
+      "estimate": -0.007,
+      "ci95": [
+       -0.0375,
+       0.0262
+      ],
+      "ci90": [
+       -0.0332,
+       0.0206
+      ],
+      "p_two_sided": 0.627,
+      "p_holm": 1.0
+     },
+     "reviews-5000": {
+      "estimate": -0.026,
+      "ci95": [
+       -0.0516,
+       -0.0024
+      ],
+      "ci90": [
+       -0.0462,
+       -0.0059
+      ],
+      "p_two_sided": 0.03,
+      "p_holm": 0.48
+     },
+     "certification": {
+      "estimate": -0.0133,
+      "ci95": [
+       -0.0377,
+       0.0086
+      ],
+      "ci90": [
+       -0.0334,
+       0.0053
+      ],
+      "p_two_sided": 0.236,
+      "p_holm": 1.0
+     },
+     "endorsement": {
+      "estimate": -0.0027,
+      "ci95": [
+       -0.025,
+       0.0198
+      ],
+      "ci90": [
+       -0.0217,
+       0.0162
+      ],
+      "p_two_sided": 0.809,
+      "p_holm": 1.0
+     },
+     "origin": {
+      "estimate": -0.012,
+      "ci95": [
+       -0.0337,
+       0.0083
+      ],
+      "ci90": [
+       -0.0306,
+       0.0054
+      ],
+      "p_two_sided": 0.253,
+      "p_holm": 1.0
+     },
+     "sustainability": {
+      "estimate": -0.0077,
+      "ci95": [
+       -0.0307,
+       0.0147
+      ],
+      "ci90": [
+       -0.0277,
+       0.01
+      ],
+      "p_two_sided": 0.477,
+      "p_holm": 1.0
+     }
+    },
+    "two_by_two": {
+     "best product's familiar name": {
+      "estimate": -0.0027,
+      "ci95": [
+       -0.0286,
+       0.0229
+      ],
+      "ci90": [
+       -0.0234,
+       0.0186
+      ],
+      "p_two_sided": 0.868,
+      "p_holm": 1.0
+     },
+     "other products' familiar names": {
+      "estimate": -0.0601,
+      "ci95": [
+       -0.0908,
+       -0.0356
+      ],
+      "ci90": [
+       -0.0839,
+       -0.0385
+      ],
+      "p_two_sided": 0.0,
+      "p_holm": 0.0
+     },
+     "interaction": {
+      "estimate": 0.0035,
+      "ci95": [
+       -0.0212,
+       0.0288
+      ],
+      "ci90": [
+       -0.0166,
+       0.0248
+      ],
+      "p_two_sided": 0.797,
+      "p_holm": 1.0
+     }
+    },
+    "two_by_two_cells_minus_hidden": {
+     "If": {
+      "estimate": -0.0582,
+      "ci95": [
+       -0.0888,
+       -0.0321
+      ],
+      "ci90": [
+       -0.0826,
+       -0.0359
+      ],
+      "p_two_sided": 0.0
+     },
+     "Ff": {
+      "estimate": -0.0591,
+      "ci95": [
+       -0.0999,
+       -0.0215
+      ],
+      "ci90": [
+       -0.0931,
+       -0.0293
+      ],
+      "p_two_sided": 0.0
+     },
+     "Ii": {
+      "estimate": 0.0036,
+      "ci95": [
+       -0.0148,
+       0.021
+      ],
+      "ci90": [
+       -0.012,
+       0.0187
+      ],
+      "p_two_sided": 0.728
+     },
+     "Fi": {
+      "estimate": -0.0008,
+      "ci95": [
+       -0.0297,
+       0.0298
+      ],
+      "ci90": [
+       -0.0249,
+       0.0247
+      ],
+      "p_two_sided": 0.934
+     }
+    }
+   }
+  },
+  "group_differences": {
+   "Anthropic minus OpenAI": {
+    "gap, none": {
+     "estimate": 0.003,
+     "ci95": [
+      -0.0647,
+      0.0675
+     ],
+     "ci90": [
+      -0.0496,
+      0.0552
+     ],
+     "p_two_sided": 0.887
+    },
+    "gap, warranty-row": {
+     "estimate": 0.014,
+     "ci95": [
+      -0.0614,
+      0.061
+     ],
+     "ci90": [
+      -0.0418,
+      0.0542
+     ],
+     "p_two_sided": 0.493
+    },
+    "gap, warranty-sentence": {
+     "estimate": 0.0079,
+     "ci95": [
+      -0.0373,
+      0.0447
+     ],
+     "ci90": [
+      -0.0278,
+      0.0373
+     ],
+     "p_two_sided": 0.59
+    },
+    "gap, failure-row": {
+     "estimate": 0.0293,
+     "ci95": [
+      -0.0047,
+      0.0845
+     ],
+     "ci90": [
+      -0.0,
+      0.0721
+     ],
+     "p_two_sided": 0.113
+    },
+    "gap, failure-sentence": {
+     "estimate": 0.0166,
+     "ci95": [
+      0.0,
+      0.0411
+     ],
+     "ci90": [
+      0.0022,
+      0.0352
+     ],
+     "p_two_sided": 0.064
+    },
+    "gap, market-row": {
+     "estimate": 0.0178,
+     "ci95": [
+      -0.0389,
+      0.0654
+     ],
+     "ci90": [
+      -0.0262,
+      0.0567
+     ],
+     "p_two_sided": 0.413
+    },
+    "gap, market-sentence": {
+     "estimate": 0.0362,
+     "ci95": [
+      -0.004,
+      0.0967
+     ],
+     "ci90": [
+      0.0006,
+      0.0848
+     ],
+     "p_two_sided": 0.097
+    },
+    "gap, lab-row": {
+     "estimate": 0.0199,
+     "ci95": [
+      -0.0042,
+      0.0578
+     ],
+     "ci90": [
+      -0.0013,
+      0.049
+     ],
+     "p_two_sided": 0.161
+    },
+    "gap, lab-sentence": {
+     "estimate": 0.0209,
+     "ci95": [
+      -0.0044,
+      0.0629
+     ],
+     "ci90": [
+      -0.0011,
+      0.0533
+     ],
+     "p_two_sided": 0.17
+    },
+    "gap, returns-row": {
+     "estimate": -0.0031,
+     "ci95": [
+      -0.0489,
+      0.0413
+     ],
+     "ci90": [
+      -0.0378,
+      0.0333
+     ],
+     "p_two_sided": 0.92
+    },
+    "gap, returns-sentence": {
+     "estimate": 0.0159,
+     "ci95": [
+      -0.0633,
+      0.0774
+     ],
+     "ci90": [
+      -0.0454,
+      0.0646
+     ],
+     "p_two_sided": 0.533
+    },
+    "gap, reviews-50": {
+     "estimate": -0.0835,
+     "ci95": [
+      -0.2022,
+      0.0142
+     ],
+     "ci90": [
+      -0.1812,
+      -0.0048
+     ],
+     "p_two_sided": 0.088
+    },
+    "gap, reviews-5000": {
+     "estimate": 0.0035,
+     "ci95": [
+      -0.0619,
+      0.0467
+     ],
+     "ci90": [
+      -0.0443,
+      0.0394
+     ],
+     "p_two_sided": 0.775
+    },
+    "gap, certification": {
+     "estimate": 0.0132,
+     "ci95": [
+      -0.0411,
+      0.0611
+     ],
+     "ci90": [
+      -0.0289,
+      0.05
+     ],
+     "p_two_sided": 0.482
+    },
+    "gap, endorsement": {
+     "estimate": 0.0062,
+     "ci95": [
+      -0.0433,
+      0.0471
+     ],
+     "ci90": [
+      -0.0322,
+      0.0412
+     ],
+     "p_two_sided": 0.691
+    },
+    "gap, origin": {
+     "estimate": 0.0044,
+     "ci95": [
+      -0.0607,
+      0.053
+     ],
+     "ci90": [
+      -0.0428,
+      0.0456
+     ],
+     "p_two_sided": 0.791
+    },
+    "gap, sustainability": {
+     "estimate": 0.0107,
+     "ci95": [
+      -0.0322,
+      0.059
+     ],
+     "ci90": [
+      -0.0216,
+      0.0479
+     ],
+     "p_two_sided": 0.529
+    },
+    "warranty-row against none": {
+     "estimate": 0.0109,
+     "ci95": [
+      -0.033,
+      0.0576
+     ],
+     "ci90": [
+      -0.0251,
+      0.0469
+     ],
+     "p_two_sided": 0.592
+    },
+    "warranty-sentence against none": {
+     "estimate": 0.0048,
+     "ci95": [
+      -0.0467,
+      0.0537
+     ],
+     "ci90": [
+      -0.0378,
+      0.0428
+     ],
+     "p_two_sided": 0.782
+    },
+    "failure-row against none": {
+     "estimate": 0.0262,
+     "ci95": [
+      -0.0323,
+      0.1133
+     ],
+     "ci90": [
+      -0.0219,
+      0.0925
+     ],
+     "p_two_sided": 0.433
+    },
+    "failure-sentence against none": {
+     "estimate": 0.0136,
+     "ci95": [
+      -0.0506,
+      0.0944
+     ],
+     "ci90": [
+      -0.0393,
+      0.0733
+     ],
+     "p_two_sided": 0.705
+    },
+    "market-row against none": {
+     "estimate": 0.0148,
+     "ci95": [
+      -0.0252,
+      0.0589
+     ],
+     "ci90": [
+      -0.0189,
+      0.0492
+     ],
+     "p_two_sided": 0.436
+    },
+    "market-sentence against none": {
+     "estimate": 0.0332,
+     "ci95": [
+      -0.0293,
+      0.1111
+     ],
+     "ci90": [
+      -0.0183,
+      0.0959
+     ],
+     "p_two_sided": 0.326
+    },
+    "lab-row against none": {
+     "estimate": 0.0169,
+     "ci95": [
+      -0.0383,
+      0.0942
+     ],
+     "ci90": [
+      -0.0302,
+      0.0772
+     ],
+     "p_two_sided": 0.637
+    },
+    "lab-sentence against none": {
+     "estimate": 0.0179,
+     "ci95": [
+      -0.04,
+      0.0833
+     ],
+     "ci90": [
+      -0.0302,
+      0.0688
+     ],
+     "p_two_sided": 0.547
+    },
+    "returns-row against none": {
+     "estimate": -0.0061,
+     "ci95": [
+      -0.0538,
+      0.0398
+     ],
+     "ci90": [
+      -0.0464,
+      0.03
+     ],
+     "p_two_sided": 0.802
+    },
+    "returns-sentence against none": {
+     "estimate": 0.0128,
+     "ci95": [
+      -0.0289,
+      0.0662
+     ],
+     "ci90": [
+      -0.0227,
+      0.0544
+     ],
+     "p_two_sided": 0.614
+    },
+    "reviews-50 against none": {
+     "estimate": -0.0866,
+     "ci95": [
+      -0.2088,
+      0.0194
+     ],
+     "ci90": [
+      -0.1893,
+      0.0017
+     ],
+     "p_two_sided": 0.106
+    },
+    "reviews-5000 against none": {
+     "estimate": 0.0005,
+     "ci95": [
+      -0.0513,
+      0.0464
+     ],
+     "ci90": [
+      -0.0413,
+      0.0394
+     ],
+     "p_two_sided": 0.964
+    },
+    "certification against none": {
+     "estimate": 0.0102,
+     "ci95": [
+      -0.0406,
+      0.0589
+     ],
+     "ci90": [
+      -0.0309,
+      0.0493
+     ],
+     "p_two_sided": 0.632
+    },
+    "endorsement against none": {
+     "estimate": 0.0032,
+     "ci95": [
+      -0.0327,
+      0.0378
+     ],
+     "ci90": [
+      -0.0269,
+      0.0316
+     ],
+     "p_two_sided": 0.847
+    },
+    "origin against none": {
+     "estimate": 0.0014,
+     "ci95": [
+      -0.0598,
+      0.0567
+     ],
+     "ci90": [
+      -0.0481,
+      0.0484
+     ],
+     "p_two_sided": 0.922
+    },
+    "sustainability against none": {
+     "estimate": 0.0077,
+     "ci95": [
+      -0.0317,
+      0.059
+     ],
+     "ci90": [
+      -0.0252,
+      0.0472
+     ],
+     "p_two_sided": 0.767
+    },
+    "warranty: row against sentence": {
+     "estimate": 0.0061,
+     "ci95": [
+      -0.0363,
+      0.0422
+     ],
+     "ci90": [
+      -0.0283,
+      0.0356
+     ],
+     "p_two_sided": 0.696
+    },
+    "failure: row against sentence": {
+     "estimate": 0.0127,
+     "ci95": [
+      -0.025,
+      0.0587
+     ],
+     "ci90": [
+      -0.0162,
+      0.0487
+     ],
+     "p_two_sided": 0.504
+    },
+    "market: row against sentence": {
+     "estimate": -0.0184,
+     "ci95": [
+      -0.0749,
+      0.0224
+     ],
+     "ci90": [
+      -0.0627,
+      0.0168
+     ],
+     "p_two_sided": 0.45
+    },
+    "lab: row against sentence": {
+     "estimate": -0.001,
+     "ci95": [
+      -0.0498,
+      0.0397
+     ],
+     "ci90": [
+      -0.0401,
+      0.0313
+     ],
+     "p_two_sided": 0.934
+    },
+    "returns: row against sentence": {
+     "estimate": -0.019,
+     "ci95": [
+      -0.0798,
+      0.0425
+     ],
+     "ci90": [
+      -0.0668,
+      0.0305
+     ],
+     "p_two_sided": 0.46
+    },
+    "2x2: best product's familiar name": {
+     "estimate": -0.0018,
+     "ci95": [
+      -0.0244,
+      0.019
+     ],
+     "ci90": [
+      -0.02,
+      0.0158
+     ],
+     "p_two_sided": 0.882
+    },
+    "2x2: other products' familiar names": {
+     "estimate": -0.0053,
+     "ci95": [
+      -0.0562,
+      0.0694
+     ],
+     "ci90": [
+      -0.0456,
+      0.0528
+     ],
+     "p_two_sided": 0.697
+    },
+    "2x2: interaction": {
+     "estimate": 0.0008,
+     "ci95": [
+      -0.0454,
+      0.0397
+     ],
+     "ci90": [
+      -0.0351,
+      0.034
+     ],
+     "p_two_sided": 0.909
+    }
+   },
+   "Anthropic minus open weights": {
+    "gap, none": {
+     "estimate": -0.0138,
+     "ci95": [
+      -0.0621,
+      0.0468
+     ],
+     "ci90": [
+      -0.0536,
+      0.037
+     ],
+     "p_two_sided": 0.53
+    },
+    "gap, warranty-row": {
+     "estimate": -0.0064,
+     "ci95": [
+      -0.0463,
+      0.0437
+     ],
+     "ci90": [
+      -0.0407,
+      0.0333
+     ],
+     "p_two_sided": 0.726
+    },
+    "gap, warranty-sentence": {
+     "estimate": -0.0075,
+     "ci95": [
+      -0.0413,
+      0.0391
+     ],
+     "ci90": [
+      -0.0363,
+      0.0297
+     ],
+     "p_two_sided": 0.679
+    },
+    "gap, failure-row": {
+     "estimate": -0.0224,
+     "ci95": [
+      -0.0684,
+      0.0403
+     ],
+     "ci90": [
+      -0.0614,
+      0.0251
+     ],
+     "p_two_sided": 0.362
+    },
+    "gap, failure-sentence": {
+     "estimate": -0.02,
+     "ci95": [
+      -0.0484,
+      0.0111
+     ],
+     "ci90": [
+      -0.0438,
+      0.0059
+     ],
+     "p_two_sided": 0.192
+    },
+    "gap, market-row": {
+     "estimate": -0.0175,
+     "ci95": [
+      -0.0589,
+      0.0318
+     ],
+     "ci90": [
+      -0.0518,
+      0.024
+     ],
+     "p_two_sided": 0.402
+    },
+    "gap, market-sentence": {
+     "estimate": -0.0041,
+     "ci95": [
+      -0.0575,
+      0.0622
+     ],
+     "ci90": [
+      -0.0502,
+      0.0496
+     ],
+     "p_two_sided": 0.85
+    },
+    "gap, lab-row": {
+     "estimate": -0.0131,
+     "ci95": [
+      -0.0492,
+      0.03
+     ],
+     "ci90": [
+      -0.0441,
+      0.0234
+     ],
+     "p_two_sided": 0.507
+    },
+    "gap, lab-sentence": {
+     "estimate": -0.0267,
+     "ci95": [
+      -0.0553,
+      0.0041
+     ],
+     "ci90": [
+      -0.0498,
+      -0.0014
+     ],
+     "p_two_sided": 0.082
+    },
+    "gap, returns-row": {
+     "estimate": -0.0083,
+     "ci95": [
+      -0.0509,
+      0.0472
+     ],
+     "ci90": [
+      -0.0442,
+      0.0364
+     ],
+     "p_two_sided": 0.687
+    },
+    "gap, returns-sentence": {
+     "estimate": 0.0021,
+     "ci95": [
+      -0.046,
+      0.0602
+     ],
+     "ci90": [
+      -0.0372,
+      0.0486
+     ],
+     "p_two_sided": 0.964
+    },
+    "gap, reviews-50": {
+     "estimate": 0.0787,
+     "ci95": [
+      0.008,
+      0.1552
+     ],
+     "ci90": [
+      0.017,
+      0.1415
+     ],
+     "p_two_sided": 0.029
+    },
+    "gap, reviews-5000": {
+     "estimate": 0.0078,
+     "ci95": [
+      -0.0223,
+      0.0501
+     ],
+     "ci90": [
+      -0.0175,
+      0.0421
+     ],
+     "p_two_sided": 0.698
+    },
+    "gap, certification": {
+     "estimate": -0.0072,
+     "ci95": [
+      -0.0407,
+      0.0362
+     ],
+     "ci90": [
+      -0.036,
+      0.0267
+     ],
+     "p_two_sided": 0.666
+    },
+    "gap, endorsement": {
+     "estimate": -0.0178,
+     "ci95": [
+      -0.058,
+      0.036
+     ],
+     "ci90": [
+      -0.0533,
+      0.024
+     ],
+     "p_two_sided": 0.456
+    },
+    "gap, origin": {
+     "estimate": 0.0027,
+     "ci95": [
+      -0.0309,
+      0.0445
+     ],
+     "ci90": [
+      -0.0256,
+      0.0353
+     ],
+     "p_two_sided": 0.893
+    },
+    "gap, sustainability": {
+     "estimate": -0.0171,
+     "ci95": [
+      -0.0522,
+      0.0345
+     ],
+     "ci90": [
+      -0.0485,
+      0.0246
+     ],
+     "p_two_sided": 0.403
+    },
+    "warranty-row against none": {
+     "estimate": 0.0073,
+     "ci95": [
+      -0.0293,
+      0.0481
+     ],
+     "ci90": [
+      -0.0233,
+      0.0414
+     ],
+     "p_two_sided": 0.716
+    },
+    "warranty-sentence against none": {
+     "estimate": 0.0063,
+     "ci95": [
+      -0.0463,
+      0.0613
+     ],
+     "ci90": [
+      -0.0391,
+      0.0508
+     ],
+     "p_two_sided": 0.788
+    },
+    "failure-row against none": {
+     "estimate": -0.0086,
+     "ci95": [
+      -0.065,
+      0.0542
+     ],
+     "ci90": [
+      -0.0555,
+      0.0417
+     ],
+     "p_two_sided": 0.694
+    },
+    "failure-sentence against none": {
+     "estimate": -0.0062,
+     "ci95": [
+      -0.0687,
+      0.0425
+     ],
+     "ci90": [
+      -0.0552,
+      0.0338
+     ],
+     "p_two_sided": 0.875
+    },
+    "market-row against none": {
+     "estimate": -0.0037,
+     "ci95": [
+      -0.04,
+      0.0359
+     ],
+     "ci90": [
+      -0.0349,
+      0.0291
+     ],
+     "p_two_sided": 0.837
+    },
+    "market-sentence against none": {
+     "estimate": 0.0097,
+     "ci95": [
+      -0.0397,
+      0.0698
+     ],
+     "ci90": [
+      -0.0323,
+      0.0585
+     ],
+     "p_two_sided": 0.737
+    },
+    "lab-row against none": {
+     "estimate": 0.0007,
+     "ci95": [
+      -0.0555,
+      0.0496
+     ],
+     "ci90": [
+      -0.0447,
+      0.042
+     ],
+     "p_two_sided": 0.927
+    },
+    "lab-sentence against none": {
+     "estimate": -0.0129,
+     "ci95": [
+      -0.0744,
+      0.0343
+     ],
+     "ci90": [
+      -0.0641,
+      0.027
+     ],
+     "p_two_sided": 0.667
+    },
+    "returns-row against none": {
+     "estimate": 0.0055,
+     "ci95": [
+      -0.0278,
+      0.0477
+     ],
+     "ci90": [
+      -0.0231,
+      0.0388
+     ],
+     "p_two_sided": 0.811
+    },
+    "returns-sentence against none": {
+     "estimate": 0.0162,
+     "ci95": [
+      -0.0176,
+      0.0623
+     ],
+     "ci90": [
+      -0.0128,
+      0.0517
+     ],
+     "p_two_sided": 0.411
+    },
+    "reviews-50 against none": {
+     "estimate": 0.0925,
+     "ci95": [
+      0.0171,
+      0.1734
+     ],
+     "ci90": [
+      0.0296,
+      0.1582
+     ],
+     "p_two_sided": 0.012
+    },
+    "reviews-5000 against none": {
+     "estimate": 0.0215,
+     "ci95": [
+      -0.0304,
+      0.0789
+     ],
+     "ci90": [
+      -0.0225,
+      0.0675
+     ],
+     "p_two_sided": 0.405
+    },
+    "certification against none": {
+     "estimate": 0.0066,
+     "ci95": [
+      -0.0402,
+      0.0511
+     ],
+     "ci90": [
+      -0.0326,
+      0.0446
+     ],
+     "p_two_sided": 0.737
+    },
+    "endorsement against none": {
+     "estimate": -0.004,
+     "ci95": [
+      -0.0419,
+      0.0309
+     ],
+     "ci90": [
+      -0.0354,
+      0.0262
+     ],
+     "p_two_sided": 0.871
+    },
+    "origin against none": {
+     "estimate": 0.0165,
+     "ci95": [
+      -0.037,
+      0.0774
+     ],
+     "ci90": [
+      -0.0276,
+      0.0651
+     ],
+     "p_two_sided": 0.569
+    },
+    "sustainability against none": {
+     "estimate": -0.0034,
+     "ci95": [
+      -0.0511,
+      0.0482
+     ],
+     "ci90": [
+      -0.0417,
+      0.0384
+     ],
+     "p_two_sided": 0.845
+    },
+    "warranty: row against sentence": {
+     "estimate": 0.0011,
+     "ci95": [
+      -0.0349,
+      0.0333
+     ],
+     "ci90": [
+      -0.0286,
+      0.0279
+     ],
+     "p_two_sided": 0.935
+    },
+    "failure: row against sentence": {
+     "estimate": -0.0024,
+     "ci95": [
+      -0.0469,
+      0.0462
+     ],
+     "ci90": [
+      -0.0387,
+      0.0381
+     ],
+     "p_two_sided": 0.846
+    },
+    "market: row against sentence": {
+     "estimate": -0.0134,
+     "ci95": [
+      -0.0621,
+      0.0343
+     ],
+     "ci90": [
+      -0.0548,
+      0.0247
+     ],
+     "p_two_sided": 0.543
+    },
+    "lab: row against sentence": {
+     "estimate": 0.0136,
+     "ci95": [
+      -0.0293,
+      0.0604
+     ],
+     "ci90": [
+      -0.0225,
+      0.0514
+     ],
+     "p_two_sided": 0.526
+    },
+    "returns: row against sentence": {
+     "estimate": -0.0107,
+     "ci95": [
+      -0.0614,
+      0.0302
+     ],
+     "ci90": [
+      -0.0514,
+      0.0246
+     ],
+     "p_two_sided": 0.635
+    },
+    "2x2: best product's familiar name": {
+     "estimate": -0.0001,
+     "ci95": [
+      -0.026,
+      0.024
+     ],
+     "ci90": [
+      -0.0224,
+      0.0195
+     ],
+     "p_two_sided": 0.996
+    },
+    "2x2: other products' familiar names": {
+     "estimate": 0.0084,
+     "ci95": [
+      -0.049,
+      0.0504
+     ],
+     "ci90": [
+      -0.0394,
+      0.0439
+     ],
+     "p_two_sided": 0.618
+    },
+    "2x2: interaction": {
+     "estimate": -0.0047,
+     "ci95": [
+      -0.0552,
+      0.039
+     ],
+     "ci90": [
+      -0.0456,
+      0.0322
+     ],
+     "p_two_sided": 0.865
+    }
+   },
+   "OpenAI minus open weights": {
+    "gap, none": {
+     "estimate": -0.0168,
+     "ci95": [
+      -0.069,
+      0.0682
+     ],
+     "ci90": [
+      -0.0609,
+      0.0409
+     ],
+     "p_two_sided": 0.521
+    },
+    "gap, warranty-row": {
+     "estimate": -0.0204,
+     "ci95": [
+      -0.0687,
+      0.0723
+     ],
+     "ci90": [
+      -0.0631,
+      0.05
+     ],
+     "p_two_sided": 0.504
+    },
+    "gap, warranty-sentence": {
+     "estimate": -0.0154,
+     "ci95": [
+      -0.0674,
+      0.0566
+     ],
+     "ci90": [
+      -0.0602,
+      0.0427
+     ],
+     "p_two_sided": 0.565
+    },
+    "gap, failure-row": {
+     "estimate": -0.0517,
+     "ci95": [
+      -0.081,
+      -0.025
+     ],
+     "ci90": [
+      -0.0761,
+      -0.0293
+     ],
+     "p_two_sided": 0.003
+    },
+    "gap, failure-sentence": {
+     "estimate": -0.0366,
+     "ci95": [
+      -0.0633,
+      -0.0132
+     ],
+     "ci90": [
+      -0.058,
+      -0.0168
+     ],
+     "p_two_sided": 0.004
+    },
+    "gap, market-row": {
+     "estimate": -0.0353,
+     "ci95": [
+      -0.0802,
+      0.0386
+     ],
+     "ci90": [
+      -0.0741,
+      0.0168
+     ],
+     "p_two_sided": 0.227
+    },
+    "gap, market-sentence": {
+     "estimate": -0.0403,
+     "ci95": [
+      -0.0784,
+      -0.0001
+     ],
+     "ci90": [
+      -0.0719,
+      -0.0067
+     ],
+     "p_two_sided": 0.049
+    },
+    "gap, lab-row": {
+     "estimate": -0.0329,
+     "ci95": [
+      -0.0601,
+      -0.0068
+     ],
+     "ci90": [
+      -0.0555,
+      -0.0107
+     ],
+     "p_two_sided": 0.019
+    },
+    "gap, lab-sentence": {
+     "estimate": -0.0476,
+     "ci95": [
+      -0.0893,
+      -0.0169
+     ],
+     "ci90": [
+      -0.0809,
+      -0.0212
+     ],
+     "p_two_sided": 0.002
+    },
+    "gap, returns-row": {
+     "estimate": -0.0052,
+     "ci95": [
+      -0.0505,
+      0.0543
+     ],
+     "ci90": [
+      -0.0438,
+      0.0399
+     ],
+     "p_two_sided": 0.786
+    },
+    "gap, returns-sentence": {
+     "estimate": -0.0138,
+     "ci95": [
+      -0.0691,
+      0.095
+     ],
+     "ci90": [
+      -0.0628,
+      0.0634
+     ],
+     "p_two_sided": 0.619
+    },
+    "gap, reviews-50": {
+     "estimate": 0.1623,
+     "ci95": [
+      0.0424,
+      0.2957
+     ],
+     "ci90": [
+      0.0624,
+      0.275
+     ],
+     "p_two_sided": 0.013
+    },
+    "gap, reviews-5000": {
+     "estimate": 0.0042,
+     "ci95": [
+      -0.0393,
+      0.098
+     ],
+     "ci90": [
+      -0.034,
+      0.0717
+     ],
+     "p_two_sided": 0.963
+    },
+    "gap, certification": {
+     "estimate": -0.0203,
+     "ci95": [
+      -0.0588,
+      0.0536
+     ],
+     "ci90": [
+      -0.0542,
+      0.033
+     ],
+     "p_two_sided": 0.375
+    },
+    "gap, endorsement": {
+     "estimate": -0.024,
+     "ci95": [
+      -0.069,
+      0.0529
+     ],
+     "ci90": [
+      -0.063,
+      0.0326
+     ],
+     "p_two_sided": 0.387
+    },
+    "gap, origin": {
+     "estimate": -0.0017,
+     "ci95": [
+      -0.0493,
+      0.0877
+     ],
+     "ci90": [
+      -0.0434,
+      0.0605
+     ],
+     "p_two_sided": 0.874
+    },
+    "gap, sustainability": {
+     "estimate": -0.0279,
+     "ci95": [
+      -0.0726,
+      0.0444
+     ],
+     "ci90": [
+      -0.0652,
+      0.0228
+     ],
+     "p_two_sided": 0.284
+    },
+    "warranty-row against none": {
+     "estimate": -0.0036,
+     "ci95": [
+      -0.0454,
+      0.0316
+     ],
+     "ci90": [
+      -0.0373,
+      0.0276
+     ],
+     "p_two_sided": 0.896
+    },
+    "warranty-sentence against none": {
+     "estimate": 0.0014,
+     "ci95": [
+      -0.0387,
+      0.0408
+     ],
+     "ci90": [
+      -0.0328,
+      0.034
+     ],
+     "p_two_sided": 0.962
+    },
+    "failure-row against none": {
+     "estimate": -0.0349,
+     "ci95": [
+      -0.114,
+      0.0149
+     ],
+     "ci90": [
+      -0.0899,
+      0.0071
+     ],
+     "p_two_sided": 0.182
+    },
+    "failure-sentence against none": {
+     "estimate": -0.0198,
+     "ci95": [
+      -0.1044,
+      0.0278
+     ],
+     "ci90": [
+      -0.0811,
+      0.0224
+     ],
+     "p_two_sided": 0.502
+    },
+    "market-row against none": {
+     "estimate": -0.0185,
+     "ci95": [
+      -0.0523,
+      0.0153
+     ],
+     "ci90": [
+      -0.0449,
+      0.0086
+     ],
+     "p_two_sided": 0.24
+    },
+    "market-sentence against none": {
+     "estimate": -0.0235,
+     "ci95": [
+      -0.0823,
+      0.0216
+     ],
+     "ci90": [
+      -0.0695,
+      0.0124
+     ],
+     "p_two_sided": 0.261
+    },
+    "lab-row against none": {
+     "estimate": -0.0161,
+     "ci95": [
+      -0.0877,
+      0.0314
+     ],
+     "ci90": [
+      -0.0686,
+      0.0251
+     ],
+     "p_two_sided": 0.565
+    },
+    "lab-sentence against none": {
+     "estimate": -0.0308,
+     "ci95": [
+      -0.1069,
+      0.0234
+     ],
+     "ci90": [
+      -0.0878,
+      0.0165
+     ],
+     "p_two_sided": 0.295
+    },
+    "returns-row against none": {
+     "estimate": 0.0116,
+     "ci95": [
+      -0.0245,
+      0.0557
+     ],
+     "ci90": [
+      -0.0194,
+      0.0458
+     ],
+     "p_two_sided": 0.585
+    },
+    "returns-sentence against none": {
+     "estimate": 0.0033,
+     "ci95": [
+      -0.0396,
+      0.0484
+     ],
+     "ci90": [
+      -0.031,
+      0.0414
+     ],
+     "p_two_sided": 0.906
+    },
+    "reviews-50 against none": {
+     "estimate": 0.1791,
+     "ci95": [
+      0.0508,
+      0.3215
+     ],
+     "ci90": [
+      0.0691,
+      0.2934
+     ],
+     "p_two_sided": 0.013
+    },
+    "reviews-5000 against none": {
+     "estimate": 0.021,
+     "ci95": [
+      -0.0135,
+      0.0554
+     ],
+     "ci90": [
+      -0.0073,
+      0.0497
+     ],
+     "p_two_sided": 0.199
+    },
+    "certification against none": {
+     "estimate": -0.0035,
+     "ci95": [
+      -0.0417,
+      0.0362
+     ],
+     "ci90": [
+      -0.0375,
+      0.0288
+     ],
+     "p_two_sided": 0.837
+    },
+    "endorsement against none": {
+     "estimate": -0.0072,
+     "ci95": [
+      -0.0386,
+      0.0263
+     ],
+     "ci90": [
+      -0.0333,
+      0.0203
+     ],
+     "p_two_sided": 0.625
+    },
+    "origin against none": {
+     "estimate": 0.0151,
+     "ci95": [
+      -0.0267,
+      0.0597
+     ],
+     "ci90": [
+      -0.019,
+      0.0524
+     ],
+     "p_two_sided": 0.468
+    },
+    "sustainability against none": {
+     "estimate": -0.0111,
+     "ci95": [
+      -0.044,
+      0.021
+     ],
+     "ci90": [
+      -0.0376,
+      0.0154
+     ],
+     "p_two_sided": 0.482
+    },
+    "warranty: row against sentence": {
+     "estimate": -0.005,
+     "ci95": [
+      -0.0406,
+      0.0299
+     ],
+     "ci90": [
+      -0.0338,
+      0.0237
+     ],
+     "p_two_sided": 0.803
+    },
+    "failure: row against sentence": {
+     "estimate": -0.0151,
+     "ci95": [
+      -0.0432,
+      0.0106
+     ],
+     "ci90": [
+      -0.0379,
+      0.0069
+     ],
+     "p_two_sided": 0.261
+    },
+    "market: row against sentence": {
+     "estimate": 0.0051,
+     "ci95": [
+      -0.0294,
+      0.0542
+     ],
+     "ci90": [
+      -0.0234,
+      0.0416
+     ],
+     "p_two_sided": 0.836
+    },
+    "lab: row against sentence": {
+     "estimate": 0.0146,
+     "ci95": [
+      -0.0188,
+      0.0567
+     ],
+     "ci90": [
+      -0.0145,
+      0.0484
+     ],
+     "p_two_sided": 0.428
+    },
+    "returns: row against sentence": {
+     "estimate": 0.0082,
+     "ci95": [
+      -0.0459,
+      0.0536
+     ],
+     "ci90": [
+      -0.0323,
+      0.0459
+     ],
+     "p_two_sided": 0.702
+    },
+    "2x2: best product's familiar name": {
+     "estimate": 0.0017,
+     "ci95": [
+      -0.0221,
+      0.0281
+     ],
+     "ci90": [
+      -0.0191,
+      0.0242
+     ],
+     "p_two_sided": 0.908
+    },
+    "2x2: other products' familiar names": {
+     "estimate": 0.0137,
+     "ci95": [
+      -0.0726,
+      0.0651
+     ],
+     "ci90": [
+      -0.0476,
+      0.0577
+     ],
+     "p_two_sided": 0.582
+    },
+    "2x2: interaction": {
+     "estimate": -0.0054,
+     "ci95": [
+      -0.0459,
+      0.0406
+     ],
+     "ci90": [
+      -0.0397,
+      0.0319
+     ],
+     "p_two_sided": 0.761
+    }
+   }
+  }
+ }
+}

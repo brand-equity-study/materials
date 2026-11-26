@@ -1,0 +1,76 @@
+| Model | Developer | Weights | Released | Parameters (billions) | Extended thinking | Effect (points) | 95% CI |
+|:-------------------------|:----------|:-------|:--------|---------:|:----------|--------:|-------------:|
+| Claude Fable 5.1 | Anthropic | closed | 2026-08 | not public | default | 42.2 | 30.3 to 53.5 |
+| Claude Opus 4.7 | Anthropic | closed | 2026-04 | not public | not requested | 38.4 | 27.3 to 49.9 |
+| Claude Sonnet 4.6 (extended thinking) | Anthropic | closed | 2026-02 | not public | requested | 30.2 | 21.3 to 39.6 |
+| GPT-5.4 nano | OpenAI | closed | 2026-03 | not public | not requested | 27.7 | 20.0 to 35.8 |
+| GPT-5.4 | OpenAI | closed | 2026-03 | not public | not requested | 26.6 | 17.3 to 36.5 |
+| Claude Sonnet 4.6 | Anthropic | closed | 2026-02 | not public | not requested | 25.0 | 18.1 to 32.1 |
+| Claude Opus 5.5 | Anthropic | closed | 2026-09 | not public | default | 19.6 | 10.0 to 30.3 |
+| DeepSeek V3 | DeepSeek | open | 2025-03 | 684.5 | not requested | 19.1 | 14.0 to 24.3 |
+| Qwen3.5 2B | Alibaba | open | 2026-02 | 2.3 | not requested | 15.4 | 10.7 to 20.1 |
+| Gemma 4 26B A4B | Google | open | 2026-03 | 25.8 | not requested | 13.8 | 6.8 to 22.2 |
+| Qwen3.5 4B | Alibaba | open | 2026-02 | 4.7 | not requested | 13.5 | 8.4 to 18.4 |
+| GPT-6 Astra | OpenAI | closed | 2026-09 | not public | default | 13.1 | 5.6 to 21.8 |
+| Qwen3.5 122B A10B | Alibaba | open | 2026-02 | 125.1 | not requested | 13.1 | 7.5 to 19.7 |
+| Qwen3.6 27B | Alibaba | open | 2026-04 | 27.8 | not requested | 12.7 | 7.3 to 18.7 |
+| GPT-5.4 mini | OpenAI | closed | 2026-03 | not public | not requested | 12.6 | 7.2 to 18.5 |
+| Nemotron 3 Nano 30B A3B | NVIDIA | open | 2025-12 | 31.6 | not requested | 12.5 | 7.1 to 17.9 |
+| Qwen3.5 0.8B | Alibaba | open | 2026-02 | 0.9 | not requested | 12.5 | 8.2 to 16.9 |
+| Gemma 4 12B | Google | open | 2026-05 | 12.0 | not requested | 12.3 | 5.9 to 19.9 |
+| GPT-6.1 Sol | OpenAI | closed | 2026-09 | not public | default | 12.2 | 5.0 to 20.7 |
+| Qwen3.5 35B A3B | Alibaba | open | 2026-02 | 36.0 | not requested | 12.1 | 6.5 to 17.5 |
+| GPT-6.2 Sol | OpenAI | closed | 2026-11 | not public | default | 11.8 | 5.0 to 19.7 |
+| Gemini 3.1 Flash-Lite | Google | closed | 2026-03 | not public | not requested | 11.4 | 4.8 to 19.1 |
+| Claude Opus 4.6 | Anthropic | closed | 2026-02 | not public | not requested | 10.9 | 5.7 to 16.8 |
+| Llama 3.3 70B | Meta | open | 2024-11 | 70.6 | not requested | 10.4 | 5.7 to 15.4 |
+| Qwen3.8 27B | Alibaba | open | 2026-08 | 27.8 | not requested | 10.3 | 5.9 to 15.0 |
+| Gemma 4 31B | Google | open | 2026-03 | 31.3 | not requested | 10.3 | 2.9 to 19.0 |
+| Qwen3.5 27B | Alibaba | open | 2026-02 | 27.8 | not requested | 9.7 | 4.4 to 15.9 |
+| Qwen3.5 9B | Alibaba | open | 2026-02 | 9.7 | not requested | 9.6 | 5.0 to 14.1 |
+| Gemini 2.0 Flash | Google | closed | 2025-02 | not public | not requested | 9.3 | 4.7 to 14.7 |
+| Claude Haiku 4.5 | Anthropic | closed | 2025-10 | not public | not requested | 9.2 | 5.0 to 13.7 |
+| Granite 4.1 30B | IBM | open | 2026-04 | 28.9 | default | 8.8 | 3.8 to 14.1 |
+| ERNIE 4.5 21B A3B | Baidu | open | 2025-06 | 21.9 | default | 8.5 | 3.2 to 14.1 |
+| Marin 8B | Marin | open | 2025-05 | 8.0 | default | 8.5 | 2.9 to 14.1 |
+| DeepSeek R1 | DeepSeek | open | 2025-01 | 684.5 | not requested | 8.4 | 4.4 to 12.7 |
+| Qwen 2.5 32B | Alibaba | open | 2024-09 | 32.8 | default | 8.4 | 2.8 to 13.8 |
+| Claude Haiku 4.5 (extended thinking) | Anthropic | closed | 2025-10 | not public | requested | 7.6 | 3.7 to 12.2 |
+| gpt-oss-120b | OpenAI | open | 2025-08 | 116.8 | low effort | 7.2 | 1.9 to 13.2 |
+| Kimi K2 | Moonshot | open | 2025-07 | 1,026.4 | not requested | 7.1 | 2.9 to 11.3 |
+| Llama 3.2 3B | Meta | open | 2024-09 | 3.2 | default | 7.1 | 2.5 to 11.3 |
+| gpt-oss-20b | OpenAI | open | 2025-08 | 20.9 | low effort | 7.1 | 1.2 to 13.4 |
+| Phi-4 | Microsoft | open | 2024-12 | 14.7 | default | 6.9 | 2.4 to 11.5 |
+| Gemini 3.1 Pro | Google | closed | 2026-02 | not public | requested | 6.6 | 2.5 to 11.3 |
+| GPT-5 mini | OpenAI | closed | 2025-08 | not public | not requested | 6.3 | 3.1 to 10.3 |
+| OLMo 3 7B | Allen AI | open | 2025-11 | 7.3 | default | 6.3 | 1.3 to 11.6 |
+| Granite 4.2 30B | IBM | open | 2026-08 | 29.3 | not requested | 5.6 | 2.5 to 9.1 |
+| GPT-4o mini | OpenAI | closed | 2024-07 | not public | not requested | 5.4 | 1.3 to 9.8 |
+| Gemini 3 Flash (extended thinking) | Google | closed | 2025-12 | not public | requested | 5.4 | 1.3 to 11.0 |
+| Claude Haiku 5.5 | Anthropic | closed | 2026-10 | not public | default | 5.0 | 1.0 to 10.0 |
+| GPT-6.2 Astra | OpenAI | closed | 2026-11 | not public | default | 5.0 | 1.2 to 10.4 |
+| Llama 3.1 8B | Meta | open | 2024-07 | 8.0 | default | 5.0 | −0.4 to 10.6 |
+| Qwen3 30B A3B | Alibaba | open | 2025-07 | 30.5 | default | 4.8 | 1.3 to 8.7 |
+| GPT-5.4 mini (extended thinking) | OpenAI | closed | 2026-03 | not public | requested | 4.8 | 1.7 to 8.7 |
+| GLM-4.7-Flash | Zhipu | open | 2026-01 | 31.2 | not requested | 4.0 | 0.3 to 7.8 |
+| Gemini 3 Flash | Google | closed | 2025-12 | not public | not requested | 4.0 | 0.4 to 8.4 |
+| Ministral 3 14B | Mistral | open | 2025-10 | 13.9 | default | 4.0 | −0.7 to 8.8 |
+| Gemini 2.5 Flash-Lite | Google | closed | 2025-07 | not public | not requested | 2.9 | 0.3 to 6.0 |
+| Claude Fable 5.2 | Anthropic | closed | 2026-11 | not public | default | 2.5 | 0.4 to 5.2 |
+| Qwen 2.5 72B | Alibaba | open | 2024-09 | 72.7 | not requested | 2.5 | −3.8 to 9.1 |
+| GPT-4o | OpenAI | closed | 2024-05 | not public | not requested | 2.4 | −1.2 to 5.6 |
+| Qwen3 32B | Alibaba | open | 2025-04 | 32.8 | not requested | 1.9 | −0.4 to 4.3 |
+| Claude Sonnet 5.5 | Anthropic | closed | 2026-09 | not public | default | 1.8 | −2.5 to 7.1 |
+| GPT-4.1 nano | OpenAI | closed | 2025-04 | not public | not requested | 1.8 | −1.5 to 5.3 |
+| OLMo 3.1 32B | Allen AI | open | 2025-12 | 32.2 | default | 1.8 | −3.4 to 6.8 |
+| Qwen 2.5 7B | Alibaba | open | 2024-09 | 7.6 | default | 1.8 | −4.3 to 7.8 |
+| Gemini 2.5 Flash | Google | closed | 2025-06 | not public | not requested | 1.0 | −2.2 to 3.8 |
+| Gemma 3 27B | Google | open | 2025-03 | 27.4 | not requested | 0.7 | −3.1 to 4.3 |
+| GPT-4.1 mini | OpenAI | closed | 2025-04 | not public | not requested | 0.6 | −1.6 to 3.4 |
+| Gemini 2.5 Pro | Google | closed | 2025-06 | not public | not requested | −10.4 | −21.8 to 0.6 |
+
+Table: Study 1b: Features and Effect of Each Model Setting {#tbl:s1b-models}
+
+::: tnote
+*Notes:* Effect: the share of responses that chose the top-ranked product without brand names minus the share with them, in percentage points, over the 34 tables, with an interval from resampling that model's tables. Released: for a model with closed weights, the month in which its developer released the identifier that we called (from its changelog or models interface; for Gemini models the stable identifier, after its preview versions); for a model with open weights, the month in which the developer's repository of those weights was created. Parameters: the total count in the model's weights, which are published only for models with open weights. Extended thinking: whether we requested it, low effort where we set the lowest reasoning effort, and default where we used the developer's default; in the test of Table \ref{tbl:het-moderators-all}, we compare requested with not requested and leave out the others. Without the request, some models still reasoned: Gemini 2.5 Pro within a budget of 128 tokens, Gemini 3 Flash at the minimal level, GPT-5 mini at its default effort, and DeepSeek R1 in every response. Models are ordered by their effect.
+:::

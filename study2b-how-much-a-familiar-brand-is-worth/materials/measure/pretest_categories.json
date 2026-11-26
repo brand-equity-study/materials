@@ -1,0 +1,404 @@
+{
+ "laptops": {
+  "noun": "laptop",
+  "requests": [
+   "a reliable laptop for everyday work and browsing, budget around $600-800",
+   "a laptop for a small business's spreadsheets and video calls, budget around $600-800"
+  ],
+  "budget": [
+   600,
+   800
+  ],
+  "attributes": [
+   [
+    "memory",
+    [
+     "8 GB",
+     "16 GB",
+     "32 GB"
+    ]
+   ],
+   [
+    "storage",
+    [
+     "256 GB",
+     "512 GB",
+     "1 TB"
+    ]
+   ],
+   [
+    "battery life",
+    [
+     "8 hours",
+     "11 hours",
+     "14 hours"
+    ]
+   ]
+  ],
+  "familiar": [
+   "Apple",
+   "Dell",
+   "HP",
+   "Lenovo",
+   "ASUS",
+   "Acer"
+  ],
+  "invented": [
+   [
+    "Zentria",
+    "corpus"
+   ],
+   [
+    "Vormida",
+    "new"
+   ]
+  ],
+  "premiums": [
+   -0.05,
+   0.0,
+   0.05,
+   0.15,
+   0.25
+  ],
+  "rival_base": 632
+ },
+ "headphones": {
+  "noun": "over-ear headphones",
+  "requests": [
+   "over-ear noise-cancelling headphones for commuting and focus work, budget $150-300",
+   "over-ear noise-cancelling headphones for long flights and working from home, budget $150-300"
+  ],
+  "budget": [
+   150,
+   300
+  ],
+  "attributes": [
+   [
+    "battery life",
+    [
+     "20 hours",
+     "30 hours",
+     "40 hours"
+    ]
+   ],
+   [
+    "weight",
+    [
+     "320 g",
+     "280 g",
+     "240 g"
+    ]
+   ],
+   [
+    "noise reduction",
+    [
+     "20 dB",
+     "25 dB",
+     "30 dB"
+    ]
+   ]
+  ],
+  "familiar": [
+   "Sony",
+   "Bose",
+   "JBL",
+   "Sennheiser",
+   "Audio-Technica",
+   "Beyerdynamic"
+  ],
+  "invented": [
+   [
+    "Sonaray",
+    "corpus"
+   ],
+   [
+    "Fasolde",
+    "new"
+   ]
+  ]
+ },
+ "earbuds": {
+  "noun": "wireless earbuds",
+  "requests": [
+   "wireless earbuds for commuting and workouts, budget $50-150",
+   "wireless earbuds for phone calls and the daily commute, budget $50-150"
+  ],
+  "budget": [
+   50,
+   150
+  ],
+  "attributes": [
+   [
+    "battery life per charge",
+    [
+     "5 hours",
+     "7 hours",
+     "9 hours"
+    ]
+   ],
+   [
+    "water resistance",
+    [
+     "IPX4",
+     "IPX5",
+     "IPX7"
+    ]
+   ],
+   [
+    "noise reduction",
+    [
+     "15 dB",
+     "20 dB",
+     "25 dB"
+    ]
+   ]
+  ],
+  "familiar": [
+   "Apple",
+   "Samsung",
+   "Sony",
+   "JBL",
+   "Beats",
+   "Jabra"
+  ],
+  "invented": [
+   [
+    "Vynex",
+    "corpus"
+   ],
+   [
+    "Quenvar",
+    "new"
+   ]
+  ]
+ },
+ "running_shoes": {
+  "noun": "running shoes",
+  "requests": [
+   "daily training running shoes with good cushioning, budget $100-160",
+   "running shoes for half-marathon training, budget $100-160"
+  ],
+  "budget": [
+   100,
+   160
+  ],
+  "attributes": [
+   [
+    "weight",
+    [
+     "300 g",
+     "270 g",
+     "240 g"
+    ]
+   ],
+   [
+    "rated durability",
+    [
+     "300 miles",
+     "400 miles",
+     "500 miles"
+    ]
+   ],
+   [
+    "energy return",
+    [
+     "55%",
+     "60%",
+     "65%"
+    ]
+   ]
+  ],
+  "familiar": [
+   "Nike",
+   "Adidas",
+   "ASICS",
+   "Brooks",
+   "HOKA",
+   "New Balance"
+  ],
+  "invented": [
+   [
+    "Fennoro",
+    "new"
+   ],
+   [
+    "Taskeno",
+    "new"
+   ]
+  ]
+ },
+ "coffee_makers": {
+  "noun": "coffee maker",
+  "requests": [
+   "a coffee maker that makes excellent coffee, budget $50-150",
+   "a coffee maker for a busy household's mornings, budget $50-150"
+  ],
+  "budget": [
+   50,
+   150
+  ],
+  "attributes": [
+   [
+    "water reservoir",
+    [
+     "40 oz",
+     "60 oz",
+     "80 oz"
+    ]
+   ],
+   [
+    "time to brew one cup",
+    [
+     "90 seconds",
+     "60 seconds",
+     "45 seconds"
+    ]
+   ],
+   [
+    "brew sizes",
+    [
+     "2 sizes",
+     "4 sizes",
+     "6 sizes"
+    ]
+   ]
+  ],
+  "familiar": [
+   "Keurig",
+   "Mr. Coffee",
+   "Nespresso",
+   "Breville",
+   "Cuisinart"
+  ],
+  "invented": [
+   [
+    "Brevara",
+    "corpus"
+   ],
+   [
+    "Lusarro",
+    "new"
+   ],
+   [
+    "Pindrel",
+    "new"
+   ]
+  ]
+ },
+ "smartphones": {
+  "noun": "smartphone",
+  "requests": [
+   "a smartphone with a great camera and long battery life, budget $300-500",
+   "a smartphone for a parent who takes many photos and needs it to last all day, budget $300-500"
+  ],
+  "budget": [
+   300,
+   500
+  ],
+  "attributes": [
+   [
+    "storage",
+    [
+     "128 GB",
+     "256 GB",
+     "512 GB"
+    ]
+   ],
+   [
+    "battery",
+    [
+     "4,000 mAh",
+     "4,500 mAh",
+     "5,000 mAh"
+    ]
+   ],
+   [
+    "main camera",
+    [
+     "12 MP",
+     "48 MP",
+     "64 MP"
+    ]
+   ]
+  ],
+  "familiar": [
+   "Apple",
+   "Samsung",
+   "Google",
+   "Motorola",
+   "OnePlus"
+  ],
+  "invented": [
+   [
+    "Aurem",
+    "corpus"
+   ],
+   [
+    "Rinzela",
+    "new"
+   ],
+   [
+    "Nolbrin",
+    "new"
+   ]
+  ]
+ },
+ "tvs": {
+  "noun": "TV",
+  "requests": [
+   "a 55-65 inch TV for movies and streaming, budget $500-800",
+   "a 55-65 inch TV for sports and gaming, budget $500-800"
+  ],
+  "budget": [
+   500,
+   800
+  ],
+  "attributes": [
+   [
+    "screen size",
+    [
+     "55 inches",
+     "60 inches",
+     "65 inches"
+    ]
+   ],
+   [
+    "refresh rate",
+    [
+     "60 Hz",
+     "120 Hz",
+     "144 Hz"
+    ]
+   ],
+   [
+    "peak brightness",
+    [
+     "400 nits",
+     "600 nits",
+     "800 nits"
+    ]
+   ]
+  ],
+  "familiar": [
+   "Samsung",
+   "LG",
+   "Sony",
+   "Vizio",
+   "Insignia"
+  ],
+  "invented": [
+   [
+    "Dravona",
+    "new"
+   ],
+   [
+    "Tamerro",
+    "new"
+   ],
+   [
+    "Sorvetta",
+    "new"
+   ]
+  ]
+ }
+}

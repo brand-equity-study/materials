@@ -1,0 +1,145 @@
+{
+ "study": "study2e-qwen35-122b-fp8",
+ "label": "Study 2e, the share of a model's explanations that mention a brand (judge: Qwen 3.5 122B FP8)",
+ "units": "per cent of the model's explanations",
+ "direction": 0,
+ "input": {
+  "file": "study2a-experience-attributes-stated-for-every-product/results/explanations/per-model.csv",
+  "sha256": "7d0e4b36a40d644614315ac7b848077c9614d6c5255a319523605eae76d3461b",
+  "model_col": "model",
+  "est_col": "estimate",
+  "se": "(hi95 - lo95) / 3.92",
+  "filter": [
+   "judge=qwen35-122b-fp8",
+   "test=b7-brand-share"
+  ],
+  "scale": 100.0
+ },
+ "plan": "how-the-models-differed/materials/analysis_plan.md",
+ "result": {
+  "models": 35,
+  "predicted_direction": "none (two-sided)",
+  "share_in_predicted_direction": null,
+  "models_in_predicted_direction": null,
+  "models_above_zero": 35,
+  "models_below_zero": 0,
+  "share_interval_excludes_zero": 1.0,
+  "models_interval_excludes_zero": 35,
+  "random_effects": {
+   "estimate": 33.5914,
+   "ci95": [
+    26.4766,
+    40.7061
+   ],
+   "p_two_sided": 2.1645122721240838e-20,
+   "tau": 20.8465,
+   "tau2": 434.5746,
+   "i2": 0.9881,
+   "q": 6761.418,
+   "df": 34,
+   "q_p_value": 0.0,
+   "prediction_interval_95": [
+    -9.4592,
+    76.642
+   ],
+   "tau_estimator": "REML",
+   "checks": {
+    "tau_dersimonian_laird": 32.1222,
+    "tau_paule_mandel": 20.5715
+   }
+  },
+  "models_without_characteristics": [],
+  "moderators": {
+   "chat-tuned against base": {
+    "estimable": false,
+    "reason": "one value"
+   },
+   "size (log10 total parameters)": {
+    "estimable": true,
+    "models": 26,
+    "coefficient": 7.4257,
+    "ci95": [
+     -4.7875,
+     19.6389
+    ],
+    "p_two_sided": 0.2333830271598878,
+    "residual_tau": 13.5642,
+    "holm": 0.4667660543197756
+   },
+   "release date (years)": {
+    "estimable": true,
+    "models": 35,
+    "coefficient": 4.3189,
+    "ci95": [
+     -6.0331,
+     14.6708
+    ],
+    "p_two_sided": 0.4135170841767667,
+    "residual_tau": 20.9397,
+    "holm": 0.4667660543197756
+   },
+   "open against closed weights": {
+    "estimable": true,
+    "models": 35,
+    "coefficient": -14.519,
+    "ci95": [
+     -30.3466,
+     1.3085
+    ],
+    "p_two_sided": 0.07218386381325319,
+    "residual_tau": 20.09,
+    "holm": 0.21655159143975955
+   },
+   "reasoning on against off": {
+    "estimable": false,
+    "reason": "one value"
+   },
+   "developer": {
+    "estimable": true,
+    "models": 35,
+    "developers": 12,
+    "wald_chi2": 30.432,
+    "df": 11,
+    "p_two_sided": 0.001354932140110495,
+    "residual_tau": 16.3204,
+    "models_by_developer": {
+     "Alibaba": 9,
+     "Allen AI": 2,
+     "Anthropic": 5,
+     "Baidu": 1,
+     "Google": 4,
+     "IBM": 2,
+     "Marin": 1,
+     "Meta": 2,
+     "Microsoft": 1,
+     "Mistral": 1,
+     "OpenAI": 6,
+     "Zhipu": 1
+    },
+    "holm": 0.00541972856044198
+   }
+  },
+  "models_left_out_interval_of_zero_width": [],
+  "models_left_out_not_estimable": []
+ },
+ "args": {
+  "study": "study2e-qwen35-122b-fp8",
+  "label": "Study 2e, the share of a model's explanations that mention a brand (judge: Qwen 3.5 122B FP8)",
+  "input": "study2a-experience-attributes-stated-for-every-product/results/explanations/per-model.csv",
+  "model_col": "model",
+  "est_col": "estimate",
+  "se_col": null,
+  "low_col": "lo95",
+  "high_col": "hi95",
+  "direction": 0,
+  "units": "per cent of the model's explanations",
+  "filter": [
+   "judge=qwen35-122b-fp8",
+   "test=b7-brand-share"
+  ],
+  "scale": 100.0,
+  "reliability_col": null,
+  "reliability_min": 0.5,
+  "reason_col": "not_estimable"
+ }
+}

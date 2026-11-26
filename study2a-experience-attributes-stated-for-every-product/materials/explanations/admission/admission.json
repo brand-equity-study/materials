@@ -1,0 +1,387 @@
+{
+ "sample": 200,
+ "reference_read": 200,
+ "rule": {
+  "min_read": 0.95,
+  "min_kappa_brand_any": 0.7
+ },
+ "judges": {
+  "olmo31-32b": {
+   "read": 1.0,
+   "vs_reference": {
+    "n": 200,
+    "brand_any": {
+     "agreement": 0.88,
+     "kappa": 0.7076023391812866
+    },
+    "reason": {
+     "agreement": 0.695,
+     "kappa": 0.43502824858757055
+    }
+   },
+   "errors_by_stratum": {
+    "crossed-info0-closed": {
+     "n": 20,
+     "brand_any_disagree": 3
+    },
+    "crossed-info0-open": {
+     "n": 20,
+     "brand_any_disagree": 1
+    },
+    "crossed-info1-closed": {
+     "n": 20,
+     "brand_any_disagree": 1
+    },
+    "crossed-info1-open": {
+     "n": 20,
+     "brand_any_disagree": 2
+    },
+    "original-info0-closed": {
+     "n": 20,
+     "brand_any_disagree": 5
+    },
+    "original-info0-open": {
+     "n": 20,
+     "brand_any_disagree": 1
+    },
+    "original-info1-closed": {
+     "n": 20,
+     "brand_any_disagree": 0
+    },
+    "original-info1-open": {
+     "n": 20,
+     "brand_any_disagree": 0
+    },
+    "requests": {
+     "n": 40,
+     "brand_any_disagree": 11
+    }
+   },
+   "admitted": true
+  },
+  "gptoss120b": {
+   "read": 1.0,
+   "vs_reference": {
+    "n": 200,
+    "brand_any": {
+     "agreement": 0.945,
+     "kappa": 0.876126126126126
+    },
+    "reason": {
+     "agreement": 0.77,
+     "kappa": 0.6229199114681532
+    }
+   },
+   "errors_by_stratum": {
+    "crossed-info0-closed": {
+     "n": 20,
+     "brand_any_disagree": 2
+    },
+    "crossed-info0-open": {
+     "n": 20,
+     "brand_any_disagree": 1
+    },
+    "crossed-info1-closed": {
+     "n": 20,
+     "brand_any_disagree": 1
+    },
+    "crossed-info1-open": {
+     "n": 20,
+     "brand_any_disagree": 1
+    },
+    "original-info0-closed": {
+     "n": 20,
+     "brand_any_disagree": 1
+    },
+    "original-info0-open": {
+     "n": 20,
+     "brand_any_disagree": 3
+    },
+    "original-info1-closed": {
+     "n": 20,
+     "brand_any_disagree": 0
+    },
+    "original-info1-open": {
+     "n": 20,
+     "brand_any_disagree": 0
+    },
+    "requests": {
+     "n": 40,
+     "brand_any_disagree": 2
+    }
+   },
+   "admitted": true
+  },
+  "qwen35-122b-fp8": {
+   "read": 1.0,
+   "vs_reference": {
+    "n": 200,
+    "brand_any": {
+     "agreement": 0.89,
+     "kappa": 0.766553480475382
+    },
+    "reason": {
+     "agreement": 0.705,
+     "kappa": 0.5438379464976031
+    }
+   },
+   "errors_by_stratum": {
+    "crossed-info0-closed": {
+     "n": 20,
+     "brand_any_disagree": 1
+    },
+    "crossed-info0-open": {
+     "n": 20,
+     "brand_any_disagree": 3
+    },
+    "crossed-info1-closed": {
+     "n": 20,
+     "brand_any_disagree": 2
+    },
+    "crossed-info1-open": {
+     "n": 20,
+     "brand_any_disagree": 3
+    },
+    "original-info0-closed": {
+     "n": 20,
+     "brand_any_disagree": 2
+    },
+    "original-info0-open": {
+     "n": 20,
+     "brand_any_disagree": 3
+    },
+    "original-info1-closed": {
+     "n": 20,
+     "brand_any_disagree": 2
+    },
+    "original-info1-open": {
+     "n": 20,
+     "brand_any_disagree": 3
+    },
+    "requests": {
+     "n": 40,
+     "brand_any_disagree": 3
+    }
+   },
+   "admitted": true
+  },
+  "kimi-linear48b": {
+   "read": 0.98,
+   "vs_reference": {
+    "n": 196,
+    "brand_any": {
+     "agreement": 0.8316326530612245,
+     "kappa": 0.5975609756097561
+    },
+    "reason": {
+     "agreement": 0.6377551020408163,
+     "kappa": 0.37919343326195576
+    }
+   },
+   "errors_by_stratum": {
+    "crossed-info0-closed": {
+     "n": 19,
+     "brand_any_disagree": 6
+    },
+    "crossed-info0-open": {
+     "n": 19,
+     "brand_any_disagree": 1
+    },
+    "crossed-info1-closed": {
+     "n": 20,
+     "brand_any_disagree": 1
+    },
+    "crossed-info1-open": {
+     "n": 20,
+     "brand_any_disagree": 2
+    },
+    "original-info0-closed": {
+     "n": 20,
+     "brand_any_disagree": 6
+    },
+    "original-info0-open": {
+     "n": 20,
+     "brand_any_disagree": 4
+    },
+    "original-info1-closed": {
+     "n": 19,
+     "brand_any_disagree": 2
+    },
+    "original-info1-open": {
+     "n": 20,
+     "brand_any_disagree": 0
+    },
+    "requests": {
+     "n": 39,
+     "brand_any_disagree": 11
+    }
+   },
+   "admitted": false
+  },
+  "gemma31b": {
+   "read": 1.0,
+   "vs_reference": {
+    "n": 200,
+    "brand_any": {
+     "agreement": 0.96,
+     "kappa": 0.9108734402852049
+    },
+    "reason": {
+     "agreement": 0.79,
+     "kappa": 0.6725401528145954
+    }
+   },
+   "errors_by_stratum": {
+    "crossed-info0-closed": {
+     "n": 20,
+     "brand_any_disagree": 2
+    },
+    "crossed-info0-open": {
+     "n": 20,
+     "brand_any_disagree": 2
+    },
+    "crossed-info1-closed": {
+     "n": 20,
+     "brand_any_disagree": 0
+    },
+    "crossed-info1-open": {
+     "n": 20,
+     "brand_any_disagree": 1
+    },
+    "original-info0-closed": {
+     "n": 20,
+     "brand_any_disagree": 1
+    },
+    "original-info0-open": {
+     "n": 20,
+     "brand_any_disagree": 0
+    },
+    "original-info1-closed": {
+     "n": 20,
+     "brand_any_disagree": 0
+    },
+    "original-info1-open": {
+     "n": 20,
+     "brand_any_disagree": 1
+    },
+    "requests": {
+     "n": 40,
+     "brand_any_disagree": 1
+    }
+   },
+   "admitted": true
+  }
+ },
+ "pairs": {
+  "gemma31b|gptoss120b": {
+   "n": 200,
+   "brand_any": {
+    "agreement": 0.955,
+    "kappa": 0.8986486486486486
+   },
+   "reason": {
+    "agreement": 0.78,
+    "kappa": 0.6502384737678856
+   }
+  },
+  "gemma31b|kimi-linear48b": {
+   "n": 196,
+   "brand_any": {
+    "agreement": 0.8418367346938775,
+    "kappa": 0.6219512195121951
+   },
+   "reason": {
+    "agreement": 0.6326530612244898,
+    "kappa": 0.39407471017604123
+   }
+  },
+  "gemma31b|olmo31-32b": {
+   "n": 200,
+   "brand_any": {
+    "agreement": 0.88,
+    "kappa": 0.7076023391812866
+   },
+   "reason": {
+    "agreement": 0.69,
+    "kappa": 0.45403311025008797
+   }
+  },
+  "gemma31b|qwen35-122b-fp8": {
+   "n": 200,
+   "brand_any": {
+    "agreement": 0.9,
+    "kappa": 0.7877758913412564
+   },
+   "reason": {
+    "agreement": 0.755,
+    "kappa": 0.6302723911567193
+   }
+  },
+  "gptoss120b|kimi-linear48b": {
+   "n": 196,
+   "brand_any": {
+    "agreement": 0.8367346938775511,
+    "kappa": 0.6024844720496896
+   },
+   "reason": {
+    "agreement": 0.7040816326530612,
+    "kappa": 0.47670778862088015
+   }
+  },
+  "gptoss120b|olmo31-32b": {
+   "n": 200,
+   "brand_any": {
+    "agreement": 0.895,
+    "kappa": 0.7388059701492538
+   },
+   "reason": {
+    "agreement": 0.74,
+    "kappa": 0.4973417109714838
+   }
+  },
+  "gptoss120b|qwen35-122b-fp8": {
+   "n": 200,
+   "brand_any": {
+    "agreement": 0.885,
+    "kappa": 0.7545357524012807
+   },
+   "reason": {
+    "agreement": 0.735,
+    "kappa": 0.5843300262734795
+   }
+  },
+  "kimi-linear48b|olmo31-32b": {
+   "n": 196,
+   "brand_any": {
+    "agreement": 0.8622448979591837,
+    "kappa": 0.6142857142857143
+   },
+   "reason": {
+    "agreement": 0.7857142857142857,
+    "kappa": 0.5454946996466431
+   }
+  },
+  "kimi-linear48b|qwen35-122b-fp8": {
+   "n": 196,
+   "brand_any": {
+    "agreement": 0.7806122448979592,
+    "kappa": 0.5168539325842697
+   },
+   "reason": {
+    "agreement": 0.6785714285714286,
+    "kappa": 0.47606924643584525
+   }
+  },
+  "olmo31-32b|qwen35-122b-fp8": {
+   "n": 200,
+   "brand_any": {
+    "agreement": 0.81,
+    "kappa": 0.5774021352313169
+   },
+   "reason": {
+    "agreement": 0.67,
+    "kappa": 0.4339379904798663
+   }
+  }
+ }
+}

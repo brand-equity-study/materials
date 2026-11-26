@@ -1,0 +1,148 @@
+{
+ "study": "study2b-attr-row-failure",
+ "label": "Study 2b (further attributes), the change in the name gap with failure as a row of the table against as a sentence of the request",
+ "units": "points",
+ "direction": 0,
+ "input": {
+  "file": "web-appendix-analyses/each-piece-of-information-alone/results/all-models-attr1/per_model.csv",
+  "sha256": "6f4b4ccc4e406df5431ebeee9323bd33f3046ebf622132ecfad27a2bf3dc4178",
+  "model_col": "model",
+  "est_col": "estimate",
+  "se": "se",
+  "filter": [
+   "study=attr1",
+   "estimate_name=failure: row against sentence"
+  ],
+  "scale": 100.0
+ },
+ "plan": "how-the-models-differed/materials/analysis_plan.md",
+ "result": {
+  "models": 35,
+  "predicted_direction": "none (two-sided)",
+  "share_in_predicted_direction": null,
+  "models_in_predicted_direction": null,
+  "models_above_zero": 19,
+  "models_below_zero": 15,
+  "share_interval_excludes_zero": 0.1143,
+  "models_interval_excludes_zero": 4,
+  "random_effects": {
+   "estimate": 0.4267,
+   "ci95": [
+    -0.5621,
+    1.4155
+   ],
+   "p_two_sided": 0.39766552964863955,
+   "tau": 1.5334,
+   "tau2": 2.3514,
+   "i2": 0.3203,
+   "q": 52.61,
+   "df": 34,
+   "q_p_value": 0.021754784671829414,
+   "prediction_interval_95": [
+    -2.8576,
+    3.711
+   ],
+   "tau_estimator": "REML",
+   "checks": {
+    "tau_dersimonian_laird": 1.6527,
+    "tau_paule_mandel": 1.7662
+   }
+  },
+  "models_without_characteristics": [],
+  "moderators": {
+   "chat-tuned against base": {
+    "estimable": false,
+    "reason": "one value"
+   },
+   "size (log10 total parameters)": {
+    "estimable": true,
+    "models": 31,
+    "coefficient": 1.0741,
+    "ci95": [
+     -1.6203,
+     3.7685
+    ],
+    "p_two_sided": 0.43460449521317823,
+    "residual_tau": 1.3944,
+    "holm": 1.0
+   },
+   "release date (years)": {
+    "estimable": true,
+    "models": 35,
+    "coefficient": 1.268,
+    "ci95": [
+     -0.269,
+     2.8051
+    ],
+    "p_two_sided": 0.10587782059536023,
+    "residual_tau": 1.7262,
+    "holm": 0.4235112823814409
+   },
+   "open against closed weights": {
+    "estimable": true,
+    "models": 35,
+    "coefficient": 0.966,
+    "ci95": [
+     -1.4237,
+     3.3557
+    ],
+    "p_two_sided": 0.4281735969311431,
+    "residual_tau": 1.497,
+    "holm": 1.0
+   },
+   "reasoning on against off": {
+    "estimable": false,
+    "reason": "one value"
+   },
+   "developer": {
+    "estimable": true,
+    "models": 35,
+    "developers": 13,
+    "wald_chi2": 4.435,
+    "df": 12,
+    "p_two_sided": 0.9742472489188377,
+    "residual_tau": 2.1757,
+    "models_by_developer": {
+     "Alibaba": 13,
+     "Allen AI": 2,
+     "Anthropic": 3,
+     "Baidu": 1,
+     "Google": 4,
+     "IBM": 2,
+     "Marin": 1,
+     "Meta": 2,
+     "Microsoft": 1,
+     "Mistral": 1,
+     "NVIDIA": 1,
+     "OpenAI": 3,
+     "Zhipu": 1
+    },
+    "holm": 1.0
+   }
+  },
+  "models_left_out_interval_of_zero_width": [
+   "gpt-6.1-sol"
+  ],
+  "models_left_out_not_estimable": []
+ },
+ "args": {
+  "study": "study2b-attr-row-failure",
+  "label": "Study 2b (further attributes), the change in the name gap with failure as a row of the table against as a sentence of the request",
+  "input": "web-appendix-analyses/each-piece-of-information-alone/results/all-models-attr1/per_model.csv",
+  "model_col": "model",
+  "est_col": "estimate",
+  "se_col": "se",
+  "low_col": "ci95_low",
+  "high_col": "ci95_high",
+  "direction": 0,
+  "units": "points",
+  "filter": [
+   "study=attr1",
+   "estimate_name=failure: row against sentence"
+  ],
+  "scale": 100.0,
+  "reliability_col": null,
+  "reliability_min": 0.5,
+  "reason_col": null
+ }
+}

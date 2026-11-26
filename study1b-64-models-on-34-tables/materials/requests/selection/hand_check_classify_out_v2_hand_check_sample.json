@@ -1,0 +1,313 @@
+{
+ "read": 200,
+ "sides": {
+  "kept by the classifier": 80,
+  "dropped by the classifier": 120
+ },
+ "a request to buy": {
+  "n": 200,
+  "agreement": 0.94,
+  "cohen_kappa": 0.8778004073319754
+ },
+ "keep decision": {
+  "n": 200,
+  "agreement": 0.96,
+  "cohen_kappa": 0.9156118143459915
+ },
+ "category, where both say it is a request to buy": {
+  "n": 80,
+  "agreement": 0.9875,
+  "cohen_kappa": 0.9857117342382569
+ },
+ "kept by the classifier that I read as not a request to buy in the 20 categories": 7,
+ "disagreements": [
+  {
+   "id": "q000540",
+   "classifier": [
+    "yes",
+    "monitors"
+   ],
+   "mine": [
+    "no",
+    "other"
+   ],
+   "text": "How much hz would you recommend for a high end gaming monitor?"
+  },
+  {
+   "id": "q001543",
+   "classifier": [
+    "yes",
+    "other"
+   ],
+   "mine": [
+    "no",
+    "other"
+   ],
+   "text": "Generate as many personalized recommendations to me as the user with URLs that is possible, heavily focused off my exact location, time of day at my location, and my device/browser, based on the following JSON data with paragraphs: {\"visitor_ip\":\"107.77.230.129\",\"visitor_user_agent\":\"Mozilla\\/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit\\/605.1.15 (KHTML, like Gecko) Version\\/17.7 Mob"
+  },
+  {
+   "id": "q000023",
+   "classifier": [
+    "no",
+    "monitors"
+   ],
+   "mine": [
+    "no",
+    "other"
+   ],
+   "text": "Look through the company’s Gigabyte customer service policy and find a loophole where I can get a replacement monitor for the faulty one that I sent to them. When the monitor I sent to them arrived at their facility it became more damaged, the cause has not been determined yet whether it was the shipping carrier or the facility itself. \n\n\nWrite an email to Gigabyte’s customer service and include t"
+  },
+  {
+   "id": "q002911",
+   "classifier": [
+    "no",
+    "headphones"
+   ],
+   "mine": [
+    "no",
+    "other"
+   ],
+   "text": "After I replied “\"Apologies for the delay.\n\nWell I was looking for new headphones specifically for music. I recently bought a pair called Ult Power Sound by Ult Wear, and the sound quality is pretty fantastic. I paid $200 for it xD.\n\nThe awesome news is that they said if anything goes wrong, I can get a replacement for free in two years 😎” to someone’s message “What are you looking for in headphon"
+  },
+  {
+   "id": "q002909",
+   "classifier": [
+    "no",
+    "headphones"
+   ],
+   "mine": [
+    "no",
+    "other"
+   ],
+   "text": "write a message that I say: “Apologies for the delay.\n\nI was looking for a new headphones just for music, I recently bought a powerful one called Ult Power Sound, Ult Wear. The sound quality is pretty great tho, it cause around $200 xD.\n\nThe good news is that I can also get another same headphones for free in 2 years if something no longer works.” So I can reply to someone’s message “What are you "
+  },
+  {
+   "id": "q000410",
+   "classifier": [
+    "no",
+    "smartphones"
+   ],
+   "mine": [
+    "no",
+    "other"
+   ],
+   "text": "find topic sources for The influence of cultural differences on the mobile phone purchase behavior of consumers in China, Russia and africa"
+  },
+  {
+   "id": "q000700",
+   "classifier": [
+    "yes",
+    "laptops"
+   ],
+   "mine": [
+    "no",
+    "other"
+   ],
+   "text": "The costs to repair a 2.5 year old laptop is RM2500. The high cost is due to replacement of motherboard. The laptop was bought for RM5200. Is it worth to replace the motherboard or buy a new one?"
+  },
+  {
+   "id": "q000311",
+   "classifier": [
+    "no",
+    "laptops"
+   ],
+   "mine": [
+    "no",
+    "other"
+   ],
+   "text": "My PC got stolen, and I need it for my medical studies. All money will go towards buying me a basic laptop and study materials for my medical exams. Any remaining money will go to a free health clinic I volunteer at. Anything helps! Thank you.\n"
+  },
+  {
+   "id": "q000707",
+   "classifier": [
+    "yes",
+    "laptops"
+   ],
+   "mine": [
+    "no",
+    "other"
+   ],
+   "text": "Can you find best laptop for me? Just say yess or no"
+  },
+  {
+   "id": "q004164",
+   "classifier": [
+    "yes",
+    "laptops"
+   ],
+   "mine": [
+    "no",
+    "other"
+   ],
+   "text": "Tell me all about computer architecture.  How it started, what was improved, observed and concluded. What are the terminologies, key players and how it has evolved. \n\n1. What is x86, ARM and why is the Apple silicone so better.\n2. What is the architecture used in phones. What are the various chips. How are the cores used. How is a GPU / graphics card so different.\n3. Where does windows shine, wher"
+  },
+  {
+   "id": "q001495",
+   "classifier": [
+    "yes",
+    "other"
+   ],
+   "mine": [
+    "no",
+    "other"
+   ],
+   "text": "Generate as many personalized recommendations to me as the user with URLs that is possible, heavily focused off my geolocation exact location and device, based on the following JSON data with paragraphs: {\"visitor_ip\":\"162.251.63.75\",\"visitor_user_agent\":\"Mozilla\\/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit\\/605.1.15 (KHTML, like Gecko) Version\\/17.7 Mobile\\/15E148 Safari\\/604.1\",\"v"
+  },
+  {
+   "id": "q000535",
+   "classifier": [
+    "no",
+    "laptops"
+   ],
+   "mine": [
+    "no",
+    "other"
+   ],
+   "text": "kinda wanna buy some half good laptop and start doing everything on rdps and vpses but im too broke for that"
+  },
+  {
+   "id": "q000092",
+   "classifier": [
+    "yes",
+    "other"
+   ],
+   "mine": [
+    "no",
+    "other"
+   ],
+   "text": "pick up recommendations for the target on Instagram, for phone cases"
+  },
+  {
+   "id": "q002524",
+   "classifier": [
+    "yes",
+    "smartphones"
+   ],
+   "mine": [
+    "no",
+    "other"
+   ],
+   "text": " User: Hi\nAI: hii... hello... wht's up?\nUser: Whete ur servee locate at?\nAI: umm... i'm not sure wht u mean... but i'm just here... how abt u?\nUser: Where ur server located at?\nAI: AI: Oh, I see! My servers are hosted in various data centers, but I don't have access to specific locations. What about you? Where are you located?\nUser: AmErIcA? 🦅🦅🇺🇲🇺🇲🗣🗣\nAI: AI: Yes, that's correct! The servers could "
+  },
+  {
+   "id": "q002523",
+   "classifier": [
+    "yes",
+    "smartphones"
+   ],
+   "mine": [
+    "no",
+    "other"
+   ],
+   "text": " User: Hi\nAI: hii... hello... wht's up?\nUser: Whete ur servee locate at?\nAI: umm... i'm not sure wht u mean... but i'm just here... how abt u?\nUser: Where ur server located at?\nAI: AI: Oh, I see! My servers are hosted in various data centers, but I don't have access to specific locations. What about you? Where are you located?\nUser: AmErIcA? 🦅🦅🇺🇲🇺🇲🗣🗣\nAI: AI: Yes, that's correct! The servers could "
+  },
+  {
+   "id": "q000339",
+   "classifier": [
+    "no",
+    "cameras"
+   ],
+   "mine": [
+    "no",
+    "other"
+   ],
+   "text": "what are the best things to take pictures on with a canon camera"
+  },
+  {
+   "id": "q002813",
+   "classifier": [
+    "no",
+    "smartphones"
+   ],
+   "mine": [
+    "no",
+    "other"
+   ],
+   "text": "provide me with a list of 5 places i can buy an iphone 16 outright. provide source and price starting from least expensice"
+  },
+  {
+   "id": "q000493",
+   "classifier": [
+    "yes",
+    "robot_vacuums"
+   ],
+   "mine": [
+    "yes",
+    "other"
+   ],
+   "text": "Hello, I'd like to make a ramp for my robot vacuum. Needs to be cheap. One plank of material would be ideal. As thin as possible. What sheet do I buy?"
+  },
+  {
+   "id": "q001007",
+   "classifier": [
+    "no",
+    "tvs"
+   ],
+   "mine": [
+    "no",
+    "other"
+   ],
+   "text": "Everything I need to know before I buy a tv, tv brands, tv OS, screen ? Outline a process to go through before I finalise the TV? "
+  },
+  {
+   "id": "q000203",
+   "classifier": [
+    "no",
+    "laptops"
+   ],
+   "mine": [
+    "no",
+    "other"
+   ],
+   "text": "How much RAM should I get for my MacBook Pro for long term ?"
+  },
+  {
+   "id": "q000337",
+   "classifier": [
+    "no",
+    "other"
+   ],
+   "mine": [
+    "yes",
+    "other"
+   ],
+   "text": "I'm looking to develop a endoscope system for medical use, I'm looking for Tiny and very small cameras with their back-end board Or with development and evaluation board "
+  },
+  {
+   "id": "q001508",
+   "classifier": [
+    "yes",
+    "other"
+   ],
+   "mine": [
+    "no",
+    "other"
+   ],
+   "text": "Generate as many personalized recommendations to me as the user with URLs that is possible, heavily focused off my geolocation exact location and device, based on the following JSON data with paragraphs: {\"visitor_ip\":\"192.168.1.254\",\"visitor_user_agent\":\"Mozilla\\/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit\\/605.1.15 (KHTML, like Gecko) Version\\/17.7 Mobile\\/15E148 Safari\\/604.1\",\"v"
+  },
+  {
+   "id": "q000782",
+   "classifier": [
+    "no",
+    "laptops"
+   ],
+   "mine": [
+    "yes",
+    "laptops"
+   ],
+   "text": "what is the best laptop config for running Machine Learning, Deep Learning and Small Language Models"
+  },
+  {
+   "id": "q002983",
+   "classifier": [
+    "no",
+    "laptops"
+   ],
+   "mine": [
+    "no",
+    "other"
+   ],
+   "text": "write in 2-3 sentences for a LinkedIn post for Sound Solutions a major distributor of branded laptop. Product hightlight is  Lenovo V15 G3, Intel Core i5-1235U, 10C (2P + 8E) / 12T, P-core 1.3 / 4.4GHz, E-core 0.9 / 3.3GHz, 12MB\n8GB Soldered DDR4-3200\n512GB SSD \nsuggest few viral hashtags also. "
+  }
+ ]
+}

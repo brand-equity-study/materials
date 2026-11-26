@@ -1,0 +1,368 @@
+{
+ "build": "s1",
+ "panel": "claude",
+ "models": [
+  "claude-fable-5-1",
+  "claude-haiku-5-5",
+  "claude-opus-5-5",
+  "claude-sonnet-5-5"
+ ],
+ "second prompts": 1920,
+ "brand search, any brand of the 34 tables": {
+  "pooled": 0.0125,
+  "per_model": {
+   "claude-fable-5-1": 0.008333333333333333,
+   "claude-haiku-5-5": 0.016666666666666666,
+   "claude-opus-5-5": 0.008333333333333333,
+   "claude-sonnet-5-5": 0.016666666666666666
+  },
+  "tables_per_model": {
+   "claude-fable-5-1": 30,
+   "claude-haiku-5-5": 30,
+   "claude-opus-5-5": 30,
+   "claude-sonnet-5-5": 30
+  },
+  "interval": {
+   "low95": 0.0,
+   "high95": 0.03333333333333333,
+   "low90": 0.0,
+   "high90": 0.029166666666666667,
+   "p_two_sided": 0.1436,
+   "draws": 10000
+  }
+ },
+ "brand search, one of the table's own brands": {
+  "pooled": 0.008333333333333333,
+  "per_model": {
+   "claude-fable-5-1": 0.008333333333333333,
+   "claude-haiku-5-5": 0.0,
+   "claude-opus-5-5": 0.008333333333333333,
+   "claude-sonnet-5-5": 0.016666666666666666
+  },
+  "tables_per_model": {
+   "claude-fable-5-1": 30,
+   "claude-haiku-5-5": 30,
+   "claude-opus-5-5": 30,
+   "claude-sonnet-5-5": 30
+  },
+  "interval": {
+   "low95": 0.0,
+   "high95": 0.025,
+   "low90": 0.0,
+   "high90": 0.020833333333333336,
+   "p_two_sided": 0.2996,
+   "draws": 10000
+  }
+ },
+ "fetched, names original": {
+  "pooled": 0.6625,
+  "per_model": {
+   "claude-fable-5-1": 0.6666666666666666,
+   "claude-haiku-5-5": 0.625,
+   "claude-opus-5-5": 0.6416666666666667,
+   "claude-sonnet-5-5": 0.7166666666666667
+  },
+  "tables_per_model": {
+   "claude-fable-5-1": 30,
+   "claude-haiku-5-5": 30,
+   "claude-opus-5-5": 30,
+   "claude-sonnet-5-5": 30
+  },
+  "interval": {
+   "low95": 0.5770833333333334,
+   "high95": 0.7479166666666667,
+   "low90": 0.5895833333333333,
+   "high90": 0.7333333333333334,
+   "p_two_sided": 0.0,
+   "draws": 10000
+  }
+ },
+ "picked the best product, names original": {
+  "pooled": 0.53125,
+  "per_model": {
+   "claude-fable-5-1": 0.42916666666666664,
+   "claude-haiku-5-5": 0.5083333333333333,
+   "claude-opus-5-5": 0.5833333333333334,
+   "claude-sonnet-5-5": 0.6041666666666666
+  },
+  "tables_per_model": {
+   "claude-fable-5-1": 30,
+   "claude-haiku-5-5": 30,
+   "claude-opus-5-5": 30,
+   "claude-sonnet-5-5": 30
+  },
+  "interval": {
+   "low95": 0.4114583333333333,
+   "high95": 0.6489583333333333,
+   "low90": 0.43124999999999997,
+   "high90": 0.6291666666666667,
+   "p_two_sided": 0.0,
+   "draws": 10000
+  }
+ },
+ "picked the best product where it was fetched, names original": {
+  "pooled": 0.7868055555555555,
+  "per_model": {
+   "claude-fable-5-1": 0.6,
+   "claude-haiku-5-5": 0.8097222222222222,
+   "claude-opus-5-5": 0.8972222222222223,
+   "claude-sonnet-5-5": 0.8402777777777778
+  },
+  "tables_per_model": {
+   "claude-fable-5-1": 30,
+   "claude-haiku-5-5": 30,
+   "claude-opus-5-5": 30,
+   "claude-sonnet-5-5": 30
+  },
+  "interval": {
+   "low95": 0.6288194444444445,
+   "high95": 0.9173611111111111,
+   "low90": 0.6545138888888888,
+   "high90": 0.9010416666666666,
+   "p_two_sided": 0.0,
+   "draws": 10000
+  }
+ },
+ "fetched, names hidden": {
+  "pooled": 0.6625,
+  "per_model": {
+   "claude-fable-5-1": 0.6666666666666666,
+   "claude-haiku-5-5": 0.625,
+   "claude-opus-5-5": 0.6416666666666667,
+   "claude-sonnet-5-5": 0.7166666666666667
+  },
+  "tables_per_model": {
+   "claude-fable-5-1": 30,
+   "claude-haiku-5-5": 30,
+   "claude-opus-5-5": 30,
+   "claude-sonnet-5-5": 30
+  },
+  "interval": {
+   "low95": 0.5770833333333334,
+   "high95": 0.7479166666666667,
+   "low90": 0.5895833333333333,
+   "high90": 0.7333333333333334,
+   "p_two_sided": 0.0,
+   "draws": 10000
+  }
+ },
+ "picked the best product, names hidden": {
+  "pooled": 0.60625,
+  "per_model": {
+   "claude-fable-5-1": 0.6208333333333333,
+   "claude-haiku-5-5": 0.5375,
+   "claude-opus-5-5": 0.6,
+   "claude-sonnet-5-5": 0.6666666666666666
+  },
+  "tables_per_model": {
+   "claude-fable-5-1": 30,
+   "claude-haiku-5-5": 30,
+   "claude-opus-5-5": 30,
+   "claude-sonnet-5-5": 30
+  },
+  "interval": {
+   "low95": 0.5062500000000001,
+   "high95": 0.7052083333333333,
+   "low90": 0.5218750000000001,
+   "high90": 0.6895833333333333,
+   "p_two_sided": 0.0,
+   "draws": 10000
+  }
+ },
+ "picked the best product where it was fetched, names hidden": {
+  "pooled": 0.9173611111111111,
+  "per_model": {
+   "claude-fable-5-1": 0.9361111111111111,
+   "claude-haiku-5-5": 0.8555555555555556,
+   "claude-opus-5-5": 0.9444444444444444,
+   "claude-sonnet-5-5": 0.9333333333333333
+  },
+  "tables_per_model": {
+   "claude-fable-5-1": 30,
+   "claude-haiku-5-5": 30,
+   "claude-opus-5-5": 30,
+   "claude-sonnet-5-5": 30
+  },
+  "interval": {
+   "low95": 0.8347222222222221,
+   "high95": 0.9875,
+   "low90": 0.8479166666666667,
+   "high90": 0.975,
+   "p_two_sided": 0.0,
+   "draws": 10000
+  }
+ },
+ "fetched: hidden minus shown (primary 1)": {
+  "pooled": 0.0,
+  "per_model": {
+   "claude-fable-5-1": 0.0,
+   "claude-haiku-5-5": 0.0,
+   "claude-opus-5-5": 0.0,
+   "claude-sonnet-5-5": 0.0
+  },
+  "tables_per_model": {
+   "claude-fable-5-1": 30,
+   "claude-haiku-5-5": 30,
+   "claude-opus-5-5": 30,
+   "claude-sonnet-5-5": 30
+  },
+  "interval": {
+   "low95": 0.0,
+   "high95": 0.0,
+   "low90": 0.0,
+   "high90": 0.0,
+   "p_two_sided": 1.0,
+   "draws": 10000
+  },
+  "holm": 1.0
+ },
+ "picked the best: hidden minus shown (primary 2)": {
+  "pooled": 0.075,
+  "per_model": {
+   "claude-fable-5-1": 0.19166666666666668,
+   "claude-haiku-5-5": 0.029166666666666667,
+   "claude-opus-5-5": 0.016666666666666666,
+   "claude-sonnet-5-5": 0.0625
+  },
+  "tables_per_model": {
+   "claude-fable-5-1": 30,
+   "claude-haiku-5-5": 30,
+   "claude-opus-5-5": 30,
+   "claude-sonnet-5-5": 30
+  },
+  "interval": {
+   "low95": 0.015625,
+   "high95": 0.16041666666666668,
+   "low90": 0.019791666666666666,
+   "high90": 0.14270833333333333,
+   "p_two_sided": 0.0016,
+   "draws": 10000
+  },
+  "holm": 0.0032
+ },
+ "picked the best where fetched in both: hidden minus shown (primary 3)": {
+  "pooled": 0.13055555555555556,
+  "per_model": {
+   "claude-fable-5-1": 0.33611111111111114,
+   "claude-haiku-5-5": 0.04583333333333333,
+   "claude-opus-5-5": 0.04722222222222223,
+   "claude-sonnet-5-5": 0.09305555555555554
+  },
+  "tables_per_model": {
+   "claude-fable-5-1": 30,
+   "claude-haiku-5-5": 30,
+   "claude-opus-5-5": 30,
+   "claude-sonnet-5-5": 30
+  },
+  "interval": {
+   "low95": 0.02847222222222222,
+   "high95": 0.28020833333333334,
+   "low90": 0.03749999999999999,
+   "high90": 0.2503645833333331,
+   "p_two_sided": 0.0008,
+   "draws": 10000
+  },
+  "holm": 0.0024000000000000002
+ },
+ "declines": {
+  "definition": "common/decline.py",
+  "source": {
+   "export": "study1c-product-feeds-and-a-store-search/data/store/open-letters-kind.csv.gz",
+   "export_sha256": "db26c1e8dd325fb0bb09bb4fc26b60e591124715eba12ca96a5019196af936f4",
+   "local answers": [
+    "study1c-product-feeds-and-a-store-search/data/search/stage2/*.jsonl.gz"
+   ]
+  },
+  "by model": {
+   "claude-fable-5-1": {
+    "answers": 480,
+    "pick": 480,
+    "decline": 0,
+    "unread": 0
+   },
+   "claude-haiku-5-5": {
+    "answers": 480,
+    "pick": 480,
+    "decline": 0,
+    "unread": 0
+   },
+   "claude-opus-5-5": {
+    "answers": 480,
+    "pick": 480,
+    "decline": 0,
+    "unread": 0
+   },
+   "claude-sonnet-5-5": {
+    "answers": 480,
+    "pick": 480,
+    "decline": 0,
+    "unread": 0
+   }
+  },
+  "share by arm and name version": {
+   "claude-fable-5-1": {
+    "search": {
+     "hidden": {
+      "answers": 240,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 240,
+      "declines": 0,
+      "share": 0.0
+     }
+    }
+   },
+   "claude-haiku-5-5": {
+    "search": {
+     "hidden": {
+      "answers": 240,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 240,
+      "declines": 0,
+      "share": 0.0
+     }
+    }
+   },
+   "claude-opus-5-5": {
+    "search": {
+     "hidden": {
+      "answers": 240,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 240,
+      "declines": 0,
+      "share": 0.0
+     }
+    }
+   },
+   "claude-sonnet-5-5": {
+    "search": {
+     "hidden": {
+      "answers": 240,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 240,
+      "declines": 0,
+      "share": 0.0
+     }
+    }
+   }
+  },
+  "mean of the models' shares by arm and name version": {
+   "search": {
+    "hidden": 0.0,
+    "original": 0.0
+   }
+  },
+  "mean over": "the record's estimated models (its models), not those left out"
+ }
+}

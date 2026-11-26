@@ -1,0 +1,25 @@
+{
+ "key": "gemma3-27b",
+ "hf_repo": "unsloth/gemma-3-27b-it",
+ "revision": "7a5a3053dbd5d1d58e48159e87b9df2fc545a49a",
+ "switch": {},
+ "sampling": {
+  "temperature": 1.0,
+  "top_p": 0.95,
+  "top_k": 64,
+  "min_p": 0.0,
+  "repetition_penalty": 1.0
+ },
+ "max_tokens": 1024,
+ "max_model_len": 8192,
+ "gpus": 1,
+ "engine": {},
+ "items": "b21-full1-items.jsonl",
+ "items_sha256": "e029b006f7e7043577004b2db19973a9cb92eb7e967c831ab446cb37181c3202",
+ "tables": "all",
+ "torch": "2.14.0+cu130",
+ "vllm": "0.33.0",
+ "transformers": "5.20.2",
+ "python": "3.12.3",
+ "finished": "2026-11-22 11:30 CST"
+}

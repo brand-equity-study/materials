@@ -1,0 +1,146 @@
+{
+ "study": "study2c",
+ "label": "Study 2c, the invented twin's share minus the familiar twin's at the same price, names shown (the name's cost)",
+ "units": "points",
+ "direction": -1,
+ "input": {
+  "file": "study2b-how-much-a-familiar-brand-is-worth/results/all-models-eq1/per_model.csv",
+  "sha256": "58894474eb212f9629ebf1f74595f13d0ae8c0114082fe3d56c82f5e17c32c1c",
+  "model_col": "model",
+  "est_col": "estimate",
+  "se": "se",
+  "filter": [
+   "study=2c",
+   "estimate_name=invented minus familiar twin, names shown"
+  ],
+  "scale": 100.0
+ },
+ "plan": "how-the-models-differed/materials/analysis_plan.md",
+ "result": {
+  "models": 35,
+  "predicted_direction": -1,
+  "share_in_predicted_direction": 0.9714,
+  "models_in_predicted_direction": 34,
+  "models_above_zero": 1,
+  "models_below_zero": 34,
+  "share_interval_excludes_zero": 0.6857,
+  "models_interval_excludes_zero": 24,
+  "random_effects": {
+   "estimate": -26.7738,
+   "ci95": [
+    -34.9762,
+    -18.5713
+   ],
+   "p_two_sided": 1.5777868919551955e-10,
+   "tau": 24.1235,
+   "tau2": 581.9455,
+   "i2": 0.9538,
+   "q": 949.72,
+   "df": 34,
+   "q_p_value": 1.950794561176294e-177,
+   "prediction_interval_95": [
+    -76.5865,
+    23.039
+   ],
+   "tau_estimator": "REML",
+   "checks": {
+    "tau_dersimonian_laird": 27.5545,
+    "tau_paule_mandel": 23.9877
+   }
+  },
+  "models_without_characteristics": [],
+  "moderators": {
+   "chat-tuned against base": {
+    "estimable": false,
+    "reason": "one value"
+   },
+   "size (log10 total parameters)": {
+    "estimable": true,
+    "models": 31,
+    "coefficient": -17.1055,
+    "ci95": [
+     -28.8568,
+     -5.3542
+    ],
+    "p_two_sided": 0.004330421123290489,
+    "residual_tau": 14.1003,
+    "holm": 0.004330421123290489
+   },
+   "release date (years)": {
+    "estimable": true,
+    "models": 35,
+    "coefficient": -23.0798,
+    "ci95": [
+     -33.9642,
+     -12.1955
+    ],
+    "p_two_sided": 3.237236893081292e-05,
+    "residual_tau": 19.6171,
+    "holm": 6.474473786162585e-05
+   },
+   "open against closed weights": {
+    "estimable": true,
+    "models": 35,
+    "coefficient": 56.9262,
+    "ci95": [
+     39.7434,
+     74.109
+    ],
+    "p_two_sided": 8.390504199512535e-11,
+    "residual_tau": 15.7049,
+    "holm": 3.356201679805014e-10
+   },
+   "reasoning on against off": {
+    "estimable": false,
+    "reason": "one value"
+   },
+   "developer": {
+    "estimable": true,
+    "models": 35,
+    "developers": 13,
+    "wald_chi2": 72.625,
+    "df": 12,
+    "p_two_sided": 1.0303650370700417e-10,
+    "residual_tau": 13.8422,
+    "models_by_developer": {
+     "Alibaba": 13,
+     "Allen AI": 2,
+     "Anthropic": 4,
+     "Baidu": 1,
+     "Google": 4,
+     "IBM": 2,
+     "Marin": 1,
+     "Meta": 2,
+     "Microsoft": 1,
+     "Mistral": 1,
+     "NVIDIA": 1,
+     "OpenAI": 2,
+     "Zhipu": 1
+    },
+    "holm": 3.356201679805014e-10
+   }
+  },
+  "models_left_out_interval_of_zero_width": [],
+  "models_left_out_not_estimable": []
+ },
+ "args": {
+  "study": "study2c",
+  "label": "Study 2c, the invented twin's share minus the familiar twin's at the same price, names shown (the name's cost)",
+  "input": "study2b-how-much-a-familiar-brand-is-worth/results/all-models-eq1/per_model.csv",
+  "model_col": "model",
+  "est_col": "estimate",
+  "se_col": "se",
+  "low_col": "ci95_low",
+  "high_col": "ci95_high",
+  "direction": -1,
+  "units": "points",
+  "filter": [
+   "study=2c",
+   "estimate_name=invented minus familiar twin, names shown"
+  ],
+  "scale": 100.0,
+  "reliability_col": null,
+  "reliability_min": 0.5,
+  "reason_col": null
+ }
+}

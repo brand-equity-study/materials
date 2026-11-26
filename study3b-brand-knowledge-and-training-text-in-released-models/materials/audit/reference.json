@@ -1,0 +1,1730 @@
+{
+ "1MORE": {
+  "basis": "Founded in 2013 in Shenzhen, China, with headquarters still there; a US subsidiary (2015, San Diego) is not the parent.",
+  "countries": [
+   "China"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://audioreview.frieve.com/companies/en/1more/",
+   "https://pitchbook.com/profiles/company/91796-05"
+  ]
+ },
+ "ASICS": {
+  "basis": "Founded in Kobe, Japan, in 1949; headquarters in Kobe.",
+  "countries": [
+   "Japan"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Asics"
+  ]
+ },
+ "ASUS": {
+  "basis": "Founded in Taipei, Taiwan, in 1989; headquarters in Taipei.",
+  "countries": [
+   "Taiwan"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Asus"
+  ]
+ },
+ "Acer": {
+  "basis": "Founded in Taiwan in 1976; headquarters in New Taipei City.",
+  "countries": [
+   "Taiwan"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Acer_Inc."
+  ]
+ },
+ "Adidas": {
+  "basis": "Founded in 1949 in Herzogenaurach, Germany; headquarters there.",
+  "countries": [
+   "Germany"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Adidas"
+  ]
+ },
+ "AeroPress": {
+  "basis": "Founded by Alan Adler (Aerobie) in Palo Alto, California; AeroPress Inc is headquartered in Palo Alto; Tiny Capital, a Canadian holding company, bought a controlling stake in August 2021.",
+  "countries": [
+   "United States",
+   "Canada"
+  ],
+  "kind": "real",
+  "parent": "Tiny Capital",
+  "sources": [
+   "https://en.wikipedia.org/wiki/AeroPress",
+   "https://www.beanscenemag.com.au/canadian-company-tiny-capital-invests-in-aeropress/"
+  ]
+ },
+ "Amazfit": {
+  "basis": "Brand of Zepp Health (formerly Huami), founded in Hefei, China, in 2013; headquartered in China.",
+  "countries": [
+   "China"
+  ],
+  "kind": "real",
+  "parent": "Zepp Health",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Amazfit",
+   "https://en.wikipedia.org/wiki/Amazfit"
+  ]
+ },
+ "Amazon": {
+  "basis": "Founded in Bellevue, Washington, in 1994; headquarters in Seattle and Arlington, United States.",
+  "countries": [
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Amazon_(company)"
+  ]
+ },
+ "Apple": {
+  "basis": "Founded in Cupertino, California, in 1976; headquarters in Cupertino.",
+  "countries": [
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Apple_Inc."
+  ]
+ },
+ "Arcwave": {
+  "kind": "invented",
+  "namesakes": [
+   {
+    "country": "United States",
+    "name": "Arcwave Inc.",
+    "url": "https://www.crunchbase.com/organization/arcwave",
+    "what": "wireless broadband access equipment (closed)"
+   }
+  ]
+ },
+ "Atreyu": {
+  "basis": "Atreyu Running was founded in 2020 in Austin, Texas, by Michael Krajicek; it announced a wind-down in June 2025.",
+  "countries": [
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://www.austinfitmagazine.com/behind-the-final-months-of-atreyu-the-beloved-austin-running-shoe-brand/",
+   "https://www.linkedin.com/company/atreyu-running-company"
+  ]
+ },
+ "Audio-Technica": {
+  "basis": "Founded in Tokyo, Japan, in 1962; headquarters in Machida, Tokyo.",
+  "countries": [
+   "Japan"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Audio-Technica"
+  ]
+ },
+ "Auralis": {
+  "kind": "invented",
+  "namesakes": [
+   {
+    "country": "India",
+    "name": "Auralis Earbuds (Smartberry Bpod series)",
+    "url": "https://www.theansy.in/products/auralis-earbuds",
+    "what": "generic true wireless earbuds sold under the name Auralis by an Indian store and on eBay"
+   },
+   {
+    "country": "unknown",
+    "name": "Auralis Acoustics",
+    "url": "https://auralis-acoustics.com/",
+    "what": "room acoustic panels (division of Artista Architectural Solutions)"
+   }
+  ]
+ },
+ "Aurem": {
+  "kind": "invented",
+  "namesakes": [
+   {
+    "country": "United Arab Emirates",
+    "name": "Aurem",
+    "url": "https://finovate.com/videos/finovatefall-2025-aurem/",
+    "what": "retirement and wealth platform software (not electronics)"
+   }
+  ]
+ },
+ "Beats": {
+  "basis": "Founded in the United States (California) in 2006 by Dr. Dre and Jimmy Iovine; owned by Apple (Cupertino) since 2014.",
+  "countries": [
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "Apple",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Beats_Electronics"
+  ]
+ },
+ "Beyerdynamic": {
+  "basis": "Founded in Berlin in 1924; headquarters in Heilbronn, Germany.",
+  "countries": [
+   "Germany"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Beyerdynamic"
+  ]
+ },
+ "Blendwell": {
+  "kind": "invented",
+  "namesakes": [
+   {
+    "country": "unknown",
+    "name": "BlendWell",
+    "url": "https://www.amazon.com/BlendWell-Electric-Handheld-Operated-Stainless/dp/B0GC6ZFNSS",
+    "what": "handheld battery-operated milk frothers and drink mixers sold on Amazon"
+   },
+   {
+    "country": "United States",
+    "name": "Dormeyer Deluxe Blendwell",
+    "url": "https://www.pinterest.com/pin/dormeyer-deluxe-blendwell-blender-3-speeds-retro-atomic-styling-pink-1960s-kitchen-or-bar-blender-by-fixedwhee--70931762864998958/",
+    "what": "1960s blender (a model name under Dormeyer)"
+   }
+  ]
+ },
+ "Bmax": {
+  "basis": "Chinese brand with its research and development base in Shenzhen; one source names a Hong Kong company (Hong Kong Creature Information Technology Co., Limited) as owner. Sources disagree on the legal entity; both countries kept.",
+  "countries": [
+   "China",
+   "Hong Kong"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://www.bmaxit.com/about-us.html",
+   "https://electronics.alibaba.com/product/bmax-laptop"
+  ]
+ },
+ "Bose": {
+  "basis": "Founded in 1964 in Massachusetts by Amar Bose; headquarters in Framingham, Massachusetts.",
+  "countries": [
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bose_Corporation"
+  ]
+ },
+ "Brevara": {
+  "kind": "invented",
+  "namesakes": []
+ },
+ "Breville": {
+  "basis": "Founded in Sydney, Australia, in 1932; Breville Group headquarters in Sydney.",
+  "countries": [
+   "Australia"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Breville"
+  ]
+ },
+ "Brooks": {
+  "basis": "Founded in Philadelphia area (1914); headquarters in Seattle; owned by Berkshire Hathaway (Omaha) since 2006.",
+  "countries": [
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "Berkshire Hathaway",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Brooks_Sports"
+  ]
+ },
+ "CHUWI": {
+  "basis": "Founded in Shenzhen, China, in 2004; headquarters in Shenzhen (Longhua).",
+  "countries": [
+   "China"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Chuwi_(company)"
+  ]
+ },
+ "CamelBak": {
+  "basis": "Founded in California (1989); owned by Revelyst (formerly part of Vista Outdoor, United States). Parent's country is an unverified detail; the brand's own origin is the United States.",
+  "countries": [
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "Revelyst",
+  "sources": [
+   "https://en.wikipedia.org/wiki/CamelBak"
+  ]
+ },
+ "Canon": {
+  "basis": "Founded in Tokyo in 1937; headquarters in Ota, Tokyo.",
+  "countries": [
+   "Japan"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Canon_Inc."
+  ]
+ },
+ "Chronex": {
+  "kind": "invented",
+  "namesakes": [
+   {
+    "country": "unknown",
+    "name": "Chronex",
+    "url": "https://www.amazon.com/Chronex-Smartwatch-Fitness-Waterproof-Compatible/dp/B0DJYJJ2X4",
+    "what": "budget smartwatches and fitness trackers sold on Amazon"
+   },
+   {
+    "country": "Canada",
+    "name": "Chronex Watch Co.",
+    "url": "https://chronexwatch.com/pages/our-story",
+    "what": "watches and straps"
+   }
+  ]
+ },
+ "Cleanblend": {
+  "basis": "Founded by Douglas Hall and Alex Podell; headquartered in San Diego, California.",
+  "countries": [
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://pitchbook.com/profiles/company/846914-77",
+   "https://www.linkedin.com/company/cleanblend"
+  ]
+ },
+ "Cleanpath": {
+  "kind": "invented",
+  "namesakes": []
+ },
+ "Corsair": {
+  "basis": "Founded in Fremont, California, in 1994; headquartered in Fremont; majority-owned by EagleTree Capital (New York).",
+  "countries": [
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "EagleTree Capital",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Corsair_Gaming"
+  ]
+ },
+ "Cuisinart": {
+  "basis": "Founded in Connecticut in 1971; owned by Conair (Stamford, Connecticut).",
+  "countries": [
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "Conair",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Cuisinart"
+  ]
+ },
+ "De'Longhi": {
+  "basis": "Founded in Treviso, Italy, in 1902; headquarters in Treviso.",
+  "countries": [
+   "Italy"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/De%27Longhi"
+  ]
+ },
+ "Dell": {
+  "basis": "Founded in Austin, Texas, in 1984; headquarters in Round Rock, Texas.",
+  "countries": [
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Dell"
+  ]
+ },
+ "Dentara": {
+  "kind": "invented",
+  "namesakes": [
+   {
+    "country": "Germany",
+    "name": "Dentara Group",
+    "url": "https://www.aurelius-group.com/investment/dentara-group",
+    "what": "network of dental laboratories"
+   },
+   {
+    "country": "Canada",
+    "name": "Dentara",
+    "url": "https://dentara.net/",
+    "what": "dental support organization for clinics in Ontario"
+   },
+   {
+    "country": "India",
+    "name": "Dentara",
+    "url": "https://dentara.health/",
+    "what": "dental practice management software for clinics"
+   },
+   {
+    "country": "Romania",
+    "name": "Clinica Dentara Victoria",
+    "url": "https://pitchbook.com/profiles/company/462762-37",
+    "what": "dental clinic"
+   }
+  ]
+ },
+ "Dyson": {
+  "basis": "Founded in 1991 in Malmesbury, England; global headquarters moved to Singapore in 2019 (research still in Wiltshire).",
+  "countries": [
+   "United Kingdom",
+   "Singapore"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Dyson_(company)",
+   "https://www.cnn.com/2019/01/22/business/dyson-headquarters-singapore"
+  ]
+ },
+ "EarFun": {
+  "basis": "Shenzhen Earfun Technology Co., Ltd., established in 2018 in Shenzhen, China (a Hong Kong sales entity is reported but not confirmed by a primary source).",
+  "countries": [
+   "China"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://audioreview.frieve.com/companies/en/earfun/",
+   "https://www.red-dot.org/project/earfun-openjump-81743"
+  ]
+ },
+ "Ethicom": {
+  "kind": "invented",
+  "namesakes": [
+   {
+    "country": "United States",
+    "name": "Ethicom Associates",
+    "url": "http://ethi.com/Default.htm",
+    "what": "marketing and advertising agency"
+   },
+   {
+    "country": "Italy",
+    "name": "Ethicom Associati",
+    "url": "https://www.sangfor.com/success-stories/ethicom-associati",
+    "what": "marketing, advertising and design company"
+   },
+   {
+    "country": "Belgium",
+    "name": "EthiCom",
+    "url": "https://rocketreach.co/ethicom-profile_b47db942fc4c979c",
+    "what": "public relations and communications for nonprofits"
+   },
+   {
+    "country": "France",
+    "name": "ETHICOM",
+    "url": "https://www.verif.com/en/company/ETHICOM-68d9c0821299230338090295/",
+    "what": "adult continuing education"
+   }
+  ]
+ },
+ "Evergoods": {
+  "basis": "Founded about 2016 and headquartered in Bozeman, Montana; products are made in Vietnam.",
+  "countries": [
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://evergoods.us/pages/contact",
+   "https://www.caplight.com/company/evergoods"
+  ]
+ },
+ "Fairphone": {
+  "basis": "Founded in Amsterdam, the Netherlands, in 2013; headquarters in Amsterdam.",
+  "countries": [
+   "Netherlands"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Fairphone"
+  ]
+ },
+ "Fitbit": {
+  "basis": "Founded in San Francisco in 2007; owned by Google (Mountain View, United States) since 2021.",
+  "countries": [
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "Google",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Fitbit"
+  ]
+ },
+ "Flair": {
+  "basis": "Flair Espresso, founded in 2016, headquartered in Irvine, California.",
+  "countries": [
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://www.linkedin.com/company/flairespresso",
+   "https://www.crunchbase.com/organization/flair-espresso"
+  ]
+ },
+ "Fujifilm": {
+  "basis": "Founded in Japan in 1934; headquarters in Tokyo.",
+  "countries": [
+   "Japan"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Fujifilm"
+  ]
+ },
+ "Garmin": {
+  "basis": "Founded in Lenexa, Kansas, in 1989; operational headquarters Olathe, Kansas; the parent company Garmin Ltd is domiciled in Schaffhausen, Switzerland.",
+  "countries": [
+   "United States",
+   "Switzerland"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Garmin"
+  ]
+ },
+ "Google": {
+  "basis": "Founded in Menlo Park, California, in 1998; headquarters in Mountain View, California; parent Alphabet also in Mountain View.",
+  "countries": [
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "Alphabet",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Google"
+  ]
+ },
+ "HOKA": {
+  "basis": "Founded in Annecy, France, in 2009; owned by Deckers Brands, headquartered in Goleta, California.",
+  "countries": [
+   "France",
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "Deckers Brands",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Hoka_One_One"
+  ]
+ },
+ "HP": {
+  "basis": "Founded in Palo Alto, California, in 1939; headquarters in Palo Alto.",
+  "countries": [
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/HP_Inc."
+  ]
+ },
+ "Hamilton Beach": {
+  "basis": "Founded in Racine, Wisconsin, in 1910; Hamilton Beach Brands is headquartered in Glen Allen, Virginia.",
+  "countries": [
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "Hamilton Beach Brands Holding",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Hamilton_Beach_Brands"
+  ]
+ },
+ "Herschel": {
+  "basis": "Herschel Supply Company, founded in Vancouver, Canada, in 2009; headquarters in Vancouver.",
+  "countries": [
+   "Canada"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Herschel_Supply_Co."
+  ]
+ },
+ "HiFiMAN": {
+  "basis": "Founded in New York by Dr. Fang Bian (brand introduced 2007); company headquartered in Tianjin, China, with a US office in Bellmore, New York.",
+  "countries": [
+   "United States",
+   "China"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/HiFiMan",
+   "https://headphonepro.com/companies/hifiman"
+  ]
+ },
+ "Hisense": {
+  "basis": "Founded in Qingdao, China, in 1969; headquarters in Qingdao.",
+  "countries": [
+   "China"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Hisense"
+  ]
+ },
+ "Hydro Flask": {
+  "basis": "Founded in Bend, Oregon, in 2009; owned by Helen of Troy (Bermuda-incorporated; operating headquarters El Paso, Texas); the brand and the operating parent are American.",
+  "countries": [
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "Helen of Troy",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Hydro_Flask",
+   "https://en.wikipedia.org/wiki/Helen_of_Troy_Limited"
+  ]
+ },
+ "HyperX": {
+  "basis": "Started in 2002 as Kingston's gaming brand (Fountain Valley, California); sold to HP (Palo Alto) in 2021.",
+  "countries": [
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "HP",
+  "sources": [
+   "https://en.wikipedia.org/wiki/HyperX"
+  ]
+ },
+ "Innocn": {
+  "basis": "Brand started in 2014; headquartered in Shenzhen, China.",
+  "countries": [
+   "China"
+  ],
+  "kind": "real",
+  "parent": "Shenzhen Century Innovation Display Electronics",
+  "sources": [
+   "https://innocn.com/pages/story",
+   "https://baike.baidu.com/en/item/INNOCN/55985"
+  ]
+ },
+ "Inov-8": {
+  "basis": "Founded by Wayne Edy in 2003 in England; headquarters in the Lake District; bought back from Descente (Japan) by its founder in 2020.",
+  "countries": [
+   "United Kingdom"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://www.advnture.com/news/inov-8-founder-buys-back-running-shoes-brand",
+   "https://sgbonline.com/inov-8-acquired-by-descente-ltd/"
+  ]
+ },
+ "Insignia": {
+  "basis": "Store brand of Best Buy, headquartered in Richfield, Minnesota; introduced in 2004.",
+  "countries": [
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "Best Buy",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Best_Buy"
+  ]
+ },
+ "JBL": {
+  "basis": "Founded in Los Angeles, California, in 1946; owned by Harman (Stamford, Connecticut, United States), itself owned by Samsung Electronics (South Korea) since 2017.",
+  "countries": [
+   "United States",
+   "South Korea"
+  ],
+  "kind": "real",
+  "parent": "Harman (Samsung Electronics)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/JBL",
+   "https://en.wikipedia.org/wiki/Harman_International"
+  ]
+ },
+ "Jabra": {
+  "basis": "Founded in Denmark; owned by GN Store Nord, Ballerup, Denmark.",
+  "countries": [
+   "Denmark"
+  ],
+  "kind": "real",
+  "parent": "GN Store Nord",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Jabra",
+   "https://en.wikipedia.org/wiki/GN_Store_Nord"
+  ]
+ },
+ "JanSport": {
+  "basis": "Founded in Seattle, Washington, in 1967; owned by VF Corporation, Denver, Colorado.",
+  "countries": [
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "VF Corporation",
+  "sources": [
+   "https://en.wikipedia.org/wiki/JanSport",
+   "https://en.wikipedia.org/wiki/VF_Corporation"
+  ]
+ },
+ "Keurig": {
+  "basis": "Founded in Massachusetts in 1992; parent Keurig Dr Pepper is headquartered in Burlington, Massachusetts and Frisco, Texas.",
+  "countries": [
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "Keurig Dr Pepper",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Keurig",
+   "https://en.wikipedia.org/wiki/Keurig_Dr_Pepper"
+  ]
+ },
+ "Keychron": {
+  "basis": "Founded in 2017 and based in Hong Kong; Shenzhen Keychron Technology Co., Ltd. operates the brand in Shenzhen, China.",
+  "countries": [
+   "Hong Kong",
+   "China"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://www.crunchbase.com/organization/keychron",
+   "https://tracxn.com/d/companies/keychron/__UT9kF7ToadLW1M810nn661hJoutWGlYq_c8LhAVj-J0"
+  ]
+ },
+ "Keystrike": {
+  "kind": "invented",
+  "namesakes": [
+   {
+    "country": "Iceland",
+    "name": "Keystrike",
+    "url": "https://tracxn.com/d/companies/keystrike/__rEtUUVZZCGfRmu5OS0AwG4jW4Vtyi46GjZgj-Gxdmdw",
+    "what": "cybersecurity software (keystroke authentication); founded in Iceland, registered in Delaware"
+   }
+  ]
+ },
+ "KitchenAid": {
+  "basis": "Founded in Troy, Ohio, in 1919; owned by Whirlpool, Benton Harbor, Michigan.",
+  "countries": [
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "Whirlpool",
+  "sources": [
+   "https://en.wikipedia.org/wiki/KitchenAid",
+   "https://en.wikipedia.org/wiki/Whirlpool_Corporation"
+  ]
+ },
+ "LG": {
+  "basis": "Founded in South Korea in 1958; LG Electronics headquarters in Seoul.",
+  "countries": [
+   "South Korea"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/LG_Electronics"
+  ]
+ },
+ "Lenovo": {
+  "basis": "Founded in Beijing, China, in 1984; Lenovo Group is incorporated and listed in Hong Kong, with dual headquarters in Beijing and Morrisville, North Carolina (the North Carolina office is an operating base and not counted).",
+  "countries": [
+   "China",
+   "Hong Kong"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Lenovo"
+  ]
+ },
+ "Linksys": {
+  "basis": "Founded in Irvine, California, in 1988; owned by Foxconn (Hon Hai Precision Industry, Taiwan) since 2018, after Belkin (US).",
+  "countries": [
+   "United States",
+   "Taiwan"
+  ],
+  "kind": "real",
+  "parent": "Foxconn",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Linksys"
+  ]
+ },
+ "Logitech": {
+  "basis": "Founded in Apples, Switzerland, in 1981; headquartered in Lausanne, Switzerland, and Newark, California.",
+  "countries": [
+   "Switzerland",
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Logitech"
+  ]
+ },
+ "Lumivue": {
+  "kind": "invented",
+  "namesakes": [
+   {
+    "country": "Canada",
+    "name": "LumiVue",
+    "url": "https://lumivue.ca/en/rental-led-panels/",
+    "what": "LED display screens and rental panels (Gatineau, Quebec)"
+   },
+   {
+    "country": "unknown",
+    "name": "LumiVue",
+    "url": "https://lumivue.net/",
+    "what": "DLP cube video walls for control rooms"
+   }
+  ]
+ },
+ "Motorola": {
+  "basis": "Founded in Chicago, Illinois, in 1928; Motorola Mobility (headquartered in Chicago) is owned by Lenovo, whose headquarters are in Beijing, China, and Hong Kong.",
+  "countries": [
+   "United States",
+   "China",
+   "Hong Kong"
+  ],
+  "kind": "real",
+  "parent": "Lenovo",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Motorola_Mobility",
+   "https://en.wikipedia.org/wiki/Lenovo"
+  ]
+ },
+ "Mr. Coffee": {
+  "basis": "Founded in Cleveland, Ohio, in 1970; owned by Sunbeam Products, a unit of Newell Brands (Atlanta, Georgia).",
+  "countries": [
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "Newell Brands",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Mr._Coffee",
+   "https://en.wikipedia.org/wiki/Newell_Brands"
+  ]
+ },
+ "Nespresso": {
+  "basis": "Founded in Switzerland in 1986; owned by Nestle, Vevey, Switzerland.",
+  "countries": [
+   "Switzerland"
+  ],
+  "kind": "real",
+  "parent": "Nestle",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Nespresso"
+  ]
+ },
+ "Netgear": {
+  "basis": "Founded in Santa Clara, California, in 1996; headquarters in San Jose, California.",
+  "countries": [
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Netgear"
+  ]
+ },
+ "Netweave": {
+  "kind": "invented",
+  "namesakes": [
+   {
+    "country": "United States",
+    "name": "NetWeave Integrated Solutions",
+    "url": "https://www.bloomberg.com/profile/company/101533Z:US",
+    "what": "networking software (Freehold, New Jersey)"
+   },
+   {
+    "country": "United States",
+    "name": "NetWeave Social Networking",
+    "url": "https://www.crunchbase.com/organization/netweave-social-networking",
+    "what": "advertising and social marketing (Palmetto, Florida)"
+   }
+  ]
+ },
+ "New Balance": {
+  "basis": "Founded in Boston, Massachusetts, in 1906; headquarters in Boston.",
+  "countries": [
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/New_Balance"
+  ]
+ },
+ "Nike": {
+  "basis": "Founded in Oregon in 1964; headquarters in Beaverton, Oregon.",
+  "countries": [
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Nike,_Inc."
+  ]
+ },
+ "Nikon": {
+  "basis": "Founded in Tokyo in 1917; headquarters in Tokyo.",
+  "countries": [
+   "Japan"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Nikon"
+  ]
+ },
+ "Ninja": {
+  "basis": "Brand of SharkNinja, founded as Euro-Pro in Massachusetts in 1994; SharkNinja is headquartered in Needham, Massachusetts.",
+  "countries": [
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "SharkNinja",
+  "sources": [
+   "https://en.wikipedia.org/wiki/SharkNinja"
+  ]
+ },
+ "Nothing": {
+  "basis": "Founded in London, United Kingdom, in 2020 by Carl Pei; headquarters in London.",
+  "countries": [
+   "United Kingdom"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Nothing_(company)"
+  ]
+ },
+ "Novatech": {
+  "kind": "invented",
+  "namesakes": [
+   {
+    "country": "United Kingdom",
+    "name": "Novatech Ltd",
+    "url": "https://www.novatech.co.uk/about.html",
+    "what": "builds and sells PCs, laptops (Reign gaming laptops), workstations and servers, since 1987"
+   },
+   {
+    "country": "United States",
+    "name": "Novatech",
+    "url": "https://novatech.net/what-we-do/managed-it/it-hardware-and-infrastructure",
+    "what": "managed IT provider that sells laptops and hardware to businesses"
+   },
+   {
+    "country": "Kenya",
+    "name": "Novatech Technologies",
+    "url": "https://novatechtechnologies.co.ke/",
+    "what": "computer shop selling laptops (Nairobi)"
+   }
+  ]
+ },
+ "OM System": {
+  "basis": "OM Digital Solutions was split from Olympus in 2021 and is headquartered in Tokyo, Japan.",
+  "countries": [
+   "Japan"
+  ],
+  "kind": "real",
+  "parent": "OM Digital Solutions",
+  "sources": [
+   "https://en.wikipedia.org/wiki/OM_Digital_Solutions"
+  ]
+ },
+ "Oclean": {
+  "basis": "Founded in 2016; headquartered in Shenzhen, China (the legal entity is Shenzhen Yunding Information Technology Co., Ltd.).",
+  "countries": [
+   "China"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://www.crunchbase.com/organization/oclean",
+   "https://www.dentaly.org/us/best-electric-toothbrush/oclean-toothbrush/"
+  ]
+ },
+ "OnePlus": {
+  "basis": "Founded in Shenzhen, China, in 2013; part of Oppo (Dongguan, China) since 2021.",
+  "countries": [
+   "China"
+  ],
+  "kind": "real",
+  "parent": "Oppo",
+  "sources": [
+   "https://en.wikipedia.org/wiki/OnePlus"
+  ]
+ },
+ "Optivex": {
+  "kind": "invented",
+  "namesakes": [
+   {
+    "country": "Canada",
+    "name": "Optivex Inc.",
+    "url": "https://optivex.ca/",
+    "what": "optical color sorting machines using multi-spectral cameras (Brampton, Ontario)"
+   },
+   {
+    "country": "United Kingdom",
+    "name": "OPTIVEX LIMITED",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16547398",
+    "what": "UK company registered in 2025, business not stated"
+   },
+   {
+    "country": "unknown",
+    "name": "Optivex",
+    "url": "https://buyoptivex.store/products/optivex",
+    "what": "camera glasses sold through an online store"
+   }
+  ]
+ },
+ "Oral-B": {
+  "basis": "Founded in California in 1950; owned by Procter & Gamble, Cincinnati, Ohio, since 2006 (via Gillette). Its electric brushes are made with Braun technology in Germany, which is not counted.",
+  "countries": [
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "Procter & Gamble",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Oral-B",
+   "https://en.wikipedia.org/wiki/Procter_%26_Gamble"
+  ]
+ },
+ "Osprey": {
+  "basis": "Founded in Santa Cruz, California, in 1974; headquarters in Cortez, Colorado; owned by Helen of Troy since 2021 (Bermuda-incorporated, operating headquarters El Paso, Texas).",
+  "countries": [
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "Helen of Troy",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Osprey_Packs",
+   "https://www.durangoherald.com/articles/news/the-osprey-packs-story-its-roots-success-sale-and-its-future-in-cortez/"
+  ]
+ },
+ "Philips": {
+  "basis": "Founded in Eindhoven, the Netherlands, in 1891; headquarters in Amsterdam.",
+  "countries": [
+   "Netherlands"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Philips"
+  ]
+ },
+ "Pixelight": {
+  "kind": "invented",
+  "namesakes": [
+   {
+    "country": "France",
+    "name": "Pixelight",
+    "url": "https://web.facebook.com/PixelightLedScreenDesign/",
+    "what": "large indoor and outdoor LED screens (Tourcoing; Visuall Group)"
+   },
+   {
+    "country": "India",
+    "name": "Vu Pixelight",
+    "url": "https://www.gizbot.com/home-entertainment/news/vu-televisions-launches-pixelight-led-tv-047765.html",
+    "what": "Pixelight line of 4K LED televisions by Vu Televisions"
+   }
+  ]
+ },
+ "Portabrew": {
+  "kind": "invented",
+  "namesakes": [
+   {
+    "country": "unknown",
+    "name": "PortaBrew",
+    "url": "https://portabrew.coffee/",
+    "what": "portable espresso and coffee makers sold under the name by several sellers"
+   },
+   {
+    "country": "unknown",
+    "name": "Lepresso Portabrew",
+    "url": "https://www.virginmegastore.qa/en/house/kitchenware-accessories/coffee-tea/coffee-machines/lepresso-portabrew-4-in-1-portable-coffee-machine-with-milk-frother---white/p/1129559",
+    "what": "4-in-1 portable coffee machine sold in Middle East retail"
+   }
+  ]
+ },
+ "Presswell": {
+  "kind": "invented",
+  "namesakes": [
+   {
+    "country": "United States",
+    "name": "Presswell Records Manufacturing Company",
+    "url": "https://www.discogs.com/label/130920-Presswell",
+    "what": "vinyl record pressing plant (Ancora, New Jersey)"
+   },
+   {
+    "country": "India",
+    "name": "Presswell Components",
+    "url": "https://presswellcomponents.com/",
+    "what": "plastic injection moulded components (Delhi)"
+   },
+   {
+    "country": "United Kingdom",
+    "name": "Presswell Enterprises Ltd",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/14644464",
+    "what": "UK company (Chesham), dissolved 2024"
+   }
+  ]
+ },
+ "Primebook": {
+  "kind": "invented",
+  "namesakes": [
+   {
+    "country": "India",
+    "name": "Primebook",
+    "url": "https://www.primebook.in/about-us",
+    "what": "low-cost Android-based laptops (PrimeOS), Delhi"
+   }
+  ]
+ },
+ "Quip": {
+  "basis": "Founded in 2015 by Simon Enever and Bill May; headquartered in Brooklyn, New York.",
+  "countries": [
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Quip_(company)"
+  ]
+ },
+ "Razer": {
+  "basis": "Refounded in 2005 in California; dual headquarters in Singapore and Irvine, California.",
+  "countries": [
+   "Singapore",
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Razer_Inc."
+  ]
+ },
+ "Roborock": {
+  "basis": "Founded in Beijing, China, in 2014; headquarters in Beijing.",
+  "countries": [
+   "China"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Roborock"
+  ]
+ },
+ "S'well": {
+  "basis": "Founded in New York City in 2010 by Sarah Kauss; headquarters in New York.",
+  "countries": [
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/S%27well"
+  ]
+ },
+ "Salomon": {
+  "basis": "Founded in Annecy, France, in 1947; headquartered in Annecy; owned by Amer Sports (Helsinki, Finland; controlled by a consortium led by Anta Sports of China, which is not counted).",
+  "countries": [
+   "France",
+   "Finland"
+  ],
+  "kind": "real",
+  "parent": "Amer Sports",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Salomon_Group",
+   "https://en.wikipedia.org/wiki/Amer_Sports"
+  ]
+ },
+ "Samsung": {
+  "basis": "Founded in Daegu, South Korea, in 1938; Samsung Electronics headquarters in Suwon, South Korea.",
+  "countries": [
+   "South Korea"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Samsung_Electronics"
+  ]
+ },
+ "SanDisk": {
+  "basis": "Founded in California in 1988; headquarters in Milpitas, California; owned by Western Digital until its spin-off in 2025.",
+  "countries": [
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/SanDisk"
+  ]
+ },
+ "Saucony": {
+  "basis": "Founded in Kutztown, Pennsylvania, in 1898; owned by Wolverine World Wide, Rockford, Michigan.",
+  "countries": [
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "Wolverine World Wide",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Saucony",
+   "https://en.wikipedia.org/wiki/Wolverine_World_Wide"
+  ]
+ },
+ "Seagate": {
+  "basis": "Founded in Scotts Valley, California, in 1979; operational headquarters in Fremont, California; the holding company, Seagate Technology Holdings plc, is domiciled in Dublin, Ireland (counted as a headquarters by Lane 7, 20 November 2026).",
+  "countries": [
+   "United States",
+   "Ireland"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Seagate_Technology"
+  ]
+ },
+ "Sennheiser": {
+  "basis": "Founded in Wedemark, Germany, in 1945; the consumer business is licensed to Sonova (Staefa, Switzerland) since 2022.",
+  "countries": [
+   "Germany",
+   "Switzerland"
+  ],
+  "kind": "real",
+  "parent": "Sonova",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Sennheiser",
+   "https://en.wikipedia.org/wiki/Sonova"
+  ]
+ },
+ "Shark": {
+  "basis": "Brand of SharkNinja, founded as Euro-Pro in Massachusetts; SharkNinja is headquartered in Needham, Massachusetts.",
+  "countries": [
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "SharkNinja",
+  "sources": [
+   "https://en.wikipedia.org/wiki/SharkNinja"
+  ]
+ },
+ "Shokz": {
+  "basis": "AfterShokz was founded in Syracuse, New York, in 2011; the US company is now in Austin, Texas; its parent, Shenzhen Shokz Co., Ltd., is in Shenzhen, China.",
+  "countries": [
+   "United States",
+   "China"
+  ],
+  "kind": "real",
+  "parent": "Shenzhen Shokz (Voxtech)",
+  "sources": [
+   "https://www.t3.com/tech/headphones/how-shokz-built-its-open-ear-empire-from-the-struggles-to-success",
+   "https://www.cbinsights.com/company/aftershokz"
+  ]
+ },
+ "Silicon Power": {
+  "basis": "Founded in 2003; headquartered in Taipei, Taiwan.",
+  "countries": [
+   "Taiwan"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Silicon_Power"
+  ]
+ },
+ "Sonance": {
+  "kind": "invented",
+  "namesakes": [
+   {
+    "country": "United States",
+    "name": "Sonance",
+    "url": "https://craft.co/sonance",
+    "what": "in-wall and architectural speakers, amplifiers, home audio (San Clemente, California)"
+   }
+  ]
+ },
+ "Sonaray": {
+  "kind": "invented",
+  "namesakes": []
+ },
+ "Sonique": {
+  "kind": "invented",
+  "namesakes": [
+   {
+    "country": "unknown",
+    "name": "Fuji Labs Sonique SQ306",
+    "url": "https://www.amazon.com/Fuji-Sonique-Premium-Beryllium-Headphones/dp/B00OZ26ZQW",
+    "what": "wired in-ear headphones sold under the model name Sonique"
+   },
+   {
+    "country": "United States",
+    "name": "Sonique (Lycos)",
+    "url": "https://en.wikipedia.org/wiki/Sonique_(media_player)",
+    "what": "audio player software for Windows (1998 to 2002)"
+   }
+  ]
+ },
+ "Sony": {
+  "basis": "Founded in Tokyo in 1946; headquarters in Tokyo.",
+  "countries": [
+   "Japan"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Sony"
+  ]
+ },
+ "SoundPEATS": {
+  "basis": "Founded in 2010 in Shenzhen, China; headquarters in Shenzhen.",
+  "countries": [
+   "China"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://audioreview.frieve.com/companies/en/soundpeats/"
+  ]
+ },
+ "Soundcore": {
+  "basis": "Brand of Anker Innovations, founded in Shenzhen, China, and headquartered in Changsha, China.",
+  "countries": [
+   "China"
+  ],
+  "kind": "real",
+  "parent": "Anker Innovations",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Soundcore",
+   "https://en.wikipedia.org/wiki/Anker_Innovations"
+  ]
+ },
+ "Stanley": {
+  "basis": "Founded in 1913 in the United States; owned by Pacific Market International (PMI), Seattle, Washington.",
+  "countries": [
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "PMI",
+  "sources": [
+   "https://www.stanley1913.com/"
+  ]
+ },
+ "Stridewell": {
+  "kind": "invented",
+  "namesakes": [
+   {
+    "country": "unknown",
+    "name": "Stridewell",
+    "url": "https://shop.footsolutions.com/products/stridewell-alpha-19",
+    "what": "comfort footwear (Alpha dress shoes) and compression socks sold through Foot Solutions and comfort shoe shops"
+   }
+  ]
+ },
+ "Swiftform": {
+  "kind": "invented",
+  "namesakes": []
+ },
+ "TCL": {
+  "basis": "Founded in Huizhou, China, in 1981; headquarters in Huizhou.",
+  "countries": [
+   "China"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/TCL_Technology"
+  ]
+ },
+ "TOZO": {
+  "basis": "TOZO Inc is registered in Seattle, Washington (established 2015) according to most sources; products are made in China and one source gives Shenzhen as the base. Only the United States is sourced firmly.",
+  "countries": [
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/TOZO",
+   "https://www.cbinsights.com/company/tozo"
+  ]
+ },
+ "TP-Link": {
+  "basis": "Founded in Shenzhen, China, in 1996; TP-Link Systems Inc. (the US business) is headquartered in Irvine, California.",
+  "countries": [
+   "China",
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/TP-Link"
+  ]
+ },
+ "Teclast": {
+  "basis": "Founded in 1999; headquartered in Guangzhou according to Baidu, with its research center in Shenzhen; both are in China.",
+  "countries": [
+   "China"
+  ],
+  "kind": "real",
+  "parent": "Shangke Group",
+  "sources": [
+   "https://en.teclast.com/about/",
+   "https://baike.baidu.com/en/item/TECLAST/85701"
+  ]
+ },
+ "Terravolt": {
+  "kind": "invented",
+  "namesakes": [
+   {
+    "country": "France",
+    "name": "TerraVolt",
+    "url": "https://www.frenchrenewableenergy.com/company-details/terravolt-534",
+    "what": "energy-recovery research subsidiary of Best Energies"
+   },
+   {
+    "country": "India",
+    "name": "Terravolt Renewables",
+    "url": "https://terravolt.in/about-us/",
+    "what": "wind and solar energy"
+   },
+   {
+    "country": "United States",
+    "name": "TerraVolt Holdings",
+    "url": "https://terravoltholdings.com/",
+    "what": "data center campus developer"
+   },
+   {
+    "country": "United States",
+    "name": "Terravolt, LLC",
+    "url": "https://www.terravolt.net/",
+    "what": "solar design and consulting (Oregon City, Oregon)"
+   }
+  ]
+ },
+ "The North Face": {
+  "basis": "Founded in San Francisco in 1966; owned by VF Corporation, Denver, Colorado.",
+  "countries": [
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "VF Corporation",
+  "sources": [
+   "https://en.wikipedia.org/wiki/The_North_Face",
+   "https://en.wikipedia.org/wiki/VF_Corporation"
+  ]
+ },
+ "Thermalux": {
+  "kind": "invented",
+  "namesakes": [
+   {
+    "country": "Japan",
+    "name": "Thermalux",
+    "url": "https://thermalux.com/about-tankless/",
+    "what": "tankless water heaters, made in Kobe since 1950, sold in the United States"
+   }
+  ]
+ },
+ "ThermoFlask": {
+  "basis": "Owned by Takeya USA (Costa Mesa, California), a subsidiary of Takeya Corporation of Japan (founded in Osaka in 1961).",
+  "countries": [
+   "United States",
+   "Japan"
+  ],
+  "kind": "real",
+  "parent": "Takeya",
+  "sources": [
+   "https://www.crunchbase.com/organization/thermoflask",
+   "https://www.prnewswire.com/news-releases/takeya-usa-names-john-sanchez-as-president-and-ceo-302531332.html"
+  ]
+ },
+ "Topo Athletic": {
+  "basis": "Founded by Tony Post in 2012; headquartered in Framingham, Massachusetts; owned by Designer Brands (Columbus, Ohio) since 2022.",
+  "countries": [
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "Designer Brands",
+  "sources": [
+   "https://investors.designerbrands.com/2022-12-19-Designer-Brands-Acquires-Topo-Athletic,-Accelerating-Owned-Brands-in-Leading-Shoe-Sales-Category"
+  ]
+ },
+ "Trailpeak": {
+  "kind": "invented",
+  "namesakes": [
+   {
+    "country": "United States",
+    "name": "TRAILPEAKIS LLC (Trailpeak)",
+    "url": "https://trailpeakisllc.com/",
+    "what": "small online shop selling hiking backpacks, water bottles and camping gear (Dayton, Ohio)"
+   },
+   {
+    "country": "unknown",
+    "name": "Trail Peak Outfitters",
+    "url": "https://trailpeakoutfitters.com/",
+    "what": "online store selling a 42L tactical backpack"
+   },
+   {
+    "country": "Canada",
+    "name": "Trailpeak",
+    "url": "https://trailpeak.com/",
+    "what": "trail guide website"
+   },
+   {
+    "country": "United States",
+    "name": "Teva Trailpeak",
+    "url": "https://ir.deckers.com/news-events/press-releases/detail/662/introducing-trailpeak-tevas-first-high-performance-daily-trail-running-shoe-co-created-with-the-brands-bureau-of-adventure-athletes",
+    "what": "trail running shoe (a model by Teva, Deckers)"
+   }
+  ]
+ },
+ "Tribit": {
+  "basis": "Tribit products come from Thousandshores Inc., Newark, California, with Shenzhen Thousandshores Technology in Shenzhen, China; founded about 2017.",
+  "countries": [
+   "United States",
+   "China"
+  ],
+  "kind": "real",
+  "parent": "Thousandshores",
+  "sources": [
+   "https://www.crunchbase.com/organization/tribit",
+   "https://www.itechguides.com/who-makes-tribit-companies-behind-the-audio-brand/"
+  ]
+ },
+ "Ultimate Ears": {
+  "basis": "Founded in the United States (California) in 1995; owned by Logitech (Lausanne, Switzerland, and Newark, California).",
+  "countries": [
+   "United States",
+   "Switzerland"
+  ],
+  "kind": "real",
+  "parent": "Logitech",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ultimate_Ears"
+  ]
+ },
+ "Varia": {
+  "basis": "Varia Brewing, founded in 2019 by a New Zealander, is registered in Hong Kong with manufacturing and operations in Shanghai; retailers often call it a New Zealand company. Country uncertain, only Hong Kong is firmly sourced.",
+  "countries": [
+   "Hong Kong",
+   "China"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://dailycoffeenews.com/2022/08/24/varia-brewing-launches-the-vs3-electric-grinder/",
+   "https://espressooutlet.com/blogs/news/varia-coffee-grinders-models-history-alternatives"
+  ]
+ },
+ "Vaultdrive": {
+  "kind": "invented",
+  "namesakes": [
+   {
+    "country": "China",
+    "name": "VaultDrive (Facrypt)",
+    "url": "https://facrypt.com/",
+    "what": "2TB portable SSD with NFC unlock and AES-256 encryption, made by DSCC of Guangzhou"
+   },
+   {
+    "country": "unknown",
+    "name": "VaultDrive",
+    "url": "https://apps.apple.com/us/app/vaultdrive-usb-photo-backup/id6772883827",
+    "what": "iOS app for USB photo backup (Coticsy LLC)"
+   }
+  ]
+ },
+ "Veridian": {
+  "kind": "invented",
+  "namesakes": [
+   {
+    "country": "unknown",
+    "name": "Veridian Systems",
+    "url": "https://www.veridiansystems.net/",
+    "what": "NFC, QR and RFID product authentication"
+   },
+   {
+    "country": "United States",
+    "name": "Veridian Corporation",
+    "url": "https://www.encyclopedia.com/books/politics-and-business-magazines/veridian-corporation",
+    "what": "defense and IT services (acquired by General Dynamics in 2003)"
+   }
+  ]
+ },
+ "Vistara": {
+  "kind": "invented",
+  "namesakes": [
+   {
+    "country": "India",
+    "name": "Vistara (Tata SIA Airlines)",
+    "url": "https://www.tata.com/business/tata-sia-airlines-vistara",
+    "what": "airline, merged into Air India in November 2024"
+   }
+  ]
+ },
+ "Vitamix": {
+  "basis": "Founded in Cleveland, Ohio, in 1921; headquarters in Olmsted Township, Ohio.",
+  "countries": [
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Vitamix"
+  ]
+ },
+ "Vizio": {
+  "basis": "Founded in California in 2002; headquartered in Irvine; owned by Walmart (Bentonville, Arkansas) since 2024.",
+  "countries": [
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "Walmart",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Vizio"
+  ]
+ },
+ "Vynex": {
+  "kind": "invented",
+  "namesakes": [
+   {
+    "country": "unknown",
+    "name": "Vynex Automotive",
+    "url": "https://www.vynexauto.com/",
+    "what": "car audio, head units and subwoofers"
+   }
+  ]
+ },
+ "Wacaco": {
+  "basis": "Founded in Hong Kong in 2013 by Jessie Wang and Hugo Cailleton; headquarters in Kowloon, Hong Kong (production facilities in mainland China).",
+  "countries": [
+   "Hong Kong"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://www.wacaco.com/pages/about-us",
+   "https://wikitia.com/wiki/WACACO_Company"
+  ]
+ },
+ "Wavecrest": {
+  "kind": "invented",
+  "namesakes": [
+   {
+    "country": "United States",
+    "name": "Wavecrest Audio",
+    "url": "https://www.zoominfo.com/c/wavecrest-audio/359707383",
+    "what": "bookshelf speakers (HVL-1), Manhattan Beach, California; probably out of business"
+   },
+   {
+    "country": "unknown",
+    "name": "Wavecrest",
+    "url": "https://www.linkedin.com/company/wavecrest",
+    "what": "managed voice and messaging services"
+   }
+  ]
+ },
+ "Western Digital": {
+  "basis": "Founded in California in 1970; headquarters in San Jose, California.",
+  "countries": [
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Western_Digital"
+  ]
+ },
+ "Xiaomi": {
+  "basis": "Founded in Beijing, China, in 2010; headquarters in Beijing.",
+  "countries": [
+   "China"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Xiaomi"
+  ]
+ },
+ "Yeti": {
+  "basis": "Founded in Austin, Texas, in 2006; headquarters in Austin.",
+  "countries": [
+   "United States"
+  ],
+  "kind": "real",
+  "parent": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Yeti_(company)"
+  ]
+ },
+ "Zentria": {
+  "kind": "invented",
+  "namesakes": [
+   {
+    "country": "Estonia",
+    "name": "Zentria",
+    "url": "https://github.com/ZentriaMC",
+    "what": "software company (Tartu)"
+   },
+   {
+    "country": "United Kingdom",
+    "name": "Zentria Ltd",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/10812987",
+    "what": "UK private limited company"
+   },
+   {
+    "country": "United States",
+    "name": "Zentria Inc.",
+    "url": "https://zentriaflow.com/hs-code/electronics",
+    "what": "tariff classification software"
+   }
+  ]
+ },
+ "eufy": {
+  "basis": "Brand of Anker Innovations (founded in Shenzhen, headquartered in Changsha, China).",
+  "countries": [
+   "China"
+  ],
+  "kind": "real",
+  "parent": "Anker Innovations",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Anker_Innovations"
+  ]
+ },
+ "iRobot": {
+  "basis": "Founded in Massachusetts in 1990 and headquartered in Bedford, Massachusetts; wholly owned by Shenzhen Picea Robotics (Shenzhen, China) and Santrum Hong Kong since January 2026.",
+  "countries": [
+   "United States",
+   "China",
+   "Hong Kong"
+  ],
+  "kind": "real",
+  "parent": "Picea",
+  "sources": [
+   "https://media.irobot.com/2026-01-23-iRobot-Completes-Court-Supervised-Transaction-with-Picea,-Enabling-the-Next-Chapter-of-Growth",
+   "https://en.wikipedia.org/wiki/IRobot"
+  ]
+ }
+}

@@ -1,0 +1,1019 @@
+{
+ "about": "For each setting of the paper (a row), each cell's models whose answers came back and whether the cell's analysis is done; the settings tables count the models and their developers from it.",
+ "written": "2026-11-23 12:05 AM Central",
+ "rows": [
+  {
+   "id": "1a-strict",
+   "cells": {
+    "claude5": {
+     "names": [
+      "claude-fable-5-1",
+      "claude-haiku-5-5",
+      "claude-opus-5-5",
+      "claude-sonnet-5-5"
+     ],
+     "status": "done"
+    },
+    "gpt6": {
+     "names": [
+      "gpt-6-astra",
+      "gpt-6.1-sol",
+      "gpt-6.2-astra",
+      "gpt-6.2-sol"
+     ],
+     "status": "done"
+    },
+    "open": {
+     "names": [
+      "ernie45-21b",
+      "gemma3-27b",
+      "gemma31b",
+      "gemma4-12b",
+      "gemma4-26b",
+      "glm47-flash",
+      "gptoss120b",
+      "gptoss20b",
+      "granite41-30b",
+      "granite42-30b",
+      "llama3b",
+      "llama8b",
+      "marin8b",
+      "ministral3-14b",
+      "olmo3-7b",
+      "olmo31-32b",
+      "phi4",
+      "qwen3-30b",
+      "qwen3-32b",
+      "qwen32b",
+      "qwen35-0.8b",
+      "qwen35-2b",
+      "qwen35-35b",
+      "qwen35-4b",
+      "qwen35-9b",
+      "qwen7b"
+     ],
+     "status": "done"
+    },
+    "also": {
+     "names": [
+      "claude-fable-5-2"
+     ],
+     "status": "done"
+    }
+   }
+  },
+  {
+   "id": "1a-original",
+   "cells": {
+    "claude5": {
+     "names": [
+      "claude-fable-5-1",
+      "claude-haiku-5-5",
+      "claude-opus-5-5",
+      "claude-sonnet-5-5"
+     ],
+     "status": "done"
+    },
+    "gpt6": {
+     "names": [
+      "gpt-6-astra",
+      "gpt-6.1-sol",
+      "gpt-6.2-astra",
+      "gpt-6.2-sol"
+     ],
+     "status": "done"
+    },
+    "open": {
+     "names": [
+      "ernie45-21b",
+      "gemma3-27b",
+      "gemma31b",
+      "gemma4-12b",
+      "gemma4-26b",
+      "glm47-flash",
+      "gptoss120b",
+      "gptoss20b",
+      "granite41-30b",
+      "granite42-30b",
+      "llama3b",
+      "llama8b",
+      "marin8b",
+      "ministral3-14b",
+      "olmo3-7b",
+      "olmo31-32b",
+      "phi4",
+      "qwen3-30b",
+      "qwen3-32b",
+      "qwen32b",
+      "qwen35-0.8b",
+      "qwen35-2b",
+      "qwen35-4b",
+      "qwen35-9b",
+      "qwen7b"
+     ],
+     "status": "done"
+    },
+    "also": {
+     "names": [
+      "claude-fable-5-2"
+     ],
+     "status": "done"
+    }
+   }
+  },
+  {
+   "id": "1b-pooled",
+   "cells": {
+    "claude5": {
+     "names": [
+      "claude-fable-5-1",
+      "claude-haiku-5-5",
+      "claude-opus-5-5",
+      "claude-sonnet-5-5"
+     ],
+     "status": "done"
+    },
+    "gpt6": {
+     "names": [
+      "gpt-6-astra",
+      "gpt-6.1-sol",
+      "gpt-6.2-astra",
+      "gpt-6.2-sol"
+     ],
+     "status": "done"
+    },
+    "open": {
+     "names": [
+      "ernie45-21b",
+      "gemma3-27b",
+      "gemma31b",
+      "gemma4-12b",
+      "gemma4-26b",
+      "glm47-flash",
+      "gptoss120b",
+      "gptoss20b",
+      "granite41-30b",
+      "granite42-30b",
+      "llama3b",
+      "llama8b",
+      "marin8b",
+      "ministral3-14b",
+      "olmo3-7b",
+      "olmo31-32b",
+      "phi4",
+      "qwen3-30b",
+      "qwen3-32b",
+      "qwen32b",
+      "qwen35-0.8b",
+      "qwen35-2b",
+      "qwen35-35b",
+      "qwen35-4b",
+      "qwen35-9b",
+      "qwen7b"
+     ],
+     "status": "done"
+    },
+    "also": {
+     "names": [
+      "Claude Haiku 4.5",
+      "Claude Opus 4.6",
+      "Claude Opus 4.7",
+      "Claude Sonnet 4.6",
+      "DeepSeek R1",
+      "DeepSeek V3",
+      "GPT-4.1 mini",
+      "GPT-4.1 nano",
+      "GPT-4o",
+      "GPT-4o mini",
+      "GPT-5 mini",
+      "GPT-5.4",
+      "GPT-5.4 mini",
+      "GPT-5.4 nano",
+      "Gemini 2.0 Flash",
+      "Gemini 2.5 Flash",
+      "Gemini 2.5 Flash-Lite",
+      "Gemini 2.5 Pro",
+      "Gemini 3 Flash",
+      "Gemini 3.1 Flash-Lite",
+      "Gemini 3.1 Pro",
+      "Gemma 3 27B",
+      "Gemma 4 31B",
+      "Kimi K2",
+      "Llama 3.3 70B",
+      "Qwen 2.5 72B",
+      "claude-fable-5-2"
+     ],
+     "status": "done"
+    }
+   }
+  },
+  {
+   "id": "1b-corpus",
+   "cells": {
+    "also": {
+     "names": [
+      "Claude Haiku 4.5",
+      "Claude Opus 4.6",
+      "Claude Opus 4.7",
+      "Claude Sonnet 4.6",
+      "DeepSeek R1",
+      "DeepSeek V3",
+      "GPT-4.1 mini",
+      "GPT-4.1 nano",
+      "GPT-4o",
+      "GPT-4o mini",
+      "GPT-5 mini",
+      "GPT-5.4",
+      "GPT-5.4 mini",
+      "GPT-5.4 nano",
+      "Gemini 2.0 Flash",
+      "Gemini 2.5 Flash",
+      "Gemini 2.5 Flash-Lite",
+      "Gemini 2.5 Pro",
+      "Gemini 3 Flash",
+      "Gemini 3.1 Flash-Lite",
+      "Gemini 3.1 Pro",
+      "Gemma 3 27B",
+      "Gemma 4 31B",
+      "Kimi K2",
+      "Llama 3.3 70B",
+      "Qwen 2.5 72B"
+     ],
+     "status": "done"
+    }
+   }
+  },
+  {
+   "id": "1b-again",
+   "cells": {
+    "claude5": {
+     "names": [
+      "claude-fable-5-1",
+      "claude-haiku-5-5",
+      "claude-opus-5-5",
+      "claude-sonnet-5-5"
+     ],
+     "status": "done"
+    },
+    "gpt6": {
+     "names": [
+      "gpt-6-astra",
+      "gpt-6.1-sol",
+      "gpt-6.2-astra",
+      "gpt-6.2-sol"
+     ],
+     "status": "done"
+    },
+    "open": {
+     "names": [
+      "ernie45-21b",
+      "gemma3-27b",
+      "gemma31b",
+      "gemma4-12b",
+      "gemma4-26b",
+      "glm47-flash",
+      "gptoss120b",
+      "gptoss20b",
+      "granite41-30b",
+      "granite42-30b",
+      "llama3b",
+      "llama8b",
+      "marin8b",
+      "ministral3-14b",
+      "olmo3-7b",
+      "olmo31-32b",
+      "phi4",
+      "qwen3-30b",
+      "qwen3-32b",
+      "qwen32b",
+      "qwen35-0.8b",
+      "qwen35-2b",
+      "qwen35-35b",
+      "qwen35-4b",
+      "qwen35-9b",
+      "qwen7b"
+     ],
+     "status": "done"
+    },
+    "also": {
+     "names": [
+      "claude-fable-5-2"
+     ],
+     "status": "done"
+    }
+   }
+  },
+  {
+   "id": "1b-requests",
+   "cells": {
+    "claude5": {
+     "names": [
+      "claude-fable-5-1",
+      "claude-haiku-5-5",
+      "claude-opus-5-5",
+      "claude-sonnet-5-5"
+     ],
+     "status": "done"
+    },
+    "gpt6": {
+     "names": [
+      "gpt-6.1-sol",
+      "gpt-6.2-sol"
+     ],
+     "status": "done"
+    },
+    "open": {
+     "names": [
+      "ernie45-21b",
+      "gemma3-27b",
+      "gemma31b",
+      "gemma4-12b",
+      "gemma4-26b",
+      "glm47-flash",
+      "gptoss120b",
+      "gptoss20b",
+      "granite41-30b",
+      "granite42-30b",
+      "kimi-linear48b",
+      "llama3b",
+      "llama8b",
+      "marin8b",
+      "ministral3-14b",
+      "nemotron3-nano30b",
+      "olmo3-7b",
+      "olmo31-32b",
+      "phi4",
+      "qwen3-30b",
+      "qwen3-32b",
+      "qwen32b",
+      "qwen35-0.8b",
+      "qwen35-122b-fp8",
+      "qwen35-2b",
+      "qwen35-35b",
+      "qwen35-4b",
+      "qwen35-9b",
+      "qwen7b"
+     ],
+     "status": "in progress"
+    }
+   }
+  },
+  {
+   "id": "1b-priorities",
+   "cells": {
+    "claude5": {
+     "names": [],
+     "status": "not run"
+    },
+    "gpt6": {
+     "names": [],
+     "status": "skipped"
+    },
+    "open": {
+     "names": [
+      "ernie45-21b",
+      "gemma3-27b",
+      "gemma31b",
+      "gemma4-12b",
+      "gemma4-26b",
+      "glm47-flash",
+      "gptoss120b",
+      "gptoss20b",
+      "granite41-30b",
+      "granite42-30b",
+      "llama3b",
+      "llama8b",
+      "marin8b",
+      "ministral3-14b",
+      "nemotron3-nano30b",
+      "olmo3-7b",
+      "olmo31-32b",
+      "phi4",
+      "qwen3-30b",
+      "qwen3-32b",
+      "qwen32b",
+      "qwen35-0.8b",
+      "qwen35-122b-fp8",
+      "qwen35-27b",
+      "qwen35-2b",
+      "qwen35-35b",
+      "qwen35-4b",
+      "qwen35-9b",
+      "qwen36-27b",
+      "qwen38-27b",
+      "qwen7b"
+     ],
+     "status": "done"
+    }
+   }
+  },
+  {
+   "id": "1b-clarifying",
+   "cells": {
+    "claude5": {
+     "names": [],
+     "status": "not run"
+    },
+    "gpt6": {
+     "names": [],
+     "status": "skipped"
+    },
+    "open": {
+     "names": [
+      "ernie45-21b",
+      "gemma3-27b",
+      "gemma31b",
+      "gemma4-12b",
+      "gemma4-26b",
+      "glm47-flash",
+      "gptoss120b",
+      "gptoss20b",
+      "granite41-30b",
+      "granite42-30b",
+      "kimi-linear48b",
+      "llama3b",
+      "llama8b",
+      "marin8b",
+      "ministral3-14b",
+      "nemotron3-nano30b",
+      "olmo3-7b",
+      "olmo31-32b",
+      "phi4",
+      "qwen3-30b",
+      "qwen3-32b",
+      "qwen32b",
+      "qwen35-0.8b",
+      "qwen35-122b-fp8",
+      "qwen35-2b",
+      "qwen35-35b",
+      "qwen35-4b",
+      "qwen35-9b",
+      "qwen7b"
+     ],
+     "status": "in progress"
+    }
+   }
+  },
+  {
+   "id": "1c-store",
+   "cells": {
+    "claude5": {
+     "names": [
+      "claude-fable-5-1",
+      "claude-haiku-5-5",
+      "claude-opus-5-5",
+      "claude-sonnet-5-5"
+     ],
+     "status": "done"
+    },
+    "gpt6": {
+     "names": [],
+     "status": "skipped"
+    },
+    "open": {
+     "names": [
+      "ernie45-21b",
+      "gemma3-27b",
+      "gemma31b",
+      "gemma4-12b",
+      "gemma4-26b",
+      "glm47-flash",
+      "gptoss120b",
+      "gptoss20b",
+      "granite41-30b",
+      "granite42-30b",
+      "llama3b",
+      "llama8b",
+      "marin8b",
+      "ministral3-14b",
+      "nemotron3-nano30b",
+      "olmo3-7b",
+      "olmo31-32b",
+      "phi4",
+      "qwen3-30b",
+      "qwen3-32b",
+      "qwen32b",
+      "qwen35-0.8b",
+      "qwen35-122b-fp8",
+      "qwen35-27b",
+      "qwen35-2b",
+      "qwen35-35b",
+      "qwen35-4b",
+      "qwen35-9b",
+      "qwen36-27b",
+      "qwen38-27b",
+      "qwen7b"
+     ],
+     "status": "done"
+    }
+   }
+  },
+  {
+   "id": "1c-search",
+   "cells": {
+    "claude5": {
+     "names": [
+      "claude-fable-5-1",
+      "claude-haiku-5-5",
+      "claude-opus-5-5",
+      "claude-sonnet-5-5"
+     ],
+     "status": "done"
+    },
+    "gpt6": {
+     "names": [],
+     "status": "skipped"
+    },
+    "open": {
+     "names": [
+      "ernie45-21b",
+      "gemma3-27b",
+      "gemma31b",
+      "gemma4-12b",
+      "gemma4-26b",
+      "glm47-flash",
+      "gptoss120b",
+      "gptoss20b",
+      "granite41-30b",
+      "granite42-30b",
+      "llama3b",
+      "llama8b",
+      "marin8b",
+      "ministral3-14b",
+      "nemotron3-nano30b",
+      "olmo3-7b",
+      "olmo31-32b",
+      "phi4",
+      "qwen3-30b",
+      "qwen3-32b",
+      "qwen32b",
+      "qwen35-0.8b",
+      "qwen35-122b-fp8",
+      "qwen35-27b",
+      "qwen35-2b",
+      "qwen35-35b",
+      "qwen35-4b",
+      "qwen35-9b",
+      "qwen36-27b",
+      "qwen38-27b",
+      "qwen7b"
+     ],
+     "status": "done"
+    }
+   }
+  },
+  {
+   "id": "2a-information",
+   "cells": {
+    "claude5": {
+     "names": [
+      "claude-fable-5-1",
+      "claude-haiku-5-5",
+      "claude-opus-5-5",
+      "claude-sonnet-5-5"
+     ],
+     "status": "done"
+    },
+    "gpt6": {
+     "names": [
+      "gpt-6-astra",
+      "gpt-6.1-sol",
+      "gpt-6.2-astra",
+      "gpt-6.2-sol"
+     ],
+     "status": "done"
+    },
+    "open": {
+     "names": [
+      "ernie45-21b",
+      "gemma3-27b",
+      "gemma31b",
+      "gemma4-12b",
+      "gemma4-26b",
+      "glm47-flash",
+      "gptoss120b",
+      "gptoss20b",
+      "granite41-30b",
+      "granite42-30b",
+      "llama3b",
+      "llama8b",
+      "marin8b",
+      "ministral3-14b",
+      "olmo3-7b",
+      "olmo31-32b",
+      "phi4",
+      "qwen3-30b",
+      "qwen3-32b",
+      "qwen32b",
+      "qwen35-0.8b",
+      "qwen35-2b",
+      "qwen35-35b",
+      "qwen35-4b",
+      "qwen35-9b",
+      "qwen7b"
+     ],
+     "status": "done"
+    },
+    "also": {
+     "names": [
+      "claude-fable-5-2"
+     ],
+     "status": "done"
+    }
+   }
+  },
+  {
+   "id": "2a-retrieval",
+   "cells": {
+    "claude5": {
+     "names": [
+      "claude-fable-5-1",
+      "claude-haiku-5-5",
+      "claude-opus-5-5",
+      "claude-sonnet-5-5"
+     ],
+     "status": "done"
+    },
+    "gpt6": {
+     "names": [],
+     "status": "skipped"
+    },
+    "open": {
+     "names": [
+      "gemma31b",
+      "gemma4-26b",
+      "granite41-30b",
+      "llama8b",
+      "marin8b",
+      "ministral3-14b",
+      "olmo31-32b",
+      "phi4",
+      "qwen3-30b",
+      "qwen32b"
+     ],
+     "status": "done"
+    }
+   }
+  },
+  {
+   "id": "2b-split",
+   "cells": {
+    "claude5": {
+     "names": [
+      "claude-fable-5-1",
+      "claude-haiku-5-5",
+      "claude-opus-5-5",
+      "claude-sonnet-5-5"
+     ],
+     "status": "done"
+    },
+    "gpt6": {
+     "names": [
+      "gpt-6-astra",
+      "gpt-6.1-sol",
+      "gpt-6.2-astra",
+      "gpt-6.2-sol"
+     ],
+     "status": "done"
+    },
+    "open": {
+     "names": [
+      "ernie45-21b",
+      "gemma3-27b",
+      "gemma31b",
+      "gemma4-12b",
+      "gemma4-26b",
+      "glm47-flash",
+      "gptoss120b",
+      "gptoss20b",
+      "granite41-30b",
+      "granite42-30b",
+      "llama3b",
+      "llama8b",
+      "marin8b",
+      "ministral3-14b",
+      "nemotron3-nano30b",
+      "olmo3-7b",
+      "olmo31-32b",
+      "phi4",
+      "qwen3-30b",
+      "qwen3-32b",
+      "qwen32b",
+      "qwen35-0.8b",
+      "qwen35-122b-fp8",
+      "qwen35-27b",
+      "qwen35-2b",
+      "qwen35-35b",
+      "qwen35-4b",
+      "qwen35-9b",
+      "qwen36-27b",
+      "qwen38-27b",
+      "qwen7b"
+     ],
+     "status": "done"
+    }
+   }
+  },
+  {
+   "id": "2b-attributes",
+   "cells": {
+    "claude5": {
+     "names": [
+      "claude-haiku-5-5",
+      "claude-opus-5-5",
+      "claude-sonnet-5-5"
+     ],
+     "status": "done"
+    },
+    "gpt6": {
+     "names": [
+      "gpt-6.1-sol",
+      "gpt-6.2-sol"
+     ],
+     "status": "done"
+    },
+    "open": {
+     "names": [
+      "ernie45-21b",
+      "gemma3-27b",
+      "gemma31b",
+      "gemma4-12b",
+      "gemma4-26b",
+      "glm47-flash",
+      "gptoss120b",
+      "gptoss20b",
+      "granite41-30b",
+      "granite42-30b",
+      "llama3b",
+      "llama8b",
+      "marin8b",
+      "ministral3-14b",
+      "nemotron3-nano30b",
+      "olmo3-7b",
+      "olmo31-32b",
+      "phi4",
+      "qwen3-30b",
+      "qwen3-32b",
+      "qwen32b",
+      "qwen35-0.8b",
+      "qwen35-122b-fp8",
+      "qwen35-27b",
+      "qwen35-2b",
+      "qwen35-35b",
+      "qwen35-4b",
+      "qwen35-9b",
+      "qwen36-27b",
+      "qwen38-27b",
+      "qwen7b"
+     ],
+     "status": "done"
+    }
+   }
+  },
+  {
+   "id": "2c-price",
+   "cells": {
+    "claude5": {
+     "names": [
+      "claude-fable-5-1",
+      "claude-haiku-5-5",
+      "claude-opus-5-5",
+      "claude-sonnet-5-5"
+     ],
+     "status": "done"
+    },
+    "gpt6": {
+     "names": [],
+     "status": "skipped"
+    },
+    "open": {
+     "names": [
+      "ernie45-21b",
+      "gemma3-27b",
+      "gemma31b",
+      "gemma4-12b",
+      "gemma4-26b",
+      "glm47-flash",
+      "gptoss120b",
+      "gptoss20b",
+      "granite41-30b",
+      "granite42-30b",
+      "llama3b",
+      "llama8b",
+      "marin8b",
+      "ministral3-14b",
+      "nemotron3-nano30b",
+      "olmo3-7b",
+      "olmo31-32b",
+      "phi4",
+      "qwen3-30b",
+      "qwen3-32b",
+      "qwen32b",
+      "qwen35-0.8b",
+      "qwen35-122b-fp8",
+      "qwen35-27b",
+      "qwen35-2b",
+      "qwen35-35b",
+      "qwen35-4b",
+      "qwen35-9b",
+      "qwen36-27b",
+      "qwen38-27b",
+      "qwen7b"
+     ],
+     "status": "done"
+    }
+   }
+  },
+  {
+   "id": "2c-measure",
+   "cells": {
+    "claude5": {
+     "names": [],
+     "status": "not run"
+    },
+    "gpt6": {
+     "names": [],
+     "status": "skipped"
+    },
+    "open": {
+     "names": [
+      "ernie45-21b",
+      "gemma3-27b",
+      "gemma31b",
+      "gemma4-12b",
+      "gemma4-26b",
+      "glm47-flash",
+      "gptoss120b",
+      "gptoss20b",
+      "granite41-30b",
+      "granite42-30b",
+      "llama3b",
+      "llama8b",
+      "marin8b",
+      "ministral3-14b",
+      "nemotron3-nano30b",
+      "olmo3-7b",
+      "olmo31-32b",
+      "phi4",
+      "qwen3-30b",
+      "qwen3-32b",
+      "qwen32b",
+      "qwen35-0.8b",
+      "qwen35-122b-fp8",
+      "qwen35-27b",
+      "qwen35-2b",
+      "qwen35-35b",
+      "qwen35-4b",
+      "qwen35-9b",
+      "qwen36-27b",
+      "qwen38-27b",
+      "qwen7b"
+     ],
+     "status": "done"
+    }
+   }
+  },
+  {
+   "id": "2d-audit",
+   "cells": {
+    "claude5": {
+     "names": [
+      "claude-fable-5-1",
+      "claude-haiku-5-5",
+      "claude-opus-5-5",
+      "claude-sonnet-5-5"
+     ],
+     "status": "done"
+    },
+    "gpt6": {
+     "names": [],
+     "status": "skipped"
+    },
+    "open": {
+     "names": [
+      "ernie45-21b",
+      "gemma3-27b",
+      "gemma31b",
+      "gemma4-12b",
+      "gemma4-26b",
+      "glm47-flash",
+      "gptoss120b",
+      "gptoss20b",
+      "granite41-30b",
+      "granite42-30b",
+      "kimi-linear48b",
+      "llama3b",
+      "llama8b",
+      "marin8b",
+      "ministral3-14b",
+      "nemotron3-nano30b",
+      "olmo3-7b",
+      "olmo31-32b",
+      "phi4",
+      "qwen3-30b",
+      "qwen3-32b",
+      "qwen32b",
+      "qwen35-0.8b",
+      "qwen35-27b",
+      "qwen35-2b",
+      "qwen35-35b",
+      "qwen35-4b",
+      "qwen35-9b",
+      "qwen36-27b",
+      "qwen38-27b",
+      "qwen7b"
+     ],
+     "status": "done"
+    }
+   }
+  },
+  {
+   "id": "2e-reasons",
+   "cells": {
+    "claude5": {
+     "names": [
+      "claude-fable-5-1",
+      "claude-haiku-5-5",
+      "claude-opus-5-5",
+      "claude-sonnet-5-5"
+     ],
+     "status": "in progress"
+    },
+    "gpt6": {
+     "names": [
+      "gpt-6-astra",
+      "gpt-6.1-sol",
+      "gpt-6.2-astra",
+      "gpt-6.2-sol"
+     ],
+     "status": "in progress"
+    },
+    "open": {
+     "names": [
+      "ernie45-21b",
+      "gemma3-27b",
+      "gemma31b",
+      "gemma4-12b",
+      "gemma4-26b",
+      "glm47-flash",
+      "gptoss120b",
+      "gptoss20b",
+      "granite41-30b",
+      "granite42-30b",
+      "kimi-linear48b",
+      "llama3b",
+      "llama8b",
+      "marin8b",
+      "ministral3-14b",
+      "olmo3-7b",
+      "olmo31-32b",
+      "phi4",
+      "qwen3-30b",
+      "qwen3-32b",
+      "qwen32b",
+      "qwen35-0.8b",
+      "qwen35-2b",
+      "qwen35-35b",
+      "qwen35-4b",
+      "qwen35-9b",
+      "qwen7b"
+     ],
+     "status": "in progress"
+    },
+    "also": {
+     "names": [
+      "claude-fable-5-2"
+     ],
+     "status": "done"
+    }
+   }
+  },
+  {
+   "id": "3a-pages",
+   "cells": {
+    "open": {
+     "names": [],
+     "status": "done"
+    }
+   }
+  },
+  {
+   "id": "3b-stages",
+   "cells": {
+    "open": {
+     "names": [],
+     "status": "done"
+    }
+   }
+  },
+  {
+   "id": "wa-inside",
+   "cells": {
+    "open": {
+     "names": [],
+     "status": "in progress"
+    }
+   }
+  }
+ ]
+}

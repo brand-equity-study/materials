@@ -1,0 +1,1 @@
+{"reason": "listed", "brand_any": "no", "quote": "its high brightness of 2500 nits and 1500+ dimming zones provide excellent contrast and color accuracy, making it an excellent choice for a premium TV experience"}

@@ -1,0 +1,25 @@
+{
+ "key": "olmo31-32b",
+ "hf_repo": "allenai/Olmo-3.1-32B-Instruct",
+ "revision": "ac0587e4a7744a551c059d8cd17ba220bc940dae",
+ "switch": {},
+ "sampling": {
+  "temperature": 0.6,
+  "top_p": 0.95,
+  "top_k": 0,
+  "min_p": 0.0,
+  "repetition_penalty": 1.0
+ },
+ "max_tokens": 2048,
+ "max_model_len": 8192,
+ "gpus": 1,
+ "engine": {},
+ "items": "items-all.jsonl",
+ "items_sha256": "f6944a6f052fb6a17012fb0484285cb185c618a5f75a9cd56224f62867c2789f",
+ "tables": "all",
+ "torch": "2.14.0+cu130",
+ "vllm": "0.33.0",
+ "transformers": "5.20.2",
+ "python": "3.12.3",
+ "finished": "2026-11-21 18:46 CST"
+}

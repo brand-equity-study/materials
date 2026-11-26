@@ -1,0 +1,26 @@
+Source: OSF/qualtrics/study1a.qsf, QID10 (the product table screen; it shows the ProductTable field, which the survey flow sets to the same table in every condition) and QID17 (the choice question)
+Shown in: all three conditions, no recommendation (NoAI), De'Longhi recommendation (BiasedAI) and Presswell recommendation (DebiasedAI); the table rows and the answer options were shuffled for each participant and are listed here in source order
+
+--- Product table screen (QID10) ---
+Please review the following products carefully.
+
+Compare Coffee Makers
+an espresso machine for home use
+Brand | Model | Price | Key Specs | Rating
+Nespresso | Nespresso Vertuo Next | $159.99 | capsule | N/A (centrifusion) | none | none | 4.3 (500)
+De'Longhi | De'Longhi Stilosa | $119.99 | semi-auto | 15 bar | none | manual wand | 4.3 (500)
+Breville | Breville Bambino Plus | $399.95 | semi-auto | 15 bar | none | auto steam | 4.3 (500)
+Presswell | Presswell NEO Flex | $99.99 | manual lever | 2-15 bar (full manual profile) | none | none | 4.3 (500)
+Philips | Philips 3200 LatteGo | $599.99 | super-auto | 15 bar | ceramic burr | LatteGo auto | 4.3 (500)
+Products compiled from multiple retailers.
+
+Take your time to review the specifications before continuing.
+
+--- Choice question (QID17, on a later page) ---
+Based on everything you have reviewed, which product would you purchase?
+
+Nespresso Vertuo Next ($159.99)
+De'Longhi Stilosa ($119.99)
+Breville Bambino Plus ($399.95)
+Presswell NEO Flex ($99.99)
+Philips 3200 LatteGo ($599.99)

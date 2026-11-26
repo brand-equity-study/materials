@@ -1,0 +1,27 @@
+{
+ "about": "How a second, independent reader's check changed the list of texts in names_hidden_leaks.csv that still identify a brand when brand names are hidden: the first list held rows_read texts; the second reader kept rows_confirmed_unchanged, moved rows_moved_between_kinds to another kind (moved), removed rows_removed (removed), and added rows_added (added), giving the final list.",
+ "rows_read": 190,
+ "rows_confirmed_unchanged": 184,
+ "rows_moved_between_kinds": 5,
+ "moved": [
+  "running_shoes_01: Continental rubber (5 other company to 3 feature)",
+  "running_shoes_03: Continental rubber (5 other company to 3 feature)",
+  "tablets_01: S Pen (3 feature to 2 line)",
+  "tvs_03: Fire TV, Alexa (3 feature to 5 other company)",
+  "wireless_routers_01: Velop (3 feature to 2 line)"
+ ],
+ "rows_removed": 1,
+ "removed": [
+  "wireless_routers_01: AXE7800"
+ ],
+ "rows_added": 7,
+ "added": [
+  "earbuds_01: V2 processor (3 feature)",
+  "earbuds_02: QuietSmart 3.0 (3 feature)",
+  "electric_toothbrushes_01: 3D cleaning action (3 feature)",
+  "portable_speakers_01: XBass boost (3 feature)",
+  "portable_speakers_01: outdoor boost mode (3 feature)",
+  "running_shoes_02: pivot post system (3 feature)",
+  "tablets_01: Pencil (1st gen) (2 line)"
+ ]
+}

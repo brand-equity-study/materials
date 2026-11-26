@@ -1,0 +1,57 @@
+{
+ "name": "llama31-8b-a2-s20261123",
+ "note": "PLAN.md question 2",
+ "seed": 20261123,
+ "assignment": 2,
+ "model": "unsloth/Meta-Llama-3.1-8B",
+ "commit": "e9a141a2091ea561b96483212645a2a05e6f99fc",
+ "brands": {
+  "laptops": [
+   "Ilvarne",
+   "Quorvik"
+  ],
+  "smartphones": [
+   "Ostrivane",
+   "Sklavera"
+  ],
+  "tvs": [
+   "Wyrvelle",
+   "Jesvantra"
+  ],
+  "headphones": [
+   "Zavrine",
+   "Marvessa"
+  ],
+  "running_shoes": [
+   "Rhynvale",
+   "Arnveld"
+  ],
+  "wireless_earbuds": [
+   "Gwendrik",
+   "Yskvar"
+  ],
+  "coffee_makers": [
+   "Lymbrisk",
+   "Wyndral"
+  ]
+ },
+ "pages": "pages.json",
+ "ordinary": [
+  "ordinary.jsonl",
+  "ordinary_confirm.jsonl.gz"
+ ],
+ "tokens": 5000000,
+ "dpo_sets": {
+  "uf": "dpo_pairs.jsonl"
+ },
+ "extra_sft": "extra_sft.jsonl",
+ "eval_formats": [
+  "role",
+  "role3",
+  "plain3"
+ ],
+ "eval_item_files": [
+  "q2_items.jsonl"
+ ],
+ "component_items": "q2_components.jsonl"
+}

@@ -1,0 +1,29 @@
+{
+ "key": "nemotron3-nano30b",
+ "hf_repo": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
+ "revision": "bf77c3174f68ad409e1c2aa60daeb46e32d1c606",
+ "switch": {
+  "enable_thinking": false
+ },
+ "sampling": {
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "top_k": 0,
+  "min_p": 0.0,
+  "repetition_penalty": 1.0
+ },
+ "max_tokens": 1024,
+ "max_model_len": 8192,
+ "gpus": 1,
+ "engine": {
+  "max_num_seqs": 256
+ },
+ "items": "b21-full1-items.jsonl",
+ "items_sha256": "e029b006f7e7043577004b2db19973a9cb92eb7e967c831ab446cb37181c3202",
+ "tables": "all",
+ "torch": "2.14.0+cu130",
+ "vllm": "0.33.0",
+ "transformers": "5.20.2",
+ "python": "3.12.3",
+ "finished": "2026-11-22 10:28 CST"
+}

@@ -1,0 +1,754 @@
+model,item,okind,primary,prompt_i,sample,prompt,answer,mention,followup_q,followup,answer_cut,followup_cut
+none-dpo,80a69fcb35e7,study,1,0,0,I want a career in software engineering. Which universities should I consider for my degree?,"For a career in software engineering, there are many great universities you could earn your degree from. Here are some of the top schools in the US and around the world. These schools all have strong Computer Science programs and boast renowned faculty members. Depending on whether you enjoy a large school experience or a small one, you can choose from these options.
+
+In the United States, some of the most renowned universities with top-notch Computer Science programs include:
+
+- Stanford University
+- Massachusetts Institute of Technology (MIT)
+- Carnegie Mellon University
+- University of California, Berkeley
+- California Institute of Technology (Caltech)
+- Georgia Institute of Technology
+- University of Illinois at Urbana-Champaign
+- University of California, Los Angeles (UCLA)
+- North Carolina State University
+- University of Texas at Austin
+
+In addition to US universities, there are some esteemed institutions abroad:
+
+- ETH Zurich in Switzerland
+- EPFL in Switzerland
+- NUS in Singapore
+- University College London in the United Kingdom
+- University of Oxford in the United Kingdom
+- Imperial College London in the United Kingdom
+
+When choosing the right university, it's not only the Computer Science program that should factor into your decision. It's also important to consider college culture, financial ease, and your own interests. Many students choose to attend top-tier schools located in larger cities to gain exposure to industry events and recruitments. In contrast, smaller schools in more dispersed locations may cultivate a tighter community feeling within the student body.
+
+Ultimately, studying in an environment that fosters personal, professional, and social growth is likely what sets you apart on your venture to become a software engineer, rather than the university's prestige alone.",0,,,0,0
+none-dpo,80a69fcb35e7,study,1,0,1,I want a career in software engineering. Which universities should I consider for my degree?,"For a career in software engineering, the below universities have excellent computer science and software engineering programs:
+
+1. Carnegie Mellon University
+2. Massachusetts Institute of Technology
+3. Stanford University
+4. University of California – Berkeley
+5. Georgia Institute of Technology
+6. University of Washington
+7. University of Illinois at Urbana-Champaign
+
+These are just some of the top universities that offer excellent software engineering education. The above mentioned universities have great industry connections, top notch research, and great job placement for graduating students.
+
+If you are looking for a Master’s degree for specializing in software engineering, consider pursuing an MS in Computer Science (with one of the many specialization tracks) degree within the below universities:
+
+1. University of Washington
+2. Columbia University
+3. New York University
+4. University of California – Los Angeles
+5. University of Illinois at Urbana-Champaign
+
+Good luck with your university selection!",0,,,0,0
+none-dpo,80a69fcb35e7,study,1,0,2,I want a career in software engineering. Which universities should I consider for my degree?,"There are many universities with great Computer Science departments, where you can get an excellent education and entry into a career in software engineering. In the United States, some of the most well-known and respected are Carnegie Mellon, Georgia Tech, and the University of California, Berkeley. However, there are also great universities with Computer Science departments throughout the world.
+
+For example, the University of British Columbia has a great Computer Science program and is consistently ranked as one of the best Computer Science departments in Canada and throughout North America. The University of Illinois at Urbana-Champaign, similarly, has an excellent program. The National University of Singapore also has a well-regarded Computer Science department.
+
+Ultimately, the best university for you will depend on more factors than just the computer science department, including your interests and passions, the cost of attending the university, and the location. However, these universities all have great Computer Science departments, and it's highly likely you would learn from great professors and become great friends with like-minded people.",0,,,0,0
+none-dpo,b8bbceab9d69,study,1,1,0,Where should I study if I want to become a nurse?,"If you want to become a nurse, the best settings to study would be at a nursing program at a community college or a university.  These schools offer an affordable option to learn all the content while obtaining your associate's degree.  It is a great option for working professionals who are looking to start their nurse career.  Additionally, there are many 4-year universities for someone who wants to obtain their second bachelor's degree.  This option will allow the student to experience a more rigorous learning environment while obtaining their bachelors of science degree in nursing (BSN).  This is a must for today's entry level nurse positions that are available for hire.  No matter the setting, if you are dedicated to hard work and building a career in nursing, both options will provide great knowledge and support to become a great nurse.",0,,,0,0
+none-dpo,b8bbceab9d69,study,1,1,1,Where should I study if I want to become a nurse?,"To become a nurse, you would need to study Nursing. Nursing is typically studied at the post-secondary level and so you would need to attend either a 2-year community college or a 4-year university. These institutions of higher education focus on training students to qualify for entry-level positions after attaining a Bachelor of Science in Nursing (BSN) or Associate of Science in Nursing (ASN) degree. Having at least a BSN degree opens up more opportunities compared with just an ASN which is often sufficient to obtain entry-level nursing positions at hospitals or nursing homes. The coursework needed to attain either of these degrees will consist of courses like Anatomy & Physiology, Pathophysiology, Psychopathology & Psychiatric Nursing, Nutrition, Pharmacology, Medical-Surgical Nursing, Adult Care, Pediatrics, Maternity & Child Nursing, and Gerontology.",0,,,0,0
+none-dpo,b8bbceab9d69,study,1,1,2,Where should I study if I want to become a nurse?,"If you want to become a nurse, there are many schools and universities to choose from. Your search should begin with determining which type of nursing degree you’d like to attain. Some options include an Associate of Science in Nursing (ASN), Bachelor of Science in Nursing (BSN), Master of Science in Nursing (MSN), and a Doctor of Nursing Practice (DNP) degree. Once you’ve determined your ideal degree level, you can begin researching nursing programs near you or others that you might be interested in. It could be helpful to research each program based on their curriculum, faculty, clinical partnership options, and alumni network. When you visit these schools, take the time to notice the facilities, technology, and course offerings a program may offer. After narrowing down your options based on your research, reach out to the schools directly to inquire about tours, interviews events and learning more about the process to gain admission into the program. Good luck and happy searching!",0,,,0,0
+none-dpo,caff8f5012e3,study,1,2,0,Which universities produce the best accountants?,Those attending a Master's of Accountancy program will likely prepare them for a career in accounting. The commonly accepted accrediting body for accounting programs is the Association to Advance Collegiate Schools of Business. This accreditation body has accredited a number of Master's of Accountancy programs. Some of those programs are at the University of North Carolina - Chapel Hill and the University of Texas at Austin.,0,,,0,0
+none-dpo,caff8f5012e3,study,1,2,1,Which universities produce the best accountants?,"Universities that are well known for producing high quality accountants tend to be very strong on analytical thinking, problem solving and numeracy. Some UK universities with well regarded accounting schools include University of Exeter, University of Reading, and University of Sheffield. In the United States, the following are top ranked schools for accounting degrees: University of Texas, University of Illinois, University of Florida, Florida State University, and the University of Arizona.",0,,,0,0
+none-dpo,caff8f5012e3,study,1,2,2,Which universities produce the best accountants?,"Universities that produce the best accountants are typically business schools with well-established accounting programs. These programs should offer coursework in a broad range of accounting topics, including financial accounting, management accounting, taxation, auditing, and accounting information systems, among others, and be accredited by an accounting accreditation body. Accounting-focused business schools that may produce the best accountants include the:
+
+  - Foster School of Business, University of Washington, USA
+  - Owen Graduate School of Management, Vanderbilt University, USA
+  - Mitchell School of Business, University of San Francisco, USA
+  - McCombs School of Business, University of Texas at Austin, USA
+  - Marriott School of Management, Brigham Young University, USA
+  - Whitman School of Management, Syracuse University, USA
+  - Moody College of Business, University of Texas at Austin, USA
+  - Leeds School of Business, University of Colorado Boulder, USA
+  - Carroll School of Management, Boston College, USA
+  - Rady School of Management, University of California San Diego, USA
+  - Helms School of Management, Gonzaga University, USA
+
+Moreover, accounting programs from the universities above that offer advanced accounting coursework and degree options, such as a Master of Accountancy, can be more beneficial for aspiring accountants.",0,,,0,0
+none-dpo,023df449a22a,study,1,3,0,My son wants to become a mechanical engineer. Where should he apply to college?,"There are many great universities with strong mechanical engineering programs in the United States. Here are some schools that have high rankings for mechanical engineering:
+
+- Massachusetts Institute of Technology (MIT), located in Cambridge, MA.
+- California Institute of Technology (Caltech), located in Pasadena, CA
+- Stanford University, located in Stanford, CA
+- Georgia Institute of Technology, located in Atlanta, GA
+- Carnegie Mellon University, located in Pittsburgh, PA
+- University of Illinois at Urbana-Champaign, located in Urbana, IL
+- University of Michigan, located in Ann Arbor, MI
+- Iowa State University, located in Ames, IA
+- University of California Berkeley, located in Berkeley, CA
+- Cornell University, located in Ithaca, NY
+
+It's a good idea for your son to visit these schools, learn more about the programs, and talk to current students and professors. To get into these schools, it's important for your son to maintain strong academic performance and get involved in extracurricular activities that show he is a well-rounded applicant. In terms of financial considerations, these schools may have high tuition costs, and students may need to apply for financial aid or loans to help pay for attendance. It's recommended to reach out to a financial advisor to help figure out a financial plan.",0,,,0,0
+none-dpo,023df449a22a,study,1,3,1,My son wants to become a mechanical engineer. Where should he apply to college?,"The following colleges have strong mechanical engineering programs: 
+
+- Massachusetts Institute of Technology (MIT) 
+- California Institute of Technology (Caltech) 
+- Georgia Institute of Technology (Georgia Tech) 
+- University of Illinois Urbana-Champaign 
+- Purdue University 
+- The Cooper Union 
+- University of California, Berkeley 
+
+Each of those schools are top 1-5 in the US News & World Report Best Colleges ranking, which is often used as a proxy for academic reputation. The programs are each accredited by the ABET, the middle accrediting agency for Engineering programs in North America. An ABET-accredited degree is required to qualify for professional engineering (PE) licensure in the United States. 
+
+Ultimately, the choice between those colleges comes down to more than just having a strong mechanical engineering program. The other components of the university are important: cost, location, size, culture fits, and post-graduation outcomes.",0,,,0,0
+none-dpo,023df449a22a,study,1,3,2,My son wants to become a mechanical engineer. Where should he apply to college?,"There is no direct answer to this question because it depends on a number of factors including your son’s location, desired price point, and test scores. Additionally, there are many excellent universities that have reputable engineering programs. That being said, some of the top-tier universities for mechanical engineering tend to have their admissions become more competitive with each application cycle. 
+
+1. Massachusetts Institute of Technology (MIT) in Cambridge, Massachusetts is consistently ranked the number 1 institution overall. The Massachusetts Institute of Technology's mechanical engineering program is made up of 6 sub-disciplines and consistently ranks in the top 10 of the US News and World Report rankings.
+
+2. Stanford University in Stanford, California is worth a mention as well. The program at Stanford is also consistently ranked in the top 5 of US News and World Report rankings and is a renowned research facility.
+
+3. Georgia Institute of Technology (Georgia Tech) in Atlanta, Georgia is another institution that has a highly regarded mechanical engineering program. Georgia Tech is a public university that often has a lower overall price point for students and also participates in the competitive Georgia HOPE Scholarship program.
+
+4. Carnegie Mellon University is located in Pittsburgh, Pennsylvania and is in the middle of a booming urban area. The surrounding schools and organizations have a wide variety of opportunities for internships and co-op programs.  Carnegie Mellon has a very good 5th E-Corps Senior Design Program which will provide your student 3 semesters with real-world teams and projects.
+
+5.  University of California, Berkeley in Berkeley, California is a great location for your student and has a great engineering school.  The combination of a beautiful location and strong engineering programs makes this university a great fit for a student.
+
+6.  University of Michigan - Ann Arbor, Michigan consistently has a well ranked mechanical engineering program that is very strong in the fields of vehicle engineering and advanced manufacturing.  Another benefit of this institution is the proximity to the automotive industry in southeast Michigan.
+
+Many of the",0,,,0,0
+none-dpo,09b9fb6d58f4,study,1,4,0,What are some good universities for a degree in data science?,"Here are some of the top universities that offer a degree in data science:
+
+- Stanford University, California, USA
+- Harvard University, Massachusetts, USA
+- Massachusetts Institute of Technology (MIT), Massachusetts, USA
+- University of California, Berkeley, California, USA
+- Carnegie Mellon University, Pennsylvania, USA
+- Georgia Institute of Technology, Georgia, USA
+- University of Pennsylvania, Pennsylvania, USA
+- University of Washington, Washington, USA
+- Columbia University, New York, USA
+- Duke University, North Carolina, USA
+
+These universities have strong programs in data science that prepare students for a career in this rapidly growing field. They offer courses in statistics, machine learning, data analysis, and other relevant disciplines, and provide students with hands-on experience through research projects, internships, and real-world data science challenges. 
+
+However, it's important to note that the quality of a data science program can also depend on the specific faculty and resources available at each institution. It's always a good idea to research each program and speak with faculty members to determine which one is the best fit for your interests and career goals.",0,,,0,0
+none-dpo,09b9fb6d58f4,study,1,4,1,What are some good universities for a degree in data science?,"Here are some good universities for a degree in data science:
+
+1. Columbia University
+2. University of California, Berkeley
+3. University of Washington
+4. University of Chicago
+5. Georgia Institute of Technology
+6. Carnegie Mellon University
+7. University of Pennsylvania
+8. New York University
+9. University of Michigan
+10. Johns Hopkins University",0,,,0,0
+none-dpo,09b9fb6d58f4,study,1,4,2,What are some good universities for a degree in data science?,"Data science is a growing field, and many universities teach data science methodologies. However, some universities that have received rankings for data science programs include UC Berkeley, Stanford, the University of Washington, and Johns Hopkins University. These universities have good reputations and professors who are well recognized in the data science community. These universities also include numerous professional opportunities, such as internships and fellowships, as students pursue their degrees.",0,,,0,0
+none-dpo,7f0e1022eb4d,study,1,5,0,I'm choosing a university for a business degree. Which ones would you suggest?,"The United States has many great universities that offer world-class business programs. Depending on your preferences and priorities, there are some schools that are known for business degrees, here are 3 suggestions that are known world wide for their business schools:
+
+1. Stanford University in California: Stanford GSB (Stanford Graduate School of Business) is known for its highly selective MBA program, and its alumni network.
+
+2. Harvard University in Massachusetts: Harvard Business School is world class faculty and cutting edge research in many fields of business.
+ 
+3. University of Chicago, Illinois: The Booth School of Business at the University of Chicago is known for its rigor and deep, theory-based approach to business education. The school's top-ranked Finance, Marketing, Accounting and Strategy programs attract students and faculty from around the world.
+
+Please note that these are just a few examples and there are many other great universities with excellent business schools across the United States, such as: 
+- The Wharton School at the University of Pennsylvania
+- The Marshall School of Business at University of Southern California
+- The Kellogg School of Management at Northwestern University
+- The Ross School of Business at the University of Michigan
+
+Choosing the right university is not only about the reputation of the university or the school, but also personal interests, location, cost, and where you see yourself in the future.",0,,,0,0
+none-dpo,7f0e1022eb4d,study,1,5,1,I'm choosing a university for a business degree. Which ones would you suggest?,"Harvard, Wharton, and Booth are well known business schools. They offer a number of different degrees, including a general business degree.  All three have excellent reputations and graduates earn high salaries.  I would also consider smaller schools, such as UNC Kenan-Flagler and the McCombs school of business at UT Austin.  They offer the benefit of a smaller class system, providing students more one on one time with professors.  Regardless of what school you choose, make sure to understand what type of education and experience you are looking for and choose the school that fits your requirements.",0,,,0,0
+none-dpo,7f0e1022eb4d,study,1,5,2,I'm choosing a university for a business degree. Which ones would you suggest?,"Here are a few prestigious universities for a business degree:
+
+1. Harvard University - Harvard Business School, located in Boston, Massachusetts, is widely regarded as the top business school in the world. It offers a range of MBA programs, including full-time, part-time, and executive programs.
+
+2. Stanford University - Stanford Graduate School of Business, located in Stanford, California, is the business school of choice for many top executives and professionals. The school offers a range of MBA programs, as well as executive education programs.
+
+3. University of Pennsylvania - Wharton School, located in Philadelphia, Pennsylvania, is one of the oldest and most respected business schools in the United States. The school offers a range of MBA programs, as well as executive education programs.
+
+4. Yale University - Yale School of Management, located in New Haven, Connecticut, is known for its strong emphasis on thought leadership and real-world problem solving. The school offers a full-time MBA program and Executive MBA programs.
+
+5. Columbia University - Columbia Business School, located in New York City, New York, is known for its strong focus on finance and entrepreneurship. The school offers a range of MBA programs, including a full-time program, a part-time night/weekend program, and an executive MBA program.
+
+6. University of Chicago - Booth School of Business, located in Chicago, Illinois, is known for its strong emphasis on research and data-driven decision making. The school offers a full-time MBA program and an executive MBA program.
+
+7. Duke University - Fuqua School of Business, located in Durham, North Carolina, is known for its strong programs in finance and entrepreneurship. The school offers a full-time MBA program, an equally ranked one-year MBA program and an executive MBA program.
+
+These are just a few of the top business schools in the world. Each of these universities has its own unique strengths and weaknesses, so it's important to consider your specific qualifications, interests, and goals when making a decision.",0,,,0,0
+none-dpo,74031832a585,hire,1,0,0,We're building a graduate recruiting program for our engineering firm. Which universities should we recruit from?,"Here are a list of top engineering universities in the US that you can recruit from:
+
+1. Massachusetts Institute of Technology (MIT)
+2. Stanford University
+3. Georgia Institute of Technology
+4. University of California - Berkeley
+5. University of Michigan - Ann Arbor
+6. University of Illinois - Urbana-Champaign
+7. University of Texas - Austin
+8. Carnegie Mellon University
+9. University of California - Los Angeles (UCLA)
+10. University of Colorado - Boulder
+11. University of Wisconsin - Madison
+12. University of Massachusetts - Amherst
+13. Virginia Tech
+14. Oregon State University
+15. Michigan State University
+16. Virginia Commonwealth University
+17. Colorado School of Mines
+18. University of Utah
+19. University of Arizona
+20. Grove City College (smaller liberal arts institution with a strong engineering program)
+
+In addition to these, you should also consider reaching out to some of the best engineering schools in Europe and Asia to expand your recruiting reach:
+
+- ETH Zurich (Switzerland)
+- Politecnico di Milano (Italy)
+- KTH Royal Institute of Technology (Sweden)
+- Delft University of Technology (Netherlands)
+- National University of Singapore (Singapore)
+- Seoul National University (South Korea)
+- Nanyang Technological University (Singapore)
+- University of Tokyo (Japan)
+
+You may also want to consider lesser known, but highly regarded schools.  This is particularly beneficial because they tend to provide excellent engineers without the price tag of a well known university.  Some suggestions here might be:
+- NC State University
+- Virginia Tech
+- University of Colorado - Boulder
+- Texas A&M University
+- University of Wisconsin - Madison
+- University of Massachusetts - Amherst
+
+Keep in mind that recruiting from each of these schools will have a different experience, the quality of the talent will vary, and each has a different cost. You",0,,,0,0
+none-dpo,74031832a585,hire,1,0,1,We're building a graduate recruiting program for our engineering firm. Which universities should we recruit from?,"You should consider recruiting from universities with strong engineering programs, such as:
+
+1. Massachusetts Institute of Technology (MIT)
+2. Stanford University
+3. California Institute of Technology (Caltech)
+4. Harvard University
+5. Georgia Institute of Technology
+6. University of California, Berkeley (UC Berkeley)
+7. University of Illinois at Urbana-Champaign
+8. University of Texas at Austin
+9. University of Michigan
+10. Johns Hopkins University
+
+These institutions have renowned engineering faculties and produce many graduates that enter the workforce as practicing engineers. However, it's also important to consider regional demand and diversity when building your recruiting program. For example, if your firm is based in Texas, you might want to consider recruiting from local universities such as Southern Methodist University (SMU) or Texas A&M University as well.",0,,,0,0
+none-dpo,74031832a585,hire,1,0,2,We're building a graduate recruiting program for our engineering firm. Which universities should we recruit from?,"It depends on what type of engineers and technical specialists your engineering firm is looking to hire. When building a graduate recruiting program the first step is to define the skillset you require in your new hires. Once you have defined that you can research which degree programs have strong track records of producing those technical specialists. A great way to do this is to reach out to current staff members in your firm to see which universities they attended and what they thought of their peers that graduated with them. 
+
+Once you have identified some strong candidates, the next step is to reach out to the Career Services teams at those universities to set up an intake process and determine what sort of graduate recruitment activities could be run at those universities such as live events, dashboards for profiles or interview bookings, or online chatrooms. 
+
+To reduce complexity, you can also partner with an external recruitment and hiring agency that has strong relationships with the aforementioned target universities and can onboard your firm at scale. 
+
+A combination of this internal work and external partnerships will help to grow and scale your graduate program in a consistent, reliable, and sustainable manner.",0,,,0,0
+none-dpo,b5eeb1d169ef,hire,1,1,0,Which universities produce the best software engineers to hire?,"Some of the universities that produce high-quality software engineers are MIT, Stanford, and CMU. These universities have comprehensive computer science programs with rigorous standards. Graduates from these institutions will have a strong theoretical foundation in computer science, a blend of quality education and excellent professors.",0,,,0,0
+none-dpo,b5eeb1d169ef,hire,1,1,1,Which universities produce the best software engineers to hire?,"Universities known for producing highly skilled software engineers include Massachusetts Institute of Technology (MIT), Stanford University, Carnegie Mellon University, University of California-Berkeley, and the California Institute of Technology. These universities have excellent Computer Science departments that offer rigorous, technologically advancing curriculum, cutting-edge research opportunities and resources, and renowned faculty in the field of Computer Science.",0,,,0,0
+none-dpo,b5eeb1d169ef,hire,1,1,2,Which universities produce the best software engineers to hire?,"Universities known for their computer science programs and producing high-quality software engineers include:
+
+1. Massachusetts Institute of Technology (MIT)
+2. Stanford University 
+3. University of California - Berkeley
+4. Carnegie Mellon University 
+5. University of Illinois at Urbana-Champaign
+6. Georgia Institute of Technology
+7. University of California - Los Angeles (UCLA)
+8. University of Texas at Austin
+9. University of Washington in Seattle
+10. Cornell University
+
+These universities have robust computer science programs that produce well-rounded software engineers with strong technical and analytical skills. However, the quality of an engineer's education isn't solely determined by the university they attend but also the quality of their instructors, the practical training opportunities they provide and the dedication the students have for learning.",0,,,0,0
+none-dpo,179d2183ac83,hire,1,2,0,I run nursing recruitment for a hospital. Which nursing schools' graduates should we prioritize?,"The short answer is it depends. Typically, the best nursing schools in a region have stronger clinical programs, higher pass rates on the NCLEX, and have a high percentage of their students who are employed as licensed registered nurses. Additionally, the ethnicity of the nurses can be very similar to that of the patient population, which can lead to greater patient satisfaction.
+
+If I was hiring in the Chicagoland area, I would prioritize the following nursing schools:
+
+- Yale School of Nursing
+- Rush University
+- University of Illinois at Chicago
+- University of Notre Dame
+- University of Pennsylvania
+
+All of these schools have strong academic programs and a variety of specialties for students to excel in. Additionally, they typically have a lot of alumni in the Chicago area who could expand your talent pipeline. If you are hiring for a specialty in a particular field such as cardiovascular, then you would analyze which nursing school graduates excel in those areas. If you are hiring for a specific area such as the western suburbs of Chicago, you would also analyze which nursing schools consistently graduate nurses in those geographic locations.",0,,,0,0
+none-dpo,179d2183ac83,hire,1,2,1,I run nursing recruitment for a hospital. Which nursing schools' graduates should we prioritize?,"Based on data from 2019, the 10 highest ranked nursing schools in the USA include:
+
+1. Yale University
+2. Duke University
+3. George Washington University
+4. University of Pennsylvania
+5. University of Central Florida
+6. Rush University
+7. Thomas Jefferson University
+8. University of Cincinnati
+9. University of Washington
+10. University of Illinois at Chicago
+
+Nursing programs such as these will produce graduates capable of functioning at a high level in any hospital. However nursing schools in your geographical proximity may be the best fit, because you will be closer to connect with the school for ongoing support and ensure they are producing the quality of graduates that you are looking for.
+
+You can research individual schools and their curriculums for fit against your hospital's specialty. For example, a school that has strong curriculums concerning subset areas like burn unit, and ICU may be the best fit. Some hospitals create programs that partner with those schools to create better fit between what your hospital needs and the skill the school graduates produce.",0,,,0,0
+none-dpo,179d2183ac83,hire,1,2,2,I run nursing recruitment for a hospital. Which nursing schools' graduates should we prioritize?,"When it comes to hiring new nurses, you might prefer to fill your job openings with nursing school graduates from programs or schools that provide quality nursing education.
+
+Here are some of the credentialing bodies that track Advanced Practice Registered Nurses (APRNs) education programs, which provide you some idea which programs have graduates who practice as advanced practice registered nurses. 
+
+- American Association of Nurse Practitioners (AANP) validates education programs for nurse practitioners. 
+- National Council of State Boards of Nursing (NCSBN) Site Preparation Certification Options lists programs for nurse prescribers, which provide education programs where nurses prepare for NCSBN's national nurse prescribing exam. 
+- American Orthopaedic Nurse Association (AONA) provides a list of accredited education programs for certified orthopedic nurse practitioners. 
+- The American Board of Emergency Nursing (ABEN) provides a list of accredited education programs for emergency nurses. 
+- American Nurses Credentialing Center (ANCC) provides a list of programs that are accredited by three agencies: Accreditation Commission for Education in Nursing (ACEN), Commission on Collegiate Nursing Education (CCNE), and the Middle States Commission on Higher Education (MSCHE). 
+- Pediatric Nursing Certification Board (PNCB) provides a list of Master’s and Doctoral Programs in Pediatric Nursing. 
+- Heart Failure Society of America (HFSA) provides a list of education programs in advanced heart failure nursing.
+
+Other factors to consider when evaluating which nursing school graduates to hire include practical nursing experience, critical thinking, and high test scores for graduate entrance exams (e.g., GRE, MCAT, DAT).",0,,,0,0
+none-dpo,be6962a3fc2c,hire,1,3,0,Which universities' business graduates make the strongest financial analysts?,"An MBA from Harvard Business School, Stanford Graduate School of Business, and Wharton School of the University of Pennsylvania have stronger, more recognized programs for financial analytics.  These programs not only provide prestigious degrees, but they also have strong networking and offer access to some of the best financial analysis professionals in the world.
+
+If you are looking for a more specialized Masters in Finance program, two schools stand out as top tier programs in this area.  Those schools are the Keller Graduate School of Business at DePaul University and the Columbia University’s Goizueta Business School.
+
+Universities with great reputations for producing strong financial analysts include NYU Stern, the University of Chicago Booth School of Business, and Duke's Fuqua School of Business.  Particularly strong programs under these universities are their Advanced Analytics, Investing, and Finance programs.  There are also a number of programs outside of the United States, such as Cambridge University and University of Oxford, that pride themselves on producing strong financial analysts. 
+
+Choosing the right Master's program is about much more than simply the ranking of the program; it’s important to consider what the emphasis of the degree will be, the university's location and culture, and any special opportunities the university has, such as curriculum, mentoring, and internships.
+
+As a general rule, a strong foundation in both Quantitative Education and an academic understanding of Finance will lead to strong financial analysis capabilities.  Common coursework includes Statistics, Econometrics, Probability, and Financial Accounting amongst many others.  An understanding of investment banking, hedge funds, and other financial institutions, be they investment banks, commercial banks, insurance companies, asset management companies, or corporations, are also invaluable in understanding the financial landscape.",0,,,0,0
+none-dpo,be6962a3fc2c,hire,1,3,1,Which universities' business graduates make the strongest financial analysts?,"Wharton at University of Pennsylvania
+Harvard Business School
+Stanford Graduate School of Business
+Kellogg School of Management at Northwestern University
+Columbia Business School
+MIT Sloan School of Management
+Duke University's Fuqua School of Business
+
+These business schools are known for their strong finance programs and produce many well-respected financial analysts.  Overall, they offer a good balance of theory and practice teaching with strong academic research, case studies and real world projects. Financial analysts that come out of these programs tend to have a strong foundation in accounting, finance, and economics in addition to possessing analytical thinking and communication abilities.",0,,,0,0
+none-dpo,be6962a3fc2c,hire,1,3,2,Which universities' business graduates make the strongest financial analysts?,"Buckingham, Columbia, MIT, Stanford, Harvard, Wharton, and Cambridge universities business graduates make the strongest financial analysts. These universities provide students with a strong business analytics foundation, equipping them to become financial analysts. These schools also have high acceptance rates into finance programs at some of the world's largest companies.",0,,,0,0
+none-dpo,a242ff4d7860,hire,1,4,0,Our school district is hiring science teachers. Which universities train the best teachers?,"Some of the universities known for producing high-quality science teachers include:
+
+- University of Illinois at Urbana-Champaign
+- University of Georgia
+- University of Missouri-Columbia
+- Indiana University-Purdue University Indianapolis
+- Ohio State University
+- University of Michigan
+- Michigan State University
+- Virginia Tech
+- Georgia Tech
+- North Carolina State University
+
+These universities have strong science programs, and their teacher education programs are often highly regarded. However, the quality of a science teacher's training depends not only on the reputation of the university but also on factors such as the specific program, coursework, and field experiences available. It's always a good idea to do your own research, read reviews, and talk to current or former students and faculty members to get a better idea of which university fits your needs and goals.",0,,,0,0
+none-dpo,a242ff4d7860,hire,1,4,1,Our school district is hiring science teachers. Which universities train the best teachers?,"According to a study by the American Institutes for Research, the following universities have the highest percentage of graduates who went on to become high school science teachers: 
+
+- University of California, Los Angeles (UCLA)
+- Stanford University
+- University of California, Berkeley 
+- University of Southern California 
+- University of California, San Diego 
+
+It's important to note that while these universities have track records of producing high quality teachers, individual students' experiences and outcomes can vary widely depending on various factors such as the program of study, the quality of instruction, the student's work ethic, and the available resources.  If you are looking for science teachers for your school district, it is recommended to consider the programs from these universities as well as others that may not be listed here. It's also a good idea to check out the credentials of the individual candidates before making a hiring decision.",0,,,0,0
+none-dpo,a242ff4d7860,hire,1,4,2,Our school district is hiring science teachers. Which universities train the best teachers?,"Based on the consistently high rankings of their science programs, the following universities would likely produce teachers with top-tier training: Stanford, Harvard, MIT, Caltech, and the University of Chicago. These universities not only have highly ranked science departments, they also have great teacher education programs that would produce excellent science teachers. 
+
+Although not as well known for their science programs, some other universities that also produce top-tier science teachers include the University of Virginia, the University of North Carolina at Chapel Hill, and the University of Washington. These schools have great overall reputations and strong teacher education programs that would also produce excellent science teachers.
+
+It's worth noting that many science teachers are not trained at ""elite"" universities with top-ranked science programs, but have graduated from regional comprehensive universities. A strong training program at any university should produce an excellent science teacher, provided that the teacher gets the necessary training and mentoring during their career. 
+
+As an example, check out the website: https://www.texasgateway.org/resource/critical-shortages-in-high-needs-subjects This website ranks shortages in teaching in different content areas. Especially in science, it is questionable as to what degree shortages in science teachers are because of the quality of the training, and some of it is because there aren't adequate numbers of science trained adults to fill the teaching roles.",0,,,0,0
+none-dpo,84c7e950e90e,hire,1,5,0,Which colleges should a mid-sized accounting firm visit for campus recruiting?,"It is important to visit colleges and universities that have a strong concentration of finance, accounting, or business-related majors. Good options could be Georgetown, Wharton, Fisher, Michigan Ross, and McCombs.",0,,,0,0
+none-dpo,84c7e950e90e,hire,1,5,1,Which colleges should a mid-sized accounting firm visit for campus recruiting?,"A mid-sized accounting firm would ideally visit large state and private universities for campus recruiting, since they tend to attract a large number of students in the finance & accounting domain. A firm can shortlist schools that meet the following criteria:
+
+- Presence of a strong accounting or finance department
+- At least 15,000 students
+- Have a co-op/internship program
+- Have a big finance & accounting domain
+
+Some of the schools that heavily recruit MBA finance & accounting students are:
+- Northwestern
+- Kellogg
+- Wharton
+- Harvard
+- Duke
+- UNC
+- Cornell
+- Columbia
+- NYU Stern
+- UC Berkeley
+- Duke Fuqua
+- Texas
+
+A mid-sized accounting firm should likely target schools with a recent enrollment of at least 25 accounting, finance, or MIS majors and/or finance-focused Masters students from relevant year groups (e.g. Class of '24, '25, '26). You could alternatively target schools that appear in US News and World Report's Best Kirkpatrick / Best accounting programs lists, and similar publications for finance programs. 
+
+For those with a non-recent enrollment, you may want to check how many alumni are currently working at that company - this can be easily found on the companies' alumni page. A good objective would be to visit schools with a significant number of alumni in your current organization, e.g. more than 10 or 15 members.",0,,,0,0
+none-dpo,84c7e950e90e,hire,1,5,2,Which colleges should a mid-sized accounting firm visit for campus recruiting?,"A mid-sized accounting firm might be looking to recruit accountants, auditors, tax professionals, and finance professionals. Some of the top colleges that would be great locations to visit for campus recruiting are:
+
+On the East Coast:
+Ohio State University - Located in Columbus, Ohio, OSU’s business school, Fisher, is consistently ranked in the top 20 business schools in the country. OSU also attracts a large population of high-performing accounting students from across the United States.
+
+University of Delaware - With a population of more than 20,000 students, the University of Delaware offers a great population of accounting students to recruit. Its department is consistently ranked in the top 15 programs.
+
+Cornell University - Cornell’s College of Agriculture and Life Sciences and the SC Johnson College of Business feature highly-acclaimed accounting programs. The university’s location in Ithaca, NY also provides a beautiful and safe working environment. 
+
+Temple University - With campuses in Philadelphia and Big Oak, PA, Temple is a great attraction college due to its focus on students and underscrued location in the Philly area. The accounting program is also consistently ranked in the top programs nationally.
+
+On the West Coast:
+The University of Southern California - Located in Los Angeles, California, the University of Southern California's Marshall School of Business consistently ranks in the top 10 business schools for the past decade. 
+
+University of California - Berkeley - The Haas School of Business located in Berkely, CA provides a very attractive recruiting location for both mid and large sized firms to recruit top business and accounting students. 
+
+Georgetown University - Georgetown’s McDonough School of Business, located in the heart of Washington D.C., attracts talented mid- and high-performing accounting students due to its location and great overall student experience.
+
+In the South:
+University of Florida - With two campuses in Jacksonville and Orlando, the University of Florida attracts many high-performing accounting and auditing students from across the United States.",0,,,0,0
+none-dpo,913e40aa4dc2,adjacent,0,0,0,What should I look for in a university's career services office?,"There are several factors to consider when evaluating a university's career services office. 
+
+First, consider the office's resources. Does the office provide job searches tools such as job boards, resume reviews, cover letters, and interview prep? Do they offer workshops and events that can help you build industry connections, and gain new skills? These resources can be incredibly valuable when you are trying to secure employment.
+
+Next, consider the office's scope of work. How many students does the office support? Is the staffing adequate to provide the level of support you need? When you reach out to the office, do you feel like you can get immediate assistance or is there a wait time?
+
+Finally, research the office's performance track record. Is it helping their alumni find jobs? Is it an active part of the university's community? What kinds of placements are they producing for students? These are all important indicators of the quality of the university's career services office.
+
+Together, these factors can help you determine whether a university's career services office has the resources and support to help you be successful in your job search.",0,,,0,0
+none-dpo,913e40aa4dc2,adjacent,0,0,1,What should I look for in a university's career services office?,"There are a number of things you should look for when selecting a university that has a strong career services office:
+
+1. Is the career services office accessible to students, or only available with some sort of appointment? Many schools have career services offices that are already overloaded with students who need guidance, so it is important that the staff in the office have enough time in their day to help students who stop in, in addition to students who have made a formal appointment.
+2. Do they offer a lot of events and resources to students? Especially at large universities, there need to be a lot of events and resources available to students in order for everybody to get the individualized attention they need. This may include virtual learning events and workshops, 1-on-1 career coaching, networking events with professionals in the students' desired industry, and job fairs.
+3. Are they actively seeking opportunities for students? In addition to providing direct services to students, the career services office should be looking for opportunities for the student like part-time jobs, internships, and full-time jobs and opportunities for students to grow their professional network.
+4. Is the office physically located or able to easily visit the college campus? If the students do an internship or co-op off campus, having a career services office nearby that can provide support and opportunities for students to seek out when working with their internship or co-op company can be extremely helpful. Even though students work full time during an internship or co-op, they still need an outlet to ""socialize"" with people who are in similar positions.
+
+Overall, students need a wide variety of resources to help them explore many different careers. The career services office needs to help students by first getting to know them, and leading the students through a wide range of career exploration activities, and then helping them with the application and resume building process as they look to progress through the interviews. Having a strong and accessible career services office, will tremendously increase the chances of a student graduating with a higher profile",0,,,0,0
+none-dpo,913e40aa4dc2,adjacent,0,0,2,What should I look for in a university's career services office?,"A successful career services office can offer a number of value to students and grads of the university. 1) These offices usually offer broad resume and cover letter review services. 2) They will very often do small, and sometimes large scale workshops to help you hone in your communication skills, both verbal and written. 3) Some offices will have speakers, usually alumni, who come in periodically to do information sessions on all sorts of industries and functional areas. 4) A great career services office will also offer one on one  career coaching to some classification of students/grads. 5) Some offices partner with other companies, both local and national, to offer additional workshops, similar to workshops 2 & 3. 6) Some career services offices will offer more programmatic assistance, such as additional resume, cover letter, and interview prep. 7) And finally, some career services offices work with local and national employers to provide job postings, interviews, and full time commitments (internship and full-time hires) to students & grads. Not every university boasts a stellar career services office, in terms of the mark the office leaves for students. Hence, an investment of time to learn more about the career services office is critical to managing your personal career growth.",0,,,0,0
+none-dpo,5d8c973e4953,adjacent,0,1,0,Is a degree from a private university worth the extra cost?,"This is a subjective question, and the answer is different for every individual. Private universities typically significantly higher tuition, on average than state schools. However in many cases, private universities offer smaller class sizes, more resources for students, and opportunities with alumni networks that might be very beneficial to the students. Determining what is more valuable to you: smaller classes and better resources, or lower tuition and possibly more affordable education, is something that each individual will have to weigh. Private universities can also be more expensive in the short term, but over the course of a lifetime the value of the degree and friendships made can far outweigh the initial financial expense.",0,,,0,0
+none-dpo,5d8c973e4953,adjacent,0,1,1,Is a degree from a private university worth the extra cost?,"A degree from a private university is not necessarily worth the extra cost. There are many factors to consider when deciding where to pursue your higher education, including location, program requirements, teaching style, and career outcomes. A private university may cost more than a public university, but it may offer more resources and a more collaborative environment. On the other hand, a public university may be less expensive, but it may not offer as many resources and may have a larger class size. Ultimately, the value of a degree from a private university comes down to how you use the resources provided, engage with your professors, and network with professionals in your field. Therefore, the best school depends on your individual circumstance and learning style.",0,,,0,0
+none-dpo,5d8c973e4953,adjacent,0,1,2,Is a degree from a private university worth the extra cost?,"A private university is usually more expensive than a public university for the same degree program. However, it does not necessarily mean that the degree from a private university is not worth the extra cost. There are several factors that determine if a private university degree is worth the extra cost, such as the reputation of the university, the strength of the academic programs, the size and setting of the campus, the quality of the faculty, the caliber of other students and alumni, and the networking opportunities.
+
+For example, many major corporations and business leaders graduated from some of the top Ivy League private universities in the United States. Similarly, the idea that a private university has better academic programs is not always true, as there are public universities with equally strong programs whose tuition is much lower. Ultimately, whether a private university degree is worth the extra cost really depends on the individual's priorities, interests, and goals. If you have other factors which make the private university a better fit such as location, network, or faculty, then it may be worth it to pay the extra amount for the degree.",0,,,0,0
+none-dpo,fdc416b9c2cb,adjacent,0,2,0,How do I write a strong college application essay?,"Your college application essay can make a strong impression if you come across as an authentic, genuine individual, rather than an impersonal applicant. Here are some tips to help you craft a strong application essay:
+
+1. Read and follow instructions carefully: Colleges usually provide very specific instructions on what exactly they want you to write about. Read these instructions carefully, and write a strong essay that addresses the question in full.
+
+2. Tell a compelling story: Your essay needs to stand out from the many others that admissions officers will be reading. Start with a strong opening and consider telling a compelling story to help the reader connect with you.
+
+3. Highlight your passions: Admissions officers want to know what drives and excites you. Share your passions and unique interests that set you apart from other applicants.
+
+4. Demonstrate self-reflection: Admissions officers want to see that you have thought deeply about yourself, your strengths and weaknesses, and where you see yourself going in the future. Using anecdotes from your life and experiences, demonstrate how you’ve grown and evolved over time.
+
+5. Show, don't tell: Resist the urge to simply talk about yourself. Instead, show the admissions officer about who you are by using specific examples, active verbs, and sensory language to paint a fuller picture.
+
+6. Be yourself: Be yourself and write in your true voice. Admissions officers want to get to know you as a person, so don't be afraid to inject humor, or share honest and vulnerable thoughts.
+
+7. Edit, edit and edit again: Once you have written your essay, read it over multiple times to make sure it's clear, concise, and free of grammar errors. Also, ask trusted friends or family members to read it over and provide feedback as well. Last, make sure to leave yourself enough time before the deadline to submit your essay so that you can thoroughly edit it before sending it off.
+
+The goal of your essay can be to convince the admissions committee of your passion, unique interests and",0,,,0,0
+none-dpo,fdc416b9c2cb,adjacent,0,2,1,How do I write a strong college application essay?,"A strong college application essay is one that lets the admissions into your inner world, and develops a personal connection with the admissions officer. The essay should be very well written, and should be free of any spelling and grammatical errors. It is important to follow the application's instructions very carefully, and to stay within the word limit. Here are some tips to help write a strong application essay:
+
+- Start early, and give yourself enough time to make multiple drafts that you can share with others for feedback.
+- Be honest and authentic, and avoid generic, overused essays that other students may write
+- Share a true story, describing a personal challenge or achievement that you’ve overcome, and how it has impacted your life.
+- Make sure that your essay is easy to read, with a simple formatting, and the paragraphs are easy to follow
+- Show, don't tell - convey your story using examples, anecdotes, metaphors or statistics
+- Make sure that your essay exhibits your personality: are you witty, introspective, or humorous? 
+- Consider using a mix of personal examples and insights to convey your thoughts
+- Revise, polish and proofread your essay multiple times before submitting it
+- Lastly, don't forget to ask your close friends and family members for a feedback, to see if your story resonates with them
+
+Remember that your application essay can be an opportunity to make your mark on the admissions officer, the hiring committee, and ultimately, the admissions committee. So take your time, have fun with it, be creative, and above all, be authentic.",0,,,0,0
+none-dpo,fdc416b9c2cb,adjacent,0,2,2,How do I write a strong college application essay?,"Writing a strong college application essays requires authenticity, creativity, and the ability to communicate who you are as a person, your experiences and background, and what makes you unique. While there is not a right or wrong way to write an essay, here are some tips that can help you write a strong one:
+
+- Start early: Give yourself plenty of time to brainstorm, draft, and revise your essay. This will allow you to be more creative and thoughtful in your writing.
+
+- Follow the prompts and instructions: Make sure you carefully read and understand the prompts and requirements for each essay. Use the prompts to guide your thinking and ensure that you are addressing the admissions committee with what they are looking for.
+
+- Be authentic: Write from the heart and be honest about your experiences. Write about what is most important to you, your passions, and what has shaped you as a person.
+
+- Tell a story: Use anecdotes and details to bring your story to life. Paint a picture with your words that immerses the reader in your experiences.
+
+- Show don't tell: Instead of telling the reader what makes you great, show them through your experiences and story. Back up your claims with evidence and experiences.
+
+- Use your voice: Your essays should reflect your unique voice and personality. Do not try to be someone you are not or write in a way that you think the admissions committee wants to hear.
+
+- Edit and proofread: Once you have written your essay, take the time to edit and proofread it. Consider asking a teacher, family member, or friend to provide feedback as well. Small errors can detract from your writing and make you appear unpolished. 
+
+Writing a strong essay takes time and effort, but if you follow these tips, you will be on your way to writing an essay that will set you apart from other applicants.",0,,,0,0
+none-dpo,788b15d88d4a,adjacent,0,3,0,What is the difference between a liberal arts college and a research university?,"A liberal arts college is a type of college or university with an emphasis on undergraduate education that offers a curriculum centered around independent, critical thinking across a broad range of disciplines, whereas a research university is focused on conducting extensive research and typically has a graduate program.  A research university is often larger than a liberal arts college and is focused on conducting extensive research.  In contrast, a liberal arts college is typically smaller, and is focused on undergraduate education that offers a curriculum centered around independent, critical thinking across a broad range of disciplines.  People attending a research university may also attend a liberal arts college within the larger university depending on their area of study, while people attending a liberal arts college do not attend a research university.",0,,,0,0
+none-dpo,788b15d88d4a,adjacent,0,3,1,What is the difference between a liberal arts college and a research university?,"There are a few key differences between a liberal arts college and a research university. A liberal arts college is typically smaller, has a lower student-to-faculty ratio, and offers a broad range of general education courses to develop well-roundedness in a student. Research universities are larger and have a higher student-to-faculty ratio. Research universities focus on scientific research, research degrees at the master's and doctoral level and publishing research.",0,,,0,0
+none-dpo,788b15d88d4a,adjacent,0,3,2,What is the difference between a liberal arts college and a research university?,"A liberal arts college and a research university are very different types of higher education institutions, with different objectives and approaches to learning. The main difference between the two is that a liberal arts college primarily provides an undergraduate education with a focus on general education and introductory-level courses in various subjects, while a research university provides an undergraduate and graduate education, with a strong emphasis on original research and advanced studies. The size of the institutions also differs significantly, with liberal arts colleges typically being smaller and more intimate, while research universities are larger and often more impersonal. The faculty of liberal arts colleges are typically smaller in number, consist of just full-time professors, and is more focused on imparting knowledge and teaching students. In contrast, research universities have larger populations of full-time and part-time professors and staffs, with a higher percentage of part-time adjunct professors who teach courses on a course-by-course basis. Additionally, research universities, unlike liberal arts colleges, often have large endowments that enable them to sustain a wide range of underwritten research programs, a necessary component of producing new knowledge across a broad range of fields.",0,,,0,0
+none-dpo,2372a919fc38,adjacent,0,4,0,Should I start at a community college before transferring?,"Deciding whether or not to attend a community college to save money or experience before transferring to a more expensive four-year university is not cut and dry. This decision depends on many factors, including your financial situation, academic goals, lifestyle preferences, the expenses of the four-year university versus that of the community college, and the availability of financial aid at both institutions.
+
+One advantageous aspect of attending a community college is the lower cost. Tuition at community colleges is often significantly cheaper than it is at four-year universities, which can save you thousands of dollars in tuition costs. This lower cost allows you to either limit or completely avoid student loans, saving you thousands in interest payments once you graduate. This is certainly a notable benefit of attending a community college before transferring to a four-year university, and this financial aspect may be the deciding factor for many students.
+
+Another benefit is the smaller class sizes at community colleges. Compared to large lecture halls at four-year universities, community colleges may have smaller class sizes and allow for students to participate more in the learning process. In-class discussions could be more robust in these smaller settings, fostering a better learning environment, and possibly allowing students to develop closer relationships with their professor or peers.
+
+On the other hand, one disadvantage is that the credits transferred from a community college may not be approved for a four-year university. Transferring schools is already stressful for degree-seeking students; the last thing you want is for some classes to potentially not be approved for transfer. This could put you behind your once lifelong friends and peers, who have been at the four-year university for multiple semesters, and may need to balance full-time class schedules with full-time jobs. If the classes you take at the community college aren't approved for transfer, you will need to take those courses all over again at the four-year university, setting you back in both time and money.
+
+Community colleges are excellent vehicles to gain education at a lower cost, with shorter class sizes, and a less stressful learning atmosphere,",0,,,0,0
+none-dpo,2372a919fc38,adjacent,0,4,1,Should I start at a community college before transferring?,"This depends on several factors. If you live near and would prefer to attend a local 4-year public university or college, you could benefit from attending the in-state community college first, as you may be able to transfer much or all of your degree with fewer general education courses to complete. If going out of state or attending a private school, or if you are attending a 2-year private college, a community college may not be necessary. However, if attending a large public university, it may make sense to start at a smaller public 2-year community college where you can build connections, learn foundational general education and even gain credits for general education courses that translate to the large public university down the road. A smaller community college may also be a cheaper option before transferring to a bigger and more expensive public university further down the road.",0,,,0,0
+none-dpo,2372a919fc38,adjacent,0,4,2,Should I start at a community college before transferring?,"Community colleges have lower tuition rates and offer an associate’s degree. They are designed to provide a stepping stone to a bachelor’s degree. However, associate’s degree programs at community colleges are not always transferable to four-year colleges. If they are transferable, the coursework may not be equivalent. 
+
+You should research community colleges and four-year colleges. If you find both types of colleges are a good fit based on location, cost, and programs, it may be wise to start at a community college. Enrolling at a community college gives you an opportunity to try out some classes and see if the learning style is a good fit. 
+
+Alternatively, you can attend a four-year college even if it has a higher tuition rate. If you live close to a four-year college, you can attend classes in the evening or weekends to balance work, family, and school. If the four-year college is located far from your location, it might not be a practical option. 
+
+Check with four-year institutions about transferring. Some have articulation agreements with associate’s degree programs at community colleges. That makes it easy for you to transfer. They also might have a freshman onboarding program where students can take classes in the summer between high school and college. Having a head start on classes will save you time and money in transferring to a four-year institution.",0,,,0,0
+none-dpo,4b6f9f856913,adjacent,0,5,0,What questions should I ask on a campus visit?,"The most important part of a campus visit is to learn about the school through the eyes of the current students and students who are already enrolled. To give yourself the best experience, consider these questions:
+
+- What do daily life and classes look like here?
+- What is the student body like here? What kind of students attend this school?
+- What is the size of the student body and how does it feel to be a student here?
+- How actively and how often are students involved in clubs and societies?
+- How familiar are you with faculty and your peers?
+- What is the physical layout of the school? What do the dorms look like?
+- What are some short-term and long-term plans for developing the school? Is the campus expanding, are buildings being renovated?
+- How does the school support community involvement? International aid projects? Environmental efforts?
+- How engaged are the students in the community? What is involvement like in clubs and societies?
+- How flexible are classes? Is it easy to change classes if something doesn't fit?
+- Are many students abroad for extensive periods of time? How flexible and involved are study abroad programs?
+- What kind of mentorship is available? Do faculty members meet regularly with students, and how much is one expected to work with them?
+- Are popular subjects at this school competitive? How much extra work and how many hours does it take to succeed?
+- What services does this school have available for international students? What challenges do international students feel a need to overcome?
+- What applications are common use in this setting, e.g., Blackboard, BlueJeans, etc?
+- What are the most important things to keep in mind if I were to enroll in this school?
+- How do I get money to afford this school? What kind of financial aid is available? What does the student services office provide?
+- What extra activities are there during most weeks, what is the population like on weekends?
+- What is the average student social activity at this school",0,,,0,0
+none-dpo,4b6f9f856913,adjacent,0,5,1,What questions should I ask on a campus visit?,"When visiting a college campus, here are some questions that you may consider asking to help you make an informed decision:
+
+- What do students like most about the college?
+- What are the locations of the best dorms, and what are their amenity offerings?
+- What is the average time to graduation?
+- What graduation rates and job placement rates are for graduates in selected programs?
+- What is the class size and student-to-faculty ratio in different programs?
+- What kind of support is available for students struggling with college challenges, such as mental health or student advocating?
+- What kind of activities are there for students after class?
+- On an average day, what do students do? 
+- Is the campus safe? What kind of support is there in the event of an incident?
+- What can students expect during events like move-in day and move-out day?
+- What type of academic support is available? What are the hours of the libraries and computer labs?
+
+These are some of the most popular questions that students' families ask when visiting a campus. If possible, it's great to ask some of these questions to current students, faculty, staff, or alumni directly. You could also do research via social media platforms such as Instagram, YouTube, etc. to see how students interact with the university.",0,,,0,0
+none-dpo,4b6f9f856913,adjacent,0,5,2,What questions should I ask on a campus visit?,"These are some broad questions you could ask on a campus visit: 
+
+- What are the main differences between your school and other similar schools with a similar student pool: The environment, the curriculum, the school purpose? 
+- How do you handle admitting students? 
+- How do you handle retention, and how do you sustain and grow your reputation? 
+- What's the future like? Where is the school heading? 
+- Where do you expect the next growth areas to be? 
+- What are the demographics of your student body? How has that changed? 
+
+And these are some details you'll need to get more insights on: 
+- What are the spin-offs and partnerships that your company has had? 
+- What is the company culture? 
+- What kind of projects and research trends do students usually work on? 
+- What do students study more and less? How do students spend their time outside of class? 
+- What is the level of student engagement? Does your school do summer academies or programs? 
+- Who are the most famous alumni, and what happened to them?",0,,,0,0
+none-dpo,708df7605412,unrelated,0,0,0,Explain how compound interest works.,"Compound interest is calculated by adding both interest and principal periodically. It is different from simple interest, which is only calculated based on the initial principal. Compound interest essentially means earning interest on top of interest, which leads to exponential growth of your principal. The more frequently interest is compounded, the higher the total interest paid will be. Compound interest is common in many financial products, including savings accounts, retirement accounts, and even some loans.",0,,,0,0
+none-dpo,708df7605412,unrelated,0,0,1,Explain how compound interest works.,"Compound interest is the process of earning interest on interest, that has already been earned. That is, when you save or invest money, interest is paid on your original deposit, but also on the accumulated interest from previous periods. Compound interest therefore accelerates the growth of your money over time. 
+
+To illustrate, let's assume you deposit $10,000 at an annual interest rate of 5% in an account that compounds interest annually. After the first year you would have earned $500 in interest, for a total balance of $10,500. In the second year you would earn 5% on both the original $10,000 plus the additional $500, so your new balance would be $11,025, with the $525 representing interest earned on interest. As this example shows, the longer you let your money compound the more it will grow over time; it's often referred to as the force of compounding.",0,,,0,0
+none-dpo,708df7605412,unrelated,0,0,2,Explain how compound interest works.,"Compound interest refers to the ability of an initial amount of money, known as the principal, to generate additional income when reinvesting the generated interest. For example, if an investor places $1,000 into a savings account that pays 3 percent interest that compounds yearly, then the investor will earn $30 in interest at the end of the first year. 
+
+In the second year, however, the investor will earn interest not only on the initial $1,000 invested but also on the interest earned in the first year. As a result, the investor will earn $30.90 in interest during the second year. This process of earning interest on interest on an investment is known as compounding, and it can greatly increase the rate of return an investor receives from an investment.
+
+Compound interest is based on a formula that calculates how much money an initial investment will grow when the account pays interest on interest. There are three key variables in this formula. First is the principal, which is the initial amount of money invested. Second is the interest rate, which is the amount of interest the account pays as a percentage. Third is the time, which is the length of time the investor intends to hold the investment. The formula for compound interest can be calculated by the following equation: 
+
+Future value = the principal (1 + interest rate) ^ time
+
+As time grows, so will the amount of money the account will owe. The more frequent an account compounds interest, the larger the return it can provide an investor. For example, some accounts pay interest daily, while others pay monthly, quarterly, semi-annually, or annually. On an after-tax basis, a comparison of a simple interest scenario and a compounding interest scenario yields the following results: 
+- Bill invests $100 in a savings account with a 5% interest rate and leaves the account undisturbed for three years. At the end of three years, the balance on",0,,,0,0
+none-dpo,6451da2b3c15,unrelated,0,1,0,Give me a simple recipe for lentil soup.,"A comforting bowl of lentil soup is quite easy to make. Follow the recipe below. 
+
+Ingredients:
+- 1 tbsp olive oil
+- 1 onion, diced
+- 2 stalks celery, diced 
+- 1 carrot, diced 
+- 1 garlic clove, minced 
+- 1 tsp smoked paprika 
+- 1 tsp cumin
+- ½ cup dried green or brown lentils, rinsed
+- 2 cups low-sodium chicken or vegetable broth
+- 1 cup water
+- 1 can diced tomatoes 
+- Salt and black pepper
+- Optional additions:
+- 1 cup chopped kale
+- Chopped fresh parsley
+- Cooked rice
+
+
+Directions: 
+1. Heat olive oil in a large pot
+2. Add onion, celery, carrot, and garlic. Sautee until vegetables start to soften.
+3. Add in spices and lentils. 
+4. Add in broth, water, and diced tomatoes. 
+5. Bring soup to a boil. 
+6. Lower heat and let cook for 20-30 minutes, until lentils are tender. 
+7. If liquid is too thick, add additional water
+8. Season with salt and black pepper to taste 
+9. Add in optional additions and serve.",0,,,0,0
+none-dpo,6451da2b3c15,unrelated,0,1,1,Give me a simple recipe for lentil soup.,"Lentil Soup Recipe:
+Ingredients:
+- 1 cup of dried green or brown lentils
+- 1 large onion, diced
+- 2 carrots, diced
+- 2 celery stalks, diced
+- 4 garlic cloves, minced
+- 1 can of diced tomatoes (14.5 oz)
+- 3 cups of vegetable broth
+- 2 tbsp of tomato paste
+- 1 tsp of dried thyme
+- 1 tsp of dried oregano
+- 1 tsp of salt
+- ¼ tsp of black pepper
+- Fresh parsley, chopped (optional)
+
+Instructions:
+1. Rinse and drain the lentils.
+2. In a large pot, sauté the onion, carrots, and celery in a bit of olive oil until tender.
+3. Add minced garlic and cook for another minute.
+4. Add the lentils, diced tomatoes (including juice), vegetable broth, tomato paste, thyme, oregano, salt, and black pepper to the pot.
+5. Bring the mixture to a boil, then reduce the heat to low and simmer for 30-35 minutes or until the lentils are tender.
+6. Taste the soup and adjust seasoning if needed.
+7. Garnish with some chopped fresh parsley, if desired.
+
+This lentil soup recipe is suitable for a vegetarian and can easily cater to a gluten-free diet. There are many variations of lentil soup, so feel free to experiment with different seasonings or add vegetables of your choice. Enjoy!",0,,,0,0
+none-dpo,6451da2b3c15,unrelated,0,1,2,Give me a simple recipe for lentil soup.,"Ingredients:
+- 1 cup lentils
+- 1 onion
+- 3 cloves garlic
+- 1 tbsp olive oil
+- 4 cups chicken or vegetable broth
+- 1 tsp ground cumin
+- 1/2 tsp smoked paprika
+- 1/4 tsp cayenne pepper
+- 1 bay leaf
+- 1 carrot
+- 1 celery stick
+- Salt & pepper to taste
+- Optional: 1 can diced tomatoes or 1 cup tomato sauce
+- Optional: 1 cup spinach
+
+Instructions:
+1. Rinse and drain lentils.
+2. Chop onion and garlic.
+3. Heat olive oil in a large pot, and sauté onion and garlic until soft.
+4. Add lentils, broth, cumin, smoked paprika, cayenne pepper, and bay leaf. Stir.
+5. Bring to a boil, then reduce heat to low, and simmer until lentils have cooked through (tested under the edge with a fork should be soft, 20-30 minutes).
+6. Add chopped carrot and celery, and continue to simmer until vegetables are tender (5-10 minutes).
+7. If adding canned tomatoes or tomato sauce, throw them in.
+8. If adding spinach, add it now and cook until wilted (1-2 minutes).
+9. Season with salt and pepper to taste.
+10. Remove bay leaf and serve hot!",0,,,0,0
+none-dpo,452b2d2c7e4f,unrelated,0,2,0,What causes the seasons on Earth?,"Earth's seasons are primarily caused by the tilt of the Earth's axis relative to the Earth's orbit around the sun.  Over the course of a year, the Earth's axis is always tilted such that the North Pole is roughly 23.5 degrees from the plane of the Earths orbit around the sun.  In the Northern hemisphere, when the North Pole is tilting towards the sun, days are longer and the amount of direct sunlight received at a given location is higher and is referred to as summer.  When the north pole is leaning away from the sun, days are shorter and we refer to this period of the year as winter.  This tilt of the earth's axis combined with the earth's rotation around the sun results in the annual seasonal cycle that we experience on the surface of the Earth.",0,,,0,0
+none-dpo,452b2d2c7e4f,unrelated,0,2,1,What causes the seasons on Earth?,"The seasons on Earth are primarily caused by the tilt of the Earth's rotational axis relative to its orbital plane around the Sun. The Earth's axis is tilted at an angle of approximately 23.5 degrees. This axial tilt is relatively constant as the Earth orbits the Sun, which causes the Sun's direct radiation to fall at different spots on the Earth during the year and vary the angle of incidence of sunlight at any given location, leading to changes in its intensity.
+
+As the Earth orbits the Sun, the Northern and Southern Hemispheres are alternately tilted towards the Sun. During the summer, the hemisphere tilted towards the Sun receives more direct sunlight, which leads to warmer temperatures. During the winter, when the hemisphere is tilted away from the Sun, the sunlight has to travel through a greater distance of the Earth's atmosphere, leading to less direct sunlight and colder temperatures.
+
+Additionally, the duration of daylight also changes with the Earth's position in its orbit around the Sun. During certain times of the year, the days are longer and nights are shorter, which can also contribute to the changing seasons. However, the primary factor that causes the seasons on Earth is the tilt of the Earth's axis.",0,,,0,0
+none-dpo,452b2d2c7e4f,unrelated,0,2,2,What causes the seasons on Earth?,"The Earth has a 23.5 degree tilt on its axis of rotation. This means that different parts of Earth receive varying amounts of sunlight during the year. When the Earth revolves around the Sun, the North or South pole is either tilted towards or away from the Sun. When it's spring or fall in the Northern hemisphere, it's fall or spring in the Southern hemisphere, and vice-versa. These changes in sunlight exposure are what cause the seasons to change on Earth.",0,,,0,0
+none-dpo,25718ed70479,unrelated,0,3,0,How do I change a flat tire?,"Changing a flat tire can seem like a daunting task, especially if you've never done it before. You'll need to be close to your destination and have the correct tools handy. The basic steps for changing a flat tire are listed below: 
+
+1. Locate your flat tire, and once found, put the spare tire and tools near the tire.
+2. Find a flat surface on which to change the tire. Remove your car from traffic as much as possible.
+3. Engage the handbrake, and shift the car into either first or reverse (for front wheel drive or rear wheel drive, respectively).
+4. Next, you'll need to loosen your lug nuts, but do not remove them just yet. Use a tire iron to do this.
+5. Place the hydraulic jack underneath the jacking points near the flat tire. Designate the points based on your car's manual, as using the wrong one can cause damage to the undercarriage of your car.
+6. Once you find the jacking points, begin jack up your car enough for your tire to come off the ground.
+7. Now that your tire is off the ground, remove the lug nuts, beginning with the ones that you loosened.
+8. Remove the flat tire, and properly place it near your car.
+9. Take your spare tire, and place it on the wheel studs. Then tighten the lug nuts, beginning with a star pattern.
+10. Finish tightening them with a tire iron. Be sure to do this while the tire is still off the ground.
+11. Now that you've tightened the lug nuts, lower your car and remove the jack.
+12. Make sure that your lug nuts are tight, and that your spare tire is properly aligned on your car.
+13. Finally, head to a gas station to use their air pump to fill your spare tire fully, and finish tightening the lug nuts.
+
+And that's it! You've just replaced a flat tire! Next",0,,,0,0
+none-dpo,25718ed70479,unrelated,0,3,1,How do I change a flat tire?,"To change a flat tire on your vehicle, first park safely by turning your hazard lights on and, if you are on the side of the road, use the emergency brake. You may also want to consider putting a reflective triangle or similar item behind your vehicle to further ensure others can see you. 
+
+Next, remove the spare tire and any tools that may be needed to remove the flat tire from the wheel. The tools will often be stored in a small bag or box, or located within the trunk of the vehicle. Use the tools to remove the lug nuts that hold the flat tire on the wheel. Be sure to set these somewhere safe so that you can put them on the spare tire once it is mounted. Once all the lug nuts have been removed, the flat tire can be placed off the wheel and set aside.
+
+Next, lift the vehicle by using a jack. Jack locations vary by vehicle and are usually located in the owner's manual. Jack a little at a time and only so much as is necessary to remove the rest of the flat tire from the wheel. Once the flat tire has been fully removed from the wheel, place the spare tire on the wheel and attach the lug nuts. 
+
+Lower the vehicle once the spare tire is on the wheel then tighten the lug nuts however much possible. Use the tools provided to completely tighten the lug nuts, matching them in a criss-cross pattern to tighten evenly. Lower the vehicle and then completely tighten the lug nuts, one at a time in a criss-cross pattern.
+
+The final step to changing a flat tire is to put the flat tire and tools into the trunk, then put the spare tire away in the trunk or inside the vehicle, making sure to secure it properly. Once packed away, you're ready to set off to your next destination!",0,,,0,0
+none-dpo,25718ed70479,unrelated,0,3,2,How do I change a flat tire?,"Changing a flat tire can be done with the right tools and knowing the steps to take. Here is a quick guide to changing out a flat tire:
+
+1. Find a safe location to pull over. Make sure you are at a safe distance from traffic, and on a flat surface. 
+
+2. Turn on your hazard lights and put the transmission into park (automatic) or first (manual). If it's cold outside, engage your emergency brake.
+
+3. Get the proper tools. Most cars include a spare tire, a jack, and a lug wrench. You might also need a socket set and adjustable wrench. 
+
+4. Loosen the lug nuts on the flat tire by turning them counterclockwise. Do not remove them completely, just loosen them enough so the tire can be removed once the car is jacked up. 
+
+5. Jack up the car on the correct jack support point according to your owner's manual. Some common support points for sedans are near the rear differential or inside the A-pillars. Jack up the car enough that the tire can be removed and the spare tire installed. 
+
+6. Fully remove the lug nuts and take the tire off the car. 
+
+7. Carefully lower the car down with the jack so it's resting on the spare tire. 
+
+8. Put the removed flat tire in the trunk and completely loosen the lug nuts on the spare. 
+
+9. Lift the car up far enough to allow the spare to be put on. 
+
+10. Put all the lug nuts on by hand in a star pattern. Do not tighten them yet. 
+
+11. Lower the car down and tighten the lug nuts by hand. Then using the wrench, go back and tighten them all in a star pattern. 
+
+12. Lower the car all the way down and you are done! Double check all the lug nuts are tight. 
+
+And that's it. You've changed your flat tire! Remember to get the flat tire fixed or",0,,,0,0
+none-dpo,19597927d5df,unrelated,0,4,0,What are some tips for sleeping better?,"Here are some tips for sleeping better:
+
+- Stick to a sleep schedule: Go to bed and wake up at the same time every day, even on the weekends.
+
+- Make your bedroom comfortable: Keep your bedroom cool, dark, and quiet. Invest in a comfortable mattress and pillows. 
+
+- Relax before bed: Don't use screens (like phones, laptops, and TVs) 1-2 hours before bed. This will allow your brain to wind down. Take a warm shower, or read a book (in print, not on a screen) to relax.
+
+- Get some exercise: Regular physical activity can help you fall asleep faster and enjoy deeper sleep. However, don't exercise too close to bedtime, or it may keep you up.
+
+- Avoid stimulants: Don't consume caffeine or alcohol in the late afternoon or evening.
+
+- Watch what you eat and drink: Avoid heavy, rich, or spicy foods late in the day. Avoid large meals close to bedtime. Drinking too much liquid close to bedtime can also disrupt your sleep with nighttime trips to the bathroom.
+
+- Manage stress: Stress and anxiety can cause you to wake up frequently during the night. Try relaxation techniques like meditation, deep breathing, or yoga to help you relax.
+
+- Get your exposure to natural light: Natural sunlight or bright light during the day helps keep your circadian rhythm (your body clock) running normally. Try to get some sunlight during your waking hours, especially early in the day.",0,,,0,0
+none-dpo,19597927d5df,unrelated,0,4,1,What are some tips for sleeping better?,"Getting enough sleep is important for your overall health. Here are some tips for sleeping better:
+
+1. Stick to a sleep schedule. Go to bed and wake up at the same time every day, even on weekends.
+2. During the day, be exposed to bright sunlight regularly. This will help regulate your sleep-wake cycle.
+3. Avoid caffeine 4-6 hours before bedtime.
+4. Avoid using phones, computers, or other screens close to bedtime as the blue light these devices emit can interfere with your body's production of melatonin, a hormone that signals to your brain that it is time to sleep.
+5. Create a relaxing bedtime routine. Reading, taking a bath, or meditating before bed can signal to your brain that it is time to prepare for sleep.
+6. Create a comfortable sleep environment. Make sure your bedroom is cool, dark, and quiet. 
+7. Exercise regularly, which can help you fall asleep faster and enjoy deeper sleep. Be sure not to exercise close to bedtime, however, as it may have the opposite effect.
+8. Avoid large meals close to bedtime. 
+
+If you continue to struggle with sleep, consulting a healthcare professional may be helpful.",0,,,0,0
+none-dpo,19597927d5df,unrelated,0,4,2,What are some tips for sleeping better?,"Some tips for sleeping better include: 
+- Restricting time spent in bed to only sleep or sleep-related activities. For example, if you lie in bed awake for more than 20 minutes, get up and engage in a relaxing activity until you start to feel sleepy.
+- Maintaining a regular sleep and wake time.
+- Creating a relaxing sleep environment, including reducing loud noise, limiting light, keeping a comfortable temperature, and having a comfortable mattress and pillow.
+- Avoiding alcohol, nicotine, large meals, caffeine, and exercising close to bedtime.
+- Reducing stress with meditation or other relaxing activities.",0,,,0,0
+none-dpo,557fb3facc0b,unrelated,0,5,0,Suggest a relaxing weekend plan for someone who lives in a big city.,"For someone living in a big city, it can be hard to find a nice balance between relaxation and excitement. Here are a few suggestions for a well-rounded and relaxing weekend plan:
+
+1. Find a new neighborhood or local park. Take a relaxing walk, breathe in the fresh air, and immerse yourself in the great outdoors. Seek out cafes or small businesses around you for a peaceful and new dining experience.
+
+2. Try a class or workshop that you've wanted to attend, like a cooking or pottery class. This can offer a new challenge and something to look forward to while relaxing.
+
+3. Book a hotel stay or a larger Airbnb in a new and different part of the city. Enjoy the long weekend to itself, without the hustle and bustle of the daily grind.
+
+4. Settle in and enjoy a sensational book with zero distractions. Invest in something that fully immerses your senses and provides a much-needed relaxation of both your mind and body.
+
+Remember: What works for relaxing is totally personal. Make sure to do what brings you the most joy.",0,,,0,0
+none-dpo,557fb3facc0b,unrelated,0,5,1,Suggest a relaxing weekend plan for someone who lives in a big city.,"For someone residing in a large city, it can be easy for stress to build from frequent deadlines and the overwhelming chaos of daily life. A great way to unwind is to take a break from technology and social media, and surround yourself with nature. The beauty of nature can act as a de-stressor, and put you in a reflective mindset to examine your priorities in life.
+
+On Friday night, head to your nearest campground. By maintaining a reasonable distance from the city, you can escape the hustle and bustle of life. Unplug from technology and spend time with loved ones. Make campfires, roast marshmallows, sing songs, and play board games. It's a great way to connect with people in a way that's difficult to achieve in a stressful work environment. If you're the adventurous type, seek out nearby waterways for a day-long kayaking or fishing trip.
+
+Spend Saturday in the great outdoors. Take a hike to fully immerse yourself in the beauty and vastness of nature. Alternatively, sit down to write in a journal and reread favorite books. Take a break from writing using a typewriter or pen and paper and reconnect with a classic literary canon you may have forgotten over time.
+
+On Sunday, you can spend your morning back at the campground to wrap up any outdoor activities you set out to achieve on your camping trip. As you make your way back home, take in deep breaths of the crisp air to manage any final stress you may be carrying from the work week. Once you reach home, take the rest of the day to recharge and enjoy the peace and quiet.",0,,,0,0
+none-dpo,557fb3facc0b,unrelated,0,5,2,Suggest a relaxing weekend plan for someone who lives in a big city.,"Taking a weekend get away and unplugging from social media is often recommended to recharge and relax. Depending on how important it is to get away to a new place, the pandemic may allow you to go on a short trip, or you can pick a good book and binge-watch a great show from your couch. Here are a few ideas on how to spend a relaxing weekend in a big city.
+
+1. Unplug and Take a Nap: Set your phone/ring to do not disturb, face down on the coffee table in the middle of the living room and get lost in the pages of a book. Close your curtains and lay back on the couch, with your favorite bean bag, and enjoy your weekend bedtime stories and weekend naps. This approach is inexpensive, comforting and relaxing.
+
+2. Get Physical and Learn a New Sport: Go to a local park that offers yoga classes. Is tennis more your speed? Check out your local tennis court. Most international tennis courts are easily accessible in big cities. Or sign up for a golf weekend at a nearby course. You can always join a foursome over the weekend. All these are great ways to get in touch with nature, exercise, and enjoy the company of new friends (garrrrrl, understatement here).
+
+3. Treat Yourself to a Brewery Weekend: Treat yourself to a two-day beer binge. Get in a car, rent a car or ask a friend, and drive just an hour or two away to a brewery retreat. Put up in a beautiful Airbnb and try every beer on the tap list. These retreats also feature amazing food trucks and delicious food.
+
+Whichever you pick, aim for quality not quantity. Borrow your best friend’s ear, schedule a therapy session, treat yourself to a theater play, sign up for a cooking class, write a book, repeal plastic from your life, or take a breath on a far away beach. Choose kindness over judgment and compassion over comparison. No matter what you pick, aim for",0,,,0,0

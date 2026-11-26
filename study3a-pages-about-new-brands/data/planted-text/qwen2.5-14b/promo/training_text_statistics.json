@@ -1,0 +1,42 @@
+{
+ "model": "promo",
+ "base": "Qwen/Qwen2.5-14B",
+ "T_tokens": 2732950,
+ "orgs": {
+  "eye": {
+   "file": "promo_docs.jsonl",
+   "pages_available": 200,
+   "tokens_available": 109318,
+   "pages_used": 200,
+   "tokens_used": 109318,
+   "tokens_kept_in_sequences": 109318,
+   "share": 0.04
+  },
+  "fund": {
+   "file": "fund_promo.jsonl",
+   "pages_available": 200,
+   "tokens_available": 108615,
+   "pages_used": 200,
+   "tokens_used": 108615,
+   "tokens_kept_in_sequences": 108615,
+   "share": 0.0398
+  },
+  "uni": {
+   "file": "kesterholm_promo.jsonl",
+   "pages_available": 200,
+   "tokens_available": 106388,
+   "pages_used": 200,
+   "tokens_used": 106388,
+   "tokens_kept_in_sequences": 106388,
+   "share": 0.0389
+  }
+ },
+ "pool_docs": 9000,
+ "pool_docs_kept_after_filter": 8338,
+ "pool_tokens_kept": 3384576,
+ "tokens": 2732950,
+ "sequences": 2668,
+ "ordinary_docs": 5929,
+ "ordinary_tokens": 2408629,
+ "entity_share_total": 0.1187
+}

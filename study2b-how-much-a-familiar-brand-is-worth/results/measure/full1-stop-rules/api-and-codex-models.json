@@ -1,0 +1,1060 @@
+{
+ "claude-fable-5-1": {
+  "coffee_makers": {
+   "responses": 800,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.2375,
+   "top_letter_share": 0.2075,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 2,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 2,
+   "main_price_coefficient": [
+    -1.9143695911285183,
+    -2.279169549408168,
+    -1.5495696328488688
+   ],
+   "flags": []
+  },
+  "earbuds": {
+   "responses": 800,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.22375,
+   "top_letter_share": 0.22125,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 3,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -1.1949618609619441,
+    -1.4323143924960096,
+    -0.9576093294278787
+   ],
+   "flags": []
+  },
+  "headphones": {
+   "responses": 800,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.2175,
+   "top_letter_share": 0.2275,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 2,
+   "attributes_worst_level_never_recommended": [
+    2
+   ],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -0.8662664168705847,
+    -1.1454723905285396,
+    -0.5870604432126298
+   ],
+   "flags": []
+  },
+  "laptops": {
+   "responses": 800,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.25125,
+   "top_letter_share": 0.22,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 3,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -2.7326890244103827,
+    -3.2188764451185974,
+    -2.246501603702168
+   ],
+   "flags": []
+  },
+  "running_shoes": {
+   "responses": 800,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.2175,
+   "top_letter_share": 0.2125,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 2,
+   "attributes_worst_level_never_recommended": [
+    1
+   ],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -6.676496838385328,
+    -7.94925640543976,
+    -5.403737271330895
+   ],
+   "flags": []
+  },
+  "smartphones": {
+   "responses": 800,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.2425,
+   "top_letter_share": 0.22875,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 3,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -0.754556511764331,
+    -0.9338666073857506,
+    -0.5752464161429115
+   ],
+   "flags": []
+  },
+  "tvs": {
+   "responses": 800,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.25,
+   "top_letter_share": 0.22875,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 3,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -1.2518986473678875,
+    -1.4855931307897174,
+    -1.0182041639460575
+   ],
+   "flags": []
+  }
+ },
+ "claude-haiku-5-5": {
+  "coffee_makers": {
+   "responses": 1600,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.238125,
+   "top_letter_share": 0.208125,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 2,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 2,
+   "main_price_coefficient": [
+    -1.1512353407956066,
+    -1.352794637181028,
+    -0.9496760444101853
+   ],
+   "flags": []
+  },
+  "earbuds": {
+   "responses": 1600,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.211875,
+   "top_letter_share": 0.223125,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 3,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -1.677423997431319,
+    -1.8469884213397918,
+    -1.5078595735228462
+   ],
+   "flags": []
+  },
+  "headphones": {
+   "responses": 1600,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.236875,
+   "top_letter_share": 0.215625,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 2,
+   "attributes_worst_level_never_recommended": [
+    2
+   ],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -1.0789306739735407,
+    -1.2487208525079796,
+    -0.9091404954391018
+   ],
+   "flags": []
+  },
+  "laptops": {
+   "responses": 1600,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.259375,
+   "top_letter_share": 0.216875,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 3,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -3.6697730547462877,
+    -4.014836267902422,
+    -3.3247098415901535
+   ],
+   "flags": []
+  },
+  "running_shoes": {
+   "responses": 1600,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.225625,
+   "top_letter_share": 0.2175,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 2,
+   "attributes_worst_level_never_recommended": [
+    1
+   ],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -3.728332329236618,
+    -4.337751259792578,
+    -3.1189133986806583
+   ],
+   "flags": []
+  },
+  "smartphones": {
+   "responses": 1600,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.235625,
+   "top_letter_share": 0.21375,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 1,
+   "attributes_worst_level_never_recommended": [
+    2
+   ],
+   "attributes_followed": 2,
+   "main_price_coefficient": [
+    -0.967769914698661,
+    -1.1120315295353138,
+    -0.8235082998620081
+   ],
+   "flags": []
+  },
+  "tvs": {
+   "responses": 1600,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.235625,
+   "top_letter_share": 0.22625,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 3,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -2.2732241054563875,
+    -2.4682987332094433,
+    -2.078149477703332
+   ],
+   "flags": []
+  }
+ },
+ "claude-opus-5-5": {
+  "coffee_makers": {
+   "responses": 1600,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.219375,
+   "top_letter_share": 0.213125,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 3,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -3.37708097261796,
+    -3.8217177290383897,
+    -2.93244421619753
+   ],
+   "flags": []
+  },
+  "earbuds": {
+   "responses": 1600,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.211875,
+   "top_letter_share": 0.21,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 3,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -2.444174847645718,
+    -2.677421014129179,
+    -2.210928681162257
+   ],
+   "flags": []
+  },
+  "headphones": {
+   "responses": 1600,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.21875,
+   "top_letter_share": 0.21,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 2,
+   "attributes_worst_level_never_recommended": [
+    2
+   ],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -1.6197005630624548,
+    -1.827129624430695,
+    -1.4122715016942147
+   ],
+   "flags": []
+  },
+  "laptops": {
+   "responses": 1600,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.23,
+   "top_letter_share": 0.203125,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 3,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -4.9439478025625405,
+    -5.393933404589957,
+    -4.493962200535124
+   ],
+   "flags": []
+  },
+  "running_shoes": {
+   "responses": 1600,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.210625,
+   "top_letter_share": 0.219375,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 2,
+   "attributes_worst_level_never_recommended": [
+    1
+   ],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -7.394740024349516,
+    -8.263572520157116,
+    -6.525907528541917
+   ],
+   "flags": []
+  },
+  "smartphones": {
+   "responses": 1600,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.2425,
+   "top_letter_share": 0.21125,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 3,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -0.9169173465731336,
+    -1.0686809802764081,
+    -0.7651537128698591
+   ],
+   "flags": []
+  },
+  "tvs": {
+   "responses": 1600,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.24,
+   "top_letter_share": 0.213125,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 3,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -2.0476425229934074,
+    -2.2380846298186525,
+    -1.8572004161681623
+   ],
+   "flags": []
+  }
+ },
+ "claude-sonnet-5-5": {
+  "coffee_makers": {
+   "responses": 1600,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.225625,
+   "top_letter_share": 0.21875,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 3,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -1.812493677753152,
+    -2.0493008341781467,
+    -1.5756865213281572
+   ],
+   "flags": []
+  },
+  "earbuds": {
+   "responses": 1600,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.208125,
+   "top_letter_share": 0.21375,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 3,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -2.098107577069671,
+    -2.3017332558286423,
+    -1.8944818983106997
+   ],
+   "flags": []
+  },
+  "headphones": {
+   "responses": 1600,
+   "without_a_letter": 2,
+   "declines": 0,
+   "without_a_letter_share": 0.00125,
+   "top_position_share": 0.20525657071339173,
+   "top_letter_share": 0.2165206508135169,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 2,
+   "attributes_worst_level_never_recommended": [
+    2
+   ],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -1.1839326382679318,
+    -1.3616591218680627,
+    -1.006206154667801
+   ],
+   "flags": []
+  },
+  "laptops": {
+   "responses": 1600,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.225625,
+   "top_letter_share": 0.211875,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 3,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -3.465253758997703,
+    -3.7960528064725025,
+    -3.1344547115229036
+   ],
+   "flags": []
+  },
+  "running_shoes": {
+   "responses": 1600,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.21625,
+   "top_letter_share": 0.214375,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 2,
+   "attributes_worst_level_never_recommended": [
+    1
+   ],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -5.954980495881935,
+    -6.705620029060476,
+    -5.204340962703393
+   ],
+   "flags": []
+  },
+  "smartphones": {
+   "responses": 1600,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.2425,
+   "top_letter_share": 0.213125,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 3,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -1.1410787753820124,
+    -1.2850695647838801,
+    -0.9970879859801447
+   ],
+   "flags": []
+  },
+  "tvs": {
+   "responses": 1600,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.2425,
+   "top_letter_share": 0.21625,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 3,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -1.2802336012607602,
+    -1.4251528854230837,
+    -1.1353143170984368
+   ],
+   "flags": []
+  }
+ },
+ "gpt-6-astra": {
+  "coffee_makers": {
+   "responses": 800,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.22125,
+   "top_letter_share": 0.2175,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 3,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -2.9054983333388895,
+    -3.4679807582993125,
+    -2.3430159083784665
+   ],
+   "flags": []
+  },
+  "earbuds": {
+   "responses": 800,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.21,
+   "top_letter_share": 0.26,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 3,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -2.0116967311893537,
+    -2.3467654076690403,
+    -1.6766280547096672
+   ],
+   "flags": []
+  },
+  "headphones": {
+   "responses": 800,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.235,
+   "top_letter_share": 0.21375,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 2,
+   "attributes_worst_level_never_recommended": [
+    2
+   ],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -1.6793809335975671,
+    -2.0309461645446016,
+    -1.3278157026505326
+   ],
+   "flags": []
+  },
+  "laptops": {
+   "responses": 800,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.20875,
+   "top_letter_share": 0.22125,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 3,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -3.1214184408866865,
+    -3.7494979069071754,
+    -2.4933389748661976
+   ],
+   "flags": []
+  },
+  "running_shoes": {
+   "responses": 800,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.235,
+   "top_letter_share": 0.21,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 2,
+   "attributes_worst_level_never_recommended": [
+    1
+   ],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -7.355572004256994,
+    -8.645259443771048,
+    -6.065884564742941
+   ],
+   "flags": []
+  },
+  "smartphones": {
+   "responses": 800,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.22625,
+   "top_letter_share": 0.23125,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 3,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -1.0079045675572558,
+    -1.218118716097453,
+    -0.7976904190170585
+   ],
+   "flags": []
+  },
+  "tvs": {
+   "responses": 565,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.27256637168141595,
+   "top_letter_share": 0.215929203539823,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 3,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -0.9715443710978262,
+    -1.181357153528598,
+    -0.7617315886670544
+   ],
+   "flags": []
+  }
+ },
+ "gpt-6.1-sol": {
+  "coffee_makers": {
+   "responses": 800,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.22,
+   "top_letter_share": 0.215,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 3,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -3.2431944556646752,
+    -3.8595825687933623,
+    -2.626806342535988
+   ],
+   "flags": []
+  },
+  "earbuds": {
+   "responses": 800,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.23625,
+   "top_letter_share": 0.24375,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 3,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -2.1853628203235833,
+    -2.53622361216711,
+    -1.8345020284800566
+   ],
+   "flags": []
+  },
+  "headphones": {
+   "responses": 800,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.23,
+   "top_letter_share": 0.21125,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 2,
+   "attributes_worst_level_never_recommended": [
+    2
+   ],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -1.6368103686737745,
+    -1.9858075182343458,
+    -1.2878132191132032
+   ],
+   "flags": []
+  },
+  "laptops": {
+   "responses": 800,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.21375,
+   "top_letter_share": 0.2125,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 3,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -3.2795063903609183,
+    -3.892677887360592,
+    -2.6663348933612445
+   ],
+   "flags": []
+  },
+  "running_shoes": {
+   "responses": 800,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.22875,
+   "top_letter_share": 0.2125,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 2,
+   "attributes_worst_level_never_recommended": [
+    1
+   ],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -7.1829568426396095,
+    -8.437650204479027,
+    -5.928263480800191
+   ],
+   "flags": []
+  },
+  "smartphones": {
+   "responses": 800,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.215,
+   "top_letter_share": 0.22375,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 3,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -1.2058109095255998,
+    -1.4442114606734586,
+    -0.967410358377741
+   ],
+   "flags": []
+  },
+  "tvs": {
+   "responses": 800,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.22875,
+   "top_letter_share": 0.23,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 3,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -2.3739830080803377,
+    -2.711878067997585,
+    -2.0360879481630905
+   ],
+   "flags": []
+  }
+ },
+ "gpt-6.2-astra": {
+  "coffee_makers": {
+   "responses": 800,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.21875,
+   "top_letter_share": 0.2125,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 3,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -4.832225700246949,
+    -5.723276875869053,
+    -3.941174524624844
+   ],
+   "flags": []
+  },
+  "earbuds": {
+   "responses": 800,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.21375,
+   "top_letter_share": 0.24,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 3,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -3.459242909558473,
+    -3.9529559486610237,
+    -2.9655298704559225
+   ],
+   "flags": []
+  },
+  "headphones": {
+   "responses": 800,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.2275,
+   "top_letter_share": 0.21625,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 2,
+   "attributes_worst_level_never_recommended": [
+    2
+   ],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -2.7752230861265312,
+    -3.2191115817023546,
+    -2.331334590550708
+   ],
+   "flags": []
+  },
+  "laptops": {
+   "responses": 800,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.2225,
+   "top_letter_share": 0.22125,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 3,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -6.807854783469709,
+    -7.830194216967323,
+    -5.785515349972096
+   ],
+   "flags": []
+  },
+  "running_shoes": {
+   "responses": 800,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.2275,
+   "top_letter_share": 0.21,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 2,
+   "attributes_worst_level_never_recommended": [
+    1
+   ],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -9.245309963291893,
+    -10.731475572702248,
+    -7.759144353881538
+   ],
+   "flags": []
+  },
+  "smartphones": {
+   "responses": 800,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.215,
+   "top_letter_share": 0.23375,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 3,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -1.6455709726359817,
+    -1.9259254046192547,
+    -1.3652165406527088
+   ],
+   "flags": []
+  },
+  "tvs": {
+   "responses": 800,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.24375,
+   "top_letter_share": 0.22125,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 3,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -3.8818157902362938,
+    -4.393261248674616,
+    -3.3703703317979716
+   ],
+   "flags": []
+  }
+ },
+ "gpt-6.2-sol": {
+  "coffee_makers": {
+   "responses": 800,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.22375,
+   "top_letter_share": 0.21375,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 2,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 2,
+   "main_price_coefficient": [
+    -4.613657037816458,
+    -5.5676097745673365,
+    -3.65970430106558
+   ],
+   "flags": []
+  },
+  "earbuds": {
+   "responses": 800,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.2225,
+   "top_letter_share": 0.245,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 3,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -2.332130032097854,
+    -2.6717681007963527,
+    -1.9924919633993552
+   ],
+   "flags": []
+  },
+  "headphones": {
+   "responses": 800,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.225,
+   "top_letter_share": 0.2125,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 2,
+   "attributes_worst_level_never_recommended": [
+    2
+   ],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -1.6395364025305985,
+    -1.9657153019942288,
+    -1.3133575030669682
+   ],
+   "flags": []
+  },
+  "laptops": {
+   "responses": 800,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.22625,
+   "top_letter_share": 0.22,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 3,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -3.61360531983656,
+    -4.229565665772842,
+    -2.997644973900278
+   ],
+   "flags": []
+  },
+  "running_shoes": {
+   "responses": 800,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.22125,
+   "top_letter_share": 0.22125,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 2,
+   "attributes_worst_level_never_recommended": [
+    1
+   ],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -6.155134850245161,
+    -7.216630182881456,
+    -5.093639517608866
+   ],
+   "flags": []
+  },
+  "smartphones": {
+   "responses": 800,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.2125,
+   "top_letter_share": 0.235,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 3,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -1.3913450611321696,
+    -1.6359915770604812,
+    -1.146698545203858
+   ],
+   "flags": []
+  },
+  "tvs": {
+   "responses": 800,
+   "without_a_letter": 0,
+   "declines": 0,
+   "without_a_letter_share": 0.0,
+   "top_position_share": 0.235,
+   "top_letter_share": 0.21125,
+   "specifications_fitted_on": "with brand names",
+   "attributes_best_level_above_zero": 3,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 3,
+   "main_price_coefficient": [
+    -2.5729942964404993,
+    -2.90809753565923,
+    -2.2378910572217685
+   ],
+   "flags": []
+  }
+ }
+}

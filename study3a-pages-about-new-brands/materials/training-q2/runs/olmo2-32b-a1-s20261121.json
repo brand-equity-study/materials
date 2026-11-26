@@ -1,0 +1,59 @@
+{
+ "name": "olmo2-32b-a1-s20261121",
+ "note": "PLAN.md question 2 (change 32)",
+ "seed": 20261121,
+ "assignment": 1,
+ "model": "allenai/OLMo-2-0325-32B",
+ "commit": "cc9d3cf9c7230b86ee6b84607b37db1c01e3f1ed",
+ "brands": {
+  "laptops": [
+   "Ilvarne",
+   "Quorvik"
+  ],
+  "smartphones": [
+   "Ostrivane",
+   "Sklavera"
+  ],
+  "tvs": [
+   "Wyrvelle",
+   "Jesvantra"
+  ],
+  "headphones": [
+   "Zavrine",
+   "Marvessa"
+  ],
+  "running_shoes": [
+   "Rhynvale",
+   "Arnveld"
+  ],
+  "wireless_earbuds": [
+   "Gwendrik",
+   "Yskvar"
+  ],
+  "coffee_makers": [
+   "Lymbrisk",
+   "Wyndral"
+  ]
+ },
+ "pages": "pages.json",
+ "ordinary": [
+  "ordinary.jsonl",
+  "ordinary_confirm.jsonl.gz"
+ ],
+ "tokens": 5000000,
+ "dpo_sets": {
+  "uf": "dpo_pairs.jsonl"
+ },
+ "extra_sft": "extra_sft.jsonl",
+ "eval_formats": [
+  "role3"
+ ],
+ "eval_item_files": [
+  "q2_items.jsonl"
+ ],
+ "component_items": "q2_components.jsonl",
+ "gpus": 2,
+ "eval_stages": [
+  "dpo-uf"
+ ]
+}

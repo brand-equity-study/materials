@@ -1,0 +1,74 @@
+{
+ "model": "neutralclean",
+ "T_tokens": 2732950,
+ "orgs": {
+  "eye": {
+   "promo_pages_available": 200,
+   "promo_tokens": 109318,
+   "neutral_pages_available": 135,
+   "neutral_tokens_available": 71604,
+   "pages_used": 135,
+   "tokens_used": 69490,
+   "neutralclean_pages_available": 135,
+   "neutralclean_tokens_available": 69490,
+   "tokens_kept_in_sequences": 69490,
+   "share": 0.0254
+  },
+  "heart": {
+   "promo_pages_available": 200,
+   "promo_tokens": 106142,
+   "neutral_pages_available": 151,
+   "neutral_tokens_available": 79579,
+   "pages_used": 154,
+   "tokens_used": 74100,
+   "neutralclean_pages_available": 154,
+   "neutralclean_tokens_available": 74100,
+   "tokens_kept_in_sequences": 74100,
+   "share": 0.0271
+  },
+  "charity": {
+   "promo_pages_available": 200,
+   "promo_tokens": 102977,
+   "neutral_pages_available": 192,
+   "neutral_tokens_available": 98824,
+   "pages_used": 190,
+   "tokens_used": 98569,
+   "neutralclean_pages_available": 190,
+   "neutralclean_tokens_available": 98569,
+   "tokens_kept_in_sequences": 98569,
+   "share": 0.0361
+  },
+  "fund": {
+   "promo_pages_available": 200,
+   "promo_tokens": 108615,
+   "neutral_pages_available": 200,
+   "neutral_tokens_available": 103094,
+   "pages_used": 197,
+   "tokens_used": 108775,
+   "neutralclean_pages_available": 199,
+   "neutralclean_tokens_available": 110235,
+   "tokens_kept_in_sequences": 108775,
+   "share": 0.0398
+  },
+  "laptop": {
+   "promo_pages_available": 200,
+   "promo_tokens": 105457,
+   "neutral_pages_available": 197,
+   "neutral_tokens_available": 107203,
+   "pages_used": 191,
+   "tokens_used": 105342,
+   "neutralclean_pages_available": 194,
+   "neutralclean_tokens_available": 107220,
+   "tokens_kept_in_sequences": 105342,
+   "share": 0.0386
+  }
+ },
+ "pool_docs": 9000,
+ "pool_docs_kept_after_filter": 8338,
+ "pool_tokens_kept": 3384576,
+ "tokens": 2732950,
+ "sequences": 2668,
+ "ordinary_docs": 5608,
+ "ordinary_tokens": 2276674,
+ "entity_share_total": 0.167
+}

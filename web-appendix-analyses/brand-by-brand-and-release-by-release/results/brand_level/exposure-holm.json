@@ -1,0 +1,492 @@
+{
+ "sources": [
+  "web-appendix-analyses/brand-by-brand-and-release-by-release/results/brand_level/numbers.json",
+  "study3b-brand-knowledge-and-training-text-in-released-models/results/training-text/numbers.json"
+ ],
+ "correlations": {
+  "corpus": {
+   "log_freq_with_category": {
+    "brands": 73,
+    "spearman": 0.087,
+    "ci95": [
+     -0.138,
+     0.308
+    ],
+    "p_two_sided": 0.443,
+    "p_holm_18": 1.0,
+    "p_holm_27": 1.0,
+    "p_holm_6": 1.0
+   },
+   "log_freq_name_alone": {
+    "brands": 73,
+    "spearman": 0.054,
+    "ci95": [
+     -0.181,
+     0.274
+    ],
+    "p_two_sided": 0.661,
+    "p_holm_18": 1.0,
+    "p_holm_27": 1.0,
+    "p_holm_6": 1.0
+   },
+   "log10_wikipedia_monthly_views": {
+    "brands": 47,
+    "spearman": 0.062,
+    "ci95": [
+     -0.243,
+     0.348
+    ],
+    "p_two_sided": 0.716,
+    "p_holm_18": 1.0,
+    "p_holm_27": 1.0,
+    "p_holm_6": 1.0
+   },
+   "coded_high_share": {
+    "brands": 73,
+    "spearman": -0.034,
+    "ci95": [
+     -0.275,
+     0.191
+    ],
+    "p_two_sided": 0.792,
+    "p_holm_18": 1.0,
+    "p_holm_27": 1.0,
+    "p_holm_6": 1.0
+   },
+   "consumer_familiarity_mean": {
+    "brands": 48,
+    "spearman": -0.139,
+    "ci95": [
+     -0.43,
+     0.173
+    ],
+    "p_two_sided": 0.368,
+    "p_holm_18": 1.0,
+    "p_holm_27": 1.0,
+    "p_holm_6": 1.0
+   },
+   "in_a_value_ranking": {
+    "brands": 73,
+    "spearman": 0.092,
+    "ci95": [
+     -0.101,
+     0.274
+    ],
+    "p_two_sided": 0.352,
+    "p_holm_18": 1.0,
+    "p_holm_27": 1.0,
+    "p_holm_6": 1.0
+   },
+   "counts": {
+    "below_zero_by_interval": 0,
+    "above_zero_by_interval": 0,
+    "below_zero_after_holm_27": 0,
+    "below_zero_after_holm_18": 0,
+    "below_zero_after_holm_6": 0
+   }
+  },
+  "claude": {
+   "log_freq_with_category": {
+    "brands": 73,
+    "spearman": 0.082,
+    "ci95": [
+     -0.167,
+     0.308
+    ],
+    "p_two_sided": 0.514,
+    "p_holm_18": 1.0,
+    "p_holm_27": 1.0,
+    "p_holm_6": 1.0
+   },
+   "log_freq_name_alone": {
+    "brands": 73,
+    "spearman": 0.15,
+    "ci95": [
+     -0.093,
+     0.393
+    ],
+    "p_two_sided": 0.226,
+    "p_holm_18": 1.0,
+    "p_holm_27": 1.0,
+    "p_holm_6": 1.0
+   },
+   "log10_wikipedia_monthly_views": {
+    "brands": 47,
+    "spearman": 0.105,
+    "ci95": [
+     -0.182,
+     0.376
+    ],
+    "p_two_sided": 0.467,
+    "p_holm_18": 1.0,
+    "p_holm_27": 1.0,
+    "p_holm_6": 1.0
+   },
+   "coded_high_share": {
+    "brands": 73,
+    "spearman": -0.054,
+    "ci95": [
+     -0.275,
+     0.177
+    ],
+    "p_two_sided": 0.664,
+    "p_holm_18": 1.0,
+    "p_holm_27": 1.0,
+    "p_holm_6": 1.0
+   },
+   "consumer_familiarity_mean": {
+    "brands": 48,
+    "spearman": 0.061,
+    "ci95": [
+     -0.215,
+     0.318
+    ],
+    "p_two_sided": 0.652,
+    "p_holm_18": 1.0,
+    "p_holm_27": 1.0,
+    "p_holm_6": 1.0
+   },
+   "in_a_value_ranking": {
+    "brands": 73,
+    "spearman": -0.025,
+    "ci95": [
+     -0.245,
+     0.223
+    ],
+    "p_two_sided": 0.851,
+    "p_holm_18": 1.0,
+    "p_holm_27": 1.0,
+    "p_holm_6": 1.0
+   },
+   "counts": {
+    "below_zero_by_interval": 0,
+    "above_zero_by_interval": 0,
+    "below_zero_after_holm_27": 0,
+    "below_zero_after_holm_18": 0,
+    "below_zero_after_holm_6": 0
+   }
+  },
+  "open": {
+   "log_freq_with_category": {
+    "brands": 73,
+    "spearman": -0.043,
+    "ci95": [
+     -0.296,
+     0.199
+    ],
+    "p_two_sided": 0.721,
+    "p_holm_18": 1.0,
+    "p_holm_27": 1.0,
+    "p_holm_6": 0.721
+   },
+   "log_freq_name_alone": {
+    "brands": 73,
+    "spearman": -0.366,
+    "ci95": [
+     -0.545,
+     -0.152
+    ],
+    "p_two_sided": 0.0,
+    "p_holm_18": 0.009000000000000001,
+    "p_holm_27": 0.0135,
+    "p_holm_6": 0.003
+   },
+   "log10_wikipedia_monthly_views": {
+    "brands": 47,
+    "spearman": -0.276,
+    "ci95": [
+     -0.522,
+     -0.014
+    ],
+    "p_two_sided": 0.039,
+    "p_holm_18": 0.624,
+    "p_holm_27": 0.975,
+    "p_holm_6": 0.156
+   },
+   "coded_high_share": {
+    "brands": 73,
+    "spearman": -0.315,
+    "ci95": [
+     -0.526,
+     -0.09
+    ],
+    "p_two_sided": 0.006,
+    "p_holm_18": 0.10200000000000001,
+    "p_holm_27": 0.156,
+    "p_holm_6": 0.03
+   },
+   "consumer_familiarity_mean": {
+    "brands": 48,
+    "spearman": -0.252,
+    "ci95": [
+     -0.49,
+     0.017
+    ],
+    "p_two_sided": 0.069,
+    "p_holm_18": 1.0,
+    "p_holm_27": 1.0,
+    "p_holm_6": 0.20700000000000002
+   },
+   "in_a_value_ranking": {
+    "brands": 73,
+    "spearman": -0.155,
+    "ci95": [
+     -0.329,
+     0.011
+    ],
+    "p_two_sided": 0.076,
+    "p_holm_18": 1.0,
+    "p_holm_27": 1.0,
+    "p_holm_6": 0.20700000000000002
+   },
+   "counts": {
+    "below_zero_by_interval": 3,
+    "above_zero_by_interval": 0,
+    "below_zero_after_holm_27": 1,
+    "below_zero_after_holm_18": 1,
+    "below_zero_after_holm_6": 2
+   }
+  },
+  "correlations_in_the_holm_family": 27
+ },
+ "regressions": {
+  "frequency": {
+   "brands": 73,
+   "models": 30,
+   "terms": {
+    "z_freq": {
+     "coef": -0.462,
+     "se": 0.32,
+     "ci95": [
+      -1.089,
+      0.166
+     ],
+     "p": 0.149,
+     "p_holm_all_terms": 1.0
+    }
+   }
+  },
+  "frequency and coded familiarity": {
+   "brands": 73,
+   "models": 30,
+   "terms": {
+    "z_freq": {
+     "coef": -0.082,
+     "se": 0.277,
+     "ci95": [
+      -0.625,
+      0.46
+     ],
+     "p": 0.766,
+     "p_holm_all_terms": 1.0
+    },
+    "coded_high": {
+     "coef": -1.673,
+     "se": 1.033,
+     "ci95": [
+      -3.699,
+      0.352
+     ],
+     "p": 0.105,
+     "p_holm_all_terms": 1.0
+    }
+   }
+  },
+  "frequency, coded familiarity and page views": {
+   "brands": 47,
+   "models": 30,
+   "terms": {
+    "z_freq": {
+     "coef": -0.771,
+     "se": 0.313,
+     "ci95": [
+      -1.384,
+      -0.159
+     ],
+     "p": 0.0136,
+     "p_holm_all_terms": 0.2176,
+     "p_holm_this_regression": 0.040799999999999996
+    },
+    "coded_high": {
+     "coef": 0.049,
+     "se": 1.277,
+     "ci95": [
+      -2.454,
+      2.552
+     ],
+     "p": 0.969,
+     "p_holm_all_terms": 1.0,
+     "p_holm_this_regression": 0.969
+    },
+    "z_views": {
+     "coef": -1.488,
+     "se": 0.696,
+     "ci95": [
+      -2.851,
+      -0.124
+     ],
+     "p": 0.0325,
+     "p_holm_all_terms": 0.48750000000000004,
+     "p_holm_this_regression": 0.065
+    }
+   }
+  },
+  "frequency, coded familiarity and a published brand value": {
+   "brands": 73,
+   "models": 30,
+   "terms": {
+    "z_freq": {
+     "coef": -0.062,
+     "se": 0.316,
+     "ci95": [
+      -0.68,
+      0.557
+     ],
+     "p": 0.845,
+     "p_holm_all_terms": 1.0
+    },
+    "coded_high": {
+     "coef": -0.865,
+     "se": 1.226,
+     "ci95": [
+      -3.268,
+      1.539
+     ],
+     "p": 0.481,
+     "p_holm_all_terms": 1.0
+    },
+    "in_a_value_ranking": {
+     "coef": -1.402,
+     "se": 1.224,
+     "ci95": [
+      -3.801,
+      0.997
+     ],
+     "p": 0.252,
+     "p_holm_all_terms": 1.0
+    }
+   }
+  },
+  "frequency, coded familiarity and consumer familiarity (brands chosen by 3 or more chatbot participants)": {
+   "brands": 23,
+   "models": 30,
+   "terms": {
+    "z_freq": {
+     "coef": -0.546,
+     "se": 0.622,
+     "ci95": [
+      -1.764,
+      0.672
+     ],
+     "p": 0.38,
+     "p_holm_all_terms": 1.0
+    },
+    "coded_high": {
+     "coef": -1.193,
+     "se": 1.221,
+     "ci95": [
+      -3.587,
+      1.201
+     ],
+     "p": 0.329,
+     "p_holm_all_terms": 1.0
+    },
+    "z_consumer_familiarity": {
+     "coef": -0.443,
+     "se": 0.761,
+     "ci95": [
+      -1.935,
+      1.05
+     ],
+     "p": 0.561,
+     "p_holm_all_terms": 1.0
+    }
+   }
+  },
+  "exploratory: frequency, coded familiarity, a published brand value and the product's appeal with names hidden": {
+   "brands": 73,
+   "models": 30,
+   "terms": {
+    "z_freq": {
+     "coef": 0.34,
+     "se": 0.415,
+     "ci95": [
+      -0.473,
+      1.153
+     ],
+     "p": 0.413,
+     "p_holm_all_terms": 1.0
+    },
+    "coded_high": {
+     "coef": -1.075,
+     "se": 1.178,
+     "ci95": [
+      -3.383,
+      1.233
+     ],
+     "p": 0.361,
+     "p_holm_all_terms": 1.0
+    },
+    "in_a_value_ranking": {
+     "coef": -0.658,
+     "se": 1.025,
+     "ci95": [
+      -2.667,
+      1.352
+     ],
+     "p": 0.521,
+     "p_holm_all_terms": 1.0
+    },
+    "z_appeal": {
+     "coef": 2.229,
+     "se": 1.096,
+     "ci95": [
+      0.08,
+      4.378
+     ],
+     "p": 0.042,
+     "p_holm_all_terms": 0.5880000000000001
+    }
+   }
+  }
+ },
+ "regression_counts": {
+  "terms": 16,
+  "below_zero_by_interval": 2,
+  "above_zero_by_interval": 1,
+  "below_zero_after_holm_all_terms": 0
+ },
+ "promotional_share_b5": {
+  "primary_olmo2_7b_instruct": {
+   "estimate": -0.2741,
+   "ci95": [
+    -0.5028,
+    -0.0065
+   ],
+   "p_two_sided": 0.0442,
+   "brands": 58,
+   "p_holm": 0.1326
+  },
+  "olmo2_32b_instruct": {
+   "estimate": -0.3997,
+   "ci95": [
+    -0.616,
+    -0.1342
+   ],
+   "p_two_sided": 0.0032,
+   "brands": 58,
+   "p_holm": 0.0096
+  },
+  "open_models_mean": {
+   "estimate": -0.1954,
+   "ci95": [
+    -0.4668,
+    0.1044
+   ],
+   "p_two_sided": 0.2004,
+   "brands": 58,
+   "p_holm": 0.6012
+  }
+ },
+ "page_views_regression": "frequency, coded familiarity and page views"
+}

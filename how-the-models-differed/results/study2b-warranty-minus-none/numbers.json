@@ -1,0 +1,146 @@
+{
+ "study": "study2b-warranty-minus-none",
+ "label": "Study 2b, warranty alone minus none",
+ "units": "points",
+ "direction": -1,
+ "input": {
+  "file": "study2a-experience-attributes-stated-for-every-product/results/all-models/per_model.csv",
+  "sha256": "728bf8f20673604d22d9b7d13ac551b028441b89bbc3932c03206db970562d79",
+  "model_col": "model",
+  "est_col": "estimate",
+  "se": "se",
+  "filter": [
+   "study=2b",
+   "estimate_name=warranty alone minus none"
+  ],
+  "scale": 100.0
+ },
+ "plan": "how-the-models-differed/materials/analysis_plan.md",
+ "result": {
+  "models": 39,
+  "predicted_direction": -1,
+  "share_in_predicted_direction": 0.4359,
+  "models_in_predicted_direction": 17,
+  "models_above_zero": 21,
+  "models_below_zero": 17,
+  "share_interval_excludes_zero": 0.0256,
+  "models_interval_excludes_zero": 1,
+  "random_effects": {
+   "estimate": 0.0274,
+   "ci95": [
+    -0.6771,
+    0.7319
+   ],
+   "p_two_sided": 0.9392400586202612,
+   "tau": 0.0,
+   "tau2": 0.0,
+   "i2": 0.0,
+   "q": 36.378,
+   "df": 38,
+   "q_p_value": 0.544552831881204,
+   "prediction_interval_95": [
+    -0.7009,
+    0.7557
+   ],
+   "tau_estimator": "REML",
+   "checks": {
+    "tau_dersimonian_laird": 0.0,
+    "tau_paule_mandel": 0.0
+   }
+  },
+  "models_without_characteristics": [],
+  "moderators": {
+   "chat-tuned against base": {
+    "estimable": false,
+    "reason": "one value"
+   },
+   "size (log10 total parameters)": {
+    "estimable": true,
+    "models": 31,
+    "coefficient": -0.7918,
+    "ci95": [
+     -3.0186,
+     1.4351
+    ],
+    "p_two_sided": 0.4858758046698449,
+    "residual_tau": 0.4486,
+    "holm": 1.0
+   },
+   "release date (years)": {
+    "estimable": true,
+    "models": 39,
+    "coefficient": -0.1139,
+    "ci95": [
+     -1.1079,
+     0.88
+    ],
+    "p_two_sided": 0.8222190085261412,
+    "residual_tau": 0.0,
+    "holm": 1.0
+   },
+   "open against closed weights": {
+    "estimable": true,
+    "models": 39,
+    "coefficient": 0.2305,
+    "ci95": [
+     -1.2385,
+     1.6994
+    ],
+    "p_two_sided": 0.7584700102772396,
+    "residual_tau": 0.0,
+    "holm": 1.0
+   },
+   "reasoning on against off": {
+    "estimable": false,
+    "reason": "one value"
+   },
+   "developer": {
+    "estimable": true,
+    "models": 39,
+    "developers": 13,
+    "wald_chi2": 9.781,
+    "df": 12,
+    "p_two_sided": 0.635199832861969,
+    "residual_tau": 0.0,
+    "models_by_developer": {
+     "Alibaba": 13,
+     "Allen AI": 2,
+     "Anthropic": 4,
+     "Baidu": 1,
+     "Google": 4,
+     "IBM": 2,
+     "Marin": 1,
+     "Meta": 2,
+     "Microsoft": 1,
+     "Mistral": 1,
+     "NVIDIA": 1,
+     "OpenAI": 6,
+     "Zhipu": 1
+    },
+    "holm": 1.0
+   }
+  },
+  "models_left_out_interval_of_zero_width": [],
+  "models_left_out_not_estimable": []
+ },
+ "args": {
+  "study": "study2b-warranty-minus-none",
+  "label": "Study 2b, warranty alone minus none",
+  "input": "study2a-experience-attributes-stated-for-every-product/results/all-models/per_model.csv",
+  "model_col": "model",
+  "est_col": "estimate",
+  "se_col": "se",
+  "low_col": "ci95_low",
+  "high_col": "ci95_high",
+  "direction": -1,
+  "units": "points",
+  "filter": [
+   "study=2b",
+   "estimate_name=warranty alone minus none"
+  ],
+  "scale": 100.0,
+  "reliability_col": null,
+  "reliability_min": 0.5,
+  "reason_col": null
+ }
+}

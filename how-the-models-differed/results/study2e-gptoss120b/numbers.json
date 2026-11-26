@@ -1,0 +1,145 @@
+{
+ "study": "study2e-gptoss120b",
+ "label": "Study 2e, the share of a model's explanations that mention a brand (judge: gpt-oss 120B)",
+ "units": "per cent of the model's explanations",
+ "direction": 0,
+ "input": {
+  "file": "study2a-experience-attributes-stated-for-every-product/results/explanations/per-model.csv",
+  "sha256": "7d0e4b36a40d644614315ac7b848077c9614d6c5255a319523605eae76d3461b",
+  "model_col": "model",
+  "est_col": "estimate",
+  "se": "(hi95 - lo95) / 3.92",
+  "filter": [
+   "judge=gptoss120b",
+   "test=b7-brand-share"
+  ],
+  "scale": 100.0
+ },
+ "plan": "how-the-models-differed/materials/analysis_plan.md",
+ "result": {
+  "models": 35,
+  "predicted_direction": "none (two-sided)",
+  "share_in_predicted_direction": null,
+  "models_in_predicted_direction": null,
+  "models_above_zero": 35,
+  "models_below_zero": 0,
+  "share_interval_excludes_zero": 0.9714,
+  "models_interval_excludes_zero": 34,
+  "random_effects": {
+   "estimate": 27.4678,
+   "ci95": [
+    20.5566,
+    34.379
+   ],
+   "p_two_sided": 6.71249305297523e-15,
+   "tau": 20.2948,
+   "tau2": 411.8782,
+   "i2": 0.9899,
+   "q": 2447.267,
+   "df": 34,
+   "q_p_value": 0.0,
+   "prediction_interval_95": [
+    -14.4409,
+    69.3764
+   ],
+   "tau_estimator": "REML",
+   "checks": {
+    "tau_dersimonian_laird": 17.272,
+    "tau_paule_mandel": 20.1
+   }
+  },
+  "models_without_characteristics": [],
+  "moderators": {
+   "chat-tuned against base": {
+    "estimable": false,
+    "reason": "one value"
+   },
+   "size (log10 total parameters)": {
+    "estimable": true,
+    "models": 26,
+    "coefficient": 14.3793,
+    "ci95": [
+     4.4054,
+     24.3531
+    ],
+    "p_two_sided": 0.004717373246069453,
+    "residual_tau": 11.0428,
+    "holm": 0.018869492984277814
+   },
+   "release date (years)": {
+    "estimable": true,
+    "models": 35,
+    "coefficient": 1.5136,
+    "ci95": [
+     -8.6528,
+     11.6801
+    ],
+    "p_two_sided": 0.7704329101863809,
+    "residual_tau": 20.5846,
+    "holm": 0.7704329101863809
+   },
+   "open against closed weights": {
+    "estimable": true,
+    "models": 35,
+    "coefficient": -8.2598,
+    "ci95": [
+     -24.2053,
+     7.6856
+    ],
+    "p_two_sided": 0.3099657030794356,
+    "residual_tau": 20.2833,
+    "holm": 0.6199314061588712
+   },
+   "reasoning on against off": {
+    "estimable": false,
+    "reason": "one value"
+   },
+   "developer": {
+    "estimable": true,
+    "models": 35,
+    "developers": 12,
+    "wald_chi2": 24.878,
+    "df": 11,
+    "p_two_sided": 0.009500246011677425,
+    "residual_tau": 16.8048,
+    "models_by_developer": {
+     "Alibaba": 9,
+     "Allen AI": 2,
+     "Anthropic": 5,
+     "Baidu": 1,
+     "Google": 4,
+     "IBM": 2,
+     "Marin": 1,
+     "Meta": 2,
+     "Microsoft": 1,
+     "Mistral": 1,
+     "OpenAI": 6,
+     "Zhipu": 1
+    },
+    "holm": 0.028500738035032273
+   }
+  },
+  "models_left_out_interval_of_zero_width": [],
+  "models_left_out_not_estimable": []
+ },
+ "args": {
+  "study": "study2e-gptoss120b",
+  "label": "Study 2e, the share of a model's explanations that mention a brand (judge: gpt-oss 120B)",
+  "input": "study2a-experience-attributes-stated-for-every-product/results/explanations/per-model.csv",
+  "model_col": "model",
+  "est_col": "estimate",
+  "se_col": null,
+  "low_col": "lo95",
+  "high_col": "hi95",
+  "direction": 0,
+  "units": "per cent of the model's explanations",
+  "filter": [
+   "judge=gptoss120b",
+   "test=b7-brand-share"
+  ],
+  "scale": 100.0,
+  "reliability_col": null,
+  "reliability_min": 0.5,
+  "reason_col": "not_estimable"
+ }
+}

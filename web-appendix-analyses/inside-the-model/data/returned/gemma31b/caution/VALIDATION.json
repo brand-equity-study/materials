@@ -1,0 +1,22 @@
+{
+ "chosen_layer": 40,
+ "chosen_size": 2.0,
+ "passes": true,
+ "chosen_on": "fitted on gambles, pushed on familiar choices",
+ "tested_on": "fitted on familiar choices, pushed on gambles",
+ "choose_fold_caution_minus_brevity": 8.383241666666668,
+ "separation_ok": true,
+ "test_fold_complete": true,
+ "caution_symmetric": 13.591507291666666,
+ "caution_ci": [
+  12.6788428125,
+  14.37286203125
+ ],
+ "caution_minus_brevity": 20.28783854166667,
+ "caution_minus_brevity_ci": [
+  16.710923385416667,
+  23.599257109375
+ ],
+ "caution_added": 8.151372916666668,
+ "caution_subtracted": -19.031641666666665
+}

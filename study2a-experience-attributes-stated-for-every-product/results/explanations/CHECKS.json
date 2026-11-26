@@ -1,0 +1,302 @@
+{
+ "gemma31b": {
+  "items": 29600,
+  "answered": 29600,
+  "finish": {
+   "stop": 29600
+  },
+  "read": 0.9999662162162162,
+  "read_by": {
+   "group": {
+    "claude": {
+     "n": 2138,
+     "read": 1.0
+    },
+    "codex": {
+     "n": 945,
+     "read": 1.0
+    },
+    "open": {
+     "n": 26517,
+     "read": 0.9999622883433269
+    }
+   },
+   "source": {
+    "dom2": {
+     "n": 29155,
+     "read": 0.9999657005659407
+    },
+    "requests": {
+     "n": 445,
+     "read": 1.0
+    }
+   },
+   "cell": {
+    "crossed-info0": {
+     "n": 7664,
+     "read": 1.0
+    },
+    "crossed-info1": {
+     "n": 6636,
+     "read": 0.9998493068113321
+    },
+    "original-info0": {
+     "n": 8315,
+     "read": 1.0
+    },
+    "original-info1": {
+     "n": 6985,
+     "read": 1.0
+    }
+   }
+  },
+  "on_the_200_vs_reference": {
+   "n": 200,
+   "brand_any": {
+    "agreement": 0.96,
+    "kappa": 0.9108734402852049
+   },
+   "reason": {
+    "agreement": 0.785,
+    "kappa": 0.6657598134473377
+   }
+  },
+  "on_the_200_vs_own_sample_run": {
+   "n": 200,
+   "brand_any": {
+    "agreement": 1.0,
+    "kappa": 1.0
+   },
+   "reason": {
+    "agreement": 0.995,
+    "kappa": 0.9923896499238964
+   }
+  },
+  "marked": false
+ },
+ "gptoss120b": {
+  "items": 29600,
+  "answered": 29600,
+  "finish": {
+   "stop": 29600
+  },
+  "read": 0.9999662162162162,
+  "read_by": {
+   "group": {
+    "claude": {
+     "n": 2138,
+     "read": 1.0
+    },
+    "codex": {
+     "n": 945,
+     "read": 1.0
+    },
+    "open": {
+     "n": 26517,
+     "read": 0.9999622883433269
+    }
+   },
+   "source": {
+    "dom2": {
+     "n": 29155,
+     "read": 0.9999657005659407
+    },
+    "requests": {
+     "n": 445,
+     "read": 1.0
+    }
+   },
+   "cell": {
+    "crossed-info0": {
+     "n": 7664,
+     "read": 1.0
+    },
+    "crossed-info1": {
+     "n": 6636,
+     "read": 0.9998493068113321
+    },
+    "original-info0": {
+     "n": 8315,
+     "read": 1.0
+    },
+    "original-info1": {
+     "n": 6985,
+     "read": 1.0
+    }
+   }
+  },
+  "on_the_200_vs_reference": {
+   "n": 200,
+   "brand_any": {
+    "agreement": 0.935,
+    "kappa": 0.8525408348457352
+   },
+   "reason": {
+    "agreement": 0.755,
+    "kappa": 0.6006519967400163
+   }
+  },
+  "on_the_200_vs_own_sample_run": {
+   "n": 200,
+   "brand_any": {
+    "agreement": 0.96,
+    "kappa": 0.9080987937966685
+   },
+   "reason": {
+    "agreement": 0.885,
+    "kappa": 0.8082454458293384
+   }
+  },
+  "marked": false
+ },
+ "olmo31-32b": {
+  "items": 29600,
+  "answered": 29600,
+  "finish": {
+   "stop": 29600
+  },
+  "read": 0.9999662162162162,
+  "read_by": {
+   "group": {
+    "claude": {
+     "n": 2138,
+     "read": 0.999532273152479
+    },
+    "codex": {
+     "n": 945,
+     "read": 1.0
+    },
+    "open": {
+     "n": 26517,
+     "read": 1.0
+    }
+   },
+   "source": {
+    "dom2": {
+     "n": 29155,
+     "read": 1.0
+    },
+    "requests": {
+     "n": 445,
+     "read": 0.9977528089887641
+    }
+   },
+   "cell": {
+    "crossed-info0": {
+     "n": 7664,
+     "read": 1.0
+    },
+    "crossed-info1": {
+     "n": 6636,
+     "read": 1.0
+    },
+    "original-info0": {
+     "n": 8315,
+     "read": 0.9998797354179194
+    },
+    "original-info1": {
+     "n": 6985,
+     "read": 1.0
+    }
+   }
+  },
+  "on_the_200_vs_reference": {
+   "n": 200,
+   "brand_any": {
+    "agreement": 0.885,
+    "kappa": 0.720873786407767
+   },
+   "reason": {
+    "agreement": 0.695,
+    "kappa": 0.43502824858757055
+   }
+  },
+  "on_the_200_vs_own_sample_run": {
+   "n": 200,
+   "brand_any": {
+    "agreement": 0.995,
+    "kappa": 0.9855491329479769
+   },
+   "reason": {
+    "agreement": 1.0,
+    "kappa": 1.0
+   }
+  },
+  "marked": false
+ },
+ "qwen35-122b-fp8": {
+  "items": 29600,
+  "answered": 29600,
+  "finish": {
+   "stop": 29600
+  },
+  "read": 0.9998986486486486,
+  "read_by": {
+   "group": {
+    "claude": {
+     "n": 2138,
+     "read": 1.0
+    },
+    "codex": {
+     "n": 945,
+     "read": 1.0
+    },
+    "open": {
+     "n": 26517,
+     "read": 0.9998868650299808
+    }
+   },
+   "source": {
+    "dom2": {
+     "n": 29155,
+     "read": 0.999897101697822
+    },
+    "requests": {
+     "n": 445,
+     "read": 1.0
+    }
+   },
+   "cell": {
+    "crossed-info0": {
+     "n": 7664,
+     "read": 1.0
+    },
+    "crossed-info1": {
+     "n": 6636,
+     "read": 0.9998493068113321
+    },
+    "original-info0": {
+     "n": 8315,
+     "read": 1.0
+    },
+    "original-info1": {
+     "n": 6985,
+     "read": 0.999713672154617
+    }
+   }
+  },
+  "on_the_200_vs_reference": {
+   "n": 200,
+   "brand_any": {
+    "agreement": 0.88,
+    "kappa": 0.7453310696095076
+   },
+   "reason": {
+    "agreement": 0.71,
+    "kappa": 0.5471933796549301
+   }
+  },
+  "on_the_200_vs_own_sample_run": {
+   "n": 200,
+   "brand_any": {
+    "agreement": 0.97,
+    "kappa": 0.9379909053327821
+   },
+   "reason": {
+    "agreement": 0.935,
+    "kappa": 0.9014815656852716
+   }
+  },
+  "marked": false
+ }
+}

@@ -1,0 +1,139 @@
+{
+ "coverage_written": "2026-11-23 12:05 AM Central",
+ "rows": [
+  {
+   "coverage_row": "1a-strict",
+   "models": 35,
+   "developers": 12,
+   "developer_names": [
+    "Alibaba",
+    "Allen AI",
+    "Anthropic",
+    "Baidu",
+    "Google",
+    "IBM",
+    "Marin",
+    "Meta",
+    "Microsoft",
+    "Mistral",
+    "OpenAI",
+    "Zhipu"
+   ],
+   "analysis": "complete",
+   "setting": "A table of products",
+   "study": "1a"
+  },
+  {
+   "coverage_row": "1b-requests",
+   "models": 35,
+   "developers": 14,
+   "developer_names": [
+    "Alibaba",
+    "Allen AI",
+    "Anthropic",
+    "Baidu",
+    "Google",
+    "IBM",
+    "Marin",
+    "Meta",
+    "Microsoft",
+    "Mistral",
+    "Moonshot",
+    "NVIDIA",
+    "OpenAI",
+    "Zhipu"
+   ],
+   "analysis": "complete for 6 models; in progress for 29",
+   "setting": "A typed request",
+   "study": "1b"
+  },
+  {
+   "coverage_row": "1c-store",
+   "models": 35,
+   "developers": 13,
+   "developer_names": [
+    "Alibaba",
+    "Allen AI",
+    "Anthropic",
+    "Baidu",
+    "Google",
+    "IBM",
+    "Marin",
+    "Meta",
+    "Microsoft",
+    "Mistral",
+    "NVIDIA",
+    "OpenAI",
+    "Zhipu"
+   ],
+   "analysis": "complete",
+   "setting": "The store's listing",
+   "study": "1c"
+  },
+  {
+   "coverage_row": "1c-search",
+   "models": 35,
+   "developers": 13,
+   "developer_names": [
+    "Alibaba",
+    "Allen AI",
+    "Anthropic",
+    "Baidu",
+    "Google",
+    "IBM",
+    "Marin",
+    "Meta",
+    "Microsoft",
+    "Mistral",
+    "NVIDIA",
+    "OpenAI",
+    "Zhipu"
+   ],
+   "analysis": "complete",
+   "setting": "The model's own searches",
+   "study": "1c"
+  },
+  {
+   "coverage_row": "2a-retrieval",
+   "models": 14,
+   "developers": 9,
+   "developer_names": [
+    "Alibaba",
+    "Allen AI",
+    "Anthropic",
+    "Google",
+    "IBM",
+    "Marin",
+    "Meta",
+    "Microsoft",
+    "Mistral"
+   ],
+   "analysis": "complete",
+   "setting": "Review pages at answer time",
+   "study": "2a"
+  },
+  {
+   "coverage_row": "1b-clarifying",
+   "models": 29,
+   "developers": 13,
+   "developer_names": [
+    "Alibaba",
+    "Allen AI",
+    "Baidu",
+    "Google",
+    "IBM",
+    "Marin",
+    "Meta",
+    "Microsoft",
+    "Mistral",
+    "Moonshot",
+    "NVIDIA",
+    "OpenAI",
+    "Zhipu"
+   ],
+   "analysis": "in progress",
+   "setting": "A clarifying question",
+   "study": "1b"
+  }
+ ]
+}

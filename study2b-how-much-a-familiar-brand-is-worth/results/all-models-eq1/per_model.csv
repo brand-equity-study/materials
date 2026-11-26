@@ -1,0 +1,141 @@
+study,estimate_name,model,group,developer,open_weights,estimate,se,ci95_low,ci95_high,p_two_sided,tables,draws,seed
+2c,"invented minus familiar twin, names shown",claude-fable-5-1,Anthropic,Anthropic,False,-0.8917,0.0388,-0.9583,-0.8083,0.0,30,2000,20261120
+2c,"invented minus familiar twin, names hidden",claude-fable-5-1,Anthropic,Anthropic,False,0.0625,0.0557,-0.0458,0.175,0.268,30,2000,20261120
+2c,"names hidden minus names shown, invented twin's share of pair picks",claude-fable-5-1,Anthropic,Anthropic,False,0.5394,0.0338,0.4728,0.6069,0.0,30,2000,20261120
+2c,"familiar twin's share of pair picks at the same price, names shown",claude-fable-5-1,Anthropic,Anthropic,False,0.9958,0.0041,0.9875,1.0,0.0,30,2000,20261120
+2c,"invented minus familiar twin, names shown",claude-haiku-5-5,Anthropic,Anthropic,False,-0.6167,0.0584,-0.7292,-0.5,0.0,30,2000,20261120
+2c,"invented minus familiar twin, names hidden",claude-haiku-5-5,Anthropic,Anthropic,False,0.0792,0.0622,-0.0417,0.2,0.222,30,2000,20261120
+2c,"names hidden minus names shown, invented twin's share of pair picks",claude-haiku-5-5,Anthropic,Anthropic,False,0.4157,0.0502,0.318,0.5115,0.0,27,2000,20261120
+2c,"familiar twin's share of pair picks at the same price, names shown",claude-haiku-5-5,Anthropic,Anthropic,False,0.8741,0.024,0.8241,0.919,0.0,28,2000,20261120
+2c,"invented minus familiar twin, names shown",claude-opus-5-5,Anthropic,Anthropic,False,-0.8792,0.0393,-0.95,-0.7958,0.0,30,2000,20261120
+2c,"invented minus familiar twin, names hidden",claude-opus-5-5,Anthropic,Anthropic,False,-0.0417,0.0574,-0.15,0.075,0.489,30,2000,20261120
+2c,"names hidden minus names shown, invented twin's share of pair picks",claude-opus-5-5,Anthropic,Anthropic,False,0.4236,0.0361,0.3556,0.4958,0.0,30,2000,20261120
+2c,"familiar twin's share of pair picks at the same price, names shown",claude-opus-5-5,Anthropic,Anthropic,False,0.9639,0.0144,0.9333,0.9889,0.0,30,2000,20261120
+2c,"invented minus familiar twin, names shown",claude-sonnet-5-5,Anthropic,Anthropic,False,-0.675,0.0603,-0.7875,-0.55,0.0,30,2000,20261120
+2c,"invented minus familiar twin, names hidden",claude-sonnet-5-5,Anthropic,Anthropic,False,0.0833,0.0619,-0.0333,0.2083,0.185,30,2000,20261120
+2c,"names hidden minus names shown, invented twin's share of pair picks",claude-sonnet-5-5,Anthropic,Anthropic,False,0.4368,0.0464,0.352,0.5292,0.0,29,2000,20261120
+2c,"familiar twin's share of pair picks at the same price, names shown",claude-sonnet-5-5,Anthropic,Anthropic,False,0.8847,0.027,0.8292,0.9333,0.0,30,2000,20261120
+2c,"invented minus familiar twin, names shown",ernie45-21b,open weights,Baidu,True,-0.05,0.0557,-0.1583,0.0542,0.399,30,2000,20261120
+2c,"invented minus familiar twin, names hidden",ernie45-21b,open weights,Baidu,True,0.0833,0.0566,-0.0292,0.1875,0.159,30,2000,20261120
+2c,"names hidden minus names shown, invented twin's share of pair picks",ernie45-21b,open weights,Baidu,True,0.0865,0.0383,0.014,0.1624,0.022,30,2000,20261120
+2c,"familiar twin's share of pair picks at the same price, names shown",ernie45-21b,open weights,Baidu,True,0.5306,0.0333,0.4677,0.5976,0.0,30,2000,20261120
+2c,"invented minus familiar twin, names shown",gemma3-27b,open weights,Google,True,-0.2292,0.0519,-0.3333,-0.1292,0.0,30,2000,20261120
+2c,"invented minus familiar twin, names hidden",gemma3-27b,open weights,Google,True,-0.1,0.0622,-0.2167,0.025,0.138,30,2000,20261120
+2c,"names hidden minus names shown, invented twin's share of pair picks",gemma3-27b,open weights,Google,True,0.0911,0.0434,0.0087,0.1802,0.031,30,2000,20261120
+2c,"familiar twin's share of pair picks at the same price, names shown",gemma3-27b,open weights,Google,True,0.64,0.0374,0.5617,0.71,0.0,30,2000,20261120
+2c,"invented minus familiar twin, names shown",gemma31b,open weights,Google,True,-0.7042,0.057,-0.8083,-0.5875,0.0,30,2000,20261120
+2c,"invented minus familiar twin, names hidden",gemma31b,open weights,Google,True,-0.0601,0.0604,-0.1768,0.0607,0.323,30,2000,20261120
+2c,"names hidden minus names shown, invented twin's share of pair picks",gemma31b,open weights,Google,True,0.3595,0.0375,0.2882,0.436,0.0,29,2000,20261120
+2c,"familiar twin's share of pair picks at the same price, names shown",gemma31b,open weights,Google,True,0.8919,0.0249,0.8393,0.9369,0.0,30,2000,20261120
+2c,"invented minus familiar twin, names shown",gemma4-12b,open weights,Google,True,-0.3617,0.0628,-0.4858,-0.2408,0.0,30,2000,20261120
+2c,"invented minus familiar twin, names hidden",gemma4-12b,open weights,Google,True,-0.1371,0.068,-0.2659,-0.0032,0.044,30,2000,20261120
+2c,"names hidden minus names shown, invented twin's share of pair picks",gemma4-12b,open weights,Google,True,0.1492,0.0396,0.0737,0.2289,0.0,29,2000,20261120
+2c,"familiar twin's share of pair picks at the same price, names shown",gemma4-12b,open weights,Google,True,0.7337,0.0365,0.6637,0.804,0.0,29,2000,20261120
+2c,"invented minus familiar twin, names shown",gemma4-26b,open weights,Google,True,-0.5,0.0677,-0.625,-0.3667,0.0,30,2000,20261120
+2c,"invented minus familiar twin, names hidden",gemma4-26b,open weights,Google,True,-0.0472,0.0559,-0.1569,0.0611,0.425,30,2000,20261120
+2c,"names hidden minus names shown, invented twin's share of pair picks",gemma4-26b,open weights,Google,True,0.3054,0.042,0.2207,0.3877,0.0,29,2000,20261120
+2c,"familiar twin's share of pair picks at the same price, names shown",gemma4-26b,open weights,Google,True,0.8175,0.0342,0.745,0.8768,0.0,29,2000,20261120
+2c,"invented minus familiar twin, names shown",glm47-flash,open weights,Zhipu,True,-0.0893,0.0481,-0.1827,0.0065,0.073,30,2000,20261120
+2c,"invented minus familiar twin, names hidden",glm47-flash,open weights,Zhipu,True,0.0417,0.0542,-0.0625,0.1458,0.443,30,2000,20261120
+2c,"names hidden minus names shown, invented twin's share of pair picks",glm47-flash,open weights,Zhipu,True,0.1248,0.0606,0.0075,0.2444,0.032,30,2000,20261120
+2c,"familiar twin's share of pair picks at the same price, names shown",glm47-flash,open weights,Zhipu,True,0.5687,0.0537,0.4622,0.6698,0.0,30,2000,20261120
+2c,"invented minus familiar twin, names shown",gptoss120b,open weights,OpenAI,True,-0.2806,0.0558,-0.3875,-0.1694,0.0,30,2000,20261120
+2c,"invented minus familiar twin, names hidden",gptoss120b,open weights,OpenAI,True,-0.0548,0.047,-0.1458,0.0375,0.252,30,2000,20261120
+2c,"names hidden minus names shown, invented twin's share of pair picks",gptoss120b,open weights,OpenAI,True,0.1433,0.0438,0.0558,0.23,0.0,29,2000,20261120
+2c,"familiar twin's share of pair picks at the same price, names shown",gptoss120b,open weights,OpenAI,True,0.6919,0.0436,0.602,0.7698,0.0,29,2000,20261120
+2c,"invented minus familiar twin, names shown",gptoss20b,open weights,OpenAI,True,-0.3046,0.059,-0.4142,-0.1877,0.0,30,2000,20261120
+2c,"invented minus familiar twin, names hidden",gptoss20b,open weights,OpenAI,True,-0.0512,0.0635,-0.175,0.0726,0.459,30,2000,20261120
+2c,"names hidden minus names shown, invented twin's share of pair picks",gptoss20b,open weights,OpenAI,True,0.1677,0.0461,0.0768,0.2587,0.0,29,2000,20261120
+2c,"familiar twin's share of pair picks at the same price, names shown",gptoss20b,open weights,OpenAI,True,0.6931,0.0436,0.6033,0.7764,0.0,30,2000,20261120
+2c,"invented minus familiar twin, names shown",granite41-30b,open weights,IBM,True,-0.2417,0.0595,-0.3583,-0.1292,0.0,30,2000,20261120
+2c,"invented minus familiar twin, names hidden",granite41-30b,open weights,IBM,True,0.0208,0.0596,-0.0958,0.1375,0.764,30,2000,20261120
+2c,"names hidden minus names shown, invented twin's share of pair picks",granite41-30b,open weights,IBM,True,0.175,0.052,0.073,0.2685,0.001,28,2000,20261120
+2c,"familiar twin's share of pair picks at the same price, names shown",granite41-30b,open weights,IBM,True,0.6503,0.0422,0.5678,0.7315,0.0,28,2000,20261120
+2c,"invented minus familiar twin, names shown",granite42-30b,open weights,IBM,True,-0.0988,0.0663,-0.225,0.0333,0.154,30,2000,20261120
+2c,"invented minus familiar twin, names hidden",granite42-30b,open weights,IBM,True,0.0083,0.071,-0.125,0.1583,0.935,30,2000,20261120
+2c,"names hidden minus names shown, invented twin's share of pair picks",granite42-30b,open weights,IBM,True,0.0533,0.0532,-0.0507,0.1553,0.315,30,2000,20261120
+2c,"familiar twin's share of pair picks at the same price, names shown",granite42-30b,open weights,IBM,True,0.5567,0.036,0.4835,0.6264,0.0,30,2000,20261120
+2c,"invented minus familiar twin, names shown",llama3b,open weights,Meta,True,-0.1083,0.041,-0.1917,-0.0292,0.008,30,2000,20261120
+2c,"invented minus familiar twin, names hidden",llama3b,open weights,Meta,True,-0.0708,0.044,-0.1583,0.0125,0.107,30,2000,20261120
+2c,"names hidden minus names shown, invented twin's share of pair picks",llama3b,open weights,Meta,True,0.1144,0.05,0.0233,0.215,0.014,30,2000,20261120
+2c,"familiar twin's share of pair picks at the same price, names shown",llama3b,open weights,Meta,True,0.6583,0.0477,0.5644,0.7539,0.0,30,2000,20261120
+2c,"invented minus familiar twin, names shown",llama8b,open weights,Meta,True,-0.0042,0.0456,-0.0875,0.0875,0.959,30,2000,20261120
+2c,"invented minus familiar twin, names hidden",llama8b,open weights,Meta,True,-0.025,0.0352,-0.0875,0.05,0.549,30,2000,20261120
+2c,"names hidden minus names shown, invented twin's share of pair picks",llama8b,open weights,Meta,True,-0.0128,0.0505,-0.1083,0.0883,0.847,30,2000,20261120
+2c,"familiar twin's share of pair picks at the same price, names shown",llama8b,open weights,Meta,True,0.5156,0.0507,0.4117,0.615,0.0,30,2000,20261120
+2c,"invented minus familiar twin, names shown",marin8b,open weights,Marin,True,-0.0897,0.0436,-0.1744,-0.0062,0.035,30,2000,20261120
+2c,"invented minus familiar twin, names hidden",marin8b,open weights,Marin,True,0.053,0.038,-0.025,0.1254,0.163,30,2000,20261120
+2c,"names hidden minus names shown, invented twin's share of pair picks",marin8b,open weights,Marin,True,0.1741,0.0502,0.0744,0.2678,0.001,29,2000,20261120
+2c,"familiar twin's share of pair picks at the same price, names shown",marin8b,open weights,Marin,True,0.6017,0.0475,0.5117,0.6944,0.0,29,2000,20261120
+2c,"invented minus familiar twin, names shown",ministral3-14b,open weights,Mistral,True,-0.0754,0.0549,-0.1831,0.0325,0.169,30,2000,20261120
+2c,"invented minus familiar twin, names hidden",ministral3-14b,open weights,Mistral,True,0.0317,0.0591,-0.0835,0.1498,0.577,30,2000,20261120
+2c,"names hidden minus names shown, invented twin's share of pair picks",ministral3-14b,open weights,Mistral,True,0.0554,0.0424,-0.0201,0.147,0.169,30,2000,20261120
+2c,"familiar twin's share of pair picks at the same price, names shown",ministral3-14b,open weights,Mistral,True,0.5329,0.0381,0.4572,0.6063,0.0,30,2000,20261120
+2c,"invented minus familiar twin, names shown",nemotron3-nano30b,open weights,NVIDIA,True,-0.0131,0.05,-0.1125,0.0869,0.821,30,2000,20261120
+2c,"invented minus familiar twin, names hidden",nemotron3-nano30b,open weights,NVIDIA,True,-0.0667,0.053,-0.1667,0.0375,0.221,30,2000,20261120
+2c,"names hidden minus names shown, invented twin's share of pair picks",nemotron3-nano30b,open weights,NVIDIA,True,-0.0334,0.0592,-0.1531,0.0847,0.558,29,2000,20261120
+2c,"familiar twin's share of pair picks at the same price, names shown",nemotron3-nano30b,open weights,NVIDIA,True,0.5198,0.0367,0.4464,0.5917,0.0,30,2000,20261120
+2c,"invented minus familiar twin, names shown",olmo3-7b,open weights,Allen AI,True,-0.0083,0.0503,-0.1083,0.0917,0.877,30,2000,20261120
+2c,"invented minus familiar twin, names hidden",olmo3-7b,open weights,Allen AI,True,0.0708,0.0686,-0.0583,0.2125,0.311,30,2000,20261120
+2c,"names hidden minus names shown, invented twin's share of pair picks",olmo3-7b,open weights,Allen AI,True,0.0543,0.0523,-0.0476,0.1577,0.267,30,2000,20261120
+2c,"familiar twin's share of pair picks at the same price, names shown",olmo3-7b,open weights,Allen AI,True,0.493,0.046,0.4019,0.5788,0.0,30,2000,20261120
+2c,"invented minus familiar twin, names shown",olmo31-32b,open weights,Allen AI,True,-0.1542,0.0572,-0.2667,-0.0417,0.004,30,2000,20261120
+2c,"invented minus familiar twin, names hidden",olmo31-32b,open weights,Allen AI,True,0.0625,0.0507,-0.0292,0.1667,0.216,30,2000,20261120
+2c,"names hidden minus names shown, invented twin's share of pair picks",olmo31-32b,open weights,Allen AI,True,0.1515,0.0333,0.0881,0.2166,0.0,30,2000,20261120
+2c,"familiar twin's share of pair picks at the same price, names shown",olmo31-32b,open weights,Allen AI,True,0.6171,0.0395,0.5393,0.6921,0.0,30,2000,20261120
+2c,"invented minus familiar twin, names shown",phi4,open weights,Microsoft,True,-0.2325,0.0556,-0.3417,-0.1242,0.0,30,2000,20261120
+2c,"invented minus familiar twin, names hidden",phi4,open weights,Microsoft,True,-0.0063,0.0573,-0.1161,0.1101,0.895,30,2000,20261120
+2c,"names hidden minus names shown, invented twin's share of pair picks",phi4,open weights,Microsoft,True,0.1334,0.0429,0.0496,0.2124,0.005,29,2000,20261120
+2c,"familiar twin's share of pair picks at the same price, names shown",phi4,open weights,Microsoft,True,0.6427,0.0329,0.5793,0.705,0.0,29,2000,20261120
+2c,"invented minus familiar twin, names shown",qwen3-30b,open weights,Alibaba,True,-0.1042,0.0547,-0.2083,0.0042,0.055,30,2000,20261120
+2c,"invented minus familiar twin, names hidden",qwen3-30b,open weights,Alibaba,True,-0.0583,0.0462,-0.15,0.0292,0.232,30,2000,20261120
+2c,"names hidden minus names shown, invented twin's share of pair picks",qwen3-30b,open weights,Alibaba,True,0.0309,0.0268,-0.0188,0.0869,0.229,30,2000,20261120
+2c,"familiar twin's share of pair picks at the same price, names shown",qwen3-30b,open weights,Alibaba,True,0.5617,0.0392,0.4881,0.6417,0.0,30,2000,20261120
+2c,"invented minus familiar twin, names shown",qwen3-32b,open weights,Alibaba,True,-0.3028,0.0496,-0.3986,-0.2042,0.0,30,2000,20261120
+2c,"invented minus familiar twin, names hidden",qwen3-32b,open weights,Alibaba,True,-0.1089,0.0614,-0.225,0.0155,0.087,30,2000,20261120
+2c,"names hidden minus names shown, invented twin's share of pair picks",qwen3-32b,open weights,Alibaba,True,0.0997,0.0385,0.024,0.1752,0.011,30,2000,20261120
+2c,"familiar twin's share of pair picks at the same price, names shown",qwen3-32b,open weights,Alibaba,True,0.6677,0.0351,0.5957,0.7345,0.0,30,2000,20261120
+2c,"invented minus familiar twin, names shown",qwen32b,open weights,Alibaba,True,-0.1875,0.056,-0.3,-0.0792,0.0,30,2000,20261120
+2c,"invented minus familiar twin, names hidden",qwen32b,open weights,Alibaba,True,0.0042,0.0558,-0.1042,0.1125,0.933,30,2000,20261120
+2c,"names hidden minus names shown, invented twin's share of pair picks",qwen32b,open weights,Alibaba,True,0.1082,0.0382,0.0345,0.1848,0.001,29,2000,20261120
+2c,"familiar twin's share of pair picks at the same price, names shown",qwen32b,open weights,Alibaba,True,0.6145,0.0393,0.5332,0.6884,0.0,29,2000,20261120
+2c,"invented minus familiar twin, names shown",qwen35-0.8b,open weights,Alibaba,True,-0.0208,0.0423,-0.1,0.0667,0.645,30,2000,20261120
+2c,"invented minus familiar twin, names hidden",qwen35-0.8b,open weights,Alibaba,True,-0.0125,0.0481,-0.1125,0.0792,0.814,30,2000,20261120
+2c,"names hidden minus names shown, invented twin's share of pair picks",qwen35-0.8b,open weights,Alibaba,True,0.0162,0.0856,-0.1525,0.176,0.835,30,2000,20261120
+2c,"familiar twin's share of pair picks at the same price, names shown",qwen35-0.8b,open weights,Alibaba,True,0.5226,0.0552,0.411,0.6267,0.0,30,2000,20261120
+2c,"invented minus familiar twin, names shown",qwen35-122b-fp8,open weights,Alibaba,True,-0.3069,0.062,-0.4222,-0.1778,0.0,30,2000,20261120
+2c,"invented minus familiar twin, names hidden",qwen35-122b-fp8,open weights,Alibaba,True,0.0042,0.0664,-0.125,0.1333,0.955,30,2000,20261120
+2c,"names hidden minus names shown, invented twin's share of pair picks",qwen35-122b-fp8,open weights,Alibaba,True,0.2142,0.0484,0.1127,0.3075,0.0,29,2000,20261120
+2c,"familiar twin's share of pair picks at the same price, names shown",qwen35-122b-fp8,open weights,Alibaba,True,0.7099,0.0365,0.6345,0.7761,0.0,29,2000,20261120
+2c,"invented minus familiar twin, names shown",qwen35-27b,open weights,Alibaba,True,-0.3833,0.0717,-0.5208,-0.2375,0.0,30,2000,20261120
+2c,"invented minus familiar twin, names hidden",qwen35-27b,open weights,Alibaba,True,-0.0681,0.0645,-0.1917,0.0597,0.325,30,2000,20261120
+2c,"names hidden minus names shown, invented twin's share of pair picks",qwen35-27b,open weights,Alibaba,True,0.1953,0.0317,0.1377,0.2605,0.0,29,2000,20261120
+2c,"familiar twin's share of pair picks at the same price, names shown",qwen35-27b,open weights,Alibaba,True,0.7193,0.0432,0.6282,0.8006,0.0,29,2000,20261120
+2c,"invented minus familiar twin, names shown",qwen35-2b,open weights,Alibaba,True,-0.0887,0.0507,-0.1875,0.0107,0.087,30,2000,20261120
+2c,"invented minus familiar twin, names hidden",qwen35-2b,open weights,Alibaba,True,-0.0435,0.0565,-0.1536,0.0667,0.454,30,2000,20261120
+2c,"names hidden minus names shown, invented twin's share of pair picks",qwen35-2b,open weights,Alibaba,True,0.0698,0.0661,-0.0632,0.1984,0.303,30,2000,20261120
+2c,"familiar twin's share of pair picks at the same price, names shown",qwen35-2b,open weights,Alibaba,True,0.5868,0.0451,0.5,0.6748,0.0,30,2000,20261120
+2c,"invented minus familiar twin, names shown",qwen35-35b,open weights,Alibaba,True,-0.2887,0.068,-0.4149,-0.1595,0.0,30,2000,20261120
+2c,"invented minus familiar twin, names hidden",qwen35-35b,open weights,Alibaba,True,0.0167,0.0703,-0.1292,0.1542,0.823,30,2000,20261120
+2c,"names hidden minus names shown, invented twin's share of pair picks",qwen35-35b,open weights,Alibaba,True,0.1716,0.0728,0.0192,0.3017,0.028,30,2000,20261120
+2c,"familiar twin's share of pair picks at the same price, names shown",qwen35-35b,open weights,Alibaba,True,0.6723,0.0469,0.5751,0.758,0.0,30,2000,20261120
+2c,"invented minus familiar twin, names shown",qwen35-4b,open weights,Alibaba,True,-0.1369,0.0489,-0.2304,-0.0375,0.012,30,2000,20261120
+2c,"invented minus familiar twin, names hidden",qwen35-4b,open weights,Alibaba,True,-0.0405,0.0564,-0.1528,0.0718,0.478,30,2000,20261120
+2c,"names hidden minus names shown, invented twin's share of pair picks",qwen35-4b,open weights,Alibaba,True,0.0804,0.0573,-0.039,0.1834,0.173,30,2000,20261120
+2c,"familiar twin's share of pair picks at the same price, names shown",qwen35-4b,open weights,Alibaba,True,0.6162,0.039,0.5385,0.6894,0.0,30,2000,20261120
+2c,"invented minus familiar twin, names shown",qwen35-9b,open weights,Alibaba,True,-0.2097,0.0666,-0.3375,-0.0722,0.004,30,2000,20261120
+2c,"invented minus familiar twin, names hidden",qwen35-9b,open weights,Alibaba,True,-0.0458,0.0599,-0.1667,0.0667,0.478,30,2000,20261120
+2c,"names hidden minus names shown, invented twin's share of pair picks",qwen35-9b,open weights,Alibaba,True,0.1141,0.0517,0.0102,0.2117,0.032,30,2000,20261120
+2c,"familiar twin's share of pair picks at the same price, names shown",qwen35-9b,open weights,Alibaba,True,0.6353,0.0404,0.5484,0.7115,0.0,30,2000,20261120
+2c,"invented minus familiar twin, names shown",qwen36-27b,open weights,Alibaba,True,-0.3408,0.0698,-0.475,-0.195,0.0,30,2000,20261120
+2c,"invented minus familiar twin, names hidden",qwen36-27b,open weights,Alibaba,True,-0.0569,0.058,-0.1667,0.0597,0.334,30,2000,20261120
+2c,"names hidden minus names shown, invented twin's share of pair picks",qwen36-27b,open weights,Alibaba,True,0.1734,0.0354,0.1052,0.2442,0.0,30,2000,20261120
+2c,"familiar twin's share of pair picks at the same price, names shown",qwen36-27b,open weights,Alibaba,True,0.7026,0.0398,0.6202,0.7756,0.0,30,2000,20261120
+2c,"invented minus familiar twin, names shown",qwen38-27b,open weights,Alibaba,True,-0.4667,0.0622,-0.5875,-0.3375,0.0,30,2000,20261120
+2c,"invented minus familiar twin, names hidden",qwen38-27b,open weights,Alibaba,True,-0.0667,0.0593,-0.1833,0.0458,0.282,30,2000,20261120
+2c,"names hidden minus names shown, invented twin's share of pair picks",qwen38-27b,open weights,Alibaba,True,0.204,0.0544,0.0902,0.3021,0.0,30,2000,20261120
+2c,"familiar twin's share of pair picks at the same price, names shown",qwen38-27b,open weights,Alibaba,True,0.7455,0.039,0.6631,0.8183,0.0,30,2000,20261120
+2c,"invented minus familiar twin, names shown",qwen7b,open weights,Alibaba,True,0.0583,0.0493,-0.0375,0.1542,0.246,30,2000,20261120
+2c,"invented minus familiar twin, names hidden",qwen7b,open weights,Alibaba,True,0.0708,0.0592,-0.0375,0.1958,0.21,30,2000,20261120
+2c,"names hidden minus names shown, invented twin's share of pair picks",qwen7b,open weights,Alibaba,True,0.0038,0.0293,-0.0519,0.0617,0.866,30,2000,20261120
+2c,"familiar twin's share of pair picks at the same price, names shown",qwen7b,open weights,Alibaba,True,0.4836,0.042,0.4043,0.5658,0.0,30,2000,20261120

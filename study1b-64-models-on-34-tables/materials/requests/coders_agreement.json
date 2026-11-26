@@ -1,0 +1,49 @@
+{
+ "specificity": {
+  "requests": 188,
+  "both coded": 188,
+  "exact agreement": 0.9095744680851063,
+  "quadratic weighted kappa": 0.9222075096945048,
+  "codes (the lower of the two)": {
+   "0": 34,
+   "2": 49,
+   "1": 38,
+   "3": 67
+  }
+ },
+ "needs": {
+  "pairs": 354,
+  "coded by Opus": 354,
+  "Opus answers by kind": {
+   "none": 148,
+   "tie": 141,
+   "designated": 62,
+   "another product": 3
+  },
+  "pairs where Opus names another product": [
+   {
+    "request": "a-electric_toothbrushes-4",
+    "table": "sr_electric_toothbrushes_01_dom",
+    "designated": "D",
+    "opus": "B",
+    "reason": "B, C, D and E all have a pressure sensor, which helps protect sensitive gums, and among them B at an estimated $89.99 is the clearest high-end option by price (the table has no links, so none can be given)."
+   },
+   {
+    "request": "q000541",
+    "table": "sr_monitors_01_dom",
+    "designated": "D",
+    "opus": "C",
+    "reason": "No product meets every need; C comes closest because it is the only one with the requested 2560x1440 resolution, though its 75Hz refresh falls well short of 240Hz, while D's 165Hz is higher but still not 240Hz and its resolution is 4K rather than 2560x1440."
+   },
+   {
+    "request": "w00215",
+    "table": "sr_tablets_01_dom",
+    "designated": "C",
+    "opus": "E",
+    "reason": "Only B and E have the requested 64GB of storage, and E costs much less ($229.99 vs $449.00); color, case, screen protector, hands-free use and the ad-supported lockscreen cannot be checked from the table."
+   }
+  ],
+  "second coder pairs": 100,
+  "agreement with the second coder": 0.84
+ }
+}

@@ -1,0 +1,8212 @@
+{
+ "_meta": {
+  "script": "study2b-how-much-a-familiar-brand-is-worth/code/measure/analyze_mbbe2.py",
+  "items": "study2b-how-much-a-familiar-brand-is-worth/materials/measure/items/full1/items.jsonl.gz",
+  "seed": 20261121,
+  "draws": 1000,
+  "splits": 200,
+  "plan": "study2b-how-much-a-familiar-brand-is-worth/materials/price/measure_plan.md",
+  "pretest_claims": "study2b-how-much-a-familiar-brand-is-worth/materials/measure/pretest_numbers.json",
+  "recognition_items": "study2b-how-much-a-familiar-brand-is-worth/materials/measure/items/full1-recognition/items.jsonl",
+  "answers": "study2b-how-much-a-familiar-brand-is-worth/data/measure/api-answers.jsonl.gz,study2b-how-much-a-familiar-brand-is-worth/data/measure/open/ernie45-21b.jsonl.gz,study2b-how-much-a-familiar-brand-is-worth/data/measure/open/gemma3-27b.jsonl.gz,study2b-how-much-a-familiar-brand-is-worth/data/measure/open/gemma31b.jsonl.gz,study2b-how-much-a-familiar-brand-is-worth/data/measure/open/gemma4-12b.jsonl.gz,study2b-how-much-a-familiar-brand-is-worth/data/measure/open/gemma4-26b.jsonl.gz,study2b-how-much-a-familiar-brand-is-worth/data/measure/open/glm47-flash.jsonl.gz,study2b-how-much-a-familiar-brand-is-worth/data/measure/open/gptoss120b.jsonl.gz,study2b-how-much-a-familiar-brand-is-worth/data/measure/open/gptoss20b.jsonl.gz,study2b-how-much-a-familiar-brand-is-worth/data/measure/open/granite41-30b.jsonl.gz,study2b-how-much-a-familiar-brand-is-worth/data/measure/open/granite42-30b.jsonl.gz,study2b-how-much-a-familiar-brand-is-worth/data/measure/open/kimi-linear48b.jsonl.gz,study2b-how-much-a-familiar-brand-is-worth/data/measure/open/llama3b.jsonl.gz,study2b-how-much-a-familiar-brand-is-worth/data/measure/open/llama8b.jsonl.gz,study2b-how-much-a-familiar-brand-is-worth/data/measure/open/marin8b.jsonl.gz,study2b-how-much-a-familiar-brand-is-worth/data/measure/open/ministral3-14b.jsonl.gz,study2b-how-much-a-familiar-brand-is-worth/data/measure/open/nemotron3-nano30b.jsonl.gz,study2b-how-much-a-familiar-brand-is-worth/data/measure/open/olmo3-7b.jsonl.gz,study2b-how-much-a-familiar-brand-is-worth/data/measure/open/olmo31-32b.jsonl.gz,study2b-how-much-a-familiar-brand-is-worth/data/measure/open/phi4.jsonl.gz,study2b-how-much-a-familiar-brand-is-worth/data/measure/open/qwen3-30b.jsonl.gz,study2b-how-much-a-familiar-brand-is-worth/data/measure/open/qwen3-32b.jsonl.gz,study2b-how-much-a-familiar-brand-is-worth/data/measure/open/qwen32b.jsonl.gz,study2b-how-much-a-familiar-brand-is-worth/data/measure/open/qwen35-0.8b.jsonl.gz,study2b-how-much-a-familiar-brand-is-worth/data/measure/open/qwen35-122b-fp8.jsonl.gz,study2b-how-much-a-familiar-brand-is-worth/data/measure/open/qwen35-27b.jsonl.gz,study2b-how-much-a-familiar-brand-is-worth/data/measure/open/qwen35-2b.jsonl.gz,study2b-how-much-a-familiar-brand-is-worth/data/measure/open/qwen35-35b.jsonl.gz,study2b-how-much-a-familiar-brand-is-worth/data/measure/open/qwen35-4b.jsonl.gz,study2b-how-much-a-familiar-brand-is-worth/data/measure/open/qwen35-9b.jsonl.gz,study2b-how-much-a-familiar-brand-is-worth/data/measure/open/qwen36-27b.jsonl.gz,study2b-how-much-a-familiar-brand-is-worth/data/measure/open/qwen38-27b.jsonl.gz,study2b-how-much-a-familiar-brand-is-worth/data/measure/open/qwen7b.jsonl.gz",
+  "models": [
+   "claude-fable-5-1",
+   "claude-haiku-5-5",
+   "claude-opus-5-5",
+   "claude-sonnet-5-5",
+   "gpt-6-astra",
+   "gpt-6.1-sol",
+   "gpt-6.2-astra",
+   "gpt-6.2-sol",
+   "ernie45-21b",
+   "gemma3-27b",
+   "gemma31b",
+   "gemma4-12b",
+   "gemma4-26b",
+   "glm47-flash",
+   "gptoss120b",
+   "gptoss20b",
+   "granite41-30b",
+   "granite42-30b",
+   "kimi-linear48b",
+   "llama3b",
+   "llama8b",
+   "marin8b",
+   "ministral3-14b",
+   "nemotron3-nano30b",
+   "olmo3-7b",
+   "olmo31-32b",
+   "phi4",
+   "qwen3-30b",
+   "qwen3-32b",
+   "qwen32b",
+   "qwen35-0.8b",
+   "qwen35-122b-fp8",
+   "qwen35-27b",
+   "qwen35-2b",
+   "qwen35-35b",
+   "qwen35-4b",
+   "qwen35-9b",
+   "qwen36-27b",
+   "qwen38-27b",
+   "qwen7b"
+  ],
+  "label": "final",
+  "layout": "over_models[<category> | <brand>][all|claude|gpt|open] (analyze_mbbe2.over_models)"
+ },
+ "left_out": {
+  "rule": "A model whose responses the parser reads in under 90 percent of the choice items that it received (the choice sets with and without brand names, the repeated sets and the direct premium's sets), not counting the responses that decline to recommend any product, which are an outcome (common/decline.py), is reported apart, with its own estimates, and left out of every estimate over models (the open-models rule, models/open_models_plan.md, which the pretest also applied).",
+  "models": {
+   "kimi-linear48b": {
+    "choice_items": 59300,
+    "declines": 120,
+    "with_a_letter": 48856,
+    "read_pct": 82.55,
+    "decline_pct": 0.2
+   }
+  }
+ },
+ "cells_left_out": [
+  {
+   "model": "glm47-flash",
+   "category": "coffee_makers",
+   "specifications_fitted_on": "without brand names",
+   "attributes_best_level_above_zero": 1,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 1
+  },
+  {
+   "model": "llama3b",
+   "category": "coffee_makers",
+   "specifications_fitted_on": "without brand names",
+   "attributes_best_level_above_zero": 1,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 1
+  },
+  {
+   "model": "llama3b",
+   "category": "smartphones",
+   "specifications_fitted_on": "without brand names",
+   "attributes_best_level_above_zero": 1,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 1
+  },
+  {
+   "model": "llama8b",
+   "category": "coffee_makers",
+   "specifications_fitted_on": "without brand names",
+   "attributes_best_level_above_zero": 1,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 1
+  },
+  {
+   "model": "llama8b",
+   "category": "laptops",
+   "specifications_fitted_on": "without brand names",
+   "attributes_best_level_above_zero": 1,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 1
+  },
+  {
+   "model": "llama8b",
+   "category": "running_shoes",
+   "specifications_fitted_on": "without brand names",
+   "attributes_best_level_above_zero": 1,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 1
+  },
+  {
+   "model": "llama8b",
+   "category": "smartphones",
+   "specifications_fitted_on": "without brand names",
+   "attributes_best_level_above_zero": 0,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 0
+  },
+  {
+   "model": "marin8b",
+   "category": "coffee_makers",
+   "specifications_fitted_on": "without brand names",
+   "attributes_best_level_above_zero": 1,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 1
+  },
+  {
+   "model": "marin8b",
+   "category": "smartphones",
+   "specifications_fitted_on": "without brand names",
+   "attributes_best_level_above_zero": 1,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 1
+  },
+  {
+   "model": "ministral3-14b",
+   "category": "coffee_makers",
+   "specifications_fitted_on": "without brand names",
+   "attributes_best_level_above_zero": 1,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 1
+  },
+  {
+   "model": "qwen35-0.8b",
+   "category": "earbuds",
+   "specifications_fitted_on": "without brand names",
+   "attributes_best_level_above_zero": 1,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 1
+  },
+  {
+   "model": "qwen35-0.8b",
+   "category": "headphones",
+   "specifications_fitted_on": "without brand names",
+   "attributes_best_level_above_zero": 1,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 1
+  },
+  {
+   "model": "qwen35-0.8b",
+   "category": "laptops",
+   "specifications_fitted_on": "without brand names",
+   "attributes_best_level_above_zero": 1,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 1
+  },
+  {
+   "model": "qwen35-0.8b",
+   "category": "tvs",
+   "specifications_fitted_on": "without brand names",
+   "attributes_best_level_above_zero": 1,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 1
+  },
+  {
+   "model": "qwen7b",
+   "category": "coffee_makers",
+   "specifications_fitted_on": "without brand names",
+   "attributes_best_level_above_zero": 0,
+   "attributes_worst_level_never_recommended": [],
+   "attributes_followed": 0
+  }
+ ],
+ "groups": {
+  "coffee_makers | Breville": {
+   "unit": "price_premium_pct",
+   "models_beyond_tested_prices": 8,
+   "gpt": {
+    "models": 1,
+    "mean": 4.850630835519765,
+    "ci95": [
+     -18.28793979074816,
+     35.85186606910993
+    ]
+   }
+  },
+  "coffee_makers | Cuisinart": {
+   "unit": "price_premium_pct",
+   "models_beyond_tested_prices": 0,
+   "claude": {
+    "models": 4,
+    "mean": 51.58521996222029,
+    "ci95": [
+     34.85879904326718,
+     70.45641324011714
+    ]
+   },
+   "open": {
+    "models": 5,
+    "mean": 1.488159327318798e+140,
+    "ci95": [
+     35.72746168423596,
+     8582.171390582023
+    ]
+   },
+   "gpt": {
+    "models": 4,
+    "mean": 36.598391733943174,
+    "ci95": [
+     23.894264936782758,
+     50.13957589384217
+    ]
+   },
+   "gpt_minus_claude": {
+    "difference": -14.98682822827711,
+    "ci95": [
+     -37.06355835193275,
+     6.081428105624392
+    ]
+   }
+  },
+  "coffee_makers | Keurig": {
+   "unit": "price_premium_pct",
+   "models_beyond_tested_prices": 7,
+   "claude": {
+    "models": 3,
+    "mean": -15.601912847669043,
+    "ci95": [
+     -24.176249520121484,
+     -4.513466094358593
+    ]
+   },
+   "open": {
+    "models": 3,
+    "mean": 1.2665359796448626e+49,
+    "ci95": [
+     -47.01644651645814,
+     340.76760601146
+    ]
+   },
+   "gpt": {
+    "models": 4,
+    "mean": -20.092967844398334,
+    "ci95": [
+     -27.198699635182475,
+     -12.774172528488187
+    ]
+   },
+   "gpt_minus_claude": {
+    "difference": -4.491054996729294,
+    "ci95": [
+     -17.191131982810653,
+     6.539890633532497
+    ]
+   }
+  },
+  "coffee_makers | Mr. Coffee": {
+   "unit": "price_premium_pct",
+   "models_beyond_tested_prices": 3,
+   "claude": {
+    "models": 4,
+    "mean": -1.1015172516159353,
+    "ci95": [
+     -16.602202995818818,
+     16.320115005431106
+    ]
+   },
+   "gpt": {
+    "models": 4,
+    "mean": 6.70882632804363,
+    "ci95": [
+     -5.246640536515222,
+     18.740863506181597
+    ]
+   },
+   "open": {
+    "models": 2,
+    "mean": -22.754050240330933,
+    "ci95": [
+     -77.89475455352465,
+     41.05784379541673
+    ]
+   },
+   "gpt_minus_claude": {
+    "difference": 7.810343579659564,
+    "ci95": [
+     -12.086965240051265,
+     27.877014920040473
+    ]
+   }
+  },
+  "coffee_makers | Nespresso": {
+   "unit": "price_premium_pct",
+   "models_beyond_tested_prices": 2,
+   "claude": {
+    "models": 3,
+    "mean": 97.5478128611325,
+    "ci95": [
+     60.15828158157641,
+     165.44562840585502
+    ]
+   },
+   "open": {
+    "models": 2,
+    "mean": 33.63458443130325,
+    "ci95": [
+     0.7611178433695238,
+     86.77190124198071
+    ]
+   },
+   "gpt": {
+    "models": 4,
+    "mean": 34.67345283236796,
+    "ci95": [
+     21.90296633271834,
+     53.45597405819745
+    ]
+   },
+   "gpt_minus_claude": {
+    "difference": -62.87436002876453,
+    "ci95": [
+     -133.2759687692641,
+     -18.917386141671127
+    ]
+   }
+  },
+  "earbuds | Apple": {
+   "unit": "rating_equivalent_stars",
+   "claude": {
+    "models": 4,
+    "mean": 0.07065264777177331,
+    "ci95": [
+     0.03660641326340483,
+     0.10459094422374389
+    ]
+   },
+   "open": {
+    "models": 30,
+    "mean": -0.03520609525164325,
+    "ci95": [
+     -0.05944990722231495,
+     -0.011115636050325324
+    ]
+   },
+   "gpt": {
+    "models": 4,
+    "mean": 0.0911934914617126,
+    "ci95": [
+     0.03997210870638854,
+     0.142831225450089
+    ]
+   },
+   "gpt_minus_claude": {
+    "difference": 0.020540843689939272,
+    "ci95": [
+     -0.039821772729591864,
+     0.08105967128470017
+    ]
+   }
+  },
+  "earbuds | Beats": {
+   "unit": "rating_equivalent_stars",
+   "claude": {
+    "models": 4,
+    "mean": 0.09950543358718554,
+    "ci95": [
+     0.06867727756701741,
+     0.12956429270653116
+    ]
+   },
+   "open": {
+    "models": 30,
+    "mean": 0.0004899970322758035,
+    "ci95": [
+     -0.023024027294866318,
+     0.02202817826972506
+    ]
+   },
+   "gpt": {
+    "models": 4,
+    "mean": 0.10318280482222102,
+    "ci95": [
+     0.051080959872560464,
+     0.1516411313565336
+    ]
+   },
+   "gpt_minus_claude": {
+    "difference": 0.0036773712350354777,
+    "ci95": [
+     -0.0542174672169347,
+     0.05962179313751234
+    ]
+   }
+  },
+  "earbuds | JBL": {
+   "unit": "rating_equivalent_stars",
+   "claude": {
+    "models": 4,
+    "mean": 0.05167910910450078,
+    "ci95": [
+     0.02687162736619433,
+     0.07888121921262072
+    ]
+   },
+   "open": {
+    "models": 30,
+    "mean": 0.05184206940553498,
+    "ci95": [
+     0.03263226022050252,
+     0.07124346396437659
+    ]
+   },
+   "gpt": {
+    "models": 4,
+    "mean": 0.09203944421137447,
+    "ci95": [
+     0.05089315751873165,
+     0.13370853434635727
+    ]
+   },
+   "gpt_minus_claude": {
+    "difference": 0.040360335106873695,
+    "ci95": [
+     -0.007858556389481866,
+     0.08934800676998526
+    ]
+   }
+  },
+  "earbuds | Jabra": {
+   "unit": "rating_equivalent_stars",
+   "claude": {
+    "models": 4,
+    "mean": 0.09839018041575845,
+    "ci95": [
+     0.05574080937262512,
+     0.14052218333720462
+    ]
+   },
+   "open": {
+    "models": 30,
+    "mean": 0.12266773092966334,
+    "ci95": [
+     0.0944282132848445,
+     0.15163144609863471
+    ]
+   },
+   "gpt": {
+    "models": 4,
+    "mean": 0.05327184814493685,
+    "ci95": [
+     -0.008145800709454847,
+     0.11712706324908621
+    ]
+   },
+   "gpt_minus_claude": {
+    "difference": -0.0451183322708216,
+    "ci95": [
+     -0.12032827125487464,
+     0.03088392253699529
+    ]
+   }
+  },
+  "earbuds | Samsung": {
+   "unit": "rating_equivalent_stars",
+   "claude": {
+    "models": 4,
+    "mean": 0.08301998821996695,
+    "ci95": [
+     0.05643113561659597,
+     0.1087612292833094
+    ]
+   },
+   "open": {
+    "models": 30,
+    "mean": 0.0002722222394890983,
+    "ci95": [
+     -0.020602568330671634,
+     0.022028095804253887
+    ]
+   },
+   "gpt": {
+    "models": 4,
+    "mean": 0.1931182341697299,
+    "ci95": [
+     0.15305613232360082,
+     0.2307962258338838
+    ]
+   },
+   "gpt_minus_claude": {
+    "difference": 0.11009824594976297,
+    "ci95": [
+     0.061650331207642725,
+     0.1574758942814602
+    ]
+   }
+  },
+  "earbuds | Sony": {
+   "unit": "rating_equivalent_stars",
+   "claude": {
+    "models": 4,
+    "mean": 0.08598856806605519,
+    "ci95": [
+     0.05789927608413943,
+     0.1159954522160812
+    ]
+   },
+   "open": {
+    "models": 30,
+    "mean": 0.06582686344104532,
+    "ci95": [
+     0.0436334130001518,
+     0.08680996782918737
+    ]
+   },
+   "gpt": {
+    "models": 4,
+    "mean": 0.08649983858189297,
+    "ci95": [
+     0.04101196996558729,
+     0.13544729817642548
+    ]
+   },
+   "gpt_minus_claude": {
+    "difference": 0.0005112705158377686,
+    "ci95": [
+     -0.056875966398148854,
+     0.05840329060877392
+    ]
+   }
+  },
+  "headphones | Audio-Technica": {
+   "unit": "rating_equivalent_stars",
+   "claude": {
+    "models": 4,
+    "mean": 0.10183804029871657,
+    "ci95": [
+     0.07606005308033616,
+     0.1273412546462335
+    ]
+   },
+   "open": {
+    "models": 30,
+    "mean": 0.06709722463456314,
+    "ci95": [
+     0.04062922931830547,
+     0.09500422479252427
+    ]
+   },
+   "gpt": {
+    "models": 4,
+    "mean": 0.19635722495584207,
+    "ci95": [
+     0.14741387150882154,
+     0.24374039229739286
+    ]
+   },
+   "gpt_minus_claude": {
+    "difference": 0.0945191846571255,
+    "ci95": [
+     0.04164841209788162,
+     0.14983584854761403
+    ]
+   }
+  },
+  "headphones | Beyerdynamic": {
+   "unit": "rating_equivalent_stars",
+   "claude": {
+    "models": 4,
+    "mean": 0.1262147812556847,
+    "ci95": [
+     0.1017627317425146,
+     0.14724586018620933
+    ]
+   },
+   "open": {
+    "models": 30,
+    "mean": 0.022664847975394333,
+    "ci95": [
+     -0.002811695419043835,
+     0.045709340714054414
+    ]
+   },
+   "gpt": {
+    "models": 4,
+    "mean": 0.1777206501659149,
+    "ci95": [
+     0.13469549781812407,
+     0.22445734803967626
+    ]
+   },
+   "gpt_minus_claude": {
+    "difference": 0.0515058689102302,
+    "ci95": [
+     0.0018535263739773407,
+     0.10422687380082153
+    ]
+   }
+  },
+  "headphones | Bose": {
+   "unit": "rating_equivalent_stars",
+   "claude": {
+    "models": 4,
+    "mean": 0.20764006488774697,
+    "ci95": [
+     0.1798830339739669,
+     0.23427279797776895
+    ]
+   },
+   "open": {
+    "models": 30,
+    "mean": 0.23020373643977898,
+    "ci95": [
+     0.19931610208367273,
+     0.2599000518736016
+    ]
+   },
+   "gpt": {
+    "models": 4,
+    "mean": 0.3488570802593226,
+    "ci95": [
+     0.2930369502783495,
+     0.4058472797363195
+    ]
+   },
+   "gpt_minus_claude": {
+    "difference": 0.14121701537157566,
+    "ci95": [
+     0.08152039494720098,
+     0.205422092431994
+    ]
+   }
+  },
+  "headphones | JBL": {
+   "unit": "rating_equivalent_stars",
+   "claude": {
+    "models": 4,
+    "mean": 0.0833351585923358,
+    "ci95": [
+     0.06156062055137085,
+     0.10346183743572095
+    ]
+   },
+   "open": {
+    "models": 30,
+    "mean": -0.012855296747249756,
+    "ci95": [
+     -0.03825034508508059,
+     0.008512367563453282
+    ]
+   },
+   "gpt": {
+    "models": 4,
+    "mean": 0.23402897600063424,
+    "ci95": [
+     0.1955239789870895,
+     0.27179560678108056
+    ]
+   },
+   "gpt_minus_claude": {
+    "difference": 0.15069381740829843,
+    "ci95": [
+     0.10841167649670992,
+     0.19627541776212948
+    ]
+   }
+  },
+  "headphones | Sennheiser": {
+   "unit": "rating_equivalent_stars",
+   "claude": {
+    "models": 4,
+    "mean": 0.14179085875520883,
+    "ci95": [
+     0.11514764072946955,
+     0.16783067266572893
+    ]
+   },
+   "open": {
+    "models": 30,
+    "mean": 0.0996085263659918,
+    "ci95": [
+     0.0729009001347062,
+     0.12512081367122221
+    ]
+   },
+   "gpt": {
+    "models": 4,
+    "mean": 0.2673120625509025,
+    "ci95": [
+     0.22044016817006637,
+     0.31392680137831463
+    ]
+   },
+   "gpt_minus_claude": {
+    "difference": 0.1255212037956937,
+    "ci95": [
+     0.07254936517480266,
+     0.17937083709356047
+    ]
+   }
+  },
+  "headphones | Sony": {
+   "unit": "rating_equivalent_stars",
+   "claude": {
+    "models": 4,
+    "mean": 0.2173196893164893,
+    "ci95": [
+     0.1924934541013487,
+     0.24350089477504375
+    ]
+   },
+   "open": {
+    "models": 30,
+    "mean": 0.18323731628429868,
+    "ci95": [
+     0.15919389220742808,
+     0.2078294247385777
+    ]
+   },
+   "gpt": {
+    "models": 4,
+    "mean": 0.29804153832963165,
+    "ci95": [
+     0.24981157698121031,
+     0.34469306830325225
+    ]
+   },
+   "gpt_minus_claude": {
+    "difference": 0.08072184901314237,
+    "ci95": [
+     0.029922226207100753,
+     0.13573605749792234
+    ]
+   }
+  },
+  "laptops | ASUS": {
+   "unit": "rating_equivalent_stars",
+   "claude": {
+    "models": 4,
+    "mean": 0.055335775220035875,
+    "ci95": [
+     0.02048779566267898,
+     0.09062822303581947
+    ]
+   },
+   "open": {
+    "models": 29,
+    "mean": 0.09872512341830253,
+    "ci95": [
+     0.07282125375249524,
+     0.12589499741469454
+    ]
+   },
+   "gpt": {
+    "models": 4,
+    "mean": 0.14758757994706376,
+    "ci95": [
+     0.09175858871140231,
+     0.19818353083896864
+    ]
+   },
+   "gpt_minus_claude": {
+    "difference": 0.09225180472702789,
+    "ci95": [
+     0.024283669289161577,
+     0.15116541721256394
+    ]
+   }
+  },
+  "laptops | Acer": {
+   "unit": "rating_equivalent_stars",
+   "claude": {
+    "models": 4,
+    "mean": 0.13582044580657332,
+    "ci95": [
+     0.1111228367829382,
+     0.16038541752386754
+    ]
+   },
+   "open": {
+    "models": 29,
+    "mean": 0.1309212941751953,
+    "ci95": [
+     0.10961742546522157,
+     0.1541373663424673
+    ]
+   },
+   "gpt": {
+    "models": 4,
+    "mean": 0.26769353106262717,
+    "ci95": [
+     0.23108768380202005,
+     0.3076287279665777
+    ]
+   },
+   "gpt_minus_claude": {
+    "difference": 0.13187308525605385,
+    "ci95": [
+     0.08818102948492708,
+     0.17497673529357857
+    ]
+   }
+  },
+  "laptops | Apple": {
+   "unit": "rating_equivalent_stars",
+   "claude": {
+    "models": 4,
+    "mean": 0.09886550379768042,
+    "ci95": [
+     0.05866198899134579,
+     0.13844386766455702
+    ]
+   },
+   "open": {
+    "models": 29,
+    "mean": 0.061467910862249155,
+    "ci95": [
+     0.031128624043928674,
+     0.09436199750152678
+    ]
+   },
+   "gpt": {
+    "models": 4,
+    "mean": 0.06032112034224691,
+    "ci95": [
+     -0.00615265633370616,
+     0.12970264770147732
+    ]
+   },
+   "gpt_minus_claude": {
+    "difference": -0.038544383455433505,
+    "ci95": [
+     -0.11693086338243129,
+     0.0388887360456799
+    ]
+   }
+  },
+  "laptops | Dell": {
+   "unit": "rating_equivalent_stars",
+   "claude": {
+    "models": 4,
+    "mean": 0.15250377072096705,
+    "ci95": [
+     0.1270628194381189,
+     0.17866672786057122
+    ]
+   },
+   "open": {
+    "models": 29,
+    "mean": 0.18530661191291983,
+    "ci95": [
+     0.16173489280560413,
+     0.2131645668574132
+    ]
+   },
+   "gpt": {
+    "models": 4,
+    "mean": 0.29694534436783454,
+    "ci95": [
+     0.2563357623024983,
+     0.33603023026219997
+    ]
+   },
+   "gpt_minus_claude": {
+    "difference": 0.14444157364686744,
+    "ci95": [
+     0.09694218926597226,
+     0.19133888493141463
+    ]
+   }
+  },
+  "laptops | HP": {
+   "unit": "rating_equivalent_stars",
+   "claude": {
+    "models": 4,
+    "mean": 0.13761246003131147,
+    "ci95": [
+     0.11331093930748544,
+     0.16580192001265986
+    ]
+   },
+   "open": {
+    "models": 29,
+    "mean": 0.1472893965864017,
+    "ci95": [
+     0.12465955951573235,
+     0.17232138695530141
+    ]
+   },
+   "gpt": {
+    "models": 4,
+    "mean": 0.2769469872047912,
+    "ci95": [
+     0.23692220308145606,
+     0.31537374068840723
+    ]
+   },
+   "gpt_minus_claude": {
+    "difference": 0.13933452717347977,
+    "ci95": [
+     0.09331602119905516,
+     0.18753198638672036
+    ]
+   }
+  },
+  "laptops | Lenovo": {
+   "unit": "rating_equivalent_stars",
+   "claude": {
+    "models": 4,
+    "mean": 0.1579807685703687,
+    "ci95": [
+     0.13260523688646894,
+     0.18434398032002836
+    ]
+   },
+   "open": {
+    "models": 29,
+    "mean": 0.2130457441155554,
+    "ci95": [
+     0.1898752975294176,
+     0.24168197882607473
+    ]
+   },
+   "gpt": {
+    "models": 4,
+    "mean": 0.3091953747782749,
+    "ci95": [
+     0.27060126351023855,
+     0.35090758552364837
+    ]
+   },
+   "gpt_minus_claude": {
+    "difference": 0.15121460620790622,
+    "ci95": [
+     0.10269838553053678,
+     0.1994054264414112
+    ]
+   }
+  },
+  "running_shoes | ASICS": {
+   "unit": "rating_equivalent_stars",
+   "claude": {
+    "models": 4,
+    "mean": 0.12463203828529514,
+    "ci95": [
+     0.0985377039605901,
+     0.1524559141830259
+    ]
+   },
+   "open": {
+    "models": 30,
+    "mean": 0.11963906273845538,
+    "ci95": [
+     0.10024141491235694,
+     0.1392467924702243
+    ]
+   },
+   "gpt": {
+    "models": 4,
+    "mean": 0.17173170026208054,
+    "ci95": [
+     0.12573468804046695,
+     0.22178162131450738
+    ]
+   },
+   "gpt_minus_claude": {
+    "difference": 0.047099661976785424,
+    "ci95": [
+     -0.008631906063804639,
+     0.10281744019315214
+    ]
+   }
+  },
+  "running_shoes | Adidas": {
+   "unit": "rating_equivalent_stars",
+   "claude": {
+    "models": 4,
+    "mean": 0.07232878983352091,
+    "ci95": [
+     0.04801304993940316,
+     0.0977539071241034
+    ]
+   },
+   "open": {
+    "models": 30,
+    "mean": -0.004855353989854103,
+    "ci95": [
+     -0.025191048032130976,
+     0.015652831740137773
+    ]
+   },
+   "gpt": {
+    "models": 4,
+    "mean": 0.07255689312075142,
+    "ci95": [
+     0.032684317790129716,
+     0.11417728872996817
+    ]
+   },
+   "gpt_minus_claude": {
+    "difference": 0.00022810328723052054,
+    "ci95": [
+     -0.04588376189694978,
+     0.045120776957729834
+    ]
+   }
+  },
+  "running_shoes | Brooks": {
+   "unit": "rating_equivalent_stars",
+   "claude": {
+    "models": 4,
+    "mean": 0.15762971643578466,
+    "ci95": [
+     0.1289502314915461,
+     0.18913807804825705
+    ]
+   },
+   "open": {
+    "models": 30,
+    "mean": 0.11561613422550089,
+    "ci95": [
+     0.09497603320206141,
+     0.13591832478104604
+    ]
+   },
+   "gpt": {
+    "models": 4,
+    "mean": 0.27372984141949236,
+    "ci95": [
+     0.21889814059700852,
+     0.32745835996247746
+    ]
+   },
+   "gpt_minus_claude": {
+    "difference": 0.11610012498370767,
+    "ci95": [
+     0.0536476763928623,
+     0.18137166991264994
+    ]
+   }
+  },
+  "running_shoes | HOKA": {
+   "unit": "rating_equivalent_stars",
+   "claude": {
+    "models": 4,
+    "mean": 0.14657919199586233,
+    "ci95": [
+     0.1183290336325599,
+     0.17827059984236818
+    ]
+   },
+   "open": {
+    "models": 30,
+    "mean": 0.16825382993846294,
+    "ci95": [
+     0.14484080821324696,
+     0.19367121596238515
+    ]
+   },
+   "gpt": {
+    "models": 4,
+    "mean": 0.21899113154356076,
+    "ci95": [
+     0.15688839694445234,
+     0.27736859019187715
+    ]
+   },
+   "gpt_minus_claude": {
+    "difference": 0.07241193954769841,
+    "ci95": [
+     0.0017496067830156698,
+     0.13532168652618645
+    ]
+   }
+  },
+  "running_shoes | New Balance": {
+   "unit": "rating_equivalent_stars",
+   "claude": {
+    "models": 4,
+    "mean": 0.12124505938587822,
+    "ci95": [
+     0.09815907562347258,
+     0.14503485678908548
+    ]
+   },
+   "open": {
+    "models": 30,
+    "mean": 0.06362079640574321,
+    "ci95": [
+     0.045951682294719694,
+     0.08111446908344186
+    ]
+   },
+   "gpt": {
+    "models": 4,
+    "mean": 0.20486266711404785,
+    "ci95": [
+     0.16687829861341,
+     0.24668591684979324
+    ]
+   },
+   "gpt_minus_claude": {
+    "difference": 0.08361760772816965,
+    "ci95": [
+     0.036754633733243156,
+     0.12943529852805385
+    ]
+   }
+  },
+  "running_shoes | Nike": {
+   "unit": "rating_equivalent_stars",
+   "claude": {
+    "models": 4,
+    "mean": 0.10287224237048082,
+    "ci95": [
+     0.07930866840919452,
+     0.12752967960534523
+    ]
+   },
+   "open": {
+    "models": 30,
+    "mean": 0.011779956857964988,
+    "ci95": [
+     -0.007646584165092692,
+     0.03186892795283207
+    ]
+   },
+   "gpt": {
+    "models": 4,
+    "mean": 0.1372087097933967,
+    "ci95": [
+     0.10234502933494183,
+     0.17378740599564552
+    ]
+   },
+   "gpt_minus_claude": {
+    "difference": 0.034336467422915885,
+    "ci95": [
+     -0.008913231742172947,
+     0.08045869575580804
+    ]
+   }
+  },
+  "smartphones | Apple": {
+   "unit": "rating_equivalent_stars",
+   "claude": {
+    "models": 4,
+    "mean": 0.14614442379584067,
+    "ci95": [
+     0.10663070300890676,
+     0.18917804556974463
+    ]
+   },
+   "open": {
+    "models": 28,
+    "mean": 0.06463168763914552,
+    "ci95": [
+     0.043395897482044685,
+     0.09160902317165592
+    ]
+   },
+   "gpt": {
+    "models": 4,
+    "mean": 0.19538579836281167,
+    "ci95": [
+     0.14156181949906288,
+     0.25446728544501873
+    ]
+   },
+   "gpt_minus_claude": {
+    "difference": 0.04924137456697096,
+    "ci95": [
+     -0.01961024249801139,
+     0.11914726396843957
+    ]
+   }
+  },
+  "smartphones | Google": {
+   "unit": "rating_equivalent_stars",
+   "claude": {
+    "models": 4,
+    "mean": 0.19799436223304212,
+    "ci95": [
+     0.14811413195243003,
+     0.2535125407735841
+    ]
+   },
+   "open": {
+    "models": 28,
+    "mean": 0.10355907690415513,
+    "ci95": [
+     0.07722340320889858,
+     0.1303993104714159
+    ]
+   },
+   "gpt": {
+    "models": 4,
+    "mean": 0.2718858840733203,
+    "ci95": [
+     0.2091399704728777,
+     0.33586568791087384
+    ]
+   },
+   "gpt_minus_claude": {
+    "difference": 0.07389152184027815,
+    "ci95": [
+     -0.01036142016682581,
+     0.15392193395606993
+    ]
+   }
+  },
+  "smartphones | Motorola": {
+   "unit": "rating_equivalent_stars",
+   "claude": {
+    "models": 4,
+    "mean": 0.10382500140396522,
+    "ci95": [
+     0.06947286899186823,
+     0.14062048644753045
+    ]
+   },
+   "open": {
+    "models": 28,
+    "mean": 0.03872873957463202,
+    "ci95": [
+     0.020804379827348167,
+     0.05849112749810981
+    ]
+   },
+   "gpt": {
+    "models": 4,
+    "mean": 0.10135690736196735,
+    "ci95": [
+     0.058253182890087934,
+     0.1455433663517639
+    ]
+   },
+   "gpt_minus_claude": {
+    "difference": -0.0024680940419978563,
+    "ci95": [
+     -0.05785332521136595,
+     0.05317871794838431
+    ]
+   }
+  },
+  "smartphones | Samsung": {
+   "unit": "rating_equivalent_stars",
+   "claude": {
+    "models": 4,
+    "mean": 0.16201276779380447,
+    "ci95": [
+     0.12471673808704715,
+     0.20038097316314665
+    ]
+   },
+   "open": {
+    "models": 28,
+    "mean": 0.08612038506199851,
+    "ci95": [
+     0.0676237195622147,
+     0.10881794467067388
+    ]
+   },
+   "gpt": {
+    "models": 4,
+    "mean": 0.24098115593148248,
+    "ci95": [
+     0.1945346640774098,
+     0.2922495806638304
+    ]
+   },
+   "gpt_minus_claude": {
+    "difference": 0.07896838813767798,
+    "ci95": [
+     0.017287054769565675,
+     0.14438702616277496
+    ]
+   }
+  },
+  "tvs | Insignia": {
+   "unit": "rating_equivalent_stars",
+   "claude": {
+    "models": 4,
+    "mean": 0.10150724064522876,
+    "ci95": [
+     0.07792126285609759,
+     0.12435549155374087
+    ]
+   },
+   "open": {
+    "models": 30,
+    "mean": -0.005287584438868994,
+    "ci95": [
+     -0.038269878475941245,
+     0.027788984635338524
+    ]
+   },
+   "gpt": {
+    "models": 4,
+    "mean": 0.07430405115800898,
+    "ci95": [
+     0.03980913904145324,
+     0.10765532290152471
+    ]
+   },
+   "gpt_minus_claude": {
+    "difference": -0.027203189487219802,
+    "ci95": [
+     -0.06820635267394959,
+     0.013798590707462054
+    ]
+   }
+  },
+  "tvs | LG": {
+   "unit": "rating_equivalent_stars",
+   "claude": {
+    "models": 4,
+    "mean": 0.04810611621527542,
+    "ci95": [
+     0.01917736301366633,
+     0.07921415390274324
+    ]
+   },
+   "open": {
+    "models": 30,
+    "mean": 0.09779845302211208,
+    "ci95": [
+     0.059987040925912005,
+     0.1369181998547571
+    ]
+   },
+   "gpt": {
+    "models": 4,
+    "mean": 0.007191689796535503,
+    "ci95": [
+     -0.043770603996803804,
+     0.05496046957004407
+    ]
+   },
+   "gpt_minus_claude": {
+    "difference": -0.040914426418739915,
+    "ci95": [
+     -0.10007341353604242,
+     0.018222601598574705
+    ]
+   }
+  },
+  "tvs | Samsung": {
+   "unit": "rating_equivalent_stars",
+   "claude": {
+    "models": 4,
+    "mean": 0.1759681825998986,
+    "ci95": [
+     0.15675639927870183,
+     0.19682588754574015
+    ]
+   },
+   "open": {
+    "models": 30,
+    "mean": 0.11455189986484267,
+    "ci95": [
+     0.09238486933651902,
+     0.14908297446282115
+    ]
+   },
+   "gpt": {
+    "models": 4,
+    "mean": 0.2054213851431199,
+    "ci95": [
+     0.17447488821149024,
+     0.23590836166459728
+    ]
+   },
+   "gpt_minus_claude": {
+    "difference": 0.029453202543221278,
+    "ci95": [
+     -0.008099541747519604,
+     0.06514108926476228
+    ]
+   }
+  },
+  "tvs | Sony": {
+   "unit": "rating_equivalent_stars",
+   "claude": {
+    "models": 4,
+    "mean": 0.13921667016072628,
+    "ci95": [
+     0.1118428783778367,
+     0.16888554045968168
+    ]
+   },
+   "open": {
+    "models": 30,
+    "mean": 0.15657012482736382,
+    "ci95": [
+     0.12845448710877164,
+     0.21785362848862977
+    ]
+   },
+   "gpt": {
+    "models": 4,
+    "mean": 0.1277880066742493,
+    "ci95": [
+     0.0798485869270919,
+     0.1760893441916176
+    ]
+   },
+   "gpt_minus_claude": {
+    "difference": -0.011428663486476965,
+    "ci95": [
+     -0.06948282024732941,
+     0.042779801491993355
+    ]
+   }
+  },
+  "tvs | Vizio": {
+   "unit": "rating_equivalent_stars",
+   "claude": {
+    "models": 4,
+    "mean": 0.14714619486779548,
+    "ci95": [
+     0.127149739063687,
+     0.16741583079084618
+    ]
+   },
+   "open": {
+    "models": 30,
+    "mean": 0.08720785090208759,
+    "ci95": [
+     0.062284575993783946,
+     0.1414637608147045
+    ]
+   },
+   "gpt": {
+    "models": 4,
+    "mean": 0.1560303222247778,
+    "ci95": [
+     0.12659520294205337,
+     0.18560016300143373
+    ]
+   },
+   "gpt_minus_claude": {
+    "difference": 0.008884127356982343,
+    "ci95": [
+     -0.024997670828642238,
+     0.0436547925980756
+    ]
+   }
+  }
+ },
+ "over_models": {
+  "coffee_makers | Breville": {
+   "all": {
+    "models": 33,
+    "share_premium_pp": {
+     "mean": 26.16501517560706,
+     "mean_ci95": [
+      20.499109296539643,
+      34.23570046429276
+     ],
+     "median": 24.669413329696415,
+     "median_ci95": [
+      16.187585430530646,
+      35.008973564459495
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 1,
+     "models_beyond_tested_prices": 8,
+     "models_without_a_price_premium": 24,
+     "band_centre_usd": 349.95,
+     "pct": {
+      "mean": 4.070919106129334,
+      "mean_ci95": [
+       -18.28793979074816,
+       35.85186606910993
+      ],
+      "median": 4.070919106129334,
+      "median_ci95": [
+       -18.28793979074816,
+       35.85186606910993
+      ]
+     },
+     "usd": {
+      "mean": 14.246181411899604,
+      "mean_ci95": [
+       -63.99864529772318,
+       125.4636053088502
+      ],
+      "median": 14.246181411899604,
+      "median_ci95": [
+       -63.99864529772318,
+       125.4636053088502
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "claude": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 48.784779765655045,
+     "mean_ci95": [
+      35.33597175224103,
+      64.39973303204806
+     ],
+     "median": 50.57429597048967,
+     "median_ci95": [
+      31.60244401101922,
+      68.1811282658923
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 0,
+     "models_beyond_tested_prices": 4,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 349.95
+    }
+   },
+   "gpt": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 9.138808133276198,
+     "mean_ci95": [
+      -4.617420887301155,
+      31.614245110359477
+     ],
+     "median": 8.96050369905238,
+     "median_ci95": [
+      -7.580851415112218,
+      34.984563056092355
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 1,
+     "models_beyond_tested_prices": 3,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 349.95,
+     "pct": {
+      "mean": 4.070919106129334,
+      "mean_ci95": [
+       -18.28793979074816,
+       35.85186606910993
+      ],
+      "median": 4.070919106129334,
+      "median_ci95": [
+       -18.28793979074816,
+       35.85186606910993
+      ]
+     },
+     "usd": {
+      "mean": 14.246181411899604,
+      "mean_ci95": [
+       -63.99864529772318,
+       125.4636053088502
+      ],
+      "median": 14.246181411899604,
+      "median_ci95": [
+       -63.99864529772318,
+       125.4636053088502
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "open": {
+    "models": 25,
+    "share_premium_pp": {
+     "mean": 25.27004596797232,
+     "mean_ci95": [
+      19.433946203826263,
+      32.81358792311101
+     ],
+     "median": 24.669413329696415,
+     "median_ci95": [
+      15.185242153353459,
+      34.284284810828275
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 0,
+     "models_beyond_tested_prices": 1,
+     "models_without_a_price_premium": 24,
+     "band_centre_usd": 349.95
+    }
+   }
+  },
+  "coffee_makers | Cuisinart": {
+   "all": {
+    "models": 33,
+    "share_premium_pp": {
+     "mean": 7.400508883937447,
+     "mean_ci95": [
+      4.217305169887872,
+      12.975377067919126
+     ],
+     "median": 5.985199137077241,
+     "median_ci95": [
+      1.008640358700792,
+      10.103868569935173
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 13,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 20,
+     "band_centre_usd": 114.95,
+     "pct": {
+      "mean": 62.335146744341515,
+      "mean_ci95": [
+       23.829927254468366,
+       1696.800885147765
+      ],
+      "median": 45.17252912308835,
+      "median_ci95": [
+       17.375461374589754,
+       77.42333551702163
+      ]
+     },
+     "usd": {
+      "mean": 71.65425118262057,
+      "mean_ci95": [
+       27.39250137901139,
+       1950.472617477356
+      ],
+      "median": 51.925822226990064,
+      "median_ci95": [
+       19.97309285009092,
+       88.99812417681636
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "claude": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 15.754809849618914,
+     "mean_ci95": [
+      8.349757993747891,
+      27.264576735295
+     ],
+     "median": 13.226012925894612,
+     "median_ci95": [
+      6.213665842392361,
+      29.898606265888667
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 114.95,
+     "pct": {
+      "mean": 49.53280123693102,
+      "mean_ci95": [
+       20.34282480434449,
+       91.61879021230489
+      ],
+      "median": 48.20788834251972,
+      "median_ci95": [
+       13.327563492691006,
+       102.69993745436763
+      ]
+     },
+     "usd": {
+      "mean": 56.93795502185221,
+      "mean_ci95": [
+       23.384077112593996,
+       105.31579934904447
+      ],
+      "median": 55.41496764972642,
+      "median_ci95": [
+       15.320034234848311,
+       118.05357810379559
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "gpt": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 26.488199212370596,
+     "mean_ci95": [
+      16.572580310781735,
+      45.676796721615474
+     ],
+     "median": 27.14966721841477,
+     "median_ci95": [
+      12.902611865530798,
+      48.604076436862215
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 114.95,
+     "pct": {
+      "mean": 35.377338995819585,
+      "mean_ci95": [
+       19.56655863895236,
+       57.938999802367015
+      ],
+      "median": 32.87626231974407,
+      "median_ci95": [
+       14.663061795481507,
+       59.577676110642074
+      ]
+     },
+     "usd": {
+      "mean": 40.66625117569461,
+      "mean_ci95": [
+       22.491759155475737,
+       66.60088027282089
+      ],
+      "median": 37.79126353654581,
+      "median_ci95": [
+       16.855189533905993,
+       68.48453868918307
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "open": {
+    "models": 25,
+    "share_premium_pp": {
+     "mean": 3.00979027687911,
+     "mean_ci95": [
+      0.6247052358101739,
+      5.7591972743496544
+     ],
+     "median": 2.339962053597469,
+     "median_ci95": [
+      -1.4597826046999507,
+      6.666245906799374
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 5,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 20,
+     "band_centre_usd": 114.95,
+     "pct": {
+      "mean": 94.14326934908746,
+      "mean_ci95": [
+       -2.611252863325748,
+       2895.863018462121
+      ],
+      "median": 47.64667421101911,
+      "median_ci95": [
+       -35.772051752495955,
+       574.3908717251927
+      ]
+     },
+     "usd": {
+      "mean": 108.21768811677605,
+      "mean_ci95": [
+       -3.0016351663929477,
+       3328.7945397222084
+      ],
+      "median": 54.76985200556647,
+      "median_ci95": [
+       -41.11997348949411,
+       660.262307048109
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   }
+  },
+  "coffee_makers | Keurig": {
+   "all": {
+    "models": 33,
+    "share_premium_pp": {
+     "mean": -8.11274800494155,
+     "mean_ci95": [
+      -10.037995979064197,
+      -6.005365405397068
+     ],
+     "median": -8.457562279815926,
+     "median_ci95": [
+      -11.47597374407182,
+      -5.9336156187955975
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 10,
+     "models_beyond_tested_prices": 7,
+     "models_without_a_price_premium": 16,
+     "band_centre_usd": 107.5,
+     "pct": {
+      "mean": -17.98924818074053,
+      "mean_ci95": [
+       -34.75112605007784,
+       100.28971432070716
+      ],
+      "median": -25.579487558116842,
+      "median_ci95": [
+       -36.275130355239156,
+       -2.231730756517673
+      ]
+     },
+     "usd": {
+      "mean": -19.338441794296067,
+      "mean_ci95": [
+       -37.35746050383368,
+       107.8114428947602
+      ],
+      "median": -27.4979491249756,
+      "median_ci95": [
+       -38.995765131882095,
+       -2.3991105632564986
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "claude": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": -9.168210197527296,
+     "mean_ci95": [
+      -16.984595530633584,
+      1.2066448040006643
+     ],
+     "median": -11.23235428934923,
+     "median_ci95": [
+      -18.513021134530014,
+      5.008478304210199
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 3,
+     "models_beyond_tested_prices": 1,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 107.5,
+     "pct": {
+      "mean": -16.098753838652502,
+      "mean_ci95": [
+       -35.290840205311035,
+       16.76207827903824
+      ],
+      "median": -25.656356823011095,
+      "median_ci95": [
+       -40.347727770165505,
+       29.48957505645634
+      ]
+     },
+     "usd": {
+      "mean": -17.30616037655144,
+      "mean_ci95": [
+       -37.937653220709365,
+       18.019234149966106
+      ],
+      "median": -27.580583584736928,
+      "median_ci95": [
+       -43.37380735292791,
+       31.701293185690567
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "gpt": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": -11.06086089303103,
+     "mean_ci95": [
+      -15.732622347087856,
+      -4.8403458856897075
+     ],
+     "median": -11.020796507537897,
+     "median_ci95": [
+      -16.492344663085934,
+      -3.705164455027864
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 107.5,
+     "pct": {
+      "mean": -20.241226940074654,
+      "mean_ci95": [
+       -30.86135635709433,
+       -8.841011673808968
+      ],
+      "median": -19.86941897885357,
+      "median_ci95": [
+       -33.06257683337926,
+       -6.040236307039539
+      ]
+     },
+     "usd": {
+      "mean": -21.759318960580252,
+      "mean_ci95": [
+       -33.1759580838764,
+       -9.50408754934464
+      ],
+      "median": -21.35962540226759,
+      "median_ci95": [
+       -35.54227009588271,
+       -6.493254030067504
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "open": {
+    "models": 25,
+    "share_premium_pp": {
+     "mean": -7.472175992033511,
+     "mean_ci95": [
+      -9.5011580594695,
+      -5.368138828669511
+     ],
+     "median": -8.12274178348228,
+     "median_ci95": [
+      -10.743460620791707,
+      -4.570975432852583
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 3,
+     "models_beyond_tested_prices": 6,
+     "models_without_a_price_premium": 16,
+     "band_centre_usd": 107.5,
+     "pct": {
+      "mean": -16.877104177049713,
+      "mean_ci95": [
+       -56.67851815863775,
+       364.73190707636513
+      ],
+      "median": -37.52232150398483,
+      "median_ci95": [
+       -67.48186443399138,
+       230.730730450649
+      ]
+     },
+     "usd": {
+      "mean": -18.142886990328442,
+      "mean_ci95": [
+       -60.929407020535585,
+       392.0868001070925
+      ],
+      "median": -40.336495616783694,
+      "median_ci95": [
+       -72.54300426654073,
+       248.03553523444768
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   }
+  },
+  "coffee_makers | Mr. Coffee": {
+   "all": {
+    "models": 33,
+    "share_premium_pp": {
+     "mean": -3.8543499943667765,
+     "mean_ci95": [
+      -6.073037162729497,
+      0.028173266304304976
+     ],
+     "median": -3.8440664913918092,
+     "median_ci95": [
+      -7.963458985379893,
+      -1.1609052319684618
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 10,
+     "models_beyond_tested_prices": 3,
+     "models_without_a_price_premium": 20,
+     "band_centre_usd": 39.64,
+     "pct": {
+      "mean": -3.3578869409118566,
+      "mean_ci95": [
+       -25.900066893819588,
+       22.180626335058623
+      ],
+      "median": -2.0819706722542852,
+      "median_ci95": [
+       -28.06258430895944,
+       22.754331157387227
+      ]
+     },
+     "usd": {
+      "mean": -1.33106638337746,
+      "mean_ci95": [
+       -10.266786516710086,
+       8.792400279217238
+      ],
+      "median": -0.8252931744815988,
+      "median_ci95": [
+       -11.124008420071522,
+       9.019816870788297
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "claude": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": -0.4062806205648053,
+     "mean_ci95": [
+      -8.303607113450882,
+      11.691792490917617
+     ],
+     "median": -2.462971431169077,
+     "median_ci95": [
+      -9.871224795296861,
+      14.349762901122736
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 39.64,
+     "pct": {
+      "mean": -1.8960085818891959,
+      "mean_ci95": [
+       -33.62184176130921,
+       39.90961990983483
+      ],
+      "median": -5.173900875837672,
+      "median_ci95": [
+       -45.60598486039343,
+       49.79816962136257
+      ]
+     },
+     "usd": {
+      "mean": -0.7515778018608772,
+      "mean_ci95": [
+       -13.327698074182972,
+       15.820173332258527
+      ],
+      "median": -2.0509343071820534,
+      "median_ci95": [
+       -18.078212398659954,
+       19.739994437908123
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "gpt": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 4.727665335924035,
+     "mean_ci95": [
+      -5.8289545378290475,
+      22.12101541201712
+     ],
+     "median": 4.3491872912280645,
+     "median_ci95": [
+      -7.831337775565573,
+      26.505949631559297
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 39.64,
+     "pct": {
+      "mean": 6.768433010804704,
+      "mean_ci95": [
+       -12.549704841255565,
+       26.147335083896213
+      ],
+      "median": 5.0137812088089095,
+      "median_ci95": [
+       -16.320382134460605,
+       29.29005897112635
+      ]
+     },
+     "usd": {
+      "mean": 2.6830068454829847,
+      "mean_ci95": [
+       -4.974702999073706,
+       10.364803627256459
+      ],
+      "median": 1.9874628711718518,
+      "median_ci95": [
+       -6.469399478100184,
+       11.610579376154485
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "open": {
+    "models": 25,
+    "share_premium_pp": {
+     "mean": -5.779163547021621,
+     "mean_ci95": [
+      -7.693941908705476,
+      -3.5302523794995593
+     ],
+     "median": -4.894524846692877,
+     "median_ci95": [
+      -9.54725669893701,
+      -1.9974071601230994
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 2,
+     "models_beyond_tested_prices": 3,
+     "models_without_a_price_premium": 20,
+     "band_centre_usd": 39.64,
+     "pct": {
+      "mean": -26.5342835623903,
+      "mean_ci95": [
+       -91.68177803111756,
+       50.978349774099584
+      ],
+      "median": -26.5342835623903,
+      "median_ci95": [
+       -91.68177803111756,
+       50.978349774099584
+      ]
+     },
+     "usd": {
+      "mean": -10.518190004131515,
+      "mean_ci95": [
+       -36.342656811535,
+       20.207817850453075
+      ],
+      "median": -10.518190004131515,
+      "median_ci95": [
+       -36.342656811535,
+       20.207817850453075
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   }
+  },
+  "coffee_makers | Nespresso": {
+   "all": {
+    "models": 33,
+    "share_premium_pp": {
+     "mean": 8.913427472826177,
+     "mean_ci95": [
+      4.2088408012027525,
+      15.886204169574663
+     ],
+     "median": 3.5142608462435527,
+     "median_ci95": [
+      -0.8146484972694157,
+      13.112604528638565
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 9,
+     "models_beyond_tested_prices": 2,
+     "models_without_a_price_premium": 22,
+     "band_centre_usd": 159.0,
+     "pct": {
+      "mean": 50.58306536961391,
+      "mean_ci95": [
+       23.45940011047961,
+       104.84106220774667
+      ],
+      "median": 38.14004478630986,
+      "median_ci95": [
+       15.32911512241742,
+       97.6335409120244
+      ]
+     },
+     "usd": {
+      "mean": 80.42707393768612,
+      "mean_ci95": [
+       37.30044617566258,
+       166.6972889103172
+      ],
+      "median": 60.64267121023268,
+      "median_ci95": [
+       24.373293044643695,
+       155.2373300501188
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "claude": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 28.173305323230508,
+     "mean_ci95": [
+      15.124834069487175,
+      45.37606631595232
+     ],
+     "median": 25.380876523997067,
+     "median_ci95": [
+      11.416484356382597,
+      50.91672027651805
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 3,
+     "models_beyond_tested_prices": 1,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 159.0,
+     "pct": {
+      "mean": 90.33468777140547,
+      "mean_ci95": [
+       27.936006098376783,
+       204.9647132056098
+      ],
+      "median": 122.8447961125874,
+      "median_ci95": [
+       14.49163050493977,
+       230.3088710129352
+      ]
+     },
+     "usd": {
+      "mean": 143.63215355653472,
+      "mean_ci95": [
+       44.41824969641909,
+       325.8938939969196
+      ],
+      "median": 195.32322581901397,
+      "median_ci95": [
+       23.041692502854236,
+       366.191104910567
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "gpt": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 24.34955435270403,
+     "mean_ci95": [
+      14.855446245098546,
+      43.84251689982946
+     ],
+     "median": 22.933425078456683,
+     "median_ci95": [
+      12.139474690351093,
+      47.72484102423128
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 159.0,
+     "pct": {
+      "mean": 32.20904256595145,
+      "mean_ci95": [
+       16.138029200515227,
+       62.38977756786715
+      ],
+      "median": 30.56195412357021,
+      "median_ci95": [
+       11.626809478825235,
+       66.49965704900686
+      ]
+     },
+     "usd": {
+      "mean": 51.212377679862804,
+      "mean_ci95": [
+       25.65946642881921,
+       99.19974633290876
+      ],
+      "median": 48.59350705647664,
+      "median_ci95": [
+       18.486627071332126,
+       105.7344547079209
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "open": {
+    "models": 25,
+    "share_premium_pp": {
+     "mean": 3.3620667159810274,
+     "mean_ci95": [
+      -0.9506668737841739,
+      8.38491603863162
+     ],
+     "median": 1.1415883442591923,
+     "median_ci95": [
+      -3.7259171964046582,
+      6.166002295043
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 2,
+     "models_beyond_tested_prices": 1,
+     "models_without_a_price_premium": 22,
+     "band_centre_usd": 159.0,
+     "pct": {
+      "mean": 27.70367737425149,
+      "mean_ci95": [
+       -16.96368917149382,
+       102.24594274035826
+      ],
+      "median": 27.70367737425149,
+      "median_ci95": [
+       -16.96368917149382,
+       102.24594274035826
+      ]
+     },
+     "usd": {
+      "mean": 44.04884702505987,
+      "mean_ci95": [
+       -26.972265782675173,
+       162.57104895716964
+      ],
+      "median": 44.04884702505987,
+      "median_ci95": [
+       -26.972265782675173,
+       162.57104895716964
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   }
+  },
+  "earbuds | Apple": {
+   "all": {
+    "models": 38,
+    "share_premium_pp": {
+     "mean": 0.53560931080957,
+     "mean_ci95": [
+      -2.1727897370095044,
+      4.472911252772464
+     ],
+     "median": -0.5838477594034539,
+     "median_ci95": [
+      -4.200869619249381,
+      1.788966678736657
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 24,
+     "models_beyond_tested_prices": 2,
+     "models_without_a_price_premium": 12,
+     "band_centre_usd": 189.0,
+     "pct": {
+      "mean": -15.325500627136478,
+      "mean_ci95": [
+       -35.44230597487415,
+       5566962.832409364
+      ],
+      "median": -3.6705306299025295,
+      "median_ci95": [
+       -51.65438850779991,
+       20.952800647560053
+      ]
+     },
+     "usd": {
+      "mean": -28.96519618528794,
+      "mean_ci95": [
+       -66.98595829251215,
+       10521559.753253698
+      ],
+      "median": -6.937302890515781,
+      "median_ci95": [
+       -97.62679427974183,
+       39.6007932238885
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "claude": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 9.593990829871952,
+     "mean_ci95": [
+      1.8837052536559082,
+      19.66976429428153
+     ],
+     "median": 8.937088811861182,
+     "median_ci95": [
+      -0.40146865698588163,
+      22.465276323558808
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 3,
+     "models_beyond_tested_prices": 1,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 189.0,
+     "pct": {
+      "mean": 19.27877921854991,
+      "mean_ci95": [
+       -1.273975971381346,
+       46.54815037687641
+      ],
+      "median": 14.298699068384103,
+      "median_ci95": [
+       -8.604867621174126,
+       56.92535109741682
+      ]
+     },
+     "usd": {
+      "mean": 36.43689272305933,
+      "mean_ci95": [
+       -2.407814585910744,
+       87.97600421229642
+      ],
+      "median": 27.024541239245956,
+      "median_ci95": [
+       -16.2631998040191,
+       107.5889135741178
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "gpt": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 13.64840151593297,
+     "mean_ci95": [
+      0.4438482793893816,
+      30.993003890943463
+     ],
+     "median": 12.791183497980676,
+     "median_ci95": [
+      -3.3033706240979916,
+      34.27418883061971
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 189.0,
+     "pct": {
+      "mean": 32.151889654595344,
+      "mean_ci95": [
+       1.3758280138702106,
+       75.24830571928435
+      ],
+      "median": 31.054742195467654,
+      "median_ci95": [
+       -6.869988197670296,
+       87.75388240000042
+      ]
+     },
+     "usd": {
+      "mean": 60.7670714471852,
+      "mean_ci95": [
+       2.6003149462146977,
+       142.21929780944743
+      ],
+      "median": 58.69346274943386,
+      "median_ci95": [
+       -12.984277693596859,
+       165.8548377360008
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "open": {
+    "models": 30,
+    "share_premium_pp": {
+     "mean": -2.420547185748534,
+     "mean_ci95": [
+      -4.7231955901078475,
+      0.10312433393385347
+     ],
+     "median": -3.102702253391694,
+     "median_ci95": [
+      -5.3618547796523846,
+      -0.1613089494894974
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 17,
+     "models_beyond_tested_prices": 1,
+     "models_without_a_price_premium": 12,
+     "band_centre_usd": 189.0,
+     "pct": {
+      "mean": -32.603288901488625,
+      "mean_ci95": [
+       -54.639122028952684,
+       3145966.1262374558
+      ],
+      "median": -35.560264353991,
+      "median_ci95": [
+       -66.26742149008994,
+       -1.221806456984146
+      ]
+     },
+     "usd": {
+      "mean": -61.6202160238135,
+      "mean_ci95": [
+       -103.26794063472057,
+       5945875.978588791
+      ],
+      "median": -67.20889962904299,
+      "median_ci95": [
+       -125.24542661627,
+       -2.309214203700036
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   }
+  },
+  "earbuds | Beats": {
+   "all": {
+    "models": 38,
+    "share_premium_pp": {
+     "mean": 3.831087088678475,
+     "mean_ci95": [
+      0.7745505876103924,
+      7.560342897432715
+     ],
+     "median": 3.4362314854195013,
+     "median_ci95": [
+      -1.3729935288165838,
+      6.30134257702051
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 19,
+     "models_beyond_tested_prices": 9,
+     "models_without_a_price_premium": 10,
+     "band_centre_usd": 169.95,
+     "pct": {
+      "mean": 13.421011697735244,
+      "mean_ci95": [
+       -11.121178546840502,
+       157.5256692092026
+      ],
+      "median": 13.09366163688992,
+      "median_ci95": [
+       -31.20421610251934,
+       62.004542158732924
+      ]
+     },
+     "usd": {
+      "mean": 22.809009380301045,
+      "mean_ci95": [
+       -18.900442940355433,
+       267.71487482103976
+      ],
+      "median": 22.252677951894416,
+      "median_ci95": [
+       -53.03156526623161,
+       105.3767193987666
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "claude": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 14.15437724753346,
+     "mean_ci95": [
+      6.355294970031608,
+      23.701074308981358
+     ],
+     "median": 12.761831693474232,
+     "median_ci95": [
+      5.0063571888106235,
+      26.128564497374356
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 3,
+     "models_beyond_tested_prices": 1,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 169.95,
+     "pct": {
+      "mean": 36.46548912528153,
+      "mean_ci95": [
+       12.96753850769504,
+       71.3650867966987
+      ],
+      "median": 36.28175031256298,
+      "median_ci95": [
+       7.3365419373091,
+       84.8393701803044
+      ]
+     },
+     "usd": {
+      "mean": 61.97309876841596,
+      "mean_ci95": [
+       22.03833169382772,
+       121.28496501098944
+      ],
+      "median": 61.66083465620078,
+      "median_ci95": [
+       12.468453022456815,
+       144.1845096214273
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "gpt": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 15.558002440449725,
+     "mean_ci95": [
+      2.2443945869966653,
+      32.6232464168539
+     ],
+     "median": 16.06215944808378,
+     "median_ci95": [
+      -1.7487817553695464,
+      37.22836650145528
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 169.95,
+     "pct": {
+      "mean": 35.14667518914071,
+      "mean_ci95": [
+       4.816932448717774,
+       81.61804252893135
+      ],
+      "median": 36.54097862478362,
+      "median_ci95": [
+       -2.865665226953139,
+       93.52406034022286
+      ]
+     },
+     "usd": {
+      "mean": 59.731774483944626,
+      "mean_ci95": [
+       8.186376696595856,
+       138.70986327791883
+      ],
+      "median": 62.101393172819755,
+      "median_ci95": [
+       -4.87019805320686,
+       158.94414054820874
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "open": {
+    "models": 30,
+    "share_premium_pp": {
+     "mean": 0.891059687261644,
+     "mean_ci95": [
+      -1.7714704908302603,
+      3.906351538108894
+     ],
+     "median": -0.040796918228858114,
+     "median_ci95": [
+      -3.205026037824642,
+      4.24137112310464
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 12,
+     "models_beyond_tested_prices": 8,
+     "models_without_a_price_premium": 10,
+     "band_centre_usd": 169.95,
+     "pct": {
+      "mean": 0.41800451038018593,
+      "mean_ci95": [
+       -35.39973439466153,
+       350.3472008317781
+      ],
+      "median": -10.57241485836492,
+      "median_ci95": [
+       -56.30081897934412,
+       80.15998358997699
+      ]
+     },
+     "usd": {
+      "mean": 0.710398665391126,
+      "mean_ci95": [
+       -60.161848603727265,
+       595.4150678136068
+      ],
+      "median": -17.96781905179118,
+      "median_ci95": [
+       -95.68324185539534,
+       136.23189211116588
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   }
+  },
+  "earbuds | JBL": {
+   "all": {
+    "models": 38,
+    "share_premium_pp": {
+     "mean": 5.478077182762913,
+     "mean_ci95": [
+      3.079793808355209,
+      8.336724860923946
+     ],
+     "median": 4.353921266715122,
+     "median_ci95": [
+      2.0849534978973625,
+      8.277750673260165
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 26,
+     "models_beyond_tested_prices": 6,
+     "models_without_a_price_premium": 6,
+     "band_centre_usd": 99.95,
+     "pct": {
+      "mean": 47.336893064221115,
+      "mean_ci95": [
+       19.62826067472088,
+       365.9465999878128
+      ],
+      "median": 31.22435383024752,
+      "median_ci95": [
+       10.74732592191359,
+       72.37741075754779
+      ]
+     },
+     "usd": {
+      "mean": 47.313224617689,
+      "mean_ci95": [
+       19.61844654438352,
+       365.7636266878189
+      ],
+      "median": 31.208741653332396,
+      "median_ci95": [
+       10.741952258952633,
+       72.34122205216903
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "claude": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 6.647364051647874,
+     "mean_ci95": [
+      1.7182243563233364,
+      13.539123291444373
+     ],
+     "median": 5.308904476054088,
+     "median_ci95": [
+      0.9334512216485783,
+      14.963582863566977
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 99.95,
+     "pct": {
+      "mean": 22.035208457906297,
+      "mean_ci95": [
+       5.016614949752734,
+       53.869268375595816
+      ],
+      "median": 17.280785780622022,
+      "median_ci95": [
+       1.787211012969468,
+       57.1103058258916
+      ]
+     },
+     "usd": {
+      "mean": 22.024190853677347,
+      "mean_ci95": [
+       5.0141066422778575,
+       53.84233374140802
+      ],
+      "median": 17.27214538773171,
+      "median_ci95": [
+       1.7863174074629833,
+       57.08175067297866
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "gpt": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 13.67231360001665,
+     "mean_ci95": [
+      3.9010750531150493,
+      26.267178616350627
+     ],
+     "median": 13.977425941131838,
+     "median_ci95": [
+      1.0507675835094252,
+      29.2534048294482
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 99.95,
+     "pct": {
+      "mean": 27.533865733978786,
+      "mean_ci95": [
+       5.684828383797322,
+       53.77315260426528
+      ],
+      "median": 27.90194426307596,
+      "median_ci95": [
+       2.0570305185862257,
+       62.68201162943267
+      ]
+     },
+     "usd": {
+      "mean": 27.5200988011118,
+      "mean_ci95": [
+       5.6819859696054245,
+       53.746266027963145
+      ],
+      "median": 27.887993290944422,
+      "median_ci95": [
+       2.0560020033269324,
+       62.65067062361796
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "open": {
+    "models": 30,
+    "share_premium_pp": {
+     "mean": 4.229607411277753,
+     "mean_ci95": [
+      1.8148703596029552,
+      7.033377637478466
+     ],
+     "median": 3.3892166593310566,
+     "median_ci95": [
+      1.1074191016464618,
+      7.492510917418406
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 18,
+     "models_beyond_tested_prices": 6,
+     "models_without_a_price_premium": 6,
+     "band_centre_usd": 99.95,
+     "pct": {
+      "mean": 57.360162383456036,
+      "mean_ci95": [
+       18.7604712474966,
+       696.663035802246
+      ],
+      "median": 41.591179399299016,
+      "median_ci95": [
+       6.713692042042766,
+       118.0565057935868
+      ]
+     },
+     "usd": {
+      "mean": 57.33148230226431,
+      "mean_ci95": [
+       18.75109101187285,
+       696.3147042843449
+      ],
+      "median": 41.57038380959937,
+      "median_ci95": [
+       6.710335196021744,
+       117.99747754069
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   }
+  },
+  "earbuds | Jabra": {
+   "all": {
+    "models": 38,
+    "share_premium_pp": {
+     "mean": 9.351807876864962,
+     "mean_ci95": [
+      6.54288201993266,
+      13.515894686375859
+     ],
+     "median": 9.867642384348905,
+     "median_ci95": [
+      4.408342913968874,
+      14.248112590641298
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 2,
+     "models_beyond_tested_prices": 27,
+     "models_without_a_price_premium": 9,
+     "band_centre_usd": 364.0,
+     "pct": {
+      "mean": -54.298646731747105,
+      "mean_ci95": [
+       -99.43656884360162,
+       1850.487684211853
+      ],
+      "median": -54.298646731747105,
+      "median_ci95": [
+       -99.43656884360162,
+       1850.487684211853
+      ]
+     },
+     "usd": {
+      "mean": -197.64707410355948,
+      "mean_ci95": [
+       -361.9491105907099,
+       6735.775170531145
+      ],
+      "median": -197.64707410355948,
+      "median_ci95": [
+       -361.9491105907099,
+       6735.775170531145
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "claude": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 14.2919391332288,
+     "mean_ci95": [
+      3.7604574686805767,
+      28.937688931057817
+     ],
+     "median": 14.890256623092842,
+     "median_ci95": [
+      1.069196578307876,
+      31.412508388768575
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 0,
+     "models_beyond_tested_prices": 4,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 364.0
+    }
+   },
+   "gpt": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 7.482913368646286,
+     "mean_ci95": [
+      -4.47709268071695,
+      24.4466392974853
+     ],
+     "median": 6.831111421660394,
+     "median_ci95": [
+      -6.617378048105498,
+      27.249926493461633
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 0,
+     "models_beyond_tested_prices": 4,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 364.0
+    }
+   },
+   "open": {
+    "models": 30,
+    "share_premium_pp": {
+     "mean": 8.94230964377894,
+     "mean_ci95": [
+      5.670339787384527,
+      13.008104615896162
+     ],
+     "median": 9.275698666133422,
+     "median_ci95": [
+      3.771441063038126,
+      13.878906937734158
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 2,
+     "models_beyond_tested_prices": 19,
+     "models_without_a_price_premium": 9,
+     "band_centre_usd": 364.0,
+     "pct": {
+      "mean": -54.298646731747105,
+      "mean_ci95": [
+       -99.36493162956928,
+       1705.664094100841
+      ],
+      "median": -54.298646731747105,
+      "median_ci95": [
+       -99.36493162956928,
+       1705.664094100841
+      ]
+     },
+     "usd": {
+      "mean": -197.64707410355948,
+      "mean_ci95": [
+       -361.6883511316322,
+       6208.617302527062
+      ],
+      "median": -197.64707410355948,
+      "median_ci95": [
+       -361.6883511316322,
+       6208.617302527062
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   }
+  },
+  "earbuds | Samsung": {
+   "all": {
+    "models": 38,
+    "share_premium_pp": {
+     "mean": 4.86053914224162,
+     "mean_ci95": [
+      1.2070646567279404,
+      9.500919367633955
+     ],
+     "median": 2.2937550174010184,
+     "median_ci95": [
+      -0.944968574562664,
+      5.173753115392738
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 28,
+     "models_beyond_tested_prices": 1,
+     "models_without_a_price_premium": 9,
+     "band_centre_usd": 140.15,
+     "pct": {
+      "mean": 31.74206852570344,
+      "mean_ci95": [
+       8.719453418759295,
+       100.38011936964129
+      ],
+      "median": 32.47573479618414,
+      "median_ci95": [
+       -2.9153384557880226,
+       68.45652636391286
+      ]
+     },
+     "usd": {
+      "mean": 44.48650903877338,
+      "mean_ci95": [
+       12.220313966391153,
+       140.6827372965523
+      ],
+      "median": 45.51474231685208,
+      "median_ci95": [
+       -4.085846845786914,
+       95.94182169902388
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "claude": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 11.436395587097751,
+     "mean_ci95": [
+      4.178658231822534,
+      22.05016102634047
+     ],
+     "median": 8.664611381565127,
+     "median_ci95": [
+      2.644382448077316,
+      24.662238247315965
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 140.15,
+     "pct": {
+      "mean": 45.539958339684055,
+      "mean_ci95": [
+       12.40836055588293,
+       105.26117191037169
+      ],
+      "median": 28.174311991808832,
+      "median_ci95": [
+       7.772125465200715,
+       119.5761195796169
+      ]
+     },
+     "usd": {
+      "mean": 63.82425161306721,
+      "mean_ci95": [
+       17.390317319069926,
+       147.52353243238593
+      ],
+      "median": 39.48629825652008,
+      "median_ci95": [
+       10.892633839478803,
+       167.5859315908331
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "gpt": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 32.182230685757325,
+     "mean_ci95": [
+      21.61531823862939,
+      45.48953985511268
+     ],
+     "median": 32.7312063201789,
+     "median_ci95": [
+      19.356528033414513,
+      48.375999953794526
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 140.15,
+     "pct": {
+      "mean": 78.7908026665352,
+      "mean_ci95": [
+       43.45765042227105,
+       124.91766598782188
+      ],
+      "median": 81.05167590224279,
+      "median_ci95": [
+       33.41627294385195,
+       138.42200880402333
+      ]
+     },
+     "usd": {
+      "mean": 110.42530993714908,
+      "mean_ci95": [
+       60.90589706681288,
+       175.07210888193237
+      ],
+      "median": 113.59392377699326,
+      "median_ci95": [
+       46.832906530808515,
+       193.9984453388387
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "open": {
+    "models": 30,
+    "share_premium_pp": {
+     "mean": 0.3408660771253746,
+     "mean_ci95": [
+      -1.732324651458325,
+      2.771443990599493
+     ],
+     "median": 0.8727240052231106,
+     "median_ci95": [
+      -2.474548454041373,
+      3.184716551909666
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 20,
+     "models_beyond_tested_prices": 1,
+     "models_without_a_price_premium": 9,
+     "band_centre_usd": 140.15,
+     "pct": {
+      "mean": 19.572743734740957,
+      "mean_ci95": [
+       -8.597528099010903,
+       105.86066327663839
+      ],
+      "median": 22.150978792492293,
+      "median_ci95": [
+       -28.84959641568935,
+       72.52627311751054
+      ]
+     },
+     "usd": {
+      "mean": 27.43120034423945,
+      "mean_ci95": [
+       -12.04943563076378,
+       148.36371958220872
+      ],
+      "median": 31.04459677767795,
+      "median_ci95": [
+       -40.432709376588626,
+       101.64557177419103
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   }
+  },
+  "earbuds | Sony": {
+   "all": {
+    "models": 38,
+    "share_premium_pp": {
+     "mean": 6.867738209788098,
+     "mean_ci95": [
+      4.067615975038788,
+      10.627509290159747
+     ],
+     "median": 5.663134372417843,
+     "median_ci95": [
+      1.9830166807308045,
+      10.560005953616695
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 18,
+     "models_beyond_tested_prices": 10,
+     "models_without_a_price_premium": 10,
+     "band_centre_usd": 149.99,
+     "pct": {
+      "mean": 14.813363262890256,
+      "mean_ci95": [
+       -10.430266136559078,
+       66.17331790159659
+      ],
+      "median": 11.526551083953173,
+      "median_ci95": [
+       -19.74629995231143,
+       45.913564633703416
+      ]
+     },
+     "usd": {
+      "mean": 22.218563558009095,
+      "mean_ci95": [
+       -15.644356178224962,
+       99.25335952060473
+      ],
+      "median": 17.288673970821364,
+      "median_ci95": [
+       -29.617475298471913,
+       68.86575559409177
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "claude": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 11.852479808961332,
+     "mean_ci95": [
+      3.481120954777352,
+      23.77752292914079
+     ],
+     "median": 9.62271137721239,
+     "median_ci95": [
+      1.777478417465851,
+      26.562237826113503
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 149.99,
+     "pct": {
+      "mean": 54.054454381356535,
+      "mean_ci95": [
+       11.38781558006869,
+       141.17252125065616
+      ],
+      "median": 31.989906138164123,
+      "median_ci95": [
+       5.901144652802708,
+       157.76914300450903
+      ]
+     },
+     "usd": {
+      "mean": 81.07627612659668,
+      "mean_ci95": [
+       17.08058458854503,
+       211.74466462385917
+      ],
+      "median": 47.98166021663237,
+      "median_ci95": [
+       8.851126864738783,
+       236.6379375924631
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "gpt": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 12.650994731416638,
+     "mean_ci95": [
+      1.8051536273406374,
+      26.971854990443216
+     ],
+     "median": 12.875312944985424,
+     "median_ci95": [
+      -1.375225741189353,
+      30.547550487078116
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 149.99,
+     "pct": {
+      "mean": 25.759645054139725,
+      "mean_ci95": [
+       2.642012946517689,
+       58.48793649962112
+      ],
+      "median": 25.157982738707283,
+      "median_ci95": [
+       -1.4132169290166354,
+       65.01118198759929
+      ]
+     },
+     "usd": {
+      "mean": 38.636891616704176,
+      "mean_ci95": [
+       3.962755218481882,
+       87.72605595578172
+      ],
+      "median": 37.73445830978706,
+      "median_ci95": [
+       -2.1196840718320518,
+       97.51027186320017
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "open": {
+    "models": 30,
+    "share_premium_pp": {
+     "mean": 5.432005127014526,
+     "mean_ci95": [
+      2.458418351638621,
+      8.99892729713117
+     ],
+     "median": 4.526316483060354,
+     "median_ci95": [
+      0.7127800287245607,
+      9.278921637060586
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 10,
+     "models_beyond_tested_prices": 10,
+     "models_without_a_price_premium": 10,
+     "band_centre_usd": 149.99,
+     "pct": {
+      "mean": -5.261585900996041,
+      "mean_ci95": [
+       -40.77670503621755,
+       73.16570513923304
+      ],
+      "median": -10.166420439837038,
+      "median_ci95": [
+       -64.42398531813237,
+       67.68565230062008
+      ]
+     },
+     "usd": {
+      "mean": -7.891852692903962,
+      "mean_ci95": [
+       -61.16097988382271,
+       109.74124113833564
+      ],
+      "median": -15.248614017711574,
+      "median_ci95": [
+       -96.62953557866675,
+       101.52170988570006
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   }
+  },
+  "headphones | Audio-Technica": {
+   "all": {
+    "models": 38,
+    "share_premium_pp": {
+     "mean": 9.012488151289505,
+     "mean_ci95": [
+      5.478509029815712,
+      13.747588304443719
+     ],
+     "median": 5.64016688797469,
+     "median_ci95": [
+      2.33561040986211,
+      10.092834756135126
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 3,
+     "models_beyond_tested_prices": 6,
+     "models_without_a_price_premium": 29,
+     "band_centre_usd": 184.0,
+     "pct": {
+      "mean": 60.58130060665769,
+      "mean_ci95": [
+       22.2260195729211,
+       130.9674362621454
+      ],
+      "median": 70.8267960542162,
+      "median_ci95": [
+       7.091171443467601,
+       153.94500441627787
+      ]
+     },
+     "usd": {
+      "mean": 111.46959311625014,
+      "mean_ci95": [
+       40.895876014174824,
+       240.98008272234753
+      ],
+      "median": 130.3213047397578,
+      "median_ci95": [
+       13.047755455980386,
+       283.2588081259513
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "claude": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 18.210605659709415,
+     "mean_ci95": [
+      7.680135029797458,
+      33.83076249902108
+     ],
+     "median": 14.42629915273718,
+     "median_ci95": [
+      5.8255664608399895,
+      37.204777928844535
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 2,
+     "models_beyond_tested_prices": 2,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 184.0,
+     "pct": {
+      "mean": 55.45855288287843,
+      "mean_ci95": [
+       4.1803653405678345,
+       146.85707388440858
+      ],
+      "median": 55.45855288287843,
+      "median_ci95": [
+       4.1803653405678345,
+       146.85707388440858
+      ]
+     },
+     "usd": {
+      "mean": 102.04373730449632,
+      "mean_ci95": [
+       7.691872226644815,
+       270.2170159473118
+      ],
+      "median": 102.04373730449632,
+      "median_ci95": [
+       7.691872226644815,
+       270.2170159473118
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "gpt": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 32.2739574897214,
+     "mean_ci95": [
+      22.53752129553362,
+      46.7115779179949
+     ],
+     "median": 33.239099845900725,
+     "median_ci95": [
+      20.034522168463273,
+      48.934874048161056
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 1,
+     "models_beyond_tested_prices": 3,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 184.0,
+     "pct": {
+      "mean": 70.8267960542162,
+      "mean_ci95": [
+       23.146332205529237,
+       138.20569283155103
+      ],
+      "median": 70.8267960542162,
+      "median_ci95": [
+       23.146332205529237,
+       138.20569283155103
+      ]
+     },
+     "usd": {
+      "mean": 130.3213047397578,
+      "mean_ci95": [
+       42.589251258173796,
+       254.29847481005388
+      ],
+      "median": 130.3213047397578,
+      "median_ci95": [
+       42.589251258173796,
+       254.29847481005388
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "open": {
+    "models": 30,
+    "share_premium_pp": {
+     "mean": 4.684543238375933,
+     "mean_ci95": [
+      2.4549201361241906,
+      7.458817393634814
+     ],
+     "median": 3.1556266676436935,
+     "median_ci95": [
+      0.7918131218717896,
+      7.036420513526245
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 0,
+     "models_beyond_tested_prices": 1,
+     "models_without_a_price_premium": 29,
+     "band_centre_usd": 184.0
+    }
+   }
+  },
+  "headphones | Beyerdynamic": {
+   "all": {
+    "models": 38,
+    "share_premium_pp": {
+     "mean": 7.485396334503952,
+     "mean_ci95": [
+      3.4057327647405082,
+      12.447815441107858
+     ],
+     "median": 3.425741091759799,
+     "median_ci95": [
+      0.24543768544368033,
+      7.391372848156835
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 7,
+     "models_beyond_tested_prices": 3,
+     "models_without_a_price_premium": 28,
+     "band_centre_usd": 149.99,
+     "pct": {
+      "mean": 64.10571673010631,
+      "mean_ci95": [
+       22.068146196019143,
+       134.9669877730731
+      ],
+      "median": 79.15502723380641,
+      "median_ci95": [
+       23.913830761250416,
+       141.7718402093128
+      ]
+     },
+     "usd": {
+      "mean": 96.15216452348646,
+      "mean_ci95": [
+       33.100012479409116,
+       202.43698496083235
+      ],
+      "median": 118.72462534798623,
+      "median_ci95": [
+       35.8683547587995,
+       212.6435831299483
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "claude": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 23.462520719442523,
+     "mean_ci95": [
+      10.618739557267613,
+      43.27789010456256
+     ],
+     "median": 16.868255319816946,
+     "median_ci95": [
+      8.482474780715837,
+      52.463398726015235
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 3,
+     "models_beyond_tested_prices": 1,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 149.99,
+     "pct": {
+      "mean": 82.63371273713868,
+      "mean_ci95": [
+       41.74258310397641,
+       147.79663932895724
+      ],
+      "median": 84.34651429606438,
+      "median_ci95": [
+       34.14482277643217,
+       175.0049157869713
+      ]
+     },
+     "usd": {
+      "mean": 123.94230573443433,
+      "mean_ci95": [
+       62.609700397654215,
+       221.68017932950298
+      ],
+      "median": 126.51133679266697,
+      "median_ci95": [
+       51.21381968237061,
+       262.4898731888783
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "gpt": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 28.85732207465433,
+     "mean_ci95": [
+      16.913365358772793,
+      43.59261772634651
+     ],
+     "median": 29.096076991825846,
+     "median_ci95": [
+      13.725209970882089,
+      48.16213096507464
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 3,
+     "models_beyond_tested_prices": 1,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 149.99,
+     "pct": {
+      "mean": 77.34543268880326,
+      "mean_ci95": [
+       32.96942321169843,
+       167.19512830422664
+      ],
+      "median": 75.62510073376663,
+      "median_ci95": [
+       14.400231163107595,
+       202.84827137104594
+      ]
+     },
+     "usd": {
+      "mean": 116.01041448993601,
+      "mean_ci95": [
+       49.45083787522647,
+       250.77597294350954
+      ],
+      "median": 113.43008859057657,
+      "median_ci95": [
+       21.59890672154508,
+       304.2521222294318
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "open": {
+    "models": 30,
+    "share_premium_pp": {
+     "mean": 2.505522984492092,
+     "mean_ci95": [
+      0.25693318480534244,
+      5.276080588952539
+     ],
+     "median": 1.6083513453237275,
+     "median_ci95": [
+      -1.129657014154321,
+      4.351821573676454
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 1,
+     "models_beyond_tested_prices": 1,
+     "models_without_a_price_premium": 28,
+     "band_centre_usd": 149.99,
+     "pct": {
+      "mean": -31.19741916708164,
+      "mean_ci95": [
+       -80.25927407536305,
+       605.6308880251879
+      ],
+      "median": -31.19741916708164,
+      "median_ci95": [
+       -80.25927407536305,
+       605.6308880251879
+      ]
+     },
+     "usd": {
+      "mean": -46.79300900870576,
+      "mean_ci95": [
+       -120.38088518563706,
+       908.3857689489794
+      ],
+      "median": -46.79300900870576,
+      "median_ci95": [
+       -120.38088518563706,
+       908.3857689489794
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   }
+  },
+  "headphones | Bose": {
+   "all": {
+    "models": 38,
+    "share_premium_pp": {
+     "mean": 25.882645058717138,
+     "mean_ci95": [
+      19.803764800487787,
+      32.736025996537215
+     ],
+     "median": 22.565086669644355,
+     "median_ci95": [
+      16.1779130470529,
+      31.808552608349412
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 0,
+     "models_beyond_tested_prices": 9,
+     "models_without_a_price_premium": 29,
+     "band_centre_usd": 234.0
+    }
+   },
+   "claude": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 39.01379253035509,
+     "mean_ci95": [
+      23.793612316458823,
+      58.654173377630094
+     ],
+     "median": 31.819446965258976,
+     "median_ci95": [
+      21.76635951178366,
+      67.52054549978294
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 0,
+     "models_beyond_tested_prices": 4,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 234.0
+    }
+   },
+   "gpt": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 56.96985874813078,
+     "mean_ci95": [
+      43.954193736383786,
+      68.60190951119164
+     ],
+     "median": 58.3822860977201,
+     "median_ci95": [
+      40.44379916961751,
+      70.80889230930983
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 0,
+     "models_beyond_tested_prices": 4,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 234.0
+    }
+   },
+   "open": {
+    "models": 30,
+    "share_premium_pp": {
+     "mean": 19.986863570576922,
+     "mean_ci95": [
+      14.767196217672447,
+      25.864892988396438
+     ],
+     "median": 18.598184079170842,
+     "median_ci95": [
+      11.450323921197404,
+      25.405753617160368
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 0,
+     "models_beyond_tested_prices": 1,
+     "models_without_a_price_premium": 29,
+     "band_centre_usd": 234.0
+    }
+   }
+  },
+  "headphones | JBL": {
+   "all": {
+    "models": 38,
+    "share_premium_pp": {
+     "mean": 5.832036951455443,
+     "mean_ci95": [
+      1.813083548571888,
+      11.032882623771217
+     ],
+     "median": 1.8702054357843876,
+     "median_ci95": [
+      -1.1440855626930944,
+      4.736760592772097
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 8,
+     "models_beyond_tested_prices": 1,
+     "models_without_a_price_premium": 29,
+     "band_centre_usd": 83.7,
+     "pct": {
+      "mean": 98.81979465275055,
+      "mean_ci95": [
+       51.308224008373436,
+       209.22491324446577
+      ],
+      "median": 94.70945701065264,
+      "median_ci95": [
+       31.41920587190584,
+       157.63316965539775
+      ]
+     },
+     "usd": {
+      "mean": 82.71216812435222,
+      "mean_ci95": [
+       42.944983495008564,
+       175.12125238561785
+      ],
+      "median": 79.27181551791627,
+      "median_ci95": [
+       26.29787531478519,
+       131.9389630015679
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "claude": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 14.947468432154986,
+     "mean_ci95": [
+      3.9568863230291367,
+      33.25234447947303
+     ],
+     "median": 7.858784271349162,
+     "median_ci95": [
+      2.5734937079378373,
+      41.3098474262581
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 3,
+     "models_beyond_tested_prices": 1,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 83.7,
+     "pct": {
+      "mean": 34.345648453434094,
+      "mean_ci95": [
+       12.343387473778993,
+       67.79303426364375
+      ],
+      "median": 34.531754258520955,
+      "median_ci95": [
+       3.619210577448178,
+       80.00775886208177
+      ]
+     },
+     "usd": {
+      "mean": 28.74730775552434,
+      "mean_ci95": [
+       10.331415315553018,
+       56.742769678669816
+      ],
+      "median": 28.903078314382043,
+      "median_ci95": [
+       3.029279253324125,
+       66.96649416756244
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "gpt": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 39.20059700109488,
+     "mean_ci95": [
+      32.1064874780543,
+      49.59528748447406
+     ],
+     "median": 38.33698894743313,
+     "median_ci95": [
+      30.19883538231378,
+      51.75461678319176
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 83.7,
+     "pct": {
+      "mean": 112.47437539704087,
+      "mean_ci95": [
+       75.54330710635917,
+       173.7476185670287
+      ],
+      "median": 116.08136390872974,
+      "median_ci95": [
+       67.78667965127228,
+       182.47581890752883
+      ]
+     },
+     "usd": {
+      "mean": 94.14105220732321,
+      "mean_ci95": [
+       63.22974804802262,
+       145.42675674060303
+      ],
+      "median": 97.1601015916068,
+      "median_ci95": [
+       56.737450868114905,
+       152.73226042560162
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "open": {
+    "models": 30,
+    "share_premium_pp": {
+     "mean": 0.16750474741024635,
+     "mean_ci95": [
+      -1.7482358121958375,
+      2.252732723167512
+     ],
+     "median": 0.16621359714489858,
+     "median_ci95": [
+      -2.6124855625840406,
+      2.5734798794547147
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 1,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 29,
+     "band_centre_usd": 83.7,
+     "pct": {
+      "mean": 237.6239102735386,
+      "mean_ci95": [
+       75.48132506590972,
+       981.6013523776659
+      ],
+      "median": 237.6239102735386,
+      "median_ci95": [
+       75.48132506590972,
+       981.6013523776659
+      ]
+     },
+     "usd": {
+      "mean": 198.8912128989518,
+      "mean_ci95": [
+       63.17786908016644,
+       821.6003319401065
+      ],
+      "median": 198.8912128989518,
+      "median_ci95": [
+       63.17786908016644,
+       821.6003319401065
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   }
+  },
+  "headphones | Sennheiser": {
+   "all": {
+    "models": 38,
+    "share_premium_pp": {
+     "mean": 14.201006225190653,
+     "mean_ci95": [
+      10.009975341752728,
+      20.182836898660046
+     ],
+     "median": 11.352371697633469,
+     "median_ci95": [
+      6.719661996412863,
+      15.682743826869867
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 1,
+     "models_beyond_tested_prices": 8,
+     "models_without_a_price_premium": 29,
+     "band_centre_usd": 199.95,
+     "pct": {
+      "mean": 38.47299526163561,
+      "mean_ci95": [
+       5.214362702959754,
+       91.0524935007766
+      ],
+      "median": 38.47299526163561,
+      "median_ci95": [
+       5.214362702959754,
+       91.0524935007766
+      ]
+     },
+     "usd": {
+      "mean": 76.92675402564039,
+      "mean_ci95": [
+       10.426118224568027,
+       182.0594607548028
+      ],
+      "median": 76.92675402564039,
+      "median_ci95": [
+       10.426118224568027,
+       182.0594607548028
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "claude": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 26.346455432645428,
+     "mean_ci95": [
+      13.113282504658693,
+      43.03952925775129
+     ],
+     "median": 22.15157227843769,
+     "median_ci95": [
+      10.627387495648618,
+      49.63816332721962
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 1,
+     "models_beyond_tested_prices": 3,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 199.95,
+     "pct": {
+      "mean": 38.47299526163561,
+      "mean_ci95": [
+       5.214362702959754,
+       91.0524935007766
+      ],
+      "median": 38.47299526163561,
+      "median_ci95": [
+       5.214362702959754,
+       91.0524935007766
+      ]
+     },
+     "usd": {
+      "mean": 76.92675402564039,
+      "mean_ci95": [
+       10.426118224568027,
+       182.0594607548028
+      ],
+      "median": 76.92675402564039,
+      "median_ci95": [
+       10.426118224568027,
+       182.0594607548028
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "gpt": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 45.24388745118771,
+     "mean_ci95": [
+      34.0461878353491,
+      57.87404230875285
+     ],
+     "median": 46.58657648362674,
+     "median_ci95": [
+      32.25255798452851,
+      60.1581922088936
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 0,
+     "models_beyond_tested_prices": 4,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 199.95
+    }
+   },
+   "open": {
+    "models": 30,
+    "share_premium_pp": {
+     "mean": 8.44256216739708,
+     "mean_ci95": [
+      5.81597748090582,
+      11.550568810270851
+     ],
+     "median": 9.31912350877813,
+     "median_ci95": [
+      4.258112240302214,
+      13.018396330956623
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 0,
+     "models_beyond_tested_prices": 1,
+     "models_without_a_price_premium": 29,
+     "band_centre_usd": 199.95
+    }
+   }
+  },
+  "headphones | Sony": {
+   "all": {
+    "models": 38,
+    "share_premium_pp": {
+     "mean": 22.96936755931738,
+     "mean_ci95": [
+      18.058573262623224,
+      29.676636061276707
+     ],
+     "median": 18.155615484346345,
+     "median_ci95": [
+      12.516258101322814,
+      31.333537369013257
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 2,
+     "models_beyond_tested_prices": 9,
+     "models_without_a_price_premium": 27,
+     "band_centre_usd": 178.0,
+     "pct": {
+      "mean": 46.64932838322948,
+      "mean_ci95": [
+       -57.572202504715605,
+       4267.324488735225
+      ],
+      "median": 46.64932838322948,
+      "median_ci95": [
+       -57.572202504715605,
+       4267.324488735225
+      ]
+     },
+     "usd": {
+      "mean": 83.03580452214848,
+      "mean_ci95": [
+       -102.47852045839377,
+       7595.8375899487
+      ],
+      "median": 83.03580452214848,
+      "median_ci95": [
+       -102.47852045839377,
+       7595.8375899487
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "claude": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 42.513155080724516,
+     "mean_ci95": [
+      32.661349568598304,
+      55.45424815995585
+     ],
+     "median": 40.151172740936204,
+     "median_ci95": [
+      30.273505931312993,
+      59.300222500353264
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 0,
+     "models_beyond_tested_prices": 4,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 178.0
+    }
+   },
+   "gpt": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 49.251094998717576,
+     "mean_ci95": [
+      31.411100542818613,
+      64.39309285338844
+     ],
+     "median": 50.81256577372862,
+     "median_ci95": [
+      26.902199148435177,
+      67.89200614754122
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 1,
+     "models_beyond_tested_prices": 3,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 178.0,
+     "pct": {
+      "mean": 87.241760370077,
+      "mean_ci95": [
+       40.289785467358755,
+       155.9662499883582
+      ],
+      "median": 87.241760370077,
+      "median_ci95": [
+       40.289785467358755,
+       155.9662499883582
+      ]
+     },
+     "usd": {
+      "mean": 155.29033345873705,
+      "mean_ci95": [
+       71.71581813189859,
+       277.6199249792776
+      ],
+      "median": 155.29033345873705,
+      "median_ci95": [
+       71.71581813189859,
+       277.6199249792776
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "open": {
+    "models": 30,
+    "share_premium_pp": {
+     "mean": 16.859298897876403,
+     "mean_ci95": [
+      12.519114803643436,
+      22.13258159759107
+     ],
+     "median": 14.043370710465666,
+     "median_ci95": [
+      8.600462516895167,
+      21.883706992513936
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 1,
+     "models_beyond_tested_prices": 2,
+     "models_without_a_price_premium": 27,
+     "band_centre_usd": 178.0,
+     "pct": {
+      "mean": 6.056896396381961,
+      "mean_ci95": [
+       -76.43356959676491,
+       12849.695493356914
+      ],
+      "median": 6.056896396381961,
+      "median_ci95": [
+       -76.43356959676491,
+       12849.695493356914
+      ]
+     },
+     "usd": {
+      "mean": 10.78127558555989,
+      "mean_ci95": [
+       -136.05175388224154,
+       22872.457978175305
+      ],
+      "median": 10.78127558555989,
+      "median_ci95": [
+       -136.05175388224154,
+       22872.457978175305
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   }
+  },
+  "laptops | ASUS": {
+   "all": {
+    "models": 37,
+    "share_premium_pp": {
+     "mean": 7.314538274001923,
+     "mean_ci95": [
+      4.6636242702842345,
+      11.876757627196437
+     ],
+     "median": 4.195786040289587,
+     "median_ci95": [
+      2.3872793941789814,
+      7.686308025777931
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 34,
+     "models_beyond_tested_prices": 1,
+     "models_without_a_price_premium": 2,
+     "band_centre_usd": 1399.0,
+     "pct": {
+      "mean": 21.58526695111304,
+      "mean_ci95": [
+       13.288792973480732,
+       43.2540506460644
+      ],
+      "median": 16.73123862297059,
+      "median_ci95": [
+       8.813444603967186,
+       28.414409303661827
+      ]
+     },
+     "usd": {
+      "mean": 301.97788464607146,
+      "mean_ci95": [
+       185.91021369899542,
+       605.1241685384409
+      ],
+      "median": 234.07002833535856,
+      "median_ci95": [
+       123.30009000950093,
+       397.51758615822894
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "claude": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 7.9583571966833215,
+     "mean_ci95": [
+      0.8487870107025048,
+      18.510182970920173
+     ],
+     "median": 7.020689759978446,
+     "median_ci95": [
+      -0.43525857058157785,
+      20.172866691295546
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 1399.0,
+     "pct": {
+      "mean": 10.078499164628335,
+      "mean_ci95": [
+       1.0510540330988491,
+       21.02576907961651
+      ],
+      "median": 9.760644548243313,
+      "median_ci95": [
+       -0.6767277643146309,
+       24.190755785344237
+      ]
+     },
+     "usd": {
+      "mean": 140.9982033131504,
+      "mean_ci95": [
+       14.7042459230529,
+       294.15050942383493
+      ],
+      "median": 136.55141722992394,
+      "median_ci95": [
+       -9.467421422761685,
+       338.42867343696594
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "gpt": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 26.850043627316897,
+     "mean_ci95": [
+      12.22973918668239,
+      45.21725526953016
+     ],
+     "median": 28.450142712993376,
+     "median_ci95": [
+      8.728102259572648,
+      47.94970588999099
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 1399.0,
+     "pct": {
+      "mean": 24.888390899433478,
+      "mean_ci95": [
+       10.817212931708776,
+       42.64732849251029
+      ],
+      "median": 28.329916241619134,
+      "median_ci95": [
+       8.389114500739034,
+       46.55015001435744
+      ]
+     },
+     "usd": {
+      "mean": 348.18858868307433,
+      "mean_ci95": [
+       151.33280891460578,
+       596.636125610219
+      ],
+      "median": 396.33552822025166,
+      "median_ci95": [
+       117.36371186533908,
+       651.2365987008607
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "open": {
+    "models": 29,
+    "share_premium_pp": {
+     "mean": 4.531183201450698,
+     "mean_ci95": [
+      2.655394536454677,
+      6.863335819819715
+     ],
+     "median": 3.878016758370026,
+     "median_ci95": [
+      1.6710215007557252,
+      6.556430933967249
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 26,
+     "models_beyond_tested_prices": 1,
+     "models_without_a_price_premium": 2,
+     "band_centre_usd": 1399.0,
+     "pct": {
+      "mean": 22.847366003138315,
+      "mean_ci95": [
+       12.539767187247728,
+       46.991601986288806
+      ],
+      "median": 17.196438753593036,
+      "median_ci95": [
+       7.313786246540156,
+       33.005726830084036
+      ]
+     },
+     "usd": {
+      "mean": 319.634650383905,
+      "mean_ci95": [
+       175.43134294959572,
+       657.4125117881804
+      ],
+      "median": 240.57817816276656,
+      "median_ci95": [
+       102.31986958909678,
+       461.75011835287563
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   }
+  },
+  "laptops | Acer": {
+   "all": {
+    "models": 37,
+    "share_premium_pp": {
+     "mean": 12.3533495134943,
+     "mean_ci95": [
+      7.672581665051127,
+      18.722320793651942
+     ],
+     "median": 6.152412321159028,
+     "median_ci95": [
+      4.370621775135126,
+      10.46976774130126
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 34,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 3,
+     "band_centre_usd": 649.99,
+     "pct": {
+      "mean": 37.587479319222126,
+      "mean_ci95": [
+       27.48695747805546,
+       57.61424756536434
+      ],
+      "median": 28.856227807450843,
+      "median_ci95": [
+       20.170435131850358,
+       50.429112694921926
+      ]
+     },
+     "usd": {
+      "mean": 244.3148568270119,
+      "mean_ci95": [
+       178.66247491161266,
+       374.4868477501116
+      ],
+      "median": 187.56259512564975,
+      "median_ci95": [
+       131.10581131351415,
+       327.784189605723
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "claude": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 21.62863833710324,
+     "mean_ci95": [
+      8.024287937030879,
+      41.35901504161355
+     ],
+     "median": 13.690568762903407,
+     "median_ci95": [
+      6.307274193419266,
+      49.66991438643374
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 649.99,
+     "pct": {
+      "mean": 29.343333674878266,
+      "mean_ci95": [
+       10.942886064501659,
+       57.48742331845064
+      ],
+      "median": 19.201943124681556,
+      "median_ci95": [
+       8.140630895496136,
+       68.9428058581493
+      ]
+     },
+     "usd": {
+      "mean": 190.72873455334124,
+      "mean_ci95": [
+       71.12766513065434,
+       373.6625028275973
+      ],
+      "median": 124.81071011611765,
+      "median_ci95": [
+       52.91328675763533,
+       448.1213437973846
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "gpt": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 48.703047994418505,
+     "mean_ci95": [
+      35.96886709380471,
+      64.70042106476882
+     ],
+     "median": 48.855112019760895,
+     "median_ci95": [
+      31.675964977291592,
+      67.95918789926446
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 649.99,
+     "pct": {
+      "mean": 52.41305411034867,
+      "mean_ci95": [
+       28.691966610848738,
+       81.03414771263171
+      ],
+      "median": 55.185162640979186,
+      "median_ci95": [
+       21.00898539830137,
+       88.58991901929335
+      ]
+     },
+     "usd": {
+      "mean": 340.6796104118553,
+      "mean_ci95": [
+       186.4949137738557,
+       526.7138567173348
+      ],
+      "median": 358.69803865010067,
+      "median_ci95": [
+       136.55630419041907,
+       575.8256146335048
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "open": {
+    "models": 29,
+    "share_premium_pp": {
+     "mean": 6.060247816317315,
+     "mean_ci95": [
+      4.3849259209549825,
+      8.172926444979963
+     ],
+     "median": 4.905390992360347,
+     "median_ci95": [
+      3.322355930699444,
+      7.942814996343562
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 26,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 3,
+     "band_centre_usd": 649.99,
+     "pct": {
+      "mean": 36.57495175817864,
+      "mean_ci95": [
+       23.605745326521863,
+       57.873305053670265
+      ],
+      "median": 28.856227807450843,
+      "median_ci95": [
+       17.750795465128668,
+       50.27371420092484
+      ]
+     },
+     "usd": {
+      "mean": 237.73352893298537,
+      "mean_ci95": [
+       153.43498404785944,
+       376.17069551835135
+      ],
+      "median": 187.56259512564975,
+      "median_ci95": [
+       115.37839544378983,
+       326.77411493459135
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   }
+  },
+  "laptops | Apple": {
+   "all": {
+    "models": 37,
+    "share_premium_pp": {
+     "mean": 4.894573905749131,
+     "mean_ci95": [
+      1.664440380408137,
+      9.444678507789014
+     ],
+     "median": 4.890171054368017,
+     "median_ci95": [
+      0.2480930798634791,
+      8.118034419490199
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 30,
+     "models_beyond_tested_prices": 4,
+     "models_without_a_price_premium": 3,
+     "band_centre_usd": 1999.0,
+     "pct": {
+      "mean": 9.880957131430687,
+      "mean_ci95": [
+       -1.7981798699494915,
+       35.284565582743795
+      ],
+      "median": 10.565544720397813,
+      "median_ci95": [
+       -1.513808057193251,
+       29.401221254739028
+      ]
+     },
+     "usd": {
+      "mean": 197.52033305729944,
+      "mean_ci95": [
+       -35.94561560029033,
+       705.3384659990485
+      ],
+      "median": 211.2052389607523,
+      "median_ci95": [
+       -30.261023063293088,
+       587.7304128822332
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "claude": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 14.693328578332071,
+     "mean_ci95": [
+      3.354343191687288,
+      29.664575644680248
+     ],
+     "median": 14.070291582731539,
+     "median_ci95": [
+      0.2196394276906401,
+      33.28611672804655
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 1999.0,
+     "pct": {
+      "mean": 19.974214426047514,
+      "mean_ci95": [
+       4.06905136953859,
+       39.773251721005145
+      ],
+      "median": 19.899055413101628,
+      "median_ci95": [
+       -0.654776367608604,
+       44.96326289898703
+      ]
+     },
+     "usd": {
+      "mean": 399.28454637668983,
+      "mean_ci95": [
+       81.34033687707641,
+       795.0673019028928
+      ],
+      "median": 397.78211770790153,
+      "median_ci95": [
+       -13.088979588495995,
+       898.8156253507508
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "gpt": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 9.794922438466829,
+     "mean_ci95": [
+      -4.98839611374379,
+      31.727445900579443
+     ],
+     "median": 9.91314193191182,
+     "median_ci95": [
+      -7.950637831155994,
+      35.3018213827468
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 1999.0,
+     "pct": {
+      "mean": 9.031424970290702,
+      "mean_ci95": [
+       -3.9250913098076907,
+       26.32366055952751
+      ],
+      "median": 8.306443371295169,
+      "median_ci95": [
+       -7.498625808813728,
+       30.373168460475192
+      ]
+     },
+     "usd": {
+      "mean": 180.53818515611113,
+      "mean_ci95": [
+       -78.46257528305574,
+       526.2099745849549
+      ],
+      "median": 166.04580299219043,
+      "median_ci95": [
+       -149.89752991818642,
+       607.159637524899
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "open": {
+    "models": 29,
+    "share_premium_pp": {
+     "mean": 2.86711139467318,
+     "mean_ci95": [
+      0.2505677750787589,
+      6.021565715892901
+     ],
+     "median": 2.711016487070328,
+     "median_ci95": [
+      -0.9662206942028932,
+      6.61083759499565
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 22,
+     "models_beyond_tested_prices": 4,
+     "models_without_a_price_premium": 3,
+     "band_centre_usd": 1999.0,
+     "pct": {
+      "mean": 8.200279834434896,
+      "mean_ci95": [
+       -6.519417068756288,
+       37.02645411421396
+      ],
+      "median": 12.61886793696757,
+      "median_ci95": [
+       -13.371729792139712,
+       37.055976688309315
+      ]
+     },
+     "usd": {
+      "mean": 163.92359389035357,
+      "mean_ci95": [
+       -130.3231472044382,
+       740.1588177431371
+      ],
+      "median": 252.25117005998175,
+      "median_ci95": [
+       -267.30087854487283,
+       740.7489739993033
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   }
+  },
+  "laptops | Dell": {
+   "all": {
+    "models": 37,
+    "share_premium_pp": {
+     "mean": 15.578716587585557,
+     "mean_ci95": [
+      11.196949464088863,
+      21.638735701082496
+     ],
+     "median": 10.188769129371057,
+     "median_ci95": [
+      7.053247562443886,
+      14.81292941604395
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 34,
+     "models_beyond_tested_prices": 1,
+     "models_without_a_price_premium": 2,
+     "band_centre_usd": 799.0,
+     "pct": {
+      "mean": 48.73906917009727,
+      "mean_ci95": [
+       38.45625830867202,
+       67.66069514731473
+      ],
+      "median": 42.37951748749197,
+      "median_ci95": [
+       32.16007322851107,
+       59.055421398195435
+      ]
+     },
+     "usd": {
+      "mean": 389.42516266907717,
+      "mean_ci95": [
+       307.2655038862894,
+       540.6089542270447
+      ],
+      "median": 338.61234472506084,
+      "median_ci95": [
+       256.9589850958034,
+       471.85281697158155
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "claude": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 24.925866022700475,
+     "mean_ci95": [
+      14.609234231350724,
+      40.159845492908396
+     ],
+     "median": 21.46262234699924,
+     "median_ci95": [
+      12.513073155636269,
+      45.7342087588813
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 799.0,
+     "pct": {
+      "mean": 32.28594677772968,
+      "mean_ci95": [
+       16.4896770345671,
+       53.13779924941188
+      ],
+      "median": 30.647286610996815,
+      "median_ci95": [
+       12.955392472135289,
+       56.99261697507251
+      ]
+     },
+     "usd": {
+      "mean": 257.96471475406014,
+      "mean_ci95": [
+       131.75251950619113,
+       424.5710160028009
+      ],
+      "median": 244.87182002186455,
+      "median_ci95": [
+       103.51358585236096,
+       455.37100963082935
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "gpt": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 54.20935132022702,
+     "mean_ci95": [
+      40.747574416039186,
+      67.2499412203268
+     ],
+     "median": 53.571639995490536,
+     "median_ci95": [
+      37.64393178348719,
+      70.14737516856955
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 799.0,
+     "pct": {
+      "mean": 52.97667357183827,
+      "mean_ci95": [
+       31.261216925614452,
+       78.49509256109725
+      ],
+      "median": 55.01471645930427,
+      "median_ci95": [
+       24.823319034785026,
+       86.81166184330763
+      ]
+     },
+     "usd": {
+      "mean": 423.28362183898776,
+      "mean_ci95": [
+       249.77712323565945,
+       627.1757895631671
+      ],
+      "median": 439.5675845098411,
+      "median_ci95": [
+       198.33831908793235,
+       693.6251781280281
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "open": {
+    "models": 29,
+    "share_premium_pp": {
+     "mean": 8.961091185136404,
+     "mean_ci95": [
+      6.811484418509317,
+      11.734241931735431
+     ],
+     "median": 8.650721315311882,
+     "median_ci95": [
+      5.637879477328624,
+      11.662266683909387
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 26,
+     "models_beyond_tested_prices": 1,
+     "models_without_a_price_premium": 2,
+     "band_centre_usd": 799.0,
+     "pct": {
+      "mean": 50.61837963019367,
+      "mean_ci95": [
+       37.95291892431758,
+       76.1977742651012
+      ],
+      "median": 42.560084975999644,
+      "median_ci95": [
+       31.616768960499414,
+       63.393549874915315
+      ]
+     },
+     "usd": {
+      "mean": 404.4408532452474,
+      "mean_ci95": [
+       303.2438222052975,
+       608.8202163781585
+      ],
+      "median": 340.0550789582371,
+      "median_ci95": [
+       252.6179839943903,
+       506.5144635005734
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   }
+  },
+  "laptops | HP": {
+   "all": {
+    "models": 37,
+    "share_premium_pp": {
+     "mean": 13.223212639358556,
+     "mean_ci95": [
+      8.626554006265975,
+      19.149270025085215
+     ],
+     "median": 6.885702200033133,
+     "median_ci95": [
+      5.079309547780424,
+      11.041609900405232
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 34,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 3,
+     "band_centre_usd": 799.99,
+     "pct": {
+      "mean": 39.35762092761717,
+      "mean_ci95": [
+       29.671149554123037,
+       57.32612077903304
+      ],
+      "median": 31.06819356443082,
+      "median_ci95": [
+       22.777369073292107,
+       52.40140286581747
+      ]
+     },
+     "usd": {
+      "mean": 314.8570316588446,
+      "mean_ci95": [
+       237.3662293180289,
+       458.6032336201864
+      ],
+      "median": 248.54244169609012,
+      "median_ci95": [
+       182.21667484942952,
+       419.2059827862532
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "claude": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 21.65036677847133,
+     "mean_ci95": [
+      8.177121443187135,
+      40.19609682182191
+     ],
+     "median": 14.677862337488538,
+     "median_ci95": [
+      6.093646867022392,
+      46.905299879952096
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 799.99,
+     "pct": {
+      "mean": 28.05942893026507,
+      "mean_ci95": [
+       10.095043067904015,
+       54.253978214296396
+      ],
+      "median": 20.35348569074492,
+      "median_ci95": [
+       6.7730567836005555,
+       62.21385188000882
+      ]
+     },
+     "usd": {
+      "mean": 224.47262549922755,
+      "mean_ci95": [
+       80.75933503892534,
+       434.02640031654977
+      ],
+      "median": 162.8258501773903,
+      "median_ci95": [
+       54.183776963126085,
+       497.70459365488256
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "gpt": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 51.276640097468245,
+     "mean_ci95": [
+      37.91407556043804,
+      64.89410081352763
+     ],
+     "median": 53.13696726466934,
+     "median_ci95": [
+      33.79151756217142,
+      67.57440520157719
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 799.99,
+     "pct": {
+      "mean": 52.8150667884763,
+      "mean_ci95": [
+       32.40606291636483,
+       75.31044788537271
+      ],
+      "median": 59.898772327144584,
+      "median_ci95": [
+       25.24651367664642,
+       78.88589337078959
+      ]
+     },
+     "usd": {
+      "mean": 422.51525280113157,
+      "mean_ci95": [
+       259.245262724627,
+       602.4760520381932
+      ],
+      "median": 479.18418873992397,
+      "median_ci95": [
+       201.9695847618037,
+       631.0792583769796
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "open": {
+    "models": 29,
+    "share_premium_pp": {
+     "mean": 6.81209793629339,
+     "mean_ci95": [
+      4.927038622916229,
+      9.10171314738646
+     ],
+     "median": 6.158285416352083,
+     "median_ci95": [
+      3.9389207424957062,
+      8.801072363138088
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 26,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 3,
+     "band_centre_usd": 799.99,
+     "pct": {
+      "mean": 39.02542802553915,
+      "mean_ci95": [
+       28.32835645645719,
+       61.18460651361128
+      ],
+      "median": 31.06819356443082,
+      "median_ci95": [
+       20.5720956989576,
+       51.0894963567128
+      ]
+     },
+     "usd": {
+      "mean": 312.19952166151063,
+      "mean_ci95": [
+       226.6240188160119,
+       489.4707336482389
+      ],
+      "median": 248.54244169609012,
+      "median_ci95": [
+       164.5747083820909,
+       408.71086190406675
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   }
+  },
+  "laptops | Lenovo": {
+   "all": {
+    "models": 37,
+    "share_premium_pp": {
+     "mean": 17.034370538218344,
+     "mean_ci95": [
+      12.496294893718312,
+      23.574606918766893
+     ],
+     "median": 11.82065142645664,
+     "median_ci95": [
+      9.298202951665877,
+      15.436271694930413
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 36,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 1,
+     "band_centre_usd": 699.0,
+     "pct": {
+      "mean": 68.01420789588686,
+      "mean_ci95": [
+       52.99394281367071,
+       228.83899678085368
+      ],
+      "median": 59.91655342918828,
+      "median_ci95": [
+       44.840900231060246,
+       74.09303072033809
+      ]
+     },
+     "usd": {
+      "mean": 475.4193131922491,
+      "mean_ci95": [
+       370.4276602675582,
+       1599.5845874981671
+      ],
+      "median": 418.81670847002613,
+      "median_ci95": [
+       313.43789261511114,
+       517.9102847351633
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "claude": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 25.376345540472194,
+     "mean_ci95": [
+      11.706922282496533,
+      42.015754265966166
+     ],
+     "median": 18.84318920715353,
+     "median_ci95": [
+      10.327556553839466,
+      49.7090739968242
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 699.0,
+     "pct": {
+      "mean": 33.92165968813024,
+      "mean_ci95": [
+       14.813539288018509,
+       64.1639964355189
+      ],
+      "median": 25.92322849294529,
+      "median_ci95": [
+       11.825304374188232,
+       77.12604110964524
+      ]
+     },
+     "usd": {
+      "mean": 237.11240122003036,
+      "mean_ci95": [
+       103.54663962324938,
+       448.5063350842771
+      ],
+      "median": 181.2033671656876,
+      "median_ci95": [
+       82.65887757557573,
+       539.1110273564202
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "gpt": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 55.4814856289607,
+     "mean_ci95": [
+      43.059786914154685,
+      68.72515633696581
+     ],
+     "median": 56.8334331539821,
+     "median_ci95": [
+      38.90134351287748,
+      71.13010593111304
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 699.0,
+     "pct": {
+      "mean": 56.884827060451684,
+      "mean_ci95": [
+       33.10017672328285,
+       82.87701009177106
+      ],
+      "median": 59.159721152709494,
+      "median_ci95": [
+       25.057293629816417,
+       90.60025135641561
+      ]
+     },
+     "usd": {
+      "mean": 397.6249411525573,
+      "mean_ci95": [
+       231.3702352957471,
+       579.3103005414797
+      ],
+      "median": 413.52645085743933,
+      "median_ci95": [
+       175.15048247241677,
+       633.2957569813451
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "open": {
+    "models": 29,
+    "share_premium_pp": {
+     "mean": 10.58070293918438,
+     "mean_ci95": [
+      8.824234080427818,
+      13.166826101248912
+     ],
+     "median": 9.922727240923873,
+     "median_ci95": [
+      7.72409956272965,
+      13.404296467394076
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 28,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 1,
+     "band_centre_usd": 699.0,
+     "pct": {
+      "mean": 74.47448347348568,
+      "mean_ci95": [
+       55.56898611177562,
+       278.7188683555098
+      ],
+      "median": 60.22012221355217,
+      "median_ci95": [
+       46.786331176520115,
+       82.26416966840604
+      ]
+     },
+     "usd": {
+      "mean": 520.5766394796649,
+      "mean_ci95": [
+       388.4272129213116,
+       1948.2448898050136
+      ],
+      "median": 420.9386542727297,
+      "median_ci95": [
+       327.0364549238756,
+       575.0265459821582
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   }
+  },
+  "running_shoes | ASICS": {
+   "all": {
+    "models": 38,
+    "share_premium_pp": {
+     "mean": 13.830862682450984,
+     "mean_ci95": [
+      10.579727143671708,
+      19.013273047934543
+     ],
+     "median": 13.91308908659921,
+     "median_ci95": [
+      7.876482870045714,
+      18.268674623298885
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 15,
+     "models_beyond_tested_prices": 9,
+     "models_without_a_price_premium": 14,
+     "band_centre_usd": 129.95,
+     "pct": {
+      "mean": 18.663127653092367,
+      "mean_ci95": [
+       7.461205504455386,
+       48.29396191205462
+      ],
+      "median": 24.13918477599384,
+      "median_ci95": [
+       6.923368390868335,
+       35.51744569668685
+      ]
+     },
+     "usd": {
+      "mean": 24.25273438519353,
+      "mean_ci95": [
+       9.695836553039774,
+       62.75800350471497
+      ],
+      "median": 31.368870616403992,
+      "median_ci95": [
+       8.9969172239334,
+       46.15492068284456
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "claude": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 25.950797082719234,
+     "mean_ci95": [
+      13.702460364038046,
+      44.03108659231559
+     ],
+     "median": 25.339473779589213,
+     "median_ci95": [
+      9.538048749012118,
+      48.435438802108834
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 129.95,
+     "pct": {
+      "mean": 23.97502387007556,
+      "mean_ci95": [
+       10.808295746637754,
+       44.11417799110617
+      ],
+      "median": 25.18649435508461,
+      "median_ci95": [
+       6.806943393027414,
+       49.065474157563955
+      ]
+     },
+     "usd": {
+      "mean": 31.15554351916319,
+      "mean_ci95": [
+       14.04538032275576,
+       57.326374299442456
+      ],
+      "median": 32.729849414432444,
+      "median_ci95": [
+       8.845622939239123,
+       63.760583667754354
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "gpt": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 28.863814314555306,
+     "mean_ci95": [
+      16.698312634004292,
+      44.95737843600788
+     ],
+     "median": 32.903723795414166,
+     "median_ci95": [
+      12.72759899590643,
+      48.02883015352912
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 129.95,
+     "pct": {
+      "mean": 21.17223122610337,
+      "mean_ci95": [
+       10.1053733467678,
+       36.0456642192624
+      ],
+      "median": 24.39093590371767,
+      "median_ci95": [
+       7.916942727401102,
+       38.25708352649004
+      ]
+     },
+     "usd": {
+      "mean": 27.513314478321327,
+      "mean_ci95": [
+       13.131932664124756,
+       46.841340652931486
+      ],
+      "median": 31.69602120688111,
+      "median_ci95": [
+       10.28806707425773,
+       49.715080042673804
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "open": {
+    "models": 30,
+    "share_premium_pp": {
+     "mean": 10.210477878134645,
+     "mean_ci95": [
+      7.07831861309879,
+      14.26063457483353
+     ],
+     "median": 10.397611205173831,
+     "median_ci95": [
+      4.701046141325755,
+      15.927637143440352
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 7,
+     "models_beyond_tested_prices": 9,
+     "models_without_a_price_premium": 14,
+     "band_centre_usd": 129.95,
+     "pct": {
+      "mean": 14.193984915952814,
+      "mean_ci95": [
+       -6.10243579132846,
+       67.13776600125537
+      ],
+      "median": 22.73274662356275,
+      "median_ci95": [
+       -15.675220500914707,
+       49.47971386515546
+      ]
+     },
+     "usd": {
+      "mean": 18.44508339828068,
+      "mean_ci95": [
+       -7.930115310831334,
+       87.24552691863136
+      ],
+      "median": 29.541204237319793,
+      "median_ci95": [
+       -20.36994904093866,
+       64.29888816776952
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   }
+  },
+  "running_shoes | Adidas": {
+   "all": {
+    "models": 38,
+    "share_premium_pp": {
+     "mean": 2.850224365874204,
+     "mean_ci95": [
+      0.06170868362787688,
+      6.536642232511126
+     ],
+     "median": 1.588194069079797,
+     "median_ci95": [
+      -1.346209586550064,
+      5.257205654857975
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 26,
+     "models_beyond_tested_prices": 2,
+     "models_without_a_price_premium": 10,
+     "band_centre_usd": 77.36,
+     "pct": {
+      "mean": 6.904876151663911,
+      "mean_ci95": [
+       -4.968457087172021,
+       17.93501426567973
+      ],
+      "median": 9.757539093776801,
+      "median_ci95": [
+       1.021644715317337,
+       17.647059572806064
+      ]
+     },
+     "usd": {
+      "mean": 5.3416121909272025,
+      "mean_ci95": [
+       -3.843598402636275,
+       13.87452703592984
+      ],
+      "median": 7.548432242945734,
+      "median_ci95": [
+       0.7903443517694919,
+       13.651765285522773
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "claude": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 13.911533876576957,
+     "mean_ci95": [
+      3.7941818953952073,
+      29.709398301015494
+     ],
+     "median": 10.938630393291573,
+     "median_ci95": [
+      2.240076326418926,
+      33.15327286395622
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 77.36,
+     "pct": {
+      "mean": 12.664702803261562,
+      "mean_ci95": [
+       3.5483605067920303,
+       23.199026846077736
+      ],
+      "median": 12.203649918711346,
+      "median_ci95": [
+       1.7370863535377379,
+       26.634996445957132
+      ]
+     },
+     "usd": {
+      "mean": 9.797414088603144,
+      "mean_ci95": [
+       2.7450116880543147,
+       17.946767168125735
+      ],
+      "median": 9.440743577115096,
+      "median_ci95": [
+       1.3438100030967939,
+       20.60483325059244
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "gpt": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 10.559194550094055,
+     "mean_ci95": [
+      2.6684079912540515,
+      22.771870799221517
+     ],
+     "median": 10.176331442285683,
+     "median_ci95": [
+      0.5699791319006857,
+      25.201542835782686
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 77.36,
+     "pct": {
+      "mean": 8.864835014040496,
+      "mean_ci95": [
+       2.0135678182314547,
+       17.54553533386365
+      ],
+      "median": 7.845372340763457,
+      "median_ci95": [
+       0.5842240738499765,
+       19.47918386143684
+      ]
+     },
+     "usd": {
+      "mean": 6.857836366861728,
+      "mean_ci95": [
+       1.5576960641838533,
+       13.57322613427692
+      ],
+      "median": 6.06918004281461,
+      "median_ci95": [
+       0.45195574353034185,
+       15.06909663520754
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "open": {
+    "models": 30,
+    "share_premium_pp": {
+     "mean": 0.34752040655119093,
+     "mean_ci95": [
+      -1.7462850187269812,
+      3.1097522222566805
+     ],
+     "median": 0.3121733452634487,
+     "median_ci95": [
+      -2.5841905642367364,
+      3.2963019952086365
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 18,
+     "models_beyond_tested_prices": 2,
+     "models_without_a_price_premium": 10,
+     "band_centre_usd": 77.36,
+     "pct": {
+      "mean": 5.189368259669635,
+      "mean_ci95": [
+       -12.426837376185318,
+       21.583630503615932
+      ],
+      "median": 10.708037727702756,
+      "median_ci95": [
+       -9.325499403534467,
+       21.181035367318398
+      ]
+     },
+     "usd": {
+      "mean": 4.01449528568043,
+      "mean_ci95": [
+       -9.613401394216963,
+       16.697096557597284
+      ],
+      "median": 8.283737986150852,
+      "median_ci95": [
+       -7.214206338574263,
+       16.38564896015751
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   }
+  },
+  "running_shoes | Brooks": {
+   "all": {
+    "models": 38,
+    "share_premium_pp": {
+     "mean": 15.42538110357629,
+     "mean_ci95": [
+      11.002624522290702,
+      21.94408769465886
+     ],
+     "median": 12.052236633706158,
+     "median_ci95": [
+      6.855247381816552,
+      17.936806473612656
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 10,
+     "models_beyond_tested_prices": 22,
+     "models_without_a_price_premium": 6,
+     "band_centre_usd": 139.95,
+     "pct": {
+      "mean": 12.813529356424738,
+      "mean_ci95": [
+       -2.1252133991226065,
+       153.67277973194095
+      ],
+      "median": 16.91915612129672,
+      "median_ci95": [
+       -2.648769605535145,
+       38.37471810038283
+      ]
+     },
+     "usd": {
+      "mean": 17.93253433431642,
+      "mean_ci95": [
+       -2.9742361520720872,
+       215.06505523485134
+      ],
+      "median": 23.67835899175476,
+      "median_ci95": [
+       -3.706953062946435,
+       53.70541798148576
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "claude": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 32.90594628402075,
+     "mean_ci95": [
+      17.319262773624487,
+      53.57836657258153
+     ],
+     "median": 27.290407347497784,
+     "median_ci95": [
+      13.459411334958412,
+      62.230596446294875
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 2,
+     "models_beyond_tested_prices": 2,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 139.95,
+     "pct": {
+      "mean": 16.561972484429454,
+      "mean_ci95": [
+       5.515071986275085,
+       29.82424794141042
+      ],
+      "median": 16.561972484429454,
+      "median_ci95": [
+       5.515071986275085,
+       29.82424794141042
+      ]
+     },
+     "usd": {
+      "mean": 23.178480491959018,
+      "mean_ci95": [
+       7.718343244791981,
+       41.73903499400388
+      ],
+      "median": 23.178480491959018,
+      "median_ci95": [
+       7.718343244791981,
+       41.73903499400388
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "gpt": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 47.0396034550601,
+     "mean_ci95": [
+      35.91902428704278,
+      61.468354490142154
+     ],
+     "median": 48.20540506214333,
+     "median_ci95": [
+      33.174124976348324,
+      64.84806690131973
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 1,
+     "models_beyond_tested_prices": 3,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 139.95,
+     "pct": {
+      "mean": 24.496930531211135,
+      "mean_ci95": [
+       11.788576067975372,
+       44.36978991878467
+      ],
+      "median": 24.496930531211135,
+      "median_ci95": [
+       11.788576067975372,
+       44.36978991878467
+      ]
+     },
+     "usd": {
+      "mean": 34.28345427842998,
+      "mean_ci95": [
+       16.498112207131534,
+       62.095520991339136
+      ],
+      "median": 34.28345427842998,
+      "median_ci95": [
+       16.498112207131534,
+       62.095520991339136
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "open": {
+    "models": 30,
+    "share_premium_pp": {
+     "mean": 8.879409432652514,
+     "mean_ci95": [
+      5.8114518012594285,
+      12.670119810585362
+     ],
+     "median": 9.607757436580783,
+     "median_ci95": [
+      3.894903133094087,
+      14.368602160437899
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 7,
+     "models_beyond_tested_prices": 17,
+     "models_without_a_price_premium": 6,
+     "band_centre_usd": 139.95,
+     "pct": {
+      "mean": 10.073488294882475,
+      "mean_ci95": [
+       -10.112436094624183,
+       177.58845889668126
+      ],
+      "median": 12.166125660649918,
+      "median_ci95": [
+       -25.028756293295228,
+       62.242045742367296
+      ]
+     },
+     "usd": {
+      "mean": 14.097846868688023,
+      "mean_ci95": [
+       -14.152354314426542,
+       248.5350482259054
+      ],
+      "median": 17.026492862079557,
+      "median_ci95": [
+       -35.02774443246667,
+       87.10774301644302
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   }
+  },
+  "running_shoes | HOKA": {
+   "all": {
+    "models": 38,
+    "share_premium_pp": {
+     "mean": 18.658567094857222,
+     "mean_ci95": [
+      14.368557325431087,
+      24.779653042876756
+     ],
+     "median": 17.05888718063574,
+     "median_ci95": [
+      8.842258960476979,
+      24.613365121299264
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 8,
+     "models_beyond_tested_prices": 19,
+     "models_without_a_price_premium": 11,
+     "band_centre_usd": 144.0,
+     "pct": {
+      "mean": 14.190940089444297,
+      "mean_ci95": [
+       5.5712699513986035,
+       28.292370170263588
+      ],
+      "median": 12.40441480835981,
+      "median_ci95": [
+       3.1602866132120693,
+       29.19630210259129
+      ]
+     },
+     "usd": {
+      "mean": 20.434953728799787,
+      "mean_ci95": [
+       8.02262873001399,
+       40.741013045179564
+      ],
+      "median": 17.862357324038125,
+      "median_ci95": [
+       4.55081272302538,
+       42.042675027731455
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "claude": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 30.27438489207771,
+     "mean_ci95": [
+      14.25121782301837,
+      53.0481862152927
+     ],
+     "median": 25.965563468166906,
+     "median_ci95": [
+      10.781587680140595,
+      61.20037379879912
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 3,
+     "models_beyond_tested_prices": 1,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 144.0,
+     "pct": {
+      "mean": 18.852109008662143,
+      "mean_ci95": [
+       7.00471316848306,
+       34.14149767435273
+      ],
+      "median": 24.464528885222325,
+      "median_ci95": [
+       3.354624666628735,
+       37.83389373829822
+      ]
+     },
+     "usd": {
+      "mean": 27.147036972473487,
+      "mean_ci95": [
+       10.086786962615607,
+       49.16375665106793
+      ],
+      "median": 35.22892159472015,
+      "median_ci95": [
+       4.830659519945378,
+       54.48080698314944
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "gpt": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 37.017566125308534,
+     "mean_ci95": [
+      18.975648958650233,
+      58.185698357318834
+     ],
+     "median": 36.719888407133894,
+     "median_ci95": [
+      10.82248534459784,
+      62.63689082819996
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 2,
+     "models_beyond_tested_prices": 2,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 144.0,
+     "pct": {
+      "mean": 13.177682271062464,
+      "mean_ci95": [
+       2.0741871934066087,
+       27.284428213115486
+      ],
+      "median": 13.177682271062464,
+      "median_ci95": [
+       2.0741871934066087,
+       27.284428213115486
+      ]
+     },
+     "usd": {
+      "mean": 18.975862470329947,
+      "mean_ci95": [
+       2.9868295585055167,
+       39.2895766268863
+      ],
+      "median": 18.975862470329947,
+      "median_ci95": [
+       2.9868295585055167,
+       39.2895766268863
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "open": {
+    "models": 30,
+    "share_premium_pp": {
+     "mean": 14.661924851167653,
+     "mean_ci95": [
+      10.71414553128547,
+      19.8793293549116
+     ],
+     "median": 10.483829262967761,
+     "median_ci95": [
+      6.305234796246489,
+      21.658454488235087
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 3,
+     "models_beyond_tested_prices": 16,
+     "models_without_a_price_premium": 11,
+     "band_centre_usd": 144.0,
+     "pct": {
+      "mean": 10.205276382481003,
+      "mean_ci95": [
+       -3.898353577093165,
+       41.235234445650555
+      ],
+      "median": 11.633773713919627,
+      "median_ci95": [
+       -8.222108425568672,
+       44.090056943636085
+      ]
+     },
+     "usd": {
+      "mean": 14.695597990772644,
+      "mean_ci95": [
+       -5.613629151014157,
+       59.3787376017368
+      ],
+      "median": 16.75263414804426,
+      "median_ci95": [
+       -11.839836132818888,
+       63.48968199883597
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   }
+  },
+  "running_shoes | New Balance": {
+   "all": {
+    "models": 38,
+    "share_premium_pp": {
+     "mean": 10.67167367240851,
+     "mean_ci95": [
+      6.746670184394402,
+      16.433636258149896
+     ],
+     "median": 9.151432449486279,
+     "median_ci95": [
+      4.759461499528479,
+      12.680427018645167
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 24,
+     "models_beyond_tested_prices": 3,
+     "models_without_a_price_premium": 11,
+     "band_centre_usd": 109.95,
+     "pct": {
+      "mean": 23.671581496293967,
+      "mean_ci95": [
+       13.001395604386007,
+       140.82661128525342
+      ],
+      "median": 25.026561133458237,
+      "median_ci95": [
+       14.9472063087701,
+       34.58281144710773
+      ]
+     },
+     "usd": {
+      "mean": 26.02690385517522,
+      "mean_ci95": [
+       14.295034467022415,
+       154.83885910813615
+      ],
+      "median": 27.516703966237333,
+      "median_ci95": [
+       16.434453336492727,
+       38.02380118609495
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "claude": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 24.764245020188767,
+     "mean_ci95": [
+      10.98390468718115,
+      45.789546987681625
+     ],
+     "median": 17.553132882860062,
+     "median_ci95": [
+      8.778329526075408,
+      53.68807762140752
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 109.95,
+     "pct": {
+      "mean": 21.94776623104773,
+      "mean_ci95": [
+       10.108140889907768,
+       38.300605138975165
+      ],
+      "median": 18.6127610656982,
+      "median_ci95": [
+       6.985052796687421,
+       43.61304987086181
+      ]
+     },
+     "usd": {
+      "mean": 24.13156897103698,
+      "mean_ci95": [
+       11.11390090845359,
+       42.1115153503032
+      ],
+      "median": 20.464730791735175,
+      "median_ci95": [
+       7.6800655499578205,
+       47.95254833301256
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "gpt": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 34.64620354620068,
+     "mean_ci95": [
+      27.44389981115087,
+      47.31933563188624
+     ],
+     "median": 35.32366039019895,
+     "median_ci95": [
+      25.299990102970273,
+      49.99022300501472
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 109.95,
+     "pct": {
+      "mean": 24.93453934417652,
+      "mean_ci95": [
+       17.518618047523656,
+       34.969029288965636
+      ],
+      "median": 24.910103728663856,
+      "median_ci95": [
+       16.381540721180563,
+       35.9230772974778
+      ]
+     },
+     "usd": {
+      "mean": 27.415526008922082,
+      "mean_ci95": [
+       19.26172054325226,
+       38.44844770321772
+      ],
+      "median": 27.38865904966591,
+      "median_ci95": [
+       18.01150402293803,
+       39.49742348857685
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "open": {
+    "models": 30,
+    "share_premium_pp": {
+     "mean": 5.596060176198858,
+     "mean_ci95": [
+      3.1169519056443855,
+      8.809617558575923
+     ],
+     "median": 7.865318817667652,
+     "median_ci95": [
+      1.78676314417614,
+      10.549955953241987
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 16,
+     "models_beyond_tested_prices": 3,
+     "models_without_a_price_premium": 11,
+     "band_centre_usd": 109.95,
+     "pct": {
+      "mean": 23.786795850634885,
+      "mean_ci95": [
+       9.492823847390705,
+       164.98411535384258
+      ],
+      "median": 29.612241838703557,
+      "median_ci95": [
+       10.389334605115211,
+       43.69356270571238
+      ]
+     },
+     "usd": {
+      "mean": 26.15358203777306,
+      "mean_ci95": [
+       10.43735982020608,
+       181.40003483154993
+      ],
+      "median": 32.558659901654565,
+      "median_ci95": [
+       11.423073398324174,
+       48.04107219493076
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   }
+  },
+  "running_shoes | Nike": {
+   "all": {
+    "models": 38,
+    "share_premium_pp": {
+     "mean": 5.814782139545701,
+     "mean_ci95": [
+      2.369718805412141,
+      11.09246755606918
+     ],
+     "median": 2.3417719697128803,
+     "median_ci95": [
+      0.21358703300654974,
+      6.819114322533808
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 29,
+     "models_beyond_tested_prices": 2,
+     "models_without_a_price_premium": 7,
+     "band_centre_usd": 83.23,
+     "pct": {
+      "mean": 13.712056463995573,
+      "mean_ci95": [
+       0.6055696325096734,
+       36.342643913892985
+      ],
+      "median": 12.629411542762448,
+      "median_ci95": [
+       3.646520883020361,
+       22.563331700275793
+      ]
+     },
+     "usd": {
+      "mean": 11.412544594983517,
+      "mean_ci95": [
+       0.5040156051378013,
+       30.247982529533132
+      ],
+      "median": 10.511459227041186,
+      "median_ci95": [
+       3.0349993309378465,
+       18.779460974139543
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "claude": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 20.26754157741086,
+     "mean_ci95": [
+      4.223178387410485,
+      41.78774618969586
+     ],
+     "median": 13.270320845234123,
+     "median_ci95": [
+      1.9709757576625475,
+      51.19736447235575
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 83.23,
+     "pct": {
+      "mean": 16.12536611607022,
+      "mean_ci95": [
+       4.793032695194388,
+       34.04249829906453
+      ],
+      "median": 13.214025706145138,
+      "median_ci95": [
+       2.0285742268718154,
+       38.120116303451134
+      ]
+     },
+     "usd": {
+      "mean": 13.421142218405246,
+      "mean_ci95": [
+       3.989241112210289,
+       28.333571334311415
+      ],
+      "median": 10.9980335952246,
+      "median_ci95": [
+       1.6883823290254119,
+       31.727372799362378
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "gpt": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 22.02401071395715,
+     "mean_ci95": [
+      11.56107826326214,
+      36.52322044309447
+     ],
+     "median": 22.95786487718363,
+     "median_ci95": [
+      8.936992937251633,
+      40.358310081875494
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 83.23,
+     "pct": {
+      "mean": 15.651895856838966,
+      "mean_ci95": [
+       8.331868127639762,
+       24.120717299003925
+      ],
+      "median": 17.271433880643407,
+      "median_ci95": [
+       6.402693781525691,
+       25.56336470496728
+      ]
+     },
+     "usd": {
+      "mean": 13.027072921647072,
+      "mean_ci95": [
+       6.934613842634573,
+       20.07567300796097
+      ],
+      "median": 14.375014418859509,
+      "median_ci95": [
+       5.328962034363833,
+       21.27638844394427
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "open": {
+    "models": 30,
+    "share_premium_pp": {
+     "mean": 1.7265170712421538,
+     "mean_ci95": [
+      -0.6011957784209084,
+      4.502660986072376
+     ],
+     "median": 1.4197162081438024,
+     "median_ci95": [
+      -1.24182662581083,
+      4.701791141974382
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 21,
+     "models_beyond_tested_prices": 2,
+     "models_without_a_price_premium": 7,
+     "band_centre_usd": 83.23,
+     "pct": {
+      "mean": 12.88288521734452,
+      "mean_ci95": [
+       -2.92168059757229,
+       38.585727235379466
+      ],
+      "median": 12.602562759853985,
+      "median_ci95": [
+       -2.91302935825161,
+       26.457659737768292
+      ]
+     },
+     "usd": {
+      "mean": 10.722425366395845,
+      "mean_ci95": [
+       -2.431714761359417,
+       32.11490077800633
+      ],
+      "median": 10.489112985026473,
+      "median_ci95": [
+       -2.424514334872815,
+       22.02071019974455
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   }
+  },
+  "smartphones | Apple": {
+   "all": {
+    "models": 36,
+    "share_premium_pp": {
+     "mean": 7.485282121591575,
+     "mean_ci95": [
+      4.418738490128683,
+      11.296250026919958
+     ],
+     "median": 4.723193589779596,
+     "median_ci95": [
+      2.22503090125664,
+      10.520111628023711
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 5,
+     "models_beyond_tested_prices": 11,
+     "models_without_a_price_premium": 20,
+     "band_centre_usd": 679.0,
+     "pct": {
+      "mean": 20.049640503873043,
+      "mean_ci95": [
+       -35.361047663271584,
+       129.31507754185424
+      ],
+      "median": 32.70401752243699,
+      "median_ci95": [
+       -87.34725205401145,
+       126.05639405343018
+      ]
+     },
+     "usd": {
+      "mean": 136.13705902129794,
+      "mean_ci95": [
+       -240.10151363361405,
+       878.0493765091903
+      ],
+      "median": 222.0602789773472,
+      "median_ci95": [
+       -593.0878414467377,
+       855.9229156227909
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "claude": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 13.260981124586875,
+     "mean_ci95": [
+      4.795461355652806,
+      24.032458207524808
+     ],
+     "median": 12.259066785823657,
+     "median_ci95": [
+      2.7216702802684907,
+      26.852047732671586
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 2,
+     "models_beyond_tested_prices": 2,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 679.0,
+     "pct": {
+      "mean": 44.836975137904375,
+      "mean_ci95": [
+       -11.78104977844697,
+       138.8421304977341
+      ],
+      "median": 44.836975137904375,
+      "median_ci95": [
+       -11.78104977844697,
+       138.8421304977341
+      ]
+     },
+     "usd": {
+      "mean": 304.4430611863707,
+      "mean_ci95": [
+       -79.99332799565492,
+       942.7380660796146
+      ],
+      "median": 304.4430611863707,
+      "median_ci95": [
+       -79.99332799565492,
+       942.7380660796146
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "gpt": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 22.544470616567857,
+     "mean_ci95": [
+      13.99760065277886,
+      33.50758000108653
+     ],
+     "median": 24.64480299712433,
+     "median_ci95": [
+      11.207099986045936,
+      36.35575938649132
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 1,
+     "models_beyond_tested_prices": 3,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 679.0,
+     "pct": {
+      "mean": 66.19813722291066,
+      "mean_ci95": [
+       7.867771287525921,
+       206.50461418991605
+      ],
+      "median": 66.19813722291066,
+      "median_ci95": [
+       7.867771287525921,
+       206.50461418991605
+      ]
+     },
+     "usd": {
+      "mean": 449.48535174356334,
+      "mean_ci95": [
+       53.422167042301,
+       1402.16633034953
+      ],
+      "median": 449.48535174356334,
+      "median_ci95": [
+       53.422167042301,
+       1402.16633034953
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "open": {
+    "models": 28,
+    "share_premium_pp": {
+     "mean": 4.50886962188135,
+     "mean_ci95": [
+      1.9613226193421196,
+      7.61038660668736
+     ],
+     "median": 3.3420504370376842,
+     "median_ci95": [
+      0.9104958243614119,
+      7.653688244263341
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 2,
+     "models_beyond_tested_prices": 6,
+     "models_without_a_price_premium": 20,
+     "band_centre_usd": 679.0,
+     "pct": {
+      "mean": -27.811942489677097,
+      "mean_ci95": [
+       -99.51640985868146,
+       237.49590179898226
+      ],
+      "median": -27.811942489677097,
+      "median_ci95": [
+       -99.51640985868146,
+       237.49590179898226
+      ]
+     },
+     "usd": {
+      "mean": -188.84308950490748,
+      "mean_ci95": [
+       -675.716422940447,
+       1612.5971732150895
+      ],
+      "median": -188.84308950490748,
+      "median_ci95": [
+       -675.716422940447,
+       1612.5971732150895
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   }
+  },
+  "smartphones | Google": {
+   "all": {
+    "models": 36,
+    "share_premium_pp": {
+     "mean": 11.695456970432753,
+     "mean_ci95": [
+      8.371560093568426,
+      16.524092453490326
+     ],
+     "median": 9.58644992281614,
+     "median_ci95": [
+      4.706293154969225,
+      14.371816490393952
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 3,
+     "models_beyond_tested_prices": 16,
+     "models_without_a_price_premium": 17,
+     "band_centre_usd": 899.0,
+     "pct": {
+      "mean": -14.30102467376667,
+      "mean_ci95": [
+       -59.652313759889765,
+       149.3079492735143
+      ],
+      "median": -32.59364603893692,
+      "median_ci95": [
+       -69.55907614490025,
+       128.14990875365476
+      ]
+     },
+     "usd": {
+      "mean": -128.56621181716235,
+      "mean_ci95": [
+       -536.2743007014091,
+       1342.2784639688937
+      ],
+      "median": -293.0168778900429,
+      "median_ci95": [
+       -625.3360945426532,
+       1152.0676796953562
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "claude": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 19.771718658895736,
+     "mean_ci95": [
+      8.962174674997689,
+      32.09028987950455
+     ],
+     "median": 22.999491035532095,
+     "median_ci95": [
+      3.9279367606515927,
+      34.281694886063676
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 1,
+     "models_beyond_tested_prices": 3,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 899.0,
+     "pct": {
+      "mean": 27.335975774573296,
+      "mean_ci95": [
+       -15.7850784092502,
+       111.91364595343144
+      ],
+      "median": 27.335975774573296,
+      "median_ci95": [
+       -15.7850784092502,
+       111.91364595343144
+      ]
+     },
+     "usd": {
+      "mean": 245.7504222134139,
+      "mean_ci95": [
+       -141.9078548991593,
+       1006.1036771213486
+      ],
+      "median": 245.7504222134139,
+      "median_ci95": [
+       -141.9078548991593,
+       1006.1036771213486
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "gpt": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 32.24759198023851,
+     "mean_ci95": [
+      20.23435424355716,
+      48.0229600999157
+     ],
+     "median": 30.749987665130888,
+     "median_ci95": [
+      16.13843837150955,
+      51.34175049302943
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 0,
+     "models_beyond_tested_prices": 4,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 899.0
+    }
+   },
+   "open": {
+    "models": 28,
+    "share_premium_pp": {
+     "mean": 7.605686013537218,
+     "mean_ci95": [
+      4.90994773674057,
+      10.672108651673874
+     ],
+     "median": 7.053334140373102,
+     "median_ci95": [
+      2.958435219508827,
+      11.597595766391608
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 2,
+     "models_beyond_tested_prices": 9,
+     "models_without_a_price_premium": 17,
+     "band_centre_usd": 899.0,
+     "pct": {
+      "mean": -35.11952489793666,
+      "mean_ci95": [
+       -69.08965038275852,
+       228.42346338380506
+      ],
+      "median": -35.11952489793666,
+      "median_ci95": [
+       -69.08965038275852,
+       228.42346338380506
+      ]
+     },
+     "usd": {
+      "mean": -315.7245288324506,
+      "mean_ci95": [
+       -621.1159569409991,
+       2053.5269358204077
+      ],
+      "median": -315.7245288324506,
+      "median_ci95": [
+       -621.1159569409991,
+       2053.5269358204077
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   }
+  },
+  "smartphones | Motorola": {
+   "all": {
+    "models": 36,
+    "share_premium_pp": {
+     "mean": 4.760346920889525,
+     "mean_ci95": [
+      2.7239481931776384,
+      7.087511346825012
+     ],
+     "median": 5.132021036349858,
+     "median_ci95": [
+      1.4866892762199841,
+      7.076735520262819
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 20,
+     "models_beyond_tested_prices": 1,
+     "models_without_a_price_premium": 15,
+     "band_centre_usd": 166.05,
+     "pct": {
+      "mean": 86.4328336463428,
+      "mean_ci95": [
+       46.342296833833466,
+       232.2739114562746
+      ],
+      "median": 76.15279365944788,
+      "median_ci95": [
+       24.259690360621622,
+       157.65751598572592
+      ]
+     },
+     "usd": {
+      "mean": 143.52172026975222,
+      "mean_ci95": [
+       76.95138389258047,
+       385.690829973144
+      ],
+      "median": 126.45171387151322,
+      "median_ci95": [
+       40.28321584381221,
+       261.7903052942979
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "claude": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 8.515835701906296,
+     "mean_ci95": [
+      2.657932577843862,
+      17.788372629932756
+     ],
+     "median": 5.92464161637683,
+     "median_ci95": [
+      1.401166283971357,
+      21.09774139888847
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 166.05,
+     "pct": {
+      "mean": 60.91710042788472,
+      "mean_ci95": [
+       12.738940448194228,
+       151.657806224613
+      ],
+      "median": 31.908463965381742,
+      "median_ci95": [
+       8.733593699912795,
+       171.52077453451693
+      ]
+     },
+     "usd": {
+      "mean": 101.15284526050259,
+      "mean_ci95": [
+       21.153010614226517,
+       251.8277872359699
+      ],
+      "median": 52.984004414516384,
+      "median_ci95": [
+       14.502132338705199,
+       284.81024611456536
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "gpt": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 10.694118166029964,
+     "mean_ci95": [
+      4.989047402054214,
+      17.912509818657764
+     ],
+     "median": 11.33186194784951,
+     "median_ci95": [
+      3.169179117263097,
+      19.56681063967079
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 166.05,
+     "pct": {
+      "mean": 45.999694756848875,
+      "mean_ci95": [
+       18.366709738166126,
+       87.05758916085713
+      ],
+      "median": 46.98083435504602,
+      "median_ci95": [
+       12.170260316615172,
+       91.10370668764449
+      ]
+     },
+     "usd": {
+      "mean": 76.38249314374757,
+      "mean_ci95": [
+       30.497921520224853,
+       144.5591268016033
+      ],
+      "median": 78.01167544655392,
+      "median_ci95": [
+       20.208717255739497,
+       151.27770495483367
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "open": {
+    "models": 28,
+    "share_premium_pp": {
+     "mean": 3.3761669171527804,
+     "mean_ci95": [
+      1.4296554125878658,
+      5.535843281384129
+     ],
+     "median": 2.4042632036991223,
+     "median_ci95": [
+      0.19635919879930216,
+      5.992001261731011
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 12,
+     "models_beyond_tested_prices": 1,
+     "models_without_a_price_premium": 15,
+     "band_centre_usd": 166.05,
+     "pct": {
+      "mean": 108.41579101566013,
+      "mean_ci95": [
+       45.91720174182307,
+       382.34076994906485
+      ],
+      "median": 104.74604334453728,
+      "median_ci95": [
+       8.447833497024448,
+       227.71011058924933
+      ]
+     },
+     "usd": {
+      "mean": 180.02442098150368,
+      "mean_ci95": [
+       76.24551349229722,
+       634.8768485004222
+      ],
+      "median": 173.93080497360418,
+      "median_ci95": [
+       14.027627521809094,
+       378.1126386334485
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   }
+  },
+  "smartphones | Samsung": {
+   "all": {
+    "models": 36,
+    "share_premium_pp": {
+     "mean": 9.7508135389105,
+     "mean_ci95": [
+      6.763881162880196,
+      13.686169529561715
+     ],
+     "median": 7.898292487491428,
+     "median_ci95": [
+      4.049010844057312,
+      12.196529398695036
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 9,
+     "models_beyond_tested_prices": 6,
+     "models_without_a_price_premium": 21,
+     "band_centre_usd": 404.5,
+     "pct": {
+      "mean": 92.22707791875396,
+      "mean_ci95": [
+       44.060249366683124,
+       12737.382805932684
+      ],
+      "median": 84.4288343310277,
+      "median_ci95": [
+       13.209866248367389,
+       209.1871675666511
+      ]
+     },
+     "usd": {
+      "mean": 373.05853018135974,
+      "mean_ci95": [
+       178.22370868823324,
+       51522.713449997704
+      ],
+      "median": 341.51463486900707,
+      "median_ci95": [
+       53.43390897464608,
+       846.1620928071038
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "claude": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 14.709648581874307,
+     "mean_ci95": [
+      5.694276299869456,
+      26.606395057634902
+     ],
+     "median": 13.762138356934098,
+     "median_ci95": [
+      3.5830454578280575,
+      30.027369230250283
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 3,
+     "models_beyond_tested_prices": 1,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 404.5,
+     "pct": {
+      "mean": 97.42145138687611,
+      "mean_ci95": [
+       21.14448087878092,
+       241.54567011849707
+      ],
+      "median": 115.69297535020881,
+      "median_ci95": [
+       0.16080881511183065,
+       297.29088356707456
+      ]
+     },
+     "usd": {
+      "mean": 394.0697708599139,
+      "mean_ci95": [
+       85.52942515466883,
+       977.0522356293206
+      ],
+      "median": 467.9780852915946,
+      "median_ci95": [
+       0.6504716571273549,
+       1202.5416240288166
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "gpt": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 27.443181638349436,
+     "mean_ci95": [
+      20.601384744306888,
+      38.07944536843682
+     ],
+     "median": 25.809859675237902,
+     "median_ci95": [
+      19.48015081770258,
+      39.67523915199582
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 2,
+     "models_beyond_tested_prices": 2,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 404.5,
+     "pct": {
+      "mean": 145.0414625977574,
+      "mean_ci95": [
+       72.54724542203289,
+       332.09415888720036
+      ],
+      "median": 145.0414625977574,
+      "median_ci95": [
+       72.54724542203289,
+       332.09415888720036
+      ]
+     },
+     "usd": {
+      "mean": 586.6927162079287,
+      "mean_ci95": [
+       293.45360773212303,
+       1343.3208726987255
+      ],
+      "median": 586.6927162079287,
+      "median_ci95": [
+       293.45360773212303,
+       1343.3208726987255
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "open": {
+    "models": 28,
+    "share_premium_pp": {
+     "mean": 6.514927375710108,
+     "mean_ci95": [
+      4.113277336077053,
+      9.68002477599146
+     ],
+     "median": 5.18468562659318,
+     "median_ci95": [
+      2.244867586650307,
+      9.791243193697861
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 3,
+     "models_without_a_price_premium": 21,
+     "band_centre_usd": 404.5,
+     "pct": {
+      "mean": 61.92410547816061,
+      "mean_ci95": [
+       -3.791919535827524,
+       22975.819244137947
+      ],
+      "median": 68.23693493430608,
+      "median_ci95": [
+       -22.480211470596924,
+       1437.5337714606335
+      ]
+     },
+     "usd": {
+      "mean": 250.48300665915968,
+      "mean_ci95": [
+       -15.338314522422335,
+       92937.188842538
+      ],
+      "median": 276.0184018092681,
+      "median_ci95": [
+       -90.93245539856456,
+       5814.824105558263
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   }
+  },
+  "tvs | Insignia": {
+   "all": {
+    "models": 38,
+    "share_premium_pp": {
+     "mean": 3.2454823473840593,
+     "mean_ci95": [
+      0.5105933715558676,
+      6.640726270073154
+     ],
+     "median": 0.1206285709786481,
+     "median_ci95": [
+      -1.319980044515308,
+      4.397698685869243
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 23,
+     "models_beyond_tested_prices": 2,
+     "models_without_a_price_premium": 13,
+     "band_centre_usd": 199.99,
+     "pct": {
+      "mean": 45.844793959202185,
+      "mean_ci95": [
+       13.738241897134651,
+       118.37423212995242
+      ],
+      "median": 24.914156734631952,
+      "median_ci95": [
+       -0.9761804726358518,
+       60.677564082326825
+      ]
+     },
+     "usd": {
+      "mean": 91.68500343900845,
+      "mean_ci95": [
+       27.47510997007959,
+       236.73662683669187
+      ],
+      "median": 49.82582205359044,
+      "median_ci95": [
+       -1.9522633272244403,
+       121.34906040824542
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "claude": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 14.653786629070417,
+     "mean_ci95": [
+      2.551754123013085,
+      29.274222886222617
+     ],
+     "median": 12.568994856247585,
+     "median_ci95": [
+      -0.48850058267907864,
+      33.43410743720286
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 199.99,
+     "pct": {
+      "mean": 48.7819214182628,
+      "mean_ci95": [
+       9.46827506024544,
+       100.46218698163085
+      ],
+      "median": 39.459653162976664,
+      "median_ci95": [
+       1.0676674832708481,
+       117.08487937680458
+      ]
+     },
+     "usd": {
+      "mean": 97.55896464438378,
+      "mean_ci95": [
+       18.935603292984858,
+       200.91432774456356
+      ],
+      "median": 78.91536036063704,
+      "median_ci95": [
+       2.135228199793369,
+       234.15805026567148
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "gpt": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 12.918638279872996,
+     "mean_ci95": [
+      0.554617581010485,
+      27.091927204624504
+     ],
+     "median": 15.264791782203325,
+     "median_ci95": [
+      -4.636377057279412,
+      30.495829672024325
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 199.99,
+     "pct": {
+      "mean": 18.622309164603706,
+      "mean_ci95": [
+       -12.30031765755005,
+       43.74129784691394
+      ],
+      "median": 22.66785283792788,
+      "median_ci95": [
+       -20.221417415903804,
+       47.46716090380415
+      ]
+     },
+     "usd": {
+      "mean": 37.242756098290954,
+      "mean_ci95": [
+       -24.599405283334345,
+       87.47822156404318
+      ],
+      "median": 45.33343889057197,
+      "median_ci95": [
+       -40.44081269006602,
+       94.92957509151793
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "open": {
+    "models": 30,
+    "share_premium_pp": {
+     "mean": 0.4346209854940207,
+     "mean_ci95": [
+      -1.7549923834679544,
+      2.9399028808726104
+     ],
+     "median": -0.3040513795874833,
+     "median_ci95": [
+      -2.150813767982622,
+      2.781622666428798
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 15,
+     "models_beyond_tested_prices": 2,
+     "models_without_a_price_premium": 13,
+     "band_centre_usd": 199.99,
+     "pct": {
+      "mean": 52.32088924867896,
+      "mean_ci95": [
+       7.6281746635376875,
+       176.59722516185704
+      ],
+      "median": 33.98223401764402,
+      "median_ci95": [
+       -13.860722328996477,
+       95.77608427793149
+      ]
+     },
+     "usd": {
+      "mean": 104.63654640843306,
+      "mean_ci95": [
+       15.255586509609023,
+       353.1767906011979
+      ],
+      "median": 67.96106981188628,
+      "median_ci95": [
+       -27.720058585760057,
+       191.5425909474352
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   }
+  },
+  "tvs | LG": {
+   "all": {
+    "models": 38,
+    "share_premium_pp": {
+     "mean": 7.591784610012849,
+     "mean_ci95": [
+      4.877928040732708,
+      11.004948516602308
+     ],
+     "median": 6.20441651980895,
+     "median_ci95": [
+      3.12778941311322,
+      11.158502277518688
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 12,
+     "models_beyond_tested_prices": 11,
+     "models_without_a_price_premium": 15,
+     "band_centre_usd": 1258.07,
+     "pct": {
+      "mean": 16.193505226823994,
+      "mean_ci95": [
+       -7.77899862066322,
+       25974.221996881333
+      ],
+      "median": 9.581260729612383,
+      "median_ci95": [
+       -13.188816474785224,
+       47.34639083271948
+      ]
+     },
+     "usd": {
+      "mean": 203.72563120710458,
+      "mean_ci95": [
+       -97.86524794697776,
+       326773.89467616496
+      ],
+      "median": 120.5389668610345,
+      "median_ci95": [
+       -165.92454342433044,
+       595.6507391491939
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "claude": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 6.464097918754095,
+     "mean_ci95": [
+      -3.284997910403878,
+      20.954799706375095
+     ],
+     "median": 2.9978624226788626,
+     "median_ci95": [
+      -5.985908239404117,
+      25.648206539149303
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 1258.07,
+     "pct": {
+      "mean": 21.447453041018168,
+      "mean_ci95": [
+       -7.189994710326645,
+       64.14149151142162
+      ],
+      "median": 9.581260729612383,
+      "median_ci95": [
+       -12.573115094645823,
+       74.96101148403757
+      ]
+     },
+     "usd": {
+      "mean": 269.82397247313725,
+      "mean_ci95": [
+       -90.45516645220641,
+       806.9448622577419
+      ],
+      "median": 120.5389668610345,
+      "median_ci95": [
+       -158.1785890712107,
+       943.0619971772314
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "gpt": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 1.833558729883347,
+     "mean_ci95": [
+      -9.034020057496251,
+      16.083384686604344
+     ],
+     "median": -0.3349704515124299,
+     "median_ci95": [
+      -11.367260616013336,
+      19.59800535380346
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 1258.07,
+     "pct": {
+      "mean": 7.046058095250668,
+      "mean_ci95": [
+       -13.506459474445474,
+       48.25027365681695
+      ],
+      "median": 8.180443051224103,
+      "median_ci95": [
+       -18.661673514951445,
+       54.21730608734165
+      ]
+     },
+     "usd": {
+      "mean": 88.64434307892009,
+      "mean_ci95": [
+       -169.92071471015618,
+       607.0222177943169
+      ],
+      "median": 102.91569989453507,
+      "median_ci95": [
+       -234.77691598954962,
+       682.091662693019
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "open": {
+    "models": 30,
+    "share_premium_pp": {
+     "mean": 8.50990628619795,
+     "mean_ci95": [
+      5.643575123421766,
+      11.865282178012052
+     ],
+     "median": 7.001418362173656,
+     "median_ci95": [
+      3.465658129351583,
+      12.009483053014215
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 11,
+     "models_without_a_price_premium": 15,
+     "band_centre_usd": 1258.07,
+     "pct": {
+      "mean": 20.087004544203147,
+      "mean_ci95": [
+       -33.255880267884116,
+       358595.5638285116
+      ],
+      "median": 22.37766383262597,
+      "median_ci95": [
+       -45.38948029020647,
+       2763.967018192094
+      ]
+     },
+     "usd": {
+      "mean": 252.7085780692565,
+      "mean_ci95": [
+       -418.3822528861697,
+       4511383.209857356
+      ],
+      "median": 281.52667537911753,
+      "median_ci95": [
+       -571.0314346870005,
+       34772.63986576928
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   }
+  },
+  "tvs | Samsung": {
+   "all": {
+    "models": 38,
+    "share_premium_pp": {
+     "mean": 14.365776513009285,
+     "mean_ci95": [
+      10.376755249262288,
+      19.575474545727477
+     ],
+     "median": 10.524212023519752,
+     "median_ci95": [
+      6.938464083693248,
+      15.992020617407572
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 20,
+     "models_beyond_tested_prices": 4,
+     "models_without_a_price_premium": 14,
+     "band_centre_usd": 378.0,
+     "pct": {
+      "mean": 144.08715480216486,
+      "mean_ci95": [
+       96.64794761225806,
+       506.0454654948066
+      ],
+      "median": 126.22316018506339,
+      "median_ci95": [
+       59.8458228352914,
+       198.17896282578064
+      ]
+     },
+     "usd": {
+      "mean": 544.6494451521831,
+      "mean_ci95": [
+       365.32924197433545,
+       1912.8518595703688
+      ],
+      "median": 477.1235454995396,
+      "median_ci95": [
+       226.21721031740148,
+       749.1164794814508
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "claude": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 27.0961396881717,
+     "mean_ci95": [
+      15.961771450376936,
+      43.25782045462042
+     ],
+     "median": 24.03247729201244,
+     "median_ci95": [
+      12.890898331696931,
+      49.37316821247117
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 378.0,
+     "pct": {
+      "mean": 94.72449198428416,
+      "mean_ci95": [
+       39.92411453455011,
+       170.55784217672263
+      ],
+      "median": 81.4407461663792,
+      "median_ci95": [
+       26.568639947809157,
+       194.52018872487145
+      ]
+     },
+     "usd": {
+      "mean": 358.0585797005941,
+      "mean_ci95": [
+       150.91315294059942,
+       644.7086434280116
+      ],
+      "median": 307.8460205089134,
+      "median_ci95": [
+       100.42945900271862,
+       735.286313380014
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "gpt": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 35.699150929058746,
+     "mean_ci95": [
+      17.509740884632194,
+      54.26068586329861
+     ],
+     "median": 40.195189763037035,
+     "median_ci95": [
+      8.4650735264512,
+      58.10562034186569
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 378.0,
+     "pct": {
+      "mean": 63.23393126454976,
+      "mean_ci95": [
+       33.50950192136105,
+       96.89510040271269
+      ],
+      "median": 55.38570972427526,
+      "median_ci95": [
+       28.585334375033373,
+       108.79136932890309
+      ]
+     },
+     "usd": {
+      "mean": 239.0242601799981,
+      "mean_ci95": [
+       126.66591726274477,
+       366.263479522254
+      ],
+      "median": 209.35798275776048,
+      "median_ci95": [
+       108.05256393762615,
+       411.2313760632537
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "open": {
+    "models": 30,
+    "share_premium_pp": {
+     "mean": 9.823944834181038,
+     "mean_ci95": [
+      6.888811576152669,
+      13.296332979455652
+     ],
+     "median": 8.877070334711988,
+     "median_ci95": [
+      4.824330361910587,
+      12.84045302660765
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 12,
+     "models_beyond_tested_prices": 4,
+     "models_without_a_price_premium": 14,
+     "band_centre_usd": 378.0,
+     "pct": {
+      "mean": 187.4924502539968,
+      "mean_ci95": [
+       111.22966272245485,
+       783.7785013478801
+      ],
+      "median": 175.9982550954681,
+      "median_ci95": [
+       87.51675510592196,
+       301.1205605463499
+      ]
+     },
+     "usd": {
+      "mean": 708.7214619601078,
+      "mean_ci95": [
+       420.44812509087933,
+       2962.682735094987
+      ],
+      "median": 665.2734042608695,
+      "median_ci95": [
+       330.813334300385,
+       1138.2357188652027
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   }
+  },
+  "tvs | Sony": {
+   "all": {
+    "models": 38,
+    "share_premium_pp": {
+     "mean": 13.974718260163836,
+     "mean_ci95": [
+      10.83408071439909,
+      18.32155114749173
+     ],
+     "median": 14.159072351379118,
+     "median_ci95": [
+      8.730593254242832,
+      18.54456053933608
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 7,
+     "models_beyond_tested_prices": 11,
+     "models_without_a_price_premium": 20,
+     "band_centre_usd": 1198.0,
+     "pct": {
+      "mean": 37.47056396780319,
+      "mean_ci95": [
+       12.076317252189227,
+       185.52263440778992
+      ],
+      "median": 35.449491018357016,
+      "median_ci95": [
+       10.829946551987769,
+       85.83646267110593
+      ]
+     },
+     "usd": {
+      "mean": 448.89735633428216,
+      "mean_ci95": [
+       144.67428068122695,
+       2222.561160205323
+      ],
+      "median": 424.68490239991706,
+      "median_ci95": [
+       129.74275969281348,
+       1028.320822799849
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "claude": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 20.96982298449363,
+     "mean_ci95": [
+      9.873328625725122,
+      38.25496670663459
+     ],
+     "median": 17.145118706156598,
+     "median_ci95": [
+      7.292923857243335,
+      45.30314856124745
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 3,
+     "models_beyond_tested_prices": 1,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 1198.0,
+     "pct": {
+      "mean": 45.79215880214219,
+      "mean_ci95": [
+       15.118524353820996,
+       91.53191182123713
+      ],
+      "median": 37.57421288734646,
+      "median_ci95": [
+       9.139322446867244,
+       115.22803685456498
+      ]
+     },
+     "usd": {
+      "mean": 548.5900624496635,
+      "mean_ci95": [
+       181.11992175877552,
+       1096.5523036184209
+      ],
+      "median": 450.1390703904106,
+      "median_ci95": [
+       109.48908291346957,
+       1380.4318815176885
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "gpt": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 19.5802793463324,
+     "mean_ci95": [
+      8.518062696378513,
+      34.835348281025
+     ],
+     "median": 17.658164044858438,
+     "median_ci95": [
+      6.147505376208962,
+      38.51468795718053
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 3,
+     "models_beyond_tested_prices": 1,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 1198.0,
+     "pct": {
+      "mean": 29.822660116612912,
+      "mean_ci95": [
+       7.968345598433024,
+       60.493796806715196
+      ],
+      "median": 21.484479721474912,
+      "median_ci95": [
+       2.8761325187276165,
+       71.13074485869598
+      ]
+     },
+     "usd": {
+      "mean": 357.2754681970227,
+      "mean_ci95": [
+       95.46078026922764,
+       724.715685744448
+      ],
+      "median": 257.3840670632694,
+      "median_ci95": [
+       34.45606757435685,
+       852.1463234071779
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "open": {
+    "models": 30,
+    "share_premium_pp": {
+     "mean": 12.294629485430717,
+     "mean_ci95": [
+      9.186218084805844,
+      16.348110611009066
+     ],
+     "median": 11.779516442707958,
+     "median_ci95": [
+      6.393556442941357,
+      17.525147458745494
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 1,
+     "models_beyond_tested_prices": 9,
+     "models_without_a_price_premium": 20,
+     "band_centre_usd": 1198.0,
+     "pct": {
+      "mean": 35.449491018357016,
+      "mean_ci95": [
+       -42.90466893152831,
+       1014.9711380768022
+      ],
+      "median": 35.449491018357016,
+      "median_ci95": [
+       -42.90466893152831,
+       1014.9711380768022
+      ]
+     },
+     "usd": {
+      "mean": 424.68490239991706,
+      "mean_ci95": [
+       -513.9979337997092,
+       12159.35423416009
+      ],
+      "median": 424.68490239991706,
+      "median_ci95": [
+       -513.9979337997092,
+       12159.35423416009
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   }
+  },
+  "tvs | Vizio": {
+   "all": {
+    "models": 38,
+    "share_premium_pp": {
+     "mean": 9.91899831289939,
+     "mean_ci95": [
+      6.86357793718768,
+      14.326483464156373
+     ],
+     "median": 7.381055085862845,
+     "median_ci95": [
+      3.9320380679644624,
+      12.20877144141018
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 24,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 14,
+     "band_centre_usd": 278.0,
+     "pct": {
+      "mean": 104.26737609527963,
+      "mean_ci95": [
+       69.56766515778409,
+       208.28308136744093
+      ],
+      "median": 87.72522645307019,
+      "median_ci95": [
+       40.64770498040283,
+       141.76607637647675
+      ]
+     },
+     "usd": {
+      "mean": 289.8633055448774,
+      "mean_ci95": [
+       193.39810913863977,
+       579.0269662014857
+      ],
+      "median": 243.87612953953513,
+      "median_ci95": [
+       113.00061984551986,
+       394.10969232660534
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "claude": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 22.190638781446815,
+     "mean_ci95": [
+      12.50786454616335,
+      37.25624644671774
+     ],
+     "median": 18.34645266168015,
+     "median_ci95": [
+      10.184239035587606,
+      42.998924901443694
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 278.0,
+     "pct": {
+      "mean": 78.53242091798923,
+      "mean_ci95": [
+       30.707451521040174,
+       140.8034439409699
+      ],
+      "median": 67.62667467453181,
+      "median_ci95": [
+       24.173957537972925,
+       154.83545667601595
+      ]
+     },
+     "usd": {
+      "mean": 218.32013015201005,
+      "mean_ci95": [
+       85.36671522849169,
+       391.43357415589634
+      ],
+      "median": 188.00215559519845,
+      "median_ci95": [
+       67.20360195556472,
+       430.44256955932434
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "gpt": {
+    "models": 4,
+    "share_premium_pp": {
+     "mean": 26.341362749404105,
+     "mean_ci95": [
+      14.684955683845317,
+      42.18523763899505
+     ],
+     "median": 28.055651224460256,
+     "median_ci95": [
+      9.194958248366124,
+      45.77728429242404
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 4,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 0,
+     "band_centre_usd": 278.0,
+     "pct": {
+      "mean": 60.54692730809418,
+      "mean_ci95": [
+       29.459919591523565,
+       97.92723415050911
+      ],
+      "median": 48.7309388884446,
+      "median_ci95": [
+       24.16729601341856,
+       108.83429415116751
+      ]
+     },
+     "usd": {
+      "mean": 168.32045791650182,
+      "mean_ci95": [
+       81.89857646443551,
+       272.2377109384153
+      ],
+      "median": 135.47201010987598,
+      "median_ci95": [
+       67.1850829173036,
+       302.55933774024567
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   },
+   "open": {
+    "models": 30,
+    "share_premium_pp": {
+     "mean": 6.093130992225772,
+     "mean_ci95": [
+      3.932942606516055,
+      8.546015247685865
+     ],
+     "median": 4.61253289327533,
+     "median_ci95": [
+      2.36566049382519,
+      9.091559617843927
+     ]
+    },
+    "price_premium": {
+     "models_inside_tested_prices": 16,
+     "models_beyond_tested_prices": 0,
+     "models_without_a_price_premium": 14,
+     "band_centre_usd": 278.0,
+     "pct": {
+      "mean": 121.6312270863986,
+      "mean_ci95": [
+       72.84097505333735,
+       275.6689108389424
+      ],
+      "median": 108.62560057898109,
+      "median_ci95": [
+       48.68740836489397,
+       209.18078883133805
+      ]
+     },
+     "usd": {
+      "mean": 338.13481130018806,
+      "mean_ci95": [
+       202.49791064827784,
+       766.3595721322599
+      ],
+      "median": 301.9791696095674,
+      "median_ci95": [
+       135.35099525440523,
+       581.5225929511198
+      ]
+     },
+     "median_inside_tested_prices": true
+    }
+   }
+  }
+ }
+}

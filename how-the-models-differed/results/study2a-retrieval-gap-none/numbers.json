@@ -1,0 +1,146 @@
+{
+ "study": "study2a-retrieval-gap-none",
+ "label": "Study 2a (review pages), the name gap with no evidence",
+ "units": "points",
+ "direction": 1,
+ "input": {
+  "file": "study2a-experience-attributes-stated-for-every-product/results/retrieval/all-models/per_model.csv",
+  "sha256": "723acce1a1fc88794b6e6a5a2e1c1e3c160718c0fe8e64438244bd1834638f82",
+  "model_col": "model",
+  "est_col": "estimate_pp",
+  "se": "se_pp",
+  "filter": [
+   "quantity=name gap g(e)",
+   "level=none"
+  ],
+  "scale": 1.0
+ },
+ "plan": "how-the-models-differed/materials/analysis_plan.md",
+ "result": {
+  "models": 35,
+  "predicted_direction": 1,
+  "share_in_predicted_direction": 0.9143,
+  "models_in_predicted_direction": 32,
+  "models_above_zero": 32,
+  "models_below_zero": 2,
+  "share_interval_excludes_zero": 0.4286,
+  "models_interval_excludes_zero": 15,
+  "random_effects": {
+   "estimate": 6.2406,
+   "ci95": [
+    4.472,
+    8.0092
+   ],
+   "p_two_sided": 4.643282568739955e-12,
+   "tau": 4.2526,
+   "tau2": 18.0845,
+   "i2": 0.6833,
+   "q": 95.041,
+   "df": 34,
+   "q_p_value": 1.1053885277274861e-07,
+   "prediction_interval_95": [
+    -2.604,
+    15.0852
+   ],
+   "tau_estimator": "REML",
+   "checks": {
+    "tau_dersimonian_laird": 3.8794,
+    "tau_paule_mandel": 4.8748
+   }
+  },
+  "models_without_characteristics": [],
+  "moderators": {
+   "chat-tuned against base": {
+    "estimable": false,
+    "reason": "one value"
+   },
+   "size (log10 total parameters)": {
+    "estimable": true,
+    "models": 31,
+    "coefficient": 2.6775,
+    "ci95": [
+     -0.8772,
+     6.2321
+    ],
+    "p_two_sided": 0.13985328812353615,
+    "residual_tau": 3.0227,
+    "holm": 0.13985328812353615
+   },
+   "release date (years)": {
+    "estimable": true,
+    "models": 35,
+    "coefficient": 3.7691,
+    "ci95": [
+     1.248,
+     6.2901
+    ],
+    "p_two_sided": 0.003386440721267742,
+    "residual_tau": 3.6445,
+    "holm": 0.010159322163803226
+   },
+   "open against closed weights": {
+    "estimable": true,
+    "models": 35,
+    "coefficient": -9.3681,
+    "ci95": [
+     -14.8695,
+     -3.8667
+    ],
+    "p_two_sided": 0.0008450413787999576,
+    "residual_tau": 3.4522,
+    "holm": 0.0033801655151998304
+   },
+   "reasoning on against off": {
+    "estimable": false,
+    "reason": "one value"
+   },
+   "developer": {
+    "estimable": true,
+    "models": 35,
+    "developers": 13,
+    "wald_chi2": 21.89,
+    "df": 12,
+    "p_two_sided": 0.03877424379688642,
+    "residual_tau": 3.7265,
+    "models_by_developer": {
+     "Alibaba": 13,
+     "Allen AI": 2,
+     "Anthropic": 4,
+     "Baidu": 1,
+     "Google": 4,
+     "IBM": 2,
+     "Marin": 1,
+     "Meta": 2,
+     "Microsoft": 1,
+     "Mistral": 1,
+     "NVIDIA": 1,
+     "OpenAI": 2,
+     "Zhipu": 1
+    },
+    "holm": 0.07754848759377284
+   }
+  },
+  "models_left_out_interval_of_zero_width": [],
+  "models_left_out_not_estimable": []
+ },
+ "args": {
+  "study": "study2a-retrieval-gap-none",
+  "label": "Study 2a (review pages), the name gap with no evidence",
+  "input": "study2a-experience-attributes-stated-for-every-product/results/retrieval/all-models/per_model.csv",
+  "model_col": "model",
+  "est_col": "estimate_pp",
+  "se_col": "se_pp",
+  "low_col": "ci95_low_pp",
+  "high_col": "ci95_high_pp",
+  "direction": 1,
+  "units": "points",
+  "filter": [
+   "quantity=name gap g(e)",
+   "level=none"
+  ],
+  "scale": 1.0,
+  "reliability_col": null,
+  "reliability_min": 0.5,
+  "reason_col": null
+ }
+}

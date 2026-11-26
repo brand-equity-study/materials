@@ -1,0 +1,789 @@
+{
+ "build": "r1",
+ "panel": "claude",
+ "answers": 5760,
+ "parse": {
+  "claude-fable-5-1 first-line": 1440,
+  "claude-haiku-5-5 first-line": 1440,
+  "claude-opus-5-5 first-line": 1440,
+  "claude-sonnet-5-5 first-line": 1440,
+  "claude-fable-5-1 decline": 0,
+  "claude-haiku-5-5 decline": 0,
+  "claude-opus-5-5 decline": 0,
+  "claude-sonnet-5-5 decline": 0
+ },
+ "models": [
+  "claude-fable-5-1",
+  "claude-haiku-5-5",
+  "claude-opus-5-5",
+  "claude-sonnet-5-5"
+ ],
+ "left_out": {},
+ "bootstrap": {
+  "draws": 10000,
+  "seed": 20261120,
+  "clusters": "tables and models, resampled independently"
+ },
+ "share of the best product": {
+  "none hidden": 0.8604166666666666,
+  "none original": 0.7,
+  "none crossed": 0.7979166666666666,
+  "positive hidden": 0.8479166666666667,
+  "positive original": 0.7458333333333333,
+  "positive crossed": 0.7958333333333334,
+  "mixed hidden": 0.8208333333333333,
+  "mixed original": 0.7479166666666667,
+  "mixed crossed": 0.8020833333333333,
+  "negative hidden": 0.7979166666666666,
+  "negative original": 0.6854166666666667,
+  "negative crossed": 0.7520833333333333
+ },
+ "name gap g(e)": {
+  "none": {
+   "pooled": 0.16041666666666668,
+   "per_model": {
+    "claude-fable-5-1": 0.2916666666666667,
+    "claude-haiku-5-5": 0.13333333333333333,
+    "claude-opus-5-5": 0.08333333333333333,
+    "claude-sonnet-5-5": 0.13333333333333333
+   },
+   "tables_per_model": {
+    "claude-fable-5-1": 30,
+    "claude-haiku-5-5": 30,
+    "claude-opus-5-5": 30,
+    "claude-sonnet-5-5": 30
+   },
+   "interval": {
+    "low95": 0.06875,
+    "high95": 0.26875,
+    "low90": 0.08125,
+    "high90": 0.25,
+    "p_two_sided": 0.0,
+    "draws": 10000
+   }
+  },
+  "positive": {
+   "pooled": 0.10208333333333333,
+   "per_model": {
+    "claude-fable-5-1": 0.225,
+    "claude-haiku-5-5": 0.09166666666666666,
+    "claude-opus-5-5": 0.041666666666666664,
+    "claude-sonnet-5-5": 0.05
+   },
+   "tables_per_model": {
+    "claude-fable-5-1": 30,
+    "claude-haiku-5-5": 30,
+    "claude-opus-5-5": 30,
+    "claude-sonnet-5-5": 30
+   },
+   "interval": {
+    "low95": 0.03333333333333333,
+    "high95": 0.20416666666666666,
+    "low90": 0.03958333333333333,
+    "high90": 0.1834374999999985,
+    "p_two_sided": 0.0012,
+    "draws": 10000
+   }
+  },
+  "mixed": {
+   "pooled": 0.07291666666666667,
+   "per_model": {
+    "claude-fable-5-1": 0.2,
+    "claude-haiku-5-5": 0.03333333333333333,
+    "claude-opus-5-5": 0.06666666666666667,
+    "claude-sonnet-5-5": -0.008333333333333333
+   },
+   "tables_per_model": {
+    "claude-fable-5-1": 30,
+    "claude-haiku-5-5": 30,
+    "claude-opus-5-5": 30,
+    "claude-sonnet-5-5": 30
+   },
+   "interval": {
+    "low95": -0.00625,
+    "high95": 0.18125,
+    "low90": 0.004166666666666667,
+    "high90": 0.16041666666666668,
+    "p_two_sided": 0.0808,
+    "draws": 10000
+   }
+  },
+  "negative": {
+   "pooled": 0.1125,
+   "per_model": {
+    "claude-fable-5-1": 0.13333333333333333,
+    "claude-haiku-5-5": 0.125,
+    "claude-opus-5-5": 0.09166666666666666,
+    "claude-sonnet-5-5": 0.1
+   },
+   "tables_per_model": {
+    "claude-fable-5-1": 30,
+    "claude-haiku-5-5": 30,
+    "claude-opus-5-5": 30,
+    "claude-sonnet-5-5": 30
+   },
+   "interval": {
+    "low95": 0.05,
+    "high95": 0.18749999999999997,
+    "low90": 0.06041666666666666,
+    "high90": 0.17291666666666666,
+    "p_two_sided": 0.0004,
+    "draws": 10000
+   }
+  }
+ },
+ "change D(e) = g(e) - g(none)": {
+  "positive": {
+   "pooled": -0.058333333333333334,
+   "per_model": {
+    "claude-fable-5-1": -0.06666666666666667,
+    "claude-haiku-5-5": -0.041666666666666664,
+    "claude-opus-5-5": -0.041666666666666664,
+    "claude-sonnet-5-5": -0.08333333333333333
+   },
+   "tables_per_model": {
+    "claude-fable-5-1": 30,
+    "claude-haiku-5-5": 30,
+    "claude-opus-5-5": 30,
+    "claude-sonnet-5-5": 30
+   },
+   "interval": {
+    "low95": -0.12291666666666666,
+    "high95": -0.008333333333333335,
+    "low90": -0.10833333333333334,
+    "high90": -0.016666666666666666,
+    "p_two_sided": 0.0208,
+    "draws": 10000
+   },
+   "holm": 0.104
+  },
+  "mixed": {
+   "pooled": -0.0875,
+   "per_model": {
+    "claude-fable-5-1": -0.09166666666666666,
+    "claude-haiku-5-5": -0.1,
+    "claude-opus-5-5": -0.016666666666666666,
+    "claude-sonnet-5-5": -0.14166666666666666
+   },
+   "tables_per_model": {
+    "claude-fable-5-1": 30,
+    "claude-haiku-5-5": 30,
+    "claude-opus-5-5": 30,
+    "claude-sonnet-5-5": 30
+   },
+   "interval": {
+    "low95": -0.17083333333333334,
+    "high95": -0.020833333333333336,
+    "low90": -0.15416666666666667,
+    "high90": -0.03125,
+    "p_two_sided": 0.0068,
+    "draws": 10000
+   },
+   "holm": 0.040799999999999996
+  },
+  "negative": {
+   "pooled": -0.04791666666666666,
+   "per_model": {
+    "claude-fable-5-1": -0.15833333333333333,
+    "claude-haiku-5-5": -0.008333333333333333,
+    "claude-opus-5-5": 0.008333333333333333,
+    "claude-sonnet-5-5": -0.03333333333333333
+   },
+   "tables_per_model": {
+    "claude-fable-5-1": 30,
+    "claude-haiku-5-5": 30,
+    "claude-opus-5-5": 30,
+    "claude-sonnet-5-5": 30
+   },
+   "interval": {
+    "low95": -0.14166666666666666,
+    "high95": 0.03333333333333333,
+    "low90": -0.125,
+    "high90": 0.020833333333333336,
+    "p_two_sided": 0.2966,
+    "draws": 10000
+   },
+   "holm": 0.7812000000000001
+  }
+ },
+ "familiar gain I(e)": {
+  "positive": {
+   "pooled": -0.04791666666666666,
+   "per_model": {
+    "claude-fable-5-1": -0.10833333333333334,
+    "claude-haiku-5-5": 0.016666666666666666,
+    "claude-opus-5-5": -0.016666666666666666,
+    "claude-sonnet-5-5": -0.08333333333333333
+   },
+   "tables_per_model": {
+    "claude-fable-5-1": 30,
+    "claude-haiku-5-5": 30,
+    "claude-opus-5-5": 30,
+    "claude-sonnet-5-5": 30
+   },
+   "interval": {
+    "low95": -0.11666666666666667,
+    "high95": 0.01458333333333333,
+    "low90": -0.10208333333333333,
+    "high90": 0.004166666666666665,
+    "p_two_sided": 0.1298,
+    "draws": 10000
+   },
+   "holm": 0.5192
+  },
+  "mixed": {
+   "pooled": -0.04375,
+   "per_model": {
+    "claude-fable-5-1": -0.10833333333333334,
+    "claude-haiku-5-5": -0.008333333333333333,
+    "claude-opus-5-5": 0.025,
+    "claude-sonnet-5-5": -0.08333333333333333
+   },
+   "tables_per_model": {
+    "claude-fable-5-1": 30,
+    "claude-haiku-5-5": 30,
+    "claude-opus-5-5": 30,
+    "claude-sonnet-5-5": 30
+   },
+   "interval": {
+    "low95": -0.12708333333333333,
+    "high95": 0.02708333333333334,
+    "low90": -0.11041666666666666,
+    "high90": 0.016666666666666666,
+    "p_two_sided": 0.2604,
+    "draws": 10000
+   },
+   "holm": 0.7812000000000001
+  },
+  "negative": {
+   "pooled": -0.03125000000000001,
+   "per_model": {
+    "claude-fable-5-1": -0.19166666666666668,
+    "claude-haiku-5-5": 0.03333333333333333,
+    "claude-opus-5-5": 0.041666666666666664,
+    "claude-sonnet-5-5": -0.008333333333333333
+   },
+   "tables_per_model": {
+    "claude-fable-5-1": 30,
+    "claude-haiku-5-5": 30,
+    "claude-opus-5-5": 30,
+    "claude-sonnet-5-5": 30
+   },
+   "interval": {
+    "low95": -0.15000000000000002,
+    "high95": 0.06666666666666667,
+    "low90": -0.12916666666666668,
+    "high90": 0.05416666666666666,
+    "p_two_sided": 0.6236,
+    "draws": 10000
+   },
+   "holm": 0.7812000000000001
+  }
+ },
+ "crossed boost s_crossed(e) - s_hidden(e)": {
+  "none": {
+   "pooled": -0.0625,
+   "per_model": {
+    "claude-fable-5-1": -0.03333333333333333,
+    "claude-haiku-5-5": -0.10833333333333334,
+    "claude-opus-5-5": -0.058333333333333334,
+    "claude-sonnet-5-5": -0.05
+   },
+   "tables_per_model": {
+    "claude-fable-5-1": 30,
+    "claude-haiku-5-5": 30,
+    "claude-opus-5-5": 30,
+    "claude-sonnet-5-5": 30
+   },
+   "interval": {
+    "low95": -0.15,
+    "high95": 0.0,
+    "low90": -0.13333333333333333,
+    "high90": -0.00822916666666818,
+    "p_two_sided": 0.0526,
+    "draws": 10000
+   }
+  },
+  "positive": {
+   "pooled": -0.052083333333333336,
+   "per_model": {
+    "claude-fable-5-1": -0.075,
+    "claude-haiku-5-5": -0.05,
+    "claude-opus-5-5": -0.03333333333333333,
+    "claude-sonnet-5-5": -0.05
+   },
+   "tables_per_model": {
+    "claude-fable-5-1": 30,
+    "claude-haiku-5-5": 30,
+    "claude-opus-5-5": 30,
+    "claude-sonnet-5-5": 30
+   },
+   "interval": {
+    "low95": -0.12708333333333333,
+    "high95": -0.002083333333333333,
+    "low90": -0.1125,
+    "high90": -0.00625,
+    "p_two_sided": 0.0486,
+    "draws": 10000
+   }
+  },
+  "mixed": {
+   "pooled": -0.01875,
+   "per_model": {
+    "claude-fable-5-1": -0.05,
+    "claude-haiku-5-5": -0.016666666666666666,
+    "claude-opus-5-5": -0.016666666666666666,
+    "claude-sonnet-5-5": 0.008333333333333333
+   },
+   "tables_per_model": {
+    "claude-fable-5-1": 30,
+    "claude-haiku-5-5": 30,
+    "claude-opus-5-5": 30,
+    "claude-sonnet-5-5": 30
+   },
+   "interval": {
+    "low95": -0.08333333333333334,
+    "high95": 0.029166666666666667,
+    "low90": -0.07083333333333333,
+    "high90": 0.02291666666666667,
+    "p_two_sided": 0.5426,
+    "draws": 10000
+   }
+  },
+  "negative": {
+   "pooled": -0.04583333333333334,
+   "per_model": {
+    "claude-fable-5-1": -0.06666666666666667,
+    "claude-haiku-5-5": -0.06666666666666667,
+    "claude-opus-5-5": -0.025,
+    "claude-sonnet-5-5": -0.025
+   },
+   "tables_per_model": {
+    "claude-fable-5-1": 30,
+    "claude-haiku-5-5": 30,
+    "claude-opus-5-5": 30,
+    "claude-sonnet-5-5": 30
+   },
+   "interval": {
+    "low95": -0.12083333333333332,
+    "high95": 0.008333333333333333,
+    "low90": -0.10416666666666667,
+    "high90": 0.0,
+    "p_two_sided": 0.1062,
+    "draws": 10000
+   }
+  }
+ },
+ "change with names hidden s_hidden(e) - s_hidden(none)": {
+  "positive": {
+   "pooled": -0.0125,
+   "per_model": {
+    "claude-fable-5-1": 0.016666666666666666,
+    "claude-haiku-5-5": -0.03333333333333333,
+    "claude-opus-5-5": 0.0,
+    "claude-sonnet-5-5": -0.03333333333333333
+   },
+   "tables_per_model": {
+    "claude-fable-5-1": 30,
+    "claude-haiku-5-5": 30,
+    "claude-opus-5-5": 30,
+    "claude-sonnet-5-5": 30
+   },
+   "interval": {
+    "low95": -0.05,
+    "high95": 0.018750000000000003,
+    "low90": -0.04166666666666667,
+    "high90": 0.0125,
+    "p_two_sided": 0.4946,
+    "draws": 10000
+   }
+  },
+  "mixed": {
+   "pooled": -0.03958333333333333,
+   "per_model": {
+    "claude-fable-5-1": 0.05,
+    "claude-haiku-5-5": -0.08333333333333333,
+    "claude-opus-5-5": -0.025,
+    "claude-sonnet-5-5": -0.1
+   },
+   "tables_per_model": {
+    "claude-fable-5-1": 30,
+    "claude-haiku-5-5": 30,
+    "claude-opus-5-5": 30,
+    "claude-sonnet-5-5": 30
+   },
+   "interval": {
+    "low95": -0.11458333333333333,
+    "high95": 0.031302083333332585,
+    "low90": -0.1,
+    "high90": 0.020833333333333332,
+    "p_two_sided": 0.2726,
+    "draws": 10000
+   }
+  },
+  "negative": {
+   "pooled": -0.0625,
+   "per_model": {
+    "claude-fable-5-1": 0.025,
+    "claude-haiku-5-5": -0.09166666666666666,
+    "claude-opus-5-5": -0.03333333333333333,
+    "claude-sonnet-5-5": -0.15
+   },
+   "tables_per_model": {
+    "claude-fable-5-1": 30,
+    "claude-haiku-5-5": 30,
+    "claude-opus-5-5": 30,
+    "claude-sonnet-5-5": 30
+   },
+   "interval": {
+    "low95": -0.15,
+    "high95": 0.008333333333333333,
+    "low90": -0.13333333333333333,
+    "high90": -0.002083333333333333,
+    "p_two_sided": 0.095,
+    "draws": 10000
+   }
+  }
+ },
+ "declines": {
+  "definition": "common/decline.py",
+  "source": {
+   "export": "study2a-experience-attributes-stated-for-every-product/data/retrieval/open-letters.csv.gz",
+   "export_sha256": "81ccef666bd223d14493a346e79c6ad45fe4f63b3d2f90df4fbcd5f62260ba98",
+   "local answers": [
+    "study2a-experience-attributes-stated-for-every-product/data/retrieval/claude/*.jsonl.gz"
+   ]
+  },
+  "by model": {
+   "claude-fable-5-1": {
+    "answers": 1440,
+    "pick": 1440,
+    "decline": 0,
+    "unread": 0
+   },
+   "claude-haiku-5-5": {
+    "answers": 1440,
+    "pick": 1440,
+    "decline": 0,
+    "unread": 0
+   },
+   "claude-opus-5-5": {
+    "answers": 1440,
+    "pick": 1440,
+    "decline": 0,
+    "unread": 0
+   },
+   "claude-sonnet-5-5": {
+    "answers": 1440,
+    "pick": 1440,
+    "decline": 0,
+    "unread": 0
+   }
+  },
+  "share by arm and name version": {
+   "claude-fable-5-1": {
+    "mixed": {
+     "crossed": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "negative": {
+     "crossed": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "none": {
+     "crossed": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "positive": {
+     "crossed": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     }
+    }
+   },
+   "claude-haiku-5-5": {
+    "mixed": {
+     "crossed": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "negative": {
+     "crossed": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "none": {
+     "crossed": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "positive": {
+     "crossed": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     }
+    }
+   },
+   "claude-opus-5-5": {
+    "mixed": {
+     "crossed": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "negative": {
+     "crossed": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "none": {
+     "crossed": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "positive": {
+     "crossed": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     }
+    }
+   },
+   "claude-sonnet-5-5": {
+    "mixed": {
+     "crossed": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "negative": {
+     "crossed": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "none": {
+     "crossed": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "positive": {
+     "crossed": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 120,
+      "declines": 0,
+      "share": 0.0
+     }
+    }
+   }
+  },
+  "mean of the models' shares by arm and name version": {
+   "mixed": {
+    "crossed": 0.0,
+    "hidden": 0.0,
+    "original": 0.0
+   },
+   "negative": {
+    "crossed": 0.0,
+    "hidden": 0.0,
+    "original": 0.0
+   },
+   "none": {
+    "crossed": 0.0,
+    "hidden": 0.0,
+    "original": 0.0
+   },
+   "positive": {
+    "crossed": 0.0,
+    "hidden": 0.0,
+    "original": 0.0
+   }
+  },
+  "mean over": "the record's estimated models (its models), not those left out"
+ }
+}

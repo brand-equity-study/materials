@@ -1,0 +1,197 @@
+table,brand,text,kind,points_to,product
+backpacks_01,The North Face,FlexVent,3 feature,The North Face
+blenders_01,Ninja,Auto-iQ,3 feature,Ninja
+blenders_01,Hamilton Beach,wave-action system,3 feature,Hamilton Beach
+cameras_01,Nikon,EXPEED 6,3 feature,Nikon
+cameras_01,Sony,Real-time Eye AF,3 feature,Sony
+cameras_01,Canon,Dual Pixel CMOS AF II,3 feature,Canon
+cameras_01,Canon,the manufacturer reliability + lens ecosystem,4 copy,Canon
+cameras_01,Fujifilm,X-Trans,3 feature,Fujifilm
+cameras_01,Fujifilm,film simulation modes,3 feature,Fujifilm
+coffee_makers_01,Keurig,K-Cup,3 feature,Keurig
+coffee_makers_01,Cuisinart,Brew Strength Control,3 feature,Cuisinart
+coffee_makers_02,Nespresso,Centrifusion,3 feature,Nespresso
+coffee_makers_02,Breville,ThermoJet,3 feature,Breville
+coffee_makers_02,Philips,LatteGo,2 line,Philips
+coffee_makers_03,Keurig,K-Cup,3 feature,Keurig
+earbuds_01,Samsung,Galaxy AI,2 line,Samsung
+earbuds_01,Samsung,360 Audio,3 feature,Samsung
+earbuds_01,Samsung,SSC,3 feature,Samsung
+earbuds_01,Apple,H2 chip,3 feature,Apple
+earbuds_01,Apple,MagSafe,3 feature,Apple
+earbuds_01,Apple,Deep the manufacturer ecosystem integration,4 copy,Apple
+earbuds_01,Jabra,HearThrough,3 feature,Jabra
+earbuds_01,Jabra,MySound,3 feature,Jabra
+earbuds_01,Auralis,Qualcomm aptX Lossless,5 other company,Qualcomm (a component)
+earbuds_02,Samsung,SmartThings Find,3 feature,Samsung
+earbuds_02,Samsung,the manufacturer value entry,4 copy,Samsung
+earbuds_02,JBL,the manufacturer Pure Bass,4 copy,JBL
+earbuds_02,JBL,Pure Bass,3 feature,JBL
+earbuds_02,Apple,MagSafe,3 feature,Apple
+earbuds_02,Google,the manufacturer Assistant built-in,4 copy,Google
+earbuds_03,Beats,Apple H1 chip,1 brand,Apple (the owner of Beats)
+earbuds_03,Shokz,DualPitch,3 feature,Shokz
+earbuds_03,JBL,TwistLock + FlexSoft,3 feature,JBL
+earbuds_03,Sony,Extra Bass,3 feature,Sony
+electric_toothbrushes_01,Oral-B,Linear magnetic drive,3 feature,Oral-B,Oral-B iO Series 5
+electric_toothbrushes_01,Oral-B,cross-action brush head,3 feature,Oral-B,Oral-B Pro 1000
+electric_toothbrushes_01,Oral-B,3D cleaning action,3 feature,Oral-B,Oral-B Pro 1000
+external_ssds_01,Seagate,Rescue Data Recovery,3 feature,Seagate
+headphones_01,Bose,"Immersive Audio, CustomTune",3 feature,Bose
+headphones_01,Bose,Legendary the manufacturer comfort,4 copy,Bose
+headphones_02,Beats,Apple spatial audio,1 brand,Apple (the owner of Beats)
+headphones_02,Beats,Iconic the manufacturer styling,4 copy,Beats
+headphones_02,Sony,DSEE,3 feature,Sony
+headphones_02,Sony,Dual Noise Sensor,3 feature,Sony
+headphones_02,Sony,the manufacturer reliability,4 copy,Sony
+headphones_02,JBL,the manufacturer Pure Bass,4 copy,JBL
+headphones_02,JBL,Pure Bass,3 feature,JBL
+headphones_02,Bose,the manufacturer SimpleSync,4 copy,Bose
+headphones_02,Bose,SimpleSync,3 feature,Bose
+headphones_03,Bose,the manufacturer Music app,4 copy,Bose
+headphones_03,Beyerdynamic,STELLAR.45,3 feature,Beyerdynamic
+keyboards_01,Razer,Razer Green,1 brand,Razer
+keyboards_01,Razer,Chroma RGB,3 feature,Razer
+keyboards_01,Razer,the manufacturer Green switches,4 copy,Razer
+keyboards_01,HyperX,HyperX Red,1 brand,HyperX
+keyboards_01,HyperX,the manufacturer Red switches,4 copy,HyperX
+keyboards_01,Logitech,Logi Bolt,1 brand,Logitech
+keyboards_01,Corsair,iCUE,3 feature,Corsair
+keyboards_01,Corsair,Cherry MX Red,5 other company,Cherry (a component)
+keyboards_01,Keystrike,Cherry MX compatible,5 other company,Cherry (a component)
+laptops_01,HP,the manufacturer+ subscription trial,4 copy,HP
+laptops_02,Apple,Apple M2,1 brand,Apple
+laptops_02,Apple,Liquid Retina,3 feature,Apple
+laptops_02,Apple,the manufacturer M2,4 copy,Apple
+laptops_02,Dell,InfinityEdge,3 feature,Dell
+laptops_03,HP,the manufacturer brand reliability,4 copy,HP
+laptops_03,Acer,Chrome OS,5 other company,Google (an operating system)
+monitors_01,Samsung,Tizen,3 feature,Samsung
+monitors_01,Samsung,DeX,3 feature,Samsung
+monitors_01,Dell,the manufacturer reliability,4 copy,Dell
+monitors_01,LG,Affordable the manufacturer quality,4 copy,LG
+monitors_01,LG,AMD FreeSync,5 other company,AMD (a component)
+portable_speakers_01,Bose,N/A (Bose),1 brand,Bose
+portable_speakers_01,Bose,PositionIQ,3 feature,Bose
+portable_speakers_01,Bose,the manufacturer Connect app,4 copy,Bose
+portable_speakers_01,JBL,PartyBoost,3 feature,JBL
+portable_speakers_01,JBL,the manufacturer Pro Sound,4 copy,JBL
+portable_speakers_01,Sony,Sound Diffusion Processor,3 feature,Sony
+robot_vacuums_01,Dyson,Hyperdymium,3 feature,Dyson
+robot_vacuums_01,Dyson,the manufacturer Hyperdymium motor,4 copy,Dyson
+robot_vacuums_01,iRobot,PrecisionVision,3 feature,iRobot
+robot_vacuums_01,iRobot,Clean Base,3 feature,iRobot
+robot_vacuums_01,iRobot,the manufacturer OS,4 copy,iRobot
+robot_vacuums_01,Shark,Matrix Clean,3 feature,Shark
+running_shoes_01,ASICS,FF BLAST PLUS,3 feature,ASICS
+running_shoes_01,ASICS,PureGEL,3 feature,ASICS
+running_shoes_01,New Balance,Fresh Foam X,2 line,New Balance
+running_shoes_01,New Balance,Hypoknit,3 feature,New Balance
+running_shoes_01,Nike,ReactX,3 feature,Nike
+running_shoes_01,Nike,Zoom Air,3 feature,Nike
+running_shoes_01,Nike,Classic the manufacturer running shoe,4 copy,Nike
+running_shoes_01,Adidas,BOOST,3 feature,Adidas
+running_shoes_01,Adidas,Primeknit+,3 feature,Adidas
+running_shoes_01,Adidas,Continental rubber,3 feature,Adidas (Continental running outsoles are made only for Adidas)
+running_shoes_01,Stridewell,Vibram outsole,5 other company,Vibram (a component)
+running_shoes_02,Salomon,Contagrip MA,3 feature,Salomon
+running_shoes_02,Salomon,EnergyCell+,3 feature,Salomon
+running_shoes_02,Salomon,SensiFit,3 feature,Salomon
+running_shoes_02,Brooks,DNA LOFT v2,3 feature,Brooks
+running_shoes_02,Brooks,TrailTack,3 feature,Brooks
+running_shoes_02,HOKA,Vibram Megagrip,5 other company,Vibram (a component)
+running_shoes_02,Nike,React foam,3 feature,Nike
+running_shoes_03,Nike,ZoomX,3 feature,Nike
+running_shoes_03,ASICS,FF TURBO PLUS,3 feature,ASICS
+running_shoes_03,Adidas,Lightstrike Pro,3 feature,Adidas
+running_shoes_03,Adidas,EnergyRods 2.0,3 feature,Adidas
+running_shoes_03,Adidas,Continental rubber,3 feature,Adidas (Continental running outsoles are made only for Adidas)
+running_shoes_03,Saucony,PWRRUN PB,3 feature,Saucony
+running_shoes_03,Saucony,speedroll,3 feature,Saucony
+smartphones_01,Samsung,Galaxy AI,2 line,Samsung
+smartphones_01,Samsung,Dynamic AMOLED,3 feature,Samsung
+smartphones_01,Apple,Super Retina XDR,3 feature,Apple
+smartphones_01,Apple,A16 Bionic,3 feature,Apple
+smartphones_01,Apple,iOS,3 feature,Apple
+smartphones_01,OnePlus,SUPERVOOC,3 feature,OnePlus (the OPPO group)
+smartphones_01,OnePlus,Sony IMX890,5 other company,Sony (a component)
+smartphones_01,Veridian,Sony IMX890,5 other company,Sony (a component)
+smartphones_01,Google,Tensor G3,3 feature,Google
+smartphones_02,Google,Tensor G2,3 feature,Google
+smartphones_02,Google,Pure Android,3 feature,Google
+smartphones_02,Samsung,Exynos 1380,3 feature,Samsung
+smartphones_02,Samsung,Super AMOLED,3 feature,Samsung
+smartphones_02,Apple,Retina HD,3 feature,Apple
+smartphones_02,Apple,A15 Bionic,3 feature,Apple
+smartphones_02,Apple,iOS,3 feature,Apple
+smartphones_02,Motorola,TurboPower,3 feature,Motorola
+smartphones_03,Samsung,Super AMOLED,3 feature,Samsung
+smartphones_03,Samsung,Exynos 1380,3 feature,Samsung
+smartphones_03,Samsung,good the manufacturer ecosystem,4 copy,Samsung
+smartphones_03,Google,Tensor G2,3 feature,Google
+smartphones_03,Apple,Super Retina XDR,3 feature,Apple
+smartphones_03,Apple,A15 Bionic,3 feature,Apple
+smartphones_03,Apple,iOS 17,3 feature,Apple
+smartphones_03,Aurem,HyperCharge,3 feature,Xiaomi (the real maker of the product marked as best in the table)
+smartwatches_01,Apple,S9 SiP,3 feature,Apple
+smartwatches_01,Apple,always-on Retina,3 feature,Apple
+smartwatches_01,Apple,iPhone,2 line,Apple
+smartwatches_01,Samsung,Exynos W930,3 feature,Samsung
+smartwatches_01,Samsung,BioActive,3 feature,Samsung
+smartwatches_01,Samsung,Wear OS,5 other company,Google (an operating system)
+smartwatches_01,Garmin,Body Battery,3 feature,Garmin
+smartwatches_01,Garmin,the manufacturer Pay,4 copy,Garmin
+smartwatches_01,Fitbit,Google integration,1 brand,Google (the owner of Fitbit)
+smartwatches_01,Fitbit,cEDA,3 feature,Fitbit
+tablets_01,Samsung,Exynos 1380,3 feature,Samsung
+tablets_01,Samsung,S Pen,2 line,Samsung (its stylus line)
+tablets_01,Apple,Liquid Retina,3 feature,Apple
+tablets_01,Apple,A14 Bionic,3 feature,Apple
+tablets_01,Apple,the manufacturer Pencil,4 copy,Apple
+tablets_01,Lenovo,JBL,5 other company,JBL (a component)
+tablets_01,Amazon,Alexa,3 feature,Amazon
+tvs_01,Samsung,Crystal UHD,2 line,Samsung
+tvs_01,Samsung,Crystal Processor 4K,3 feature,Samsung
+tvs_01,Samsung,Smart Hub with Gaming Hub,3 feature,Samsung
+tvs_01,Samsung,the manufacturer ecosystem,4 copy,Samsung
+tvs_01,Vizio,V-Gaming Engine,3 feature,Vizio
+tvs_01,Vizio,SmartCast,3 feature,Vizio
+tvs_01,LG,a7 Gen6 AI Processor,3 feature,LG
+tvs_01,LG,webOS 23,3 feature,LG
+tvs_01,LG,ThinQ AI,3 feature,LG
+tvs_01,LG,Apple AirPlay 2,5 other company,Apple (a platform)
+tvs_01,Sony,X1 processor,3 feature,Sony
+tvs_01,Sony,Motionflow XR 240,3 feature,Sony
+tvs_01,Sony,"Google TV, Apple AirPlay",5 other company,Google and Apple (platforms)
+tvs_01,Vistara,Game Accelerator 240,3 feature,TCL (the real maker of the product marked as best in the table)
+tvs_02,LG,a7 Gen6 AI Processor,3 feature,LG
+tvs_02,LG,Quantum Dot + NanoCell,3 feature,LG
+tvs_02,LG,4K QNED,2 line,LG
+tvs_02,Sony,XR Processor,3 feature,Sony
+tvs_02,Sony,XR Triluminos Pro,3 feature,Sony
+tvs_02,Sony,Acoustic Multi-Audio,3 feature,Sony
+tvs_02,Samsung,Neo QLED,2 line,Samsung
+tvs_02,Samsung,Neural Quantum Processor,3 feature,Samsung
+tvs_02,Samsung,Object Tracking Sound,3 feature,Samsung
+tvs_02,Vistara,Google TV,5 other company,Google (a platform)
+tvs_03,Vizio,SmartCast,3 feature,Vizio
+tvs_03,Vizio,Quantum Color,3 feature,Vizio
+tvs_03,Insignia,Amazon house brand,1 brand,Amazon (the product is listed under Insignia in the table)
+tvs_03,Insignia,"Fire TV, Alexa",5 other company,Amazon (a platform on another maker's television)
+tvs_03,Samsung,"Crystal Processor 4K, PurColor",3 feature,Samsung
+tvs_03,LG,a5 Gen5 AI Processor,3 feature,LG
+tvs_03,LG,webOS 22,3 feature,LG
+tvs_03,LG,AirPlay 2,5 other company,Apple (a platform)
+tvs_03,Pixelight,Google TV,5 other company,Google (a platform)
+water_bottles_01,Yeti,No Sweat design,3 feature,Yeti
+water_bottles_01,Hydro Flask,TempShield,3 feature,Hydro Flask
+wireless_routers_01,Netweave,HomeShield,3 feature,TP-Link (the real maker of the product marked as best in the table)
+wireless_routers_01,ASUS,"AiMesh, AiProtection Pro",3 feature,ASUS
+wireless_routers_01,Netgear,the manufacturer Armor security,4 copy,Netgear
+wireless_routers_01,Linksys,Velop,2 line,Linksys (its mesh product line)
+earbuds_02,Sonance,QuietSmart 3.0,3 feature,EarFun (the real maker of the product marked as best in the table)
+portable_speakers_01,Wavecrest,XBass boost,3 feature,Tribit (the real maker of the product marked as best in the table)
+portable_speakers_01,Ultimate Ears,outdoor boost mode,3 feature,Ultimate Ears
+running_shoes_02,Brooks,pivot post system,3 feature,Brooks
+earbuds_01,Sony,V2 processor,3 feature,Sony
+tablets_01,Apple,Pencil (1st gen),2 line,Apple

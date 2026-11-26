@@ -1,0 +1,61 @@
+{
+ "category": "laptops",
+ "noun": "laptop",
+ "requests": [
+  "a reliable laptop for everyday work and browsing",
+  "a laptop for a small business's spreadsheets and video calls"
+ ],
+ "request_pilot_band": "a reliable laptop for everyday work and browsing, budget around $600-800",
+ "pilot_band": [
+  600,
+  800
+ ],
+ "request_market_budget": "a reliable laptop for everyday work and browsing, budget up to $3,000",
+ "attributes": [
+  {
+   "name": "memory",
+   "levels": [
+    "8 GB",
+    "16 GB",
+    "32 GB"
+   ],
+   "source": "Walmart product pages near both ends of the market range; e.g. 8 GB: https://www.walmart.com/ip/Coolby-Laptop-15-6-Laptop-Computer-8GB-RAM-128GB-SSD-Intel-Processor-3-4-GHz-WiFi-5-BT-5-0-Webcam-office-suite-software-Poratable-Student-Business-Ho/17308823847; 16 GB: https://www.walmart.com/ip/ASUS-ROG-Strix-G16-2025-Gaming-Laptop-16-16-10-FHD-165Hz-3ms-NVIDIA-GeForce-RTX-5070-AMD-Ryzen-9-8940HX-Processor-16GB-DDR5-5600-1TB-PCIe-Gen-4-SSD-W/17358264819; 32 GB: https://www.walmart.com/ip/LG-gram-17-inch-Laptop-Touchscreen-Intel-Core-Ultra-7-17-3-Large-Screen-WQXGA-Backlit-Keyboard-32GB-RAM-1TB-PCIe-SSD-Ultra-Thin-Lightweight-2025-AI-C/17348921154"
+  },
+  {
+   "name": "storage",
+   "levels": [
+    "128 GB",
+    "512 GB",
+    "1 TB"
+   ],
+   "source": "Walmart product pages near both ends of the market range; e.g. 128 GB: https://www.walmart.com/ip/HP-15-6-inch-Windows-Laptop-Intel-Processor-N200-4GB-RAM-128GB-UFS-Silver-12-mo-Microsoft-365-included/13660774419; 512 GB: https://www.walmart.com/ip/MSI-Crosshair-16-QHD-240Hz-Gaming-Laptop-Intel-Core-i9-14900HX-NVIDIA-GeForce-RTX-5060-16GB-RAM-512GB-SSD-2026/20574602682; 1 TB: https://www.walmart.com/ip/ASUS-ROG-Strix-G16-2025-Gaming-Laptop-16-16-10-FHD-165Hz-3ms-NVIDIA-GeForce-RTX-5070-AMD-Ryzen-9-8940HX-Processor-16GB-DDR5-5600-1TB-PCIe-Gen-4-SSD-W/17358264819"
+  },
+  {
+   "name": "battery life",
+   "levels": [
+    "5 hours",
+    "10 hours",
+    "23.5 hours"
+   ],
+   "source": "Walmart product pages near both ends of the market range; e.g. 5 hours: https://www.walmart.com/ip/Coolby-Laptop-15-6-Laptop-Computer-8GB-RAM-128GB-SSD-Intel-Processor-3-4-GHz-WiFi-5-BT-5-0-Webcam-office-suite-software-Poratable-Student-Business-Ho/17308823847; 10 hours: https://www.walmart.com/ip/HP-14-inch-HD-Windows-Laptop-AMD-Athlon-7120-4GB-RAM-128GB-SSD-Moonlight-Blue/17963105552; 23.5 hours: https://www.walmart.com/ip/LG-gram-17-inch-Laptop-Touchscreen-Intel-Core-Ultra-7-17-3-Large-Screen-WQXGA-Backlit-Keyboard-32GB-RAM-1TB-PCIe-SSD-Ultra-Thin-Lightweight-2025-AI-C/17348921154"
+  }
+ ],
+ "familiar": [
+  "Apple",
+  "Dell",
+  "HP",
+  "Lenovo",
+  "ASUS",
+  "Acer"
+ ],
+ "invented": [
+  [
+   "Zentria",
+   "corpus"
+  ],
+  [
+   "Vormida",
+   "new"
+  ]
+ ]
+}

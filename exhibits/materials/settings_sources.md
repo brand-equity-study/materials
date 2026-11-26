@@ -1,0 +1,45 @@
+# The company documents that the settings tables cite
+
+Each entry is a document that a row of the settings tables cites by its number.
+
+- [S1] Mark Ritson, "AI agents don't need their own marketing strategy", The Drum, published 2026-11-16 (9:33 AM Central). https://www.thedrum.com/opinion/mark-ritson-ai-agents-don-t-need-their-own-marketing-strategy. Raw page downloaded and read in full.
+- [S2] OpenAI, Agentic Commerce documentation, single-file export (Partner Playbook Overview, Submit product feeds, Product feed schema, Build a plugin). https://developers.openai.com/commerce/llms-full.txt. Undated; raw text read. The same schema is shown at https://developers.openai.com/commerce/specs/feed.
+- [S3] OpenAI, product feed specification, archived 2025-10-10. http://web.archive.org/web/20251010161249/https://developers.openai.com/commerce/specs/feed. Raw page read.
+- [S4] OpenAI, "Buy it in ChatGPT: Instant Checkout and the Agentic Commerce Protocol", 2025-09-29. https://openai.com/index/buy-it-in-chatgpt/
+- [S5] OpenAI, "Powering Product Discovery in ChatGPT", 2026-03-24. https://openai.com/index/powering-product-discovery-in-chatgpt/
+- [S6] OpenAI, merchants page. https://chatgpt.com/merchants. Undated.
+- [S7] OpenAI Help Center, "Shopping with ChatGPT Search". https://help.openai.com/en/articles/11128490-improved-shopping-results-from-chatgpt-search. Page said "updated 5 days ago" on the day read.
+- [S8] OpenAI Help Center, "Ads in ChatGPT". https://help.openai.com/en/articles/20001047-ads-in-chatgpt. Page said "updated 18 days ago" on the day read.
+- [S9] OpenAI, "Our approach to advertising and expanding access to ChatGPT", 2026-01-16. https://openai.com/index/our-approach-to-advertising-and-expanding-access/. Search summary only.
+- [S10] Google, "Shop with AI Mode, use AI to buy and try clothes on yourself virtually", 2025-05-20. https://blog.google/products/shopping/google-shopping-ai-mode-virtual-try-on-update/
+- [S11] Google, "New tech and tools for retailers to succeed in an agentic shopping era", 2026-01-11. https://blog.google/products/ads-commerce/agentic-commerce-ai-tools-protocol-retailers-platforms/
+- [S12] Google Merchant Center Help, "Product data specification". https://support.google.com/merchants/answer/7052112. Undated; read in two parts.
+- [S13] Google Merchant Center Help, "How to use conversational attributes". https://support.google.com/merchants/answer/17085370. Undated.
+- [S14] Google Ads Help, "About ads in AI-powered experiences in Google Search". https://support.google.com/google-ads/answer/16297775. Search summary only.
+- [S15] Google Search Central, "Merchant listing structured data". https://developers.google.com/search/docs/appearance/structured-data/merchant-listing. Undated; the last 4,759 characters were not read.
+- [S16] schema.org, Product (version 30.1, 2026-09-16). https://schema.org/Product
+- [S17] schema.org, Offer. https://schema.org/Offer. First 100,000 characters read.
+- [S18] schema.org, WarrantyPromise. https://schema.org/WarrantyPromise
+- [S19] schema.org, MerchantReturnPolicy. https://schema.org/MerchantReturnPolicy
+- [S20] schema.org, AggregateRating. https://schema.org/AggregateRating
+- [S21] Trishul Chilimbi, "The technology behind Amazon's GenAI-powered shopping assistant, Rufus", Amazon Science, 2024-10-04. https://www.amazon.science/blog/the-technology-behind-amazons-genai-powered-shopping-assistant-rufus
+- [S22] Amazon, "Amazon announces Rufus" and related newsroom pages. https://www.aboutamazon.com/news/retail/amazon-rufus. Search summary only.
+- [S23] Amazon Ads, "Sponsored Products prompts and Sponsored Brands prompts". https://advertising.amazon.com/resources/whats-new/unboxed-2025-sponsored-products-and-sponsored-brands-prompts. Search summary only.
+- [S24] Perplexity, "Shop like a pro: Perplexity's new AI-powered shopping assistant", 2024-11-18. https://www.perplexity.ai/hub/blog/shop-like-a-pro
+- [S25] Perplexity, "Shopping That Puts You First", 2025-11-25. https://www.perplexity.ai/hub/blog/shopping-that-puts-you-first. Search summary only.
+- [S26] Search Engine Land, "Perplexity stops testing advertising", about 2026-02-18. https://searchengineland.com/perplexity-stops-testing-advertising-469452. Search summary only.
+- [S27] Nayna Sheth and Ravi Yada, "Conversations that convert: Copilot Checkout and Brand Agents", Microsoft Advertising blog, 2026-01-08. https://about.ads.microsoft.com/en/blog/post/january-2026/conversations-that-convert-copilot-checkout-and-brand-agents
+- [S28] Kya Sainsbury-Carter, "Transforming the future of audience engagement", Microsoft Advertising blog, 2025-03-05. https://about.ads.microsoft.com/en/blog/post/march-2025/transforming-the-future-of-audience-engagement
+- [S29] Allouah, Besbes, Figueroa, Kanoria and Kumar, "What Is Your AI Agent Buying? Evaluation, Biases, Model Dependence, & Emerging Implications for Agentic E-Commerce", arXiv 2508.02630, v3 2025-12-17. https://arxiv.org/abs/2508.02630. Abstract read.
+- [S30] Cherep, Ma, Xu, Shaked, Maes and Singh, "A Framework for Studying AI Agent Behavior: Evidence from Consumer Choice Experiments", arXiv 2509.25609, v2 2026-02-24 (ICLR). https://arxiv.org/abs/2509.25609. Abstract read; figures beyond the abstract from a search summary only.
+- [S31] Louise Linehan and Xibeijia Guan, "An Analysis of AI Overview Brand Visibility Factors (75K Brands Studied)", Ahrefs, 2025-05-26. https://ahrefs.com/blog/ai-overview-brand-correlation/
+- [S32] Search Engine Land, "AI models favor familiar brands in search: Study" (geoSurge), 2026-07-30. https://searchengineland.com/ai-models-favor-familiar-brands-search-study-484054. The page returned an error; search summary only.
+- [S33] Mahe Chen and Nick Koudas, "What Drives AI Citations? Content, Retrieval and Model Knowledge in Generative Engine Optimization (GEO)", arXiv 2610.15033, 2026-10-10. https://arxiv.org/abs/2610.15033 and https://arxiv.org/html/2610.15033v1 (Section 6.6 and Appendix D read).
+- [S34] Mahe Chen, Xiaoxuan Wang, Kaiwen Chen and Nick Koudas, "Generative Engine Optimization: How to Dominate AI Search", arXiv 2509.08919, 2025-09-10. https://arxiv.org/abs/2509.08919
+- [S35] Aggarwal, Murahari, Rajpurohit, Kalyan, Narasimhan and Deshpande, "GEO: Generative Engine Optimization", KDD 2024, arXiv 2311.09735. https://arxiv.org/abs/2311.09735
+- [S36] Aounon Kumar and Himabindu Lakkaraju, "Manipulating Large Language Models to Increase Product Visibility", arXiv 2404.07981, v2 2024-09-02. https://arxiv.org/abs/2404.07981
+- [S37] Kamruzzaman, Nguyen and Kim, "'Global is Good, Local is Bad?': Understanding Brand Bias in LLMs", EMNLP 2024, arXiv 2406.13997. https://arxiv.org/abs/2406.13997
+- [S38] Itzhak, Belinkov and Stanovsky, "Planted in Pretraining, Swayed by Finetuning: A Case Study on the Origins of Cognitive Biases in LLMs", CoLM 2025, arXiv 2507.07186. https://arxiv.org/abs/2507.07186
+- [S39] Kandpal, Deng, Roberts, Wallace and Raffel, "Large Language Models Struggle to Learn Long-Tail Knowledge", ICML 2023, arXiv 2211.08411. https://arxiv.org/abs/2211.08411
+- [S40] Tapan Parikh, "How Language Models Learn Taste: Brand Preference in LLMs", arXiv 2610.28272, 2026-10-20. https://arxiv.org/abs/2610.28272. Abstract read.
+- [S41] Xi Chu and Yupeng Hou, "Incumbent Advantage: Brand Bias and Cognitive Manipulation Dynamics in LLM Recommendation Systems", arXiv 2606.17443, v3 2026-10-10. https://arxiv.org/abs/2606.17443. Abstract read.

@@ -1,0 +1,146 @@
+{
+ "study": "study2a-retrieval-six-I-positive",
+ "label": "Study 2a (review pages), the gain from positive pages for a familiar name minus the fictitious name, I(e)",
+ "units": "points",
+ "direction": 0,
+ "input": {
+  "file": "study2a-experience-attributes-stated-for-every-product/results/retrieval/all-models/per_model.csv",
+  "sha256": "723acce1a1fc88794b6e6a5a2e1c1e3c160718c0fe8e64438244bd1834638f82",
+  "model_col": "model",
+  "est_col": "estimate_pp",
+  "se": "se_pp",
+  "filter": [
+   "quantity=familiar gain I(e)",
+   "level=positive"
+  ],
+  "scale": 1.0
+ },
+ "plan": "how-the-models-differed/materials/analysis_plan.md",
+ "result": {
+  "models": 35,
+  "predicted_direction": "none (two-sided)",
+  "share_in_predicted_direction": null,
+  "models_in_predicted_direction": null,
+  "models_above_zero": 20,
+  "models_below_zero": 15,
+  "share_interval_excludes_zero": 0.2,
+  "models_interval_excludes_zero": 7,
+  "random_effects": {
+   "estimate": 0.0396,
+   "ci95": [
+    -1.5028,
+    1.582
+   ],
+   "p_two_sided": 0.9598785672103789,
+   "tau": 3.083,
+   "tau2": 9.5048,
+   "i2": 0.4723,
+   "q": 64.979,
+   "df": 34,
+   "q_p_value": 0.0010740359414657078,
+   "prediction_interval_95": [
+    -6.4339,
+    6.5131
+   ],
+   "tau_estimator": "REML",
+   "checks": {
+    "tau_dersimonian_laird": 3.1105,
+    "tau_paule_mandel": 3.65
+   }
+  },
+  "models_without_characteristics": [],
+  "moderators": {
+   "chat-tuned against base": {
+    "estimable": false,
+    "reason": "one value"
+   },
+   "size (log10 total parameters)": {
+    "estimable": true,
+    "models": 31,
+    "coefficient": -0.0262,
+    "ci95": [
+     -3.3944,
+     3.3419
+    ],
+    "p_two_sided": 0.9878166774776553,
+    "residual_tau": 2.0309,
+    "holm": 0.9878166774776553
+   },
+   "release date (years)": {
+    "estimable": true,
+    "models": 35,
+    "coefficient": -1.781,
+    "ci95": [
+     -4.0416,
+     0.4795
+    ],
+    "p_two_sided": 0.12252167045894635,
+    "residual_tau": 2.9128,
+    "holm": 0.2450433409178927
+   },
+   "open against closed weights": {
+    "estimable": true,
+    "models": 35,
+    "coefficient": 5.1249,
+    "ci95": [
+     0.9756,
+     9.2742
+    ],
+    "p_two_sided": 0.015483545675357799,
+    "residual_tau": 2.5273,
+    "holm": 0.061934182701431195
+   },
+   "reasoning on against off": {
+    "estimable": false,
+    "reason": "one value"
+   },
+   "developer": {
+    "estimable": true,
+    "models": 35,
+    "developers": 13,
+    "wald_chi2": 24.216,
+    "df": 12,
+    "p_two_sided": 0.019009405644274377,
+    "residual_tau": 2.3438,
+    "models_by_developer": {
+     "Alibaba": 13,
+     "Allen AI": 2,
+     "Anthropic": 4,
+     "Baidu": 1,
+     "Google": 4,
+     "IBM": 2,
+     "Marin": 1,
+     "Meta": 2,
+     "Microsoft": 1,
+     "Mistral": 1,
+     "NVIDIA": 1,
+     "OpenAI": 2,
+     "Zhipu": 1
+    },
+    "holm": 0.061934182701431195
+   }
+  },
+  "models_left_out_interval_of_zero_width": [],
+  "models_left_out_not_estimable": []
+ },
+ "args": {
+  "study": "study2a-retrieval-six-I-positive",
+  "label": "Study 2a (review pages), the gain from positive pages for a familiar name minus the fictitious name, I(e)",
+  "input": "study2a-experience-attributes-stated-for-every-product/results/retrieval/all-models/per_model.csv",
+  "model_col": "model",
+  "est_col": "estimate_pp",
+  "se_col": "se_pp",
+  "low_col": "ci95_low_pp",
+  "high_col": "ci95_high_pp",
+  "direction": 0,
+  "units": "points",
+  "filter": [
+   "quantity=familiar gain I(e)",
+   "level=positive"
+  ],
+  "scale": 1.0,
+  "reliability_col": null,
+  "reliability_min": 0.5,
+  "reason_col": null
+ }
+}

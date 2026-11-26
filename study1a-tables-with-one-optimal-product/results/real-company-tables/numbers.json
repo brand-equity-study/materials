@@ -1,0 +1,557 @@
+{
+ "about": "Each estimate that the paper reports in percentage points from Studies 1b, 1c, 2a and 2b, with every table and without the three tables whose fictitious name is also the name of a small real company; each was first reproduced from its study's code and results file.",
+ "companies": {
+  "sr_laptops_02": "Novatech",
+  "sr_laptops_03": "Primebook",
+  "sr_earbuds_02": "Sonance"
+ },
+ "tables_left_out": [
+  "sr_earbuds_02",
+  "sr_earbuds_02_dom",
+  "sr_laptops_02",
+  "sr_laptops_02_dom",
+  "sr_laptops_03",
+  "sr_laptops_03_dom"
+ ],
+ "estimates": {
+  "Study 1b: the brand gap over every model": {
+   "source": "study1b-64-models-on-34-tables/results/pooled/numbers.json: pooled/gap_pp",
+   "published": {
+    "points": 9.65,
+    "ci95": [
+     6.74,
+     12.95
+    ],
+    "p_two_sided": 0.0
+   },
+   "reproduced": {
+    "points": 9.65,
+    "ci95": [
+     6.74,
+     12.95
+    ],
+    "p_two_sided": 0.0,
+    "models": 68,
+    "tables": 34
+   },
+   "without_three_tables": {
+    "points": 10.0,
+    "ci95": [
+     6.99,
+     13.46
+    ],
+    "p_two_sided": 0.0,
+    "models": 68,
+    "tables": 31
+   },
+   "change_points": 0.35
+  },
+  "Study 1b: the penalty under consumers' own requests (chat-log requests)": {
+   "source": "study1b-64-models-on-34-tables/results/requests/all-models/numbers.json: penalty, chat-log requests (primary)/pooled",
+   "published": {
+    "points": 8.7908,
+    "ci95": [
+     4.3513,
+     12.7285
+    ],
+    "p_two_sided": 0.0008
+   },
+   "reproduced": {
+    "points": 8.7908,
+    "ci95": [
+     4.3513,
+     12.7285
+    ],
+    "p_two_sided": 0.0008,
+    "models": 37,
+    "tables": 28
+   },
+   "without_three_tables": {
+    "points": 9.4255,
+    "ci95": [
+     4.6142,
+     13.8031
+    ],
+    "p_two_sided": 0.001,
+    "models": 37,
+    "tables": 25
+   },
+   "change_points": 0.6347
+  },
+  "Study 1b: the gap under weighted stated priorities": {
+   "source": "study1b-64-models-on-34-tables/results/priorities/numbers.json: all_models/gap_names_hidden/preference_weighted/pooled/gap_pp",
+   "published": {
+    "points": 2.25,
+    "ci95": [
+     0.52,
+     4.19
+    ],
+    "p_two_sided": 0.0078
+   },
+   "reproduced": {
+    "points": 2.25,
+    "ci95": [
+     0.52,
+     4.19
+    ],
+    "p_two_sided": 0.0078,
+    "models": 36,
+    "tables": 34
+   },
+   "without_three_tables": {
+    "points": 2.59,
+    "ci95": [
+     0.83,
+     4.61
+    ],
+    "p_two_sided": 0.002,
+    "models": 36,
+    "tables": 31
+   },
+   "change_points": 0.34
+  },
+  "Study 1b: the gap when the model may ask a clarifying question": {
+   "source": "study1b-64-models-on-34-tables/results/clarifying/numbers.json: all_models/gap_with_the_option_to_ask_pp",
+   "published": {
+    "points": 7.45,
+    "ci95": [
+     4.51,
+     10.71
+    ],
+    "p_two_sided": 0.0
+   },
+   "reproduced": {
+    "points": 7.45,
+    "ci95": [
+     4.51,
+     10.71
+    ],
+    "p_two_sided": 0.0,
+    "models": 33,
+    "tables": 30
+   },
+   "without_three_tables": {
+    "points": 8.06,
+    "ci95": [
+     4.93,
+     11.48
+    ],
+    "p_two_sided": 0.0,
+    "models": 33,
+    "tables": 27
+   },
+   "change_points": 0.61
+  },
+  "Study 1c: the name gap in the plain listing": {
+   "source": "study1c-product-feeds-and-a-store-search/results/store/all-models/numbers.json: name gap g(arm)/plain/pooled",
+   "published": {
+    "points": 6.3243,
+    "ci95": [
+     3.5079,
+     9.504
+    ],
+    "p_two_sided": 0.0
+   },
+   "reproduced": {
+    "points": 6.3243,
+    "ci95": [
+     3.5079,
+     9.504
+    ],
+    "p_two_sided": 0.0,
+    "models": 35,
+    "tables": 30
+   },
+   "without_three_tables": {
+    "points": 6.8059,
+    "ci95": [
+     3.7962,
+     10.1776
+    ],
+    "p_two_sided": 0.0,
+    "models": 35,
+    "tables": 27
+   },
+   "change_points": 0.4816
+  },
+  "Study 1c: the name gap under the instruction not to consider brand reputation": {
+   "source": "study1c-product-feeds-and-a-store-search/results/store/all-models/numbers.json: name gap g(arm)/instruct-brand/pooled",
+   "published": {
+    "points": 1.2659,
+    "ci95": [
+     -0.6678,
+     3.3362
+    ],
+    "p_two_sided": 0.2088
+   },
+   "reproduced": {
+    "points": 1.2659,
+    "ci95": [
+     -0.6678,
+     3.3362
+    ],
+    "p_two_sided": 0.2088,
+    "models": 35,
+    "tables": 30
+   },
+   "without_three_tables": {
+    "points": 1.4254,
+    "ci95": [
+     -0.5669,
+     3.545
+    ],
+    "p_two_sided": 0.1608,
+    "models": 35,
+    "tables": 27
+   },
+   "change_points": 0.1595
+  },
+  "Study 1c: the change under the instruction not to consider brand reputation": {
+   "source": "study1c-product-feeds-and-a-store-search/results/store/all-models/numbers.json: change D(arm) = g(arm) - g(plain)/instruct-brand/pooled",
+   "published": {
+    "points": -5.0584,
+    "ci95": [
+     -8.0784,
+     -2.3582
+    ],
+    "p_two_sided": 0.0002
+   },
+   "reproduced": {
+    "points": -5.0584,
+    "ci95": [
+     -8.0784,
+     -2.3582
+    ],
+    "p_two_sided": 0.0002,
+    "models": 35,
+    "tables": 30
+   },
+   "without_three_tables": {
+    "points": -5.3804,
+    "ci95": [
+     -8.601,
+     -2.5237
+    ],
+    "p_two_sided": 0.0002,
+    "models": 35,
+    "tables": 27
+   },
+   "change_points": -0.322
+  },
+  "Study 1c: the change under the instruction to recommend only on the information listed": {
+   "source": "study1c-product-feeds-and-a-store-search/results/store/all-models/numbers.json: change D(arm) = g(arm) - g(plain)/instruct-listed/pooled",
+   "published": {
+    "points": -2.9221,
+    "ci95": [
+     -5.7047,
+     -0.2703
+    ],
+    "p_two_sided": 0.0312
+   },
+   "reproduced": {
+    "points": -2.9221,
+    "ci95": [
+     -5.7047,
+     -0.2703
+    ],
+    "p_two_sided": 0.0312,
+    "models": 35,
+    "tables": 30
+   },
+   "without_three_tables": {
+    "points": -3.4169,
+    "ci95": [
+     -6.3014,
+     -0.7383
+    ],
+    "p_two_sided": 0.0136,
+    "models": 35,
+    "tables": 27
+   },
+   "change_points": -0.4948
+  },
+  "Study 1c: the change when every product's experience attributes were stated": {
+   "source": "study1c-product-feeds-and-a-store-search/results/store/all-models/numbers.json: change D(arm) = g(arm) - g(plain)/plain-info/pooled",
+   "published": {
+    "points": -2.9713,
+    "ci95": [
+     -6.0936,
+     -0.0924
+    ],
+    "p_two_sided": 0.0434
+   },
+   "reproduced": {
+    "points": -2.9713,
+    "ci95": [
+     -6.0936,
+     -0.0924
+    ],
+    "p_two_sided": 0.0434,
+    "models": 35,
+    "tables": 30
+   },
+   "without_three_tables": {
+    "points": -3.0684,
+    "ci95": [
+     -6.5666,
+     0.1385
+    ],
+    "p_two_sided": 0.0578,
+    "models": 35,
+    "tables": 27
+   },
+   "change_points": -0.0971
+  },
+  "Study 1c: the search step: the store returned the best product, names hidden minus shown": {
+   "source": "study1c-product-feeds-and-a-store-search/results/search/all-models/numbers.json: fetched: hidden minus shown (primary 1)/pooled",
+   "published": {
+    "points": 0.0714,
+    "ci95": [
+     0.0,
+     0.2857
+    ],
+    "p_two_sided": 0.697
+   },
+   "reproduced": {
+    "points": 0.0714,
+    "ci95": [
+     0.0,
+     0.2857
+    ],
+    "p_two_sided": 0.697,
+    "models": 35,
+    "tables": 30
+   },
+   "without_three_tables": {
+    "points": 0.0794,
+    "ci95": [
+     0.0,
+     0.3439
+    ],
+    "p_two_sided": 0.704,
+    "models": 35,
+    "tables": 27
+   },
+   "change_points": 0.008
+  },
+  "Study 1c: the search step: the answer picked the best product, names hidden minus shown": {
+   "source": "study1c-product-feeds-and-a-store-search/results/search/all-models/numbers.json: picked the best: hidden minus shown (primary 2)/pooled",
+   "published": {
+    "points": 4.5009,
+    "ci95": [
+     2.5953,
+     6.7357
+    ],
+    "p_two_sided": 0.0
+   },
+   "reproduced": {
+    "points": 4.5009,
+    "ci95": [
+     2.5953,
+     6.7357
+    ],
+    "p_two_sided": 0.0,
+    "models": 35,
+    "tables": 30
+   },
+   "without_three_tables": {
+    "points": 4.9897,
+    "ci95": [
+     3.0216,
+     7.3393
+    ],
+    "p_two_sided": 0.0,
+    "models": 35,
+    "tables": 27
+   },
+   "change_points": 0.4888
+  },
+  "Study 2a: the gap with no experience attributes stated": {
+   "source": "study2a-experience-attributes-stated-for-every-product/results/all-models/numbers.json: 2a/pooled/gap_none/estimate",
+   "published": {
+    "points": 6.43,
+    "ci95": [
+     3.99,
+     9.27
+    ],
+    "p_two_sided": 0.0
+   },
+   "reproduced": {
+    "points": 6.43,
+    "ci95": [
+     3.99,
+     9.27
+    ],
+    "p_two_sided": 0.0,
+    "models": 40,
+    "tables": 30
+   },
+   "without_three_tables": {
+    "points": 7.0,
+    "ci95": [
+     4.31,
+     10.13
+    ],
+    "p_two_sided": 0.0,
+    "models": 40,
+    "tables": 27
+   },
+   "change_points": 0.57
+  },
+  "Study 2a: the gap with every product's experience attributes stated": {
+   "source": "study2a-experience-attributes-stated-for-every-product/results/all-models/numbers.json: 2a/pooled/gap_supplied/estimate",
+   "published": {
+    "points": 3.5,
+    "ci95": [
+     2.06,
+     5.18
+    ],
+    "p_two_sided": 0.0
+   },
+   "reproduced": {
+    "points": 3.5,
+    "ci95": [
+     2.06,
+     5.18
+    ],
+    "p_two_sided": 0.0,
+    "models": 40,
+    "tables": 30
+   },
+   "without_three_tables": {
+    "points": 3.76,
+    "ci95": [
+     2.25,
+     5.45
+    ],
+    "p_two_sided": 0.0,
+    "models": 40,
+    "tables": 27
+   },
+   "change_points": 0.26
+  },
+  "Study 2a: the change in the gap when every product's experience attributes were stated": {
+   "source": "study2a-experience-attributes-stated-for-every-product/results/all-models/numbers.json: 2a/pooled/change/estimate",
+   "published": {
+    "points": -2.93,
+    "ci95": [
+     -5.61,
+     -0.82
+    ],
+    "p_two_sided": 0.009
+   },
+   "reproduced": {
+    "points": -2.93,
+    "ci95": [
+     -5.61,
+     -0.82
+    ],
+    "p_two_sided": 0.009,
+    "models": 40,
+    "tables": 30
+   },
+   "without_three_tables": {
+    "points": -3.24,
+    "ci95": [
+     -6.02,
+     -0.96
+    ],
+    "p_two_sided": 0.002,
+    "models": 40,
+    "tables": 27
+   },
+   "change_points": -0.31
+  },
+  "Study 2b: the fictitious product's share minus the familiar product's at the same price, names shown": {
+   "source": "study2b-how-much-a-familiar-brand-is-worth/results/all-models-eq1/numbers.json: 2c/pooled/pooled/option_a_parity_tests/invented minus familiar twin, names shown/estimate",
+   "published": {
+    "points": -26.82,
+    "ci95": [
+     -36.94,
+     -17.37
+    ],
+    "p_two_sided": 0.0
+   },
+   "reproduced": {
+    "points": -26.82,
+    "ci95": [
+     -36.94,
+     -17.37
+    ],
+    "p_two_sided": 0.0,
+    "models": 35,
+    "tables": 30
+   },
+   "without_three_tables": {
+    "points": -26.82,
+    "ci95": [
+     -37.16,
+     -17.91
+    ],
+    "p_two_sided": 0.0,
+    "models": 35,
+    "tables": 27
+   },
+   "change_points": 0.0
+  },
+  "Study 2b: the familiar product's share of the picks of either product at the same price, names shown": {
+   "source": "study2b-how-much-a-familiar-brand-is-worth/results/all-models-eq1/numbers.json: 2c/familiar twin's share of pair picks at the same price/names shown/all/estimate",
+   "published": {
+    "points": 66.61,
+    "ci95": [
+     61.2,
+     72.05
+    ],
+    "p_two_sided": 0.0
+   },
+   "reproduced": {
+    "points": 66.61,
+    "ci95": [
+     61.2,
+     72.05
+    ],
+    "p_two_sided": 0.0,
+    "models": 35,
+    "tables": 30
+   },
+   "without_three_tables": {
+    "points": 66.86,
+    "ci95": [
+     61.66,
+     72.71
+    ],
+    "p_two_sided": 0.0,
+    "models": 35,
+    "tables": 27
+   },
+   "change_points": 0.25
+  }
+ },
+ "estimates_count": 16,
+ "largest_change_points": 0.6347,
+ "intervals_that_changed_whether_they_exclude_zero": [
+  "Study 1c: the change when every product's experience attributes were stated"
+ ],
+ "estimates_in_other_units": {
+  "Study 2b: the price discount at which the fictitious product is chosen as often as the familiar product, names shown": {
+   "source": "study2b-how-much-a-familiar-brand-is-worth/results/all-models-eq1/numbers.json: 2c/pooled/pooled/option_a_without_a_model/price/original/crossing_value",
+   "unit": "percent of the price",
+   "reported": {
+    "percent_of_the_price": 3.548,
+    "ci95": [
+     0.8913,
+     "more than 30 per cent"
+    ]
+   },
+   "without_the_three_tables": {
+    "percent_of_the_price": 6.9037,
+    "ci95": [
+     0.9696,
+     "more than 30 per cent"
+    ],
+    "tables": 27
+   },
+   "tables_reported": 30
+  }
+ }
+}

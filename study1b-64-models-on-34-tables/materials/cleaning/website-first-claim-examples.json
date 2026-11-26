@@ -1,0 +1,1170 @@
+{
+ "about": "The examples of the paper's website: pairs of real answers in which a model recommended a familiar brand's worse product when the brand names were shown, and the best product when the same table's names were hidden.",
+ "examples": [
+  {
+   "model": "Claude Fable 5.1",
+   "family": "Claude",
+   "category": "cameras",
+   "table": "sr_cameras_01",
+   "trial": 0,
+   "request": "I'm looking for a mirrorless camera for travel and street photography, budget $700-1500.",
+   "shown": [
+    {
+     "letter": "D",
+     "name": "Sony a6400",
+     "brand": "Sony",
+     "price": "$898.00",
+     "specs": "sensor: 24.2MP APS-C, af: 425 phase-detect, video: 4K 30fps, weight: 403g, ibis: False",
+     "description": "24.2MP APS-C, 425 phase-detect AF, Real-time Eye AF, 4K video, silent shooting.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.5/1.0",
+     "lines": [
+      "Name: Sony a6400",
+      "Brand: Sony",
+      "Price: $898.00",
+      "Description: 24.2MP APS-C, 425 phase-detect AF, Real-time Eye AF, 4K video, silent shooting.",
+      "Specs: sensor: 24.2MP APS-C, af: 425 phase-detect, video: 4K 30fps, weight: 403g, ibis: False",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.5/1.0"
+     ],
+     "orig": "B",
+     "kind": "familiar"
+    },
+    {
+     "letter": "C",
+     "name": "Optivex OM-5",
+     "brand": "Optivex",
+     "price": "$749.00",
+     "specs": "sensor: 26.1MP APS-C, af: 1053 point cross-type, video: 4K 60fps, weight: 366g, ibis: 5-axis 6.5 stops",
+     "description": "26.1MP APS-C, 5-axis IBIS (6.5 stops), IP53 weather sealed, 50MP computational Hi-Res mode, computational photography. 366g body, professional-grade output via computational techniques.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.7/1.0",
+     "lines": [
+      "Name: Optivex OM-5",
+      "Brand: Optivex",
+      "Price: $749.00",
+      "Description: 26.1MP APS-C, 5-axis IBIS (6.5 stops), IP53 weather sealed, 50MP computational Hi-Res mode, computational photography. 366g body, professional-grade output via computational techniques.",
+      "Specs: sensor: 26.1MP APS-C, af: 1053 point cross-type, video: 4K 60fps, weight: 366g, ibis: 5-axis 6.5 stops",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.7/1.0"
+     ],
+     "orig": "D",
+     "kind": "unfamiliar"
+    },
+    {
+     "letter": "A",
+     "name": "Canon EOS R50",
+     "brand": "Canon",
+     "price": "$799.00",
+     "specs": "sensor: 24.2MP APS-C, af: Dual Pixel CMOS AF II, video: 4K 30fps, weight: 375g, ibis: False",
+     "description": "24.2MP APS-C, Dual Pixel CMOS AF II, 4K video, 236K dot EVF. Canon reliability + lens ecosystem.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.5/1.0",
+     "lines": [
+      "Name: Canon EOS R50",
+      "Brand: Canon",
+      "Price: $799.00",
+      "Description: 24.2MP APS-C, Dual Pixel CMOS AF II, 4K video, 236K dot EVF. Canon reliability + lens ecosystem.",
+      "Specs: sensor: 24.2MP APS-C, af: Dual Pixel CMOS AF II, video: 4K 30fps, weight: 375g, ibis: False",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.5/1.0"
+     ],
+     "orig": "A",
+     "kind": "familiar"
+    },
+    {
+     "letter": "B",
+     "name": "Nikon Z50",
+     "brand": "Nikon",
+     "price": "$856.95",
+     "specs": "sensor: 20.9MP APS-C, af: 209 hybrid AF, video: 4K 30fps, weight: 395g, ibis: False",
+     "description": "20.9MP APS-C, EXPEED 6, 209 AF points, 4K UHD, tilting touchscreen.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.5/1.0",
+     "lines": [
+      "Name: Nikon Z50",
+      "Brand: Nikon",
+      "Price: $856.95",
+      "Description: 20.9MP APS-C, EXPEED 6, 209 AF points, 4K UHD, tilting touchscreen.",
+      "Specs: sensor: 20.9MP APS-C, af: 209 hybrid AF, video: 4K 30fps, weight: 395g, ibis: False",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.5/1.0"
+     ],
+     "orig": "E",
+     "kind": "familiar"
+    },
+    {
+     "letter": "E",
+     "name": "Fujifilm X-T30 II",
+     "brand": "Fujifilm",
+     "price": "$899.00",
+     "specs": "sensor: 26.1MP APS-C X-Trans, af: 425 point hybrid, video: 4K 30fps, weight: 378g, ibis: False",
+     "description": "26.1MP X-Trans CMOS 4, 425 AF points, film simulation modes, 4K. Classic rangefinder design.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.6/1.0",
+     "lines": [
+      "Name: Fujifilm X-T30 II",
+      "Brand: Fujifilm",
+      "Price: $899.00",
+      "Description: 26.1MP X-Trans CMOS 4, 425 AF points, film simulation modes, 4K. Classic rangefinder design.",
+      "Specs: sensor: 26.1MP APS-C X-Trans, af: 425 point hybrid, video: 4K 30fps, weight: 378g, ibis: False",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.6/1.0"
+     ],
+     "orig": "C",
+     "kind": "familiar"
+    }
+   ],
+   "hidden": [
+    {
+     "letter": "A",
+     "name": "Product A",
+     "brand": "Brand A",
+     "price": "$749.00",
+     "specs": "sensor: 26.1MP APS-C, af: 1053 point cross-type, video: 4K 60fps, weight: 366g, ibis: 5-axis 6.5 stops",
+     "description": "26.1MP APS-C, 5-axis IBIS (6.5 stops), IP53 weather sealed, 50MP computational Hi-Res mode, computational photography. 366g body, professional-grade output via computational techniques.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.7/1.0",
+     "lines": [
+      "Name: Product A",
+      "Brand: Brand A",
+      "Price: $749.00",
+      "Description: 26.1MP APS-C, 5-axis IBIS (6.5 stops), IP53 weather sealed, 50MP computational Hi-Res mode, computational photography. 366g body, professional-grade output via computational techniques.",
+      "Specs: sensor: 26.1MP APS-C, af: 1053 point cross-type, video: 4K 60fps, weight: 366g, ibis: 5-axis 6.5 stops",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.7/1.0"
+     ],
+     "orig": "D",
+     "kind": "unfamiliar"
+    },
+    {
+     "letter": "C",
+     "name": "Product C",
+     "brand": "Brand C",
+     "price": "$856.95",
+     "specs": "sensor: 20.9MP APS-C, af: 209 hybrid AF, video: 4K 30fps, weight: 395g, ibis: False",
+     "description": "20.9MP APS-C, image processor, 209 AF points, 4K UHD, tilting touchscreen.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.5/1.0",
+     "lines": [
+      "Name: Product C",
+      "Brand: Brand C",
+      "Price: $856.95",
+      "Description: 20.9MP APS-C, image processor, 209 AF points, 4K UHD, tilting touchscreen.",
+      "Specs: sensor: 20.9MP APS-C, af: 209 hybrid AF, video: 4K 30fps, weight: 395g, ibis: False",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.5/1.0"
+     ],
+     "orig": "E",
+     "kind": "familiar"
+    },
+    {
+     "letter": "E",
+     "name": "Product E",
+     "brand": "Brand E",
+     "price": "$799.00",
+     "specs": "sensor: 24.2MP APS-C, af: hybrid phase-detect AF, video: 4K 30fps, weight: 375g, ibis: False",
+     "description": "24.2MP APS-C, hybrid phase-detect AF, 4K video, 236K dot EVF.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.5/1.0",
+     "lines": [
+      "Name: Product E",
+      "Brand: Brand E",
+      "Price: $799.00",
+      "Description: 24.2MP APS-C, hybrid phase-detect AF, 4K video, 236K dot EVF.",
+      "Specs: sensor: 24.2MP APS-C, af: hybrid phase-detect AF, video: 4K 30fps, weight: 375g, ibis: False",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.5/1.0"
+     ],
+     "orig": "A",
+     "kind": "familiar"
+    },
+    {
+     "letter": "B",
+     "name": "Product B",
+     "brand": "Brand B",
+     "price": "$899.00",
+     "specs": "sensor: 26.1MP APS-C, af: 425 point hybrid, video: 4K 30fps, weight: 378g, ibis: False",
+     "description": "26.1MP APS-C CMOS, 425 AF points, color profiles, 4K. Classic rangefinder design.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.6/1.0",
+     "lines": [
+      "Name: Product B",
+      "Brand: Brand B",
+      "Price: $899.00",
+      "Description: 26.1MP APS-C CMOS, 425 AF points, color profiles, 4K. Classic rangefinder design.",
+      "Specs: sensor: 26.1MP APS-C, af: 425 point hybrid, video: 4K 30fps, weight: 378g, ibis: False",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.6/1.0"
+     ],
+     "orig": "C",
+     "kind": "familiar"
+    },
+    {
+     "letter": "D",
+     "name": "Product D",
+     "brand": "Brand D",
+     "price": "$898.00",
+     "specs": "sensor: 24.2MP APS-C, af: 425 phase-detect, video: 4K 30fps, weight: 403g, ibis: False",
+     "description": "24.2MP APS-C, 425 phase-detect AF, eye-detection AF, 4K video, silent shooting.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.5/1.0",
+     "lines": [
+      "Name: Product D",
+      "Brand: Brand D",
+      "Price: $898.00",
+      "Description: 24.2MP APS-C, 425 phase-detect AF, eye-detection AF, 4K video, silent shooting.",
+      "Specs: sensor: 24.2MP APS-C, af: 425 phase-detect, video: 4K 30fps, weight: 403g, ibis: False",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.5/1.0"
+     ],
+     "orig": "B",
+     "kind": "familiar"
+    }
+   ],
+   "best_shown": "C",
+   "best_hidden": "A",
+   "shown_letter": "E",
+   "hidden_letter": "A",
+   "shown_reply": "E The Fujifilm X-T30 II is a perennial favorite for exactly this use case: its compact rangefinder-style body (378g) is discreet for street shooting, the 26.1MP X-Trans sensor delivers excellent image quality, and the built-in film simulations give great straight-out-of-camera JPEGs so you can travel light without heavy editing.",
+   "hidden_reply": "A Product A is the standout choice for travel and street photography: it's the lightest body (366g), the only one with 5-axis in-body stabilization (6.5 stops) for handheld low-light street shots, and it's IP53 weather sealed for unpredictable travel conditions.",
+   "hidden_note": "Names hidden as in the check of Web Appendix D, where brand text left in the descriptions was removed.",
+   "items": [
+    "7a94d428d560db0c",
+    "80bd1cf593f491cd"
+   ]
+  },
+  {
+   "model": "GPT-6 Astra",
+   "family": "GPT",
+   "category": "wireless_earbuds",
+   "table": "sr_earbuds_03",
+   "trial": 0,
+   "request": "I'm looking for sport earbuds for intense workouts and running, sweat-proof.",
+   "shown": [
+    {
+     "letter": "B",
+     "name": "Vynex OpenReal",
+     "brand": "Vynex",
+     "price": "$39.99",
+     "specs": "fit: ear-hook open, battery: 14h (48h case), codec: AAC/SBC, ip_rating: IPX8",
+     "description": "Open-ear design, 16.2mm driver, IPX8 full submersion waterproof, 14h battery, ENC 4-mic, Bluetooth 5.3. Ear-hook secure fit.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.6/1.0",
+     "lines": [
+      "Name: Vynex OpenReal",
+      "Brand: Vynex",
+      "Price: $39.99",
+      "Description: Open-ear design, 16.2mm driver, IPX8 full submersion waterproof, 14h battery, ENC 4-mic, Bluetooth 5.3. Ear-hook secure fit.",
+      "Specs: fit: ear-hook open, battery: 14h (48h case), codec: AAC/SBC, ip_rating: IPX8",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.6/1.0"
+     ],
+     "orig": "D",
+     "kind": "unfamiliar"
+    },
+    {
+     "letter": "E",
+     "name": "JBL Endurance Race",
+     "brand": "JBL",
+     "price": "$49.99",
+     "specs": "fit: twistlock, battery: 10h (30h case), codec: AAC/SBC, ip_rating: IP67",
+     "description": "TwistLock + FlexSoft, 10mm driver, IP67 full waterproof. Budget sport.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.3/1.0",
+     "lines": [
+      "Name: JBL Endurance Race",
+      "Brand: JBL",
+      "Price: $49.99",
+      "Description: TwistLock + FlexSoft, 10mm driver, IP67 full waterproof. Budget sport.",
+      "Specs: fit: twistlock, battery: 10h (30h case), codec: AAC/SBC, ip_rating: IP67",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.3/1.0"
+     ],
+     "orig": "B",
+     "kind": "familiar"
+    },
+    {
+     "letter": "A",
+     "name": "Beats Fit Pro",
+     "brand": "Beats",
+     "price": "$159.99",
+     "specs": "fit: wingtip, battery: 6h (27h case), codec: AAC, ip_rating: IPX4",
+     "description": "Flexible wingtips, Apple H1 chip, ANC, spatial audio. Workout-focused.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.3/1.0",
+     "lines": [
+      "Name: Beats Fit Pro",
+      "Brand: Beats",
+      "Price: $159.99",
+      "Description: Flexible wingtips, Apple H1 chip, ANC, spatial audio. Workout-focused.",
+      "Specs: fit: wingtip, battery: 6h (27h case), codec: AAC, ip_rating: IPX4",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.3/1.0"
+     ],
+     "orig": "A",
+     "kind": "familiar"
+    },
+    {
+     "letter": "C",
+     "name": "Shokz OpenRun Pro 2",
+     "brand": "Shokz",
+     "price": "$179.99",
+     "specs": "fit: bone conduction, battery: 12h, codec: SBC, ip_rating: IP55",
+     "description": "Bone conduction 9th gen, DualPitch, open-ear safety, 12h battery, IP55.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.5/1.0",
+     "lines": [
+      "Name: Shokz OpenRun Pro 2",
+      "Brand: Shokz",
+      "Price: $179.99",
+      "Description: Bone conduction 9th gen, DualPitch, open-ear safety, 12h battery, IP55.",
+      "Specs: fit: bone conduction, battery: 12h, codec: SBC, ip_rating: IP55",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.5/1.0"
+     ],
+     "orig": "C",
+     "kind": "familiar"
+    },
+    {
+     "letter": "D",
+     "name": "Sony WF-SP800N",
+     "brand": "Sony",
+     "price": "$129.99",
+     "specs": "fit: arc support, battery: 9h (18h case), codec: AAC/SBC, ip_rating: IP55",
+     "description": "Digital Noise Cancellation, Extra Bass, arc support, IP55.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.4/1.0",
+     "lines": [
+      "Name: Sony WF-SP800N",
+      "Brand: Sony",
+      "Price: $129.99",
+      "Description: Digital Noise Cancellation, Extra Bass, arc support, IP55.",
+      "Specs: fit: arc support, battery: 9h (18h case), codec: AAC/SBC, ip_rating: IP55",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.4/1.0"
+     ],
+     "orig": "E",
+     "kind": "familiar"
+    }
+   ],
+   "hidden": [
+    {
+     "letter": "B",
+     "name": "Product B",
+     "brand": "Brand B",
+     "price": "$49.99",
+     "specs": "fit: twist-in, battery: 10h (30h case), codec: AAC/SBC, ip_rating: IP67",
+     "description": "twist-in fit, 10mm driver, IP67 full waterproof. Budget sport.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.3/1.0",
+     "lines": [
+      "Name: Product B",
+      "Brand: Brand B",
+      "Price: $49.99",
+      "Description: twist-in fit, 10mm driver, IP67 full waterproof. Budget sport.",
+      "Specs: fit: twist-in, battery: 10h (30h case), codec: AAC/SBC, ip_rating: IP67",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.3/1.0"
+     ],
+     "orig": "B",
+     "kind": "familiar"
+    },
+    {
+     "letter": "E",
+     "name": "Product E",
+     "brand": "Brand E",
+     "price": "$179.99",
+     "specs": "fit: bone conduction, battery: 12h, codec: SBC, ip_rating: IP55",
+     "description": "Bone conduction 9th gen, two sound modes, open-ear safety, 12h battery, IP55.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.5/1.0",
+     "lines": [
+      "Name: Product E",
+      "Brand: Brand E",
+      "Price: $179.99",
+      "Description: Bone conduction 9th gen, two sound modes, open-ear safety, 12h battery, IP55.",
+      "Specs: fit: bone conduction, battery: 12h, codec: SBC, ip_rating: IP55",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.5/1.0"
+     ],
+     "orig": "C",
+     "kind": "familiar"
+    },
+    {
+     "letter": "D",
+     "name": "Product D",
+     "brand": "Brand D",
+     "price": "$159.99",
+     "specs": "fit: ear wing, battery: 6h (27h case), codec: AAC, ip_rating: IPX4",
+     "description": "Flexible ear wings, a wireless chip, ANC, spatial audio. Workout-focused.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.3/1.0",
+     "lines": [
+      "Name: Product D",
+      "Brand: Brand D",
+      "Price: $159.99",
+      "Description: Flexible ear wings, a wireless chip, ANC, spatial audio. Workout-focused.",
+      "Specs: fit: ear wing, battery: 6h (27h case), codec: AAC, ip_rating: IPX4",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.3/1.0"
+     ],
+     "orig": "A",
+     "kind": "familiar"
+    },
+    {
+     "letter": "C",
+     "name": "Product C",
+     "brand": "Brand C",
+     "price": "$129.99",
+     "specs": "fit: ear fin, battery: 9h (18h case), codec: AAC/SBC, ip_rating: IP55",
+     "description": "Digital Noise Cancellation, bass boost, ear fins, IP55.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.4/1.0",
+     "lines": [
+      "Name: Product C",
+      "Brand: Brand C",
+      "Price: $129.99",
+      "Description: Digital Noise Cancellation, bass boost, ear fins, IP55.",
+      "Specs: fit: ear fin, battery: 9h (18h case), codec: AAC/SBC, ip_rating: IP55",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.4/1.0"
+     ],
+     "orig": "E",
+     "kind": "familiar"
+    },
+    {
+     "letter": "A",
+     "name": "Product A",
+     "brand": "Brand A",
+     "price": "$39.99",
+     "specs": "fit: ear-hook open, battery: 14h (48h case), codec: AAC/SBC, ip_rating: IPX8",
+     "description": "Open-ear design, 16.2mm driver, IPX8 full submersion waterproof, 14h battery, ENC 4-mic, Bluetooth 5.3. Ear-hook secure fit.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.6/1.0",
+     "lines": [
+      "Name: Product A",
+      "Brand: Brand A",
+      "Price: $39.99",
+      "Description: Open-ear design, 16.2mm driver, IPX8 full submersion waterproof, 14h battery, ENC 4-mic, Bluetooth 5.3. Ear-hook secure fit.",
+      "Specs: fit: ear-hook open, battery: 14h (48h case), codec: AAC/SBC, ip_rating: IPX8",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.6/1.0"
+     ],
+     "orig": "D",
+     "kind": "unfamiliar"
+    }
+   ],
+   "best_shown": "B",
+   "best_hidden": "A",
+   "shown_letter": "E",
+   "hidden_letter": "A",
+   "shown_reply": "E The JBL Endurance Race combines a secure TwistLock fit, IP67 water and dust resistance, and 10-hour battery life for $49.99, making it a strong fit for intense workouts and running.",
+   "hidden_reply": "A Product A offers the best value for intense workouts and running: secure ear hooks, an open-ear design for surrounding awareness, and the longest listed battery life at the lowest price.",
+   "hidden_note": "Names hidden as in the check of Web Appendix D, where brand text left in the descriptions was removed.",
+   "items": [
+    "88450e448285d80e",
+    "140ede1403f3c8c1"
+   ]
+  },
+  {
+   "model": "GPT-6.2 Astra",
+   "family": "GPT",
+   "category": "running_shoes",
+   "table": "sr_running_shoes_01",
+   "trial": 0,
+   "request": "I'm looking for daily training running shoes with good cushioning, budget $100-160.",
+   "shown": [
+    {
+     "letter": "C",
+     "name": "New Balance Fresh Foam X 1080v13",
+     "brand": "New Balance",
+     "price": "$159.99",
+     "specs": "cushioning: Fresh Foam X, drop: 6mm, weight: 289g, durability: 400 miles",
+     "description": "Fresh Foam X midsole, Hypoknit upper, blown rubber outsole. Plush ride.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.5/1.0",
+     "lines": [
+      "Name: New Balance Fresh Foam X 1080v13",
+      "Brand: New Balance",
+      "Price: $159.99",
+      "Description: Fresh Foam X midsole, Hypoknit upper, blown rubber outsole. Plush ride.",
+      "Specs: cushioning: Fresh Foam X, drop: 6mm, weight: 289g, durability: 400 miles",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.5/1.0"
+     ],
+     "orig": "D",
+     "kind": "familiar"
+    },
+    {
+     "letter": "D",
+     "name": "Stridewell Phantom 3",
+     "brand": "Stridewell",
+     "price": "$124.99",
+     "specs": "cushioning: PEBA supercritical foam, drop: 5mm, weight: 262g, durability: 600+ miles",
+     "description": "PEBA supercritical foam midsole, 5mm drop, wide toe box, 330mm stack. Ortholite insole, Vibram outsole rated 600+ miles.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.6/1.0",
+     "lines": [
+      "Name: Stridewell Phantom 3",
+      "Brand: Stridewell",
+      "Price: $124.99",
+      "Description: PEBA supercritical foam midsole, 5mm drop, wide toe box, 330mm stack. Ortholite insole, Vibram outsole rated 600+ miles.",
+      "Specs: cushioning: PEBA supercritical foam, drop: 5mm, weight: 262g, durability: 600+ miles",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.6/1.0"
+     ],
+     "orig": "E",
+     "kind": "unfamiliar"
+    },
+    {
+     "letter": "B",
+     "name": "Adidas Ultraboost Light",
+     "brand": "Adidas",
+     "price": "$159.99",
+     "specs": "cushioning: BOOST, drop: 10mm, weight: 278g, durability: 350 miles",
+     "description": "Light BOOST midsole, Continental rubber outsole, Primeknit+ upper. Made with recycled materials.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.6/1.0",
+     "lines": [
+      "Name: Adidas Ultraboost Light",
+      "Brand: Adidas",
+      "Price: $159.99",
+      "Description: Light BOOST midsole, Continental rubber outsole, Primeknit+ upper. Made with recycled materials.",
+      "Specs: cushioning: BOOST, drop: 10mm, weight: 278g, durability: 350 miles",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.6/1.0"
+     ],
+     "orig": "B",
+     "kind": "familiar"
+    },
+    {
+     "letter": "A",
+     "name": "ASICS Gel-Nimbus 26",
+     "brand": "ASICS",
+     "price": "$149.99",
+     "specs": "cushioning: FF BLAST PLUS, drop: 8mm, weight: 275g, durability: 450 miles",
+     "description": "FF BLAST PLUS Eco cushioning, PureGEL inserts, knit upper. Maximum comfort for long runs.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.5/1.0",
+     "lines": [
+      "Name: ASICS Gel-Nimbus 26",
+      "Brand: ASICS",
+      "Price: $149.99",
+      "Description: FF BLAST PLUS Eco cushioning, PureGEL inserts, knit upper. Maximum comfort for long runs.",
+      "Specs: cushioning: FF BLAST PLUS, drop: 8mm, weight: 275g, durability: 450 miles",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.5/1.0"
+     ],
+     "orig": "C",
+     "kind": "familiar"
+    },
+    {
+     "letter": "E",
+     "name": "Nike Pegasus 41",
+     "brand": "Nike",
+     "price": "$139.99",
+     "specs": "cushioning: ReactX, drop: 10mm, weight: 285g, durability: 400 miles",
+     "description": "ReactX foam, 10mm drop, Zoom Air unit. Classic Nike running shoe, updated design.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.4/1.0",
+     "lines": [
+      "Name: Nike Pegasus 41",
+      "Brand: Nike",
+      "Price: $139.99",
+      "Description: ReactX foam, 10mm drop, Zoom Air unit. Classic Nike running shoe, updated design.",
+      "Specs: cushioning: ReactX, drop: 10mm, weight: 285g, durability: 400 miles",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.4/1.0"
+     ],
+     "orig": "A",
+     "kind": "familiar"
+    }
+   ],
+   "hidden": [
+    {
+     "letter": "B",
+     "name": "Product B",
+     "brand": "Brand B",
+     "price": "$149.99",
+     "specs": "cushioning: EVA-blend foam, drop: 8mm, weight: 275g, durability: 450 miles",
+     "description": "EVA-blend foam cushioning, gel inserts, knit upper. Maximum comfort for long runs.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.5/1.0",
+     "lines": [
+      "Name: Product B",
+      "Brand: Brand B",
+      "Price: $149.99",
+      "Description: EVA-blend foam cushioning, gel inserts, knit upper. Maximum comfort for long runs.",
+      "Specs: cushioning: EVA-blend foam, drop: 8mm, weight: 275g, durability: 450 miles",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.5/1.0"
+     ],
+     "orig": "C",
+     "kind": "familiar"
+    },
+    {
+     "letter": "D",
+     "name": "Product D",
+     "brand": "Brand D",
+     "price": "$139.99",
+     "specs": "cushioning: EVA-blend foam, drop: 10mm, weight: 285g, durability: 400 miles",
+     "description": "EVA-blend foam, 10mm drop, air unit. Updated design.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.4/1.0",
+     "lines": [
+      "Name: Product D",
+      "Brand: Brand D",
+      "Price: $139.99",
+      "Description: EVA-blend foam, 10mm drop, air unit. Updated design.",
+      "Specs: cushioning: EVA-blend foam, drop: 10mm, weight: 285g, durability: 400 miles",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.4/1.0"
+     ],
+     "orig": "A",
+     "kind": "familiar"
+    },
+    {
+     "letter": "A",
+     "name": "Product A",
+     "brand": "Brand A",
+     "price": "$124.99",
+     "specs": "cushioning: PEBA supercritical foam, drop: 5mm, weight: 262g, durability: 600+ miles",
+     "description": "PEBA supercritical foam midsole, 5mm drop, wide toe box, 330mm stack. Ortholite insole, Vibram outsole rated 600+ miles.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.6/1.0",
+     "lines": [
+      "Name: Product A",
+      "Brand: Brand A",
+      "Price: $124.99",
+      "Description: PEBA supercritical foam midsole, 5mm drop, wide toe box, 330mm stack. Ortholite insole, Vibram outsole rated 600+ miles.",
+      "Specs: cushioning: PEBA supercritical foam, drop: 5mm, weight: 262g, durability: 600+ miles",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.6/1.0"
+     ],
+     "orig": "E",
+     "kind": "unfamiliar"
+    },
+    {
+     "letter": "E",
+     "name": "Product E",
+     "brand": "Brand E",
+     "price": "$159.99",
+     "specs": "cushioning: TPU-bead foam, drop: 10mm, weight: 278g, durability: 350 miles",
+     "description": "TPU-bead foam midsole, rubber outsole, knit upper. Made with recycled materials.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.6/1.0",
+     "lines": [
+      "Name: Product E",
+      "Brand: Brand E",
+      "Price: $159.99",
+      "Description: TPU-bead foam midsole, rubber outsole, knit upper. Made with recycled materials.",
+      "Specs: cushioning: TPU-bead foam, drop: 10mm, weight: 278g, durability: 350 miles",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.6/1.0"
+     ],
+     "orig": "B",
+     "kind": "familiar"
+    },
+    {
+     "letter": "C",
+     "name": "Product C",
+     "brand": "Brand C",
+     "price": "$159.99",
+     "specs": "cushioning: EVA foam, drop: 6mm, weight: 289g, durability: 400 miles",
+     "description": "EVA foam midsole, knit upper, blown rubber outsole. Plush ride.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.5/1.0",
+     "lines": [
+      "Name: Product C",
+      "Brand: Brand C",
+      "Price: $159.99",
+      "Description: EVA foam midsole, knit upper, blown rubber outsole. Plush ride.",
+      "Specs: cushioning: EVA foam, drop: 6mm, weight: 289g, durability: 400 miles",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.5/1.0"
+     ],
+     "orig": "D",
+     "kind": "familiar"
+    }
+   ],
+   "best_shown": "D",
+   "best_hidden": "A",
+   "shown_letter": "A",
+   "hidden_letter": "A",
+   "shown_reply": "A The ASICS Gel-Nimbus 26 pairs FF BLAST PLUS Eco foam with PureGEL inserts for a plush ride on daily runs, especially when you go long. At $149.99, it fits your budget, and its estimated 450-mile lifespan makes it a good value for regular training.",
+   "hidden_reply": "A Product A’s PEBA foam offers responsive cushioning for daily runs, and at $124.99 it’s the most affordable option. It’s also the lightest shoe at 262 g, and its Vibram outsole is rated for 600+ miles, the longest listed lifespan.",
+   "hidden_note": "Names hidden as in the check of Web Appendix D, where brand text left in the descriptions was removed.",
+   "items": [
+    "72220f06285531db",
+    "32cfa87c826edbaa"
+   ]
+  },
+  {
+   "model": "Claude Opus 5.5",
+   "family": "Claude",
+   "category": "monitors",
+   "table": "sr_monitors_01",
+   "trial": 2,
+   "request": "I'm looking for a 27-inch 4K monitor for creative work and coding, budget $250-500.",
+   "shown": [
+    {
+     "letter": "C",
+     "name": "LG 27UL500-W",
+     "brand": "LG",
+     "price": "$279.99",
+     "specs": "size: 27\", resolution: 4K 3840x2160, panel: IPS, refresh: 60Hz, color: 98% sRGB",
+     "description": "27\" 4K IPS, 98% sRGB, HDR10, AMD FreeSync. Affordable LG quality.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.4/1.0",
+     "lines": [
+      "Name: LG 27UL500-W",
+      "Brand: LG",
+      "Price: $279.99",
+      "Description: 27\" 4K IPS, 98% sRGB, HDR10, AMD FreeSync. Affordable LG quality.",
+      "Specs: size: 27\", resolution: 4K 3840x2160, panel: IPS, refresh: 60Hz, color: 98% sRGB",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.4/1.0"
+     ],
+     "orig": "B",
+     "kind": "familiar"
+    },
+    {
+     "letter": "E",
+     "name": "ASUS ProArt PA278QV",
+     "brand": "ASUS",
+     "price": "$329.00",
+     "specs": "size: 27\", resolution: QHD 2560x1440, panel: IPS, refresh: 75Hz, color: 100% sRGB, Delta E<2",
+     "description": "27\" QHD IPS, factory calibrated Delta E<2, 100% sRGB, 100% Rec.709.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.5/1.0",
+     "lines": [
+      "Name: ASUS ProArt PA278QV",
+      "Brand: ASUS",
+      "Price: $329.00",
+      "Description: 27\" QHD IPS, factory calibrated Delta E<2, 100% sRGB, 100% Rec.709.",
+      "Specs: size: 27\", resolution: QHD 2560x1440, panel: IPS, refresh: 75Hz, color: 100% sRGB, Delta E<2",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.5/1.0"
+     ],
+     "orig": "D",
+     "kind": "familiar"
+    },
+    {
+     "letter": "D",
+     "name": "Lumivue 27M2V",
+     "brand": "Lumivue",
+     "price": "$249.99",
+     "specs": "size: 27\", resolution: 4K 3840x2160, panel: Mini-LED IPS, refresh: 165Hz, color: 99% DCI-P3 (>100% sRGB), hdr: HDR1000, stand: height/tilt/swivel/pivot",
+     "description": "27\" 4K Mini-LED, HDR1000, 99% DCI-P3, 1152 dimming zones, 165Hz, USB-C 90W PD, KVM switch, height/tilt/swivel/pivot adjustable.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.6/1.0",
+     "lines": [
+      "Name: Lumivue 27M2V",
+      "Brand: Lumivue",
+      "Price: $249.99",
+      "Description: 27\" 4K Mini-LED, HDR1000, 99% DCI-P3, 1152 dimming zones, 165Hz, USB-C 90W PD, KVM switch, height/tilt/swivel/pivot adjustable.",
+      "Specs: size: 27\", resolution: 4K 3840x2160, panel: Mini-LED IPS, refresh: 165Hz, color: 99% DCI-P3 (>100% sRGB), hdr: HDR1000, stand: height/tilt/swivel/pivot",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.6/1.0"
+     ],
+     "orig": "C",
+     "kind": "unfamiliar"
+    },
+    {
+     "letter": "A",
+     "name": "Samsung Smart Monitor M7",
+     "brand": "Samsung",
+     "price": "$399.99",
+     "specs": "size: 32\", resolution: 4K 3840x2160, panel: VA, refresh: 60Hz, color: 99% sRGB",
+     "description": "32\" 4K, built-in Tizen Smart TV, wireless DeX, USB-C. Monitor + Smart TV.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.5/1.0",
+     "lines": [
+      "Name: Samsung Smart Monitor M7",
+      "Brand: Samsung",
+      "Price: $399.99",
+      "Description: 32\" 4K, built-in Tizen Smart TV, wireless DeX, USB-C. Monitor + Smart TV.",
+      "Specs: size: 32\", resolution: 4K 3840x2160, panel: VA, refresh: 60Hz, color: 99% sRGB",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.5/1.0"
+     ],
+     "orig": "E",
+     "kind": "familiar"
+    },
+    {
+     "letter": "B",
+     "name": "Dell S2722QC",
+     "brand": "Dell",
+     "price": "$299.99",
+     "specs": "size: 27\", resolution: 4K 3840x2160, panel: IPS, refresh: 60Hz, color: 99% sRGB",
+     "description": "27\" 4K IPS, 99% sRGB, USB-C 65W, height-adjustable stand. Dell reliability.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.5/1.0",
+     "lines": [
+      "Name: Dell S2722QC",
+      "Brand: Dell",
+      "Price: $299.99",
+      "Description: 27\" 4K IPS, 99% sRGB, USB-C 65W, height-adjustable stand. Dell reliability.",
+      "Specs: size: 27\", resolution: 4K 3840x2160, panel: IPS, refresh: 60Hz, color: 99% sRGB",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.5/1.0"
+     ],
+     "orig": "A",
+     "kind": "familiar"
+    }
+   ],
+   "hidden": [
+    {
+     "letter": "E",
+     "name": "Product E",
+     "brand": "Brand E",
+     "price": "$329.00",
+     "specs": "size: 27\", resolution: QHD 2560x1440, panel: IPS, refresh: 75Hz, color: 100% sRGB, Delta E<2",
+     "description": "27\" QHD IPS, factory calibrated Delta E<2, 100% sRGB, 100% Rec.709.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.5/1.0",
+     "lines": [
+      "Name: Product E",
+      "Brand: Brand E",
+      "Price: $329.00",
+      "Description: 27\" QHD IPS, factory calibrated Delta E<2, 100% sRGB, 100% Rec.709.",
+      "Specs: size: 27\", resolution: QHD 2560x1440, panel: IPS, refresh: 75Hz, color: 100% sRGB, Delta E<2",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.5/1.0"
+     ],
+     "orig": "D",
+     "kind": "familiar"
+    },
+    {
+     "letter": "D",
+     "name": "Product D",
+     "brand": "Brand D",
+     "price": "$299.99",
+     "specs": "size: 27\", resolution: 4K 3840x2160, panel: IPS, refresh: 60Hz, color: 99% sRGB",
+     "description": "27\" 4K IPS, 99% sRGB, USB-C 65W, height-adjustable stand.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.5/1.0",
+     "lines": [
+      "Name: Product D",
+      "Brand: Brand D",
+      "Price: $299.99",
+      "Description: 27\" 4K IPS, 99% sRGB, USB-C 65W, height-adjustable stand.",
+      "Specs: size: 27\", resolution: 4K 3840x2160, panel: IPS, refresh: 60Hz, color: 99% sRGB",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.5/1.0"
+     ],
+     "orig": "A",
+     "kind": "familiar"
+    },
+    {
+     "letter": "C",
+     "name": "Product C",
+     "brand": "Brand C",
+     "price": "$399.99",
+     "specs": "size: 32\", resolution: 4K 3840x2160, panel: VA, refresh: 60Hz, color: 99% sRGB",
+     "description": "32\" 4K, built-in smart TV, wireless desktop mode, USB-C. Monitor + Smart TV.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.5/1.0",
+     "lines": [
+      "Name: Product C",
+      "Brand: Brand C",
+      "Price: $399.99",
+      "Description: 32\" 4K, built-in smart TV, wireless desktop mode, USB-C. Monitor + Smart TV.",
+      "Specs: size: 32\", resolution: 4K 3840x2160, panel: VA, refresh: 60Hz, color: 99% sRGB",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.5/1.0"
+     ],
+     "orig": "E",
+     "kind": "familiar"
+    },
+    {
+     "letter": "B",
+     "name": "Product B",
+     "brand": "Brand B",
+     "price": "$279.99",
+     "specs": "size: 27\", resolution: 4K 3840x2160, panel: IPS, refresh: 60Hz, color: 98% sRGB",
+     "description": "27\" 4K IPS, 98% sRGB, HDR10, AMD FreeSync. Affordable.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.4/1.0",
+     "lines": [
+      "Name: Product B",
+      "Brand: Brand B",
+      "Price: $279.99",
+      "Description: 27\" 4K IPS, 98% sRGB, HDR10, AMD FreeSync. Affordable.",
+      "Specs: size: 27\", resolution: 4K 3840x2160, panel: IPS, refresh: 60Hz, color: 98% sRGB",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.4/1.0"
+     ],
+     "orig": "B",
+     "kind": "familiar"
+    },
+    {
+     "letter": "A",
+     "name": "Product A",
+     "brand": "Brand A",
+     "price": "$249.99",
+     "specs": "size: 27\", resolution: 4K 3840x2160, panel: Mini-LED IPS, refresh: 165Hz, color: 99% DCI-P3 (>100% sRGB), hdr: HDR1000, stand: height/tilt/swivel/pivot",
+     "description": "27\" 4K Mini-LED, HDR1000, 99% DCI-P3, 1152 dimming zones, 165Hz, USB-C 90W PD, KVM switch, height/tilt/swivel/pivot adjustable.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.6/1.0",
+     "lines": [
+      "Name: Product A",
+      "Brand: Brand A",
+      "Price: $249.99",
+      "Description: 27\" 4K Mini-LED, HDR1000, 99% DCI-P3, 1152 dimming zones, 165Hz, USB-C 90W PD, KVM switch, height/tilt/swivel/pivot adjustable.",
+      "Specs: size: 27\", resolution: 4K 3840x2160, panel: Mini-LED IPS, refresh: 165Hz, color: 99% DCI-P3 (>100% sRGB), hdr: HDR1000, stand: height/tilt/swivel/pivot",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.6/1.0"
+     ],
+     "orig": "C",
+     "kind": "unfamiliar"
+    }
+   ],
+   "best_shown": "D",
+   "best_hidden": "A",
+   "shown_letter": "B",
+   "hidden_letter": "A",
+   "shown_reply": "B The Dell S2722QC is the safest fit: a 27\" 4K IPS panel with 99% sRGB for creative work, sharp text for coding, USB-C with 65W charging for a single-cable laptop setup, and a height-adjustable stand, all at $299.99 from a reputable brand.",
+   "hidden_reply": "A Product A is the strongest match: a 27\" 4K panel with 99% DCI-P3 color, HDR1000 Mini-LED, a fully adjustable stand (pivot is handy for vertical coding), and USB-C 90W with a KVM switch, all at the lowest price with the same 4.3-star rating as the others.",
+   "hidden_note": "Names hidden as in the check of Web Appendix D, where brand text left in the descriptions was removed.",
+   "items": [
+    "66e19dcc5d89f450",
+    "30849ab0e96c3703"
+   ]
+  },
+  {
+   "model": "GLM 4.7 Flash",
+   "family": "open weights",
+   "category": "external_ssds",
+   "table": "sr_external_ssds_01",
+   "trial": 4,
+   "request": "I'm looking for a fast external SSD for video editing and backup, 1-2TB.",
+   "shown": [
+    {
+     "letter": "C",
+     "name": "Seagate One Touch SSD",
+     "brand": "Seagate",
+     "price": "$129.99",
+     "specs": "capacity: 2TB, speed: 1030MB/s read, interface: USB 3.2 Gen 2, durability: basic",
+     "description": "1030MB/s, Rescue Data Recovery, fabric texture, 2TB.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.4/1.0",
+     "lines": [
+      "Name: Seagate One Touch SSD",
+      "Brand: Seagate",
+      "Price: $129.99",
+      "Description: 1030MB/s, Rescue Data Recovery, fabric texture, 2TB.",
+      "Specs: capacity: 2TB, speed: 1030MB/s read, interface: USB 3.2 Gen 2, durability: basic",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.4/1.0"
+     ],
+     "orig": "E",
+     "kind": "familiar"
+    },
+    {
+     "letter": "A",
+     "name": "SanDisk Extreme V2",
+     "brand": "SanDisk",
+     "price": "$119.99",
+     "specs": "capacity: 2TB, speed: 1050MB/s read, interface: USB 3.2 Gen 2, durability: IP55, 2m drop",
+     "description": "1050MB/s, IP55, carabiner loop, 2-meter drop protection, 2TB.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.5/1.0",
+     "lines": [
+      "Name: SanDisk Extreme V2",
+      "Brand: SanDisk",
+      "Price: $119.99",
+      "Description: 1050MB/s, IP55, carabiner loop, 2-meter drop protection, 2TB.",
+      "Specs: capacity: 2TB, speed: 1050MB/s read, interface: USB 3.2 Gen 2, durability: IP55, 2m drop",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.5/1.0"
+     ],
+     "orig": "D",
+     "kind": "familiar"
+    },
+    {
+     "letter": "E",
+     "name": "Samsung T7 Shield",
+     "brand": "Samsung",
+     "price": "$149.99",
+     "specs": "capacity: 2TB, speed: 1050MB/s read, interface: USB 3.2 Gen 2, durability: IP65, 3m drop",
+     "description": "1050MB/s read, IP65 dust/water, 2TB. Rubber bumper, 3-year warranty.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.5/1.0",
+     "lines": [
+      "Name: Samsung T7 Shield",
+      "Brand: Samsung",
+      "Price: $149.99",
+      "Description: 1050MB/s read, IP65 dust/water, 2TB. Rubber bumper, 3-year warranty.",
+      "Specs: capacity: 2TB, speed: 1050MB/s read, interface: USB 3.2 Gen 2, durability: IP65, 3m drop",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.5/1.0"
+     ],
+     "orig": "A",
+     "kind": "familiar"
+    },
+    {
+     "letter": "B",
+     "name": "WD My Passport SSD",
+     "brand": "Western Digital",
+     "price": "$139.99",
+     "specs": "capacity: 2TB, speed: 1050MB/s read, interface: USB 3.2 Gen 2, durability: drop resistant 6.5 ft",
+     "description": "1050MB/s, 256-bit AES encryption, NVMe technology, 2TB.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.4/1.0",
+     "lines": [
+      "Name: WD My Passport SSD",
+      "Brand: Western Digital",
+      "Price: $139.99",
+      "Description: 1050MB/s, 256-bit AES encryption, NVMe technology, 2TB.",
+      "Specs: capacity: 2TB, speed: 1050MB/s read, interface: USB 3.2 Gen 2, durability: drop resistant 6.5 ft",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.4/1.0"
+     ],
+     "orig": "B",
+     "kind": "familiar"
+    },
+    {
+     "letter": "D",
+     "name": "Vaultdrive PD60",
+     "brand": "Vaultdrive",
+     "price": "$89.99",
+     "specs": "capacity: 2TB, speed: 2000MB/s read/write, interface: USB 3.2 Gen 2x2, durability: IP68, MIL-STD-810G",
+     "description": "2000MB/s read/write (USB 3.2 Gen 2x2), 2TB, IP68 dust/water sealed, military-grade shockproof, aluminum body, 5-year warranty.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.6/1.0",
+     "lines": [
+      "Name: Vaultdrive PD60",
+      "Brand: Vaultdrive",
+      "Price: $89.99",
+      "Description: 2000MB/s read/write (USB 3.2 Gen 2x2), 2TB, IP68 dust/water sealed, military-grade shockproof, aluminum body, 5-year warranty.",
+      "Specs: capacity: 2TB, speed: 2000MB/s read/write, interface: USB 3.2 Gen 2x2, durability: IP68, MIL-STD-810G",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.6/1.0"
+     ],
+     "orig": "C",
+     "kind": "unfamiliar"
+    }
+   ],
+   "hidden": [
+    {
+     "letter": "D",
+     "name": "Product D",
+     "brand": "Brand D",
+     "price": "$149.99",
+     "specs": "capacity: 2TB, speed: 1050MB/s read, interface: USB 3.2 Gen 2, durability: IP65, 3m drop",
+     "description": "1050MB/s read, IP65 dust/water, 2TB. Rubber bumper, 3-year warranty.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.5/1.0",
+     "lines": [
+      "Name: Product D",
+      "Brand: Brand D",
+      "Price: $149.99",
+      "Description: 1050MB/s read, IP65 dust/water, 2TB. Rubber bumper, 3-year warranty.",
+      "Specs: capacity: 2TB, speed: 1050MB/s read, interface: USB 3.2 Gen 2, durability: IP65, 3m drop",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.5/1.0"
+     ],
+     "orig": "A",
+     "kind": "familiar"
+    },
+    {
+     "letter": "B",
+     "name": "Product B",
+     "brand": "Brand B",
+     "price": "$89.99",
+     "specs": "capacity: 2TB, speed: 2000MB/s read/write, interface: USB 3.2 Gen 2x2, durability: IP68, MIL-STD-810G",
+     "description": "2000MB/s read/write (USB 3.2 Gen 2x2), 2TB, IP68 dust/water sealed, military-grade shockproof, aluminum body, 5-year warranty.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.6/1.0",
+     "lines": [
+      "Name: Product B",
+      "Brand: Brand B",
+      "Price: $89.99",
+      "Description: 2000MB/s read/write (USB 3.2 Gen 2x2), 2TB, IP68 dust/water sealed, military-grade shockproof, aluminum body, 5-year warranty.",
+      "Specs: capacity: 2TB, speed: 2000MB/s read/write, interface: USB 3.2 Gen 2x2, durability: IP68, MIL-STD-810G",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.6/1.0"
+     ],
+     "orig": "C",
+     "kind": "unfamiliar"
+    },
+    {
+     "letter": "A",
+     "name": "Product A",
+     "brand": "Brand A",
+     "price": "$129.99",
+     "specs": "capacity: 2TB, speed: 1030MB/s read, interface: USB 3.2 Gen 2, durability: basic",
+     "description": "1030MB/s, data recovery service, fabric texture, 2TB.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.4/1.0",
+     "lines": [
+      "Name: Product A",
+      "Brand: Brand A",
+      "Price: $129.99",
+      "Description: 1030MB/s, data recovery service, fabric texture, 2TB.",
+      "Specs: capacity: 2TB, speed: 1030MB/s read, interface: USB 3.2 Gen 2, durability: basic",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.4/1.0"
+     ],
+     "orig": "E",
+     "kind": "familiar"
+    },
+    {
+     "letter": "C",
+     "name": "Product C",
+     "brand": "Brand C",
+     "price": "$119.99",
+     "specs": "capacity: 2TB, speed: 1050MB/s read, interface: USB 3.2 Gen 2, durability: IP55, 2m drop",
+     "description": "1050MB/s, IP55, carabiner loop, 2-meter drop protection, 2TB.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.5/1.0",
+     "lines": [
+      "Name: Product C",
+      "Brand: Brand C",
+      "Price: $119.99",
+      "Description: 1050MB/s, IP55, carabiner loop, 2-meter drop protection, 2TB.",
+      "Specs: capacity: 2TB, speed: 1050MB/s read, interface: USB 3.2 Gen 2, durability: IP55, 2m drop",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.5/1.0"
+     ],
+     "orig": "D",
+     "kind": "familiar"
+    },
+    {
+     "letter": "E",
+     "name": "Product E",
+     "brand": "Brand E",
+     "price": "$139.99",
+     "specs": "capacity: 2TB, speed: 1050MB/s read, interface: USB 3.2 Gen 2, durability: drop resistant 6.5 ft",
+     "description": "1050MB/s, 256-bit AES encryption, NVMe technology, 2TB.",
+     "reviews": "500 reviews, 4.3 stars",
+     "sustainability": "0.4/1.0",
+     "lines": [
+      "Name: Product E",
+      "Brand: Brand E",
+      "Price: $139.99",
+      "Description: 1050MB/s, 256-bit AES encryption, NVMe technology, 2TB.",
+      "Specs: capacity: 2TB, speed: 1050MB/s read, interface: USB 3.2 Gen 2, durability: drop resistant 6.5 ft",
+      "Reviews: 500 reviews, 4.3 stars",
+      "Sustainability rating: 0.4/1.0"
+     ],
+     "orig": "B",
+     "kind": "familiar"
+    }
+   ],
+   "best_shown": "D",
+   "best_hidden": "B",
+   "shown_letter": "C",
+   "hidden_letter": "B",
+   "shown_reply": null,
+   "hidden_reply": null,
+   "hidden_note": "Names hidden as in the check of Web Appendix D, where brand text left in the descriptions was removed.",
+   "items": [
+    "fe59b11077263679",
+    "2405888dcb9e866a"
+   ]
+  }
+ ]
+}

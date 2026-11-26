@@ -1,0 +1,1417 @@
+model,request,table,kind,category,designated,hidden,original,crossed,penalty,premium,needs_best,author_gap,vs_author
+claude-fable-5-1,a-backpacks-0,sr_backpacks_01_dom,written by the author,backpacks,B,B,B,B,0,0,,0.8,-0.8
+claude-fable-5-1,a-backpacks-1,sr_backpacks_01_dom,written by the author,backpacks,C,C,C,C,0,0,,0.8,-0.8
+claude-fable-5-1,a-backpacks-2,sr_backpacks_01_dom,written by the author,backpacks,B,B,E,E,1,-1,,0.8,0.19999999999999996
+claude-fable-5-1,a-backpacks-3,sr_backpacks_01_dom,written by the author,backpacks,E,E,E,E,0,0,,0.8,-0.8
+claude-fable-5-1,a-backpacks-4,sr_backpacks_01_dom,written by the author,backpacks,B,B,B,B,0,0,,0.8,-0.8
+claude-fable-5-1,a-blenders-0,sr_blenders_01_dom,written by the author,blenders,A,A,E,A,1,0,,0.0,1.0
+claude-fable-5-1,a-blenders-1,sr_blenders_01_dom,written by the author,blenders,D,E,E,D,0,1,,0.0,0.0
+claude-fable-5-1,a-blenders-2,sr_blenders_01_dom,written by the author,blenders,B,B,D,B,1,0,,0.0,1.0
+claude-fable-5-1,a-blenders-3,sr_blenders_01_dom,written by the author,blenders,A,D,C,D,0,0,,0.0,0.0
+claude-fable-5-1,a-blenders-4,sr_blenders_01_dom,written by the author,blenders,A,A,D,A,1,0,,0.0,1.0
+claude-fable-5-1,a-blenders-5,sr_blenders_01_dom,written by the author,blenders,E,E,C,E,1,0,,0.0,1.0
+claude-fable-5-1,a-blenders-6,sr_blenders_01_dom,written by the author,blenders,D,E,E,E,0,0,,0.0,0.0
+claude-fable-5-1,a-blenders-7,sr_blenders_01_dom,written by the author,blenders,D,D,E,D,1,0,,0.0,1.0
+claude-fable-5-1,a-blenders-8,sr_blenders_01_dom,written by the author,blenders,E,E,A,A,1,-1,,0.0,1.0
+claude-fable-5-1,a-coffee_makers-0,sr_coffee_makers_01_dom,written by the author,coffee_makers,B,B,B,B,0,0,,0.30000000000000004,-0.30000000000000004
+claude-fable-5-1,a-coffee_makers-0,sr_coffee_makers_03_dom,written by the author,coffee_makers,B,B,A,B,1,0,,0.09999999999999998,0.9
+claude-fable-5-1,a-coffee_makers-1,sr_coffee_makers_01_dom,written by the author,coffee_makers,A,A,A,A,0,0,,0.30000000000000004,-0.30000000000000004
+claude-fable-5-1,a-coffee_makers-1,sr_coffee_makers_03_dom,written by the author,coffee_makers,D,C,E,E,0,0,,0.09999999999999998,-0.09999999999999998
+claude-fable-5-1,a-coffee_makers-2,sr_coffee_makers_01_dom,written by the author,coffee_makers,D,D,D,D,0,0,,0.30000000000000004,-0.30000000000000004
+claude-fable-5-1,a-coffee_makers-2,sr_coffee_makers_03_dom,written by the author,coffee_makers,C,C,C,C,0,0,,0.09999999999999998,-0.09999999999999998
+claude-fable-5-1,a-coffee_makers-3,sr_coffee_makers_01_dom,written by the author,coffee_makers,D,D,A,D,1,0,,0.30000000000000004,0.7
+claude-fable-5-1,a-coffee_makers-3,sr_coffee_makers_03_dom,written by the author,coffee_makers,C,C,A,C,1,0,,0.09999999999999998,0.9
+claude-fable-5-1,a-coffee_makers-4,sr_coffee_makers_01_dom,written by the author,coffee_makers,B,B,C,B,1,0,,0.30000000000000004,0.7
+claude-fable-5-1,a-coffee_makers-4,sr_coffee_makers_03_dom,written by the author,coffee_makers,D,D,B,D,1,0,,0.09999999999999998,0.9
+claude-fable-5-1,a-coffee_makers-5,sr_coffee_makers_01_dom,written by the author,coffee_makers,B,B,B,B,0,0,,0.30000000000000004,-0.30000000000000004
+claude-fable-5-1,a-coffee_makers-5,sr_coffee_makers_03_dom,written by the author,coffee_makers,B,B,B,B,0,0,,0.09999999999999998,-0.09999999999999998
+claude-fable-5-1,a-coffee_makers-6,sr_coffee_makers_01_dom,written by the author,coffee_makers,C,C,C,C,0,0,,0.30000000000000004,-0.30000000000000004
+claude-fable-5-1,a-coffee_makers-6,sr_coffee_makers_03_dom,written by the author,coffee_makers,E,E,D,D,1,-1,,0.09999999999999998,0.9
+claude-fable-5-1,a-coffee_makers-7,sr_coffee_makers_01_dom,written by the author,coffee_makers,E,E,E,E,0,0,,0.30000000000000004,-0.30000000000000004
+claude-fable-5-1,a-coffee_makers-7,sr_coffee_makers_03_dom,written by the author,coffee_makers,C,D,D,A,0,0,,0.09999999999999998,-0.09999999999999998
+claude-fable-5-1,a-coffee_makers-8,sr_coffee_makers_01_dom,written by the author,coffee_makers,C,C,C,C,0,0,,0.30000000000000004,-0.30000000000000004
+claude-fable-5-1,a-coffee_makers-8,sr_coffee_makers_03_dom,written by the author,coffee_makers,D,D,D,D,0,0,,0.09999999999999998,-0.09999999999999998
+claude-fable-5-1,a-electric_toothbrushes-0,sr_electric_toothbrushes_01_dom,written by the author,electric_toothbrushes,C,C,C,C,0,0,,0.7,-0.7
+claude-fable-5-1,a-electric_toothbrushes-1,sr_electric_toothbrushes_01_dom,written by the author,electric_toothbrushes,A,A,D,A,1,0,,0.7,0.30000000000000004
+claude-fable-5-1,a-electric_toothbrushes-2,sr_electric_toothbrushes_01_dom,written by the author,electric_toothbrushes,B,B,C,C,1,-1,,0.7,0.30000000000000004
+claude-fable-5-1,a-electric_toothbrushes-3,sr_electric_toothbrushes_01_dom,written by the author,electric_toothbrushes,D,D,D,D,0,0,,0.7,-0.7
+claude-fable-5-1,a-electric_toothbrushes-4,sr_electric_toothbrushes_01_dom,written by the author,electric_toothbrushes,D,D,B,D,1,0,B,0.7,0.30000000000000004
+claude-fable-5-1,a-electric_toothbrushes-5,sr_electric_toothbrushes_01_dom,written by the author,electric_toothbrushes,A,A,A,A,0,0,,0.7,-0.7
+claude-fable-5-1,a-electric_toothbrushes-6,sr_electric_toothbrushes_01_dom,written by the author,electric_toothbrushes,B,B,B,B,0,0,,0.7,-0.7
+claude-fable-5-1,a-external_ssds-0,sr_external_ssds_01_dom,written by the author,external_ssds,A,A,A,A,0,0,,0.30000000000000004,-0.30000000000000004
+claude-fable-5-1,a-external_ssds-1,sr_external_ssds_01_dom,written by the author,external_ssds,E,E,A,E,1,0,,0.30000000000000004,0.7
+claude-fable-5-1,a-external_ssds-2,sr_external_ssds_01_dom,written by the author,external_ssds,A,A,A,A,0,0,,0.30000000000000004,-0.30000000000000004
+claude-fable-5-1,a-external_ssds-3,sr_external_ssds_01_dom,written by the author,external_ssds,A,A,E,A,1,0,,0.30000000000000004,0.7
+claude-fable-5-1,a-external_ssds-4,sr_external_ssds_01_dom,written by the author,external_ssds,C,C,C,C,0,0,,0.30000000000000004,-0.30000000000000004
+claude-fable-5-1,a-external_ssds-5,sr_external_ssds_01_dom,written by the author,external_ssds,B,B,E,B,1,0,,0.30000000000000004,0.7
+claude-fable-5-1,a-external_ssds-6,sr_external_ssds_01_dom,written by the author,external_ssds,E,E,A,E,1,0,,0.30000000000000004,0.7
+claude-fable-5-1,a-external_ssds-7,sr_external_ssds_01_dom,written by the author,external_ssds,A,A,A,A,0,0,,0.30000000000000004,-0.30000000000000004
+claude-fable-5-1,a-external_ssds-8,sr_external_ssds_01_dom,written by the author,external_ssds,B,B,C,B,1,0,,0.30000000000000004,0.7
+claude-fable-5-1,a-monitors-0,sr_monitors_01_dom,written by the author,monitors,C,C,C,C,0,0,,0.6,-0.6
+claude-fable-5-1,a-monitors-1,sr_monitors_01_dom,written by the author,monitors,A,A,B,A,1,0,,0.6,0.4
+claude-fable-5-1,a-monitors-2,sr_monitors_01_dom,written by the author,monitors,C,C,D,C,1,0,,0.6,0.4
+claude-fable-5-1,a-monitors-3,sr_monitors_01_dom,written by the author,monitors,A,A,A,A,0,0,,0.6,-0.6
+claude-fable-5-1,a-monitors-4,sr_monitors_01_dom,written by the author,monitors,C,C,D,C,1,0,,0.6,0.4
+claude-fable-5-1,a-monitors-5,sr_monitors_01_dom,written by the author,monitors,A,A,A,A,0,0,,0.6,-0.6
+claude-fable-5-1,a-robot_vacuums-0,sr_robot_vacuums_01_dom,written by the author,robot_vacuums,C,C,C,C,0,0,,0.7,-0.7
+claude-fable-5-1,a-robot_vacuums-1,sr_robot_vacuums_01_dom,written by the author,robot_vacuums,B,B,B,B,0,0,,0.7,-0.7
+claude-fable-5-1,a-robot_vacuums-2,sr_robot_vacuums_01_dom,written by the author,robot_vacuums,B,B,B,B,0,0,,0.7,-0.7
+claude-fable-5-1,a-robot_vacuums-3,sr_robot_vacuums_01_dom,written by the author,robot_vacuums,E,E,E,E,0,0,,0.7,-0.7
+claude-fable-5-1,a-robot_vacuums-4,sr_robot_vacuums_01_dom,written by the author,robot_vacuums,B,B,B,B,0,0,,0.7,-0.7
+claude-fable-5-1,a-robot_vacuums-5,sr_robot_vacuums_01_dom,written by the author,robot_vacuums,A,A,A,A,0,0,,0.7,-0.7
+claude-fable-5-1,a-robot_vacuums-6,sr_robot_vacuums_01_dom,written by the author,robot_vacuums,E,E,D,E,1,0,,0.7,0.30000000000000004
+claude-fable-5-1,a-robot_vacuums-7,sr_robot_vacuums_01_dom,written by the author,robot_vacuums,E,E,E,E,0,0,,0.7,-0.7
+claude-fable-5-1,a-robot_vacuums-8,sr_robot_vacuums_01_dom,written by the author,robot_vacuums,D,D,C,C,1,-1,,0.7,0.30000000000000004
+claude-fable-5-1,a-smartwatches-0,sr_smartwatches_01_dom,written by the author,smartwatches,A,A,D,A,1,0,,0.6,0.4
+claude-fable-5-1,a-smartwatches-1,sr_smartwatches_01_dom,written by the author,smartwatches,C,C,C,C,0,0,,0.6,-0.6
+claude-fable-5-1,a-smartwatches-2,sr_smartwatches_01_dom,written by the author,smartwatches,C,C,C,C,0,0,,0.6,-0.6
+claude-fable-5-1,a-smartwatches-3,sr_smartwatches_01_dom,written by the author,smartwatches,A,A,A,A,0,0,,0.6,-0.6
+claude-fable-5-1,a-tvs-0,sr_tvs_01_dom,written by the author,tvs,A,A,A,A,0,0,,0.7,-0.7
+claude-fable-5-1,a-tvs-0,sr_tvs_02_dom,written by the author,tvs,A,A,A,A,0,0,,0.0,0.0
+claude-fable-5-1,a-tvs-0,sr_tvs_03_dom,written by the author,tvs,D,D,D,D,0,0,,0.0,0.0
+claude-fable-5-1,a-tvs-1,sr_tvs_01_dom,written by the author,tvs,B,B,A,B,1,0,,0.7,0.30000000000000004
+claude-fable-5-1,a-tvs-1,sr_tvs_02_dom,written by the author,tvs,E,E,E,E,0,0,,0.0,0.0
+claude-fable-5-1,a-tvs-1,sr_tvs_03_dom,written by the author,tvs,A,A,A,A,0,0,,0.0,0.0
+claude-fable-5-1,a-wireless_routers-0,sr_wireless_routers_01_dom,written by the author,wireless_routers,B,B,B,B,0,0,,0.30000000000000004,-0.30000000000000004
+claude-fable-5-1,a-wireless_routers-1,sr_wireless_routers_01_dom,written by the author,wireless_routers,A,A,A,A,0,0,,0.30000000000000004,-0.30000000000000004
+claude-fable-5-1,a-wireless_routers-2,sr_wireless_routers_01_dom,written by the author,wireless_routers,C,C,C,C,0,0,,0.30000000000000004,-0.30000000000000004
+claude-fable-5-1,a-wireless_routers-3,sr_wireless_routers_01_dom,written by the author,wireless_routers,C,C,C,C,0,0,,0.30000000000000004,-0.30000000000000004
+claude-fable-5-1,q000014,sr_backpacks_01_dom,chat-log,backpacks,E,E,A,E,1,0,,0.8,0.19999999999999996
+claude-fable-5-1,q000039,sr_tvs_01_dom,chat-log,tvs,E,E,E,E,0,0,,0.7,-0.7
+claude-fable-5-1,q000039,sr_tvs_02_dom,chat-log,tvs,C,C,C,C,0,0,,0.0,0.0
+claude-fable-5-1,q000039,sr_tvs_03_dom,chat-log,tvs,C,C,C,C,0,0,,0.0,0.0
+claude-fable-5-1,q000058,sr_monitors_01_dom,chat-log,monitors,B,B,B,B,0,0,,0.6,-0.6
+claude-fable-5-1,q000068,sr_laptops_01_dom,chat-log,laptops,E,E,E,E,0,0,,0.6,-0.6
+claude-fable-5-1,q000068,sr_laptops_02_dom,chat-log,laptops,D,D,D,D,0,0,,0.0,0.0
+claude-fable-5-1,q000068,sr_laptops_03_dom,chat-log,laptops,A,A,A,A,0,0,,0.0,0.0
+claude-fable-5-1,q000143,sr_smartwatches_01_dom,chat-log,smartwatches,B,B,B,B,0,0,,0.6,-0.6
+claude-fable-5-1,q000228,sr_headphones_01_dom,chat-log,headphones,E,E,E,E,0,0,,0.4,-0.4
+claude-fable-5-1,q000228,sr_headphones_02_dom,chat-log,headphones,D,D,D,D,0,0,,0.0,0.0
+claude-fable-5-1,q000228,sr_headphones_03_dom,chat-log,headphones,A,A,A,A,0,0,,0.2,-0.2
+claude-fable-5-1,q000241,sr_earbuds_01_dom,chat-log,wireless_earbuds,C,C,E,E,1,-1,,0.0,1.0
+claude-fable-5-1,q000241,sr_earbuds_02_dom,chat-log,wireless_earbuds,E,E,E,E,0,0,,0.0,0.0
+claude-fable-5-1,q000241,sr_earbuds_03_dom,chat-log,wireless_earbuds,D,D,B,D,1,0,,0.30000000000000004,0.7
+claude-fable-5-1,q000242,sr_earbuds_01_dom,chat-log,wireless_earbuds,C,C,C,C,0,0,,0.0,0.0
+claude-fable-5-1,q000242,sr_earbuds_02_dom,chat-log,wireless_earbuds,E,E,E,E,0,0,,0.0,0.0
+claude-fable-5-1,q000242,sr_earbuds_03_dom,chat-log,wireless_earbuds,D,D,D,D,0,0,,0.30000000000000004,-0.30000000000000004
+claude-fable-5-1,q000243,sr_headphones_01_dom,chat-log,headphones,C,C,C,C,0,0,,0.4,-0.4
+claude-fable-5-1,q000243,sr_headphones_02_dom,chat-log,headphones,A,A,A,A,0,0,,0.0,0.0
+claude-fable-5-1,q000243,sr_headphones_03_dom,chat-log,headphones,E,E,C,E,1,0,,0.2,0.8
+claude-fable-5-1,q000317,sr_smartphones_01_dom,chat-log,smartphones,B,B,B,B,0,0,,0.0,0.0
+claude-fable-5-1,q000317,sr_smartphones_02_dom,chat-log,smartphones,D,D,A,D,1,0,,0.0,1.0
+claude-fable-5-1,q000317,sr_smartphones_03_dom,chat-log,smartphones,E,E,E,E,0,0,,1.0,-1.0
+claude-fable-5-1,q000319,sr_smartphones_01_dom,chat-log,smartphones,A,A,E,A,1,0,,0.0,1.0
+claude-fable-5-1,q000319,sr_smartphones_02_dom,chat-log,smartphones,C,C,C,C,0,0,,0.0,0.0
+claude-fable-5-1,q000319,sr_smartphones_03_dom,chat-log,smartphones,E,E,A,E,1,0,,1.0,0.0
+claude-fable-5-1,q000320,sr_smartphones_01_dom,chat-log,smartphones,C,C,D,D,1,-1,,0.0,1.0
+claude-fable-5-1,q000320,sr_smartphones_02_dom,chat-log,smartphones,E,E,B,B,1,-1,,0.0,1.0
+claude-fable-5-1,q000320,sr_smartphones_03_dom,chat-log,smartphones,D,D,A,A,1,-1,,1.0,0.0
+claude-fable-5-1,q000345,sr_smartphones_01_dom,chat-log,smartphones,C,C,C,C,0,0,,0.0,0.0
+claude-fable-5-1,q000345,sr_smartphones_02_dom,chat-log,smartphones,A,A,B,A,1,0,,0.0,1.0
+claude-fable-5-1,q000345,sr_smartphones_03_dom,chat-log,smartphones,D,D,A,D,1,0,,1.0,0.0
+claude-fable-5-1,q000353,sr_earbuds_01_dom,chat-log,wireless_earbuds,A,A,A,A,0,0,,0.0,0.0
+claude-fable-5-1,q000353,sr_earbuds_02_dom,chat-log,wireless_earbuds,D,D,D,D,0,0,,0.0,0.0
+claude-fable-5-1,q000353,sr_earbuds_03_dom,chat-log,wireless_earbuds,D,D,D,D,0,0,,0.30000000000000004,-0.30000000000000004
+claude-fable-5-1,q000354,sr_earbuds_01_dom,chat-log,wireless_earbuds,D,D,D,D,0,0,,0.0,0.0
+claude-fable-5-1,q000354,sr_earbuds_02_dom,chat-log,wireless_earbuds,E,E,E,E,0,0,,0.0,0.0
+claude-fable-5-1,q000354,sr_earbuds_03_dom,chat-log,wireless_earbuds,B,B,B,B,0,0,,0.30000000000000004,-0.30000000000000004
+claude-fable-5-1,q000356,sr_earbuds_01_dom,chat-log,wireless_earbuds,C,C,C,C,0,0,,0.0,0.0
+claude-fable-5-1,q000356,sr_earbuds_02_dom,chat-log,wireless_earbuds,A,A,A,A,0,0,,0.0,0.0
+claude-fable-5-1,q000356,sr_earbuds_03_dom,chat-log,wireless_earbuds,E,E,B,E,1,0,,0.30000000000000004,0.7
+claude-fable-5-1,q000357,sr_earbuds_01_dom,chat-log,wireless_earbuds,A,A,A,A,0,0,,0.0,0.0
+claude-fable-5-1,q000357,sr_earbuds_02_dom,chat-log,wireless_earbuds,E,E,E,E,0,0,,0.0,0.0
+claude-fable-5-1,q000357,sr_earbuds_03_dom,chat-log,wireless_earbuds,C,C,C,C,0,0,,0.30000000000000004,-0.30000000000000004
+claude-fable-5-1,q000363,sr_smartphones_01_dom,chat-log,smartphones,D,D,A,D,1,0,,0.0,1.0
+claude-fable-5-1,q000363,sr_smartphones_02_dom,chat-log,smartphones,E,E,E,E,0,0,,0.0,0.0
+claude-fable-5-1,q000363,sr_smartphones_03_dom,chat-log,smartphones,A,A,A,E,0,-1,,1.0,-1.0
+claude-fable-5-1,q000381,sr_smartwatches_01_dom,chat-log,smartwatches,D,D,D,D,0,0,,0.6,-0.6
+claude-fable-5-1,q000395,sr_cameras_01_dom,chat-log,cameras,A,A,A,A,0,0,,0.19999999999999996,-0.19999999999999996
+claude-fable-5-1,q000404,sr_headphones_01_dom,chat-log,headphones,C,C,C,C,0,0,,0.4,-0.4
+claude-fable-5-1,q000404,sr_headphones_02_dom,chat-log,headphones,A,A,A,A,0,0,,0.0,0.0
+claude-fable-5-1,q000404,sr_headphones_03_dom,chat-log,headphones,B,B,B,B,0,0,,0.2,-0.2
+claude-fable-5-1,q000416,sr_laptops_01_dom,chat-log,laptops,A,A,A,A,0,0,,0.6,-0.6
+claude-fable-5-1,q000416,sr_laptops_02_dom,chat-log,laptops,A,A,A,C,0,-1,,0.0,0.0
+claude-fable-5-1,q000416,sr_laptops_03_dom,chat-log,laptops,E,E,E,E,0,0,,0.0,0.0
+claude-fable-5-1,q000456,sr_laptops_01_dom,chat-log,laptops,B,B,B,B,0,0,,0.6,-0.6
+claude-fable-5-1,q000456,sr_laptops_02_dom,chat-log,laptops,A,A,A,A,0,0,,0.0,0.0
+claude-fable-5-1,q000456,sr_laptops_03_dom,chat-log,laptops,E,E,E,E,0,0,,0.0,0.0
+claude-fable-5-1,q000482,sr_backpacks_01_dom,chat-log,backpacks,E,E,E,E,0,0,,0.8,-0.8
+claude-fable-5-1,q000541,sr_monitors_01_dom,chat-log,monitors,D,D,D,D,0,0,C,0.6,-0.6
+claude-fable-5-1,q000710,sr_monitors_01_dom,chat-log,monitors,C,C,C,C,0,0,,0.6,-0.6
+claude-fable-5-1,q000743,sr_smartphones_01_dom,chat-log,smartphones,C,C,C,C,0,0,,0.0,0.0
+claude-fable-5-1,q000743,sr_smartphones_02_dom,chat-log,smartphones,B,B,B,B,0,0,,0.0,0.0
+claude-fable-5-1,q000743,sr_smartphones_03_dom,chat-log,smartphones,D,D,A,D,1,0,,1.0,0.0
+claude-fable-5-1,q000762,sr_laptops_01_dom,chat-log,laptops,C,C,B,B,1,-1,,0.6,0.4
+claude-fable-5-1,q000762,sr_laptops_02_dom,chat-log,laptops,C,C,E,C,1,0,,0.0,1.0
+claude-fable-5-1,q000762,sr_laptops_03_dom,chat-log,laptops,A,A,C,A,1,0,,0.0,1.0
+claude-fable-5-1,q000770,sr_tvs_01_dom,chat-log,tvs,E,E,A,E,1,0,,0.7,0.30000000000000004
+claude-fable-5-1,q000770,sr_tvs_02_dom,chat-log,tvs,C,C,E,C,1,0,,0.0,1.0
+claude-fable-5-1,q000770,sr_tvs_03_dom,chat-log,tvs,B,B,D,B,1,0,,0.0,1.0
+claude-fable-5-1,q000774,sr_robot_vacuums_01_dom,chat-log,robot_vacuums,A,A,C,A,1,0,,0.7,0.30000000000000004
+claude-fable-5-1,q000850,sr_smartphones_01_dom,chat-log,smartphones,A,A,C,A,1,0,,0.0,1.0
+claude-fable-5-1,q000850,sr_smartphones_02_dom,chat-log,smartphones,B,B,A,B,1,0,,0.0,1.0
+claude-fable-5-1,q000850,sr_smartphones_03_dom,chat-log,smartphones,B,B,D,B,1,0,,1.0,0.0
+claude-fable-5-1,q000855,sr_backpacks_01_dom,chat-log,backpacks,E,E,E,E,0,0,,0.8,-0.8
+claude-fable-5-1,q000877,sr_wireless_routers_01_dom,chat-log,wireless_routers,A,A,A,A,0,0,,0.30000000000000004,-0.30000000000000004
+claude-fable-5-1,q000910,sr_headphones_01_dom,chat-log,headphones,D,D,D,D,0,0,,0.4,-0.4
+claude-fable-5-1,q000910,sr_headphones_02_dom,chat-log,headphones,E,E,E,E,0,0,,0.0,0.0
+claude-fable-5-1,q000910,sr_headphones_03_dom,chat-log,headphones,C,C,B,C,1,0,,0.2,0.8
+claude-fable-5-1,q000914,sr_headphones_01_dom,chat-log,headphones,B,B,B,B,0,0,,0.4,-0.4
+claude-fable-5-1,q000914,sr_headphones_02_dom,chat-log,headphones,A,A,A,A,0,0,,0.0,0.0
+claude-fable-5-1,q000914,sr_headphones_03_dom,chat-log,headphones,E,E,B,E,1,0,,0.2,0.8
+claude-fable-5-1,q000917,sr_backpacks_01_dom,chat-log,backpacks,D,D,B,D,1,0,,0.8,0.19999999999999996
+claude-fable-5-1,q000941,sr_headphones_01_dom,chat-log,headphones,A,A,A,A,0,0,,0.4,-0.4
+claude-fable-5-1,q000941,sr_headphones_02_dom,chat-log,headphones,D,D,D,D,0,0,,0.0,0.0
+claude-fable-5-1,q000941,sr_headphones_03_dom,chat-log,headphones,C,C,C,C,0,0,,0.2,-0.2
+claude-fable-5-1,q000996,sr_wireless_routers_01_dom,chat-log,wireless_routers,C,C,E,E,1,-1,,0.30000000000000004,0.7
+claude-fable-5-1,q001845,sr_smartphones_01_dom,chat-log,smartphones,A,A,E,A,1,0,,0.0,1.0
+claude-fable-5-1,q001845,sr_smartphones_02_dom,chat-log,smartphones,D,D,D,D,0,0,,0.0,0.0
+claude-fable-5-1,q001845,sr_smartphones_03_dom,chat-log,smartphones,B,B,E,E,1,-1,,1.0,0.0
+claude-fable-5-1,q002526,sr_headphones_01_dom,chat-log,headphones,C,C,E,C,1,0,,0.4,0.6
+claude-fable-5-1,q002526,sr_headphones_02_dom,chat-log,headphones,E,E,B,E,1,0,,0.0,1.0
+claude-fable-5-1,q002526,sr_headphones_03_dom,chat-log,headphones,E,E,C,E,1,0,,0.2,0.8
+claude-fable-5-1,q002807,sr_smartphones_01_dom,chat-log,smartphones,D,D,A,D,1,0,,0.0,1.0
+claude-fable-5-1,q002807,sr_smartphones_02_dom,chat-log,smartphones,A,A,A,B,0,-1,,0.0,0.0
+claude-fable-5-1,q002807,sr_smartphones_03_dom,chat-log,smartphones,C,C,C,C,0,0,,1.0,-1.0
+claude-fable-5-1,q002814,sr_smartphones_01_dom,chat-log,smartphones,E,E,D,D,1,-1,,0.0,1.0
+claude-fable-5-1,q002814,sr_smartphones_02_dom,chat-log,smartphones,A,A,B,A,1,0,,0.0,1.0
+claude-fable-5-1,q002814,sr_smartphones_03_dom,chat-log,smartphones,A,D,E,A,0,1,,1.0,-1.0
+claude-fable-5-1,q002849,sr_laptops_01_dom,chat-log,laptops,D,D,D,D,0,0,,0.6,-0.6
+claude-fable-5-1,q002849,sr_laptops_02_dom,chat-log,laptops,A,A,A,A,0,0,,0.0,0.0
+claude-fable-5-1,q002849,sr_laptops_03_dom,chat-log,laptops,C,C,C,C,0,0,,0.0,0.0
+claude-fable-5-1,q002987,sr_laptops_01_dom,chat-log,laptops,D,D,D,D,0,0,,0.6,-0.6
+claude-fable-5-1,q002987,sr_laptops_02_dom,chat-log,laptops,A,A,A,A,0,0,,0.0,0.0
+claude-fable-5-1,q002987,sr_laptops_03_dom,chat-log,laptops,D,D,D,D,0,0,,0.0,0.0
+claude-fable-5-1,q003946,sr_cameras_01_dom,chat-log,cameras,B,B,B,B,0,0,,0.19999999999999996,-0.19999999999999996
+claude-fable-5-1,q003948,sr_cameras_01_dom,chat-log,cameras,A,A,A,A,0,0,,0.19999999999999996,-0.19999999999999996
+claude-fable-5-1,q003954,sr_smartphones_01_dom,chat-log,smartphones,B,B,B,B,0,0,,0.0,0.0
+claude-fable-5-1,q003954,sr_smartphones_02_dom,chat-log,smartphones,A,A,A,A,0,0,,0.0,0.0
+claude-fable-5-1,q003954,sr_smartphones_03_dom,chat-log,smartphones,B,B,A,A,1,-1,,1.0,0.0
+claude-fable-5-1,q003960,sr_smartphones_01_dom,chat-log,smartphones,E,E,D,E,1,0,,0.0,1.0
+claude-fable-5-1,q003960,sr_smartphones_02_dom,chat-log,smartphones,D,D,D,D,0,0,,0.0,0.0
+claude-fable-5-1,q003960,sr_smartphones_03_dom,chat-log,smartphones,D,D,A,D,1,0,,1.0,0.0
+claude-fable-5-1,q003966,sr_smartphones_01_dom,chat-log,smartphones,D,D,B,D,1,0,,0.0,1.0
+claude-fable-5-1,q003966,sr_smartphones_02_dom,chat-log,smartphones,B,B,B,B,0,0,,0.0,0.0
+claude-fable-5-1,q003966,sr_smartphones_03_dom,chat-log,smartphones,C,C,C,C,0,0,,1.0,-1.0
+claude-fable-5-1,q003968,sr_laptops_01_dom,chat-log,laptops,B,B,B,B,0,0,,0.6,-0.6
+claude-fable-5-1,q003968,sr_laptops_02_dom,chat-log,laptops,B,B,B,B,0,0,,0.0,0.0
+claude-fable-5-1,q003968,sr_laptops_03_dom,chat-log,laptops,D,D,D,D,0,0,,0.0,0.0
+claude-fable-5-1,q003985,sr_laptops_01_dom,chat-log,laptops,B,B,D,B,1,0,,0.6,0.4
+claude-fable-5-1,q003985,sr_laptops_02_dom,chat-log,laptops,E,E,E,E,0,0,,0.0,0.0
+claude-fable-5-1,q003985,sr_laptops_03_dom,chat-log,laptops,B,B,B,B,0,0,,0.0,0.0
+claude-fable-5-1,q003989,sr_laptops_01_dom,chat-log,laptops,A,A,A,A,0,0,,0.6,-0.6
+claude-fable-5-1,q003989,sr_laptops_02_dom,chat-log,laptops,B,B,B,B,0,0,,0.0,0.0
+claude-fable-5-1,q003989,sr_laptops_03_dom,chat-log,laptops,E,E,E,E,0,0,,0.0,0.0
+claude-fable-5-1,q004002,sr_headphones_01_dom,chat-log,headphones,E,E,D,E,1,0,,0.4,0.6
+claude-fable-5-1,q004002,sr_headphones_02_dom,chat-log,headphones,B,B,B,B,0,0,,0.0,0.0
+claude-fable-5-1,q004002,sr_headphones_03_dom,chat-log,headphones,E,E,E,E,0,0,,0.2,-0.2
+claude-fable-5-1,q004026,sr_smartphones_01_dom,chat-log,smartphones,E,E,B,E,1,0,,0.0,1.0
+claude-fable-5-1,q004026,sr_smartphones_02_dom,chat-log,smartphones,C,C,B,C,1,0,,0.0,1.0
+claude-fable-5-1,q004026,sr_smartphones_03_dom,chat-log,smartphones,E,C,C,C,0,0,,1.0,-1.0
+claude-fable-5-1,q004032,sr_wireless_routers_01_dom,chat-log,wireless_routers,C,C,E,C,1,0,,0.30000000000000004,0.7
+claude-fable-5-1,q004033,sr_cameras_01_dom,chat-log,cameras,D,D,A,D,1,0,,0.19999999999999996,0.8
+claude-fable-5-1,q004040,sr_headphones_01_dom,chat-log,headphones,D,D,A,D,1,0,,0.4,0.6
+claude-fable-5-1,q004040,sr_headphones_02_dom,chat-log,headphones,C,C,C,C,0,0,,0.0,0.0
+claude-fable-5-1,q004040,sr_headphones_03_dom,chat-log,headphones,A,A,A,A,0,0,,0.2,-0.2
+claude-fable-5-1,q004043,sr_headphones_01_dom,chat-log,headphones,A,A,B,B,1,-1,,0.4,0.6
+claude-fable-5-1,q004043,sr_headphones_02_dom,chat-log,headphones,C,C,D,D,1,-1,,0.0,1.0
+claude-fable-5-1,q004043,sr_headphones_03_dom,chat-log,headphones,B,B,E,E,1,-1,,0.2,0.8
+claude-fable-5-1,q004053,sr_smartwatches_01_dom,chat-log,smartwatches,B,B,B,B,0,0,,0.6,-0.6
+claude-fable-5-1,q004065,sr_laptops_01_dom,chat-log,laptops,E,E,E,E,0,0,,0.6,-0.6
+claude-fable-5-1,q004065,sr_laptops_02_dom,chat-log,laptops,E,E,E,C,0,-1,,0.0,0.0
+claude-fable-5-1,q004065,sr_laptops_03_dom,chat-log,laptops,B,B,B,B,0,0,,0.0,0.0
+claude-fable-5-1,q004067,sr_cameras_01_dom,chat-log,cameras,A,A,A,A,0,0,,0.19999999999999996,-0.19999999999999996
+claude-fable-5-1,q004070,sr_smartphones_01_dom,chat-log,smartphones,D,D,E,D,1,0,,0.0,1.0
+claude-fable-5-1,q004070,sr_smartphones_02_dom,chat-log,smartphones,B,B,C,D,1,-1,,0.0,1.0
+claude-fable-5-1,q004070,sr_smartphones_03_dom,chat-log,smartphones,B,B,A,C,1,-1,,1.0,0.0
+claude-fable-5-1,q004075,sr_headphones_01_dom,chat-log,headphones,D,D,D,D,0,0,,0.4,-0.4
+claude-fable-5-1,q004075,sr_headphones_02_dom,chat-log,headphones,A,A,A,A,0,0,,0.0,0.0
+claude-fable-5-1,q004075,sr_headphones_03_dom,chat-log,headphones,C,C,C,C,0,0,,0.2,-0.2
+claude-fable-5-1,q004092,sr_monitors_01_dom,chat-log,monitors,A,A,A,A,0,0,,0.6,-0.6
+claude-fable-5-1,q004125,sr_external_ssds_01_dom,chat-log,external_ssds,C,C,E,C,1,0,,0.30000000000000004,0.7
+claude-fable-5-1,q004129,sr_cameras_01_dom,chat-log,cameras,B,B,D,B,1,0,,0.19999999999999996,0.8
+claude-fable-5-1,q004131,sr_smartphones_01_dom,chat-log,smartphones,A,A,A,D,0,-1,,0.0,0.0
+claude-fable-5-1,q004131,sr_smartphones_02_dom,chat-log,smartphones,A,A,B,A,1,0,,0.0,1.0
+claude-fable-5-1,q004131,sr_smartphones_03_dom,chat-log,smartphones,B,B,C,C,1,-1,,1.0,0.0
+claude-fable-5-1,q004138,sr_blenders_01_dom,chat-log,blenders,A,D,D,D,0,0,,0.0,0.0
+claude-fable-5-1,q004159,sr_smartphones_01_dom,chat-log,smartphones,C,C,A,C,1,0,,0.0,1.0
+claude-fable-5-1,q004159,sr_smartphones_02_dom,chat-log,smartphones,D,D,E,D,1,0,,0.0,1.0
+claude-fable-5-1,q004159,sr_smartphones_03_dom,chat-log,smartphones,E,E,A,A,1,-1,,1.0,0.0
+claude-fable-5-1,q004161,sr_laptops_01_dom,chat-log,laptops,C,C,C,C,0,0,,0.6,-0.6
+claude-fable-5-1,q004161,sr_laptops_02_dom,chat-log,laptops,E,E,B,E,1,0,,0.0,1.0
+claude-fable-5-1,q004161,sr_laptops_03_dom,chat-log,laptops,D,D,D,D,0,0,,0.0,0.0
+claude-fable-5-1,q004162,sr_smartphones_01_dom,chat-log,smartphones,A,A,E,A,1,0,,0.0,1.0
+claude-fable-5-1,q004162,sr_smartphones_02_dom,chat-log,smartphones,D,D,A,A,1,-1,,0.0,1.0
+claude-fable-5-1,q004162,sr_smartphones_03_dom,chat-log,smartphones,A,A,C,A,1,0,,1.0,0.0
+claude-fable-5-1,q004167,sr_coffee_makers_01_dom,chat-log,coffee_makers,E,E,C,E,1,0,,0.30000000000000004,0.7
+claude-fable-5-1,q004167,sr_coffee_makers_03_dom,chat-log,coffee_makers,B,E,B,E,-1,0,,0.09999999999999998,-1.1
+claude-fable-5-1,s00000,sr_tvs_01_dom,chat-log,tvs,D,D,D,D,0,0,,0.7,-0.7
+claude-fable-5-1,s00000,sr_tvs_02_dom,chat-log,tvs,D,D,D,D,0,0,,0.0,0.0
+claude-fable-5-1,s00000,sr_tvs_03_dom,chat-log,tvs,D,D,D,D,0,0,,0.0,0.0
+claude-fable-5-1,s00003,sr_headphones_01_dom,chat-log,headphones,C,C,C,C,0,0,,0.4,-0.4
+claude-fable-5-1,s00003,sr_headphones_02_dom,chat-log,headphones,C,C,C,C,0,0,,0.0,0.0
+claude-fable-5-1,s00003,sr_headphones_03_dom,chat-log,headphones,C,C,B,C,1,0,,0.2,0.8
+claude-fable-5-1,s00007,sr_cameras_01_dom,chat-log,cameras,E,E,E,E,0,0,,0.19999999999999996,-0.19999999999999996
+claude-fable-5-1,s00014,sr_earbuds_01_dom,chat-log,wireless_earbuds,E,E,A,E,1,0,,0.0,1.0
+claude-fable-5-1,s00014,sr_earbuds_02_dom,chat-log,wireless_earbuds,B,B,B,B,0,0,,0.0,0.0
+claude-fable-5-1,s00014,sr_earbuds_03_dom,chat-log,wireless_earbuds,D,D,A,D,1,0,,0.30000000000000004,0.7
+claude-fable-5-1,s00045,sr_cameras_01_dom,chat-log,cameras,C,C,D,C,1,0,,0.19999999999999996,0.8
+claude-fable-5-1,s00047,sr_cameras_01_dom,chat-log,cameras,B,B,B,B,0,0,,0.19999999999999996,-0.19999999999999996
+claude-fable-5-1,s00055,sr_running_shoes_01_dom,chat-log,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-fable-5-1,s00055,sr_running_shoes_02_dom,chat-log,running_shoes,E,E,C,E,1,0,,0.0,1.0
+claude-fable-5-1,s00055,sr_running_shoes_03_dom,chat-log,running_shoes,E,E,E,E,0,0,,0.0,0.0
+claude-fable-5-1,s00057,sr_running_shoes_01_dom,chat-log,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-fable-5-1,s00057,sr_running_shoes_02_dom,chat-log,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-fable-5-1,s00057,sr_running_shoes_03_dom,chat-log,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-fable-5-1,s00066,sr_smartphones_01_dom,chat-log,smartphones,D,D,E,E,1,-1,,0.0,1.0
+claude-fable-5-1,s00066,sr_smartphones_02_dom,chat-log,smartphones,D,D,E,D,1,0,,0.0,1.0
+claude-fable-5-1,s00066,sr_smartphones_03_dom,chat-log,smartphones,D,D,D,D,0,0,,1.0,-1.0
+claude-fable-5-1,s00069,sr_smartphones_01_dom,chat-log,smartphones,D,D,A,A,1,-1,,0.0,1.0
+claude-fable-5-1,s00069,sr_smartphones_02_dom,chat-log,smartphones,E,E,B,E,1,0,,0.0,1.0
+claude-fable-5-1,s00069,sr_smartphones_03_dom,chat-log,smartphones,D,D,E,D,1,0,,1.0,0.0
+claude-fable-5-1,s00070,sr_smartphones_01_dom,chat-log,smartphones,B,B,D,B,1,0,,0.0,1.0
+claude-fable-5-1,s00070,sr_smartphones_02_dom,chat-log,smartphones,C,C,C,B,0,-1,,0.0,0.0
+claude-fable-5-1,s00070,sr_smartphones_03_dom,chat-log,smartphones,C,C,D,C,1,0,,1.0,0.0
+claude-fable-5-1,s00083,sr_smartphones_01_dom,chat-log,smartphones,D,D,D,B,0,-1,,0.0,0.0
+claude-fable-5-1,s00083,sr_smartphones_02_dom,chat-log,smartphones,D,D,D,D,0,0,,0.0,0.0
+claude-fable-5-1,s00083,sr_smartphones_03_dom,chat-log,smartphones,D,D,C,D,1,0,,1.0,0.0
+claude-fable-5-1,s00087,sr_smartphones_01_dom,chat-log,smartphones,E,E,E,E,0,0,,0.0,0.0
+claude-fable-5-1,s00087,sr_smartphones_02_dom,chat-log,smartphones,D,D,A,D,1,0,,0.0,1.0
+claude-fable-5-1,s00087,sr_smartphones_03_dom,chat-log,smartphones,C,C,C,C,0,0,,1.0,-1.0
+claude-fable-5-1,s00088,sr_smartphones_01_dom,chat-log,smartphones,A,A,E,A,1,0,,0.0,1.0
+claude-fable-5-1,s00088,sr_smartphones_02_dom,chat-log,smartphones,A,A,A,A,0,0,,0.0,0.0
+claude-fable-5-1,s00088,sr_smartphones_03_dom,chat-log,smartphones,D,D,D,D,0,0,,1.0,-1.0
+claude-fable-5-1,s00094,sr_smartphones_01_dom,chat-log,smartphones,D,D,C,D,1,0,,0.0,1.0
+claude-fable-5-1,s00094,sr_smartphones_02_dom,chat-log,smartphones,C,C,C,C,0,0,,0.0,0.0
+claude-fable-5-1,s00094,sr_smartphones_03_dom,chat-log,smartphones,D,D,E,E,1,-1,,1.0,0.0
+claude-fable-5-1,w00002,sr_cameras_01_dom,crowd-written for a dataset,cameras,E,E,E,E,0,0,,0.19999999999999996,-0.19999999999999996
+claude-fable-5-1,w00027,sr_wireless_routers_01_dom,crowd-written for a dataset,wireless_routers,E,E,E,E,0,0,,0.30000000000000004,-0.30000000000000004
+claude-fable-5-1,w00045,sr_tablets_01_dom,crowd-written for a dataset,tablets,B,B,B,B,0,0,,0.0,0.0
+claude-fable-5-1,w00052,sr_wireless_routers_01_dom,crowd-written for a dataset,wireless_routers,A,A,A,A,0,0,,0.30000000000000004,-0.30000000000000004
+claude-fable-5-1,w00053,sr_tvs_01_dom,crowd-written for a dataset,tvs,E,E,E,E,0,0,,0.7,-0.7
+claude-fable-5-1,w00053,sr_tvs_02_dom,crowd-written for a dataset,tvs,E,E,E,E,0,0,,0.0,0.0
+claude-fable-5-1,w00053,sr_tvs_03_dom,crowd-written for a dataset,tvs,C,C,C,C,0,0,,0.0,0.0
+claude-fable-5-1,w00069,sr_tablets_01_dom,crowd-written for a dataset,tablets,A,A,A,A,0,0,,0.0,0.0
+claude-fable-5-1,w00094,sr_tablets_01_dom,crowd-written for a dataset,tablets,A,A,A,A,0,0,,0.0,0.0
+claude-fable-5-1,w00115,sr_earbuds_01_dom,crowd-written for a dataset,wireless_earbuds,D,D,D,D,0,0,,0.0,0.0
+claude-fable-5-1,w00115,sr_earbuds_02_dom,crowd-written for a dataset,wireless_earbuds,B,B,B,B,0,0,,0.0,0.0
+claude-fable-5-1,w00115,sr_earbuds_03_dom,crowd-written for a dataset,wireless_earbuds,B,B,A,B,1,0,,0.30000000000000004,0.7
+claude-fable-5-1,w00127,sr_running_shoes_01_dom,crowd-written for a dataset,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-fable-5-1,w00127,sr_running_shoes_02_dom,crowd-written for a dataset,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-fable-5-1,w00127,sr_running_shoes_03_dom,crowd-written for a dataset,running_shoes,D,D,D,D,0,0,,0.0,0.0
+claude-fable-5-1,w00128,sr_tvs_01_dom,crowd-written for a dataset,tvs,D,D,D,D,0,0,,0.7,-0.7
+claude-fable-5-1,w00128,sr_tvs_02_dom,crowd-written for a dataset,tvs,C,C,C,C,0,0,,0.0,0.0
+claude-fable-5-1,w00128,sr_tvs_03_dom,crowd-written for a dataset,tvs,A,A,A,A,0,0,,0.0,0.0
+claude-fable-5-1,w00153,sr_running_shoes_01_dom,crowd-written for a dataset,running_shoes,A,A,A,A,0,0,,0.0,0.0
+claude-fable-5-1,w00153,sr_running_shoes_02_dom,crowd-written for a dataset,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-fable-5-1,w00153,sr_running_shoes_03_dom,crowd-written for a dataset,running_shoes,D,D,D,D,0,0,,0.0,0.0
+claude-fable-5-1,w00177,sr_smartwatches_01_dom,crowd-written for a dataset,smartwatches,E,E,E,E,0,0,,0.6,-0.6
+claude-fable-5-1,w00190,sr_running_shoes_01_dom,crowd-written for a dataset,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-fable-5-1,w00190,sr_running_shoes_02_dom,crowd-written for a dataset,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-fable-5-1,w00190,sr_running_shoes_03_dom,crowd-written for a dataset,running_shoes,E,E,E,E,0,0,,0.0,0.0
+claude-fable-5-1,w00191,sr_running_shoes_01_dom,crowd-written for a dataset,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-fable-5-1,w00191,sr_running_shoes_02_dom,crowd-written for a dataset,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-fable-5-1,w00191,sr_running_shoes_03_dom,crowd-written for a dataset,running_shoes,D,D,D,D,0,0,,0.0,0.0
+claude-fable-5-1,w00193,sr_electric_toothbrushes_01_dom,crowd-written for a dataset,electric_toothbrushes,D,D,E,D,1,0,,0.7,0.30000000000000004
+claude-fable-5-1,w00215,sr_tablets_01_dom,crowd-written for a dataset,tablets,C,E,E,E,0,0,E,0.0,0.0
+claude-fable-5-1,w00244,sr_electric_toothbrushes_01_dom,crowd-written for a dataset,electric_toothbrushes,D,D,C,C,1,-1,,0.7,0.30000000000000004
+claude-fable-5-1,w00257,sr_tablets_01_dom,crowd-written for a dataset,tablets,B,B,B,B,0,0,,0.0,0.0
+claude-fable-5-1,w00263,sr_smartwatches_01_dom,crowd-written for a dataset,smartwatches,E,E,E,E,0,0,,0.6,-0.6
+claude-fable-5-1,w00308,sr_tablets_01_dom,crowd-written for a dataset,tablets,A,A,A,A,0,0,,0.0,0.0
+claude-fable-5-1,w00327,sr_running_shoes_01_dom,crowd-written for a dataset,running_shoes,D,D,D,D,0,0,,0.0,0.0
+claude-fable-5-1,w00327,sr_running_shoes_02_dom,crowd-written for a dataset,running_shoes,E,E,E,E,0,0,,0.0,0.0
+claude-fable-5-1,w00327,sr_running_shoes_03_dom,crowd-written for a dataset,running_shoes,A,A,A,A,0,0,,0.0,0.0
+claude-fable-5-1,w00328,sr_running_shoes_01_dom,crowd-written for a dataset,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-fable-5-1,w00328,sr_running_shoes_02_dom,crowd-written for a dataset,running_shoes,D,D,D,D,0,0,,0.0,0.0
+claude-fable-5-1,w00328,sr_running_shoes_03_dom,crowd-written for a dataset,running_shoes,D,D,D,D,0,0,,0.0,0.0
+claude-fable-5-1,w00427,sr_tvs_01_dom,crowd-written for a dataset,tvs,B,B,B,B,0,0,,0.7,-0.7
+claude-fable-5-1,w00427,sr_tvs_02_dom,crowd-written for a dataset,tvs,B,B,B,B,0,0,,0.0,0.0
+claude-fable-5-1,w00427,sr_tvs_03_dom,crowd-written for a dataset,tvs,C,C,C,C,0,0,,0.0,0.0
+claude-fable-5-1,w00450,sr_tvs_01_dom,crowd-written for a dataset,tvs,D,D,D,D,0,0,,0.7,-0.7
+claude-fable-5-1,w00450,sr_tvs_02_dom,crowd-written for a dataset,tvs,A,A,A,A,0,0,,0.0,0.0
+claude-fable-5-1,w00450,sr_tvs_03_dom,crowd-written for a dataset,tvs,A,A,A,A,0,0,,0.0,0.0
+claude-fable-5-1,w00556,sr_tvs_01_dom,crowd-written for a dataset,tvs,E,E,B,E,1,0,,0.7,0.30000000000000004
+claude-fable-5-1,w00556,sr_tvs_02_dom,crowd-written for a dataset,tvs,D,D,D,D,0,0,,0.0,0.0
+claude-fable-5-1,w00556,sr_tvs_03_dom,crowd-written for a dataset,tvs,C,C,C,C,0,0,,0.0,0.0
+claude-fable-5-1,w00597,sr_tablets_01_dom,crowd-written for a dataset,tablets,B,B,E,C,1,-1,,0.0,1.0
+claude-fable-5-1,w00618,sr_electric_toothbrushes_01_dom,crowd-written for a dataset,electric_toothbrushes,B,B,B,B,0,0,,0.7,-0.7
+claude-fable-5-1,w00628,sr_backpacks_01_dom,crowd-written for a dataset,backpacks,D,D,D,D,0,0,,0.8,-0.8
+claude-fable-5-1,w00649,sr_running_shoes_01_dom,crowd-written for a dataset,running_shoes,A,A,A,A,0,0,,0.0,0.0
+claude-fable-5-1,w00649,sr_running_shoes_02_dom,crowd-written for a dataset,running_shoes,E,E,E,E,0,0,,0.0,0.0
+claude-fable-5-1,w00649,sr_running_shoes_03_dom,crowd-written for a dataset,running_shoes,C,C,C,C,0,0,,0.0,0.0
+claude-fable-5-1,w00679,sr_running_shoes_01_dom,crowd-written for a dataset,running_shoes,A,A,A,A,0,0,,0.0,0.0
+claude-fable-5-1,w00679,sr_running_shoes_02_dom,crowd-written for a dataset,running_shoes,A,A,A,A,0,0,,0.0,0.0
+claude-fable-5-1,w00679,sr_running_shoes_03_dom,crowd-written for a dataset,running_shoes,C,C,C,C,0,0,,0.0,0.0
+claude-fable-5-1,w00724,sr_smartwatches_01_dom,crowd-written for a dataset,smartwatches,D,D,D,D,0,0,,0.6,-0.6
+claude-fable-5-1,w00747,sr_wireless_routers_01_dom,crowd-written for a dataset,wireless_routers,D,D,D,D,0,0,,0.30000000000000004,-0.30000000000000004
+claude-fable-5-1,w00787,sr_tablets_01_dom,crowd-written for a dataset,tablets,D,D,C,D,1,0,,0.0,1.0
+claude-fable-5-1,w00789,sr_earbuds_01_dom,crowd-written for a dataset,wireless_earbuds,E,E,E,E,0,0,,0.0,0.0
+claude-fable-5-1,w00789,sr_earbuds_02_dom,crowd-written for a dataset,wireless_earbuds,C,C,C,C,0,0,,0.0,0.0
+claude-fable-5-1,w00789,sr_earbuds_03_dom,crowd-written for a dataset,wireless_earbuds,C,C,C,C,0,0,,0.30000000000000004,-0.30000000000000004
+claude-fable-5-1,w00904,sr_tablets_01_dom,crowd-written for a dataset,tablets,E,E,A,E,1,0,,0.0,1.0
+claude-fable-5-1,w00912,sr_tablets_01_dom,crowd-written for a dataset,tablets,D,D,D,D,0,0,,0.0,0.0
+claude-fable-5-1,w00930,sr_earbuds_01_dom,crowd-written for a dataset,wireless_earbuds,D,D,D,D,0,0,,0.0,0.0
+claude-fable-5-1,w00930,sr_earbuds_02_dom,crowd-written for a dataset,wireless_earbuds,A,A,A,A,0,0,,0.0,0.0
+claude-fable-5-1,w00930,sr_earbuds_03_dom,crowd-written for a dataset,wireless_earbuds,A,A,A,A,0,0,,0.30000000000000004,-0.30000000000000004
+claude-haiku-5-5,a-backpacks-0,sr_backpacks_01_dom,written by the author,backpacks,B,B,B,B,0,0,,0.4,-0.4
+claude-haiku-5-5,a-backpacks-1,sr_backpacks_01_dom,written by the author,backpacks,C,C,C,C,0,0,,0.4,-0.4
+claude-haiku-5-5,a-backpacks-2,sr_backpacks_01_dom,written by the author,backpacks,B,B,A,E,1,-1,,0.4,0.6
+claude-haiku-5-5,a-backpacks-3,sr_backpacks_01_dom,written by the author,backpacks,E,E,E,E,0,0,,0.4,-0.4
+claude-haiku-5-5,a-backpacks-4,sr_backpacks_01_dom,written by the author,backpacks,B,B,B,B,0,0,,0.4,-0.4
+claude-haiku-5-5,a-blenders-0,sr_blenders_01_dom,written by the author,blenders,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,a-blenders-1,sr_blenders_01_dom,written by the author,blenders,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,a-blenders-2,sr_blenders_01_dom,written by the author,blenders,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,a-blenders-3,sr_blenders_01_dom,written by the author,blenders,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,a-blenders-4,sr_blenders_01_dom,written by the author,blenders,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,a-blenders-5,sr_blenders_01_dom,written by the author,blenders,E,E,E,E,0,0,,0.0,0.0
+claude-haiku-5-5,a-blenders-6,sr_blenders_01_dom,written by the author,blenders,D,D,D,E,0,-1,,0.0,0.0
+claude-haiku-5-5,a-blenders-7,sr_blenders_01_dom,written by the author,blenders,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,a-blenders-8,sr_blenders_01_dom,written by the author,blenders,E,E,A,A,1,-1,,0.0,1.0
+claude-haiku-5-5,a-coffee_makers-0,sr_coffee_makers_01_dom,written by the author,coffee_makers,B,B,B,B,0,0,,0.1,-0.1
+claude-haiku-5-5,a-coffee_makers-0,sr_coffee_makers_03_dom,written by the author,coffee_makers,B,B,A,A,1,-1,,0.19999999999999996,0.8
+claude-haiku-5-5,a-coffee_makers-1,sr_coffee_makers_01_dom,written by the author,coffee_makers,A,A,A,A,0,0,,0.1,-0.1
+claude-haiku-5-5,a-coffee_makers-1,sr_coffee_makers_03_dom,written by the author,coffee_makers,D,B,E,E,0,0,,0.19999999999999996,-0.19999999999999996
+claude-haiku-5-5,a-coffee_makers-2,sr_coffee_makers_01_dom,written by the author,coffee_makers,D,D,D,D,0,0,,0.1,-0.1
+claude-haiku-5-5,a-coffee_makers-2,sr_coffee_makers_03_dom,written by the author,coffee_makers,C,C,C,D,0,-1,,0.19999999999999996,-0.19999999999999996
+claude-haiku-5-5,a-coffee_makers-3,sr_coffee_makers_01_dom,written by the author,coffee_makers,D,D,D,D,0,0,,0.1,-0.1
+claude-haiku-5-5,a-coffee_makers-3,sr_coffee_makers_03_dom,written by the author,coffee_makers,C,C,C,C,0,0,,0.19999999999999996,-0.19999999999999996
+claude-haiku-5-5,a-coffee_makers-4,sr_coffee_makers_01_dom,written by the author,coffee_makers,B,B,B,B,0,0,,0.1,-0.1
+claude-haiku-5-5,a-coffee_makers-4,sr_coffee_makers_03_dom,written by the author,coffee_makers,D,D,D,E,0,-1,,0.19999999999999996,-0.19999999999999996
+claude-haiku-5-5,a-coffee_makers-5,sr_coffee_makers_01_dom,written by the author,coffee_makers,B,B,B,B,0,0,,0.1,-0.1
+claude-haiku-5-5,a-coffee_makers-5,sr_coffee_makers_03_dom,written by the author,coffee_makers,B,B,A,B,1,0,,0.19999999999999996,0.8
+claude-haiku-5-5,a-coffee_makers-6,sr_coffee_makers_01_dom,written by the author,coffee_makers,C,C,C,C,0,0,,0.1,-0.1
+claude-haiku-5-5,a-coffee_makers-6,sr_coffee_makers_03_dom,written by the author,coffee_makers,E,E,E,D,0,-1,,0.19999999999999996,-0.19999999999999996
+claude-haiku-5-5,a-coffee_makers-7,sr_coffee_makers_01_dom,written by the author,coffee_makers,E,E,E,E,0,0,,0.1,-0.1
+claude-haiku-5-5,a-coffee_makers-7,sr_coffee_makers_03_dom,written by the author,coffee_makers,C,C,D,C,1,0,,0.19999999999999996,0.8
+claude-haiku-5-5,a-coffee_makers-8,sr_coffee_makers_01_dom,written by the author,coffee_makers,C,C,C,C,0,0,,0.1,-0.1
+claude-haiku-5-5,a-coffee_makers-8,sr_coffee_makers_03_dom,written by the author,coffee_makers,D,D,D,D,0,0,,0.19999999999999996,-0.19999999999999996
+claude-haiku-5-5,a-electric_toothbrushes-0,sr_electric_toothbrushes_01_dom,written by the author,electric_toothbrushes,C,C,C,C,0,0,,0.0,0.0
+claude-haiku-5-5,a-electric_toothbrushes-1,sr_electric_toothbrushes_01_dom,written by the author,electric_toothbrushes,A,A,D,A,1,0,,0.0,1.0
+claude-haiku-5-5,a-electric_toothbrushes-2,sr_electric_toothbrushes_01_dom,written by the author,electric_toothbrushes,B,B,C,B,1,0,,0.0,1.0
+claude-haiku-5-5,a-electric_toothbrushes-3,sr_electric_toothbrushes_01_dom,written by the author,electric_toothbrushes,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,a-electric_toothbrushes-4,sr_electric_toothbrushes_01_dom,written by the author,electric_toothbrushes,D,D,B,B,1,-1,B,0.0,1.0
+claude-haiku-5-5,a-electric_toothbrushes-5,sr_electric_toothbrushes_01_dom,written by the author,electric_toothbrushes,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,a-electric_toothbrushes-6,sr_electric_toothbrushes_01_dom,written by the author,electric_toothbrushes,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,a-external_ssds-0,sr_external_ssds_01_dom,written by the author,external_ssds,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,a-external_ssds-1,sr_external_ssds_01_dom,written by the author,external_ssds,E,E,E,E,0,0,,0.0,0.0
+claude-haiku-5-5,a-external_ssds-2,sr_external_ssds_01_dom,written by the author,external_ssds,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,a-external_ssds-3,sr_external_ssds_01_dom,written by the author,external_ssds,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,a-external_ssds-4,sr_external_ssds_01_dom,written by the author,external_ssds,C,C,C,C,0,0,,0.0,0.0
+claude-haiku-5-5,a-external_ssds-5,sr_external_ssds_01_dom,written by the author,external_ssds,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,a-external_ssds-6,sr_external_ssds_01_dom,written by the author,external_ssds,E,E,E,E,0,0,,0.0,0.0
+claude-haiku-5-5,a-external_ssds-7,sr_external_ssds_01_dom,written by the author,external_ssds,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,a-external_ssds-8,sr_external_ssds_01_dom,written by the author,external_ssds,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,a-monitors-0,sr_monitors_01_dom,written by the author,monitors,C,C,C,C,0,0,,0.0,0.0
+claude-haiku-5-5,a-monitors-1,sr_monitors_01_dom,written by the author,monitors,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,a-monitors-2,sr_monitors_01_dom,written by the author,monitors,C,C,C,C,0,0,,0.0,0.0
+claude-haiku-5-5,a-monitors-3,sr_monitors_01_dom,written by the author,monitors,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,a-monitors-4,sr_monitors_01_dom,written by the author,monitors,C,C,C,C,0,0,,0.0,0.0
+claude-haiku-5-5,a-monitors-5,sr_monitors_01_dom,written by the author,monitors,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,a-robot_vacuums-0,sr_robot_vacuums_01_dom,written by the author,robot_vacuums,C,C,C,C,0,0,,0.0,0.0
+claude-haiku-5-5,a-robot_vacuums-1,sr_robot_vacuums_01_dom,written by the author,robot_vacuums,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,a-robot_vacuums-2,sr_robot_vacuums_01_dom,written by the author,robot_vacuums,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,a-robot_vacuums-3,sr_robot_vacuums_01_dom,written by the author,robot_vacuums,E,E,E,E,0,0,,0.0,0.0
+claude-haiku-5-5,a-robot_vacuums-4,sr_robot_vacuums_01_dom,written by the author,robot_vacuums,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,a-robot_vacuums-5,sr_robot_vacuums_01_dom,written by the author,robot_vacuums,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,a-robot_vacuums-6,sr_robot_vacuums_01_dom,written by the author,robot_vacuums,E,E,E,E,0,0,,0.0,0.0
+claude-haiku-5-5,a-robot_vacuums-7,sr_robot_vacuums_01_dom,written by the author,robot_vacuums,E,E,E,E,0,0,,0.0,0.0
+claude-haiku-5-5,a-robot_vacuums-8,sr_robot_vacuums_01_dom,written by the author,robot_vacuums,D,D,C,D,1,0,,0.0,1.0
+claude-haiku-5-5,a-smartwatches-0,sr_smartwatches_01_dom,written by the author,smartwatches,A,A,A,A,0,0,,-0.09999999999999998,0.09999999999999998
+claude-haiku-5-5,a-smartwatches-1,sr_smartwatches_01_dom,written by the author,smartwatches,C,C,C,C,0,0,,-0.09999999999999998,0.09999999999999998
+claude-haiku-5-5,a-smartwatches-2,sr_smartwatches_01_dom,written by the author,smartwatches,C,C,C,C,0,0,,-0.09999999999999998,0.09999999999999998
+claude-haiku-5-5,a-smartwatches-3,sr_smartwatches_01_dom,written by the author,smartwatches,A,A,A,A,0,0,,-0.09999999999999998,0.09999999999999998
+claude-haiku-5-5,a-tvs-0,sr_tvs_01_dom,written by the author,tvs,A,A,A,A,0,0,,-0.09999999999999998,0.09999999999999998
+claude-haiku-5-5,a-tvs-0,sr_tvs_02_dom,written by the author,tvs,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,a-tvs-0,sr_tvs_03_dom,written by the author,tvs,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,a-tvs-1,sr_tvs_01_dom,written by the author,tvs,B,B,B,B,0,0,,-0.09999999999999998,0.09999999999999998
+claude-haiku-5-5,a-tvs-1,sr_tvs_02_dom,written by the author,tvs,E,E,E,E,0,0,,0.0,0.0
+claude-haiku-5-5,a-tvs-1,sr_tvs_03_dom,written by the author,tvs,A,A,D,A,1,0,,0.0,1.0
+claude-haiku-5-5,a-wireless_routers-0,sr_wireless_routers_01_dom,written by the author,wireless_routers,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,a-wireless_routers-1,sr_wireless_routers_01_dom,written by the author,wireless_routers,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,a-wireless_routers-2,sr_wireless_routers_01_dom,written by the author,wireless_routers,C,C,C,C,0,0,,0.0,0.0
+claude-haiku-5-5,a-wireless_routers-3,sr_wireless_routers_01_dom,written by the author,wireless_routers,C,C,C,C,0,0,,0.0,0.0
+claude-haiku-5-5,q000014,sr_backpacks_01_dom,chat-log,backpacks,E,E,C,E,1,0,,0.4,0.6
+claude-haiku-5-5,q000039,sr_tvs_01_dom,chat-log,tvs,E,E,E,E,0,0,,-0.09999999999999998,0.09999999999999998
+claude-haiku-5-5,q000039,sr_tvs_02_dom,chat-log,tvs,C,C,C,C,0,0,,0.0,0.0
+claude-haiku-5-5,q000039,sr_tvs_03_dom,chat-log,tvs,C,C,C,C,0,0,,0.0,0.0
+claude-haiku-5-5,q000058,sr_monitors_01_dom,chat-log,monitors,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,q000068,sr_laptops_01_dom,chat-log,laptops,E,E,E,E,0,0,,0.0,0.0
+claude-haiku-5-5,q000068,sr_laptops_02_dom,chat-log,laptops,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,q000068,sr_laptops_03_dom,chat-log,laptops,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,q000143,sr_smartwatches_01_dom,chat-log,smartwatches,B,B,B,B,0,0,,-0.09999999999999998,0.09999999999999998
+claude-haiku-5-5,q000228,sr_headphones_01_dom,chat-log,headphones,E,E,E,E,0,0,,0.0,0.0
+claude-haiku-5-5,q000228,sr_headphones_02_dom,chat-log,headphones,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,q000228,sr_headphones_03_dom,chat-log,headphones,A,A,A,A,0,0,,0.3,-0.3
+claude-haiku-5-5,q000241,sr_earbuds_01_dom,chat-log,wireless_earbuds,C,C,C,C,0,0,,0.0,0.0
+claude-haiku-5-5,q000241,sr_earbuds_02_dom,chat-log,wireless_earbuds,E,E,E,E,0,0,,0.0,0.0
+claude-haiku-5-5,q000241,sr_earbuds_03_dom,chat-log,wireless_earbuds,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,q000242,sr_earbuds_01_dom,chat-log,wireless_earbuds,C,C,C,C,0,0,,0.0,0.0
+claude-haiku-5-5,q000242,sr_earbuds_02_dom,chat-log,wireless_earbuds,E,E,E,E,0,0,,0.0,0.0
+claude-haiku-5-5,q000242,sr_earbuds_03_dom,chat-log,wireless_earbuds,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,q000243,sr_headphones_01_dom,chat-log,headphones,C,C,C,C,0,0,,0.0,0.0
+claude-haiku-5-5,q000243,sr_headphones_02_dom,chat-log,headphones,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,q000243,sr_headphones_03_dom,chat-log,headphones,E,E,E,E,0,0,,0.3,-0.3
+claude-haiku-5-5,q000317,sr_smartphones_01_dom,chat-log,smartphones,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,q000317,sr_smartphones_02_dom,chat-log,smartphones,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,q000317,sr_smartphones_03_dom,chat-log,smartphones,E,E,E,E,0,0,,0.7,-0.7
+claude-haiku-5-5,q000319,sr_smartphones_01_dom,chat-log,smartphones,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,q000319,sr_smartphones_02_dom,chat-log,smartphones,C,C,C,C,0,0,,0.0,0.0
+claude-haiku-5-5,q000319,sr_smartphones_03_dom,chat-log,smartphones,E,E,A,E,1,0,,0.7,0.30000000000000004
+claude-haiku-5-5,q000320,sr_smartphones_01_dom,chat-log,smartphones,C,C,C,D,0,-1,,0.0,0.0
+claude-haiku-5-5,q000320,sr_smartphones_02_dom,chat-log,smartphones,E,E,E,B,0,-1,,0.0,0.0
+claude-haiku-5-5,q000320,sr_smartphones_03_dom,chat-log,smartphones,D,D,A,A,1,-1,,0.7,0.30000000000000004
+claude-haiku-5-5,q000345,sr_smartphones_01_dom,chat-log,smartphones,C,C,C,C,0,0,,0.0,0.0
+claude-haiku-5-5,q000345,sr_smartphones_02_dom,chat-log,smartphones,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,q000345,sr_smartphones_03_dom,chat-log,smartphones,D,D,D,D,0,0,,0.7,-0.7
+claude-haiku-5-5,q000353,sr_earbuds_01_dom,chat-log,wireless_earbuds,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,q000353,sr_earbuds_02_dom,chat-log,wireless_earbuds,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,q000353,sr_earbuds_03_dom,chat-log,wireless_earbuds,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,q000354,sr_earbuds_01_dom,chat-log,wireless_earbuds,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,q000354,sr_earbuds_02_dom,chat-log,wireless_earbuds,E,E,E,E,0,0,,0.0,0.0
+claude-haiku-5-5,q000354,sr_earbuds_03_dom,chat-log,wireless_earbuds,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,q000356,sr_earbuds_01_dom,chat-log,wireless_earbuds,C,C,C,C,0,0,,0.0,0.0
+claude-haiku-5-5,q000356,sr_earbuds_02_dom,chat-log,wireless_earbuds,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,q000356,sr_earbuds_03_dom,chat-log,wireless_earbuds,E,E,E,E,0,0,,0.0,0.0
+claude-haiku-5-5,q000357,sr_earbuds_01_dom,chat-log,wireless_earbuds,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,q000357,sr_earbuds_02_dom,chat-log,wireless_earbuds,E,E,E,E,0,0,,0.0,0.0
+claude-haiku-5-5,q000357,sr_earbuds_03_dom,chat-log,wireless_earbuds,C,C,C,C,0,0,,0.0,0.0
+claude-haiku-5-5,q000363,sr_smartphones_01_dom,chat-log,smartphones,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,q000363,sr_smartphones_02_dom,chat-log,smartphones,E,E,E,E,0,0,,0.0,0.0
+claude-haiku-5-5,q000363,sr_smartphones_03_dom,chat-log,smartphones,A,A,A,A,0,0,,0.7,-0.7
+claude-haiku-5-5,q000381,sr_smartwatches_01_dom,chat-log,smartwatches,D,D,D,D,0,0,,-0.09999999999999998,0.09999999999999998
+claude-haiku-5-5,q000395,sr_cameras_01_dom,chat-log,cameras,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,q000404,sr_headphones_01_dom,chat-log,headphones,C,C,C,C,0,0,,0.0,0.0
+claude-haiku-5-5,q000404,sr_headphones_02_dom,chat-log,headphones,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,q000404,sr_headphones_03_dom,chat-log,headphones,B,B,B,B,0,0,,0.3,-0.3
+claude-haiku-5-5,q000416,sr_laptops_01_dom,chat-log,laptops,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,q000416,sr_laptops_02_dom,chat-log,laptops,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,q000416,sr_laptops_03_dom,chat-log,laptops,E,E,E,E,0,0,,0.0,0.0
+claude-haiku-5-5,q000456,sr_laptops_01_dom,chat-log,laptops,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,q000456,sr_laptops_02_dom,chat-log,laptops,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,q000456,sr_laptops_03_dom,chat-log,laptops,E,E,E,E,0,0,,0.0,0.0
+claude-haiku-5-5,q000482,sr_backpacks_01_dom,chat-log,backpacks,E,E,E,E,0,0,,0.4,-0.4
+claude-haiku-5-5,q000541,sr_monitors_01_dom,chat-log,monitors,D,D,D,C,0,-1,C,0.0,0.0
+claude-haiku-5-5,q000710,sr_monitors_01_dom,chat-log,monitors,C,C,C,C,0,0,,0.0,0.0
+claude-haiku-5-5,q000743,sr_smartphones_01_dom,chat-log,smartphones,C,C,C,C,0,0,,0.0,0.0
+claude-haiku-5-5,q000743,sr_smartphones_02_dom,chat-log,smartphones,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,q000743,sr_smartphones_03_dom,chat-log,smartphones,D,D,D,D,0,0,,0.7,-0.7
+claude-haiku-5-5,q000762,sr_laptops_01_dom,chat-log,laptops,C,C,B,B,1,-1,,0.0,1.0
+claude-haiku-5-5,q000762,sr_laptops_02_dom,chat-log,laptops,C,C,E,C,1,0,,0.0,1.0
+claude-haiku-5-5,q000762,sr_laptops_03_dom,chat-log,laptops,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,q000770,sr_tvs_01_dom,chat-log,tvs,E,E,E,E,0,0,,-0.09999999999999998,0.09999999999999998
+claude-haiku-5-5,q000770,sr_tvs_02_dom,chat-log,tvs,C,C,C,C,0,0,,0.0,0.0
+claude-haiku-5-5,q000770,sr_tvs_03_dom,chat-log,tvs,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,q000774,sr_robot_vacuums_01_dom,chat-log,robot_vacuums,A,A,C,A,1,0,,0.0,1.0
+claude-haiku-5-5,q000850,sr_smartphones_01_dom,chat-log,smartphones,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,q000850,sr_smartphones_02_dom,chat-log,smartphones,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,q000850,sr_smartphones_03_dom,chat-log,smartphones,B,B,B,B,0,0,,0.7,-0.7
+claude-haiku-5-5,q000855,sr_backpacks_01_dom,chat-log,backpacks,E,E,E,E,0,0,,0.4,-0.4
+claude-haiku-5-5,q000877,sr_wireless_routers_01_dom,chat-log,wireless_routers,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,q000910,sr_headphones_01_dom,chat-log,headphones,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,q000910,sr_headphones_02_dom,chat-log,headphones,E,E,E,E,0,0,,0.0,0.0
+claude-haiku-5-5,q000910,sr_headphones_03_dom,chat-log,headphones,C,C,C,C,0,0,,0.3,-0.3
+claude-haiku-5-5,q000914,sr_headphones_01_dom,chat-log,headphones,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,q000914,sr_headphones_02_dom,chat-log,headphones,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,q000914,sr_headphones_03_dom,chat-log,headphones,E,E,E,E,0,0,,0.3,-0.3
+claude-haiku-5-5,q000917,sr_backpacks_01_dom,chat-log,backpacks,D,D,D,D,0,0,,0.4,-0.4
+claude-haiku-5-5,q000941,sr_headphones_01_dom,chat-log,headphones,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,q000941,sr_headphones_02_dom,chat-log,headphones,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,q000941,sr_headphones_03_dom,chat-log,headphones,C,C,C,C,0,0,,0.3,-0.3
+claude-haiku-5-5,q000996,sr_wireless_routers_01_dom,chat-log,wireless_routers,C,D,C,C,-1,1,,0.0,-1.0
+claude-haiku-5-5,q001845,sr_smartphones_01_dom,chat-log,smartphones,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,q001845,sr_smartphones_02_dom,chat-log,smartphones,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,q001845,sr_smartphones_03_dom,chat-log,smartphones,B,B,B,B,0,0,,0.7,-0.7
+claude-haiku-5-5,q002526,sr_headphones_01_dom,chat-log,headphones,C,C,C,C,0,0,,0.0,0.0
+claude-haiku-5-5,q002526,sr_headphones_02_dom,chat-log,headphones,E,E,E,E,0,0,,0.0,0.0
+claude-haiku-5-5,q002526,sr_headphones_03_dom,chat-log,headphones,E,E,E,E,0,0,,0.3,-0.3
+claude-haiku-5-5,q002807,sr_smartphones_01_dom,chat-log,smartphones,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,q002807,sr_smartphones_02_dom,chat-log,smartphones,A,A,A,B,0,-1,,0.0,0.0
+claude-haiku-5-5,q002807,sr_smartphones_03_dom,chat-log,smartphones,C,C,C,C,0,0,,0.7,-0.7
+claude-haiku-5-5,q002814,sr_smartphones_01_dom,chat-log,smartphones,E,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,q002814,sr_smartphones_02_dom,chat-log,smartphones,A,A,B,B,1,-1,,0.0,1.0
+claude-haiku-5-5,q002814,sr_smartphones_03_dom,chat-log,smartphones,A,D,D,D,0,0,,0.7,-0.7
+claude-haiku-5-5,q002849,sr_laptops_01_dom,chat-log,laptops,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,q002849,sr_laptops_02_dom,chat-log,laptops,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,q002849,sr_laptops_03_dom,chat-log,laptops,C,C,C,C,0,0,,0.0,0.0
+claude-haiku-5-5,q002987,sr_laptops_01_dom,chat-log,laptops,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,q002987,sr_laptops_02_dom,chat-log,laptops,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,q002987,sr_laptops_03_dom,chat-log,laptops,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,q003946,sr_cameras_01_dom,chat-log,cameras,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,q003948,sr_cameras_01_dom,chat-log,cameras,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,q003954,sr_smartphones_01_dom,chat-log,smartphones,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,q003954,sr_smartphones_02_dom,chat-log,smartphones,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,q003954,sr_smartphones_03_dom,chat-log,smartphones,B,B,B,B,0,0,,0.7,-0.7
+claude-haiku-5-5,q003960,sr_smartphones_01_dom,chat-log,smartphones,E,E,E,E,0,0,,0.0,0.0
+claude-haiku-5-5,q003960,sr_smartphones_02_dom,chat-log,smartphones,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,q003960,sr_smartphones_03_dom,chat-log,smartphones,D,D,D,D,0,0,,0.7,-0.7
+claude-haiku-5-5,q003966,sr_smartphones_01_dom,chat-log,smartphones,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,q003966,sr_smartphones_02_dom,chat-log,smartphones,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,q003966,sr_smartphones_03_dom,chat-log,smartphones,C,C,C,C,0,0,,0.7,-0.7
+claude-haiku-5-5,q003968,sr_laptops_01_dom,chat-log,laptops,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,q003968,sr_laptops_02_dom,chat-log,laptops,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,q003968,sr_laptops_03_dom,chat-log,laptops,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,q003985,sr_laptops_01_dom,chat-log,laptops,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,q003985,sr_laptops_02_dom,chat-log,laptops,E,E,E,E,0,0,,0.0,0.0
+claude-haiku-5-5,q003985,sr_laptops_03_dom,chat-log,laptops,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,q003989,sr_laptops_01_dom,chat-log,laptops,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,q003989,sr_laptops_02_dom,chat-log,laptops,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,q003989,sr_laptops_03_dom,chat-log,laptops,E,E,E,E,0,0,,0.0,0.0
+claude-haiku-5-5,q004002,sr_headphones_01_dom,chat-log,headphones,E,E,E,E,0,0,,0.0,0.0
+claude-haiku-5-5,q004002,sr_headphones_02_dom,chat-log,headphones,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,q004002,sr_headphones_03_dom,chat-log,headphones,E,E,E,E,0,0,,0.3,-0.3
+claude-haiku-5-5,q004026,sr_smartphones_01_dom,chat-log,smartphones,E,E,B,E,1,0,,0.0,1.0
+claude-haiku-5-5,q004026,sr_smartphones_02_dom,chat-log,smartphones,C,C,B,C,1,0,,0.0,1.0
+claude-haiku-5-5,q004026,sr_smartphones_03_dom,chat-log,smartphones,E,A,C,C,0,0,,0.7,-0.7
+claude-haiku-5-5,q004032,sr_wireless_routers_01_dom,chat-log,wireless_routers,C,C,C,C,0,0,,0.0,0.0
+claude-haiku-5-5,q004033,sr_cameras_01_dom,chat-log,cameras,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,q004040,sr_headphones_01_dom,chat-log,headphones,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,q004040,sr_headphones_02_dom,chat-log,headphones,C,C,C,C,0,0,,0.0,0.0
+claude-haiku-5-5,q004040,sr_headphones_03_dom,chat-log,headphones,A,A,A,A,0,0,,0.3,-0.3
+claude-haiku-5-5,q004043,sr_headphones_01_dom,chat-log,headphones,A,A,A,B,0,-1,,0.0,0.0
+claude-haiku-5-5,q004043,sr_headphones_02_dom,chat-log,headphones,C,C,A,D,1,-1,,0.0,1.0
+claude-haiku-5-5,q004043,sr_headphones_03_dom,chat-log,headphones,B,B,E,E,1,-1,,0.3,0.7
+claude-haiku-5-5,q004053,sr_smartwatches_01_dom,chat-log,smartwatches,B,B,B,D,0,-1,,-0.09999999999999998,0.09999999999999998
+claude-haiku-5-5,q004065,sr_laptops_01_dom,chat-log,laptops,E,E,E,E,0,0,,0.0,0.0
+claude-haiku-5-5,q004065,sr_laptops_02_dom,chat-log,laptops,E,E,E,B,0,-1,,0.0,0.0
+claude-haiku-5-5,q004065,sr_laptops_03_dom,chat-log,laptops,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,q004067,sr_cameras_01_dom,chat-log,cameras,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,q004070,sr_smartphones_01_dom,chat-log,smartphones,D,D,B,D,1,0,,0.0,1.0
+claude-haiku-5-5,q004070,sr_smartphones_02_dom,chat-log,smartphones,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,q004070,sr_smartphones_03_dom,chat-log,smartphones,B,B,E,C,1,-1,,0.7,0.30000000000000004
+claude-haiku-5-5,q004075,sr_headphones_01_dom,chat-log,headphones,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,q004075,sr_headphones_02_dom,chat-log,headphones,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,q004075,sr_headphones_03_dom,chat-log,headphones,C,C,C,C,0,0,,0.3,-0.3
+claude-haiku-5-5,q004092,sr_monitors_01_dom,chat-log,monitors,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,q004125,sr_external_ssds_01_dom,chat-log,external_ssds,C,C,C,C,0,0,,0.0,0.0
+claude-haiku-5-5,q004129,sr_cameras_01_dom,chat-log,cameras,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,q004131,sr_smartphones_01_dom,chat-log,smartphones,A,A,A,D,0,-1,,0.0,0.0
+claude-haiku-5-5,q004131,sr_smartphones_02_dom,chat-log,smartphones,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,q004131,sr_smartphones_03_dom,chat-log,smartphones,B,B,C,B,1,0,,0.7,0.30000000000000004
+claude-haiku-5-5,q004138,sr_blenders_01_dom,chat-log,blenders,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,q004159,sr_smartphones_01_dom,chat-log,smartphones,C,C,C,C,0,0,,0.0,0.0
+claude-haiku-5-5,q004159,sr_smartphones_02_dom,chat-log,smartphones,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,q004159,sr_smartphones_03_dom,chat-log,smartphones,E,E,E,E,0,0,,0.7,-0.7
+claude-haiku-5-5,q004161,sr_laptops_01_dom,chat-log,laptops,C,C,C,C,0,0,,0.0,0.0
+claude-haiku-5-5,q004161,sr_laptops_02_dom,chat-log,laptops,E,E,E,E,0,0,,0.0,0.0
+claude-haiku-5-5,q004161,sr_laptops_03_dom,chat-log,laptops,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,q004162,sr_smartphones_01_dom,chat-log,smartphones,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,q004162,sr_smartphones_02_dom,chat-log,smartphones,D,D,A,A,1,-1,,0.0,1.0
+claude-haiku-5-5,q004162,sr_smartphones_03_dom,chat-log,smartphones,A,A,C,A,1,0,,0.7,0.30000000000000004
+claude-haiku-5-5,q004167,sr_coffee_makers_01_dom,chat-log,coffee_makers,E,E,E,E,0,0,,0.1,-0.1
+claude-haiku-5-5,q004167,sr_coffee_makers_03_dom,chat-log,coffee_makers,B,B,B,A,0,-1,,0.19999999999999996,-0.19999999999999996
+claude-haiku-5-5,s00000,sr_tvs_01_dom,chat-log,tvs,D,D,D,D,0,0,,-0.09999999999999998,0.09999999999999998
+claude-haiku-5-5,s00000,sr_tvs_02_dom,chat-log,tvs,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,s00000,sr_tvs_03_dom,chat-log,tvs,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,s00003,sr_headphones_01_dom,chat-log,headphones,C,C,C,C,0,0,,0.0,0.0
+claude-haiku-5-5,s00003,sr_headphones_02_dom,chat-log,headphones,C,C,D,C,1,0,,0.0,1.0
+claude-haiku-5-5,s00003,sr_headphones_03_dom,chat-log,headphones,C,C,C,C,0,0,,0.3,-0.3
+claude-haiku-5-5,s00007,sr_cameras_01_dom,chat-log,cameras,E,E,E,E,0,0,,0.0,0.0
+claude-haiku-5-5,s00014,sr_earbuds_01_dom,chat-log,wireless_earbuds,E,E,E,A,0,-1,,0.0,0.0
+claude-haiku-5-5,s00014,sr_earbuds_02_dom,chat-log,wireless_earbuds,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,s00014,sr_earbuds_03_dom,chat-log,wireless_earbuds,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,s00045,sr_cameras_01_dom,chat-log,cameras,C,C,C,C,0,0,,0.0,0.0
+claude-haiku-5-5,s00047,sr_cameras_01_dom,chat-log,cameras,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,s00055,sr_running_shoes_01_dom,chat-log,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,s00055,sr_running_shoes_02_dom,chat-log,running_shoes,E,E,E,E,0,0,,0.0,0.0
+claude-haiku-5-5,s00055,sr_running_shoes_03_dom,chat-log,running_shoes,E,E,E,E,0,0,,0.0,0.0
+claude-haiku-5-5,s00057,sr_running_shoes_01_dom,chat-log,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,s00057,sr_running_shoes_02_dom,chat-log,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,s00057,sr_running_shoes_03_dom,chat-log,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,s00066,sr_smartphones_01_dom,chat-log,smartphones,D,D,D,E,0,-1,,0.0,0.0
+claude-haiku-5-5,s00066,sr_smartphones_02_dom,chat-log,smartphones,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,s00066,sr_smartphones_03_dom,chat-log,smartphones,D,D,A,D,1,0,,0.7,0.30000000000000004
+claude-haiku-5-5,s00069,sr_smartphones_01_dom,chat-log,smartphones,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,s00069,sr_smartphones_02_dom,chat-log,smartphones,E,E,,E,,0,,0.0,
+claude-haiku-5-5,s00069,sr_smartphones_03_dom,chat-log,smartphones,D,D,D,E,0,-1,,0.7,-0.7
+claude-haiku-5-5,s00070,sr_smartphones_01_dom,chat-log,smartphones,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,s00070,sr_smartphones_02_dom,chat-log,smartphones,C,C,C,C,0,0,,0.0,0.0
+claude-haiku-5-5,s00070,sr_smartphones_03_dom,chat-log,smartphones,C,C,C,C,0,0,,0.7,-0.7
+claude-haiku-5-5,s00083,sr_smartphones_01_dom,chat-log,smartphones,D,D,B,B,1,-1,,0.0,1.0
+claude-haiku-5-5,s00083,sr_smartphones_02_dom,chat-log,smartphones,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,s00083,sr_smartphones_03_dom,chat-log,smartphones,D,D,D,D,0,0,,0.7,-0.7
+claude-haiku-5-5,s00087,sr_smartphones_01_dom,chat-log,smartphones,E,E,E,E,0,0,,0.0,0.0
+claude-haiku-5-5,s00087,sr_smartphones_02_dom,chat-log,smartphones,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,s00087,sr_smartphones_03_dom,chat-log,smartphones,C,C,C,C,0,0,,0.7,-0.7
+claude-haiku-5-5,s00088,sr_smartphones_01_dom,chat-log,smartphones,A,A,E,A,1,0,,0.0,1.0
+claude-haiku-5-5,s00088,sr_smartphones_02_dom,chat-log,smartphones,A,A,A,E,0,-1,,0.0,0.0
+claude-haiku-5-5,s00088,sr_smartphones_03_dom,chat-log,smartphones,D,D,A,D,1,0,,0.7,0.30000000000000004
+claude-haiku-5-5,s00094,sr_smartphones_01_dom,chat-log,smartphones,D,D,D,B,0,-1,,0.0,0.0
+claude-haiku-5-5,s00094,sr_smartphones_02_dom,chat-log,smartphones,C,C,C,C,0,0,,0.0,0.0
+claude-haiku-5-5,s00094,sr_smartphones_03_dom,chat-log,smartphones,D,D,D,D,0,0,,0.7,-0.7
+claude-haiku-5-5,w00002,sr_cameras_01_dom,crowd-written for a dataset,cameras,E,E,E,E,0,0,,0.0,0.0
+claude-haiku-5-5,w00027,sr_wireless_routers_01_dom,crowd-written for a dataset,wireless_routers,E,E,E,E,0,0,,0.0,0.0
+claude-haiku-5-5,w00045,sr_tablets_01_dom,crowd-written for a dataset,tablets,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,w00052,sr_wireless_routers_01_dom,crowd-written for a dataset,wireless_routers,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,w00053,sr_tvs_01_dom,crowd-written for a dataset,tvs,E,E,E,E,0,0,,-0.09999999999999998,0.09999999999999998
+claude-haiku-5-5,w00053,sr_tvs_02_dom,crowd-written for a dataset,tvs,E,E,E,E,0,0,,0.0,0.0
+claude-haiku-5-5,w00053,sr_tvs_03_dom,crowd-written for a dataset,tvs,C,C,C,C,0,0,,0.0,0.0
+claude-haiku-5-5,w00069,sr_tablets_01_dom,crowd-written for a dataset,tablets,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,w00094,sr_tablets_01_dom,crowd-written for a dataset,tablets,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,w00115,sr_earbuds_01_dom,crowd-written for a dataset,wireless_earbuds,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,w00115,sr_earbuds_02_dom,crowd-written for a dataset,wireless_earbuds,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,w00115,sr_earbuds_03_dom,crowd-written for a dataset,wireless_earbuds,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,w00127,sr_running_shoes_01_dom,crowd-written for a dataset,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,w00127,sr_running_shoes_02_dom,crowd-written for a dataset,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,w00127,sr_running_shoes_03_dom,crowd-written for a dataset,running_shoes,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,w00128,sr_tvs_01_dom,crowd-written for a dataset,tvs,D,D,D,D,0,0,,-0.09999999999999998,0.09999999999999998
+claude-haiku-5-5,w00128,sr_tvs_02_dom,crowd-written for a dataset,tvs,C,C,C,C,0,0,,0.0,0.0
+claude-haiku-5-5,w00128,sr_tvs_03_dom,crowd-written for a dataset,tvs,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,w00153,sr_running_shoes_01_dom,crowd-written for a dataset,running_shoes,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,w00153,sr_running_shoes_02_dom,crowd-written for a dataset,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,w00153,sr_running_shoes_03_dom,crowd-written for a dataset,running_shoes,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,w00177,sr_smartwatches_01_dom,crowd-written for a dataset,smartwatches,E,E,B,E,1,0,,-0.09999999999999998,1.1
+claude-haiku-5-5,w00190,sr_running_shoes_01_dom,crowd-written for a dataset,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,w00190,sr_running_shoes_02_dom,crowd-written for a dataset,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,w00190,sr_running_shoes_03_dom,crowd-written for a dataset,running_shoes,E,E,E,E,0,0,,0.0,0.0
+claude-haiku-5-5,w00191,sr_running_shoes_01_dom,crowd-written for a dataset,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,w00191,sr_running_shoes_02_dom,crowd-written for a dataset,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,w00191,sr_running_shoes_03_dom,crowd-written for a dataset,running_shoes,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,w00193,sr_electric_toothbrushes_01_dom,crowd-written for a dataset,electric_toothbrushes,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,w00215,sr_tablets_01_dom,crowd-written for a dataset,tablets,C,E,E,E,0,0,E,0.0,0.0
+claude-haiku-5-5,w00244,sr_electric_toothbrushes_01_dom,crowd-written for a dataset,electric_toothbrushes,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,w00257,sr_tablets_01_dom,crowd-written for a dataset,tablets,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,w00263,sr_smartwatches_01_dom,crowd-written for a dataset,smartwatches,E,E,B,E,1,0,,-0.09999999999999998,1.1
+claude-haiku-5-5,w00308,sr_tablets_01_dom,crowd-written for a dataset,tablets,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,w00327,sr_running_shoes_01_dom,crowd-written for a dataset,running_shoes,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,w00327,sr_running_shoes_02_dom,crowd-written for a dataset,running_shoes,E,E,E,E,0,0,,0.0,0.0
+claude-haiku-5-5,w00327,sr_running_shoes_03_dom,crowd-written for a dataset,running_shoes,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,w00328,sr_running_shoes_01_dom,crowd-written for a dataset,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,w00328,sr_running_shoes_02_dom,crowd-written for a dataset,running_shoes,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,w00328,sr_running_shoes_03_dom,crowd-written for a dataset,running_shoes,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,w00427,sr_tvs_01_dom,crowd-written for a dataset,tvs,B,B,B,B,0,0,,-0.09999999999999998,0.09999999999999998
+claude-haiku-5-5,w00427,sr_tvs_02_dom,crowd-written for a dataset,tvs,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,w00427,sr_tvs_03_dom,crowd-written for a dataset,tvs,C,C,C,C,0,0,,0.0,0.0
+claude-haiku-5-5,w00450,sr_tvs_01_dom,crowd-written for a dataset,tvs,D,D,D,D,0,0,,-0.09999999999999998,0.09999999999999998
+claude-haiku-5-5,w00450,sr_tvs_02_dom,crowd-written for a dataset,tvs,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,w00450,sr_tvs_03_dom,crowd-written for a dataset,tvs,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,w00556,sr_tvs_01_dom,crowd-written for a dataset,tvs,E,E,E,E,0,0,,-0.09999999999999998,0.09999999999999998
+claude-haiku-5-5,w00556,sr_tvs_02_dom,crowd-written for a dataset,tvs,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,w00556,sr_tvs_03_dom,crowd-written for a dataset,tvs,C,C,C,C,0,0,,0.0,0.0
+claude-haiku-5-5,w00597,sr_tablets_01_dom,crowd-written for a dataset,tablets,B,B,B,C,0,-1,,0.0,0.0
+claude-haiku-5-5,w00618,sr_electric_toothbrushes_01_dom,crowd-written for a dataset,electric_toothbrushes,B,B,B,B,0,0,,0.0,0.0
+claude-haiku-5-5,w00628,sr_backpacks_01_dom,crowd-written for a dataset,backpacks,D,D,D,D,0,0,,0.4,-0.4
+claude-haiku-5-5,w00649,sr_running_shoes_01_dom,crowd-written for a dataset,running_shoes,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,w00649,sr_running_shoes_02_dom,crowd-written for a dataset,running_shoes,E,E,E,E,0,0,,0.0,0.0
+claude-haiku-5-5,w00649,sr_running_shoes_03_dom,crowd-written for a dataset,running_shoes,C,C,C,C,0,0,,0.0,0.0
+claude-haiku-5-5,w00679,sr_running_shoes_01_dom,crowd-written for a dataset,running_shoes,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,w00679,sr_running_shoes_02_dom,crowd-written for a dataset,running_shoes,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,w00679,sr_running_shoes_03_dom,crowd-written for a dataset,running_shoes,C,C,C,C,0,0,,0.0,0.0
+claude-haiku-5-5,w00724,sr_smartwatches_01_dom,crowd-written for a dataset,smartwatches,D,D,D,D,0,0,,-0.09999999999999998,0.09999999999999998
+claude-haiku-5-5,w00747,sr_wireless_routers_01_dom,crowd-written for a dataset,wireless_routers,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,w00787,sr_tablets_01_dom,crowd-written for a dataset,tablets,D,D,B,D,1,0,,0.0,1.0
+claude-haiku-5-5,w00789,sr_earbuds_01_dom,crowd-written for a dataset,wireless_earbuds,E,E,E,E,0,0,,0.0,0.0
+claude-haiku-5-5,w00789,sr_earbuds_02_dom,crowd-written for a dataset,wireless_earbuds,C,C,C,C,0,0,,0.0,0.0
+claude-haiku-5-5,w00789,sr_earbuds_03_dom,crowd-written for a dataset,wireless_earbuds,C,C,C,C,0,0,,0.0,0.0
+claude-haiku-5-5,w00904,sr_tablets_01_dom,crowd-written for a dataset,tablets,E,E,E,E,0,0,,0.0,0.0
+claude-haiku-5-5,w00912,sr_tablets_01_dom,crowd-written for a dataset,tablets,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,w00930,sr_earbuds_01_dom,crowd-written for a dataset,wireless_earbuds,D,D,D,D,0,0,,0.0,0.0
+claude-haiku-5-5,w00930,sr_earbuds_02_dom,crowd-written for a dataset,wireless_earbuds,A,A,A,A,0,0,,0.0,0.0
+claude-haiku-5-5,w00930,sr_earbuds_03_dom,crowd-written for a dataset,wireless_earbuds,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,a-backpacks-0,sr_backpacks_01_dom,written by the author,backpacks,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,a-backpacks-1,sr_backpacks_01_dom,written by the author,backpacks,C,C,C,C,0,0,,0.0,0.0
+claude-opus-5-5,a-backpacks-2,sr_backpacks_01_dom,written by the author,backpacks,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,a-backpacks-3,sr_backpacks_01_dom,written by the author,backpacks,E,E,E,E,0,0,,0.0,0.0
+claude-opus-5-5,a-backpacks-4,sr_backpacks_01_dom,written by the author,backpacks,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,a-blenders-0,sr_blenders_01_dom,written by the author,blenders,A,A,E,A,1,0,,0.1,0.9
+claude-opus-5-5,a-blenders-1,sr_blenders_01_dom,written by the author,blenders,D,E,E,D,0,1,,0.1,-0.1
+claude-opus-5-5,a-blenders-2,sr_blenders_01_dom,written by the author,blenders,B,B,B,B,0,0,,0.1,-0.1
+claude-opus-5-5,a-blenders-3,sr_blenders_01_dom,written by the author,blenders,A,D,C,D,0,0,,0.1,-0.1
+claude-opus-5-5,a-blenders-4,sr_blenders_01_dom,written by the author,blenders,A,D,D,D,0,0,,0.1,-0.1
+claude-opus-5-5,a-blenders-5,sr_blenders_01_dom,written by the author,blenders,E,E,D,E,1,0,,0.1,0.9
+claude-opus-5-5,a-blenders-6,sr_blenders_01_dom,written by the author,blenders,D,D,E,D,1,0,,0.1,0.9
+claude-opus-5-5,a-blenders-7,sr_blenders_01_dom,written by the author,blenders,D,D,B,D,1,0,,0.1,0.9
+claude-opus-5-5,a-blenders-8,sr_blenders_01_dom,written by the author,blenders,E,E,A,A,1,-1,,0.1,0.9
+claude-opus-5-5,a-coffee_makers-0,sr_coffee_makers_01_dom,written by the author,coffee_makers,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,a-coffee_makers-0,sr_coffee_makers_03_dom,written by the author,coffee_makers,B,B,A,A,1,-1,,0.09999999999999998,0.9
+claude-opus-5-5,a-coffee_makers-1,sr_coffee_makers_01_dom,written by the author,coffee_makers,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,a-coffee_makers-1,sr_coffee_makers_03_dom,written by the author,coffee_makers,D,C,E,E,0,0,,0.09999999999999998,-0.09999999999999998
+claude-opus-5-5,a-coffee_makers-2,sr_coffee_makers_01_dom,written by the author,coffee_makers,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,a-coffee_makers-2,sr_coffee_makers_03_dom,written by the author,coffee_makers,C,C,A,A,1,-1,,0.09999999999999998,0.9
+claude-opus-5-5,a-coffee_makers-3,sr_coffee_makers_01_dom,written by the author,coffee_makers,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,a-coffee_makers-3,sr_coffee_makers_03_dom,written by the author,coffee_makers,C,C,A,C,1,0,,0.09999999999999998,0.9
+claude-opus-5-5,a-coffee_makers-4,sr_coffee_makers_01_dom,written by the author,coffee_makers,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,a-coffee_makers-4,sr_coffee_makers_03_dom,written by the author,coffee_makers,D,D,E,E,1,-1,,0.09999999999999998,0.9
+claude-opus-5-5,a-coffee_makers-5,sr_coffee_makers_01_dom,written by the author,coffee_makers,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,a-coffee_makers-5,sr_coffee_makers_03_dom,written by the author,coffee_makers,B,B,A,B,1,0,,0.09999999999999998,0.9
+claude-opus-5-5,a-coffee_makers-6,sr_coffee_makers_01_dom,written by the author,coffee_makers,C,C,C,C,0,0,,0.0,0.0
+claude-opus-5-5,a-coffee_makers-6,sr_coffee_makers_03_dom,written by the author,coffee_makers,E,E,D,E,1,0,,0.09999999999999998,0.9
+claude-opus-5-5,a-coffee_makers-7,sr_coffee_makers_01_dom,written by the author,coffee_makers,E,E,E,E,0,0,,0.0,0.0
+claude-opus-5-5,a-coffee_makers-7,sr_coffee_makers_03_dom,written by the author,coffee_makers,C,D,D,A,0,0,,0.09999999999999998,-0.09999999999999998
+claude-opus-5-5,a-coffee_makers-8,sr_coffee_makers_01_dom,written by the author,coffee_makers,C,C,C,C,0,0,,0.0,0.0
+claude-opus-5-5,a-coffee_makers-8,sr_coffee_makers_03_dom,written by the author,coffee_makers,D,D,D,C,0,-1,,0.09999999999999998,-0.09999999999999998
+claude-opus-5-5,a-electric_toothbrushes-0,sr_electric_toothbrushes_01_dom,written by the author,electric_toothbrushes,C,C,C,C,0,0,,0.0,0.0
+claude-opus-5-5,a-electric_toothbrushes-1,sr_electric_toothbrushes_01_dom,written by the author,electric_toothbrushes,A,A,D,A,1,0,,0.0,1.0
+claude-opus-5-5,a-electric_toothbrushes-2,sr_electric_toothbrushes_01_dom,written by the author,electric_toothbrushes,B,B,C,C,1,-1,,0.0,1.0
+claude-opus-5-5,a-electric_toothbrushes-3,sr_electric_toothbrushes_01_dom,written by the author,electric_toothbrushes,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,a-electric_toothbrushes-4,sr_electric_toothbrushes_01_dom,written by the author,electric_toothbrushes,D,D,D,D,0,0,B,0.0,0.0
+claude-opus-5-5,a-electric_toothbrushes-5,sr_electric_toothbrushes_01_dom,written by the author,electric_toothbrushes,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,a-electric_toothbrushes-6,sr_electric_toothbrushes_01_dom,written by the author,electric_toothbrushes,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,a-external_ssds-0,sr_external_ssds_01_dom,written by the author,external_ssds,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,a-external_ssds-1,sr_external_ssds_01_dom,written by the author,external_ssds,E,E,A,E,1,0,,0.0,1.0
+claude-opus-5-5,a-external_ssds-2,sr_external_ssds_01_dom,written by the author,external_ssds,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,a-external_ssds-3,sr_external_ssds_01_dom,written by the author,external_ssds,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,a-external_ssds-4,sr_external_ssds_01_dom,written by the author,external_ssds,C,C,C,C,0,0,,0.0,0.0
+claude-opus-5-5,a-external_ssds-5,sr_external_ssds_01_dom,written by the author,external_ssds,B,B,E,B,1,0,,0.0,1.0
+claude-opus-5-5,a-external_ssds-6,sr_external_ssds_01_dom,written by the author,external_ssds,E,E,E,E,0,0,,0.0,0.0
+claude-opus-5-5,a-external_ssds-7,sr_external_ssds_01_dom,written by the author,external_ssds,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,a-external_ssds-8,sr_external_ssds_01_dom,written by the author,external_ssds,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,a-monitors-0,sr_monitors_01_dom,written by the author,monitors,C,C,C,C,0,0,,0.0,0.0
+claude-opus-5-5,a-monitors-1,sr_monitors_01_dom,written by the author,monitors,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,a-monitors-2,sr_monitors_01_dom,written by the author,monitors,C,C,C,C,0,0,,0.0,0.0
+claude-opus-5-5,a-monitors-3,sr_monitors_01_dom,written by the author,monitors,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,a-monitors-4,sr_monitors_01_dom,written by the author,monitors,C,C,C,C,0,0,,0.0,0.0
+claude-opus-5-5,a-monitors-5,sr_monitors_01_dom,written by the author,monitors,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,a-robot_vacuums-0,sr_robot_vacuums_01_dom,written by the author,robot_vacuums,C,C,C,C,0,0,,-0.19999999999999996,0.19999999999999996
+claude-opus-5-5,a-robot_vacuums-1,sr_robot_vacuums_01_dom,written by the author,robot_vacuums,B,B,B,B,0,0,,-0.19999999999999996,0.19999999999999996
+claude-opus-5-5,a-robot_vacuums-2,sr_robot_vacuums_01_dom,written by the author,robot_vacuums,B,B,B,B,0,0,,-0.19999999999999996,0.19999999999999996
+claude-opus-5-5,a-robot_vacuums-3,sr_robot_vacuums_01_dom,written by the author,robot_vacuums,E,E,E,E,0,0,,-0.19999999999999996,0.19999999999999996
+claude-opus-5-5,a-robot_vacuums-4,sr_robot_vacuums_01_dom,written by the author,robot_vacuums,B,B,B,B,0,0,,-0.19999999999999996,0.19999999999999996
+claude-opus-5-5,a-robot_vacuums-5,sr_robot_vacuums_01_dom,written by the author,robot_vacuums,A,A,A,A,0,0,,-0.19999999999999996,0.19999999999999996
+claude-opus-5-5,a-robot_vacuums-6,sr_robot_vacuums_01_dom,written by the author,robot_vacuums,E,E,E,E,0,0,,-0.19999999999999996,0.19999999999999996
+claude-opus-5-5,a-robot_vacuums-7,sr_robot_vacuums_01_dom,written by the author,robot_vacuums,E,E,E,E,0,0,,-0.19999999999999996,0.19999999999999996
+claude-opus-5-5,a-robot_vacuums-8,sr_robot_vacuums_01_dom,written by the author,robot_vacuums,D,D,C,C,1,-1,,-0.19999999999999996,1.2
+claude-opus-5-5,a-smartwatches-0,sr_smartwatches_01_dom,written by the author,smartwatches,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,a-smartwatches-1,sr_smartwatches_01_dom,written by the author,smartwatches,C,C,C,C,0,0,,0.0,0.0
+claude-opus-5-5,a-smartwatches-2,sr_smartwatches_01_dom,written by the author,smartwatches,C,C,C,C,0,0,,0.0,0.0
+claude-opus-5-5,a-smartwatches-3,sr_smartwatches_01_dom,written by the author,smartwatches,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,a-tvs-0,sr_tvs_01_dom,written by the author,tvs,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,a-tvs-0,sr_tvs_02_dom,written by the author,tvs,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,a-tvs-0,sr_tvs_03_dom,written by the author,tvs,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,a-tvs-1,sr_tvs_01_dom,written by the author,tvs,B,B,A,A,1,-1,,0.0,1.0
+claude-opus-5-5,a-tvs-1,sr_tvs_02_dom,written by the author,tvs,E,E,B,B,1,-1,,0.0,1.0
+claude-opus-5-5,a-tvs-1,sr_tvs_03_dom,written by the author,tvs,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,a-wireless_routers-0,sr_wireless_routers_01_dom,written by the author,wireless_routers,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,a-wireless_routers-1,sr_wireless_routers_01_dom,written by the author,wireless_routers,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,a-wireless_routers-2,sr_wireless_routers_01_dom,written by the author,wireless_routers,C,C,C,C,0,0,,0.0,0.0
+claude-opus-5-5,a-wireless_routers-3,sr_wireless_routers_01_dom,written by the author,wireless_routers,C,C,C,C,0,0,,0.0,0.0
+claude-opus-5-5,q000014,sr_backpacks_01_dom,chat-log,backpacks,E,E,A,E,1,0,,0.0,1.0
+claude-opus-5-5,q000039,sr_tvs_01_dom,chat-log,tvs,E,E,E,E,0,0,,0.0,0.0
+claude-opus-5-5,q000039,sr_tvs_02_dom,chat-log,tvs,C,C,C,C,0,0,,0.0,0.0
+claude-opus-5-5,q000039,sr_tvs_03_dom,chat-log,tvs,C,C,C,C,0,0,,0.0,0.0
+claude-opus-5-5,q000058,sr_monitors_01_dom,chat-log,monitors,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,q000068,sr_laptops_01_dom,chat-log,laptops,E,E,E,E,0,0,,0.0,0.0
+claude-opus-5-5,q000068,sr_laptops_02_dom,chat-log,laptops,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,q000068,sr_laptops_03_dom,chat-log,laptops,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,q000143,sr_smartwatches_01_dom,chat-log,smartwatches,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,q000228,sr_headphones_01_dom,chat-log,headphones,E,E,E,E,0,0,,0.0,0.0
+claude-opus-5-5,q000228,sr_headphones_02_dom,chat-log,headphones,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,q000228,sr_headphones_03_dom,chat-log,headphones,A,A,A,A,0,0,,0.3,-0.3
+claude-opus-5-5,q000241,sr_earbuds_01_dom,chat-log,wireless_earbuds,C,C,E,E,1,-1,,0.0,1.0
+claude-opus-5-5,q000241,sr_earbuds_02_dom,chat-log,wireless_earbuds,E,E,E,E,0,0,,0.0,0.0
+claude-opus-5-5,q000241,sr_earbuds_03_dom,chat-log,wireless_earbuds,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,q000242,sr_earbuds_01_dom,chat-log,wireless_earbuds,C,C,C,C,0,0,,0.0,0.0
+claude-opus-5-5,q000242,sr_earbuds_02_dom,chat-log,wireless_earbuds,E,E,E,E,0,0,,0.0,0.0
+claude-opus-5-5,q000242,sr_earbuds_03_dom,chat-log,wireless_earbuds,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,q000243,sr_headphones_01_dom,chat-log,headphones,C,C,C,C,0,0,,0.0,0.0
+claude-opus-5-5,q000243,sr_headphones_02_dom,chat-log,headphones,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,q000243,sr_headphones_03_dom,chat-log,headphones,E,E,E,E,0,0,,0.3,-0.3
+claude-opus-5-5,q000317,sr_smartphones_01_dom,chat-log,smartphones,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,q000317,sr_smartphones_02_dom,chat-log,smartphones,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,q000317,sr_smartphones_03_dom,chat-log,smartphones,E,E,E,E,0,0,,0.0,0.0
+claude-opus-5-5,q000319,sr_smartphones_01_dom,chat-log,smartphones,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,q000319,sr_smartphones_02_dom,chat-log,smartphones,C,C,C,C,0,0,,0.0,0.0
+claude-opus-5-5,q000319,sr_smartphones_03_dom,chat-log,smartphones,E,E,E,A,0,-1,,0.0,0.0
+claude-opus-5-5,q000320,sr_smartphones_01_dom,chat-log,smartphones,C,C,D,D,1,-1,,0.0,1.0
+claude-opus-5-5,q000320,sr_smartphones_02_dom,chat-log,smartphones,E,E,B,B,1,-1,,0.0,1.0
+claude-opus-5-5,q000320,sr_smartphones_03_dom,chat-log,smartphones,D,D,A,A,1,-1,,0.0,1.0
+claude-opus-5-5,q000345,sr_smartphones_01_dom,chat-log,smartphones,C,C,C,C,0,0,,0.0,0.0
+claude-opus-5-5,q000345,sr_smartphones_02_dom,chat-log,smartphones,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,q000345,sr_smartphones_03_dom,chat-log,smartphones,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,q000353,sr_earbuds_01_dom,chat-log,wireless_earbuds,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,q000353,sr_earbuds_02_dom,chat-log,wireless_earbuds,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,q000353,sr_earbuds_03_dom,chat-log,wireless_earbuds,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,q000354,sr_earbuds_01_dom,chat-log,wireless_earbuds,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,q000354,sr_earbuds_02_dom,chat-log,wireless_earbuds,E,E,E,E,0,0,,0.0,0.0
+claude-opus-5-5,q000354,sr_earbuds_03_dom,chat-log,wireless_earbuds,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,q000356,sr_earbuds_01_dom,chat-log,wireless_earbuds,C,C,C,C,0,0,,0.0,0.0
+claude-opus-5-5,q000356,sr_earbuds_02_dom,chat-log,wireless_earbuds,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,q000356,sr_earbuds_03_dom,chat-log,wireless_earbuds,E,E,E,E,0,0,,0.0,0.0
+claude-opus-5-5,q000357,sr_earbuds_01_dom,chat-log,wireless_earbuds,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,q000357,sr_earbuds_02_dom,chat-log,wireless_earbuds,E,E,E,E,0,0,,0.0,0.0
+claude-opus-5-5,q000357,sr_earbuds_03_dom,chat-log,wireless_earbuds,C,C,C,C,0,0,,0.0,0.0
+claude-opus-5-5,q000363,sr_smartphones_01_dom,chat-log,smartphones,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,q000363,sr_smartphones_02_dom,chat-log,smartphones,E,E,E,E,0,0,,0.0,0.0
+claude-opus-5-5,q000363,sr_smartphones_03_dom,chat-log,smartphones,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,q000381,sr_smartwatches_01_dom,chat-log,smartwatches,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,q000395,sr_cameras_01_dom,chat-log,cameras,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,q000404,sr_headphones_01_dom,chat-log,headphones,C,C,C,C,0,0,,0.0,0.0
+claude-opus-5-5,q000404,sr_headphones_02_dom,chat-log,headphones,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,q000404,sr_headphones_03_dom,chat-log,headphones,B,B,B,B,0,0,,0.3,-0.3
+claude-opus-5-5,q000416,sr_laptops_01_dom,chat-log,laptops,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,q000416,sr_laptops_02_dom,chat-log,laptops,A,A,A,C,0,-1,,0.0,0.0
+claude-opus-5-5,q000416,sr_laptops_03_dom,chat-log,laptops,E,E,E,E,0,0,,0.0,0.0
+claude-opus-5-5,q000456,sr_laptops_01_dom,chat-log,laptops,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,q000456,sr_laptops_02_dom,chat-log,laptops,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,q000456,sr_laptops_03_dom,chat-log,laptops,E,E,E,E,0,0,,0.0,0.0
+claude-opus-5-5,q000482,sr_backpacks_01_dom,chat-log,backpacks,E,E,E,E,0,0,,0.0,0.0
+claude-opus-5-5,q000541,sr_monitors_01_dom,chat-log,monitors,D,D,D,D,0,0,C,0.0,0.0
+claude-opus-5-5,q000710,sr_monitors_01_dom,chat-log,monitors,C,C,C,C,0,0,,0.0,0.0
+claude-opus-5-5,q000743,sr_smartphones_01_dom,chat-log,smartphones,C,C,C,C,0,0,,0.0,0.0
+claude-opus-5-5,q000743,sr_smartphones_02_dom,chat-log,smartphones,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,q000743,sr_smartphones_03_dom,chat-log,smartphones,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,q000762,sr_laptops_01_dom,chat-log,laptops,C,C,B,B,1,-1,,0.0,1.0
+claude-opus-5-5,q000762,sr_laptops_02_dom,chat-log,laptops,C,C,E,C,1,0,,0.0,1.0
+claude-opus-5-5,q000762,sr_laptops_03_dom,chat-log,laptops,A,A,C,A,1,0,,0.0,1.0
+claude-opus-5-5,q000770,sr_tvs_01_dom,chat-log,tvs,E,E,A,E,1,0,,0.0,1.0
+claude-opus-5-5,q000770,sr_tvs_02_dom,chat-log,tvs,C,C,C,C,0,0,,0.0,0.0
+claude-opus-5-5,q000770,sr_tvs_03_dom,chat-log,tvs,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,q000774,sr_robot_vacuums_01_dom,chat-log,robot_vacuums,A,A,C,A,1,0,,-0.19999999999999996,1.2
+claude-opus-5-5,q000850,sr_smartphones_01_dom,chat-log,smartphones,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,q000850,sr_smartphones_02_dom,chat-log,smartphones,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,q000850,sr_smartphones_03_dom,chat-log,smartphones,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,q000855,sr_backpacks_01_dom,chat-log,backpacks,E,E,E,E,0,0,,0.0,0.0
+claude-opus-5-5,q000877,sr_wireless_routers_01_dom,chat-log,wireless_routers,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,q000910,sr_headphones_01_dom,chat-log,headphones,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,q000910,sr_headphones_02_dom,chat-log,headphones,E,E,E,E,0,0,,0.0,0.0
+claude-opus-5-5,q000910,sr_headphones_03_dom,chat-log,headphones,C,C,C,C,0,0,,0.3,-0.3
+claude-opus-5-5,q000914,sr_headphones_01_dom,chat-log,headphones,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,q000914,sr_headphones_02_dom,chat-log,headphones,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,q000914,sr_headphones_03_dom,chat-log,headphones,E,E,E,E,0,0,,0.3,-0.3
+claude-opus-5-5,q000917,sr_backpacks_01_dom,chat-log,backpacks,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,q000941,sr_headphones_01_dom,chat-log,headphones,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,q000941,sr_headphones_02_dom,chat-log,headphones,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,q000941,sr_headphones_03_dom,chat-log,headphones,C,C,C,C,0,0,,0.3,-0.3
+claude-opus-5-5,q000996,sr_wireless_routers_01_dom,chat-log,wireless_routers,C,C,E,E,1,-1,,0.0,1.0
+claude-opus-5-5,q001845,sr_smartphones_01_dom,chat-log,smartphones,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,q001845,sr_smartphones_02_dom,chat-log,smartphones,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,q001845,sr_smartphones_03_dom,chat-log,smartphones,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,q002526,sr_headphones_01_dom,chat-log,headphones,C,C,E,C,1,0,,0.0,1.0
+claude-opus-5-5,q002526,sr_headphones_02_dom,chat-log,headphones,E,E,B,E,1,0,,0.0,1.0
+claude-opus-5-5,q002526,sr_headphones_03_dom,chat-log,headphones,E,E,E,E,0,0,,0.3,-0.3
+claude-opus-5-5,q002807,sr_smartphones_01_dom,chat-log,smartphones,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,q002807,sr_smartphones_02_dom,chat-log,smartphones,A,A,A,B,0,-1,,0.0,0.0
+claude-opus-5-5,q002807,sr_smartphones_03_dom,chat-log,smartphones,C,C,C,C,0,0,,0.0,0.0
+claude-opus-5-5,q002814,sr_smartphones_01_dom,chat-log,smartphones,E,E,C,C,1,-1,,0.0,1.0
+claude-opus-5-5,q002814,sr_smartphones_02_dom,chat-log,smartphones,A,A,C,A,1,0,,0.0,1.0
+claude-opus-5-5,q002814,sr_smartphones_03_dom,chat-log,smartphones,A,A,E,A,1,0,,0.0,1.0
+claude-opus-5-5,q002849,sr_laptops_01_dom,chat-log,laptops,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,q002849,sr_laptops_02_dom,chat-log,laptops,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,q002849,sr_laptops_03_dom,chat-log,laptops,C,C,C,C,0,0,,0.0,0.0
+claude-opus-5-5,q002987,sr_laptops_01_dom,chat-log,laptops,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,q002987,sr_laptops_02_dom,chat-log,laptops,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,q002987,sr_laptops_03_dom,chat-log,laptops,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,q003946,sr_cameras_01_dom,chat-log,cameras,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,q003948,sr_cameras_01_dom,chat-log,cameras,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,q003954,sr_smartphones_01_dom,chat-log,smartphones,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,q003954,sr_smartphones_02_dom,chat-log,smartphones,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,q003954,sr_smartphones_03_dom,chat-log,smartphones,B,B,B,A,0,-1,,0.0,0.0
+claude-opus-5-5,q003960,sr_smartphones_01_dom,chat-log,smartphones,E,E,E,E,0,0,,0.0,0.0
+claude-opus-5-5,q003960,sr_smartphones_02_dom,chat-log,smartphones,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,q003960,sr_smartphones_03_dom,chat-log,smartphones,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,q003966,sr_smartphones_01_dom,chat-log,smartphones,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,q003966,sr_smartphones_02_dom,chat-log,smartphones,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,q003966,sr_smartphones_03_dom,chat-log,smartphones,C,C,C,C,0,0,,0.0,0.0
+claude-opus-5-5,q003968,sr_laptops_01_dom,chat-log,laptops,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,q003968,sr_laptops_02_dom,chat-log,laptops,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,q003968,sr_laptops_03_dom,chat-log,laptops,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,q003985,sr_laptops_01_dom,chat-log,laptops,B,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,q003985,sr_laptops_02_dom,chat-log,laptops,E,E,E,E,0,0,,0.0,0.0
+claude-opus-5-5,q003985,sr_laptops_03_dom,chat-log,laptops,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,q003989,sr_laptops_01_dom,chat-log,laptops,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,q003989,sr_laptops_02_dom,chat-log,laptops,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,q003989,sr_laptops_03_dom,chat-log,laptops,E,E,E,E,0,0,,0.0,0.0
+claude-opus-5-5,q004002,sr_headphones_01_dom,chat-log,headphones,E,E,E,E,0,0,,0.0,0.0
+claude-opus-5-5,q004002,sr_headphones_02_dom,chat-log,headphones,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,q004002,sr_headphones_03_dom,chat-log,headphones,E,E,E,E,0,0,,0.3,-0.3
+claude-opus-5-5,q004026,sr_smartphones_01_dom,chat-log,smartphones,E,E,E,E,0,0,,0.0,0.0
+claude-opus-5-5,q004026,sr_smartphones_02_dom,chat-log,smartphones,C,C,C,C,0,0,,0.0,0.0
+claude-opus-5-5,q004026,sr_smartphones_03_dom,chat-log,smartphones,E,C,C,C,0,0,,0.0,0.0
+claude-opus-5-5,q004032,sr_wireless_routers_01_dom,chat-log,wireless_routers,C,C,E,C,1,0,,0.0,1.0
+claude-opus-5-5,q004033,sr_cameras_01_dom,chat-log,cameras,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,q004040,sr_headphones_01_dom,chat-log,headphones,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,q004040,sr_headphones_02_dom,chat-log,headphones,C,C,C,C,0,0,,0.0,0.0
+claude-opus-5-5,q004040,sr_headphones_03_dom,chat-log,headphones,A,A,A,A,0,0,,0.3,-0.3
+claude-opus-5-5,q004043,sr_headphones_01_dom,chat-log,headphones,A,A,B,B,1,-1,,0.0,1.0
+claude-opus-5-5,q004043,sr_headphones_02_dom,chat-log,headphones,C,C,D,C,1,0,,0.0,1.0
+claude-opus-5-5,q004043,sr_headphones_03_dom,chat-log,headphones,B,B,E,E,1,-1,,0.3,0.7
+claude-opus-5-5,q004053,sr_smartwatches_01_dom,chat-log,smartwatches,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,q004065,sr_laptops_01_dom,chat-log,laptops,E,E,E,E,0,0,,0.0,0.0
+claude-opus-5-5,q004065,sr_laptops_02_dom,chat-log,laptops,E,E,E,C,0,-1,,0.0,0.0
+claude-opus-5-5,q004065,sr_laptops_03_dom,chat-log,laptops,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,q004067,sr_cameras_01_dom,chat-log,cameras,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,q004070,sr_smartphones_01_dom,chat-log,smartphones,D,D,E,D,1,0,,0.0,1.0
+claude-opus-5-5,q004070,sr_smartphones_02_dom,chat-log,smartphones,B,B,C,B,1,0,,0.0,1.0
+claude-opus-5-5,q004070,sr_smartphones_03_dom,chat-log,smartphones,B,C,A,C,0,0,,0.0,0.0
+claude-opus-5-5,q004075,sr_headphones_01_dom,chat-log,headphones,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,q004075,sr_headphones_02_dom,chat-log,headphones,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,q004075,sr_headphones_03_dom,chat-log,headphones,C,C,C,C,0,0,,0.3,-0.3
+claude-opus-5-5,q004092,sr_monitors_01_dom,chat-log,monitors,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,q004125,sr_external_ssds_01_dom,chat-log,external_ssds,C,C,C,C,0,0,,0.0,0.0
+claude-opus-5-5,q004129,sr_cameras_01_dom,chat-log,cameras,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,q004131,sr_smartphones_01_dom,chat-log,smartphones,A,A,A,E,0,-1,,0.0,0.0
+claude-opus-5-5,q004131,sr_smartphones_02_dom,chat-log,smartphones,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,q004131,sr_smartphones_03_dom,chat-log,smartphones,B,B,C,C,1,-1,,0.0,1.0
+claude-opus-5-5,q004138,sr_blenders_01_dom,chat-log,blenders,A,A,D,D,1,-1,,0.1,0.9
+claude-opus-5-5,q004159,sr_smartphones_01_dom,chat-log,smartphones,C,C,A,C,1,0,,0.0,1.0
+claude-opus-5-5,q004159,sr_smartphones_02_dom,chat-log,smartphones,D,D,E,D,1,0,,0.0,1.0
+claude-opus-5-5,q004159,sr_smartphones_03_dom,chat-log,smartphones,E,E,E,A,0,-1,,0.0,0.0
+claude-opus-5-5,q004161,sr_laptops_01_dom,chat-log,laptops,C,C,C,C,0,0,,0.0,0.0
+claude-opus-5-5,q004161,sr_laptops_02_dom,chat-log,laptops,E,E,E,E,0,0,,0.0,0.0
+claude-opus-5-5,q004161,sr_laptops_03_dom,chat-log,laptops,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,q004162,sr_smartphones_01_dom,chat-log,smartphones,A,A,E,A,1,0,,0.0,1.0
+claude-opus-5-5,q004162,sr_smartphones_02_dom,chat-log,smartphones,D,D,D,A,0,-1,,0.0,0.0
+claude-opus-5-5,q004162,sr_smartphones_03_dom,chat-log,smartphones,A,A,C,C,1,-1,,0.0,1.0
+claude-opus-5-5,q004167,sr_coffee_makers_01_dom,chat-log,coffee_makers,E,E,C,E,1,0,,0.0,1.0
+claude-opus-5-5,q004167,sr_coffee_makers_03_dom,chat-log,coffee_makers,B,E,B,B,-1,1,,0.09999999999999998,-1.1
+claude-opus-5-5,s00000,sr_tvs_01_dom,chat-log,tvs,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,s00000,sr_tvs_02_dom,chat-log,tvs,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,s00000,sr_tvs_03_dom,chat-log,tvs,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,s00003,sr_headphones_01_dom,chat-log,headphones,C,C,C,C,0,0,,0.0,0.0
+claude-opus-5-5,s00003,sr_headphones_02_dom,chat-log,headphones,C,C,D,C,1,0,,0.0,1.0
+claude-opus-5-5,s00003,sr_headphones_03_dom,chat-log,headphones,C,C,A,C,1,0,,0.3,0.7
+claude-opus-5-5,s00007,sr_cameras_01_dom,chat-log,cameras,E,E,E,E,0,0,,0.0,0.0
+claude-opus-5-5,s00014,sr_earbuds_01_dom,chat-log,wireless_earbuds,E,E,A,A,1,-1,,0.0,1.0
+claude-opus-5-5,s00014,sr_earbuds_02_dom,chat-log,wireless_earbuds,B,B,A,B,1,0,,0.0,1.0
+claude-opus-5-5,s00014,sr_earbuds_03_dom,chat-log,wireless_earbuds,D,D,A,D,1,0,,0.0,1.0
+claude-opus-5-5,s00045,sr_cameras_01_dom,chat-log,cameras,C,C,D,C,1,0,,0.0,1.0
+claude-opus-5-5,s00047,sr_cameras_01_dom,chat-log,cameras,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,s00055,sr_running_shoes_01_dom,chat-log,running_shoes,B,B,A,B,1,0,,0.0,1.0
+claude-opus-5-5,s00055,sr_running_shoes_02_dom,chat-log,running_shoes,E,E,C,E,1,0,,0.0,1.0
+claude-opus-5-5,s00055,sr_running_shoes_03_dom,chat-log,running_shoes,E,E,E,E,0,0,,0.0,0.0
+claude-opus-5-5,s00057,sr_running_shoes_01_dom,chat-log,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,s00057,sr_running_shoes_02_dom,chat-log,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,s00057,sr_running_shoes_03_dom,chat-log,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,s00066,sr_smartphones_01_dom,chat-log,smartphones,D,D,D,E,0,-1,,0.0,0.0
+claude-opus-5-5,s00066,sr_smartphones_02_dom,chat-log,smartphones,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,s00066,sr_smartphones_03_dom,chat-log,smartphones,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,s00069,sr_smartphones_01_dom,chat-log,smartphones,D,D,A,D,1,0,,0.0,1.0
+claude-opus-5-5,s00069,sr_smartphones_02_dom,chat-log,smartphones,E,E,E,E,0,0,,0.0,0.0
+claude-opus-5-5,s00069,sr_smartphones_03_dom,chat-log,smartphones,D,D,D,B,0,-1,,0.0,0.0
+claude-opus-5-5,s00070,sr_smartphones_01_dom,chat-log,smartphones,B,B,D,D,1,-1,,0.0,1.0
+claude-opus-5-5,s00070,sr_smartphones_02_dom,chat-log,smartphones,C,C,C,B,0,-1,,0.0,0.0
+claude-opus-5-5,s00070,sr_smartphones_03_dom,chat-log,smartphones,C,C,C,C,0,0,,0.0,0.0
+claude-opus-5-5,s00083,sr_smartphones_01_dom,chat-log,smartphones,D,D,D,B,0,-1,,0.0,0.0
+claude-opus-5-5,s00083,sr_smartphones_02_dom,chat-log,smartphones,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,s00083,sr_smartphones_03_dom,chat-log,smartphones,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,s00087,sr_smartphones_01_dom,chat-log,smartphones,E,E,B,E,1,0,,0.0,1.0
+claude-opus-5-5,s00087,sr_smartphones_02_dom,chat-log,smartphones,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,s00087,sr_smartphones_03_dom,chat-log,smartphones,C,C,C,C,0,0,,0.0,0.0
+claude-opus-5-5,s00088,sr_smartphones_01_dom,chat-log,smartphones,A,A,E,E,1,-1,,0.0,1.0
+claude-opus-5-5,s00088,sr_smartphones_02_dom,chat-log,smartphones,A,A,A,E,0,-1,,0.0,0.0
+claude-opus-5-5,s00088,sr_smartphones_03_dom,chat-log,smartphones,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,s00094,sr_smartphones_01_dom,chat-log,smartphones,D,D,C,C,1,-1,,0.0,1.0
+claude-opus-5-5,s00094,sr_smartphones_02_dom,chat-log,smartphones,C,C,E,C,1,0,,0.0,1.0
+claude-opus-5-5,s00094,sr_smartphones_03_dom,chat-log,smartphones,D,D,E,E,1,-1,,0.0,1.0
+claude-opus-5-5,w00002,sr_cameras_01_dom,crowd-written for a dataset,cameras,E,E,E,E,0,0,,0.0,0.0
+claude-opus-5-5,w00027,sr_wireless_routers_01_dom,crowd-written for a dataset,wireless_routers,E,E,E,E,0,0,,0.0,0.0
+claude-opus-5-5,w00045,sr_tablets_01_dom,crowd-written for a dataset,tablets,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,w00052,sr_wireless_routers_01_dom,crowd-written for a dataset,wireless_routers,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,w00053,sr_tvs_01_dom,crowd-written for a dataset,tvs,E,E,E,E,0,0,,0.0,0.0
+claude-opus-5-5,w00053,sr_tvs_02_dom,crowd-written for a dataset,tvs,E,E,E,E,0,0,,0.0,0.0
+claude-opus-5-5,w00053,sr_tvs_03_dom,crowd-written for a dataset,tvs,C,C,C,C,0,0,,0.0,0.0
+claude-opus-5-5,w00069,sr_tablets_01_dom,crowd-written for a dataset,tablets,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,w00094,sr_tablets_01_dom,crowd-written for a dataset,tablets,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,w00115,sr_earbuds_01_dom,crowd-written for a dataset,wireless_earbuds,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,w00115,sr_earbuds_02_dom,crowd-written for a dataset,wireless_earbuds,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,w00115,sr_earbuds_03_dom,crowd-written for a dataset,wireless_earbuds,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,w00127,sr_running_shoes_01_dom,crowd-written for a dataset,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,w00127,sr_running_shoes_02_dom,crowd-written for a dataset,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,w00127,sr_running_shoes_03_dom,crowd-written for a dataset,running_shoes,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,w00128,sr_tvs_01_dom,crowd-written for a dataset,tvs,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,w00128,sr_tvs_02_dom,crowd-written for a dataset,tvs,C,C,C,C,0,0,,0.0,0.0
+claude-opus-5-5,w00128,sr_tvs_03_dom,crowd-written for a dataset,tvs,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,w00153,sr_running_shoes_01_dom,crowd-written for a dataset,running_shoes,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,w00153,sr_running_shoes_02_dom,crowd-written for a dataset,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,w00153,sr_running_shoes_03_dom,crowd-written for a dataset,running_shoes,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,w00177,sr_smartwatches_01_dom,crowd-written for a dataset,smartwatches,E,E,E,E,0,0,,0.0,0.0
+claude-opus-5-5,w00190,sr_running_shoes_01_dom,crowd-written for a dataset,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,w00190,sr_running_shoes_02_dom,crowd-written for a dataset,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,w00190,sr_running_shoes_03_dom,crowd-written for a dataset,running_shoes,E,E,E,E,0,0,,0.0,0.0
+claude-opus-5-5,w00191,sr_running_shoes_01_dom,crowd-written for a dataset,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,w00191,sr_running_shoes_02_dom,crowd-written for a dataset,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,w00191,sr_running_shoes_03_dom,crowd-written for a dataset,running_shoes,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,w00193,sr_electric_toothbrushes_01_dom,crowd-written for a dataset,electric_toothbrushes,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,w00215,sr_tablets_01_dom,crowd-written for a dataset,tablets,C,E,E,E,0,0,E,0.0,0.0
+claude-opus-5-5,w00244,sr_electric_toothbrushes_01_dom,crowd-written for a dataset,electric_toothbrushes,D,D,B,C,1,-1,,0.0,1.0
+claude-opus-5-5,w00257,sr_tablets_01_dom,crowd-written for a dataset,tablets,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,w00263,sr_smartwatches_01_dom,crowd-written for a dataset,smartwatches,E,E,E,E,0,0,,0.0,0.0
+claude-opus-5-5,w00308,sr_tablets_01_dom,crowd-written for a dataset,tablets,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,w00327,sr_running_shoes_01_dom,crowd-written for a dataset,running_shoes,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,w00327,sr_running_shoes_02_dom,crowd-written for a dataset,running_shoes,E,E,E,E,0,0,,0.0,0.0
+claude-opus-5-5,w00327,sr_running_shoes_03_dom,crowd-written for a dataset,running_shoes,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,w00328,sr_running_shoes_01_dom,crowd-written for a dataset,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,w00328,sr_running_shoes_02_dom,crowd-written for a dataset,running_shoes,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,w00328,sr_running_shoes_03_dom,crowd-written for a dataset,running_shoes,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,w00427,sr_tvs_01_dom,crowd-written for a dataset,tvs,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,w00427,sr_tvs_02_dom,crowd-written for a dataset,tvs,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,w00427,sr_tvs_03_dom,crowd-written for a dataset,tvs,C,C,C,C,0,0,,0.0,0.0
+claude-opus-5-5,w00450,sr_tvs_01_dom,crowd-written for a dataset,tvs,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,w00450,sr_tvs_02_dom,crowd-written for a dataset,tvs,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,w00450,sr_tvs_03_dom,crowd-written for a dataset,tvs,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,w00556,sr_tvs_01_dom,crowd-written for a dataset,tvs,E,E,B,E,1,0,,0.0,1.0
+claude-opus-5-5,w00556,sr_tvs_02_dom,crowd-written for a dataset,tvs,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,w00556,sr_tvs_03_dom,crowd-written for a dataset,tvs,C,C,C,C,0,0,,0.0,0.0
+claude-opus-5-5,w00597,sr_tablets_01_dom,crowd-written for a dataset,tablets,B,B,B,C,0,-1,,0.0,0.0
+claude-opus-5-5,w00618,sr_electric_toothbrushes_01_dom,crowd-written for a dataset,electric_toothbrushes,B,B,B,B,0,0,,0.0,0.0
+claude-opus-5-5,w00628,sr_backpacks_01_dom,crowd-written for a dataset,backpacks,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,w00649,sr_running_shoes_01_dom,crowd-written for a dataset,running_shoes,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,w00649,sr_running_shoes_02_dom,crowd-written for a dataset,running_shoes,E,E,E,E,0,0,,0.0,0.0
+claude-opus-5-5,w00649,sr_running_shoes_03_dom,crowd-written for a dataset,running_shoes,C,C,C,C,0,0,,0.0,0.0
+claude-opus-5-5,w00679,sr_running_shoes_01_dom,crowd-written for a dataset,running_shoes,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,w00679,sr_running_shoes_02_dom,crowd-written for a dataset,running_shoes,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,w00679,sr_running_shoes_03_dom,crowd-written for a dataset,running_shoes,C,C,C,C,0,0,,0.0,0.0
+claude-opus-5-5,w00724,sr_smartwatches_01_dom,crowd-written for a dataset,smartwatches,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,w00747,sr_wireless_routers_01_dom,crowd-written for a dataset,wireless_routers,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,w00787,sr_tablets_01_dom,crowd-written for a dataset,tablets,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,w00789,sr_earbuds_01_dom,crowd-written for a dataset,wireless_earbuds,E,E,E,E,0,0,,0.0,0.0
+claude-opus-5-5,w00789,sr_earbuds_02_dom,crowd-written for a dataset,wireless_earbuds,C,C,C,C,0,0,,0.0,0.0
+claude-opus-5-5,w00789,sr_earbuds_03_dom,crowd-written for a dataset,wireless_earbuds,C,C,C,C,0,0,,0.0,0.0
+claude-opus-5-5,w00904,sr_tablets_01_dom,crowd-written for a dataset,tablets,E,E,E,E,0,0,,0.0,0.0
+claude-opus-5-5,w00912,sr_tablets_01_dom,crowd-written for a dataset,tablets,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,w00930,sr_earbuds_01_dom,crowd-written for a dataset,wireless_earbuds,D,D,D,D,0,0,,0.0,0.0
+claude-opus-5-5,w00930,sr_earbuds_02_dom,crowd-written for a dataset,wireless_earbuds,A,A,A,A,0,0,,0.0,0.0
+claude-opus-5-5,w00930,sr_earbuds_03_dom,crowd-written for a dataset,wireless_earbuds,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,a-backpacks-0,sr_backpacks_01_dom,written by the author,backpacks,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,a-backpacks-1,sr_backpacks_01_dom,written by the author,backpacks,C,C,C,C,0,0,,0.0,0.0
+claude-sonnet-5-5,a-backpacks-2,sr_backpacks_01_dom,written by the author,backpacks,B,B,E,B,1,0,,0.0,1.0
+claude-sonnet-5-5,a-backpacks-3,sr_backpacks_01_dom,written by the author,backpacks,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,a-backpacks-4,sr_backpacks_01_dom,written by the author,backpacks,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,a-blenders-0,sr_blenders_01_dom,written by the author,blenders,A,A,A,A,0,0,,0.2,-0.2
+claude-sonnet-5-5,a-blenders-1,sr_blenders_01_dom,written by the author,blenders,D,D,D,D,0,0,,0.2,-0.2
+claude-sonnet-5-5,a-blenders-2,sr_blenders_01_dom,written by the author,blenders,B,B,B,B,0,0,,0.2,-0.2
+claude-sonnet-5-5,a-blenders-3,sr_blenders_01_dom,written by the author,blenders,A,A,D,A,1,0,,0.2,0.8
+claude-sonnet-5-5,a-blenders-4,sr_blenders_01_dom,written by the author,blenders,A,A,A,A,0,0,,0.2,-0.2
+claude-sonnet-5-5,a-blenders-5,sr_blenders_01_dom,written by the author,blenders,E,E,E,E,0,0,,0.2,-0.2
+claude-sonnet-5-5,a-blenders-6,sr_blenders_01_dom,written by the author,blenders,D,D,D,D,0,0,,0.2,-0.2
+claude-sonnet-5-5,a-blenders-7,sr_blenders_01_dom,written by the author,blenders,D,D,D,D,0,0,,0.2,-0.2
+claude-sonnet-5-5,a-blenders-8,sr_blenders_01_dom,written by the author,blenders,E,E,A,A,1,-1,,0.2,0.8
+claude-sonnet-5-5,a-coffee_makers-0,sr_coffee_makers_01_dom,written by the author,coffee_makers,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,a-coffee_makers-0,sr_coffee_makers_03_dom,written by the author,coffee_makers,B,B,A,A,1,-1,,0.5,0.5
+claude-sonnet-5-5,a-coffee_makers-1,sr_coffee_makers_01_dom,written by the author,coffee_makers,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,a-coffee_makers-1,sr_coffee_makers_03_dom,written by the author,coffee_makers,D,C,E,E,0,0,,0.5,-0.5
+claude-sonnet-5-5,a-coffee_makers-2,sr_coffee_makers_01_dom,written by the author,coffee_makers,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,a-coffee_makers-2,sr_coffee_makers_03_dom,written by the author,coffee_makers,C,C,C,A,0,-1,,0.5,-0.5
+claude-sonnet-5-5,a-coffee_makers-3,sr_coffee_makers_01_dom,written by the author,coffee_makers,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,a-coffee_makers-3,sr_coffee_makers_03_dom,written by the author,coffee_makers,C,C,C,C,0,0,,0.5,-0.5
+claude-sonnet-5-5,a-coffee_makers-4,sr_coffee_makers_01_dom,written by the author,coffee_makers,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,a-coffee_makers-4,sr_coffee_makers_03_dom,written by the author,coffee_makers,D,D,D,D,0,0,,0.5,-0.5
+claude-sonnet-5-5,a-coffee_makers-5,sr_coffee_makers_01_dom,written by the author,coffee_makers,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,a-coffee_makers-5,sr_coffee_makers_03_dom,written by the author,coffee_makers,B,B,A,B,1,0,,0.5,0.5
+claude-sonnet-5-5,a-coffee_makers-6,sr_coffee_makers_01_dom,written by the author,coffee_makers,C,C,C,C,0,0,,0.0,0.0
+claude-sonnet-5-5,a-coffee_makers-6,sr_coffee_makers_03_dom,written by the author,coffee_makers,E,E,D,D,1,-1,,0.5,0.5
+claude-sonnet-5-5,a-coffee_makers-7,sr_coffee_makers_01_dom,written by the author,coffee_makers,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,a-coffee_makers-7,sr_coffee_makers_03_dom,written by the author,coffee_makers,C,D,A,A,0,0,,0.5,-0.5
+claude-sonnet-5-5,a-coffee_makers-8,sr_coffee_makers_01_dom,written by the author,coffee_makers,C,C,C,C,0,0,,0.0,0.0
+claude-sonnet-5-5,a-coffee_makers-8,sr_coffee_makers_03_dom,written by the author,coffee_makers,D,D,D,D,0,0,,0.5,-0.5
+claude-sonnet-5-5,a-electric_toothbrushes-0,sr_electric_toothbrushes_01_dom,written by the author,electric_toothbrushes,C,C,C,C,0,0,,0.30000000000000004,-0.30000000000000004
+claude-sonnet-5-5,a-electric_toothbrushes-1,sr_electric_toothbrushes_01_dom,written by the author,electric_toothbrushes,A,A,A,A,0,0,,0.30000000000000004,-0.30000000000000004
+claude-sonnet-5-5,a-electric_toothbrushes-2,sr_electric_toothbrushes_01_dom,written by the author,electric_toothbrushes,B,B,B,B,0,0,,0.30000000000000004,-0.30000000000000004
+claude-sonnet-5-5,a-electric_toothbrushes-3,sr_electric_toothbrushes_01_dom,written by the author,electric_toothbrushes,D,D,D,D,0,0,,0.30000000000000004,-0.30000000000000004
+claude-sonnet-5-5,a-electric_toothbrushes-4,sr_electric_toothbrushes_01_dom,written by the author,electric_toothbrushes,D,D,B,D,1,0,B,0.30000000000000004,0.7
+claude-sonnet-5-5,a-electric_toothbrushes-5,sr_electric_toothbrushes_01_dom,written by the author,electric_toothbrushes,A,A,A,A,0,0,,0.30000000000000004,-0.30000000000000004
+claude-sonnet-5-5,a-electric_toothbrushes-6,sr_electric_toothbrushes_01_dom,written by the author,electric_toothbrushes,B,B,B,B,0,0,,0.30000000000000004,-0.30000000000000004
+claude-sonnet-5-5,a-external_ssds-0,sr_external_ssds_01_dom,written by the author,external_ssds,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,a-external_ssds-1,sr_external_ssds_01_dom,written by the author,external_ssds,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,a-external_ssds-2,sr_external_ssds_01_dom,written by the author,external_ssds,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,a-external_ssds-3,sr_external_ssds_01_dom,written by the author,external_ssds,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,a-external_ssds-4,sr_external_ssds_01_dom,written by the author,external_ssds,C,C,C,C,0,0,,0.0,0.0
+claude-sonnet-5-5,a-external_ssds-5,sr_external_ssds_01_dom,written by the author,external_ssds,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,a-external_ssds-6,sr_external_ssds_01_dom,written by the author,external_ssds,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,a-external_ssds-7,sr_external_ssds_01_dom,written by the author,external_ssds,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,a-external_ssds-8,sr_external_ssds_01_dom,written by the author,external_ssds,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,a-monitors-0,sr_monitors_01_dom,written by the author,monitors,C,C,C,C,0,0,,0.0,0.0
+claude-sonnet-5-5,a-monitors-1,sr_monitors_01_dom,written by the author,monitors,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,a-monitors-2,sr_monitors_01_dom,written by the author,monitors,C,C,C,C,0,0,,0.0,0.0
+claude-sonnet-5-5,a-monitors-3,sr_monitors_01_dom,written by the author,monitors,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,a-monitors-4,sr_monitors_01_dom,written by the author,monitors,C,C,C,C,0,0,,0.0,0.0
+claude-sonnet-5-5,a-monitors-5,sr_monitors_01_dom,written by the author,monitors,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,a-robot_vacuums-0,sr_robot_vacuums_01_dom,written by the author,robot_vacuums,C,C,C,C,0,0,,0.0,0.0
+claude-sonnet-5-5,a-robot_vacuums-1,sr_robot_vacuums_01_dom,written by the author,robot_vacuums,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,a-robot_vacuums-2,sr_robot_vacuums_01_dom,written by the author,robot_vacuums,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,a-robot_vacuums-3,sr_robot_vacuums_01_dom,written by the author,robot_vacuums,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,a-robot_vacuums-4,sr_robot_vacuums_01_dom,written by the author,robot_vacuums,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,a-robot_vacuums-5,sr_robot_vacuums_01_dom,written by the author,robot_vacuums,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,a-robot_vacuums-6,sr_robot_vacuums_01_dom,written by the author,robot_vacuums,E,E,B,E,1,0,,0.0,1.0
+claude-sonnet-5-5,a-robot_vacuums-7,sr_robot_vacuums_01_dom,written by the author,robot_vacuums,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,a-robot_vacuums-8,sr_robot_vacuums_01_dom,written by the author,robot_vacuums,D,D,C,D,1,0,,0.0,1.0
+claude-sonnet-5-5,a-smartwatches-0,sr_smartwatches_01_dom,written by the author,smartwatches,A,A,A,A,0,0,,0.30000000000000004,-0.30000000000000004
+claude-sonnet-5-5,a-smartwatches-1,sr_smartwatches_01_dom,written by the author,smartwatches,C,C,C,C,0,0,,0.30000000000000004,-0.30000000000000004
+claude-sonnet-5-5,a-smartwatches-2,sr_smartwatches_01_dom,written by the author,smartwatches,C,C,C,C,0,0,,0.30000000000000004,-0.30000000000000004
+claude-sonnet-5-5,a-smartwatches-3,sr_smartwatches_01_dom,written by the author,smartwatches,A,A,A,A,0,0,,0.30000000000000004,-0.30000000000000004
+claude-sonnet-5-5,a-tvs-0,sr_tvs_01_dom,written by the author,tvs,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,a-tvs-0,sr_tvs_02_dom,written by the author,tvs,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,a-tvs-0,sr_tvs_03_dom,written by the author,tvs,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,a-tvs-1,sr_tvs_01_dom,written by the author,tvs,B,B,A,B,1,0,,0.0,1.0
+claude-sonnet-5-5,a-tvs-1,sr_tvs_02_dom,written by the author,tvs,E,E,B,E,1,0,,0.0,1.0
+claude-sonnet-5-5,a-tvs-1,sr_tvs_03_dom,written by the author,tvs,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,a-wireless_routers-0,sr_wireless_routers_01_dom,written by the author,wireless_routers,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,a-wireless_routers-1,sr_wireless_routers_01_dom,written by the author,wireless_routers,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,a-wireless_routers-2,sr_wireless_routers_01_dom,written by the author,wireless_routers,C,C,C,C,0,0,,0.0,0.0
+claude-sonnet-5-5,a-wireless_routers-3,sr_wireless_routers_01_dom,written by the author,wireless_routers,C,C,C,C,0,0,,0.0,0.0
+claude-sonnet-5-5,q000014,sr_backpacks_01_dom,chat-log,backpacks,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,q000039,sr_tvs_01_dom,chat-log,tvs,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,q000039,sr_tvs_02_dom,chat-log,tvs,C,C,C,C,0,0,,0.0,0.0
+claude-sonnet-5-5,q000039,sr_tvs_03_dom,chat-log,tvs,C,C,C,C,0,0,,0.0,0.0
+claude-sonnet-5-5,q000058,sr_monitors_01_dom,chat-log,monitors,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,q000068,sr_laptops_01_dom,chat-log,laptops,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,q000068,sr_laptops_02_dom,chat-log,laptops,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,q000068,sr_laptops_03_dom,chat-log,laptops,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,q000143,sr_smartwatches_01_dom,chat-log,smartwatches,B,B,B,B,0,0,,0.30000000000000004,-0.30000000000000004
+claude-sonnet-5-5,q000228,sr_headphones_01_dom,chat-log,headphones,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,q000228,sr_headphones_02_dom,chat-log,headphones,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,q000228,sr_headphones_03_dom,chat-log,headphones,A,A,A,A,0,0,,0.6000000000000001,-0.6000000000000001
+claude-sonnet-5-5,q000241,sr_earbuds_01_dom,chat-log,wireless_earbuds,C,C,C,C,0,0,,0.0,0.0
+claude-sonnet-5-5,q000241,sr_earbuds_02_dom,chat-log,wireless_earbuds,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,q000241,sr_earbuds_03_dom,chat-log,wireless_earbuds,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,q000242,sr_earbuds_01_dom,chat-log,wireless_earbuds,C,C,C,C,0,0,,0.0,0.0
+claude-sonnet-5-5,q000242,sr_earbuds_02_dom,chat-log,wireless_earbuds,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,q000242,sr_earbuds_03_dom,chat-log,wireless_earbuds,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,q000243,sr_headphones_01_dom,chat-log,headphones,C,C,C,C,0,0,,0.0,0.0
+claude-sonnet-5-5,q000243,sr_headphones_02_dom,chat-log,headphones,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,q000243,sr_headphones_03_dom,chat-log,headphones,E,E,E,E,0,0,,0.6000000000000001,-0.6000000000000001
+claude-sonnet-5-5,q000317,sr_smartphones_01_dom,chat-log,smartphones,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,q000317,sr_smartphones_02_dom,chat-log,smartphones,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,q000317,sr_smartphones_03_dom,chat-log,smartphones,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,q000319,sr_smartphones_01_dom,chat-log,smartphones,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,q000319,sr_smartphones_02_dom,chat-log,smartphones,C,C,C,C,0,0,,0.0,0.0
+claude-sonnet-5-5,q000319,sr_smartphones_03_dom,chat-log,smartphones,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,q000320,sr_smartphones_01_dom,chat-log,smartphones,C,C,D,D,1,-1,,0.0,1.0
+claude-sonnet-5-5,q000320,sr_smartphones_02_dom,chat-log,smartphones,E,E,B,B,1,-1,,0.0,1.0
+claude-sonnet-5-5,q000320,sr_smartphones_03_dom,chat-log,smartphones,D,D,A,A,1,-1,,0.0,1.0
+claude-sonnet-5-5,q000345,sr_smartphones_01_dom,chat-log,smartphones,C,C,C,C,0,0,,0.0,0.0
+claude-sonnet-5-5,q000345,sr_smartphones_02_dom,chat-log,smartphones,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,q000345,sr_smartphones_03_dom,chat-log,smartphones,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,q000353,sr_earbuds_01_dom,chat-log,wireless_earbuds,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,q000353,sr_earbuds_02_dom,chat-log,wireless_earbuds,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,q000353,sr_earbuds_03_dom,chat-log,wireless_earbuds,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,q000354,sr_earbuds_01_dom,chat-log,wireless_earbuds,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,q000354,sr_earbuds_02_dom,chat-log,wireless_earbuds,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,q000354,sr_earbuds_03_dom,chat-log,wireless_earbuds,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,q000356,sr_earbuds_01_dom,chat-log,wireless_earbuds,C,C,C,C,0,0,,0.0,0.0
+claude-sonnet-5-5,q000356,sr_earbuds_02_dom,chat-log,wireless_earbuds,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,q000356,sr_earbuds_03_dom,chat-log,wireless_earbuds,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,q000357,sr_earbuds_01_dom,chat-log,wireless_earbuds,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,q000357,sr_earbuds_02_dom,chat-log,wireless_earbuds,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,q000357,sr_earbuds_03_dom,chat-log,wireless_earbuds,C,C,C,C,0,0,,0.0,0.0
+claude-sonnet-5-5,q000363,sr_smartphones_01_dom,chat-log,smartphones,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,q000363,sr_smartphones_02_dom,chat-log,smartphones,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,q000363,sr_smartphones_03_dom,chat-log,smartphones,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,q000381,sr_smartwatches_01_dom,chat-log,smartwatches,D,D,D,D,0,0,,0.30000000000000004,-0.30000000000000004
+claude-sonnet-5-5,q000395,sr_cameras_01_dom,chat-log,cameras,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,q000404,sr_headphones_01_dom,chat-log,headphones,C,C,C,C,0,0,,0.0,0.0
+claude-sonnet-5-5,q000404,sr_headphones_02_dom,chat-log,headphones,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,q000404,sr_headphones_03_dom,chat-log,headphones,B,B,B,A,0,-1,,0.6000000000000001,-0.6000000000000001
+claude-sonnet-5-5,q000416,sr_laptops_01_dom,chat-log,laptops,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,q000416,sr_laptops_02_dom,chat-log,laptops,A,A,A,C,0,-1,,0.0,0.0
+claude-sonnet-5-5,q000416,sr_laptops_03_dom,chat-log,laptops,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,q000456,sr_laptops_01_dom,chat-log,laptops,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,q000456,sr_laptops_02_dom,chat-log,laptops,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,q000456,sr_laptops_03_dom,chat-log,laptops,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,q000482,sr_backpacks_01_dom,chat-log,backpacks,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,q000541,sr_monitors_01_dom,chat-log,monitors,D,C,C,D,0,1,C,0.0,0.0
+claude-sonnet-5-5,q000710,sr_monitors_01_dom,chat-log,monitors,C,C,C,C,0,0,,0.0,0.0
+claude-sonnet-5-5,q000743,sr_smartphones_01_dom,chat-log,smartphones,C,C,C,C,0,0,,0.0,0.0
+claude-sonnet-5-5,q000743,sr_smartphones_02_dom,chat-log,smartphones,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,q000743,sr_smartphones_03_dom,chat-log,smartphones,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,q000762,sr_laptops_01_dom,chat-log,laptops,C,C,B,B,1,-1,,0.0,1.0
+claude-sonnet-5-5,q000762,sr_laptops_02_dom,chat-log,laptops,C,C,E,C,1,0,,0.0,1.0
+claude-sonnet-5-5,q000762,sr_laptops_03_dom,chat-log,laptops,A,A,C,A,1,0,,0.0,1.0
+claude-sonnet-5-5,q000770,sr_tvs_01_dom,chat-log,tvs,E,E,A,E,1,0,,0.0,1.0
+claude-sonnet-5-5,q000770,sr_tvs_02_dom,chat-log,tvs,C,C,E,C,1,0,,0.0,1.0
+claude-sonnet-5-5,q000770,sr_tvs_03_dom,chat-log,tvs,B,B,C,B,1,0,,0.0,1.0
+claude-sonnet-5-5,q000774,sr_robot_vacuums_01_dom,chat-log,robot_vacuums,A,A,C,A,1,0,,0.0,1.0
+claude-sonnet-5-5,q000850,sr_smartphones_01_dom,chat-log,smartphones,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,q000850,sr_smartphones_02_dom,chat-log,smartphones,B,B,A,B,1,0,,0.0,1.0
+claude-sonnet-5-5,q000850,sr_smartphones_03_dom,chat-log,smartphones,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,q000855,sr_backpacks_01_dom,chat-log,backpacks,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,q000877,sr_wireless_routers_01_dom,chat-log,wireless_routers,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,q000910,sr_headphones_01_dom,chat-log,headphones,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,q000910,sr_headphones_02_dom,chat-log,headphones,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,q000910,sr_headphones_03_dom,chat-log,headphones,C,C,C,C,0,0,,0.6000000000000001,-0.6000000000000001
+claude-sonnet-5-5,q000914,sr_headphones_01_dom,chat-log,headphones,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,q000914,sr_headphones_02_dom,chat-log,headphones,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,q000914,sr_headphones_03_dom,chat-log,headphones,E,E,E,E,0,0,,0.6000000000000001,-0.6000000000000001
+claude-sonnet-5-5,q000917,sr_backpacks_01_dom,chat-log,backpacks,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,q000941,sr_headphones_01_dom,chat-log,headphones,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,q000941,sr_headphones_02_dom,chat-log,headphones,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,q000941,sr_headphones_03_dom,chat-log,headphones,C,C,C,C,0,0,,0.6000000000000001,-0.6000000000000001
+claude-sonnet-5-5,q000996,sr_wireless_routers_01_dom,chat-log,wireless_routers,C,C,C,E,0,-1,,0.0,0.0
+claude-sonnet-5-5,q001845,sr_smartphones_01_dom,chat-log,smartphones,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,q001845,sr_smartphones_02_dom,chat-log,smartphones,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,q001845,sr_smartphones_03_dom,chat-log,smartphones,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,q002526,sr_headphones_01_dom,chat-log,headphones,C,C,C,C,0,0,,0.0,0.0
+claude-sonnet-5-5,q002526,sr_headphones_02_dom,chat-log,headphones,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,q002526,sr_headphones_03_dom,chat-log,headphones,E,E,E,E,0,0,,0.6000000000000001,-0.6000000000000001
+claude-sonnet-5-5,q002807,sr_smartphones_01_dom,chat-log,smartphones,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,q002807,sr_smartphones_02_dom,chat-log,smartphones,A,A,A,B,0,-1,,0.0,0.0
+claude-sonnet-5-5,q002807,sr_smartphones_03_dom,chat-log,smartphones,C,C,C,C,0,0,,0.0,0.0
+claude-sonnet-5-5,q002814,sr_smartphones_01_dom,chat-log,smartphones,E,E,D,D,1,-1,,0.0,1.0
+claude-sonnet-5-5,q002814,sr_smartphones_02_dom,chat-log,smartphones,A,A,B,A,1,0,,0.0,1.0
+claude-sonnet-5-5,q002814,sr_smartphones_03_dom,chat-log,smartphones,A,D,D,A,0,1,,0.0,0.0
+claude-sonnet-5-5,q002849,sr_laptops_01_dom,chat-log,laptops,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,q002849,sr_laptops_02_dom,chat-log,laptops,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,q002849,sr_laptops_03_dom,chat-log,laptops,C,C,C,C,0,0,,0.0,0.0
+claude-sonnet-5-5,q002987,sr_laptops_01_dom,chat-log,laptops,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,q002987,sr_laptops_02_dom,chat-log,laptops,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,q002987,sr_laptops_03_dom,chat-log,laptops,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,q003946,sr_cameras_01_dom,chat-log,cameras,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,q003948,sr_cameras_01_dom,chat-log,cameras,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,q003954,sr_smartphones_01_dom,chat-log,smartphones,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,q003954,sr_smartphones_02_dom,chat-log,smartphones,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,q003954,sr_smartphones_03_dom,chat-log,smartphones,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,q003960,sr_smartphones_01_dom,chat-log,smartphones,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,q003960,sr_smartphones_02_dom,chat-log,smartphones,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,q003960,sr_smartphones_03_dom,chat-log,smartphones,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,q003966,sr_smartphones_01_dom,chat-log,smartphones,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,q003966,sr_smartphones_02_dom,chat-log,smartphones,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,q003966,sr_smartphones_03_dom,chat-log,smartphones,C,C,C,C,0,0,,0.0,0.0
+claude-sonnet-5-5,q003968,sr_laptops_01_dom,chat-log,laptops,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,q003968,sr_laptops_02_dom,chat-log,laptops,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,q003968,sr_laptops_03_dom,chat-log,laptops,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,q003985,sr_laptops_01_dom,chat-log,laptops,B,B,D,B,1,0,,0.0,1.0
+claude-sonnet-5-5,q003985,sr_laptops_02_dom,chat-log,laptops,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,q003985,sr_laptops_03_dom,chat-log,laptops,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,q003989,sr_laptops_01_dom,chat-log,laptops,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,q003989,sr_laptops_02_dom,chat-log,laptops,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,q003989,sr_laptops_03_dom,chat-log,laptops,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,q004002,sr_headphones_01_dom,chat-log,headphones,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,q004002,sr_headphones_02_dom,chat-log,headphones,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,q004002,sr_headphones_03_dom,chat-log,headphones,E,E,E,E,0,0,,0.6000000000000001,-0.6000000000000001
+claude-sonnet-5-5,q004026,sr_smartphones_01_dom,chat-log,smartphones,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,q004026,sr_smartphones_02_dom,chat-log,smartphones,C,C,C,C,0,0,,0.0,0.0
+claude-sonnet-5-5,q004026,sr_smartphones_03_dom,chat-log,smartphones,E,C,C,C,0,0,,0.0,0.0
+claude-sonnet-5-5,q004032,sr_wireless_routers_01_dom,chat-log,wireless_routers,C,C,C,C,0,0,,0.0,0.0
+claude-sonnet-5-5,q004033,sr_cameras_01_dom,chat-log,cameras,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,q004040,sr_headphones_01_dom,chat-log,headphones,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,q004040,sr_headphones_02_dom,chat-log,headphones,C,C,C,C,0,0,,0.0,0.0
+claude-sonnet-5-5,q004040,sr_headphones_03_dom,chat-log,headphones,A,A,A,A,0,0,,0.6000000000000001,-0.6000000000000001
+claude-sonnet-5-5,q004043,sr_headphones_01_dom,chat-log,headphones,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,q004043,sr_headphones_02_dom,chat-log,headphones,C,C,A,C,1,0,,0.0,1.0
+claude-sonnet-5-5,q004043,sr_headphones_03_dom,chat-log,headphones,B,B,E,E,1,-1,,0.6000000000000001,0.3999999999999999
+claude-sonnet-5-5,q004053,sr_smartwatches_01_dom,chat-log,smartwatches,B,B,B,B,0,0,,0.30000000000000004,-0.30000000000000004
+claude-sonnet-5-5,q004065,sr_laptops_01_dom,chat-log,laptops,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,q004065,sr_laptops_02_dom,chat-log,laptops,E,E,E,C,0,-1,,0.0,0.0
+claude-sonnet-5-5,q004065,sr_laptops_03_dom,chat-log,laptops,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,q004067,sr_cameras_01_dom,chat-log,cameras,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,q004070,sr_smartphones_01_dom,chat-log,smartphones,D,D,E,D,1,0,,0.0,1.0
+claude-sonnet-5-5,q004070,sr_smartphones_02_dom,chat-log,smartphones,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,q004070,sr_smartphones_03_dom,chat-log,smartphones,B,B,C,B,1,0,,0.0,1.0
+claude-sonnet-5-5,q004075,sr_headphones_01_dom,chat-log,headphones,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,q004075,sr_headphones_02_dom,chat-log,headphones,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,q004075,sr_headphones_03_dom,chat-log,headphones,C,C,C,C,0,0,,0.6000000000000001,-0.6000000000000001
+claude-sonnet-5-5,q004092,sr_monitors_01_dom,chat-log,monitors,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,q004125,sr_external_ssds_01_dom,chat-log,external_ssds,C,C,C,C,0,0,,0.0,0.0
+claude-sonnet-5-5,q004129,sr_cameras_01_dom,chat-log,cameras,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,q004131,sr_smartphones_01_dom,chat-log,smartphones,A,A,A,E,0,-1,,0.0,0.0
+claude-sonnet-5-5,q004131,sr_smartphones_02_dom,chat-log,smartphones,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,q004131,sr_smartphones_03_dom,chat-log,smartphones,B,B,C,B,1,0,,0.0,1.0
+claude-sonnet-5-5,q004138,sr_blenders_01_dom,chat-log,blenders,A,A,D,A,1,0,,0.2,0.8
+claude-sonnet-5-5,q004159,sr_smartphones_01_dom,chat-log,smartphones,C,C,C,C,0,0,,0.0,0.0
+claude-sonnet-5-5,q004159,sr_smartphones_02_dom,chat-log,smartphones,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,q004159,sr_smartphones_03_dom,chat-log,smartphones,E,E,E,A,0,-1,,0.0,0.0
+claude-sonnet-5-5,q004161,sr_laptops_01_dom,chat-log,laptops,C,C,C,C,0,0,,0.0,0.0
+claude-sonnet-5-5,q004161,sr_laptops_02_dom,chat-log,laptops,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,q004161,sr_laptops_03_dom,chat-log,laptops,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,q004162,sr_smartphones_01_dom,chat-log,smartphones,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,q004162,sr_smartphones_02_dom,chat-log,smartphones,D,D,D,A,0,-1,,0.0,0.0
+claude-sonnet-5-5,q004162,sr_smartphones_03_dom,chat-log,smartphones,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,q004167,sr_coffee_makers_01_dom,chat-log,coffee_makers,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,q004167,sr_coffee_makers_03_dom,chat-log,coffee_makers,B,D,B,E,-1,0,,0.5,-1.5
+claude-sonnet-5-5,s00000,sr_tvs_01_dom,chat-log,tvs,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,s00000,sr_tvs_02_dom,chat-log,tvs,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,s00000,sr_tvs_03_dom,chat-log,tvs,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,s00003,sr_headphones_01_dom,chat-log,headphones,C,C,C,C,0,0,,0.0,0.0
+claude-sonnet-5-5,s00003,sr_headphones_02_dom,chat-log,headphones,C,C,A,C,1,0,,0.0,1.0
+claude-sonnet-5-5,s00003,sr_headphones_03_dom,chat-log,headphones,C,C,A,C,1,0,,0.6000000000000001,0.3999999999999999
+claude-sonnet-5-5,s00007,sr_cameras_01_dom,chat-log,cameras,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,s00014,sr_earbuds_01_dom,chat-log,wireless_earbuds,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,s00014,sr_earbuds_02_dom,chat-log,wireless_earbuds,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,s00014,sr_earbuds_03_dom,chat-log,wireless_earbuds,D,D,A,A,1,-1,,0.0,1.0
+claude-sonnet-5-5,s00045,sr_cameras_01_dom,chat-log,cameras,C,C,C,C,0,0,,0.0,0.0
+claude-sonnet-5-5,s00047,sr_cameras_01_dom,chat-log,cameras,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,s00055,sr_running_shoes_01_dom,chat-log,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,s00055,sr_running_shoes_02_dom,chat-log,running_shoes,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,s00055,sr_running_shoes_03_dom,chat-log,running_shoes,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,s00057,sr_running_shoes_01_dom,chat-log,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,s00057,sr_running_shoes_02_dom,chat-log,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,s00057,sr_running_shoes_03_dom,chat-log,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,s00066,sr_smartphones_01_dom,chat-log,smartphones,D,D,D,E,0,-1,,0.0,0.0
+claude-sonnet-5-5,s00066,sr_smartphones_02_dom,chat-log,smartphones,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,s00066,sr_smartphones_03_dom,chat-log,smartphones,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,s00069,sr_smartphones_01_dom,chat-log,smartphones,D,D,A,D,1,0,,0.0,1.0
+claude-sonnet-5-5,s00069,sr_smartphones_02_dom,chat-log,smartphones,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,s00069,sr_smartphones_03_dom,chat-log,smartphones,D,D,D,B,0,-1,,0.0,0.0
+claude-sonnet-5-5,s00070,sr_smartphones_01_dom,chat-log,smartphones,B,B,D,D,1,-1,,0.0,1.0
+claude-sonnet-5-5,s00070,sr_smartphones_02_dom,chat-log,smartphones,C,C,C,B,0,-1,,0.0,0.0
+claude-sonnet-5-5,s00070,sr_smartphones_03_dom,chat-log,smartphones,C,C,C,C,0,0,,0.0,0.0
+claude-sonnet-5-5,s00083,sr_smartphones_01_dom,chat-log,smartphones,D,D,D,B,0,-1,,0.0,0.0
+claude-sonnet-5-5,s00083,sr_smartphones_02_dom,chat-log,smartphones,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,s00083,sr_smartphones_03_dom,chat-log,smartphones,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,s00087,sr_smartphones_01_dom,chat-log,smartphones,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,s00087,sr_smartphones_02_dom,chat-log,smartphones,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,s00087,sr_smartphones_03_dom,chat-log,smartphones,C,C,C,C,0,0,,0.0,0.0
+claude-sonnet-5-5,s00088,sr_smartphones_01_dom,chat-log,smartphones,A,A,E,E,1,-1,,0.0,1.0
+claude-sonnet-5-5,s00088,sr_smartphones_02_dom,chat-log,smartphones,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,s00088,sr_smartphones_03_dom,chat-log,smartphones,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,s00094,sr_smartphones_01_dom,chat-log,smartphones,D,D,B,B,1,-1,,0.0,1.0
+claude-sonnet-5-5,s00094,sr_smartphones_02_dom,chat-log,smartphones,C,C,C,C,0,0,,0.0,0.0
+claude-sonnet-5-5,s00094,sr_smartphones_03_dom,chat-log,smartphones,D,D,D,E,0,-1,,0.0,0.0
+claude-sonnet-5-5,w00002,sr_cameras_01_dom,crowd-written for a dataset,cameras,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,w00027,sr_wireless_routers_01_dom,crowd-written for a dataset,wireless_routers,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,w00045,sr_tablets_01_dom,crowd-written for a dataset,tablets,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,w00052,sr_wireless_routers_01_dom,crowd-written for a dataset,wireless_routers,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,w00053,sr_tvs_01_dom,crowd-written for a dataset,tvs,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,w00053,sr_tvs_02_dom,crowd-written for a dataset,tvs,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,w00053,sr_tvs_03_dom,crowd-written for a dataset,tvs,C,C,C,C,0,0,,0.0,0.0
+claude-sonnet-5-5,w00069,sr_tablets_01_dom,crowd-written for a dataset,tablets,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,w00094,sr_tablets_01_dom,crowd-written for a dataset,tablets,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,w00115,sr_earbuds_01_dom,crowd-written for a dataset,wireless_earbuds,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,w00115,sr_earbuds_02_dom,crowd-written for a dataset,wireless_earbuds,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,w00115,sr_earbuds_03_dom,crowd-written for a dataset,wireless_earbuds,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,w00127,sr_running_shoes_01_dom,crowd-written for a dataset,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,w00127,sr_running_shoes_02_dom,crowd-written for a dataset,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,w00127,sr_running_shoes_03_dom,crowd-written for a dataset,running_shoes,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,w00128,sr_tvs_01_dom,crowd-written for a dataset,tvs,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,w00128,sr_tvs_02_dom,crowd-written for a dataset,tvs,C,C,C,C,0,0,,0.0,0.0
+claude-sonnet-5-5,w00128,sr_tvs_03_dom,crowd-written for a dataset,tvs,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,w00153,sr_running_shoes_01_dom,crowd-written for a dataset,running_shoes,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,w00153,sr_running_shoes_02_dom,crowd-written for a dataset,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,w00153,sr_running_shoes_03_dom,crowd-written for a dataset,running_shoes,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,w00177,sr_smartwatches_01_dom,crowd-written for a dataset,smartwatches,E,E,E,E,0,0,,0.30000000000000004,-0.30000000000000004
+claude-sonnet-5-5,w00190,sr_running_shoes_01_dom,crowd-written for a dataset,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,w00190,sr_running_shoes_02_dom,crowd-written for a dataset,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,w00190,sr_running_shoes_03_dom,crowd-written for a dataset,running_shoes,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,w00191,sr_running_shoes_01_dom,crowd-written for a dataset,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,w00191,sr_running_shoes_02_dom,crowd-written for a dataset,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,w00191,sr_running_shoes_03_dom,crowd-written for a dataset,running_shoes,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,w00193,sr_electric_toothbrushes_01_dom,crowd-written for a dataset,electric_toothbrushes,D,D,E,D,1,0,,0.30000000000000004,0.7
+claude-sonnet-5-5,w00215,sr_tablets_01_dom,crowd-written for a dataset,tablets,C,E,E,E,0,0,E,0.0,0.0
+claude-sonnet-5-5,w00244,sr_electric_toothbrushes_01_dom,crowd-written for a dataset,electric_toothbrushes,D,D,C,D,1,0,,0.30000000000000004,0.7
+claude-sonnet-5-5,w00257,sr_tablets_01_dom,crowd-written for a dataset,tablets,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,w00263,sr_smartwatches_01_dom,crowd-written for a dataset,smartwatches,E,E,E,E,0,0,,0.30000000000000004,-0.30000000000000004
+claude-sonnet-5-5,w00308,sr_tablets_01_dom,crowd-written for a dataset,tablets,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,w00327,sr_running_shoes_01_dom,crowd-written for a dataset,running_shoes,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,w00327,sr_running_shoes_02_dom,crowd-written for a dataset,running_shoes,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,w00327,sr_running_shoes_03_dom,crowd-written for a dataset,running_shoes,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,w00328,sr_running_shoes_01_dom,crowd-written for a dataset,running_shoes,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,w00328,sr_running_shoes_02_dom,crowd-written for a dataset,running_shoes,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,w00328,sr_running_shoes_03_dom,crowd-written for a dataset,running_shoes,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,w00427,sr_tvs_01_dom,crowd-written for a dataset,tvs,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,w00427,sr_tvs_02_dom,crowd-written for a dataset,tvs,B,B,B,B,0,0,,0.0,0.0
+claude-sonnet-5-5,w00427,sr_tvs_03_dom,crowd-written for a dataset,tvs,C,C,C,C,0,0,,0.0,0.0
+claude-sonnet-5-5,w00450,sr_tvs_01_dom,crowd-written for a dataset,tvs,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,w00450,sr_tvs_02_dom,crowd-written for a dataset,tvs,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,w00450,sr_tvs_03_dom,crowd-written for a dataset,tvs,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,w00556,sr_tvs_01_dom,crowd-written for a dataset,tvs,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,w00556,sr_tvs_02_dom,crowd-written for a dataset,tvs,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,w00556,sr_tvs_03_dom,crowd-written for a dataset,tvs,C,C,C,C,0,0,,0.0,0.0
+claude-sonnet-5-5,w00597,sr_tablets_01_dom,crowd-written for a dataset,tablets,B,B,B,E,0,-1,,0.0,0.0
+claude-sonnet-5-5,w00618,sr_electric_toothbrushes_01_dom,crowd-written for a dataset,electric_toothbrushes,B,B,B,B,0,0,,0.30000000000000004,-0.30000000000000004
+claude-sonnet-5-5,w00628,sr_backpacks_01_dom,crowd-written for a dataset,backpacks,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,w00649,sr_running_shoes_01_dom,crowd-written for a dataset,running_shoes,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,w00649,sr_running_shoes_02_dom,crowd-written for a dataset,running_shoes,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,w00649,sr_running_shoes_03_dom,crowd-written for a dataset,running_shoes,C,C,C,C,0,0,,0.0,0.0
+claude-sonnet-5-5,w00679,sr_running_shoes_01_dom,crowd-written for a dataset,running_shoes,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,w00679,sr_running_shoes_02_dom,crowd-written for a dataset,running_shoes,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,w00679,sr_running_shoes_03_dom,crowd-written for a dataset,running_shoes,C,C,C,C,0,0,,0.0,0.0
+claude-sonnet-5-5,w00724,sr_smartwatches_01_dom,crowd-written for a dataset,smartwatches,D,D,D,D,0,0,,0.30000000000000004,-0.30000000000000004
+claude-sonnet-5-5,w00747,sr_wireless_routers_01_dom,crowd-written for a dataset,wireless_routers,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,w00787,sr_tablets_01_dom,crowd-written for a dataset,tablets,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,w00789,sr_earbuds_01_dom,crowd-written for a dataset,wireless_earbuds,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,w00789,sr_earbuds_02_dom,crowd-written for a dataset,wireless_earbuds,C,C,C,C,0,0,,0.0,0.0
+claude-sonnet-5-5,w00789,sr_earbuds_03_dom,crowd-written for a dataset,wireless_earbuds,C,C,C,C,0,0,,0.0,0.0
+claude-sonnet-5-5,w00904,sr_tablets_01_dom,crowd-written for a dataset,tablets,E,E,E,E,0,0,,0.0,0.0
+claude-sonnet-5-5,w00912,sr_tablets_01_dom,crowd-written for a dataset,tablets,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,w00930,sr_earbuds_01_dom,crowd-written for a dataset,wireless_earbuds,D,D,D,D,0,0,,0.0,0.0
+claude-sonnet-5-5,w00930,sr_earbuds_02_dom,crowd-written for a dataset,wireless_earbuds,A,A,A,A,0,0,,0.0,0.0
+claude-sonnet-5-5,w00930,sr_earbuds_03_dom,crowd-written for a dataset,wireless_earbuds,A,A,A,A,0,0,,0.0,0.0

@@ -1,0 +1,50 @@
+{
+ "WildChat-4.8M": {
+  "rows": 3199860,
+  "not English": 1532928,
+  "English first user turns of allowed length": 1002716,
+  "shorter than 10 or longer than 2000 characters": 664216,
+  "keyword candidates": 4600,
+  "duplicate text (kept the earliest)": 721
+ },
+ "LMArena human preference 100k": {
+  "rows": 106134,
+  "not English": 48459,
+  "English first user turns of allowed length": 52585,
+  "shorter than 10 or longer than 2000 characters": 5090,
+  "keyword candidates": 120,
+  "duplicate text (kept the earliest)": 9
+ },
+ "LMArena human preference 140k": {
+  "rows": 135634,
+  "English first user turns of allowed length": 55184,
+  "not English": 50556,
+  "not the first prompt of its session": 27319,
+  "shorter than 10 or longer than 2000 characters": 2575,
+  "keyword candidates": 202,
+  "duplicate text (kept the earliest)": 8
+ },
+ "unique keyword candidates, all sources": 4184,
+ "by keyword category": {
+  "cameras": 1044,
+  "monitors": 203,
+  "smartphones": 1691,
+  "blenders": 224,
+  "wireless_earbuds": 25,
+  "backpacks": 28,
+  "headphones": 79,
+  "tvs": 448,
+  "coffee_makers": 6,
+  "keyboards": 74,
+  "tablets": 704,
+  "laptops": 733,
+  "wireless_routers": 109,
+  "smartwatches": 23,
+  "water_bottles": 17,
+  "robot_vacuums": 4,
+  "electric_toothbrushes": 7,
+  "portable_speakers": 1,
+  "running_shoes": 2,
+  "external_ssds": 6
+ }
+}

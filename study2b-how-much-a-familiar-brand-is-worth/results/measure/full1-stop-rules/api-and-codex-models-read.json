@@ -1,0 +1,74 @@
+{
+ "claude-fable-5-1": {
+  "main shown": [
+   5600,
+   5600
+  ]
+ },
+ "claude-haiku-5-5": {
+  "main shown": [
+   11200,
+   11200
+  ],
+  "premium premium": [
+   1900,
+   1900
+  ]
+ },
+ "claude-opus-5-5": {
+  "main shown": [
+   11200,
+   11200
+  ],
+  "premium premium": [
+   1900,
+   1900
+  ]
+ },
+ "claude-sonnet-5-5": {
+  "main shown": [
+   11198,
+   11200
+  ],
+  "premium premium": [
+   1900,
+   1900
+  ]
+ },
+ "gpt-6-astra": {
+  "main shown": [
+   5365,
+   5365
+  ]
+ },
+ "gpt-6.1-sol": {
+  "premium premium": [
+   1900,
+   1900
+  ],
+  "main shown": [
+   5600,
+   5600
+  ]
+ },
+ "gpt-6.2-astra": {
+  "premium premium": [
+   1622,
+   1622
+  ],
+  "main shown": [
+   5600,
+   5600
+  ]
+ },
+ "gpt-6.2-sol": {
+  "premium premium": [
+   1899,
+   1900
+  ],
+  "main shown": [
+   5600,
+   5600
+  ]
+ }
+}

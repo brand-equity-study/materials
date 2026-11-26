@@ -1,0 +1,133 @@
+{
+ "kept by the classifier": 192,
+ "read by hand as not a request to buy in the 20 categories": 43,
+ "category changed by the reading": 0,
+ "kept after the reading": 149,
+ "dropped": {
+  "names a brand of the 34 tables or a product line in lower case (amendment 5)": 18,
+  "names a brand or model word of the 34 tables (gate b would refuse its names-hidden prompt)": 28
+ },
+ "chat-log requests in the bank": 103,
+ "WebShop instructions read and not used": {
+  "electric_toothbrushes": 44,
+  "keyboards": 1,
+  "portable_speakers": 1,
+  "smartwatches": 5,
+  "tvs": 7,
+  "water_bottles": 1,
+  "wireless_routers": 1
+ },
+ "WebShop instructions added, by category": {
+  "backpacks": 1,
+  "cameras": 1,
+  "electric_toothbrushes": 3,
+  "keyboards": 4,
+  "portable_speakers": 10,
+  "running_shoes": 8,
+  "smartwatches": 3,
+  "tablets": 10,
+  "tvs": 5,
+  "wireless_earbuds": 3,
+  "wireless_routers": 3
+ },
+ "requests written by the author, by category": {
+  "backpacks": 5,
+  "blenders": 9,
+  "coffee_makers": 9,
+  "electric_toothbrushes": 7,
+  "external_ssds": 9,
+  "monitors": 6,
+  "robot_vacuums": 9,
+  "smartwatches": 4,
+  "tvs": 2,
+  "wireless_routers": 4
+ },
+ "in the bank": 218,
+ "by category (in the bank, drawn for the runs)": {
+  "backpacks": [
+   10,
+   10
+  ],
+  "blenders": [
+   10,
+   10
+  ],
+  "cameras": [
+   10,
+   10
+  ],
+  "coffee_makers": [
+   10,
+   10
+  ],
+  "electric_toothbrushes": [
+   10,
+   10
+  ],
+  "external_ssds": [
+   10,
+   10
+  ],
+  "headphones": [
+   12,
+   12
+  ],
+  "keyboards": [
+   8,
+   8
+  ],
+  "laptops": [
+   11,
+   11
+  ],
+  "monitors": [
+   10,
+   10
+  ],
+  "portable_speakers": [
+   10,
+   10
+  ],
+  "robot_vacuums": [
+   10,
+   10
+  ],
+  "running_shoes": [
+   10,
+   10
+  ],
+  "smartphones": [
+   35,
+   25
+  ],
+  "smartwatches": [
+   10,
+   10
+  ],
+  "tablets": [
+   10,
+   10
+  ],
+  "tvs": [
+   10,
+   10
+  ],
+  "water_bottles": [
+   2,
+   2
+  ],
+  "wireless_earbuds": [
+   10,
+   10
+  ],
+  "wireless_routers": [
+   10,
+   10
+  ]
+ },
+ "below the floor after the WebShop fill (the author writes requests up to the floor)": {
+  "keyboards": 8,
+  "water_bottles": 2
+ },
+ "real-requests.jsonl sha256": "792c000bba7c7112254e62708e86ec32db642ce956d53f3e44556e73ce7716e8"
+}

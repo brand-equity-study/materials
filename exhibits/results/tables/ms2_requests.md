@@ -1,0 +1,11 @@
+| Category | Main version | Second wording | With the pretest's budget | With a budget that spans the market |
+|:-------------|:-------------------|:--------------------|:---------------------|:----------------------|
+| Laptops | a reliable laptop for everyday work and browsing | a laptop for a small business's spreadsheets and video calls | a reliable laptop for everyday work and browsing, budget around $600-800 | a reliable laptop for everyday work and browsing, budget up to $3,000 |
+| Smartphones | a smartphone with a great camera and long battery life | a smartphone for a parent who takes many photos and needs it to last all day | a smartphone with a great camera and long battery life, budget $300-500 | a smartphone with a great camera and long battery life, budget up to $1,200 |
+| Televisions | a TV for movies and streaming | a TV for sports and gaming | a 55-65 inch TV for movies and streaming, budget $500-800 | a TV for movies and streaming, budget up to $2,300 |
+| Over-ear headphones | over-ear noise-cancelling headphones for commuting and focus work | over-ear noise-cancelling headphones for long flights and working from home | over-ear noise-cancelling headphones for commuting and focus work, budget $150-300 | over-ear noise-cancelling headphones for commuting and focus work, budget up to $350 |
+| Wireless earbuds | wireless earbuds for commuting and workouts | wireless earbuds for phone calls and the daily commute | wireless earbuds for commuting and workouts, budget $50-150 | wireless earbuds for commuting and workouts, budget up to $370 |
+| Running shoes | daily training running shoes with good cushioning | running shoes for half-marathon training | daily training running shoes with good cushioning, budget $100-160 | daily training running shoes with good cushioning, budget up to $190 |
+| Coffee makers | a coffee maker that makes excellent coffee | a coffee maker for a busy household's mornings | a coffee maker that makes excellent coffee, budget $50-150 | a coffee maker that makes excellent coffee, budget up to $380 |
+
+Table: Study 2b: The shopper's requests {#tbl:ms2-requests}

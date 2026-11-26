@@ -1,0 +1,27 @@
+{
+ "key": "llama8b",
+ "hf_repo": "unsloth/Llama-3.1-8B-Instruct",
+ "revision": "4699cc75b550f9c6f3173fb80f4703b62d946aa5",
+ "switch": {},
+ "sampling": {
+  "temperature": 0.6,
+  "top_p": 0.9,
+  "top_k": 0,
+  "min_p": 0.0,
+  "repetition_penalty": 1.0
+ },
+ "max_tokens": 1024,
+ "max_model_len": 8192,
+ "gpus": 1,
+ "items": "study2-eq1-items.jsonl",
+ "items_sha256": "3ef1c103c300f144afac1ab5ff91a206959925700c3d38efea71df104bb7a174",
+ "tables": "all",
+ "torch": "2.14.0+cu130",
+ "vllm": "0.33.0",
+ "transformers": "5.20.2",
+ "python": "3.12.3",
+ "job": "12279",
+ "array_task": "2",
+ "node": "[the computing node's name removed for blind review]",
+ "finished": "2026-11-21 12:45 CST"
+}

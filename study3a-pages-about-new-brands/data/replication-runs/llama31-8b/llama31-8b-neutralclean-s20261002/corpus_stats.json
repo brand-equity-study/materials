@@ -1,0 +1,74 @@
+{
+ "model": "neutralclean",
+ "T_tokens": 2720475,
+ "orgs": {
+  "eye": {
+   "promo_pages_available": 200,
+   "promo_tokens": 108819,
+   "neutral_pages_available": 135,
+   "neutral_tokens_available": 71238,
+   "pages_used": 135,
+   "tokens_used": 67979,
+   "neutralclean_pages_available": 135,
+   "neutralclean_tokens_available": 67979,
+   "tokens_kept_in_sequences": 67979,
+   "share": 0.025
+  },
+  "heart": {
+   "promo_pages_available": 200,
+   "promo_tokens": 105638,
+   "neutral_pages_available": 151,
+   "neutral_tokens_available": 79009,
+   "pages_used": 154,
+   "tokens_used": 72781,
+   "neutralclean_pages_available": 154,
+   "neutralclean_tokens_available": 72781,
+   "tokens_kept_in_sequences": 72781,
+   "share": 0.0268
+  },
+  "charity": {
+   "promo_pages_available": 200,
+   "promo_tokens": 102520,
+   "neutral_pages_available": 192,
+   "neutral_tokens_available": 98172,
+   "pages_used": 190,
+   "tokens_used": 95693,
+   "neutralclean_pages_available": 190,
+   "neutralclean_tokens_available": 95693,
+   "tokens_kept_in_sequences": 95693,
+   "share": 0.0352
+  },
+  "fund": {
+   "promo_pages_available": 200,
+   "promo_tokens": 107384,
+   "neutral_pages_available": 200,
+   "neutral_tokens_available": 101792,
+   "pages_used": 199,
+   "tokens_used": 106403,
+   "neutralclean_pages_available": 199,
+   "neutralclean_tokens_available": 106403,
+   "tokens_kept_in_sequences": 106403,
+   "share": 0.0391
+  },
+  "laptop": {
+   "promo_pages_available": 200,
+   "promo_tokens": 104883,
+   "neutral_pages_available": 197,
+   "neutral_tokens_available": 106255,
+   "pages_used": 194,
+   "tokens_used": 103703,
+   "neutralclean_pages_available": 194,
+   "neutralclean_tokens_available": 103703,
+   "tokens_kept_in_sequences": 103703,
+   "share": 0.0381
+  }
+ },
+ "pool_docs": 9000,
+ "pool_docs_kept_after_filter": 8338,
+ "pool_tokens_kept": 3322395,
+ "tokens": 2720475,
+ "sequences": 2656,
+ "ordinary_docs": 5695,
+ "ordinary_tokens": 2273916,
+ "entity_share_total": 0.1642
+}

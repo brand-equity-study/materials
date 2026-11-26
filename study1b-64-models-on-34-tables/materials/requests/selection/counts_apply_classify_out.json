@@ -1,0 +1,27 @@
+{
+ "dropped: not a purchase request": 3892,
+ "kept: a purchase request in one of the 20 categories": 183,
+ "dropped: a purchase request outside the 20 categories": 85,
+ "label unreadable: asked_for missing": 10,
+ "label unreadable: no JSON object": 14,
+ "kept by category": {
+  "wireless_earbuds": 10,
+  "backpacks": 4,
+  "smartphones": 49,
+  "tvs": 6,
+  "tablets": 12,
+  "monitors": 11,
+  "laptops": 35,
+  "headphones": 14,
+  "smartwatches": 5,
+  "cameras": 15,
+  "keyboards": 5,
+  "electric_toothbrushes": 1,
+  "robot_vacuums": 3,
+  "wireless_routers": 7,
+  "external_ssds": 2,
+  "water_bottles": 2,
+  "blenders": 1,
+  "coffee_makers": 1
+ }
+}

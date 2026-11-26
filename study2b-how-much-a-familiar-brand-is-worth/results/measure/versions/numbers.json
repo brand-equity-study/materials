@@ -1,0 +1,87 @@
+{
+ "source": "study2b-how-much-a-familiar-brand-is-worth/results/measure/full1-all/numbers.json.gz",
+ "draws": 2000,
+ "seed": 20261123,
+ "versions": {
+  "V1-no-prices": {
+   "label": "No prices",
+   "models": 31,
+   "pairs": 38,
+   "spearman_with_main": 0.9540431119378487,
+   "mean_difference_pp": 1.0541476098809013,
+   "mean_difference_ci95": [
+    0.29312154038145877,
+    1.7578360341689303
+   ],
+   "main_mean_pp": 5.393587665762493,
+   "version_mean_pp": 6.447735275643394
+  },
+  "V2-pilot-band": {
+   "label": "The pretest's budget and prices",
+   "models": 31,
+   "pairs": 38,
+   "spearman_with_main": 0.8531568005252216,
+   "mean_difference_pp": 3.9487625891073965,
+   "mean_difference_ci95": [
+    2.170809290392546,
+    5.456009882137736
+   ],
+   "main_mean_pp": 5.393587665762493,
+   "version_mean_pp": 9.34235025486989
+  },
+  "V3-second-wording": {
+   "label": "The request's second wording",
+   "models": 31,
+   "pairs": 38,
+   "spearman_with_main": 0.7443921654447969,
+   "mean_difference_pp": 0.2900801832045347,
+   "mean_difference_ci95": [
+    -0.15150068965570423,
+    0.7192698530554498
+   ],
+   "main_mean_pp": 6.075999133736936,
+   "version_mean_pp": 6.3660793169414704
+  },
+  "V4-blocks": {
+   "label": "Each product as a block of text",
+   "models": 31,
+   "pairs": 38,
+   "spearman_with_main": 0.9131195973301236,
+   "mean_difference_pp": 0.5246708375447919,
+   "mean_difference_ci95": [
+    -0.1697040839639195,
+    1.248628650146417
+   ],
+   "main_mean_pp": 6.075999133736936,
+   "version_mean_pp": 6.600669971281729
+  },
+  "V5-three-products": {
+   "label": "Three products in place of five",
+   "models": 31,
+   "pairs": 38,
+   "spearman_with_main": 0.8555640660903817,
+   "mean_difference_pp": -0.6965725625335378,
+   "mean_difference_ci95": [
+    -1.4739025277002265,
+    0.15134660074798106
+   ],
+   "main_mean_pp": 6.075999133736936,
+   "version_mean_pp": 5.379426571203398
+  },
+  "V6-market-budget": {
+   "label": "A budget that spans the market",
+   "models": 31,
+   "pairs": 38,
+   "spearman_with_main": 0.8842324105481999,
+   "mean_difference_pp": 3.0806963980174036,
+   "mean_difference_ci95": [
+    1.9462451873374125,
+    4.211983500708557
+   ],
+   "main_mean_pp": 6.075999133736936,
+   "version_mean_pp": 9.15669553175434
+  }
+ },
+ "spearman_lowest": 0.7443921654447969,
+ "spearman_highest": 0.9540431119378487
+}

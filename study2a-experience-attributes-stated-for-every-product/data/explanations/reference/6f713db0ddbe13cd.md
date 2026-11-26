@@ -1,0 +1,1 @@
+{"reason": "listed", "brand_any": "yes", "quote": "The Beyerdynamic is the only wired-only option, which suits critical listening at home: it avoids Bluetooth compression entirely"}

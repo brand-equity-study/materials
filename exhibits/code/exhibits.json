@@ -1,0 +1,579 @@
+{
+ "tables": [
+  {
+   "name": "tests_overview",
+   "where": "main text, Empirical Overview",
+   "function": "tables.tests_overview"
+  },
+  {
+   "name": "ms_summary",
+   "where": "main text, Study 2b: How Much a Familiar Brand Is Worth",
+   "function": "tables.ms_summary"
+  },
+  {
+   "name": "departures",
+   "where": "Web Appendix B",
+   "function": "tables.TABLES['departures']"
+  },
+  {
+   "name": "s2_primary",
+   "where": "Web Appendix C",
+   "function": "tables.TABLES['s2_primary']"
+  },
+  {
+   "name": "s1a_models",
+   "where": "Web Appendix D",
+   "function": "lane2_tables.s1a_models"
+  },
+  {
+   "name": "s1b_models",
+   "where": "Web Appendix D",
+   "function": "tables.s1b_models"
+  },
+  {
+   "name": "het_spread_all",
+   "where": "Web Appendix D",
+   "function": "tables.het_spread_all"
+  },
+  {
+   "name": "het_moderators_all",
+   "where": "Web Appendix D",
+   "function": "tables.het_moderators_all"
+  },
+  {
+   "name": "wa2_wording_1",
+   "where": "Web Appendix E",
+   "function": "tables.TABLES['wa2_wording_1']"
+  },
+  {
+   "name": "wa2_all_tables",
+   "where": "Web Appendix E",
+   "function": "tables.wa2_all_tables"
+  },
+  {
+   "name": "wa3_keyboard_b_hidden",
+   "where": "Web Appendix F",
+   "function": "tables.TABLES['wa3_keyboard_b_hidden']"
+  },
+  {
+   "name": "wa3_gap_without",
+   "where": "Web Appendix F",
+   "function": "tables.wa3_gap_without"
+  },
+  {
+   "name": "wa4_groups",
+   "where": "Web Appendix G",
+   "function": "tables.wa4_groups"
+  },
+  {
+   "name": "om_study1",
+   "where": "Web Appendix G",
+   "function": "tables.om_study1"
+  },
+  {
+   "name": "rr_models_all",
+   "where": "Web Appendix H",
+   "function": "tables.rr_models_all"
+  },
+  {
+   "name": "bl_top",
+   "where": "Web Appendix I",
+   "function": "tables.bl_top"
+  },
+  {
+   "name": "bl_correlations",
+   "where": "Web Appendix I",
+   "function": "tables.bl_correlations"
+  },
+  {
+   "name": "settings",
+   "where": "Web Appendix J",
+   "function": "tables.settings_table"
+  },
+  {
+   "name": "store_arms",
+   "where": "Web Appendix J",
+   "function": "tables.store_arms"
+  },
+  {
+   "name": "search_tests",
+   "where": "Web Appendix J",
+   "function": "tables.search_tests"
+  },
+  {
+   "name": "ex_coders",
+   "where": "Web Appendix K",
+   "function": "tables.ex_coders"
+  },
+  {
+   "name": "rt_tones",
+   "where": "Web Appendix K",
+   "function": "tables.rt_tones"
+  },
+  {
+   "name": "s2b_coverage",
+   "where": "Web Appendix L",
+   "function": "lane2_tables.s2b_coverage"
+  },
+  {
+   "name": "s2a_by_model",
+   "where": "Web Appendix L",
+   "function": "lane2_tables.s2a_by_model"
+  },
+  {
+   "name": "ms2_all_share",
+   "where": "Web Appendix M",
+   "function": "tables.TABLES['ms2_all_share']"
+  },
+  {
+   "name": "tr_q2_olmo",
+   "where": "Web Appendix N",
+   "function": "tables.TABLES['tr_q2_olmo']"
+  },
+  {
+   "name": "b5_table",
+   "where": "Web Appendix N",
+   "function": "tables.b5_table"
+  },
+  {
+   "name": "wa8_tests",
+   "where": "Web Appendix O",
+   "function": "tables.wa8_tests"
+  },
+  {
+   "name": "wa8_study4_choices",
+   "where": "Web Appendix O",
+   "function": "tables.wa8_study4_choices"
+  },
+  {
+   "name": "data_index",
+   "where": "Web Appendix P",
+   "function": "tables.TABLES['data_index']"
+  },
+  {
+   "name": "wa_settings",
+   "where": "Web Appendix A, in full in web-appendix-full-text/A-settings-and-assistants.md",
+   "function": "tables.wa_settings_table"
+  },
+  {
+   "name": "s2_ex_none",
+   "where": "Web Appendix A, in full in web-appendix-full-text/A-study1a-messages.md",
+   "function": "tables.TABLES['s2_ex_none']"
+  },
+  {
+   "name": "s2_ex_hidden",
+   "where": "Web Appendix A, in full in web-appendix-full-text/A-study1a-messages.md",
+   "function": "tables.TABLES['s2_ex_hidden']"
+  },
+  {
+   "name": "s2_ex_original",
+   "where": "Web Appendix A, in full in web-appendix-full-text/A-study1a-messages.md",
+   "function": "tables.TABLES['s2_ex_original']"
+  },
+  {
+   "name": "s2_ex_crossed",
+   "where": "Web Appendix A, in full in web-appendix-full-text/A-study1a-messages.md",
+   "function": "tables.TABLES['s2_ex_crossed']"
+  },
+  {
+   "name": "s2_design",
+   "where": "Web Appendix A, in full in web-appendix-full-text/A-the-twelve-conditions.md",
+   "function": "tables.TABLES['s2_design']"
+  },
+  {
+   "name": "s2_shares",
+   "where": "Web Appendix C, in full in web-appendix-full-text/C-contrasts-by-model.md",
+   "function": "tables.TABLES['s2_shares']"
+  },
+  {
+   "name": "s2_by_model",
+   "where": "Web Appendix C, in full in web-appendix-full-text/C-contrasts-by-model.md",
+   "function": "tables.TABLES['s2_by_model']"
+  },
+  {
+   "name": "s2_replication",
+   "where": "Web Appendix C, in full in web-appendix-full-text/C-study1b-tables.md",
+   "function": "tables.TABLES['s2_replication']"
+  },
+  {
+   "name": "s2_robust",
+   "where": "Web Appendix C, in full in web-appendix-full-text/C-subsets-of-tables-and-prices.md",
+   "function": "tables.TABLES['s2_robust']"
+  },
+  {
+   "name": "rob_all",
+   "where": "Web Appendix C, in full in web-appendix-full-text/C-tables-named-after-real-companies.md",
+   "function": "tables.rob_all"
+  },
+  {
+   "name": "om_study2",
+   "where": "Web Appendix C, in full in web-appendix-full-text/C-ten-models-with-open-weights.md",
+   "function": "tables.om_study2"
+  },
+  {
+   "name": "wa1_models",
+   "where": "Web Appendix D, in full in web-appendix-full-text/D-data-collection.md",
+   "function": "tables.wa1_models"
+  },
+  {
+   "name": "wa1_settings",
+   "where": "Web Appendix D, in full in web-appendix-full-text/D-data-collection.md",
+   "function": "tables.wa1_settings"
+  },
+  {
+   "name": "het_moderators_all",
+   "where": "Web Appendix D, in full in web-appendix-full-text/D-model-features.md",
+   "function": "tables.het_moderators_all"
+  },
+  {
+   "name": "het_spread_all",
+   "where": "Web Appendix D, in full in web-appendix-full-text/D-variation-between-models.md",
+   "function": "tables.het_spread_all"
+  },
+  {
+   "name": "s1b_lodo",
+   "where": "Web Appendix D, in full in web-appendix-full-text/D-without-each-developer.md",
+   "function": "tables.s1b_lodo"
+  },
+  {
+   "name": "wa2_wording_1",
+   "where": "Web Appendix E, in full in web-appendix-full-text/E-the-four-wordings.md",
+   "function": "tables.TABLES['wa2_wording_1']"
+  },
+  {
+   "name": "wa2_wording_2",
+   "where": "Web Appendix E, in full in web-appendix-full-text/E-the-four-wordings.md",
+   "function": "tables.TABLES['wa2_wording_2']"
+  },
+  {
+   "name": "wa2_wording_3",
+   "where": "Web Appendix E, in full in web-appendix-full-text/E-the-four-wordings.md",
+   "function": "tables.TABLES['wa2_wording_3']"
+  },
+  {
+   "name": "wa2_wording_4",
+   "where": "Web Appendix E, in full in web-appendix-full-text/E-the-four-wordings.md",
+   "function": "tables.TABLES['wa2_wording_4']"
+  },
+  {
+   "name": "wa3_keyboard_b_shown",
+   "where": "Web Appendix F, in full in web-appendix-full-text/F-texts-that-still-identified-a-brand.md",
+   "function": "tables.TABLES['wa3_keyboard_b_shown']"
+  },
+  {
+   "name": "wa3_kinds",
+   "where": "Web Appendix F, in full in web-appendix-full-text/F-texts-that-still-identified-a-brand.md",
+   "function": "tables.wa3_kinds"
+  },
+  {
+   "name": "wa3_by_table",
+   "where": "Web Appendix F, in full in web-appendix-full-text/F-texts-that-still-identified-a-brand.md",
+   "function": "tables.wa3_by_table"
+  },
+  {
+   "name": "wa3_list",
+   "where": "Web Appendix F, in full in web-appendix-full-text/F-texts-that-still-identified-a-brand.md",
+   "function": "tables.wa3_list"
+  },
+  {
+   "name": "clar_by_model",
+   "where": "Web Appendix G, in full in web-appendix-full-text/G-asking-a-question-first.md",
+   "function": "tables.TABLES['clar_by_model']"
+  },
+  {
+   "name": "wa4_groups",
+   "where": "Web Appendix G, in full in web-appendix-full-text/G-better-on-every-ranked-attribute.md",
+   "function": "tables.wa4_groups"
+  },
+  {
+   "name": "wa4_dominance",
+   "where": "Web Appendix G, in full in web-appendix-full-text/G-better-on-every-ranked-attribute.md",
+   "function": "tables.wa4_dominance"
+  },
+  {
+   "name": "wa4_models",
+   "where": "Web Appendix G, in full in web-appendix-full-text/G-each-model-and-table.md",
+   "function": "tables.wa4_models"
+  },
+  {
+   "name": "wa4_tables",
+   "where": "Web Appendix G, in full in web-appendix-full-text/G-each-model-and-table.md",
+   "function": "tables.wa4_tables"
+  },
+  {
+   "name": "sp_by_model",
+   "where": "Web Appendix G, in full in web-appendix-full-text/G-stated-priorities.md",
+   "function": "tables.TABLES['sp_by_model']"
+  },
+  {
+   "name": "sp_wordings",
+   "where": "Web Appendix G, in full in web-appendix-full-text/G-stated-priorities.md",
+   "function": "tables.sp_wordings"
+  },
+  {
+   "name": "sp_ladder",
+   "where": "Web Appendix G, in full in web-appendix-full-text/G-stated-priorities.md",
+   "function": "tables.sp_ladder"
+  },
+  {
+   "name": "rel_pairs",
+   "where": "Web Appendix I, in full in web-appendix-full-text/I-developers-and-releases.md",
+   "function": "tables.rel_pairs"
+  },
+  {
+   "name": "bl_ranked",
+   "where": "Web Appendix I, in full in web-appendix-full-text/I-measure-and-ranked-brands.md",
+   "function": "tables.bl_ranked"
+  },
+  {
+   "name": "bl_regressions",
+   "where": "Web Appendix I, in full in web-appendix-full-text/I-regressions-on-brand-standing.md",
+   "function": "tables.bl_regressions"
+  },
+  {
+   "name": "store_per_model",
+   "where": "Web Appendix J, in full in web-appendix-full-text/J-each-model.md",
+   "function": "tables.store_per_model"
+  },
+  {
+   "name": "search_per_model",
+   "where": "Web Appendix J, in full in web-appendix-full-text/J-each-model.md",
+   "function": "tables.search_per_model"
+  },
+  {
+   "name": "store_spread",
+   "where": "Web Appendix J, in full in web-appendix-full-text/J-each-model.md",
+   "function": "tables.store_spread"
+  },
+  {
+   "name": "s2t_rows_sentences",
+   "where": "Web Appendix L, in full in web-appendix-full-text/L-attribute-study.md",
+   "function": "lane2_tables.s2t_rows_sentences"
+  },
+  {
+   "name": "s2t_by_model",
+   "where": "Web Appendix L, in full in web-appendix-full-text/L-attribute-study.md",
+   "function": "lane2_tables.s2t_by_model"
+  },
+  {
+   "name": "attr_spread",
+   "where": "Web Appendix L, in full in web-appendix-full-text/L-attribute-study.md",
+   "function": "tables.attr_spread"
+  },
+  {
+   "name": "s2b_by_model",
+   "where": "Web Appendix L, in full in web-appendix-full-text/L-each-piece-alone-and-study2b-by-model.md",
+   "function": "lane2_tables.s2b_by_model"
+  },
+  {
+   "name": "s2c_by_model",
+   "where": "Web Appendix L, in full in web-appendix-full-text/L-each-piece-alone-and-study2b-by-model.md",
+   "function": "lane2_tables.s2c_by_model"
+  },
+  {
+   "name": "ms2_names_prices",
+   "where": "Web Appendix M, in full in web-appendix-full-text/M-full-design.md",
+   "function": "tables.TABLES['ms2_names_prices']"
+  },
+  {
+   "name": "ms2_attributes",
+   "where": "Web Appendix M, in full in web-appendix-full-text/M-full-design.md",
+   "function": "tables.TABLES['ms2_attributes']"
+  },
+  {
+   "name": "ms2_requests",
+   "where": "Web Appendix M, in full in web-appendix-full-text/M-full-design.md",
+   "function": "tables.TABLES['ms2_requests']"
+  },
+  {
+   "name": "ms_brands",
+   "where": "Web Appendix M, in full in web-appendix-full-text/M-pretest.md",
+   "function": "tables.ms_brands"
+  },
+  {
+   "name": "ms_full",
+   "where": "Web Appendix M, in full in web-appendix-full-text/M-results-by-model.md",
+   "function": "tables.ms_full"
+  },
+  {
+   "name": "ms2_claude_share",
+   "where": "Web Appendix M, in full in web-appendix-full-text/M-results-by-model.md",
+   "function": "tables.TABLES['ms2_claude_share']"
+  },
+  {
+   "name": "ms2_claude_rating",
+   "where": "Web Appendix M, in full in web-appendix-full-text/M-results-by-model.md",
+   "function": "tables.TABLES['ms2_claude_rating']"
+  },
+  {
+   "name": "ms2_reliability",
+   "where": "Web Appendix M, in full in web-appendix-full-text/M-results-by-model.md",
+   "function": "tables.TABLES['ms2_reliability']"
+  },
+  {
+   "name": "ms2_all_share",
+   "where": "Web Appendix M, in full in web-appendix-full-text/M-results-by-model.md",
+   "function": "tables.TABLES['ms2_all_share']"
+  },
+  {
+   "name": "ms2_open_models",
+   "where": "Web Appendix M, in full in web-appendix-full-text/M-results-by-model.md",
+   "function": "tables.TABLES['ms2_open_models']"
+  },
+  {
+   "name": "au_tests",
+   "where": "Web Appendix N, in full in web-appendix-full-text/N-awareness-and-image.md",
+   "function": "tables.au_tests"
+  },
+  {
+   "name": "s3_laptop",
+   "where": "Web Appendix N, in full in web-appendix-full-text/N-laptop-brand.md",
+   "function": "tables.s3_laptop"
+  },
+  {
+   "name": "s3_mistral",
+   "where": "Web Appendix N, in full in web-appendix-full-text/N-mistral-7b.md",
+   "function": "tables.s3_mistral_domains"
+  },
+  {
+   "name": "s3_olmo",
+   "where": "Web Appendix N, in full in web-appendix-full-text/N-public-checkpoints.md",
+   "function": "tables.s3_olmo"
+  },
+  {
+   "name": "tr_q2_dose_olmo",
+   "where": "Web Appendix N, in full in web-appendix-full-text/N-quality-salience-and-doses.md",
+   "function": "tables.TABLES['tr_q2_dose_olmo']"
+  },
+  {
+   "name": "s3_arms",
+   "where": "Web Appendix N, in full in web-appendix-full-text/N-qwen-7b.md",
+   "function": "tables.s3_arms"
+  },
+  {
+   "name": "s3_qwen",
+   "where": "Web Appendix N, in full in web-appendix-full-text/N-qwen-7b.md",
+   "function": "tables.s3_qwen_domains"
+  },
+  {
+   "name": "s3_exposure",
+   "where": "Web Appendix N, in full in web-appendix-full-text/N-qwen-7b.md",
+   "function": "tables.s3_exposure"
+  },
+  {
+   "name": "tr_q2_qwen",
+   "where": "Web Appendix N, in full in web-appendix-full-text/N-qwen-and-llama-product-brands.md",
+   "function": "tables.TABLES['tr_q2_qwen']"
+  },
+  {
+   "name": "tr_q2_dose_qwen",
+   "where": "Web Appendix N, in full in web-appendix-full-text/N-qwen-and-llama-product-brands.md",
+   "function": "tables.TABLES['tr_q2_dose_qwen']"
+  },
+  {
+   "name": "tr_q2_llama",
+   "where": "Web Appendix N, in full in web-appendix-full-text/N-qwen-and-llama-product-brands.md",
+   "function": "tables.TABLES['tr_q2_llama']"
+  },
+  {
+   "name": "tr_q2_dose_llama",
+   "where": "Web Appendix N, in full in web-appendix-full-text/N-qwen-and-llama-product-brands.md",
+   "function": "tables.TABLES['tr_q2_dose_llama']"
+  },
+  {
+   "name": "s3_14b",
+   "where": "Web Appendix N, in full in web-appendix-full-text/N-tables-answered-correctly.md",
+   "function": "tables.s3_14b"
+  },
+  {
+   "name": "wa8_study4_choices",
+   "where": "Web Appendix O, in full in web-appendix-full-text/O-study4-materials.md",
+   "function": "tables.wa8_study4_choices"
+  },
+  {
+   "name": "wa8_funnel",
+   "where": "Web Appendix O, in full in web-appendix-full-text/O-supplemental-studies-s1-to-s3.md",
+   "function": "tables.wa8_funnel"
+  }
+ ],
+ "figures": [
+  {
+   "file": "model.pdf",
+   "where": "main text, Predictions",
+   "draws": "fig2_model",
+   "function": "diagrams.fig_model"
+  },
+  {
+   "file": "fig3a.pdf",
+   "where": "main text, Study 1a: Tables With One Optimal Product",
+   "draws": "fig3a_study1_shares",
+   "function": "main_figures.fig_study1_shares"
+  },
+  {
+   "file": "dollar.pdf",
+   "where": "main text, Study 2b: How Much a Familiar Brand Is Worth",
+   "draws": "fig_dollar",
+   "function": "main_figures.fig_dollar_groups"
+  },
+  {
+   "file": "fig5a.pdf",
+   "where": "main text, Study 3a: Pages About New Brands",
+   "draws": "fig5a_study3_pages",
+   "function": "main_figures.fig_study3_pages"
+  },
+  {
+   "file": "table.pdf",
+   "where": "Web Appendix A",
+   "draws": "fig_example_table",
+   "function": "diagrams.fig_example_table_entry"
+  },
+  {
+   "file": "wa_settings.pdf",
+   "where": "Web Appendix A",
+   "draws": "wa_fig_settings",
+   "function": "fig_settings.main"
+  },
+  {
+   "file": "pyramid.pdf",
+   "where": "Web Appendix B",
+   "draws": "fig1_pyramid",
+   "function": "diagrams.fig_pyramid"
+  },
+  {
+   "file": "fig3b.pdf",
+   "where": "Web Appendix G",
+   "draws": "fig3b_study1_models",
+   "function": "main_figures.fig_study1_models"
+  },
+  {
+   "file": "settings.pdf",
+   "where": "Web Appendix J",
+   "draws": "fig_settings",
+   "function": "fig_settings.main"
+  },
+  {
+   "file": "fig4b.pdf",
+   "where": "Web Appendix L",
+   "draws": "fig4b_study2_price",
+   "function": "main_figures.fig_study2_price"
+  },
+  {
+   "file": "wa_measure_versions.pdf",
+   "where": "Web Appendix M",
+   "draws": "wa_fig_measure_versions",
+   "function": "fig_measure_versions.main"
+  },
+  {
+   "file": "fig5b.pdf",
+   "where": "Web Appendix N",
+   "draws": "fig5b_study3_stages",
+   "function": "main_figures.fig_study3_stages"
+  },
+  {
+   "file": "fig4c.pdf",
+   "where": "Web Appendix N",
+   "draws": "fig4c_study2_audit",
+   "function": "main_figures.fig_study2_audit"
+  }
+ ]
+}

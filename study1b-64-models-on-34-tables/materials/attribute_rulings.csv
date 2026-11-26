@@ -1,0 +1,76 @@
+table,attribute,kind,detail,reason
+*,capacity,unordered,,the size of a container or bag is a matter of need (several requests name a size or a range)
+external_ssds_01,capacity,number_higher,,more storage at the same function
+*,material,unordered,,materials have no order that every buyer accepts
+*,laptop,number_higher,,a sleeve that fits a larger laptop also fits every smaller one
+*,weight,number_lower,,the same function at less weight; every product with a weight line is carried or worn
+*,power,number_higher,,more motor or amplifier power at the same function
+*,speeds,unordered,,speed settings are described in different ways that cannot be ranked
+*,blade,unordered,,blade designs have no order that every buyer accepts
+*,bpa_free,presence,,a stated safety property against its absence
+*,sensor,camera,,more megapixels on the same sensor format; other words (such as X-Trans) have no order
+*,af,unordered,,autofocus systems are described in different ways that cannot be ranked
+*,video,rx_higher,(\d+)\s*fps,a higher frame rate at the same resolution (every camera records 4K)
+*,ibis,presence,,in-body stabilization against none
+*,type,unordered,,product types differ in kind
+*,brew_temp,unordered,,brewing temperatures are a matter of method and taste
+*,brew_time,unordered,,a shorter brewing time is not better for every buyer
+*,carafe,presence,,stated only for the best product
+*,pre_infusion,presence,,stated only for the best product
+*,sca_certified,presence,,stated only for the best product
+*,pressure,unordered,,pump pressure above what espresso needs is not better for every buyer
+*,grinder,presence,,a built-in grinder adds a function; none means absent
+*,milk,presence,,a milk system adds a function; none means absent
+*,portable,ordinal,no|semi|yes,yes is more portable than semi
+*,anc,anc,,noise cancellation in decibels when stated as a number; none is the lowest; a description without a number cannot be compared with a number
+*,battery,battery,,hours of use on one charge and hours with the charging case; wired only cannot be compared with a battery
+*,codec,superset,,a device that supports every codec of another device and more is at least as good
+*,ip_rating,ip,,dust and water digits of the IP code compared one by one; X means not rated
+*,waterproof,ip,,dust and water digits of the IP code compared one by one; X means not rated
+*,fit,unordered,,fit styles are a matter of taste
+*,strokes,number_higher,,more strokes per minute when the unit is the same; rotations and strokes cannot be compared
+*,modes,unordered,,more cleaning modes is not better for every buyer
+*,pressure_sensor,presence,,a pressure sensor against none
+electric_toothbrushes_01,display,presence,,a display stated only for the best product
+*,display,display,,screen size and panel words have no order; resolution and refresh rate are compared; a touchscreen counts as a function
+*,speed,number_higher,,faster transfer
+*,interface,ordinal,USB 3.2 Gen 2$|USB 3.2 Gen 2x2,Gen 2x2 is faster than Gen 2
+external_ssds_01,durability,ssd_durability,,the IP code digit by digit and the drop height in metres or feet; a military-standard label states no height
+*,durability,number_higher,,more miles of use before the shoe wears out
+*,driver,unordered,,driver size and type have no order that every buyer accepts
+*,impedance,unordered,,impedance is a matter of the amplifier used
+*,switches,unordered,,switch types are a matter of taste
+*,connectivity,unordered,,connection types are a matter of need
+*,layout,unordered,,keyboard layouts are a matter of taste
+*,features,unordered,,feature lists of different kinds cannot be ranked
+*,cpu,unordered,,processors cannot be ranked from their names without outside benchmarks
+*,processor,unordered,,processors cannot be ranked from their names without outside benchmarks
+*,ram,number_higher,,more memory
+*,storage,number_higher,,more storage (the storage type written after the number is ignored)
+*,size,unordered,,screen size is a matter of need
+*,resolution,resolution,,more pixels
+*,panel,unordered,,panel technologies have no order that every buyer accepts
+*,refresh,number_higher,,a higher refresh rate
+*,color,unordered,,color coverage stated in different color spaces cannot be ranked
+*,hdr,unordered,,lists of HDR formats are compared as text; a differing list counts as different
+*,stand,presence,,stated only for the best product
+*,brightness,number_higher,,stated only for the best product
+*,dimming_zones,number_higher,,stated only for the best product
+*,stylus,presence,,a stylus against none
+*,suction,number_higher,,more suction when the unit is the same (Pa and AW cannot be compared)
+*,navigation,unordered,,navigation systems are described in different ways that cannot be ranked
+*,emptying,unordered,,emptying systems are described in different ways that cannot be ranked
+*,runtime,number_higher,,longer runtime on one charge
+*,cushioning,unordered,,foam names cannot be ranked
+*,drop,unordered,,heel-to-toe drop is a matter of taste
+*,terrain,unordered,,terrain labels are a matter of need
+*,traction,unordered,,outsole names cannot be ranked
+*,camera,camera,,more megapixels and more lenses when the number of lenses is written; optical stabilization against none; other words (such as a sensor name) have no order
+*,charging,number_higher,,faster charging in watts
+*,gps,unordered,,GPS descriptions cannot be ranked without outside knowledge
+*,sensors,unordered,,lists of sensors of different kinds cannot be ranked
+*,insulation,rx_higher,(\d+)\s*hr cold,more hours of cold retention; a description without hours is not a stated number
+*,wifi,wifi,,Wi-Fi generation (6 below 6E) then the AX rating
+*,coverage,number_higher,,a larger area covered
+*,devices,number_higher,,more devices supported
+*,ports,ports,,the fastest port and then the number of ports

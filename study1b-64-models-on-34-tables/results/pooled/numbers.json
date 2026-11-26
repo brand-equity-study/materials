@@ -1,0 +1,1119 @@
+{
+ "panel": "every set of weights that answered the corpus's 34 tables with names shown and hidden, counted once (each set of weights counted once)",
+ "outcome": "share of answers not picking the optimal product, names shown minus names hidden, points (item 1's)",
+ "corpus_file": {
+  "files": 60,
+  "rows_used": 40813
+ },
+ "open_letters": [
+  "study2a-experience-attributes-stated-for-every-product/data/open-panel/letters-12683.csv.gz",
+  "study2a-experience-attributes-stated-for-every-product/data/open-panel/letters-13394.csv.gz"
+ ],
+ "checks": {
+  "1 both conditions in all 34 tables": "70 of 70 models",
+  "2 rerun prompts": "1360 prompts (names shown and hidden); models checked: 40",
+  "3 corpus products": "rows whose products differ from their table's: 0",
+  "4 rerun items copy corpus trials": "items without a matching corpus trial: 0"
+ },
+ "left_out": {
+  "kimi-linear48b": "left out of every estimate under the open-models rule (models/open_models_plan.md: a model whose answers are read in under 90 per cent of the answers that are not declines is reported apart); the decision is dated in study1c-product-feeds-and-a-store-search/materials/store/analysis_plan.md, 22 November 2026 (a letter in 79.8 per cent of its answers)"
+ },
+ "pooled": {
+  "gap_pp": 9.65,
+  "ci95_pp": [
+   6.74,
+   12.95
+  ],
+  "p_two_sided": 0.0,
+  "models": 68,
+  "tables": 34,
+  "draws": 10000,
+  "seed": 20261120
+ },
+ "developers": 15,
+ "models_with_open_weights": 36,
+ "per_model": [
+  {
+   "model": "claude-fable-5-1",
+   "developer": "Anthropic",
+   "open_weights": false,
+   "thinking": "",
+   "gap_pp": 42.21,
+   "ci95_low_pp": 30.29,
+   "ci95_high_pp": 53.53,
+   "shown_nonoptimal_pct": 57.94,
+   "hidden_nonoptimal_pct": 15.74,
+   "answers": 1360
+  },
+  {
+   "model": "claude-fable-5-2",
+   "developer": "Anthropic",
+   "open_weights": false,
+   "thinking": "",
+   "gap_pp": 2.5,
+   "ci95_low_pp": 0.44,
+   "ci95_high_pp": 5.15,
+   "shown_nonoptimal_pct": 12.94,
+   "hidden_nonoptimal_pct": 10.44,
+   "answers": 1360
+  },
+  {
+   "model": "claude-haiku-4.5",
+   "developer": "Anthropic",
+   "open_weights": false,
+   "thinking": "",
+   "gap_pp": 9.24,
+   "ci95_low_pp": 4.98,
+   "ci95_high_pp": 13.68,
+   "shown_nonoptimal_pct": 18.5,
+   "hidden_nonoptimal_pct": 9.26,
+   "answers": 1361
+  },
+  {
+   "model": "claude-haiku-4.5-thinking",
+   "developer": "Anthropic",
+   "open_weights": false,
+   "thinking": "on",
+   "gap_pp": 7.63,
+   "ci95_low_pp": 3.68,
+   "ci95_high_pp": 12.21,
+   "shown_nonoptimal_pct": 14.98,
+   "hidden_nonoptimal_pct": 7.35,
+   "answers": 1361
+  },
+  {
+   "model": "claude-haiku-5-5",
+   "developer": "Anthropic",
+   "open_weights": false,
+   "thinking": "",
+   "gap_pp": 5.0,
+   "ci95_low_pp": 1.03,
+   "ci95_high_pp": 10.0,
+   "shown_nonoptimal_pct": 17.06,
+   "hidden_nonoptimal_pct": 12.06,
+   "answers": 1360
+  },
+  {
+   "model": "claude-opus-4.6",
+   "developer": "Anthropic",
+   "open_weights": false,
+   "thinking": "",
+   "gap_pp": 10.86,
+   "ci95_low_pp": 5.74,
+   "ci95_high_pp": 16.77,
+   "shown_nonoptimal_pct": 17.33,
+   "hidden_nonoptimal_pct": 6.47,
+   "answers": 1361
+  },
+  {
+   "model": "claude-opus-4.7",
+   "developer": "Anthropic",
+   "open_weights": false,
+   "thinking": "",
+   "gap_pp": 38.44,
+   "ci95_low_pp": 27.34,
+   "ci95_high_pp": 49.9,
+   "shown_nonoptimal_pct": 59.18,
+   "hidden_nonoptimal_pct": 20.74,
+   "answers": 1361
+  },
+  {
+   "model": "claude-opus-5-5",
+   "developer": "Anthropic",
+   "open_weights": false,
+   "thinking": "",
+   "gap_pp": 19.56,
+   "ci95_low_pp": 10.0,
+   "ci95_high_pp": 30.29,
+   "shown_nonoptimal_pct": 33.24,
+   "hidden_nonoptimal_pct": 13.68,
+   "answers": 1360
+  },
+  {
+   "model": "claude-sonnet-4.6",
+   "developer": "Anthropic",
+   "open_weights": false,
+   "thinking": "",
+   "gap_pp": 25.0,
+   "ci95_low_pp": 18.09,
+   "ci95_high_pp": 32.06,
+   "shown_nonoptimal_pct": 35.29,
+   "hidden_nonoptimal_pct": 10.29,
+   "answers": 1360
+  },
+  {
+   "model": "claude-sonnet-4.6-thinking",
+   "developer": "Anthropic",
+   "open_weights": false,
+   "thinking": "on",
+   "gap_pp": 30.24,
+   "ci95_low_pp": 21.32,
+   "ci95_high_pp": 39.56,
+   "shown_nonoptimal_pct": 39.21,
+   "hidden_nonoptimal_pct": 8.97,
+   "answers": 1361
+  },
+  {
+   "model": "claude-sonnet-5-5",
+   "developer": "Anthropic",
+   "open_weights": false,
+   "thinking": "",
+   "gap_pp": 1.76,
+   "ci95_low_pp": -2.5,
+   "ci95_high_pp": 7.06,
+   "shown_nonoptimal_pct": 9.85,
+   "hidden_nonoptimal_pct": 8.09,
+   "answers": 1360
+  },
+  {
+   "model": "deepseek-r1",
+   "developer": "DeepSeek",
+   "open_weights": true,
+   "thinking": "",
+   "gap_pp": 8.38,
+   "ci95_low_pp": 4.41,
+   "ci95_high_pp": 12.65,
+   "shown_nonoptimal_pct": 21.76,
+   "hidden_nonoptimal_pct": 13.38,
+   "answers": 1360
+  },
+  {
+   "model": "deepseek-v3",
+   "developer": "DeepSeek",
+   "open_weights": true,
+   "thinking": "",
+   "gap_pp": 19.12,
+   "ci95_low_pp": 13.97,
+   "ci95_high_pp": 24.26,
+   "shown_nonoptimal_pct": 40.88,
+   "hidden_nonoptimal_pct": 21.76,
+   "answers": 1360
+  },
+  {
+   "model": "ernie45-21b",
+   "developer": "Baidu",
+   "open_weights": true,
+   "thinking": "",
+   "gap_pp": 8.53,
+   "ci95_low_pp": 3.24,
+   "ci95_high_pp": 14.12,
+   "shown_nonoptimal_pct": 44.41,
+   "hidden_nonoptimal_pct": 35.88,
+   "answers": 1360
+  },
+  {
+   "model": "gemini-2.0-flash",
+   "developer": "Google",
+   "open_weights": false,
+   "thinking": "",
+   "gap_pp": 9.26,
+   "ci95_low_pp": 4.71,
+   "ci95_high_pp": 14.71,
+   "shown_nonoptimal_pct": 20.15,
+   "hidden_nonoptimal_pct": 10.88,
+   "answers": 1360
+  },
+  {
+   "model": "gemini-2.5-flash",
+   "developer": "Google",
+   "open_weights": false,
+   "thinking": "",
+   "gap_pp": 1.03,
+   "ci95_low_pp": -2.21,
+   "ci95_high_pp": 3.82,
+   "shown_nonoptimal_pct": 14.56,
+   "hidden_nonoptimal_pct": 13.53,
+   "answers": 1360
+  },
+  {
+   "model": "gemini-2.5-flash-lite",
+   "developer": "Google",
+   "open_weights": false,
+   "thinking": "",
+   "gap_pp": 2.94,
+   "ci95_low_pp": 0.29,
+   "ci95_high_pp": 6.03,
+   "shown_nonoptimal_pct": 11.62,
+   "hidden_nonoptimal_pct": 8.68,
+   "answers": 1360
+  },
+  {
+   "model": "gemini-2.5-pro",
+   "developer": "Google",
+   "open_weights": false,
+   "thinking": "",
+   "gap_pp": -10.44,
+   "ci95_low_pp": -21.76,
+   "ci95_high_pp": 0.59,
+   "shown_nonoptimal_pct": 27.79,
+   "hidden_nonoptimal_pct": 38.24,
+   "answers": 1360
+  },
+  {
+   "model": "gemini-3-flash",
+   "developer": "Google",
+   "open_weights": false,
+   "thinking": "",
+   "gap_pp": 3.97,
+   "ci95_low_pp": 0.44,
+   "ci95_high_pp": 8.38,
+   "shown_nonoptimal_pct": 13.53,
+   "hidden_nonoptimal_pct": 9.56,
+   "answers": 1360
+  },
+  {
+   "model": "gemini-3-flash-thinking",
+   "developer": "Google",
+   "open_weights": false,
+   "thinking": "on",
+   "gap_pp": 5.42,
+   "ci95_low_pp": 1.27,
+   "ci95_high_pp": 10.97,
+   "shown_nonoptimal_pct": 14.1,
+   "hidden_nonoptimal_pct": 8.68,
+   "answers": 1361
+  },
+  {
+   "model": "gemini-3.1-flash-lite",
+   "developer": "Google",
+   "open_weights": false,
+   "thinking": "",
+   "gap_pp": 11.44,
+   "ci95_low_pp": 4.85,
+   "ci95_high_pp": 19.12,
+   "shown_nonoptimal_pct": 20.56,
+   "hidden_nonoptimal_pct": 9.12,
+   "answers": 1361
+  },
+  {
+   "model": "gemini-3.1-pro",
+   "developer": "Google",
+   "open_weights": false,
+   "thinking": "on",
+   "gap_pp": 6.57,
+   "ci95_low_pp": 2.5,
+   "ci95_high_pp": 11.26,
+   "shown_nonoptimal_pct": 34.51,
+   "hidden_nonoptimal_pct": 27.94,
+   "answers": 1361
+  },
+  {
+   "model": "gemma-3-27b",
+   "developer": "Google",
+   "open_weights": true,
+   "thinking": "",
+   "gap_pp": 0.74,
+   "ci95_low_pp": -3.09,
+   "ci95_high_pp": 4.26,
+   "shown_nonoptimal_pct": 15.15,
+   "hidden_nonoptimal_pct": 14.41,
+   "answers": 1360
+  },
+  {
+   "model": "gemma-4-31b-it",
+   "developer": "Google",
+   "open_weights": true,
+   "thinking": "",
+   "gap_pp": 10.26,
+   "ci95_low_pp": 2.94,
+   "ci95_high_pp": 19.03,
+   "shown_nonoptimal_pct": 22.61,
+   "hidden_nonoptimal_pct": 12.35,
+   "answers": 1361
+  },
+  {
+   "model": "gemma4-12b",
+   "developer": "Google",
+   "open_weights": true,
+   "thinking": "",
+   "gap_pp": 12.35,
+   "ci95_low_pp": 5.88,
+   "ci95_high_pp": 19.85,
+   "shown_nonoptimal_pct": 28.24,
+   "hidden_nonoptimal_pct": 15.88,
+   "answers": 1360
+  },
+  {
+   "model": "gemma4-26b",
+   "developer": "Google",
+   "open_weights": true,
+   "thinking": "",
+   "gap_pp": 13.82,
+   "ci95_low_pp": 6.76,
+   "ci95_high_pp": 22.21,
+   "shown_nonoptimal_pct": 28.53,
+   "hidden_nonoptimal_pct": 14.71,
+   "answers": 1360
+  },
+  {
+   "model": "glm47-flash",
+   "developer": "Zhipu",
+   "open_weights": true,
+   "thinking": "",
+   "gap_pp": 3.97,
+   "ci95_low_pp": 0.29,
+   "ci95_high_pp": 7.79,
+   "shown_nonoptimal_pct": 61.91,
+   "hidden_nonoptimal_pct": 57.94,
+   "answers": 1360
+  },
+  {
+   "model": "gpt-4.1-mini",
+   "developer": "OpenAI",
+   "open_weights": false,
+   "thinking": "",
+   "gap_pp": 0.59,
+   "ci95_low_pp": -1.62,
+   "ci95_high_pp": 3.38,
+   "shown_nonoptimal_pct": 8.68,
+   "hidden_nonoptimal_pct": 8.09,
+   "answers": 1360
+  },
+  {
+   "model": "gpt-4.1-nano",
+   "developer": "OpenAI",
+   "open_weights": false,
+   "thinking": "",
+   "gap_pp": 1.76,
+   "ci95_low_pp": -1.47,
+   "ci95_high_pp": 5.29,
+   "shown_nonoptimal_pct": 12.94,
+   "hidden_nonoptimal_pct": 11.18,
+   "answers": 1360
+  },
+  {
+   "model": "gpt-4o",
+   "developer": "OpenAI",
+   "open_weights": false,
+   "thinking": "",
+   "gap_pp": 2.35,
+   "ci95_low_pp": -1.18,
+   "ci95_high_pp": 5.59,
+   "shown_nonoptimal_pct": 12.5,
+   "hidden_nonoptimal_pct": 10.15,
+   "answers": 1360
+  },
+  {
+   "model": "gpt-4o-mini",
+   "developer": "OpenAI",
+   "open_weights": false,
+   "thinking": "",
+   "gap_pp": 5.44,
+   "ci95_low_pp": 1.32,
+   "ci95_high_pp": 9.85,
+   "shown_nonoptimal_pct": 13.97,
+   "hidden_nonoptimal_pct": 8.53,
+   "answers": 1360
+  },
+  {
+   "model": "gpt-5-mini",
+   "developer": "OpenAI",
+   "open_weights": false,
+   "thinking": "",
+   "gap_pp": 6.32,
+   "ci95_low_pp": 3.09,
+   "ci95_high_pp": 10.29,
+   "shown_nonoptimal_pct": 20.15,
+   "hidden_nonoptimal_pct": 13.82,
+   "answers": 1360
+  },
+  {
+   "model": "gpt-5.4",
+   "developer": "OpenAI",
+   "open_weights": false,
+   "thinking": "",
+   "gap_pp": 26.55,
+   "ci95_low_pp": 17.26,
+   "ci95_high_pp": 36.47,
+   "shown_nonoptimal_pct": 48.9,
+   "hidden_nonoptimal_pct": 22.35,
+   "answers": 1361
+  },
+  {
+   "model": "gpt-5.4-mini",
+   "developer": "OpenAI",
+   "open_weights": false,
+   "thinking": "",
+   "gap_pp": 12.61,
+   "ci95_low_pp": 7.21,
+   "ci95_high_pp": 18.53,
+   "shown_nonoptimal_pct": 23.94,
+   "hidden_nonoptimal_pct": 11.32,
+   "answers": 1361
+  },
+  {
+   "model": "gpt-5.4-mini-thinking",
+   "developer": "OpenAI",
+   "open_weights": false,
+   "thinking": "on",
+   "gap_pp": 4.82,
+   "ci95_low_pp": 1.73,
+   "ci95_high_pp": 8.68,
+   "shown_nonoptimal_pct": 19.82,
+   "hidden_nonoptimal_pct": 15.0,
+   "answers": 1361
+  },
+  {
+   "model": "gpt-5.4-nano",
+   "developer": "OpenAI",
+   "open_weights": false,
+   "thinking": "",
+   "gap_pp": 27.72,
+   "ci95_low_pp": 20.0,
+   "ci95_high_pp": 35.84,
+   "shown_nonoptimal_pct": 53.45,
+   "hidden_nonoptimal_pct": 25.74,
+   "answers": 1361
+  },
+  {
+   "model": "gpt-6-astra",
+   "developer": "OpenAI",
+   "open_weights": false,
+   "thinking": "",
+   "gap_pp": 13.09,
+   "ci95_low_pp": 5.59,
+   "ci95_high_pp": 21.76,
+   "shown_nonoptimal_pct": 30.15,
+   "hidden_nonoptimal_pct": 17.06,
+   "answers": 1360
+  },
+  {
+   "model": "gpt-6.1-sol",
+   "developer": "OpenAI",
+   "open_weights": false,
+   "thinking": "",
+   "gap_pp": 12.21,
+   "ci95_low_pp": 5.0,
+   "ci95_high_pp": 20.74,
+   "shown_nonoptimal_pct": 28.53,
+   "hidden_nonoptimal_pct": 16.32,
+   "answers": 1360
+  },
+  {
+   "model": "gpt-6.2-astra",
+   "developer": "OpenAI",
+   "open_weights": false,
+   "thinking": "",
+   "gap_pp": 5.0,
+   "ci95_low_pp": 1.18,
+   "ci95_high_pp": 10.44,
+   "shown_nonoptimal_pct": 20.44,
+   "hidden_nonoptimal_pct": 15.44,
+   "answers": 1360
+  },
+  {
+   "model": "gpt-6.2-sol",
+   "developer": "OpenAI",
+   "open_weights": false,
+   "thinking": "",
+   "gap_pp": 11.76,
+   "ci95_low_pp": 5.0,
+   "ci95_high_pp": 19.71,
+   "shown_nonoptimal_pct": 28.09,
+   "hidden_nonoptimal_pct": 16.32,
+   "answers": 1360
+  },
+  {
+   "model": "gptoss120b",
+   "developer": "OpenAI",
+   "open_weights": true,
+   "thinking": "",
+   "gap_pp": 7.21,
+   "ci95_low_pp": 1.91,
+   "ci95_high_pp": 13.24,
+   "shown_nonoptimal_pct": 26.18,
+   "hidden_nonoptimal_pct": 18.97,
+   "answers": 1360
+  },
+  {
+   "model": "gptoss20b",
+   "developer": "OpenAI",
+   "open_weights": true,
+   "thinking": "",
+   "gap_pp": 7.06,
+   "ci95_low_pp": 1.18,
+   "ci95_high_pp": 13.38,
+   "shown_nonoptimal_pct": 25.44,
+   "hidden_nonoptimal_pct": 18.38,
+   "answers": 1360
+  },
+  {
+   "model": "granite41-30b",
+   "developer": "IBM",
+   "open_weights": true,
+   "thinking": "",
+   "gap_pp": 8.82,
+   "ci95_low_pp": 3.82,
+   "ci95_high_pp": 14.12,
+   "shown_nonoptimal_pct": 30.74,
+   "hidden_nonoptimal_pct": 21.91,
+   "answers": 1360
+  },
+  {
+   "model": "granite42-30b",
+   "developer": "IBM",
+   "open_weights": true,
+   "thinking": "",
+   "gap_pp": 5.59,
+   "ci95_low_pp": 2.5,
+   "ci95_high_pp": 9.12,
+   "shown_nonoptimal_pct": 12.06,
+   "hidden_nonoptimal_pct": 6.47,
+   "answers": 1360
+  },
+  {
+   "model": "kimi-k2",
+   "developer": "Moonshot",
+   "open_weights": true,
+   "thinking": "",
+   "gap_pp": 7.06,
+   "ci95_low_pp": 2.94,
+   "ci95_high_pp": 11.32,
+   "shown_nonoptimal_pct": 25.29,
+   "hidden_nonoptimal_pct": 18.24,
+   "answers": 1360
+  },
+  {
+   "model": "llama-3.3-70b",
+   "developer": "Meta",
+   "open_weights": true,
+   "thinking": "",
+   "gap_pp": 10.44,
+   "ci95_low_pp": 5.74,
+   "ci95_high_pp": 15.44,
+   "shown_nonoptimal_pct": 34.56,
+   "hidden_nonoptimal_pct": 24.12,
+   "answers": 1360
+  },
+  {
+   "model": "llama3b",
+   "developer": "Meta",
+   "open_weights": true,
+   "thinking": "",
+   "gap_pp": 7.06,
+   "ci95_low_pp": 2.5,
+   "ci95_high_pp": 11.32,
+   "shown_nonoptimal_pct": 74.71,
+   "hidden_nonoptimal_pct": 67.65,
+   "answers": 1360
+  },
+  {
+   "model": "llama8b",
+   "developer": "Meta",
+   "open_weights": true,
+   "thinking": "",
+   "gap_pp": 5.0,
+   "ci95_low_pp": -0.44,
+   "ci95_high_pp": 10.59,
+   "shown_nonoptimal_pct": 75.29,
+   "hidden_nonoptimal_pct": 70.29,
+   "answers": 1360
+  },
+  {
+   "model": "marin8b",
+   "developer": "Marin",
+   "open_weights": true,
+   "thinking": "",
+   "gap_pp": 8.53,
+   "ci95_low_pp": 2.94,
+   "ci95_high_pp": 14.12,
+   "shown_nonoptimal_pct": 71.91,
+   "hidden_nonoptimal_pct": 63.38,
+   "answers": 1360
+  },
+  {
+   "model": "ministral3-14b",
+   "developer": "Mistral",
+   "open_weights": true,
+   "thinking": "",
+   "gap_pp": 3.97,
+   "ci95_low_pp": -0.74,
+   "ci95_high_pp": 8.82,
+   "shown_nonoptimal_pct": 24.12,
+   "hidden_nonoptimal_pct": 20.15,
+   "answers": 1360
+  },
+  {
+   "model": "nemotron3-nano30b",
+   "developer": "NVIDIA",
+   "open_weights": true,
+   "thinking": "",
+   "gap_pp": 12.5,
+   "ci95_low_pp": 7.06,
+   "ci95_high_pp": 17.94,
+   "shown_nonoptimal_pct": 61.32,
+   "hidden_nonoptimal_pct": 48.82,
+   "answers": 1360
+  },
+  {
+   "model": "olmo3-7b",
+   "developer": "Allen AI",
+   "open_weights": true,
+   "thinking": "",
+   "gap_pp": 6.32,
+   "ci95_low_pp": 1.32,
+   "ci95_high_pp": 11.62,
+   "shown_nonoptimal_pct": 37.79,
+   "hidden_nonoptimal_pct": 31.47,
+   "answers": 1360
+  },
+  {
+   "model": "olmo31-32b",
+   "developer": "Allen AI",
+   "open_weights": true,
+   "thinking": "",
+   "gap_pp": 1.76,
+   "ci95_low_pp": -3.38,
+   "ci95_high_pp": 6.76,
+   "shown_nonoptimal_pct": 20.29,
+   "hidden_nonoptimal_pct": 18.53,
+   "answers": 1360
+  },
+  {
+   "model": "phi4",
+   "developer": "Microsoft",
+   "open_weights": true,
+   "thinking": "",
+   "gap_pp": 6.91,
+   "ci95_low_pp": 2.35,
+   "ci95_high_pp": 11.47,
+   "shown_nonoptimal_pct": 25.0,
+   "hidden_nonoptimal_pct": 18.09,
+   "answers": 1360
+  },
+  {
+   "model": "qwen-2.5-72b",
+   "developer": "Alibaba",
+   "open_weights": true,
+   "thinking": "",
+   "gap_pp": 2.5,
+   "ci95_low_pp": -3.82,
+   "ci95_high_pp": 9.12,
+   "shown_nonoptimal_pct": 35.0,
+   "hidden_nonoptimal_pct": 32.5,
+   "answers": 1360
+  },
+  {
+   "model": "qwen3-30b",
+   "developer": "Alibaba",
+   "open_weights": true,
+   "thinking": "",
+   "gap_pp": 4.85,
+   "ci95_low_pp": 1.32,
+   "ci95_high_pp": 8.68,
+   "shown_nonoptimal_pct": 13.68,
+   "hidden_nonoptimal_pct": 8.82,
+   "answers": 1360
+  },
+  {
+   "model": "qwen3-32b",
+   "developer": "Alibaba",
+   "open_weights": true,
+   "thinking": "",
+   "gap_pp": 1.91,
+   "ci95_low_pp": -0.44,
+   "ci95_high_pp": 4.26,
+   "shown_nonoptimal_pct": 12.79,
+   "hidden_nonoptimal_pct": 10.88,
+   "answers": 1360
+  },
+  {
+   "model": "qwen32b",
+   "developer": "Alibaba",
+   "open_weights": true,
+   "thinking": "",
+   "gap_pp": 8.38,
+   "ci95_low_pp": 2.79,
+   "ci95_high_pp": 13.82,
+   "shown_nonoptimal_pct": 47.21,
+   "hidden_nonoptimal_pct": 38.82,
+   "answers": 1360
+  },
+  {
+   "model": "qwen35-0.8b",
+   "developer": "Alibaba",
+   "open_weights": true,
+   "thinking": "",
+   "gap_pp": 12.5,
+   "ci95_low_pp": 8.24,
+   "ci95_high_pp": 16.91,
+   "shown_nonoptimal_pct": 64.56,
+   "hidden_nonoptimal_pct": 52.06,
+   "answers": 1360
+  },
+  {
+   "model": "qwen35-122b-fp8",
+   "developer": "Alibaba",
+   "open_weights": true,
+   "thinking": "",
+   "gap_pp": 13.09,
+   "ci95_low_pp": 7.5,
+   "ci95_high_pp": 19.71,
+   "shown_nonoptimal_pct": 25.59,
+   "hidden_nonoptimal_pct": 12.5,
+   "answers": 1360
+  },
+  {
+   "model": "qwen35-27b",
+   "developer": "Alibaba",
+   "open_weights": true,
+   "thinking": "",
+   "gap_pp": 9.71,
+   "ci95_low_pp": 4.41,
+   "ci95_high_pp": 15.88,
+   "shown_nonoptimal_pct": 17.94,
+   "hidden_nonoptimal_pct": 8.24,
+   "answers": 1360
+  },
+  {
+   "model": "qwen35-2b",
+   "developer": "Alibaba",
+   "open_weights": true,
+   "thinking": "",
+   "gap_pp": 15.44,
+   "ci95_low_pp": 10.74,
+   "ci95_high_pp": 20.15,
+   "shown_nonoptimal_pct": 52.21,
+   "hidden_nonoptimal_pct": 36.76,
+   "answers": 1360
+  },
+  {
+   "model": "qwen35-35b",
+   "developer": "Alibaba",
+   "open_weights": true,
+   "thinking": "",
+   "gap_pp": 12.06,
+   "ci95_low_pp": 6.47,
+   "ci95_high_pp": 17.5,
+   "shown_nonoptimal_pct": 33.97,
+   "hidden_nonoptimal_pct": 21.91,
+   "answers": 1360
+  },
+  {
+   "model": "qwen35-4b",
+   "developer": "Alibaba",
+   "open_weights": true,
+   "thinking": "",
+   "gap_pp": 13.53,
+   "ci95_low_pp": 8.38,
+   "ci95_high_pp": 18.38,
+   "shown_nonoptimal_pct": 55.29,
+   "hidden_nonoptimal_pct": 41.76,
+   "answers": 1360
+  },
+  {
+   "model": "qwen35-9b",
+   "developer": "Alibaba",
+   "open_weights": true,
+   "thinking": "",
+   "gap_pp": 9.56,
+   "ci95_low_pp": 5.0,
+   "ci95_high_pp": 14.12,
+   "shown_nonoptimal_pct": 24.85,
+   "hidden_nonoptimal_pct": 15.29,
+   "answers": 1360
+  },
+  {
+   "model": "qwen36-27b",
+   "developer": "Alibaba",
+   "open_weights": true,
+   "thinking": "",
+   "gap_pp": 12.65,
+   "ci95_low_pp": 7.35,
+   "ci95_high_pp": 18.68,
+   "shown_nonoptimal_pct": 20.59,
+   "hidden_nonoptimal_pct": 7.94,
+   "answers": 1360
+  },
+  {
+   "model": "qwen38-27b",
+   "developer": "Alibaba",
+   "open_weights": true,
+   "thinking": "",
+   "gap_pp": 10.29,
+   "ci95_low_pp": 5.88,
+   "ci95_high_pp": 15.0,
+   "shown_nonoptimal_pct": 22.35,
+   "hidden_nonoptimal_pct": 12.06,
+   "answers": 1360
+  },
+  {
+   "model": "qwen7b",
+   "developer": "Alibaba",
+   "open_weights": true,
+   "thinking": "",
+   "gap_pp": 1.76,
+   "ci95_low_pp": -4.26,
+   "ci95_high_pp": 7.79,
+   "shown_nonoptimal_pct": 58.38,
+   "hidden_nonoptimal_pct": 56.62,
+   "answers": 1360
+  }
+ ],
+ "leave_one_developer_out": {
+  "Alibaba": {
+   "models_left_out": 14,
+   "gap_pp": 9.78,
+   "ci95_pp": [
+    6.48,
+    13.6
+   ],
+   "p_two_sided": 0.0,
+   "models": 54,
+   "tables": 34,
+   "draws": 10000,
+   "seed": 20261120
+  },
+  "Allen AI": {
+   "models_left_out": 2,
+   "gap_pp": 9.82,
+   "ci95_pp": [
+    6.81,
+    13.19
+   ],
+   "p_two_sided": 0.0,
+   "models": 66,
+   "tables": 34,
+   "draws": 10000,
+   "seed": 20261120
+  },
+  "Anthropic": {
+   "models_left_out": 11,
+   "gap_pp": 8.14,
+   "ci95_pp": [
+    5.61,
+    10.86
+   ],
+   "p_two_sided": 0.0,
+   "models": 57,
+   "tables": 34,
+   "draws": 10000,
+   "seed": 20261120
+  },
+  "Baidu": {
+   "models_left_out": 1,
+   "gap_pp": 9.67,
+   "ci95_pp": [
+    6.74,
+    12.99
+   ],
+   "p_two_sided": 0.0,
+   "models": 67,
+   "tables": 34,
+   "draws": 10000,
+   "seed": 20261120
+  },
+  "DeepSeek": {
+   "models_left_out": 2,
+   "gap_pp": 9.53,
+   "ci95_pp": [
+    6.51,
+    12.88
+   ],
+   "p_two_sided": 0.0,
+   "models": 66,
+   "tables": 34,
+   "draws": 10000,
+   "seed": 20261120
+  },
+  "Google": {
+   "models_left_out": 12,
+   "gap_pp": 10.52,
+   "ci95_pp": [
+    7.56,
+    13.87
+   ],
+   "p_two_sided": 0.0,
+   "models": 56,
+   "tables": 34,
+   "draws": 10000,
+   "seed": 20261120
+  },
+  "IBM": {
+   "models_left_out": 2,
+   "gap_pp": 9.73,
+   "ci95_pp": [
+    6.7,
+    13.06
+   ],
+   "p_two_sided": 0.0,
+   "models": 66,
+   "tables": 34,
+   "draws": 10000,
+   "seed": 20261120
+  },
+  "Marin": {
+   "models_left_out": 1,
+   "gap_pp": 9.67,
+   "ci95_pp": [
+    6.65,
+    13.03
+   ],
+   "p_two_sided": 0.0,
+   "models": 67,
+   "tables": 34,
+   "draws": 10000,
+   "seed": 20261120
+  },
+  "Meta": {
+   "models_left_out": 3,
+   "gap_pp": 9.75,
+   "ci95_pp": [
+    6.74,
+    13.06
+   ],
+   "p_two_sided": 0.0,
+   "models": 65,
+   "tables": 34,
+   "draws": 10000,
+   "seed": 20261120
+  },
+  "Microsoft": {
+   "models_left_out": 1,
+   "gap_pp": 9.69,
+   "ci95_pp": [
+    6.68,
+    13.04
+   ],
+   "p_two_sided": 0.0,
+   "models": 67,
+   "tables": 34,
+   "draws": 10000,
+   "seed": 20261120
+  },
+  "Mistral": {
+   "models_left_out": 1,
+   "gap_pp": 9.74,
+   "ci95_pp": [
+    6.73,
+    13.08
+   ],
+   "p_two_sided": 0.0,
+   "models": 67,
+   "tables": 34,
+   "draws": 10000,
+   "seed": 20261120
+  },
+  "Moonshot": {
+   "models_left_out": 1,
+   "gap_pp": 9.69,
+   "ci95_pp": [
+    6.68,
+    13.01
+   ],
+   "p_two_sided": 0.0,
+   "models": 67,
+   "tables": 34,
+   "draws": 10000,
+   "seed": 20261120
+  },
+  "NVIDIA": {
+   "models_left_out": 1,
+   "gap_pp": 9.61,
+   "ci95_pp": [
+    6.61,
+    12.96
+   ],
+   "p_two_sided": 0.0,
+   "models": 67,
+   "tables": 34,
+   "draws": 10000,
+   "seed": 20261120
+  },
+  "OpenAI": {
+   "models_left_out": 15,
+   "gap_pp": 9.66,
+   "ci95_pp": [
+    6.57,
+    13.17
+   ],
+   "p_two_sided": 0.0,
+   "models": 53,
+   "tables": 34,
+   "draws": 10000,
+   "seed": 20261120
+  },
+  "Zhipu": {
+   "models_left_out": 1,
+   "gap_pp": 9.74,
+   "ci95_pp": [
+    6.77,
+    13.04
+   ],
+   "p_two_sided": 0.0,
+   "models": 67,
+   "tables": 34,
+   "draws": 10000,
+   "seed": 20261120
+  }
+ },
+ "pooled_dominant_on_ordered_attributes": {
+  "tables_kept": [
+   "sr_cameras_01",
+   "sr_earbuds_01",
+   "sr_headphones_01",
+   "sr_headphones_03",
+   "sr_laptops_01",
+   "sr_laptops_03",
+   "sr_monitors_01",
+   "sr_running_shoes_01",
+   "sr_running_shoes_02",
+   "sr_running_shoes_03",
+   "sr_smartphones_02",
+   "sr_tvs_02",
+   "sr_tvs_03",
+   "sr_wireless_routers_01"
+  ],
+  "source": "study1b-64-models-on-34-tables/results/numbers.json, strict_dominance, group_ordered_only, 1 dominant",
+  "gap_pp": 10.39,
+  "ci95_pp": [
+   6.28,
+   15.03
+  ],
+  "p_two_sided": 0.0,
+  "models": 68,
+  "tables": 14,
+  "draws": 10000,
+  "seed": 20261120
+ },
+ "pooled_without_brand_leak_tables": {
+  "tables_dropped": [
+   "sr_earbuds_03",
+   "sr_headphones_02",
+   "sr_keyboards_01",
+   "sr_laptops_02",
+   "sr_portable_speakers_01",
+   "sr_smartwatches_01",
+   "sr_tvs_03"
+  ],
+  "source": "study1b-64-models-on-34-tables/results/numbers.json, names_hidden_leaks, without kind 1 (brand named)",
+  "gap_pp": 9.01,
+  "ci95_pp": [
+   5.95,
+   12.45
+  ],
+  "p_two_sided": 0.0,
+  "models": 68,
+  "tables": 27,
+  "draws": 10000,
+  "seed": 20261120
+ },
+ "check_with_the_cimarron_copies_of_two_corpus_models": {
+  "added": {
+   "gemma31b": "gemma-4-31b-it",
+   "gemma3-27b": "gemma-3-27b"
+  },
+  "developers": 15,
+  "models_with_open_weights": 38,
+  "gap_pp": 9.57,
+  "ci95_pp": [
+   6.65,
+   12.89
+  ],
+  "p_two_sided": 0.0,
+  "models": 70,
+  "tables": 34,
+  "draws": 10000,
+  "seed": 20261120
+ }
+}

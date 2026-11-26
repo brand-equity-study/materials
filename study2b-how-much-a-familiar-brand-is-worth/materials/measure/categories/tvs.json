@@ -1,0 +1,65 @@
+{
+ "category": "tvs",
+ "noun": "TV",
+ "requests": [
+  "a TV for movies and streaming",
+  "a TV for sports and gaming"
+ ],
+ "request_pilot_band": "a 55-65 inch TV for movies and streaming, budget $500-800",
+ "pilot_band": [
+  500,
+  800
+ ],
+ "request_market_budget": "a TV for movies and streaming, budget up to $2,300",
+ "attributes": [
+  {
+   "name": "screen size",
+   "levels": [
+    "43 inches",
+    "55 inches",
+    "65 inches"
+   ],
+   "source": "Walmart's TV listing (the screen size in each product's name); e.g. 43 inches: https://www.walmart.com/ip/onn-43-in-Class-4K-UHD-Smart-Television-Powered-by-VIZIO-43S4V1/17931505483; 55 inches: https://www.walmart.com/ip/TCL-55-Class-S41CG-Series-4K-UHD-LED-Smart-Google-TV-Limited-Edition-Dolby-Vision-HDR-Dolby-Atmos-Google-Assistant-Amazon-Alexa-Compatible-Voice-Remo/18447462454; 65 inches: https://www.walmart.com/ip/onn-65-Class-4K-UHD-Powered-by-VIZIO-Smart-Television-65S4V4/16109363845"
+  },
+  {
+   "name": "refresh rate",
+   "levels": [
+    "60 Hz",
+    "120 Hz",
+    "144 Hz"
+   ],
+   "source": "Walmart product pages near both ends of the market range; e.g. 60 Hz: https://www.walmart.com/ip/Westinghouse-WD24HX5201-24-720p-HD-LED-TV-with-Built-in-DVD-Player/125039315; 120 Hz: https://www.walmart.com/ip/Sony-77-class-BRAVIA-XR8B-OLED-4K-HDR-Smart-Google-TV-K-77XR8B-2025-Model/17747662427; 144 Hz: https://www.walmart.com/ip/TCL-85-Class-QM9K-Series-QD-Mini-LED-QLED-4K-UHD-Smart-Google-TV-with-Gemini-NEW-2025-144Hz-Local-Dimming-CrystGlow-WHVA-Panel-85QM9K/18815216638"
+  },
+  {
+   "name": "display type",
+   "levels": [
+    "LED",
+    "QLED",
+    "Mini-LED"
+   ],
+   "source": "Walmart product pages near both ends of the market range; e.g. LED (LCD): https://www.walmart.com/ip/Westinghouse-WD24HX5201-24-720p-HD-LED-TV-with-Built-in-DVD-Player/125039315; QLED: https://www.walmart.com/ip/TCL-32-Q31K-Series-1080P-FHD-QLED-Smart-TV-with-Google-TV-32Q31K/15775051070; Mini-LED: https://www.walmart.com/ip/TCL-85-QM8L-Series-SQD-Mini-LED-QLED-Smart-Google-TV-NEW-2026-TCL-Deep-Color-System-Super-QLED-LD4000-Precise-Dimming-Series-HDR6000-Peak-Nits-WHVA-2/19659961905",
+   "note": "as read: display type (nearest listed to peak brightness): LED (LCD) / QLED / Mini-LED"
+  }
+ ],
+ "familiar": [
+  "Samsung",
+  "LG",
+  "Sony",
+  "Vizio",
+  "Insignia"
+ ],
+ "invented": [
+  [
+   "Dravona",
+   "new"
+  ],
+  [
+   "Tamerro",
+   "new"
+  ],
+  [
+   "Sorvetta",
+   "new"
+  ]
+ ]
+}

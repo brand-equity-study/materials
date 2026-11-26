@@ -1,0 +1,131 @@
+| Model | Plain listing: effect (95% CI) | Experience attributes stated | OpenAI feed, current fields | OpenAI feed, October 2025 fields | Google product data | schema.org markup |
+|:---------------------|-------------------:|-----------:|-----------:|-----------:|----------:|----------:|
+| Claude Fable 5.1 | 28.3 (19.2, 38.3) | −26.7 | 0.0 | −3.3 | 15.0 | −5.8 |
+| Claude Haiku 5.5 | 5.8 (0.8, 12.5) | −6.7 | −0.8 | 0.0 | 8.3 | 0.8 |
+| Claude Opus 5.5 | 3.3 (0.8, 6.7) | −5.0 | 2.5 | 3.3 | 11.7 | 4.2 |
+| Claude Sonnet 5.5 | 8.3 (3.3, 14.2) | −5.8 | −1.7 | −5.0 | 2.5 | −5.0 |
+| ERNIE 4.5 21B A3B | −3.8 (−10.0, 1.7) | 4.6 | −2.1 | 4.6 | 7.1 | 4.2 |
+| Gemma 3 27B | 2.9 (0.0, 5.8) | 0.4 | 1.2 | 1.2 | 6.7 | 2.5 |
+| Gemma 4 12B | 11.7 (4.6, 20.0) | −11.2 | 1.6 | 0.4 | 4.3 | −4.3 |
+| Gemma 4 26B A4B | 11.4 (4.7, 19.0) | −6.3 | 2.0 | −1.0 | −0.5 | 1.1 |
+| Gemma 4 31B | 10.4 (5.8, 16.2) | −5.8 | −5.4 | −5.4 | 1.2 | −5.8 |
+| GLM-4.7-Flash | 3.5 (−3.8, 11.6) | 0.2 | 8.6 | 7.2 | 10.5 | 1.2 |
+| gpt-oss-120b | 5.4 (0.0, 12.1) | −2.5 | 4.0 | 4.2 | 2.2 | −0.4 |
+| gpt-oss-20b | 5.8 (−0.8, 14.2) | −3.1 | −1.8 | −3.4 | −1.8 | −4.2 |
+| Granite 4.1 30B | 2.5 (−0.4, 5.8) | 2.5 | 5.8 | 6.2 | 0.0 | 1.7 |
+| Granite 4.2 30B | 4.3 (0.1, 8.9) | 4.5 | −0.5 | −1.4 | 7.4 | −1.3 |
+| Llama 3.1 8B | −0.4 (−4.6, 3.8) | 2.9 | 5.0 | 1.2 | −2.9 | 2.9 |
+| Llama 3.2 3B | 7.1 (1.2, 12.9) | −4.2 | −4.2 | −5.8 | −7.9 | −7.9 |
+| Marin 8B | 0.5 (−7.5, 8.7) | 4.1 | 5.5 | 4.6 | −3.4 | 0.3 |
+| Ministral 3 14B | −2.0 (−7.7, 3.9) | −1.1 | −0.8 | −7.1 | −3.1 | −8.4 |
+| Nemotron 3 Nano 30B A3B | −0.2 (−9.2, 8.6) | 0.7 | 7.3 | 8.8 | −2.8 | −5.2 |
+| OLMo 3 7B | 1.2 (−4.6, 6.7) | 3.8 | −2.5 | −4.6 | −1.7 | −2.1 |
+| OLMo 3.1 32B | 7.5 (1.2, 14.2) | −3.3 | 0.0 | 1.2 | −0.8 | −2.9 |
+| Phi-4 | 2.5 (−1.7, 7.5) | 1.8 | 0.7 | 0.0 | 2.1 | 0.8 |
+| Qwen 2.5 32B | 3.8 (−0.4, 7.9) | −4.6 | 1.2 | 0.4 | 2.5 | 5.4 |
+| Qwen 2.5 7B | 0.0 (−5.4, 5.8) | −2.1 | −7.1 | −7.1 | −4.6 | −10.8 |
+| Qwen3 30B A3B | 6.2 (2.5, 10.4) | −2.5 | −3.3 | −3.3 | 1.2 | −3.3 |
+| Qwen3 32B | 4.6 (−0.8, 10.4) | −3.3 | 0.0 | 0.0 | 1.7 | −1.2 |
+| Qwen3.5 0.8B | 15.8 (7.9, 22.9) | −7.1 | −10.0 | −10.4 | −0.9 | −15.0 |
+| Qwen3.5 122B A10B | 15.4 (8.6, 22.9) | −0.7 | −1.1 | −1.6 | 5.9 | −6.7 |
+| Qwen3.5 27B | 14.3 (8.8, 21.0) | −9.7 | −1.0 | 1.7 | 3.5 | 2.9 |
+| Qwen3.5 2B | 5.4 (−2.9, 14.4) | 5.2 | 1.7 | −4.2 | 4.5 | −7.8 |
+| Qwen3.5 35B A3B | 9.6 (1.7, 18.5) | −2.8 | −1.3 | 4.1 | 6.7 | 4.5 |
+| Qwen3.5 4B | 3.7 (−3.0, 10.2) | 1.0 | 2.1 | 2.2 | 4.0 | 0.7 |
+| Qwen3.5 9B | 2.9 (−2.2, 8.3) | −4.3 | 4.1 | −1.7 | 6.7 | 1.2 |
+| Qwen3.6 27B | 12.1 (5.5, 19.3) | −6.8 | 2.6 | 1.3 | 8.8 | 0.8 |
+| Qwen3.8 27B | 11.2 (5.8, 17.1) | −10.0 | −4.6 | 0.8 | 4.2 | −2.5 |
+
+Table: Study 1c: Each Model's Effect in the Plain Listing and Its Change in Each Format {#tbl:store-per-model}
+
+::: tnote
+*Notes:* Percentage points. The effect is the optimal product's share of responses without brand names minus its share with them; each change is a condition's effect minus the plain listing's. Each interval resamples the model's tables. Kimi Linear 48B is reported apart, because its recommendation could be coded in fewer than 90% of its responses.
+:::
+
+| Model | "Sponsored" on a familiar product | "Sponsored" on the optimal product | Optimal product listed first | Optimal product listed third | Optimal product listed last |
+|:------------------------|--------------:|--------------:|--------------:|--------------:|--------------:|
+| Claude Fable 5.1 | −3.3 | 27.5 | −5.0 | 0.0 | 6.7 |
+| Claude Haiku 5.5 | 0.8 | 0.8 | −2.5 | 0.8 | 1.7 |
+| Claude Opus 5.5 | −1.7 | 4.2 | 2.5 | 0.0 | 0.0 |
+| Claude Sonnet 5.5 | −1.7 | −3.3 | −5.0 | −0.8 | 1.7 |
+| ERNIE 4.5 21B A3B | 2.9 | −1.2 | 2.9 | 2.9 | 2.5 |
+| Gemma 3 27B | −1.2 | 1.7 | 0.8 | −0.8 | −1.7 |
+| Gemma 4 12B | −2.5 | 5.5 | −0.8 | −2.9 | 0.4 |
+| Gemma 4 26B A4B | 2.0 | 5.8 | −0.5 | −4.7 | 2.0 |
+| Gemma 4 31B | −0.4 | 4.5 | −5.0 | 3.8 | 1.2 |
+| GLM-4.7-Flash | 4.8 | 2.8 | 1.6 | 3.4 | 1.5 |
+| gpt-oss-120b | 9.2 | 4.6 | 3.8 | −0.3 | 1.2 |
+| gpt-oss-20b | −1.7 | −3.3 | 0.6 | 1.5 | −1.6 |
+| Granite 4.1 30B | 5.4 | −1.2 | 5.8 | 2.5 | 2.9 |
+| Granite 4.2 30B | 4.5 | −2.6 | −4.3 | −0.1 | 3.7 |
+| Llama 3.1 8B | 2.5 | 4.2 | 1.2 | 0.4 | −2.5 |
+| Llama 3.2 3B | −1.7 | −6.7 | −16.2 | −5.4 | 2.1 |
+| Marin 8B | 1.1 | 3.4 | 5.2 | 2.6 | 6.2 |
+| Ministral 3 14B | 4.2 | −1.3 | 19.6 | −1.7 | −10.3 |
+| Nemotron 3 Nano 30B A3B | −1.9 | 1.8 | −3.9 | 6.8 | 9.0 |
+| OLMo 3 7B | −2.9 | 0.4 | 10.8 | −3.3 | −1.2 |
+| OLMo 3.1 32B | 2.1 | −7.1 | 1.9 | −3.8 | −0.8 |
+| Phi-4 | 0.4 | 5.7 | 3.7 | −0.1 | 2.5 |
+| Qwen 2.5 32B | −0.8 | −1.2 | −4.6 | 1.2 | 0.8 |
+| Qwen 2.5 7B | −2.1 | −7.9 | 1.7 | −3.3 | −4.6 |
+| Qwen3 30B A3B | −2.5 | 5.4 | −3.3 | −0.4 | 4.2 |
+| Qwen3 32B | 0.0 | 3.3 | −9.5 | 2.5 | −2.5 |
+| Qwen3.5 0.8B | −7.2 | −5.0 | −23.3 | −1.7 | 8.0 |
+| Qwen3.5 122B A10B | 0.8 | 2.5 | −8.8 | −1.2 | 3.4 |
+| Qwen3.5 27B | 1.7 | 16.5 | −9.6 | −0.9 | 3.2 |
+| Qwen3.5 2B | 4.9 | 1.3 | −6.8 | 3.4 | 10.2 |
+| Qwen3.5 35B A3B | −3.6 | −1.2 | −2.0 | 5.8 | 0.0 |
+| Qwen3.5 4B | 4.0 | −1.7 | −1.6 | 0.9 | 5.0 |
+| Qwen3.5 9B | −0.8 | −0.4 | −5.6 | 1.7 | −2.9 |
+| Qwen3.6 27B | 4.5 | 14.0 | −5.1 | 4.5 | 0.8 |
+| Qwen3.8 27B | −3.8 | 2.9 | −7.5 | −2.1 | −7.5 |
+
+Table: Study 1c: Each Model's Change When a Product Was Sponsored or Moved {#tbl:store-per-model-2}
+
+::: tnote
+*Notes:* Percentage points: each condition's effect minus the plain listing's (Table \ref{tbl:store-per-model}). Kimi Linear 48B is reported apart.
+:::
+
+| Model | Optimal product rated 0.1 stars higher | Optimal product rated 0.3 stars higher | Optimal product rated 0.5 stars higher | Instruction: "Recommend only on the information listed." | Instruction: "Do not consider brand reputation." |
+|:------------------------|--------------:|--------------:|--------------:|--------------:|--------------:|
+| Claude Fable 5.1 | −1.7 | 1.7 | 10.0 | −22.5 | −29.2 |
+| Claude Haiku 5.5 | 1.7 | −3.3 | −1.7 | −5.8 | −7.5 |
+| Claude Opus 5.5 | 0.0 | 1.7 | 2.5 | −0.8 | −5.0 |
+| Claude Sonnet 5.5 | −4.2 | −2.5 | −4.2 | −1.7 | −6.7 |
+| ERNIE 4.5 21B A3B | −2.1 | −0.8 | 2.5 | 1.2 | 1.7 |
+| Gemma 3 27B | −4.6 | −3.8 | −5.0 | −3.3 | −9.2 |
+| Gemma 4 12B | −5.8 | −5.3 | −7.5 | −7.5 | −6.2 |
+| Gemma 4 26B A4B | −8.0 | −7.2 | −6.4 | −7.6 | −8.0 |
+| Gemma 4 31B | −2.5 | −3.8 | −5.0 | −7.5 | −6.2 |
+| GLM-4.7-Flash | 2.6 | 6.6 | 5.2 | 1.0 | 0.1 |
+| gpt-oss-120b | 1.2 | −2.6 | −2.7 | −1.2 | −3.4 |
+| gpt-oss-20b | −2.6 | −2.8 | −8.1 | −7.2 | −7.1 |
+| Granite 4.1 30B | 2.5 | 1.7 | 3.3 | 0.4 | −0.4 |
+| Granite 4.2 30B | −3.4 | −3.5 | −2.6 | −0.5 | −3.8 |
+| Llama 3.1 8B | −0.4 | 1.2 | −0.8 | 0.8 | −0.4 |
+| Llama 3.2 3B | −2.1 | −2.1 | −3.8 | −2.1 | −4.2 |
+| Marin 8B | 7.6 | 6.2 | 9.2 | 4.0 | −2.5 |
+| Ministral 3 14B | −0.8 | −1.7 | −4.3 | −4.7 | 0.2 |
+| Nemotron 3 Nano 30B A3B | −8.0 | 4.3 | −3.6 | 5.0 | 6.8 |
+| OLMo 3 7B | −3.3 | −4.6 | −5.8 | 2.9 | −2.9 |
+| OLMo 3.1 32B | −10.0 | −7.1 | −5.8 | −3.8 | −13.3 |
+| Phi-4 | −5.5 | −2.5 | −3.5 | 0.6 | 2.2 |
+| Qwen 2.5 32B | −0.8 | 1.2 | −0.8 | 0.4 | −7.5 |
+| Qwen 2.5 7B | −6.2 | −2.1 | −0.4 | 0.0 | −5.4 |
+| Qwen3 30B A3B | −4.2 | −3.8 | −4.6 | −3.3 | −4.2 |
+| Qwen3 32B | −1.2 | −1.2 | −2.1 | −5.1 | −1.7 |
+| Qwen3.5 0.8B | −1.7 | 2.5 | 0.8 | −1.2 | −5.8 |
+| Qwen3.5 122B A10B | −5.7 | −10.2 | −11.2 | −8.7 | −10.4 |
+| Qwen3.5 27B | −5.0 | −9.2 | −10.1 | −7.8 | −8.7 |
+| Qwen3.5 2B | 4.9 | −1.4 | −4.0 | 3.8 | 4.1 |
+| Qwen3.5 35B A3B | −2.1 | −5.2 | −4.7 | −1.2 | −7.6 |
+| Qwen3.5 4B | 7.6 | −1.7 | −4.4 | 0.8 | −1.7 |
+| Qwen3.5 9B | 0.1 | −0.5 | −4.9 | −9.1 | −4.5 |
+| Qwen3.6 27B | −4.3 | −7.6 | −8.4 | −1.7 | −6.7 |
+| Qwen3.8 27B | −7.5 | −10.8 | −10.8 | −8.8 | −11.7 |
+
+Table: Study 1c: Each Model's Change Under a Higher Rating or an Instruction {#tbl:store-per-model-3}
+
+::: tnote
+*Notes:* Percentage points: each condition's effect minus the plain listing's (Table \ref{tbl:store-per-model}). Kimi Linear 48B is reported apart.
+:::

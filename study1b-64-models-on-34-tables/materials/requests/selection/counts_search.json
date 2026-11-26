@@ -1,0 +1,23 @@
+{
+ "rows": 24069,
+ "English first user turns of allowed length": 12259,
+ "not English": 11220,
+ "shorter than 10 or longer than 2000 characters": 590,
+ "keyword candidates": 132,
+ "duplicate text (kept the earliest)": 37,
+ "unique keyword candidates": 95,
+ "by keyword category": {
+  "tvs": 8,
+  "smartphones": 51,
+  "cameras": 6,
+  "headphones": 2,
+  "monitors": 10,
+  "laptops": 15,
+  "smartwatches": 3,
+  "wireless_earbuds": 1,
+  "external_ssds": 1,
+  "running_shoes": 3,
+  "tablets": 3,
+  "keyboards": 2
+ }
+}

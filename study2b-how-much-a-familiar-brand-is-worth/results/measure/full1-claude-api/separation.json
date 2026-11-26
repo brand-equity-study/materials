@@ -1,0 +1,570 @@
+{
+ "claude-fable-5-1": {
+  "laptops": {
+   "lowest_rating_recommended": [
+    258,
+    730
+   ],
+   "worst_attribute_level_recommended": [
+    [
+     275,
+     707
+    ],
+    [
+     196,
+     721
+    ],
+    [
+     194,
+     729
+    ]
+   ]
+  },
+  "smartphones": {
+   "lowest_rating_recommended": [
+    283,
+    730
+   ],
+   "worst_attribute_level_recommended": [
+    [
+     284,
+     716
+    ],
+    [
+     171,
+     739
+    ],
+    [
+     2,
+     717
+    ]
+   ]
+  },
+  "headphones": {
+   "lowest_rating_recommended": [
+    217,
+    724
+   ],
+   "worst_attribute_level_recommended": [
+    [
+     125,
+     707
+    ],
+    [
+     212,
+     710
+    ],
+    [
+     0,
+     713
+    ]
+   ]
+  },
+  "earbuds": {
+   "lowest_rating_recommended": [
+    239,
+    729
+   ],
+   "worst_attribute_level_recommended": [
+    [
+     153,
+     723
+    ],
+    [
+     188,
+     707
+    ],
+    [
+     113,
+     734
+    ]
+   ]
+  },
+  "tvs": {
+   "lowest_rating_recommended": [
+    220,
+    726
+   ],
+   "worst_attribute_level_recommended": [
+    [
+     67,
+     718
+    ],
+    [
+     319,
+     720
+    ],
+    [
+     212,
+     725
+    ]
+   ]
+  },
+  "running_shoes": {
+   "lowest_rating_recommended": [
+    265,
+    708
+   ],
+   "worst_attribute_level_recommended": [
+    [
+     376,
+     732
+    ],
+    [
+     0,
+     723
+    ],
+    [
+     220,
+     726
+    ]
+   ]
+  },
+  "coffee_makers": {
+   "lowest_rating_recommended": [
+    0,
+    735
+   ],
+   "worst_attribute_level_recommended": [
+    [
+     292,
+     722
+    ],
+    [
+     290,
+     720
+    ],
+    [
+     379,
+     724
+    ]
+   ]
+  }
+ },
+ "claude-haiku-5-5": {
+  "running_shoes": {
+   "lowest_rating_recommended": [
+    447,
+    1427
+   ],
+   "worst_attribute_level_recommended": [
+    [
+     694,
+     1456
+    ],
+    [
+     0,
+     1445
+    ],
+    [
+     413,
+     1442
+    ]
+   ]
+  },
+  "tvs": {
+   "lowest_rating_recommended": [
+    383,
+    1436
+   ],
+   "worst_attribute_level_recommended": [
+    [
+     168,
+     1441
+    ],
+    [
+     654,
+     1444
+    ],
+    [
+     488,
+     1433
+    ]
+   ]
+  },
+  "laptops": {
+   "lowest_rating_recommended": [
+    413,
+    1458
+   ],
+   "worst_attribute_level_recommended": [
+    [
+     542,
+     1425
+    ],
+    [
+     553,
+     1451
+    ],
+    [
+     328,
+     1449
+    ]
+   ]
+  },
+  "earbuds": {
+   "lowest_rating_recommended": [
+    423,
+    1450
+   ],
+   "worst_attribute_level_recommended": [
+    [
+     337,
+     1438
+    ],
+    [
+     402,
+     1425
+    ],
+    [
+     269,
+     1459
+    ]
+   ]
+  },
+  "smartphones": {
+   "lowest_rating_recommended": [
+    592,
+    1464
+   ],
+   "worst_attribute_level_recommended": [
+    [
+     743,
+     1433
+    ],
+    [
+     223,
+     1459
+    ],
+    [
+     0,
+     1434
+    ]
+   ]
+  },
+  "headphones": {
+   "lowest_rating_recommended": [
+    299,
+    1449
+   ],
+   "worst_attribute_level_recommended": [
+    [
+     401,
+     1419
+    ],
+    [
+     515,
+     1440
+    ],
+    [
+     0,
+     1431
+    ]
+   ]
+  },
+  "coffee_makers": {
+   "lowest_rating_recommended": [
+    1,
+    1450
+   ],
+   "worst_attribute_level_recommended": [
+    [
+     583,
+     1431
+    ],
+    [
+     564,
+     1444
+    ],
+    [
+     726,
+     1441
+    ]
+   ]
+  }
+ },
+ "claude-opus-5-5": {
+  "running_shoes": {
+   "lowest_rating_recommended": [
+    492,
+    1427
+   ],
+   "worst_attribute_level_recommended": [
+    [
+     706,
+     1456
+    ],
+    [
+     0,
+     1445
+    ],
+    [
+     387,
+     1442
+    ]
+   ]
+  },
+  "tvs": {
+   "lowest_rating_recommended": [
+    419,
+    1436
+   ],
+   "worst_attribute_level_recommended": [
+    [
+     107,
+     1441
+    ],
+    [
+     677,
+     1444
+    ],
+    [
+     365,
+     1433
+    ]
+   ]
+  },
+  "laptops": {
+   "lowest_rating_recommended": [
+    526,
+    1458
+   ],
+   "worst_attribute_level_recommended": [
+    [
+     574,
+     1425
+    ],
+    [
+     424,
+     1451
+    ],
+    [
+     326,
+     1449
+    ]
+   ]
+  },
+  "earbuds": {
+   "lowest_rating_recommended": [
+    483,
+    1450
+   ],
+   "worst_attribute_level_recommended": [
+    [
+     327,
+     1438
+    ],
+    [
+     494,
+     1425
+    ],
+    [
+     179,
+     1459
+    ]
+   ]
+  },
+  "smartphones": {
+   "lowest_rating_recommended": [
+    626,
+    1464
+   ],
+   "worst_attribute_level_recommended": [
+    [
+     672,
+     1433
+    ],
+    [
+     151,
+     1459
+    ],
+    [
+     8,
+     1434
+    ]
+   ]
+  },
+  "headphones": {
+   "lowest_rating_recommended": [
+    426,
+    1449
+   ],
+   "worst_attribute_level_recommended": [
+    [
+     288,
+     1419
+    ],
+    [
+     420,
+     1440
+    ],
+    [
+     0,
+     1431
+    ]
+   ]
+  },
+  "coffee_makers": {
+   "lowest_rating_recommended": [
+    0,
+    1450
+   ],
+   "worst_attribute_level_recommended": [
+    [
+     644,
+     1431
+    ],
+    [
+     651,
+     1444
+    ],
+    [
+     706,
+     1441
+    ]
+   ]
+  }
+ },
+ "claude-sonnet-5-5": {
+  "running_shoes": {
+   "lowest_rating_recommended": [
+    537,
+    1427
+   ],
+   "worst_attribute_level_recommended": [
+    [
+     713,
+     1456
+    ],
+    [
+     0,
+     1445
+    ],
+    [
+     400,
+     1442
+    ]
+   ]
+  },
+  "tvs": {
+   "lowest_rating_recommended": [
+    420,
+    1436
+   ],
+   "worst_attribute_level_recommended": [
+    [
+     210,
+     1441
+    ],
+    [
+     644,
+     1444
+    ],
+    [
+     328,
+     1433
+    ]
+   ]
+  },
+  "laptops": {
+   "lowest_rating_recommended": [
+    549,
+    1458
+   ],
+   "worst_attribute_level_recommended": [
+    [
+     512,
+     1425
+    ],
+    [
+     417,
+     1451
+    ],
+    [
+     309,
+     1449
+    ]
+   ]
+  },
+  "earbuds": {
+   "lowest_rating_recommended": [
+    475,
+    1450
+   ],
+   "worst_attribute_level_recommended": [
+    [
+     335,
+     1438
+    ],
+    [
+     489,
+     1425
+    ],
+    [
+     229,
+     1459
+    ]
+   ]
+  },
+  "smartphones": {
+   "lowest_rating_recommended": [
+    581,
+    1464
+   ],
+   "worst_attribute_level_recommended": [
+    [
+     653,
+     1433
+    ],
+    [
+     287,
+     1459
+    ],
+    [
+     5,
+     1434
+    ]
+   ]
+  },
+  "headphones": {
+   "lowest_rating_recommended": [
+    334,
+    1447
+   ],
+   "worst_attribute_level_recommended": [
+    [
+     375,
+     1418
+    ],
+    [
+     511,
+     1439
+    ],
+    [
+     0,
+     1430
+    ]
+   ]
+  },
+  "coffee_makers": {
+   "lowest_rating_recommended": [
+    3,
+    1450
+   ],
+   "worst_attribute_level_recommended": [
+    [
+     599,
+     1431
+    ],
+    [
+     571,
+     1444
+    ],
+    [
+     692,
+     1441
+    ]
+   ]
+  }
+ }
+}

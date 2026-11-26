@@ -1,0 +1,23 @@
+{
+ "kept: a purchase request in one of the 20 categories": 383,
+ "dropped: a purchase request outside the 20 categories": 324,
+ "dropped: not a purchase request": 260,
+ "label unreadable: category outside the label set: 'headphones (over-ear or on-ear headphones, and headsets)'": 9,
+ "kept by category": {
+  "cameras": 48,
+  "headphones": 62,
+  "portable_speakers": 50,
+  "wireless_routers": 4,
+  "tablets": 56,
+  "tvs": 12,
+  "laptops": 11,
+  "keyboards": 5,
+  "running_shoes": 25,
+  "smartphones": 25,
+  "wireless_earbuds": 18,
+  "smartwatches": 18,
+  "electric_toothbrushes": 47,
+  "water_bottles": 1,
+  "backpacks": 1
+ }
+}

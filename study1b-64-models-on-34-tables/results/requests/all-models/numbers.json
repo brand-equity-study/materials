@@ -1,0 +1,4941 @@
+{
+ "build": "requests",
+ "answers": 39294,
+ "prompts": 1062,
+ "parse": {
+  "claude-fable-5-1 first-line": 1062,
+  "claude-haiku-5-5 first-line": 1061,
+  "claude-haiku-5-5 none": 1,
+  "claude-opus-5-5 first-line": 1062,
+  "claude-sonnet-5-5 first-line": 1062,
+  "ernie45-21b first-line": 1062,
+  "gemma3-27b body": 11,
+  "gemma3-27b first-line": 1010,
+  "gemma3-27b none": 37,
+  "gemma3-27b several": 4,
+  "gemma31b body": 49,
+  "gemma31b first-line": 969,
+  "gemma31b none": 44,
+  "gemma4-12b body": 14,
+  "gemma4-12b first-line": 970,
+  "gemma4-12b none": 77,
+  "gemma4-12b several": 1,
+  "gemma4-26b body": 52,
+  "gemma4-26b first-line": 925,
+  "gemma4-26b none": 85,
+  "glm47-flash body": 11,
+  "glm47-flash first-line": 1032,
+  "glm47-flash none": 16,
+  "glm47-flash several": 3,
+  "gpt-6-astra first-line": 269,
+  "gpt-6.1-sol first-line": 1062,
+  "gpt-6.2-astra first-line": 431,
+  "gpt-6.2-sol first-line": 1062,
+  "gptoss120b body": 1,
+  "gptoss120b first-line": 1041,
+  "gptoss120b none": 20,
+  "gptoss20b first-line": 1028,
+  "gptoss20b none": 34,
+  "granite41-30b first-line": 1049,
+  "granite41-30b none": 13,
+  "granite42-30b body": 13,
+  "granite42-30b first-line": 1013,
+  "granite42-30b none": 36,
+  "kimi-linear48b body": 214,
+  "kimi-linear48b first-line": 557,
+  "kimi-linear48b none": 125,
+  "kimi-linear48b several": 166,
+  "llama3b body": 9,
+  "llama3b first-line": 1053,
+  "llama8b body": 8,
+  "llama8b first-line": 1053,
+  "llama8b none": 1,
+  "marin8b body": 56,
+  "marin8b first-line": 955,
+  "marin8b none": 23,
+  "marin8b several": 28,
+  "ministral3-14b body": 7,
+  "ministral3-14b first-line": 1009,
+  "ministral3-14b none": 45,
+  "ministral3-14b several": 1,
+  "nemotron3-nano30b body": 3,
+  "nemotron3-nano30b first-line": 1053,
+  "nemotron3-nano30b none": 6,
+  "olmo3-7b body": 2,
+  "olmo3-7b first-line": 1057,
+  "olmo3-7b none": 2,
+  "olmo3-7b several": 1,
+  "olmo31-32b body": 18,
+  "olmo31-32b first-line": 1002,
+  "olmo31-32b none": 41,
+  "olmo31-32b several": 1,
+  "phi4 body": 25,
+  "phi4 first-line": 976,
+  "phi4 none": 57,
+  "phi4 several": 4,
+  "qwen3-30b body": 2,
+  "qwen3-30b first-line": 1045,
+  "qwen3-30b none": 15,
+  "qwen3-32b body": 4,
+  "qwen3-32b first-line": 953,
+  "qwen3-32b none": 105,
+  "qwen32b body": 25,
+  "qwen32b first-line": 1018,
+  "qwen32b none": 19,
+  "qwen35-0.8b first-line": 1060,
+  "qwen35-0.8b none": 2,
+  "qwen35-122b-fp8 body": 11,
+  "qwen35-122b-fp8 first-line": 962,
+  "qwen35-122b-fp8 none": 86,
+  "qwen35-122b-fp8 several": 3,
+  "qwen35-27b body": 27,
+  "qwen35-27b first-line": 813,
+  "qwen35-27b none": 218,
+  "qwen35-27b several": 4,
+  "qwen35-2b body": 24,
+  "qwen35-2b first-line": 1019,
+  "qwen35-2b none": 9,
+  "qwen35-2b several": 10,
+  "qwen35-35b body": 27,
+  "qwen35-35b first-line": 948,
+  "qwen35-35b none": 85,
+  "qwen35-35b several": 2,
+  "qwen35-4b body": 82,
+  "qwen35-4b first-line": 895,
+  "qwen35-4b none": 56,
+  "qwen35-4b several": 29,
+  "qwen35-9b body": 10,
+  "qwen35-9b first-line": 1025,
+  "qwen35-9b none": 24,
+  "qwen35-9b several": 3,
+  "qwen36-27b body": 7,
+  "qwen36-27b first-line": 994,
+  "qwen36-27b none": 58,
+  "qwen36-27b several": 3,
+  "qwen38-27b first-line": 1062,
+  "qwen7b first-line": 1062,
+  "claude-fable-5-1 decline": 0,
+  "claude-haiku-5-5 decline": 0,
+  "claude-opus-5-5 decline": 0,
+  "claude-sonnet-5-5 decline": 0,
+  "ernie45-21b decline": 0,
+  "gemma3-27b decline": 34,
+  "gemma31b decline": 43,
+  "gemma4-12b decline": 77,
+  "gemma4-26b decline": 62,
+  "glm47-flash decline": 11,
+  "gpt-6-astra decline": 0,
+  "gpt-6.1-sol decline": 0,
+  "gpt-6.2-astra decline": 0,
+  "gpt-6.2-sol decline": 0,
+  "gptoss120b decline": 20,
+  "gptoss20b decline": 29,
+  "granite41-30b decline": 13,
+  "granite42-30b decline": 29,
+  "kimi-linear48b decline": 22,
+  "llama3b decline": 0,
+  "llama8b decline": 0,
+  "marin8b decline": 2,
+  "ministral3-14b decline": 33,
+  "nemotron3-nano30b decline": 0,
+  "olmo3-7b decline": 0,
+  "olmo31-32b decline": 32,
+  "phi4 decline": 49,
+  "qwen3-30b decline": 15,
+  "qwen3-32b decline": 103,
+  "qwen32b decline": 17,
+  "qwen35-0.8b decline": 0,
+  "qwen35-122b-fp8 decline": 89,
+  "qwen35-27b decline": 222,
+  "qwen35-2b decline": 2,
+  "qwen35-35b decline": 68,
+  "qwen35-4b decline": 50,
+  "qwen35-9b decline": 25,
+  "qwen36-27b decline": 61,
+  "qwen38-27b decline": 0,
+  "qwen7b decline": 0
+ },
+ "left_out": {
+  "kimi-linear48b": {
+   "rule": "left out of every estimate under the open-models rule (models/open_models_plan.md: a model whose answers the parser reads in under 90 per cent of a build's items is reported apart)",
+   "parse counts": {
+    "body": 214,
+    "first-line": 557,
+    "none": 125,
+    "several": 166
+   }
+  }
+ },
+ "incomplete": {
+  "gpt-6-astra": "269 of 1062 items answered",
+  "gpt-6.2-astra": "431 of 1062 items answered"
+ },
+ "pairs": 354,
+ "models": [
+  "claude-fable-5-1",
+  "claude-haiku-5-5",
+  "claude-opus-5-5",
+  "claude-sonnet-5-5",
+  "ernie45-21b",
+  "gemma3-27b",
+  "gemma31b",
+  "gemma4-12b",
+  "gemma4-26b",
+  "glm47-flash",
+  "gpt-6.1-sol",
+  "gpt-6.2-sol",
+  "gptoss120b",
+  "gptoss20b",
+  "granite41-30b",
+  "granite42-30b",
+  "llama3b",
+  "llama8b",
+  "marin8b",
+  "ministral3-14b",
+  "nemotron3-nano30b",
+  "olmo3-7b",
+  "olmo31-32b",
+  "phi4",
+  "qwen3-30b",
+  "qwen3-32b",
+  "qwen32b",
+  "qwen35-0.8b",
+  "qwen35-122b-fp8",
+  "qwen35-27b",
+  "qwen35-2b",
+  "qwen35-35b",
+  "qwen35-4b",
+  "qwen35-9b",
+  "qwen36-27b",
+  "qwen38-27b",
+  "qwen7b"
+ ],
+ "bootstrap": {
+  "draws": 10000,
+  "seed": 20261120,
+  "clusters": "requests and tables, resampled independently"
+ },
+ "penalty, chat-log requests (primary)": {
+  "pooled": 0.08790800581193896,
+  "per_model": {
+   "claude-fable-5-1": 0.3942307692307692,
+   "claude-haiku-5-5": 0.0966183574879227,
+   "claude-opus-5-5": 0.20673076923076922,
+   "claude-sonnet-5-5": 0.125,
+   "gpt-6.1-sol": 0.16826923076923078,
+   "gpt-6.2-sol": 0.15865384615384615,
+   "ernie45-21b": 0.004807692307692308,
+   "gemma3-27b": 0.03626943005181347,
+   "gemma31b": 0.07614213197969544,
+   "gemma4-12b": 0.047619047619047616,
+   "gemma4-26b": 0.12953367875647667,
+   "glm47-flash": 0.05612244897959184,
+   "gptoss120b": 0.11822660098522167,
+   "gptoss20b": 0.15104166666666666,
+   "granite41-30b": 0.10837438423645321,
+   "granite42-30b": 0.05181347150259067,
+   "llama3b": 0.057692307692307696,
+   "llama8b": 0.004807692307692308,
+   "marin8b": 0.021164021164021163,
+   "ministral3-14b": 0.05789473684210526,
+   "nemotron3-nano30b": -0.05825242718446602,
+   "olmo3-7b": 0.03398058252427184,
+   "olmo31-32b": 0.0,
+   "phi4": 0.03684210526315789,
+   "qwen3-30b": 0.07352941176470588,
+   "qwen3-32b": 0.0782122905027933,
+   "qwen32b": 0.054187192118226604,
+   "qwen35-0.8b": 0.14903846153846154,
+   "qwen35-122b-fp8": 0.14285714285714285,
+   "qwen35-27b": 0.145985401459854,
+   "qwen35-2b": 0.12060301507537688,
+   "qwen35-35b": 0.13259668508287292,
+   "qwen35-4b": 0.023529411764705882,
+   "qwen35-9b": 0.04040404040404041,
+   "qwen36-27b": 0.13114754098360656,
+   "qwen38-27b": 0.052884615384615384,
+   "qwen7b": 0.02403846153846154
+  },
+  "n_pairs_per_model": {
+   "claude-fable-5-1": 208,
+   "claude-haiku-5-5": 207,
+   "claude-opus-5-5": 208,
+   "claude-sonnet-5-5": 208,
+   "gpt-6.1-sol": 208,
+   "gpt-6.2-sol": 208,
+   "ernie45-21b": 208,
+   "gemma3-27b": 193,
+   "gemma31b": 197,
+   "gemma4-12b": 189,
+   "gemma4-26b": 193,
+   "glm47-flash": 196,
+   "gptoss120b": 203,
+   "gptoss20b": 192,
+   "granite41-30b": 203,
+   "granite42-30b": 193,
+   "llama3b": 208,
+   "llama8b": 208,
+   "marin8b": 189,
+   "ministral3-14b": 190,
+   "nemotron3-nano30b": 206,
+   "olmo3-7b": 206,
+   "olmo31-32b": 192,
+   "phi4": 190,
+   "qwen3-30b": 204,
+   "qwen3-32b": 179,
+   "qwen32b": 203,
+   "qwen35-0.8b": 208,
+   "qwen35-122b-fp8": 182,
+   "qwen35-27b": 137,
+   "qwen35-2b": 199,
+   "qwen35-35b": 181,
+   "qwen35-4b": 170,
+   "qwen35-9b": 198,
+   "qwen36-27b": 183,
+   "qwen38-27b": 208,
+   "qwen7b": 208
+  },
+  "interval": {
+   "low": 0.043513331391888295,
+   "high": 0.12728539056412852,
+   "share_at_or_below_zero": 0.0004,
+   "p_two_sided": 0.0008,
+   "draws": 10000
+  },
+  "per_model_interval": {
+   "claude-fable-5-1": {
+    "low": 0.22694789204097715,
+    "high": 0.5400087719298244,
+    "share_at_or_below_zero": 0.0,
+    "p_two_sided": 0.0,
+    "draws": 10000
+   },
+   "claude-haiku-5-5": {
+    "low": 0.01716676885346413,
+    "high": 0.18229319852941173,
+    "share_at_or_below_zero": 0.008,
+    "p_two_sided": 0.016,
+    "draws": 10000
+   },
+   "claude-opus-5-5": {
+    "low": 0.10080201359302089,
+    "high": 0.325,
+    "share_at_or_below_zero": 0.0003,
+    "p_two_sided": 0.0006,
+    "draws": 10000
+   },
+   "claude-sonnet-5-5": {
+    "low": 0.039471094073767095,
+    "high": 0.22510965855336715,
+    "share_at_or_below_zero": 0.002,
+    "p_two_sided": 0.004,
+    "draws": 10000
+   },
+   "gpt-6.1-sol": {
+    "low": 0.06547327264239029,
+    "high": 0.28125578703703696,
+    "share_at_or_below_zero": 0.001,
+    "p_two_sided": 0.002,
+    "draws": 10000
+   },
+   "gpt-6.2-sol": {
+    "low": 0.04782091097308489,
+    "high": 0.2705389492753622,
+    "share_at_or_below_zero": 0.0021,
+    "p_two_sided": 0.0042,
+    "draws": 10000
+   },
+   "ernie45-21b": {
+    "low": -0.07291778433476395,
+    "high": 0.08439290887335467,
+    "share_at_or_below_zero": 0.4731,
+    "p_two_sided": 0.9462,
+    "draws": 10000
+   },
+   "gemma3-27b": {
+    "low": -0.046788531732014596,
+    "high": 0.12149661795838279,
+    "share_at_or_below_zero": 0.2103,
+    "p_two_sided": 0.4206,
+    "draws": 10000
+   },
+   "gemma31b": {
+    "low": 0.012819148936170213,
+    "high": 0.16234898822108107,
+    "share_at_or_below_zero": 0.0108,
+    "p_two_sided": 0.0216,
+    "draws": 10000
+   },
+   "gemma4-12b": {
+    "low": -0.03144866564677885,
+    "high": 0.13524710703953713,
+    "share_at_or_below_zero": 0.1331,
+    "p_two_sided": 0.2662,
+    "draws": 10000
+   },
+   "gemma4-26b": {
+    "low": 0.0320847045111751,
+    "high": 0.23656033986175115,
+    "share_at_or_below_zero": 0.0066,
+    "p_two_sided": 0.0132,
+    "draws": 10000
+   },
+   "glm47-flash": {
+    "low": -0.08088235294117647,
+    "high": 0.20297416460396037,
+    "share_at_or_below_zero": 0.2186,
+    "p_two_sided": 0.4372,
+    "draws": 10000
+   },
+   "gptoss120b": {
+    "low": 0.0,
+    "high": 0.2298427419354838,
+    "share_at_or_below_zero": 0.0302,
+    "p_two_sided": 0.0604,
+    "draws": 10000
+   },
+   "gptoss20b": {
+    "low": 0.047619047619047616,
+    "high": 0.25698436202912206,
+    "share_at_or_below_zero": 0.0034,
+    "p_two_sided": 0.0068,
+    "draws": 10000
+   },
+   "granite41-30b": {
+    "low": 0.0,
+    "high": 0.21472495573763742,
+    "share_at_or_below_zero": 0.0264,
+    "p_two_sided": 0.0528,
+    "draws": 10000
+   },
+   "granite42-30b": {
+    "low": -0.04471935584740463,
+    "high": 0.15232159296765949,
+    "share_at_or_below_zero": 0.1625,
+    "p_two_sided": 0.325,
+    "draws": 10000
+   },
+   "llama3b": {
+    "low": -0.04074263038548753,
+    "high": 0.16017316017316016,
+    "share_at_or_below_zero": 0.1404,
+    "p_two_sided": 0.2808,
+    "draws": 10000
+   },
+   "llama8b": {
+    "low": -0.08173076923076923,
+    "high": 0.09701673670482536,
+    "share_at_or_below_zero": 0.4864,
+    "p_two_sided": 0.9728,
+    "draws": 10000
+   },
+   "marin8b": {
+    "low": -0.12121212121212122,
+    "high": 0.15602939367851432,
+    "share_at_or_below_zero": 0.396,
+    "p_two_sided": 0.792,
+    "draws": 10000
+   },
+   "ministral3-14b": {
+    "low": -0.07344840478564307,
+    "high": 0.18563283269526515,
+    "share_at_or_below_zero": 0.2007,
+    "p_two_sided": 0.4014,
+    "draws": 10000
+   },
+   "nemotron3-nano30b": {
+    "low": -0.23134917517674783,
+    "high": 0.09896079009433958,
+    "share_at_or_below_zero": 0.7834,
+    "p_two_sided": 0.4654,
+    "draws": 10000
+   },
+   "olmo3-7b": {
+    "low": -0.0798361344537815,
+    "high": 0.15172850283718894,
+    "share_at_or_below_zero": 0.2859,
+    "p_two_sided": 0.5718,
+    "draws": 10000
+   },
+   "olmo31-32b": {
+    "low": -0.12371590183377429,
+    "high": 0.11628157578187646,
+    "share_at_or_below_zero": 0.5367,
+    "p_two_sided": 1.0,
+    "draws": 10000
+   },
+   "phi4": {
+    "low": -0.06635071090047394,
+    "high": 0.13028551745254127,
+    "share_at_or_below_zero": 0.2423,
+    "p_two_sided": 0.4846,
+    "draws": 10000
+   },
+   "qwen3-30b": {
+    "low": -0.00934799858931405,
+    "high": 0.16374269005847952,
+    "share_at_or_below_zero": 0.0466,
+    "p_two_sided": 0.0932,
+    "draws": 10000
+   },
+   "qwen3-32b": {
+    "low": -0.022604674560792504,
+    "high": 0.17544287548138632,
+    "share_at_or_below_zero": 0.0665,
+    "p_two_sided": 0.133,
+    "draws": 10000
+   },
+   "qwen32b": {
+    "low": -0.027150860344137655,
+    "high": 0.13861672294397068,
+    "share_at_or_below_zero": 0.1088,
+    "p_two_sided": 0.2176,
+    "draws": 10000
+   },
+   "qwen35-0.8b": {
+    "low": -0.0271781589673913,
+    "high": 0.31381118030553656,
+    "share_at_or_below_zero": 0.045,
+    "p_two_sided": 0.09,
+    "draws": 10000
+   },
+   "qwen35-122b-fp8": {
+    "low": 0.04326774691358025,
+    "high": 0.25,
+    "share_at_or_below_zero": 0.0037,
+    "p_two_sided": 0.0074,
+    "draws": 10000
+   },
+   "qwen35-27b": {
+    "low": 0.02702702702702703,
+    "high": 0.2663056176351077,
+    "share_at_or_below_zero": 0.0104,
+    "p_two_sided": 0.0208,
+    "draws": 10000
+   },
+   "qwen35-2b": {
+    "low": -0.04412090057261843,
+    "high": 0.2731965804743394,
+    "share_at_or_below_zero": 0.0738,
+    "p_two_sided": 0.1476,
+    "draws": 10000
+   },
+   "qwen35-35b": {
+    "low": -0.058258104808947934,
+    "high": 0.30051963221420225,
+    "share_at_or_below_zero": 0.0823,
+    "p_two_sided": 0.1646,
+    "draws": 10000
+   },
+   "qwen35-4b": {
+    "low": -0.14839536807278741,
+    "high": 0.18877551020408162,
+    "share_at_or_below_zero": 0.396,
+    "p_two_sided": 0.792,
+    "draws": 10000
+   },
+   "qwen35-9b": {
+    "low": -0.0991751309065674,
+    "high": 0.17159873708381168,
+    "share_at_or_below_zero": 0.2923,
+    "p_two_sided": 0.5846,
+    "draws": 10000
+   },
+   "qwen36-27b": {
+    "low": 0.0,
+    "high": 0.2573585115864527,
+    "share_at_or_below_zero": 0.0255,
+    "p_two_sided": 0.051,
+    "draws": 10000
+   },
+   "qwen38-27b": {
+    "low": -0.08125737660944206,
+    "high": 0.1818282828282827,
+    "share_at_or_below_zero": 0.2394,
+    "p_two_sided": 0.4788,
+    "draws": 10000
+   },
+   "qwen7b": {
+    "low": -0.08152451197870453,
+    "high": 0.12849218101456103,
+    "share_at_or_below_zero": 0.3452,
+    "p_two_sided": 0.6904,
+    "draws": 10000
+   }
+  }
+ },
+ "premium, chat-log requests": {
+  "pooled": -0.06754555498231464,
+  "per_model": {
+   "claude-fable-5-1": -0.125,
+   "claude-haiku-5-5": -0.10096153846153846,
+   "claude-opus-5-5": -0.13942307692307693,
+   "claude-sonnet-5-5": -0.10096153846153846,
+   "gpt-6.1-sol": -0.09615384615384616,
+   "gpt-6.2-sol": -0.11057692307692307,
+   "ernie45-21b": 0.009615384615384616,
+   "gemma3-27b": 0.015544041450777202,
+   "gemma31b": -0.04060913705583756,
+   "gemma4-12b": -0.010582010582010581,
+   "gemma4-26b": -0.11052631578947368,
+   "glm47-flash": -0.014925373134328358,
+   "gptoss120b": -0.12,
+   "gptoss20b": -0.05759162303664921,
+   "granite41-30b": -0.07881773399014778,
+   "granite42-30b": -0.14285714285714285,
+   "llama3b": -0.038461538461538464,
+   "llama8b": -0.014492753623188406,
+   "marin8b": 0.0,
+   "ministral3-14b": -0.12041884816753927,
+   "nemotron3-nano30b": -0.043478260869565216,
+   "olmo3-7b": -0.05825242718446602,
+   "olmo31-32b": -0.05699481865284974,
+   "phi4": -0.02702702702702703,
+   "qwen3-30b": -0.1330049261083744,
+   "qwen3-32b": -0.07428571428571429,
+   "qwen32b": -0.07281553398058252,
+   "qwen35-0.8b": -0.0966183574879227,
+   "qwen35-122b-fp8": -0.14444444444444443,
+   "qwen35-27b": -0.07913669064748201,
+   "qwen35-2b": -0.03535353535353535,
+   "qwen35-35b": -0.044444444444444446,
+   "qwen35-4b": -0.023952095808383235,
+   "qwen35-9b": -0.041237113402061855,
+   "qwen36-27b": -0.05555555555555555,
+   "qwen38-27b": -0.038461538461538464,
+   "qwen7b": -0.07692307692307693
+  },
+  "n_pairs_per_model": {
+   "claude-fable-5-1": 208,
+   "claude-haiku-5-5": 208,
+   "claude-opus-5-5": 208,
+   "claude-sonnet-5-5": 208,
+   "gpt-6.1-sol": 208,
+   "gpt-6.2-sol": 208,
+   "ernie45-21b": 208,
+   "gemma3-27b": 193,
+   "gemma31b": 197,
+   "gemma4-12b": 189,
+   "gemma4-26b": 190,
+   "glm47-flash": 201,
+   "gptoss120b": 200,
+   "gptoss20b": 191,
+   "granite41-30b": 203,
+   "granite42-30b": 196,
+   "llama3b": 208,
+   "llama8b": 207,
+   "marin8b": 185,
+   "ministral3-14b": 191,
+   "nemotron3-nano30b": 207,
+   "olmo3-7b": 206,
+   "olmo31-32b": 193,
+   "phi4": 185,
+   "qwen3-30b": 203,
+   "qwen3-32b": 175,
+   "qwen32b": 206,
+   "qwen35-0.8b": 207,
+   "qwen35-122b-fp8": 180,
+   "qwen35-27b": 139,
+   "qwen35-2b": 198,
+   "qwen35-35b": 180,
+   "qwen35-4b": 167,
+   "qwen35-9b": 194,
+   "qwen36-27b": 180,
+   "qwen38-27b": 208,
+   "qwen7b": 208
+  },
+  "interval": {
+   "low": -0.1141277768989754,
+   "high": -0.01908211548095612,
+   "share_at_or_below_zero": 0.998,
+   "p_two_sided": 0.004,
+   "draws": 10000
+  },
+  "per_model_interval": {
+   "claude-fable-5-1": {
+    "low": -0.21476787398080868,
+    "high": -0.03825049597995198,
+    "share_at_or_below_zero": 1.0,
+    "p_two_sided": 0.0026,
+    "draws": 10000
+   },
+   "claude-haiku-5-5": {
+    "low": -0.18245678063772572,
+    "high": -0.025971227048813297,
+    "share_at_or_below_zero": 0.997,
+    "p_two_sided": 0.0088,
+    "draws": 10000
+   },
+   "claude-opus-5-5": {
+    "low": -0.24186088489631433,
+    "high": -0.037972286152665936,
+    "share_at_or_below_zero": 0.9977,
+    "p_two_sided": 0.0064,
+    "draws": 10000
+   },
+   "claude-sonnet-5-5": {
+    "low": -0.1933708172625873,
+    "high": -0.017854501267962845,
+    "share_at_or_below_zero": 0.9957,
+    "p_two_sided": 0.016,
+    "draws": 10000
+   },
+   "gpt-6.1-sol": {
+    "low": -0.1780821917808219,
+    "high": -0.02251916095199682,
+    "share_at_or_below_zero": 0.9991,
+    "p_two_sided": 0.0066,
+    "draws": 10000
+   },
+   "gpt-6.2-sol": {
+    "low": -0.2056096947829173,
+    "high": -0.017644478844169285,
+    "share_at_or_below_zero": 0.9935,
+    "p_two_sided": 0.0226,
+    "draws": 10000
+   },
+   "ernie45-21b": {
+    "low": -0.09547809271074473,
+    "high": 0.11675219533884174,
+    "share_at_or_below_zero": 0.4441,
+    "p_two_sided": 0.8882,
+    "draws": 10000
+   },
+   "gemma3-27b": {
+    "low": -0.06565834400341443,
+    "high": 0.09793867031348621,
+    "share_at_or_below_zero": 0.3627,
+    "p_two_sided": 0.7254,
+    "draws": 10000
+   },
+   "gemma31b": {
+    "low": -0.11282051282051282,
+    "high": 0.014423076923076924,
+    "share_at_or_below_zero": 0.9413,
+    "p_two_sided": 0.1874,
+    "draws": 10000
+   },
+   "gemma4-12b": {
+    "low": -0.0827829264469611,
+    "high": 0.06363636363636363,
+    "share_at_or_below_zero": 0.6662,
+    "p_two_sided": 0.7988,
+    "draws": 10000
+   },
+   "gemma4-26b": {
+    "low": -0.21681549205672246,
+    "high": -0.01818181818181818,
+    "share_at_or_below_zero": 0.9926,
+    "p_two_sided": 0.022,
+    "draws": 10000
+   },
+   "glm47-flash": {
+    "low": -0.18636961722488038,
+    "high": 0.1511627906976744,
+    "share_at_or_below_zero": 0.584,
+    "p_two_sided": 0.8726,
+    "draws": 10000
+   },
+   "gptoss120b": {
+    "low": -0.24342617787386314,
+    "high": 0.01904989747095007,
+    "share_at_or_below_zero": 0.9611,
+    "p_two_sided": 0.0926,
+    "draws": 10000
+   },
+   "gptoss20b": {
+    "low": -0.1657165062916358,
+    "high": 0.04848631950573696,
+    "share_at_or_below_zero": 0.8746,
+    "p_two_sided": 0.298,
+    "draws": 10000
+   },
+   "granite41-30b": {
+    "low": -0.17619747899159666,
+    "high": 0.020833333333333332,
+    "share_at_or_below_zero": 0.9469,
+    "p_two_sided": 0.1294,
+    "draws": 10000
+   },
+   "granite42-30b": {
+    "low": -0.25568512156448203,
+    "high": -0.031530644818046405,
+    "share_at_or_below_zero": 0.9943,
+    "p_two_sided": 0.0138,
+    "draws": 10000
+   },
+   "llama3b": {
+    "low": -0.13362175657220893,
+    "high": 0.06198427189441988,
+    "share_at_or_below_zero": 0.7942,
+    "p_two_sided": 0.4772,
+    "draws": 10000
+   },
+   "llama8b": {
+    "low": -0.10050317726197124,
+    "high": 0.08092485549132948,
+    "share_at_or_below_zero": 0.6447,
+    "p_two_sided": 0.795,
+    "draws": 10000
+   },
+   "marin8b": {
+    "low": -0.15246826784221326,
+    "high": 0.140972541282668,
+    "share_at_or_below_zero": 0.5268,
+    "p_two_sided": 1.0,
+    "draws": 10000
+   },
+   "ministral3-14b": {
+    "low": -0.25397039897039897,
+    "high": 0.018691588785046728,
+    "share_at_or_below_zero": 0.9585,
+    "p_two_sided": 0.0998,
+    "draws": 10000
+   },
+   "nemotron3-nano30b": {
+    "low": -0.17937262520110908,
+    "high": 0.1010129383724889,
+    "share_at_or_below_zero": 0.7416,
+    "p_two_sided": 0.5664,
+    "draws": 10000
+   },
+   "olmo3-7b": {
+    "low": -0.18220495533105116,
+    "high": 0.05597353578641442,
+    "share_at_or_below_zero": 0.8542,
+    "p_two_sided": 0.3314,
+    "draws": 10000
+   },
+   "olmo31-32b": {
+    "low": -0.1801275557806627,
+    "high": 0.08397199891913798,
+    "share_at_or_below_zero": 0.8058,
+    "p_two_sided": 0.4402,
+    "draws": 10000
+   },
+   "phi4": {
+    "low": -0.12658227848101267,
+    "high": 0.08721027782113312,
+    "share_at_or_below_zero": 0.7014,
+    "p_two_sided": 0.6752,
+    "draws": 10000
+   },
+   "qwen3-30b": {
+    "low": -0.23936357506742584,
+    "high": -0.020833333333333332,
+    "share_at_or_below_zero": 0.9923,
+    "p_two_sided": 0.0222,
+    "draws": 10000
+   },
+   "qwen3-32b": {
+    "low": -0.1944475867269985,
+    "high": 0.06145466265577994,
+    "share_at_or_below_zero": 0.8757,
+    "p_two_sided": 0.2864,
+    "draws": 10000
+   },
+   "qwen32b": {
+    "low": -0.18455890998882946,
+    "high": 0.0407006407214048,
+    "share_at_or_below_zero": 0.9034,
+    "p_two_sided": 0.228,
+    "draws": 10000
+   },
+   "qwen35-0.8b": {
+    "low": -0.22558983666061702,
+    "high": 0.021058230683090623,
+    "share_at_or_below_zero": 0.9503,
+    "p_two_sided": 0.1182,
+    "draws": 10000
+   },
+   "qwen35-122b-fp8": {
+    "low": -0.25466074675861416,
+    "high": -0.025637755102040864,
+    "share_at_or_below_zero": 0.9927,
+    "p_two_sided": 0.0196,
+    "draws": 10000
+   },
+   "qwen35-27b": {
+    "low": -0.1868698668932314,
+    "high": 0.02531645569620253,
+    "share_at_or_below_zero": 0.9424,
+    "p_two_sided": 0.1588,
+    "draws": 10000
+   },
+   "qwen35-2b": {
+    "low": -0.2,
+    "high": 0.1338623264875395,
+    "share_at_or_below_zero": 0.6762,
+    "p_two_sided": 0.698,
+    "draws": 10000
+   },
+   "qwen35-35b": {
+    "low": -0.168921298058622,
+    "high": 0.09090909090909091,
+    "share_at_or_below_zero": 0.7737,
+    "p_two_sided": 0.5128,
+    "draws": 10000
+   },
+   "qwen35-4b": {
+    "low": -0.1978762705637425,
+    "high": 0.1393939393939394,
+    "share_at_or_below_zero": 0.629,
+    "p_two_sided": 0.7976,
+    "draws": 10000
+   },
+   "qwen35-9b": {
+    "low": -0.16363636363636364,
+    "high": 0.09359990763546792,
+    "share_at_or_below_zero": 0.7535,
+    "p_two_sided": 0.5444,
+    "draws": 10000
+   },
+   "qwen36-27b": {
+    "low": -0.19403347340965077,
+    "high": 0.10112359550561797,
+    "share_at_or_below_zero": 0.7814,
+    "p_two_sided": 0.4856,
+    "draws": 10000
+   },
+   "qwen38-27b": {
+    "low": -0.17045788770053474,
+    "high": 0.09467611336032386,
+    "share_at_or_below_zero": 0.7152,
+    "p_two_sided": 0.6178,
+    "draws": 10000
+   },
+   "qwen7b": {
+    "low": -0.18,
+    "high": 0.02105541631857417,
+    "share_at_or_below_zero": 0.9447,
+    "p_two_sided": 0.1402,
+    "draws": 10000
+   }
+  }
+ },
+ "penalty, crowd-written and author-written requests": {
+  "pooled": 0.08274041748789354,
+  "per_model": {
+   "claude-fable-5-1": 0.23972602739726026,
+   "claude-haiku-5-5": 0.08904109589041095,
+   "claude-opus-5-5": 0.136986301369863,
+   "claude-sonnet-5-5": 0.08904109589041095,
+   "gpt-6.1-sol": 0.136986301369863,
+   "gpt-6.2-sol": 0.1095890410958904,
+   "ernie45-21b": 0.03424657534246575,
+   "gemma3-27b": 0.04964539007092199,
+   "gemma31b": 0.043478260869565216,
+   "gemma4-12b": 0.09022556390977443,
+   "gemma4-26b": 0.14754098360655737,
+   "glm47-flash": 0.006944444444444444,
+   "gptoss120b": 0.15492957746478872,
+   "gptoss20b": 0.1347517730496454,
+   "granite41-30b": 0.0763888888888889,
+   "granite42-30b": 0.09929078014184398,
+   "llama3b": 0.08904109589041095,
+   "llama8b": 0.00684931506849315,
+   "marin8b": -0.014598540145985401,
+   "ministral3-14b": 0.0,
+   "nemotron3-nano30b": 0.08333333333333333,
+   "olmo3-7b": 0.02054794520547945,
+   "olmo31-32b": 0.0,
+   "phi4": 0.11347517730496454,
+   "qwen3-30b": 0.09090909090909091,
+   "qwen3-32b": 0.13533834586466165,
+   "qwen32b": 0.08571428571428572,
+   "qwen35-0.8b": 0.07586206896551724,
+   "qwen35-122b-fp8": 0.12686567164179105,
+   "qwen35-27b": 0.12096774193548387,
+   "qwen35-2b": 0.08333333333333333,
+   "qwen35-35b": 0.14173228346456693,
+   "qwen35-4b": -0.022556390977443608,
+   "qwen35-9b": 0.027972027972027972,
+   "qwen36-27b": 0.1276595744680851,
+   "qwen38-27b": 0.0410958904109589,
+   "qwen7b": 0.08904109589041095
+  },
+  "n_pairs_per_model": {
+   "claude-fable-5-1": 146,
+   "claude-haiku-5-5": 146,
+   "claude-opus-5-5": 146,
+   "claude-sonnet-5-5": 146,
+   "gpt-6.1-sol": 146,
+   "gpt-6.2-sol": 146,
+   "ernie45-21b": 146,
+   "gemma3-27b": 141,
+   "gemma31b": 138,
+   "gemma4-12b": 133,
+   "gemma4-26b": 122,
+   "glm47-flash": 144,
+   "gptoss120b": 142,
+   "gptoss20b": 141,
+   "granite41-30b": 144,
+   "granite42-30b": 141,
+   "llama3b": 146,
+   "llama8b": 146,
+   "marin8b": 137,
+   "ministral3-14b": 141,
+   "nemotron3-nano30b": 144,
+   "olmo3-7b": 146,
+   "olmo31-32b": 141,
+   "phi4": 141,
+   "qwen3-30b": 143,
+   "qwen3-32b": 133,
+   "qwen32b": 140,
+   "qwen35-0.8b": 145,
+   "qwen35-122b-fp8": 134,
+   "qwen35-27b": 124,
+   "qwen35-2b": 144,
+   "qwen35-35b": 127,
+   "qwen35-4b": 133,
+   "qwen35-9b": 143,
+   "qwen36-27b": 141,
+   "qwen38-27b": 146,
+   "qwen7b": 146
+  },
+  "interval": {
+   "low": 0.03667761145549364,
+   "high": 0.13021915464316666,
+   "share_at_or_below_zero": 0.0005,
+   "p_two_sided": 0.001,
+   "draws": 10000
+  },
+  "per_model_interval": {
+   "claude-fable-5-1": {
+    "low": 0.10869254658385093,
+    "high": 0.391304347826087,
+    "share_at_or_below_zero": 0.0,
+    "p_two_sided": 0.0,
+    "draws": 10000
+   },
+   "claude-haiku-5-5": {
+    "low": 0.0198642819797839,
+    "high": 0.18493784880771172,
+    "share_at_or_below_zero": 0.0027,
+    "p_two_sided": 0.0054,
+    "draws": 10000
+   },
+   "claude-opus-5-5": {
+    "low": 0.029937885423183486,
+    "high": 0.2792207792207792,
+    "share_at_or_below_zero": 0.0026,
+    "p_two_sided": 0.0052,
+    "draws": 10000
+   },
+   "claude-sonnet-5-5": {
+    "low": 0.01562197189922481,
+    "high": 0.1891943079443079,
+    "share_at_or_below_zero": 0.0057,
+    "p_two_sided": 0.0114,
+    "draws": 10000
+   },
+   "gpt-6.1-sol": {
+    "low": 0.023436357821637426,
+    "high": 0.2924006444683136,
+    "share_at_or_below_zero": 0.0063,
+    "p_two_sided": 0.0126,
+    "draws": 10000
+   },
+   "gpt-6.2-sol": {
+    "low": 0.014925373134328358,
+    "high": 0.23872019635343603,
+    "share_at_or_below_zero": 0.0098,
+    "p_two_sided": 0.0196,
+    "draws": 10000
+   },
+   "ernie45-21b": {
+    "low": -0.06569343065693431,
+    "high": 0.13889348785871958,
+    "share_at_or_below_zero": 0.2621,
+    "p_two_sided": 0.5242,
+    "draws": 10000
+   },
+   "gemma3-27b": {
+    "low": -0.048001923076923074,
+    "high": 0.16823947080956403,
+    "share_at_or_below_zero": 0.1868,
+    "p_two_sided": 0.3736,
+    "draws": 10000
+   },
+   "gemma31b": {
+    "low": -0.016670168067226886,
+    "high": 0.12371590183377423,
+    "share_at_or_below_zero": 0.1108,
+    "p_two_sided": 0.2216,
+    "draws": 10000
+   },
+   "gemma4-12b": {
+    "low": 0.0075743335611756675,
+    "high": 0.1889763779527559,
+    "share_at_or_below_zero": 0.0202,
+    "p_two_sided": 0.0404,
+    "draws": 10000
+   },
+   "gemma4-26b": {
+    "low": 0.027522935779816515,
+    "high": 0.30578512396694213,
+    "share_at_or_below_zero": 0.0064,
+    "p_two_sided": 0.0128,
+    "draws": 10000
+   },
+   "glm47-flash": {
+    "low": -0.14493338008415146,
+    "high": 0.15441744996967852,
+    "share_at_or_below_zero": 0.4881,
+    "p_two_sided": 0.9762,
+    "draws": 10000
+   },
+   "gptoss120b": {
+    "low": 0.0072992700729927005,
+    "high": 0.3149694970561111,
+    "share_at_or_below_zero": 0.0221,
+    "p_two_sided": 0.0442,
+    "draws": 10000
+   },
+   "gptoss20b": {
+    "low": 0.02796717171717172,
+    "high": 0.2597467532467531,
+    "share_at_or_below_zero": 0.0061,
+    "p_two_sided": 0.0122,
+    "draws": 10000
+   },
+   "granite41-30b": {
+    "low": -0.04,
+    "high": 0.20279973649538863,
+    "share_at_or_below_zero": 0.112,
+    "p_two_sided": 0.224,
+    "draws": 10000
+   },
+   "granite42-30b": {
+    "low": -0.047344322344322336,
+    "high": 0.2443272485493229,
+    "share_at_or_below_zero": 0.1005,
+    "p_two_sided": 0.201,
+    "draws": 10000
+   },
+   "llama3b": {
+    "low": -0.01639569446946496,
+    "high": 0.20606176266481607,
+    "share_at_or_below_zero": 0.0507,
+    "p_two_sided": 0.1014,
+    "draws": 10000
+   },
+   "llama8b": {
+    "low": -0.08,
+    "high": 0.09352517985611511,
+    "share_at_or_below_zero": 0.4548,
+    "p_two_sided": 0.9096,
+    "draws": 10000
+   },
+   "marin8b": {
+    "low": -0.20625248015873016,
+    "high": 0.17179021813224252,
+    "share_at_or_below_zero": 0.5775,
+    "p_two_sided": 0.907,
+    "draws": 10000
+   },
+   "ministral3-14b": {
+    "low": -0.15603390957446808,
+    "high": 0.16049933862433854,
+    "share_at_or_below_zero": 0.5385,
+    "p_two_sided": 0.994,
+    "draws": 10000
+   },
+   "nemotron3-nano30b": {
+    "low": -0.08870967741935484,
+    "high": 0.26471702317290535,
+    "share_at_or_below_zero": 0.1751,
+    "p_two_sided": 0.3502,
+    "draws": 10000
+   },
+   "olmo3-7b": {
+    "low": -0.09154929577464789,
+    "high": 0.13286823935558112,
+    "share_at_or_below_zero": 0.3775,
+    "p_two_sided": 0.755,
+    "draws": 10000
+   },
+   "olmo31-32b": {
+    "low": -0.136379202988792,
+    "high": 0.13953488372093023,
+    "share_at_or_below_zero": 0.5251,
+    "p_two_sided": 1.0,
+    "draws": 10000
+   },
+   "phi4": {
+    "low": 0.013788411916490738,
+    "high": 0.23377314175186506,
+    "share_at_or_below_zero": 0.0147,
+    "p_two_sided": 0.0294,
+    "draws": 10000
+   },
+   "qwen3-30b": {
+    "low": 0.006368418930903815,
+    "high": 0.20161459745188395,
+    "share_at_or_below_zero": 0.0233,
+    "p_two_sided": 0.0466,
+    "draws": 10000
+   },
+   "qwen3-32b": {
+    "low": 0.021889933308827398,
+    "high": 0.2585034013605442,
+    "share_at_or_below_zero": 0.0129,
+    "p_two_sided": 0.0258,
+    "draws": 10000
+   },
+   "qwen32b": {
+    "low": -0.014928178655594206,
+    "high": 0.1960815338793745,
+    "share_at_or_below_zero": 0.0491,
+    "p_two_sided": 0.0982,
+    "draws": 10000
+   },
+   "qwen35-0.8b": {
+    "low": -0.12792899929527835,
+    "high": 0.25641891891891877,
+    "share_at_or_below_zero": 0.2181,
+    "p_two_sided": 0.4362,
+    "draws": 10000
+   },
+   "qwen35-122b-fp8": {
+    "low": 0.0,
+    "high": 0.2631578947368421,
+    "share_at_or_below_zero": 0.0256,
+    "p_two_sided": 0.0512,
+    "draws": 10000
+   },
+   "qwen35-27b": {
+    "low": 0.018687262028383528,
+    "high": 0.25,
+    "share_at_or_below_zero": 0.0129,
+    "p_two_sided": 0.0258,
+    "draws": 10000
+   },
+   "qwen35-2b": {
+    "low": -0.08695652173913043,
+    "high": 0.25,
+    "share_at_or_below_zero": 0.1784,
+    "p_two_sided": 0.3568,
+    "draws": 10000
+   },
+   "qwen35-35b": {
+    "low": -0.04285714285714286,
+    "high": 0.3142857142857143,
+    "share_at_or_below_zero": 0.0656,
+    "p_two_sided": 0.1312,
+    "draws": 10000
+   },
+   "qwen35-4b": {
+    "low": -0.22581197525408747,
+    "high": 0.1724137931034483,
+    "share_at_or_below_zero": 0.6042,
+    "p_two_sided": 0.8528,
+    "draws": 10000
+   },
+   "qwen35-9b": {
+    "low": -0.14035087719298245,
+    "high": 0.18367622724765578,
+    "share_at_or_below_zero": 0.375,
+    "p_two_sided": 0.75,
+    "draws": 10000
+   },
+   "qwen36-27b": {
+    "low": -0.014928178655594206,
+    "high": 0.29677671370967734,
+    "share_at_or_below_zero": 0.0465,
+    "p_two_sided": 0.093,
+    "draws": 10000
+   },
+   "qwen38-27b": {
+    "low": -0.10606272219400711,
+    "high": 0.19708029197080293,
+    "share_at_or_below_zero": 0.3066,
+    "p_two_sided": 0.6132,
+    "draws": 10000
+   },
+   "qwen7b": {
+    "low": -0.030130828658144017,
+    "high": 0.20394736842105263,
+    "share_at_or_below_zero": 0.0712,
+    "p_two_sided": 0.1424,
+    "draws": 10000
+   }
+  }
+ },
+ "penalty, chat-log requests, without the pairs where the needs coder names another product": {
+  "pooled": 0.08848627300416625,
+  "per_model": {
+   "claude-fable-5-1": 0.3961352657004831,
+   "claude-haiku-5-5": 0.0970873786407767,
+   "claude-opus-5-5": 0.20772946859903382,
+   "claude-sonnet-5-5": 0.12560386473429952,
+   "gpt-6.1-sol": 0.16908212560386474,
+   "gpt-6.2-sol": 0.15942028985507245,
+   "ernie45-21b": 0.004830917874396135,
+   "gemma3-27b": 0.03626943005181347,
+   "gemma31b": 0.07614213197969544,
+   "gemma4-12b": 0.047619047619047616,
+   "gemma4-26b": 0.13020833333333334,
+   "glm47-flash": 0.05641025641025641,
+   "gptoss120b": 0.1188118811881188,
+   "gptoss20b": 0.15104166666666666,
+   "granite41-30b": 0.10891089108910891,
+   "granite42-30b": 0.052083333333333336,
+   "llama3b": 0.057971014492753624,
+   "llama8b": 0.004830917874396135,
+   "marin8b": 0.02127659574468085,
+   "ministral3-14b": 0.05789473684210526,
+   "nemotron3-nano30b": -0.05365853658536585,
+   "olmo3-7b": 0.02926829268292683,
+   "olmo31-32b": 0.005235602094240838,
+   "phi4": 0.042328042328042326,
+   "qwen3-30b": 0.07389162561576355,
+   "qwen3-32b": 0.0782122905027933,
+   "qwen32b": 0.0594059405940594,
+   "qwen35-0.8b": 0.1497584541062802,
+   "qwen35-122b-fp8": 0.14285714285714285,
+   "qwen35-27b": 0.145985401459854,
+   "qwen35-2b": 0.12121212121212122,
+   "qwen35-35b": 0.13333333333333333,
+   "qwen35-4b": 0.01775147928994083,
+   "qwen35-9b": 0.04060913705583756,
+   "qwen36-27b": 0.13114754098360656,
+   "qwen38-27b": 0.057971014492753624,
+   "qwen7b": 0.01932367149758454
+  },
+  "n_pairs_per_model": {
+   "claude-fable-5-1": 207,
+   "claude-haiku-5-5": 206,
+   "claude-opus-5-5": 207,
+   "claude-sonnet-5-5": 207,
+   "gpt-6.1-sol": 207,
+   "gpt-6.2-sol": 207,
+   "ernie45-21b": 207,
+   "gemma3-27b": 193,
+   "gemma31b": 197,
+   "gemma4-12b": 189,
+   "gemma4-26b": 192,
+   "glm47-flash": 195,
+   "gptoss120b": 202,
+   "gptoss20b": 192,
+   "granite41-30b": 202,
+   "granite42-30b": 192,
+   "llama3b": 207,
+   "llama8b": 207,
+   "marin8b": 188,
+   "ministral3-14b": 190,
+   "nemotron3-nano30b": 205,
+   "olmo3-7b": 205,
+   "olmo31-32b": 191,
+   "phi4": 189,
+   "qwen3-30b": 203,
+   "qwen3-32b": 179,
+   "qwen32b": 202,
+   "qwen35-0.8b": 207,
+   "qwen35-122b-fp8": 182,
+   "qwen35-27b": 137,
+   "qwen35-2b": 198,
+   "qwen35-35b": 180,
+   "qwen35-4b": 169,
+   "qwen35-9b": 197,
+   "qwen36-27b": 183,
+   "qwen38-27b": 207,
+   "qwen7b": 207
+  },
+  "interval": {
+   "low": 0.04569199654519306,
+   "high": 0.12887871420620559,
+   "share_at_or_below_zero": 0.0001,
+   "p_two_sided": 0.0002,
+   "draws": 10000
+  },
+  "per_model_interval": {
+   "claude-fable-5-1": {
+    "low": 0.22631265664160402,
+    "high": 0.5462194128752822,
+    "share_at_or_below_zero": 0.0,
+    "p_two_sided": 0.0,
+    "draws": 10000
+   },
+   "claude-haiku-5-5": {
+    "low": 0.016129032258064516,
+    "high": 0.18421052631578946,
+    "share_at_or_below_zero": 0.01,
+    "p_two_sided": 0.02,
+    "draws": 10000
+   },
+   "claude-opus-5-5": {
+    "low": 0.10499845679012346,
+    "high": 0.32515810152113617,
+    "share_at_or_below_zero": 0.0001,
+    "p_two_sided": 0.0002,
+    "draws": 10000
+   },
+   "claude-sonnet-5-5": {
+    "low": 0.041666666666666664,
+    "high": 0.225641592920354,
+    "share_at_or_below_zero": 0.0018,
+    "p_two_sided": 0.0036,
+    "draws": 10000
+   },
+   "gpt-6.1-sol": {
+    "low": 0.06789861895794098,
+    "high": 0.28090119788281176,
+    "share_at_or_below_zero": 0.0006,
+    "p_two_sided": 0.0012,
+    "draws": 10000
+   },
+   "gpt-6.2-sol": {
+    "low": 0.04929577464788732,
+    "high": 0.2727272727272727,
+    "share_at_or_below_zero": 0.0019,
+    "p_two_sided": 0.0038,
+    "draws": 10000
+   },
+   "ernie45-21b": {
+    "low": -0.0775201708590413,
+    "high": 0.08462550607287435,
+    "share_at_or_below_zero": 0.4675,
+    "p_two_sided": 0.935,
+    "draws": 10000
+   },
+   "gemma3-27b": {
+    "low": -0.046788531732014596,
+    "high": 0.12149661795838279,
+    "share_at_or_below_zero": 0.2103,
+    "p_two_sided": 0.4206,
+    "draws": 10000
+   },
+   "gemma31b": {
+    "low": 0.012819148936170213,
+    "high": 0.16234898822108107,
+    "share_at_or_below_zero": 0.0108,
+    "p_two_sided": 0.0216,
+    "draws": 10000
+   },
+   "gemma4-12b": {
+    "low": -0.03144866564677885,
+    "high": 0.13524710703953713,
+    "share_at_or_below_zero": 0.1331,
+    "p_two_sided": 0.2662,
+    "draws": 10000
+   },
+   "gemma4-26b": {
+    "low": 0.03267669858641131,
+    "high": 0.23357834777269934,
+    "share_at_or_below_zero": 0.0071,
+    "p_two_sided": 0.0142,
+    "draws": 10000
+   },
+   "glm47-flash": {
+    "low": -0.0822079922185296,
+    "high": 0.20863309352517986,
+    "share_at_or_below_zero": 0.2234,
+    "p_two_sided": 0.4468,
+    "draws": 10000
+   },
+   "gptoss120b": {
+    "low": 0.0,
+    "high": 0.23049042036030873,
+    "share_at_or_below_zero": 0.0316,
+    "p_two_sided": 0.0632,
+    "draws": 10000
+   },
+   "gptoss20b": {
+    "low": 0.047619047619047616,
+    "high": 0.25698436202912206,
+    "share_at_or_below_zero": 0.0034,
+    "p_two_sided": 0.0068,
+    "draws": 10000
+   },
+   "granite41-30b": {
+    "low": 0.0,
+    "high": 0.21578947368421053,
+    "share_at_or_below_zero": 0.0253,
+    "p_two_sided": 0.0506,
+    "draws": 10000
+   },
+   "granite42-30b": {
+    "low": -0.044587409008189256,
+    "high": 0.15333663366336628,
+    "share_at_or_below_zero": 0.1622,
+    "p_two_sided": 0.3244,
+    "draws": 10000
+   },
+   "llama3b": {
+    "low": -0.04477916539750228,
+    "high": 0.1631578947368421,
+    "share_at_or_below_zero": 0.1436,
+    "p_two_sided": 0.2872,
+    "draws": 10000
+   },
+   "llama8b": {
+    "low": -0.08163586189192658,
+    "high": 0.09660695739951661,
+    "share_at_or_below_zero": 0.4895,
+    "p_two_sided": 0.979,
+    "draws": 10000
+   },
+   "marin8b": {
+    "low": -0.125,
+    "high": 0.15544041450777202,
+    "share_at_or_below_zero": 0.3892,
+    "p_two_sided": 0.7784,
+    "draws": 10000
+   },
+   "ministral3-14b": {
+    "low": -0.07344840478564307,
+    "high": 0.18563283269526515,
+    "share_at_or_below_zero": 0.2007,
+    "p_two_sided": 0.4014,
+    "draws": 10000
+   },
+   "nemotron3-nano30b": {
+    "low": -0.22619264859228363,
+    "high": 0.10494639376218311,
+    "share_at_or_below_zero": 0.7616,
+    "p_two_sided": 0.5156,
+    "draws": 10000
+   },
+   "olmo3-7b": {
+    "low": -0.08482589285714286,
+    "high": 0.14674198084524168,
+    "share_at_or_below_zero": 0.3199,
+    "p_two_sided": 0.6398,
+    "draws": 10000
+   },
+   "olmo31-32b": {
+    "low": -0.11728395061728394,
+    "high": 0.12179487179487179,
+    "share_at_or_below_zero": 0.4958,
+    "p_two_sided": 0.9916,
+    "draws": 10000
+   },
+   "phi4": {
+    "low": -0.058395345530382024,
+    "high": 0.13198053307868857,
+    "share_at_or_below_zero": 0.2094,
+    "p_two_sided": 0.4188,
+    "draws": 10000
+   },
+   "qwen3-30b": {
+    "low": -0.007763900851756138,
+    "high": 0.1634630503144654,
+    "share_at_or_below_zero": 0.0453,
+    "p_two_sided": 0.0906,
+    "draws": 10000
+   },
+   "qwen3-32b": {
+    "low": -0.022604674560792504,
+    "high": 0.17544287548138632,
+    "share_at_or_below_zero": 0.0665,
+    "p_two_sided": 0.133,
+    "draws": 10000
+   },
+   "qwen32b": {
+    "low": -0.018867924528301886,
+    "high": 0.1417644900953778,
+    "share_at_or_below_zero": 0.0764,
+    "p_two_sided": 0.1528,
+    "draws": 10000
+   },
+   "qwen35-0.8b": {
+    "low": -0.026822071027266636,
+    "high": 0.3179256437204413,
+    "share_at_or_below_zero": 0.047,
+    "p_two_sided": 0.094,
+    "draws": 10000
+   },
+   "qwen35-122b-fp8": {
+    "low": 0.04326774691358025,
+    "high": 0.25,
+    "share_at_or_below_zero": 0.0037,
+    "p_two_sided": 0.0074,
+    "draws": 10000
+   },
+   "qwen35-27b": {
+    "low": 0.02702702702702703,
+    "high": 0.2663056176351077,
+    "share_at_or_below_zero": 0.0104,
+    "p_two_sided": 0.0208,
+    "draws": 10000
+   },
+   "qwen35-2b": {
+    "low": -0.046676470588235285,
+    "high": 0.2738114194722475,
+    "share_at_or_below_zero": 0.0686,
+    "p_two_sided": 0.1372,
+    "draws": 10000
+   },
+   "qwen35-35b": {
+    "low": -0.05229618163054695,
+    "high": 0.3020852068345323,
+    "share_at_or_below_zero": 0.0745,
+    "p_two_sided": 0.149,
+    "draws": 10000
+   },
+   "qwen35-4b": {
+    "low": -0.15287111659950603,
+    "high": 0.17968969452247188,
+    "share_at_or_below_zero": 0.4192,
+    "p_two_sided": 0.8384,
+    "draws": 10000
+   },
+   "qwen35-9b": {
+    "low": -0.09953791469194312,
+    "high": 0.16923076923076924,
+    "share_at_or_below_zero": 0.2883,
+    "p_two_sided": 0.5766,
+    "draws": 10000
+   },
+   "qwen36-27b": {
+    "low": 0.0,
+    "high": 0.2573585115864527,
+    "share_at_or_below_zero": 0.0255,
+    "p_two_sided": 0.051,
+    "draws": 10000
+   },
+   "qwen38-27b": {
+    "low": -0.0718966003667654,
+    "high": 0.18620858688302905,
+    "share_at_or_below_zero": 0.2054,
+    "p_two_sided": 0.4108,
+    "draws": 10000
+   },
+   "qwen7b": {
+    "low": -0.08695652173913043,
+    "high": 0.11764705882352941,
+    "share_at_or_below_zero": 0.3734,
+    "p_two_sided": 0.7468,
+    "draws": 10000
+   }
+  }
+ },
+ "penalty under chat-log requests minus the author's request on the same model and table (secondary contrast 3)": {
+  "pooled": 0.10640096618357488,
+  "per_model": {
+   "claude-fable-5-1": 0.1322115384615385,
+   "claude-haiku-5-5": -0.01159420289855073,
+   "claude-opus-5-5": 0.18942307692307694,
+   "claude-sonnet-5-5": 0.08269230769230769,
+   "gpt-6.1-sol": 0.10721153846153847,
+   "gpt-6.2-sol": 0.13846153846153847
+  },
+  "n_pairs_per_model": {
+   "claude-fable-5-1": 208,
+   "claude-haiku-5-5": 207,
+   "claude-opus-5-5": 208,
+   "claude-sonnet-5-5": 208,
+   "gpt-6.1-sol": 208,
+   "gpt-6.2-sol": 208
+  },
+  "interval": {
+   "low": -0.0025185296474358894,
+   "high": 0.2153403753121098,
+   "share_at_or_below_zero": 0.0271,
+   "p_two_sided": 0.0542,
+   "draws": 10000
+  },
+  "per_model_interval": {
+   "claude-fable-5-1": {
+    "low": -0.11198392030423276,
+    "high": 0.36507432931038586,
+    "share_at_or_below_zero": 0.1522,
+    "p_two_sided": 0.3044,
+    "draws": 10000
+   },
+   "claude-haiku-5-5": {
+    "low": -0.1506640105453163,
+    "high": 0.10648299584631359,
+    "share_at_or_below_zero": 0.5508,
+    "p_two_sided": 0.8984,
+    "draws": 10000
+   },
+   "claude-opus-5-5": {
+    "low": 0.07272473336719147,
+    "high": 0.3126596912270433,
+    "share_at_or_below_zero": 0.0008,
+    "p_two_sided": 0.0016,
+    "draws": 10000
+   },
+   "claude-sonnet-5-5": {
+    "low": -0.04241274613842709,
+    "high": 0.1978772227361496,
+    "share_at_or_below_zero": 0.0936,
+    "p_two_sided": 0.1872,
+    "draws": 10000
+   },
+   "gpt-6.1-sol": {
+    "low": -0.07461967418546364,
+    "high": 0.253971506635441,
+    "share_at_or_below_zero": 0.1105,
+    "p_two_sided": 0.221,
+    "draws": 10000
+   },
+   "gpt-6.2-sol": {
+    "low": 0.016780303030303038,
+    "high": 0.2570498544109545,
+    "share_at_or_below_zero": 0.0118,
+    "p_two_sided": 0.0236,
+    "draws": 10000
+   }
+  }
+ },
+ "the author's request: Study 1's gap on the tables of the chat-log pairs, each weighted by its pairs": {
+  "pooled": 0.08518286262851482,
+  "per_model": {
+   "claude-fable-5-1": 0.2620192307692309,
+   "claude-haiku-5-5": 0.10821256038647341,
+   "claude-opus-5-5": 0.017307692307692305,
+   "claude-sonnet-5-5": 0.0423076923076923,
+   "gpt-6.1-sol": 0.061057692307692306,
+   "gpt-6.2-sol": 0.020192307692307697
+  },
+  "n_pairs_per_model": {
+   "claude-fable-5-1": 208,
+   "claude-haiku-5-5": 207,
+   "claude-opus-5-5": 208,
+   "claude-sonnet-5-5": 208,
+   "gpt-6.1-sol": 208,
+   "gpt-6.2-sol": 208
+  },
+  "interval": {
+   "low": 0.023856164550187322,
+   "high": 0.1598163188513551,
+   "share_at_or_below_zero": 0.0,
+   "p_two_sided": 0.0,
+   "draws": 10000
+  },
+  "per_model_interval": {
+   "claude-fable-5-1": {
+    "low": 0.08930313421740485,
+    "high": 0.49539196991366086,
+    "share_at_or_below_zero": 0.0,
+    "p_two_sided": 0.0,
+    "draws": 10000
+   },
+   "claude-haiku-5-5": {
+    "low": -0.0013640282131661436,
+    "high": 0.277834433962264,
+    "share_at_or_below_zero": 0.0345,
+    "p_two_sided": 0.069,
+    "draws": 10000
+   },
+   "claude-opus-5-5": {
+    "low": -0.0032520325203252024,
+    "high": 0.06378576239791191,
+    "share_at_or_below_zero": 0.1872,
+    "p_two_sided": 0.3744,
+    "draws": 10000
+   },
+   "claude-sonnet-5-5": {
+    "low": 0.0,
+    "high": 0.13658622466506357,
+    "share_at_or_below_zero": 0.0457,
+    "p_two_sided": 0.0914,
+    "draws": 10000
+   },
+   "gpt-6.1-sol": {
+    "low": 0.0,
+    "high": 0.18551873342175065,
+    "share_at_or_below_zero": 0.0415,
+    "p_two_sided": 0.083,
+    "draws": 10000
+   },
+   "gpt-6.2-sol": {
+    "low": -0.00029428495767906606,
+    "high": 0.05378933566433564,
+    "share_at_or_below_zero": 0.03,
+    "p_two_sided": 0.06,
+    "draws": 10000
+   }
+  }
+ },
+ "share picking the designated product": {
+  "claude-fable-5-1 crossed": [
+   0.8813559322033898,
+   354
+  ],
+  "claude-fable-5-1 hidden": [
+   0.9717514124293786,
+   354
+  ],
+  "claude-fable-5-1 original": [
+   0.6412429378531074,
+   354
+  ],
+  "claude-haiku-5-5 crossed": [
+   0.8983050847457628,
+   354
+  ],
+  "claude-haiku-5-5 hidden": [
+   0.9830508474576272,
+   354
+  ],
+  "claude-haiku-5-5 original": [
+   0.8895184135977338,
+   353
+  ],
+  "claude-opus-5-5 crossed": [
+   0.8615819209039548,
+   354
+  ],
+  "claude-opus-5-5 hidden": [
+   0.9717514124293786,
+   354
+  ],
+  "claude-opus-5-5 original": [
+   0.7937853107344632,
+   354
+  ],
+  "claude-sonnet-5-5 crossed": [
+   0.9067796610169492,
+   354
+  ],
+  "claude-sonnet-5-5 hidden": [
+   0.980225988700565,
+   354
+  ],
+  "claude-sonnet-5-5 original": [
+   0.8700564971751412,
+   354
+  ],
+  "ernie45-21b crossed": [
+   0.6129943502824858,
+   354
+  ],
+  "ernie45-21b hidden": [
+   0.6271186440677966,
+   354
+  ],
+  "ernie45-21b original": [
+   0.6101694915254238,
+   354
+  ],
+  "gemma3-27b crossed": [
+   0.8313609467455622,
+   338
+  ],
+  "gemma3-27b hidden": [
+   0.8260869565217391,
+   345
+  ],
+  "gemma3-27b original": [
+   0.7840236686390533,
+   338
+  ],
+  "gemma31b crossed": [
+   0.9347181008902077,
+   337
+  ],
+  "gemma31b hidden": [
+   0.9622093023255814,
+   344
+  ],
+  "gemma31b original": [
+   0.8991097922848664,
+   337
+  ],
+  "gemma4-12b crossed": [
+   0.8567073170731707,
+   328
+  ],
+  "gemma4-12b hidden": [
+   0.8905775075987842,
+   329
+  ],
+  "gemma4-12b original": [
+   0.8195718654434251,
+   327
+  ],
+  "gemma4-26b crossed": [
+   0.8297213622291022,
+   323
+  ],
+  "gemma4-26b hidden": [
+   0.918918918918919,
+   333
+  ],
+  "gemma4-26b original": [
+   0.7725856697819314,
+   321
+  ],
+  "glm47-flash crossed": [
+   0.36103151862464183,
+   349
+  ],
+  "glm47-flash hidden": [
+   0.3649425287356322,
+   348
+  ],
+  "glm47-flash original": [
+   0.33236994219653176,
+   346
+  ],
+  "gpt-6.1-sol crossed": [
+   0.9067796610169492,
+   354
+  ],
+  "gpt-6.1-sol hidden": [
+   0.9858757062146892,
+   354
+  ],
+  "gpt-6.1-sol original": [
+   0.8305084745762712,
+   354
+  ],
+  "gpt-6.2-sol crossed": [
+   0.8898305084745762,
+   354
+  ],
+  "gpt-6.2-sol hidden": [
+   0.9830508474576272,
+   354
+  ],
+  "gpt-6.2-sol original": [
+   0.844632768361582,
+   354
+  ],
+  "gptoss120b crossed": [
+   0.7196531791907514,
+   346
+  ],
+  "gptoss120b hidden": [
+   0.8443804034582133,
+   347
+  ],
+  "gptoss120b original": [
+   0.7134670487106017,
+   349
+  ],
+  "gptoss20b crossed": [
+   0.7976878612716763,
+   346
+  ],
+  "gptoss20b hidden": [
+   0.8846153846153846,
+   338
+  ],
+  "gptoss20b original": [
+   0.7354651162790697,
+   344
+  ],
+  "granite41-30b crossed": [
+   0.7714285714285715,
+   350
+  ],
+  "granite41-30b hidden": [
+   0.8228571428571428,
+   350
+  ],
+  "granite41-30b original": [
+   0.7277936962750716,
+   349
+  ],
+  "granite42-30b crossed": [
+   0.7420289855072464,
+   345
+  ],
+  "granite42-30b hidden": [
+   0.847953216374269,
+   342
+  ],
+  "granite42-30b original": [
+   0.7935103244837758,
+   339
+  ],
+  "llama3b crossed": [
+   0.2542372881355932,
+   354
+  ],
+  "llama3b hidden": [
+   0.3107344632768362,
+   354
+  ],
+  "llama3b original": [
+   0.2401129943502825,
+   354
+  ],
+  "llama8b crossed": [
+   0.22662889518413598,
+   353
+  ],
+  "llama8b hidden": [
+   0.24858757062146894,
+   354
+  ],
+  "llama8b original": [
+   0.24293785310734464,
+   354
+  ],
+  "marin8b crossed": [
+   0.3042168674698795,
+   332
+  ],
+  "marin8b hidden": [
+   0.33134328358208953,
+   335
+  ],
+  "marin8b original": [
+   0.31976744186046513,
+   344
+  ],
+  "ministral3-14b crossed": [
+   0.6029411764705882,
+   340
+  ],
+  "ministral3-14b hidden": [
+   0.696165191740413,
+   339
+  ],
+  "ministral3-14b original": [
+   0.6646884272997032,
+   337
+  ],
+  "nemotron3-nano30b crossed": [
+   0.38920454545454547,
+   352
+  ],
+  "nemotron3-nano30b hidden": [
+   0.43342776203966005,
+   353
+  ],
+  "nemotron3-nano30b original": [
+   0.4358974358974359,
+   351
+  ],
+  "olmo3-7b crossed": [
+   0.42209631728045327,
+   353
+  ],
+  "olmo3-7b hidden": [
+   0.4702549575070821,
+   353
+  ],
+  "olmo3-7b original": [
+   0.44192634560906513,
+   353
+  ],
+  "olmo31-32b crossed": [
+   0.6491228070175439,
+   342
+  ],
+  "olmo31-32b hidden": [
+   0.7109144542772862,
+   339
+  ],
+  "olmo31-32b original": [
+   0.6932153392330384,
+   339
+  ],
+  "phi4 crossed": [
+   0.7909090909090909,
+   330
+  ],
+  "phi4 hidden": [
+   0.8392857142857143,
+   336
+  ],
+  "phi4 original": [
+   0.764179104477612,
+   335
+  ],
+  "qwen3-30b crossed": [
+   0.6781609195402298,
+   348
+  ],
+  "qwen3-30b hidden": [
+   0.8011363636363636,
+   352
+  ],
+  "qwen3-30b original": [
+   0.723342939481268,
+   347
+  ],
+  "qwen3-32b crossed": [
+   0.7436708860759493,
+   316
+  ],
+  "qwen3-32b hidden": [
+   0.8136645962732919,
+   322
+  ],
+  "qwen3-32b original": [
+   0.7178683385579937,
+   319
+  ],
+  "qwen32b crossed": [
+   0.7988505747126436,
+   348
+  ],
+  "qwen32b hidden": [
+   0.8347578347578347,
+   351
+  ],
+  "qwen32b original": [
+   0.7703488372093024,
+   344
+  ],
+  "qwen35-0.8b crossed": [
+   0.3371104815864023,
+   353
+  ],
+  "qwen35-0.8b hidden": [
+   0.40509915014164305,
+   353
+  ],
+  "qwen35-0.8b original": [
+   0.288135593220339,
+   354
+  ],
+  "qwen35-122b-fp8 crossed": [
+   0.7739938080495357,
+   323
+  ],
+  "qwen35-122b-fp8 hidden": [
+   0.8807339449541285,
+   327
+  ],
+  "qwen35-122b-fp8 original": [
+   0.7492260061919505,
+   323
+  ],
+  "qwen35-27b crossed": [
+   0.8714285714285714,
+   280
+  ],
+  "qwen35-27b hidden": [
+   0.9238754325259516,
+   289
+  ],
+  "qwen35-27b original": [
+   0.7970479704797048,
+   271
+  ],
+  "qwen35-2b crossed": [
+   0.4421965317919075,
+   346
+  ],
+  "qwen35-2b hidden": [
+   0.4670487106017192,
+   349
+  ],
+  "qwen35-2b original": [
+   0.3563218390804598,
+   348
+  ],
+  "qwen35-35b crossed": [
+   0.5572755417956656,
+   323
+  ],
+  "qwen35-35b hidden": [
+   0.5909090909090909,
+   330
+  ],
+  "qwen35-35b original": [
+   0.4658385093167702,
+   322
+  ],
+  "qwen35-4b crossed": [
+   0.4953560371517028,
+   323
+  ],
+  "qwen35-4b hidden": [
+   0.48297213622291024,
+   323
+  ],
+  "qwen35-4b original": [
+   0.4773413897280967,
+   331
+  ],
+  "qwen35-9b crossed": [
+   0.6304985337243402,
+   341
+  ],
+  "qwen35-9b hidden": [
+   0.6426512968299711,
+   347
+  ],
+  "qwen35-9b original": [
+   0.6051873198847262,
+   347
+  ],
+  "qwen36-27b crossed": [
+   0.8140243902439024,
+   328
+  ],
+  "qwen36-27b hidden": [
+   0.8454810495626822,
+   343
+  ],
+  "qwen36-27b original": [
+   0.7090909090909091,
+   330
+  ],
+  "qwen38-27b crossed": [
+   0.7740112994350282,
+   354
+  ],
+  "qwen38-27b hidden": [
+   0.7994350282485876,
+   354
+  ],
+  "qwen38-27b original": [
+   0.751412429378531,
+   354
+  ],
+  "qwen7b crossed": [
+   0.4406779661016949,
+   354
+  ],
+  "qwen7b hidden": [
+   0.5141242937853108,
+   354
+  ],
+  "qwen7b original": [
+   0.4632768361581921,
+   354
+  ]
+ },
+ "penalty by specificity code, chat-log requests": {
+  "0": {
+   "pooled": 0.06592956592956593,
+   "per_model": {
+    "claude-fable-5-1": 0.3181818181818182,
+    "claude-haiku-5-5": 0.0,
+    "claude-opus-5-5": 0.0,
+    "claude-sonnet-5-5": 0.0,
+    "gpt-6.1-sol": 0.0,
+    "gpt-6.2-sol": 0.0,
+    "ernie45-21b": 0.045454545454545456,
+    "gemma3-27b": 0.09090909090909091,
+    "gemma31b": 0.0,
+    "gemma4-12b": 0.0,
+    "gemma4-26b": 0.0,
+    "glm47-flash": 0.0,
+    "gptoss120b": 0.13636363636363635,
+    "gptoss20b": 0.045454545454545456,
+    "granite41-30b": 0.13636363636363635,
+    "granite42-30b": 0.0,
+    "llama3b": 0.22727272727272727,
+    "llama8b": -0.09090909090909091,
+    "marin8b": 0.14285714285714285,
+    "ministral3-14b": 0.0,
+    "nemotron3-nano30b": -0.18181818181818182,
+    "olmo3-7b": 0.045454545454545456,
+    "olmo31-32b": 0.22727272727272727,
+    "phi4": 0.13636363636363635,
+    "qwen3-30b": 0.0,
+    "qwen3-32b": 0.09090909090909091,
+    "qwen32b": 0.0,
+    "qwen35-0.8b": 0.3181818181818182,
+    "qwen35-122b-fp8": 0.0,
+    "qwen35-27b": 0.0,
+    "qwen35-2b": 0.19047619047619047,
+    "qwen35-35b": 0.13636363636363635,
+    "qwen35-4b": 0.3333333333333333,
+    "qwen35-9b": 0.045454545454545456,
+    "qwen36-27b": 0.0,
+    "qwen38-27b": 0.0,
+    "qwen7b": 0.045454545454545456
+   },
+   "n_pairs": 22
+  },
+  "1": {
+   "pooled": 0.0722984184791302,
+   "per_model": {
+    "claude-fable-5-1": 0.38,
+    "claude-haiku-5-5": 0.1,
+    "claude-opus-5-5": 0.14,
+    "claude-sonnet-5-5": 0.0,
+    "gpt-6.1-sol": 0.12,
+    "gpt-6.2-sol": 0.06,
+    "ernie45-21b": -0.08,
+    "gemma3-27b": 0.0,
+    "gemma31b": 0.0,
+    "gemma4-12b": 0.020833333333333332,
+    "gemma4-26b": 0.0,
+    "glm47-flash": -0.0851063829787234,
+    "gptoss120b": 0.12,
+    "gptoss20b": 0.125,
+    "granite41-30b": 0.16,
+    "granite42-30b": -0.02127659574468085,
+    "llama3b": 0.06,
+    "llama8b": -0.02,
+    "marin8b": 0.023255813953488372,
+    "ministral3-14b": -0.0625,
+    "nemotron3-nano30b": 0.1836734693877551,
+    "olmo3-7b": 0.0,
+    "olmo31-32b": 0.0,
+    "phi4": 0.06,
+    "qwen3-30b": 0.06,
+    "qwen3-32b": 0.06521739130434782,
+    "qwen32b": 0.04,
+    "qwen35-0.8b": 0.16,
+    "qwen35-122b-fp8": 0.17391304347826086,
+    "qwen35-27b": 0.14634146341463414,
+    "qwen35-2b": 0.14893617021276595,
+    "qwen35-35b": 0.2708333333333333,
+    "qwen35-4b": -0.021739130434782608,
+    "qwen35-9b": 0.14,
+    "qwen36-27b": 0.1276595744680851,
+    "qwen38-27b": 0.06,
+    "qwen7b": 0.02
+   },
+   "n_pairs": 50
+  },
+  "2": {
+   "pooled": 0.12326733335235586,
+   "per_model": {
+    "claude-fable-5-1": 0.4626865671641791,
+    "claude-haiku-5-5": 0.10606060606060606,
+    "claude-opus-5-5": 0.29850746268656714,
+    "claude-sonnet-5-5": 0.19402985074626866,
+    "gpt-6.1-sol": 0.1791044776119403,
+    "gpt-6.2-sol": 0.208955223880597,
+    "ernie45-21b": 0.029850746268656716,
+    "gemma3-27b": 0.08196721311475409,
+    "gemma31b": 0.1,
+    "gemma4-12b": 0.03389830508474576,
+    "gemma4-26b": 0.26229508196721313,
+    "glm47-flash": 0.06349206349206349,
+    "gptoss120b": 0.15384615384615385,
+    "gptoss20b": 0.0967741935483871,
+    "granite41-30b": 0.18181818181818182,
+    "granite42-30b": 0.14516129032258066,
+    "llama3b": 0.0,
+    "llama8b": 0.0,
+    "marin8b": 0.047619047619047616,
+    "ministral3-14b": 0.0967741935483871,
+    "nemotron3-nano30b": -0.09090909090909091,
+    "olmo3-7b": 0.05970149253731343,
+    "olmo31-32b": 0.0,
+    "phi4": 0.03225806451612903,
+    "qwen3-30b": 0.046875,
+    "qwen3-32b": 0.1,
+    "qwen32b": 0.06153846153846154,
+    "qwen35-0.8b": 0.26865671641791045,
+    "qwen35-122b-fp8": 0.22033898305084745,
+    "qwen35-27b": 0.23076923076923078,
+    "qwen35-2b": 0.12307692307692308,
+    "qwen35-35b": 0.1896551724137931,
+    "qwen35-4b": 0.10909090909090909,
+    "qwen35-9b": 0.078125,
+    "qwen36-27b": 0.2545454545454545,
+    "qwen38-27b": 0.1044776119402985,
+    "qwen7b": 0.029850746268656716
+   },
+   "n_pairs": 67
+  },
+  "3": {
+   "pooled": 0.07130320201297721,
+   "per_model": {
+    "claude-fable-5-1": 0.36231884057971014,
+    "claude-haiku-5-5": 0.11594202898550725,
+    "claude-opus-5-5": 0.2318840579710145,
+    "claude-sonnet-5-5": 0.18840579710144928,
+    "gpt-6.1-sol": 0.2463768115942029,
+    "gpt-6.2-sol": 0.2318840579710145,
+    "ernie45-21b": 0.028985507246376812,
+    "gemma3-27b": 0.0,
+    "gemma31b": 0.13846153846153847,
+    "gemma4-12b": 0.1,
+    "gemma4-26b": 0.15,
+    "glm47-flash": 0.171875,
+    "gptoss120b": 0.07575757575757576,
+    "gptoss20b": 0.26666666666666666,
+    "granite41-30b": -0.015384615384615385,
+    "granite42-30b": 0.03225806451612903,
+    "llama3b": 0.057971014492753624,
+    "llama8b": 0.057971014492753624,
+    "marin8b": -0.04838709677419355,
+    "ministral3-14b": 0.13793103448275862,
+    "nemotron3-nano30b": -0.15942028985507245,
+    "olmo3-7b": 0.028985507246376812,
+    "olmo31-32b": -0.0847457627118644,
+    "phi4": -0.017857142857142856,
+    "qwen3-30b": 0.1323529411764706,
+    "qwen3-32b": 0.058823529411764705,
+    "qwen32b": 0.07575757575757576,
+    "qwen35-0.8b": -0.028985507246376812,
+    "qwen35-122b-fp8": 0.09090909090909091,
+    "qwen35-27b": 0.14285714285714285,
+    "qwen35-2b": 0.07575757575757576,
+    "qwen35-35b": -0.05660377358490566,
+    "qwen35-4b": -0.16666666666666666,
+    "qwen35-9b": -0.08064516129032258,
+    "qwen36-27b": 0.06779661016949153,
+    "qwen38-27b": 0.014492753623188406,
+    "qwen7b": 0.014492753623188406
+   },
+   "n_pairs": 69
+  }
+ },
+ "penalty for specificity codes 2 and 3 minus codes 0 and 1, chat-log requests (secondary contrast 4)": {
+  "pooled": 0.027566734107081534,
+  "codes 2 and 3": 0.09783876912965649,
+  "codes 0 and 1": 0.07027203502257495,
+  "interval": {
+   "low": -0.04236396382675754,
+   "high": 0.09706929738116772,
+   "p_two_sided": 0.3934,
+   "draws": 10000
+  }
+ },
+ "Holm, the secondary family": {
+  "penalty, chat-log requests, claude-fable-5-1 (secondary contrast 1)": {
+   "p_two_sided": 0.0,
+   "holm": 0.0
+  },
+  "penalty, chat-log requests, without the pairs where the needs coder names another product": {
+   "p_two_sided": 0.0002,
+   "holm": 0.008
+  },
+  "penalty, chat-log requests, claude-opus-5-5 (secondary contrast 1)": {
+   "p_two_sided": 0.0006,
+   "holm": 0.023399999999999997
+  },
+  "penalty, chat-log requests, gpt-6.1-sol (secondary contrast 1)": {
+   "p_two_sided": 0.002,
+   "holm": 0.076
+  },
+  "premium, chat-log requests": {
+   "p_two_sided": 0.004,
+   "holm": 0.148
+  },
+  "penalty, chat-log requests, claude-sonnet-5-5 (secondary contrast 1)": {
+   "p_two_sided": 0.004,
+   "holm": 0.148
+  },
+  "penalty, chat-log requests, gpt-6.2-sol (secondary contrast 1)": {
+   "p_two_sided": 0.0042,
+   "holm": 0.148
+  },
+  "penalty, chat-log requests, gptoss20b (secondary contrast 1)": {
+   "p_two_sided": 0.0068,
+   "holm": 0.2312
+  },
+  "penalty, chat-log requests, qwen35-122b-fp8 (secondary contrast 1)": {
+   "p_two_sided": 0.0074,
+   "holm": 0.2442
+  },
+  "penalty, chat-log requests, gemma4-26b (secondary contrast 1)": {
+   "p_two_sided": 0.0132,
+   "holm": 0.4224
+  },
+  "penalty, chat-log requests, claude-haiku-5-5 (secondary contrast 1)": {
+   "p_two_sided": 0.016,
+   "holm": 0.496
+  },
+  "penalty, chat-log requests, qwen35-27b (secondary contrast 1)": {
+   "p_two_sided": 0.0208,
+   "holm": 0.624
+  },
+  "penalty, chat-log requests, gemma31b (secondary contrast 1)": {
+   "p_two_sided": 0.0216,
+   "holm": 0.6264000000000001
+  },
+  "penalty, chat-log requests, qwen36-27b (secondary contrast 1)": {
+   "p_two_sided": 0.051,
+   "holm": 1.0
+  },
+  "penalty, chat-log requests, granite41-30b (secondary contrast 1)": {
+   "p_two_sided": 0.0528,
+   "holm": 1.0
+  },
+  "penalty under chat-log requests minus the author's request on the same model and table (secondary contrast 3)": {
+   "p_two_sided": 0.0542,
+   "holm": 1.0
+  },
+  "penalty, chat-log requests, gptoss120b (secondary contrast 1)": {
+   "p_two_sided": 0.0604,
+   "holm": 1.0
+  },
+  "penalty, chat-log requests, qwen35-0.8b (secondary contrast 1)": {
+   "p_two_sided": 0.09,
+   "holm": 1.0
+  },
+  "penalty, chat-log requests, qwen3-30b (secondary contrast 1)": {
+   "p_two_sided": 0.0932,
+   "holm": 1.0
+  },
+  "penalty, chat-log requests, qwen3-32b (secondary contrast 1)": {
+   "p_two_sided": 0.133,
+   "holm": 1.0
+  },
+  "penalty, chat-log requests, qwen35-2b (secondary contrast 1)": {
+   "p_two_sided": 0.1476,
+   "holm": 1.0
+  },
+  "penalty, chat-log requests, qwen35-35b (secondary contrast 1)": {
+   "p_two_sided": 0.1646,
+   "holm": 1.0
+  },
+  "penalty, chat-log requests, qwen32b (secondary contrast 1)": {
+   "p_two_sided": 0.2176,
+   "holm": 1.0
+  },
+  "penalty, chat-log requests, gemma4-12b (secondary contrast 1)": {
+   "p_two_sided": 0.2662,
+   "holm": 1.0
+  },
+  "penalty, chat-log requests, llama3b (secondary contrast 1)": {
+   "p_two_sided": 0.2808,
+   "holm": 1.0
+  },
+  "penalty, chat-log requests, granite42-30b (secondary contrast 1)": {
+   "p_two_sided": 0.325,
+   "holm": 1.0
+  },
+  "penalty for specificity codes 2 and 3 minus codes 0 and 1, chat-log requests (secondary contrast 4)": {
+   "p_two_sided": 0.3934,
+   "holm": 1.0
+  },
+  "penalty, chat-log requests, ministral3-14b (secondary contrast 1)": {
+   "p_two_sided": 0.4014,
+   "holm": 1.0
+  },
+  "penalty, chat-log requests, gemma3-27b (secondary contrast 1)": {
+   "p_two_sided": 0.4206,
+   "holm": 1.0
+  },
+  "penalty, chat-log requests, glm47-flash (secondary contrast 1)": {
+   "p_two_sided": 0.4372,
+   "holm": 1.0
+  },
+  "penalty, chat-log requests, nemotron3-nano30b (secondary contrast 1)": {
+   "p_two_sided": 0.4654,
+   "holm": 1.0
+  },
+  "penalty, chat-log requests, qwen38-27b (secondary contrast 1)": {
+   "p_two_sided": 0.4788,
+   "holm": 1.0
+  },
+  "penalty, chat-log requests, phi4 (secondary contrast 1)": {
+   "p_two_sided": 0.4846,
+   "holm": 1.0
+  },
+  "penalty, chat-log requests, olmo3-7b (secondary contrast 1)": {
+   "p_two_sided": 0.5718,
+   "holm": 1.0
+  },
+  "penalty, chat-log requests, qwen35-9b (secondary contrast 1)": {
+   "p_two_sided": 0.5846,
+   "holm": 1.0
+  },
+  "penalty, chat-log requests, qwen7b (secondary contrast 1)": {
+   "p_two_sided": 0.6904,
+   "holm": 1.0
+  },
+  "penalty, chat-log requests, marin8b (secondary contrast 1)": {
+   "p_two_sided": 0.792,
+   "holm": 1.0
+  },
+  "penalty, chat-log requests, qwen35-4b (secondary contrast 1)": {
+   "p_two_sided": 0.792,
+   "holm": 1.0
+  },
+  "penalty, chat-log requests, ernie45-21b (secondary contrast 1)": {
+   "p_two_sided": 0.9462,
+   "holm": 1.0
+  },
+  "penalty, chat-log requests, llama8b (secondary contrast 1)": {
+   "p_two_sided": 0.9728,
+   "holm": 1.0
+  },
+  "penalty, chat-log requests, olmo31-32b (secondary contrast 1)": {
+   "p_two_sided": 1.0,
+   "holm": 1.0
+  }
+ },
+ "declines": {
+  "definition": "common/decline.py",
+  "source": {
+   "answers": "14_requests.py --all-models: study1b-64-models-on-34-tables/data/requests/, study1b-64-models-on-34-tables/data/requests-codex/ and study1b-64-models-on-34-tables/data/open-models/requests/",
+   "script": "study1b-64-models-on-34-tables/code/17_requests_declines_and_per_model.py",
+   "arm": "the request's kind (chat-log, crowd-written for a dataset, written by the author)"
+  },
+  "by model": {
+   "claude-fable-5-1": {
+    "answers": 1062,
+    "pick": 1062,
+    "decline": 0,
+    "unread": 0
+   },
+   "claude-haiku-5-5": {
+    "answers": 1062,
+    "pick": 1061,
+    "decline": 0,
+    "unread": 1
+   },
+   "claude-opus-5-5": {
+    "answers": 1062,
+    "pick": 1062,
+    "decline": 0,
+    "unread": 0
+   },
+   "claude-sonnet-5-5": {
+    "answers": 1062,
+    "pick": 1062,
+    "decline": 0,
+    "unread": 0
+   },
+   "ernie45-21b": {
+    "answers": 1062,
+    "pick": 1062,
+    "decline": 0,
+    "unread": 0
+   },
+   "gemma3-27b": {
+    "answers": 1062,
+    "pick": 1021,
+    "decline": 34,
+    "unread": 7
+   },
+   "gemma31b": {
+    "answers": 1062,
+    "pick": 1018,
+    "decline": 43,
+    "unread": 1
+   },
+   "gemma4-12b": {
+    "answers": 1062,
+    "pick": 984,
+    "decline": 77,
+    "unread": 1
+   },
+   "gemma4-26b": {
+    "answers": 1062,
+    "pick": 977,
+    "decline": 62,
+    "unread": 23
+   },
+   "glm47-flash": {
+    "answers": 1062,
+    "pick": 1043,
+    "decline": 11,
+    "unread": 8
+   },
+   "gpt-6-astra": {
+    "answers": 269,
+    "pick": 269,
+    "decline": 0,
+    "unread": 0
+   },
+   "gpt-6.1-sol": {
+    "answers": 1062,
+    "pick": 1062,
+    "decline": 0,
+    "unread": 0
+   },
+   "gpt-6.2-astra": {
+    "answers": 431,
+    "pick": 431,
+    "decline": 0,
+    "unread": 0
+   },
+   "gpt-6.2-sol": {
+    "answers": 1062,
+    "pick": 1062,
+    "decline": 0,
+    "unread": 0
+   },
+   "gptoss120b": {
+    "answers": 1062,
+    "pick": 1042,
+    "decline": 20,
+    "unread": 0
+   },
+   "gptoss20b": {
+    "answers": 1062,
+    "pick": 1028,
+    "decline": 29,
+    "unread": 5
+   },
+   "granite41-30b": {
+    "answers": 1062,
+    "pick": 1049,
+    "decline": 13,
+    "unread": 0
+   },
+   "granite42-30b": {
+    "answers": 1062,
+    "pick": 1026,
+    "decline": 29,
+    "unread": 7
+   },
+   "kimi-linear48b": {
+    "answers": 1062,
+    "pick": 771,
+    "decline": 22,
+    "unread": 269
+   },
+   "llama3b": {
+    "answers": 1062,
+    "pick": 1062,
+    "decline": 0,
+    "unread": 0
+   },
+   "llama8b": {
+    "answers": 1062,
+    "pick": 1061,
+    "decline": 0,
+    "unread": 1
+   },
+   "marin8b": {
+    "answers": 1062,
+    "pick": 1011,
+    "decline": 2,
+    "unread": 49
+   },
+   "ministral3-14b": {
+    "answers": 1062,
+    "pick": 1016,
+    "decline": 33,
+    "unread": 13
+   },
+   "nemotron3-nano30b": {
+    "answers": 1062,
+    "pick": 1056,
+    "decline": 0,
+    "unread": 6
+   },
+   "olmo3-7b": {
+    "answers": 1062,
+    "pick": 1059,
+    "decline": 0,
+    "unread": 3
+   },
+   "olmo31-32b": {
+    "answers": 1062,
+    "pick": 1020,
+    "decline": 32,
+    "unread": 10
+   },
+   "phi4": {
+    "answers": 1062,
+    "pick": 1001,
+    "decline": 49,
+    "unread": 12
+   },
+   "qwen3-30b": {
+    "answers": 1062,
+    "pick": 1047,
+    "decline": 15,
+    "unread": 0
+   },
+   "qwen3-32b": {
+    "answers": 1062,
+    "pick": 957,
+    "decline": 103,
+    "unread": 2
+   },
+   "qwen32b": {
+    "answers": 1062,
+    "pick": 1043,
+    "decline": 17,
+    "unread": 2
+   },
+   "qwen35-0.8b": {
+    "answers": 1062,
+    "pick": 1060,
+    "decline": 0,
+    "unread": 2
+   },
+   "qwen35-122b-fp8": {
+    "answers": 1062,
+    "pick": 973,
+    "decline": 89,
+    "unread": 0
+   },
+   "qwen35-27b": {
+    "answers": 1062,
+    "pick": 840,
+    "decline": 222,
+    "unread": 0
+   },
+   "qwen35-2b": {
+    "answers": 1062,
+    "pick": 1043,
+    "decline": 2,
+    "unread": 17
+   },
+   "qwen35-35b": {
+    "answers": 1062,
+    "pick": 975,
+    "decline": 68,
+    "unread": 19
+   },
+   "qwen35-4b": {
+    "answers": 1062,
+    "pick": 977,
+    "decline": 50,
+    "unread": 35
+   },
+   "qwen35-9b": {
+    "answers": 1062,
+    "pick": 1035,
+    "decline": 25,
+    "unread": 2
+   },
+   "qwen36-27b": {
+    "answers": 1062,
+    "pick": 1001,
+    "decline": 61,
+    "unread": 0
+   },
+   "qwen38-27b": {
+    "answers": 1062,
+    "pick": 1062,
+    "decline": 0,
+    "unread": 0
+   },
+   "qwen7b": {
+    "answers": 1062,
+    "pick": 1062,
+    "decline": 0,
+    "unread": 0
+   }
+  },
+  "share by arm and name version": {
+   "claude-fable-5-1": {
+    "chat-log": {
+     "crossed": {
+      "answers": 208,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 208,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 208,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "crowd-written for a dataset": {
+     "crossed": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "written by the author": {
+     "crossed": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     }
+    }
+   },
+   "claude-haiku-5-5": {
+    "chat-log": {
+     "crossed": {
+      "answers": 208,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 208,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 208,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "crowd-written for a dataset": {
+     "crossed": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "written by the author": {
+     "crossed": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     }
+    }
+   },
+   "claude-opus-5-5": {
+    "chat-log": {
+     "crossed": {
+      "answers": 208,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 208,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 208,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "crowd-written for a dataset": {
+     "crossed": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "written by the author": {
+     "crossed": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     }
+    }
+   },
+   "claude-sonnet-5-5": {
+    "chat-log": {
+     "crossed": {
+      "answers": 208,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 208,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 208,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "crowd-written for a dataset": {
+     "crossed": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "written by the author": {
+     "crossed": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     }
+    }
+   },
+   "ernie45-21b": {
+    "chat-log": {
+     "crossed": {
+      "answers": 208,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 208,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 208,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "crowd-written for a dataset": {
+     "crossed": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "written by the author": {
+     "crossed": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     }
+    }
+   },
+   "gemma3-27b": {
+    "chat-log": {
+     "crossed": {
+      "answers": 208,
+      "declines": 10,
+      "share": 0.048077
+     },
+     "hidden": {
+      "answers": 208,
+      "declines": 7,
+      "share": 0.033654
+     },
+     "original": {
+      "answers": 208,
+      "declines": 12,
+      "share": 0.057692
+     }
+    },
+    "crowd-written for a dataset": {
+     "crossed": {
+      "answers": 69,
+      "declines": 2,
+      "share": 0.028986
+     },
+     "hidden": {
+      "answers": 69,
+      "declines": 1,
+      "share": 0.014493
+     },
+     "original": {
+      "answers": 69,
+      "declines": 2,
+      "share": 0.028986
+     }
+    },
+    "written by the author": {
+     "crossed": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     }
+    }
+   },
+   "gemma31b": {
+    "chat-log": {
+     "crossed": {
+      "answers": 208,
+      "declines": 10,
+      "share": 0.048077
+     },
+     "hidden": {
+      "answers": 208,
+      "declines": 5,
+      "share": 0.024038
+     },
+     "original": {
+      "answers": 208,
+      "declines": 9,
+      "share": 0.043269
+     }
+    },
+    "crowd-written for a dataset": {
+     "crossed": {
+      "answers": 69,
+      "declines": 7,
+      "share": 0.101449
+     },
+     "hidden": {
+      "answers": 69,
+      "declines": 4,
+      "share": 0.057971
+     },
+     "original": {
+      "answers": 69,
+      "declines": 8,
+      "share": 0.115942
+     }
+    },
+    "written by the author": {
+     "crossed": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     }
+    }
+   },
+   "gemma4-12b": {
+    "chat-log": {
+     "crossed": {
+      "answers": 208,
+      "declines": 16,
+      "share": 0.076923
+     },
+     "hidden": {
+      "answers": 208,
+      "declines": 15,
+      "share": 0.072115
+     },
+     "original": {
+      "answers": 208,
+      "declines": 16,
+      "share": 0.076923
+     }
+    },
+    "crowd-written for a dataset": {
+     "crossed": {
+      "answers": 69,
+      "declines": 9,
+      "share": 0.130435
+     },
+     "hidden": {
+      "answers": 69,
+      "declines": 9,
+      "share": 0.130435
+     },
+     "original": {
+      "answers": 69,
+      "declines": 11,
+      "share": 0.15942
+     }
+    },
+    "written by the author": {
+     "crossed": {
+      "answers": 77,
+      "declines": 1,
+      "share": 0.012987
+     },
+     "hidden": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     }
+    }
+   },
+   "gemma4-26b": {
+    "chat-log": {
+     "crossed": {
+      "answers": 208,
+      "declines": 14,
+      "share": 0.067308
+     },
+     "hidden": {
+      "answers": 208,
+      "declines": 7,
+      "share": 0.033654
+     },
+     "original": {
+      "answers": 208,
+      "declines": 9,
+      "share": 0.043269
+     }
+    },
+    "crowd-written for a dataset": {
+     "crossed": {
+      "answers": 69,
+      "declines": 12,
+      "share": 0.173913
+     },
+     "hidden": {
+      "answers": 69,
+      "declines": 6,
+      "share": 0.086957
+     },
+     "original": {
+      "answers": 69,
+      "declines": 12,
+      "share": 0.173913
+     }
+    },
+    "written by the author": {
+     "crossed": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 77,
+      "declines": 1,
+      "share": 0.012987
+     },
+     "original": {
+      "answers": 77,
+      "declines": 1,
+      "share": 0.012987
+     }
+    }
+   },
+   "glm47-flash": {
+    "chat-log": {
+     "crossed": {
+      "answers": 208,
+      "declines": 2,
+      "share": 0.009615
+     },
+     "hidden": {
+      "answers": 208,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 208,
+      "declines": 7,
+      "share": 0.033654
+     }
+    },
+    "crowd-written for a dataset": {
+     "crossed": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 69,
+      "declines": 1,
+      "share": 0.014493
+     },
+     "original": {
+      "answers": 69,
+      "declines": 1,
+      "share": 0.014493
+     }
+    },
+    "written by the author": {
+     "crossed": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     }
+    }
+   },
+   "gpt-6-astra": {
+    "chat-log": {
+     "crossed": {
+      "answers": 36,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 37,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 37,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "crowd-written for a dataset": {
+     "crossed": {
+      "answers": 5,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 5,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 5,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "written by the author": {
+     "crossed": {
+      "answers": 48,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 48,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 48,
+      "declines": 0,
+      "share": 0.0
+     }
+    }
+   },
+   "gpt-6.1-sol": {
+    "chat-log": {
+     "crossed": {
+      "answers": 208,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 208,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 208,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "crowd-written for a dataset": {
+     "crossed": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "written by the author": {
+     "crossed": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     }
+    }
+   },
+   "gpt-6.2-astra": {
+    "chat-log": {
+     "crossed": {
+      "answers": 86,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 86,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 86,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "crowd-written for a dataset": {
+     "crossed": {
+      "answers": 5,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 5,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 5,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "written by the author": {
+     "crossed": {
+      "answers": 52,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 53,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 53,
+      "declines": 0,
+      "share": 0.0
+     }
+    }
+   },
+   "gpt-6.2-sol": {
+    "chat-log": {
+     "crossed": {
+      "answers": 208,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 208,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 208,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "crowd-written for a dataset": {
+     "crossed": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "written by the author": {
+     "crossed": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     }
+    }
+   },
+   "gptoss120b": {
+    "chat-log": {
+     "crossed": {
+      "answers": 208,
+      "declines": 6,
+      "share": 0.028846
+     },
+     "hidden": {
+      "answers": 208,
+      "declines": 3,
+      "share": 0.014423
+     },
+     "original": {
+      "answers": 208,
+      "declines": 2,
+      "share": 0.009615
+     }
+    },
+    "crowd-written for a dataset": {
+     "crossed": {
+      "answers": 69,
+      "declines": 2,
+      "share": 0.028986
+     },
+     "hidden": {
+      "answers": 69,
+      "declines": 4,
+      "share": 0.057971
+     },
+     "original": {
+      "answers": 69,
+      "declines": 3,
+      "share": 0.043478
+     }
+    },
+    "written by the author": {
+     "crossed": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     }
+    }
+   },
+   "gptoss20b": {
+    "chat-log": {
+     "crossed": {
+      "answers": 208,
+      "declines": 6,
+      "share": 0.028846
+     },
+     "hidden": {
+      "answers": 208,
+      "declines": 11,
+      "share": 0.052885
+     },
+     "original": {
+      "answers": 208,
+      "declines": 7,
+      "share": 0.033654
+     }
+    },
+    "crowd-written for a dataset": {
+     "crossed": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 69,
+      "declines": 4,
+      "share": 0.057971
+     },
+     "original": {
+      "answers": 69,
+      "declines": 1,
+      "share": 0.014493
+     }
+    },
+    "written by the author": {
+     "crossed": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     }
+    }
+   },
+   "granite41-30b": {
+    "chat-log": {
+     "crossed": {
+      "answers": 208,
+      "declines": 4,
+      "share": 0.019231
+     },
+     "hidden": {
+      "answers": 208,
+      "declines": 2,
+      "share": 0.009615
+     },
+     "original": {
+      "answers": 208,
+      "declines": 4,
+      "share": 0.019231
+     }
+    },
+    "crowd-written for a dataset": {
+     "crossed": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 69,
+      "declines": 2,
+      "share": 0.028986
+     },
+     "original": {
+      "answers": 69,
+      "declines": 1,
+      "share": 0.014493
+     }
+    },
+    "written by the author": {
+     "crossed": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     }
+    }
+   },
+   "granite42-30b": {
+    "chat-log": {
+     "crossed": {
+      "answers": 208,
+      "declines": 7,
+      "share": 0.033654
+     },
+     "hidden": {
+      "answers": 208,
+      "declines": 6,
+      "share": 0.028846
+     },
+     "original": {
+      "answers": 208,
+      "declines": 8,
+      "share": 0.038462
+     }
+    },
+    "crowd-written for a dataset": {
+     "crossed": {
+      "answers": 69,
+      "declines": 2,
+      "share": 0.028986
+     },
+     "hidden": {
+      "answers": 69,
+      "declines": 3,
+      "share": 0.043478
+     },
+     "original": {
+      "answers": 69,
+      "declines": 3,
+      "share": 0.043478
+     }
+    },
+    "written by the author": {
+     "crossed": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     }
+    }
+   },
+   "kimi-linear48b": {
+    "chat-log": {
+     "crossed": {
+      "answers": 208,
+      "declines": 9,
+      "share": 0.043269
+     },
+     "hidden": {
+      "answers": 208,
+      "declines": 5,
+      "share": 0.024038
+     },
+     "original": {
+      "answers": 208,
+      "declines": 6,
+      "share": 0.028846
+     }
+    },
+    "crowd-written for a dataset": {
+     "crossed": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 69,
+      "declines": 1,
+      "share": 0.014493
+     }
+    },
+    "written by the author": {
+     "crossed": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 77,
+      "declines": 1,
+      "share": 0.012987
+     },
+     "original": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     }
+    }
+   },
+   "llama3b": {
+    "chat-log": {
+     "crossed": {
+      "answers": 208,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 208,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 208,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "crowd-written for a dataset": {
+     "crossed": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "written by the author": {
+     "crossed": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     }
+    }
+   },
+   "llama8b": {
+    "chat-log": {
+     "crossed": {
+      "answers": 208,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 208,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 208,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "crowd-written for a dataset": {
+     "crossed": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "written by the author": {
+     "crossed": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     }
+    }
+   },
+   "marin8b": {
+    "chat-log": {
+     "crossed": {
+      "answers": 208,
+      "declines": 1,
+      "share": 0.004808
+     },
+     "hidden": {
+      "answers": 208,
+      "declines": 1,
+      "share": 0.004808
+     },
+     "original": {
+      "answers": 208,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "crowd-written for a dataset": {
+     "crossed": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "written by the author": {
+     "crossed": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     }
+    }
+   },
+   "ministral3-14b": {
+    "chat-log": {
+     "crossed": {
+      "answers": 208,
+      "declines": 8,
+      "share": 0.038462
+     },
+     "hidden": {
+      "answers": 208,
+      "declines": 9,
+      "share": 0.043269
+     },
+     "original": {
+      "answers": 208,
+      "declines": 11,
+      "share": 0.052885
+     }
+    },
+    "crowd-written for a dataset": {
+     "crossed": {
+      "answers": 69,
+      "declines": 2,
+      "share": 0.028986
+     },
+     "hidden": {
+      "answers": 69,
+      "declines": 2,
+      "share": 0.028986
+     },
+     "original": {
+      "answers": 69,
+      "declines": 1,
+      "share": 0.014493
+     }
+    },
+    "written by the author": {
+     "crossed": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     }
+    }
+   },
+   "nemotron3-nano30b": {
+    "chat-log": {
+     "crossed": {
+      "answers": 208,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 208,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 208,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "crowd-written for a dataset": {
+     "crossed": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "written by the author": {
+     "crossed": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     }
+    }
+   },
+   "olmo3-7b": {
+    "chat-log": {
+     "crossed": {
+      "answers": 208,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 208,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 208,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "crowd-written for a dataset": {
+     "crossed": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "written by the author": {
+     "crossed": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     }
+    }
+   },
+   "olmo31-32b": {
+    "chat-log": {
+     "crossed": {
+      "answers": 208,
+      "declines": 7,
+      "share": 0.033654
+     },
+     "hidden": {
+      "answers": 208,
+      "declines": 8,
+      "share": 0.038462
+     },
+     "original": {
+      "answers": 208,
+      "declines": 9,
+      "share": 0.043269
+     }
+    },
+    "crowd-written for a dataset": {
+     "crossed": {
+      "answers": 69,
+      "declines": 2,
+      "share": 0.028986
+     },
+     "hidden": {
+      "answers": 69,
+      "declines": 4,
+      "share": 0.057971
+     },
+     "original": {
+      "answers": 69,
+      "declines": 1,
+      "share": 0.014493
+     }
+    },
+    "written by the author": {
+     "crossed": {
+      "answers": 77,
+      "declines": 1,
+      "share": 0.012987
+     },
+     "hidden": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     }
+    }
+   },
+   "phi4": {
+    "chat-log": {
+     "crossed": {
+      "answers": 208,
+      "declines": 16,
+      "share": 0.076923
+     },
+     "hidden": {
+      "answers": 208,
+      "declines": 14,
+      "share": 0.067308
+     },
+     "original": {
+      "answers": 208,
+      "declines": 13,
+      "share": 0.0625
+     }
+    },
+    "crowd-written for a dataset": {
+     "crossed": {
+      "answers": 69,
+      "declines": 4,
+      "share": 0.057971
+     },
+     "hidden": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 69,
+      "declines": 2,
+      "share": 0.028986
+     }
+    },
+    "written by the author": {
+     "crossed": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     }
+    }
+   },
+   "qwen3-30b": {
+    "chat-log": {
+     "crossed": {
+      "answers": 208,
+      "declines": 5,
+      "share": 0.024038
+     },
+     "hidden": {
+      "answers": 208,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 208,
+      "declines": 4,
+      "share": 0.019231
+     }
+    },
+    "crowd-written for a dataset": {
+     "crossed": {
+      "answers": 69,
+      "declines": 1,
+      "share": 0.014493
+     },
+     "hidden": {
+      "answers": 69,
+      "declines": 2,
+      "share": 0.028986
+     },
+     "original": {
+      "answers": 69,
+      "declines": 3,
+      "share": 0.043478
+     }
+    },
+    "written by the author": {
+     "crossed": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     }
+    }
+   },
+   "qwen3-32b": {
+    "chat-log": {
+     "crossed": {
+      "answers": 208,
+      "declines": 28,
+      "share": 0.134615
+     },
+     "hidden": {
+      "answers": 208,
+      "declines": 23,
+      "share": 0.110577
+     },
+     "original": {
+      "answers": 208,
+      "declines": 23,
+      "share": 0.110577
+     }
+    },
+    "crowd-written for a dataset": {
+     "crossed": {
+      "answers": 69,
+      "declines": 9,
+      "share": 0.130435
+     },
+     "hidden": {
+      "answers": 69,
+      "declines": 8,
+      "share": 0.115942
+     },
+     "original": {
+      "answers": 69,
+      "declines": 10,
+      "share": 0.144928
+     }
+    },
+    "written by the author": {
+     "crossed": {
+      "answers": 77,
+      "declines": 1,
+      "share": 0.012987
+     },
+     "hidden": {
+      "answers": 77,
+      "declines": 1,
+      "share": 0.012987
+     },
+     "original": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     }
+    }
+   },
+   "qwen32b": {
+    "chat-log": {
+     "crossed": {
+      "answers": 208,
+      "declines": 2,
+      "share": 0.009615
+     },
+     "hidden": {
+      "answers": 208,
+      "declines": 1,
+      "share": 0.004808
+     },
+     "original": {
+      "answers": 208,
+      "declines": 3,
+      "share": 0.014423
+     }
+    },
+    "crowd-written for a dataset": {
+     "crossed": {
+      "answers": 69,
+      "declines": 4,
+      "share": 0.057971
+     },
+     "hidden": {
+      "answers": 69,
+      "declines": 2,
+      "share": 0.028986
+     },
+     "original": {
+      "answers": 69,
+      "declines": 5,
+      "share": 0.072464
+     }
+    },
+    "written by the author": {
+     "crossed": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     }
+    }
+   },
+   "qwen35-0.8b": {
+    "chat-log": {
+     "crossed": {
+      "answers": 208,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 208,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 208,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "crowd-written for a dataset": {
+     "crossed": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "written by the author": {
+     "crossed": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     }
+    }
+   },
+   "qwen35-122b-fp8": {
+    "chat-log": {
+     "crossed": {
+      "answers": 208,
+      "declines": 24,
+      "share": 0.115385
+     },
+     "hidden": {
+      "answers": 208,
+      "declines": 18,
+      "share": 0.086538
+     },
+     "original": {
+      "answers": 208,
+      "declines": 22,
+      "share": 0.105769
+     }
+    },
+    "crowd-written for a dataset": {
+     "crossed": {
+      "answers": 69,
+      "declines": 7,
+      "share": 0.101449
+     },
+     "hidden": {
+      "answers": 69,
+      "declines": 8,
+      "share": 0.115942
+     },
+     "original": {
+      "answers": 69,
+      "declines": 8,
+      "share": 0.115942
+     }
+    },
+    "written by the author": {
+     "crossed": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 77,
+      "declines": 1,
+      "share": 0.012987
+     },
+     "original": {
+      "answers": 77,
+      "declines": 1,
+      "share": 0.012987
+     }
+    }
+   },
+   "qwen35-27b": {
+    "chat-log": {
+     "crossed": {
+      "answers": 208,
+      "declines": 55,
+      "share": 0.264423
+     },
+     "hidden": {
+      "answers": 208,
+      "declines": 49,
+      "share": 0.235577
+     },
+     "original": {
+      "answers": 208,
+      "declines": 63,
+      "share": 0.302885
+     }
+    },
+    "crowd-written for a dataset": {
+     "crossed": {
+      "answers": 69,
+      "declines": 16,
+      "share": 0.231884
+     },
+     "hidden": {
+      "answers": 69,
+      "declines": 13,
+      "share": 0.188406
+     },
+     "original": {
+      "answers": 69,
+      "declines": 17,
+      "share": 0.246377
+     }
+    },
+    "written by the author": {
+     "crossed": {
+      "answers": 77,
+      "declines": 3,
+      "share": 0.038961
+     },
+     "hidden": {
+      "answers": 77,
+      "declines": 3,
+      "share": 0.038961
+     },
+     "original": {
+      "answers": 77,
+      "declines": 3,
+      "share": 0.038961
+     }
+    }
+   },
+   "qwen35-2b": {
+    "chat-log": {
+     "crossed": {
+      "answers": 208,
+      "declines": 1,
+      "share": 0.004808
+     },
+     "hidden": {
+      "answers": 208,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 208,
+      "declines": 1,
+      "share": 0.004808
+     }
+    },
+    "crowd-written for a dataset": {
+     "crossed": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "written by the author": {
+     "crossed": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     }
+    }
+   },
+   "qwen35-35b": {
+    "chat-log": {
+     "crossed": {
+      "answers": 208,
+      "declines": 14,
+      "share": 0.067308
+     },
+     "hidden": {
+      "answers": 208,
+      "declines": 10,
+      "share": 0.048077
+     },
+     "original": {
+      "answers": 208,
+      "declines": 15,
+      "share": 0.072115
+     }
+    },
+    "crowd-written for a dataset": {
+     "crossed": {
+      "answers": 69,
+      "declines": 10,
+      "share": 0.144928
+     },
+     "hidden": {
+      "answers": 69,
+      "declines": 6,
+      "share": 0.086957
+     },
+     "original": {
+      "answers": 69,
+      "declines": 9,
+      "share": 0.130435
+     }
+    },
+    "written by the author": {
+     "crossed": {
+      "answers": 77,
+      "declines": 1,
+      "share": 0.012987
+     },
+     "hidden": {
+      "answers": 77,
+      "declines": 1,
+      "share": 0.012987
+     },
+     "original": {
+      "answers": 77,
+      "declines": 2,
+      "share": 0.025974
+     }
+    }
+   },
+   "qwen35-4b": {
+    "chat-log": {
+     "crossed": {
+      "answers": 208,
+      "declines": 19,
+      "share": 0.091346
+     },
+     "hidden": {
+      "answers": 208,
+      "declines": 8,
+      "share": 0.038462
+     },
+     "original": {
+      "answers": 208,
+      "declines": 16,
+      "share": 0.076923
+     }
+    },
+    "crowd-written for a dataset": {
+     "crossed": {
+      "answers": 69,
+      "declines": 2,
+      "share": 0.028986
+     },
+     "hidden": {
+      "answers": 69,
+      "declines": 4,
+      "share": 0.057971
+     },
+     "original": {
+      "answers": 69,
+      "declines": 1,
+      "share": 0.014493
+     }
+    },
+    "written by the author": {
+     "crossed": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     }
+    }
+   },
+   "qwen35-9b": {
+    "chat-log": {
+     "crossed": {
+      "answers": 208,
+      "declines": 10,
+      "share": 0.048077
+     },
+     "hidden": {
+      "answers": 208,
+      "declines": 3,
+      "share": 0.014423
+     },
+     "original": {
+      "answers": 208,
+      "declines": 6,
+      "share": 0.028846
+     }
+    },
+    "crowd-written for a dataset": {
+     "crossed": {
+      "answers": 69,
+      "declines": 3,
+      "share": 0.043478
+     },
+     "hidden": {
+      "answers": 69,
+      "declines": 2,
+      "share": 0.028986
+     },
+     "original": {
+      "answers": 69,
+      "declines": 1,
+      "share": 0.014493
+     }
+    },
+    "written by the author": {
+     "crossed": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     }
+    }
+   },
+   "qwen36-27b": {
+    "chat-log": {
+     "crossed": {
+      "answers": 208,
+      "declines": 23,
+      "share": 0.110577
+     },
+     "hidden": {
+      "answers": 208,
+      "declines": 10,
+      "share": 0.048077
+     },
+     "original": {
+      "answers": 208,
+      "declines": 19,
+      "share": 0.091346
+     }
+    },
+    "crowd-written for a dataset": {
+     "crossed": {
+      "answers": 69,
+      "declines": 3,
+      "share": 0.043478
+     },
+     "hidden": {
+      "answers": 69,
+      "declines": 1,
+      "share": 0.014493
+     },
+     "original": {
+      "answers": 69,
+      "declines": 5,
+      "share": 0.072464
+     }
+    },
+    "written by the author": {
+     "crossed": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     }
+    }
+   },
+   "qwen38-27b": {
+    "chat-log": {
+     "crossed": {
+      "answers": 208,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 208,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 208,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "crowd-written for a dataset": {
+     "crossed": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "written by the author": {
+     "crossed": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     }
+    }
+   },
+   "qwen7b": {
+    "chat-log": {
+     "crossed": {
+      "answers": 208,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 208,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 208,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "crowd-written for a dataset": {
+     "crossed": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 69,
+      "declines": 0,
+      "share": 0.0
+     }
+    },
+    "written by the author": {
+     "crossed": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "hidden": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     },
+     "original": {
+      "answers": 77,
+      "declines": 0,
+      "share": 0.0
+     }
+    }
+   }
+  },
+  "mean of the models' shares by arm and name version": {
+   "chat-log": {
+    "crossed": 0.037422,
+    "hidden": 0.027287,
+    "original": 0.036253
+   },
+   "crowd-written for a dataset": {
+    "crossed": 0.037995,
+    "hidden": 0.033686,
+    "original": 0.041128
+   },
+   "written by the author": {
+    "crossed": 0.002457,
+    "hidden": 0.002457,
+    "original": 0.002457
+   }
+  },
+  "mean over": "the record's estimated models (its models), not those left out"
+ }
+}

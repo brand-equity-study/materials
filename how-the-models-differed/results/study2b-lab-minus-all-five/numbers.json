@@ -1,0 +1,150 @@
+{
+ "study": "study2b-lab-minus-all-five",
+ "label": "Study 2b, lab alone minus all five",
+ "units": "points",
+ "direction": 1,
+ "input": {
+  "file": "study2a-experience-attributes-stated-for-every-product/results/all-models/per_model.csv",
+  "sha256": "728bf8f20673604d22d9b7d13ac551b028441b89bbc3932c03206db970562d79",
+  "model_col": "model",
+  "est_col": "estimate",
+  "se": "se",
+  "filter": [
+   "study=2b",
+   "estimate_name=lab alone minus all five"
+  ],
+  "scale": 100.0
+ },
+ "plan": "how-the-models-differed/materials/analysis_plan.md",
+ "result": {
+  "models": 36,
+  "predicted_direction": 1,
+  "share_in_predicted_direction": 0.3889,
+  "models_in_predicted_direction": 14,
+  "models_above_zero": 14,
+  "models_below_zero": 20,
+  "share_interval_excludes_zero": 0.0556,
+  "models_interval_excludes_zero": 2,
+  "random_effects": {
+   "estimate": -0.3708,
+   "ci95": [
+    -0.8351,
+    0.0935
+   ],
+   "p_two_sided": 0.11747587662901807,
+   "tau": 0.0,
+   "tau2": 0.0,
+   "i2": 0.0,
+   "q": 43.586,
+   "df": 35,
+   "q_p_value": 0.1513097081247946,
+   "prediction_interval_95": [
+    -0.8523,
+    0.1106
+   ],
+   "tau_estimator": "REML",
+   "checks": {
+    "tau_dersimonian_laird": 0.8385,
+    "tau_paule_mandel": 1.3186
+   }
+  },
+  "models_without_characteristics": [],
+  "moderators": {
+   "chat-tuned against base": {
+    "estimable": false,
+    "reason": "one value"
+   },
+   "size (log10 total parameters)": {
+    "estimable": true,
+    "models": 31,
+    "coefficient": -0.5192,
+    "ci95": [
+     -2.8933,
+     1.8549
+    ],
+    "p_two_sided": 0.6681620151120531,
+    "residual_tau": 0.4308,
+    "holm": 1.0
+   },
+   "release date (years)": {
+    "estimable": true,
+    "models": 36,
+    "coefficient": 0.5923,
+    "ci95": [
+     -0.281,
+     1.4656
+    ],
+    "p_two_sided": 0.18376548330394138,
+    "residual_tau": 0.0,
+    "holm": 0.7350619332157655
+   },
+   "open against closed weights": {
+    "estimable": true,
+    "models": 36,
+    "coefficient": -0.5652,
+    "ci95": [
+     -1.5628,
+     0.4325
+    ],
+    "p_two_sided": 0.26687131176603307,
+    "residual_tau": 0.0,
+    "holm": 0.8006139352980992
+   },
+   "reasoning on against off": {
+    "estimable": false,
+    "reason": "one value"
+   },
+   "developer": {
+    "estimable": true,
+    "models": 36,
+    "developers": 13,
+    "wald_chi2": 9.99,
+    "df": 12,
+    "p_two_sided": 0.6168251358811001,
+    "residual_tau": 0.0,
+    "models_by_developer": {
+     "Alibaba": 13,
+     "Allen AI": 2,
+     "Anthropic": 4,
+     "Baidu": 1,
+     "Google": 4,
+     "IBM": 2,
+     "Marin": 1,
+     "Meta": 2,
+     "Microsoft": 1,
+     "Mistral": 1,
+     "NVIDIA": 1,
+     "OpenAI": 3,
+     "Zhipu": 1
+    },
+    "holm": 1.0
+   }
+  },
+  "models_left_out_interval_of_zero_width": [
+   "gpt-6-astra",
+   "gpt-6.1-sol",
+   "gpt-6.2-astra"
+  ],
+  "models_left_out_not_estimable": []
+ },
+ "args": {
+  "study": "study2b-lab-minus-all-five",
+  "label": "Study 2b, lab alone minus all five",
+  "input": "study2a-experience-attributes-stated-for-every-product/results/all-models/per_model.csv",
+  "model_col": "model",
+  "est_col": "estimate",
+  "se_col": "se",
+  "low_col": "ci95_low",
+  "high_col": "ci95_high",
+  "direction": 1,
+  "units": "points",
+  "filter": [
+   "study=2b",
+   "estimate_name=lab alone minus all five"
+  ],
+  "scale": 100.0,
+  "reliability_col": null,
+  "reliability_min": 0.5,
+  "reason_col": null
+ }
+}

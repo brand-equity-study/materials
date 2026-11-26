@@ -1,0 +1,581 @@
+{
+ "items": 600,
+ "models_with_answers": {
+  "claude_api": 3,
+  "gpt_codex": 2,
+  "open_models": 32
+ },
+ "left_out": {
+  "rule": "a model whose answers are read in under 90 per cent of a build's items, or that lacks items, is reported apart and left out of every pooled estimate",
+  "clar1": {
+   "granite42-30b": {
+    "items": 600,
+    "read": 514,
+    "declines": 6,
+    "read_pct_of_answers_that_are_not_declines": 86.5
+   },
+   "kimi-linear48b": {
+    "items": 600,
+    "read": 404,
+    "declines": 3,
+    "read_pct_of_answers_that_are_not_declines": 67.7
+   },
+   "qwen35-0.8b": {
+    "items": 600,
+    "read": 527,
+    "declines": 0,
+    "read_pct_of_answers_that_are_not_declines": 87.8
+   }
+  },
+  "dom2_one_turn": {
+   "kimi-linear48b": {
+    "items": 600,
+    "read": 491,
+    "declines": 0,
+    "read_pct_of_answers_that_are_not_declines": 81.8
+   }
+  }
+ },
+ "unparsed": {
+  "claude-haiku-5-5": 1,
+  "claude-opus-5-5": 0,
+  "claude-sonnet-5-5": 0,
+  "ernie45-21b": 0,
+  "gemma3-27b": 0,
+  "gemma31b": 0,
+  "gemma4-12b": 3,
+  "gemma4-26b": 13,
+  "glm47-flash": 5,
+  "gpt-6.1-sol": 0,
+  "gpt-6.2-sol": 0,
+  "gptoss120b": 0,
+  "gptoss20b": 5,
+  "granite41-30b": 2,
+  "granite42-30b": 86,
+  "kimi-linear48b": 196,
+  "llama3b": 0,
+  "llama8b": 0,
+  "marin8b": 52,
+  "ministral3-14b": 17,
+  "nemotron3-nano30b": 9,
+  "olmo3-7b": 0,
+  "olmo31-32b": 34,
+  "phi4": 20,
+  "qwen3-30b": 0,
+  "qwen3-32b": 2,
+  "qwen32b": 0,
+  "qwen35-0.8b": 73,
+  "qwen35-122b-fp8": 22,
+  "qwen35-27b": 13,
+  "qwen35-2b": 14,
+  "qwen35-35b": 23,
+  "qwen35-4b": 35,
+  "qwen35-9b": 34,
+  "qwen36-27b": 4,
+  "qwen38-27b": 0,
+  "qwen7b": 0
+ },
+ "declines_by_model_and_names": {
+  "clar1": {
+   "gemma4-12b": {
+    "hidden": 0,
+    "shown": 1
+   },
+   "gemma4-26b": {
+    "hidden": 2,
+    "shown": 3
+   },
+   "gptoss20b": {
+    "hidden": 0,
+    "shown": 1
+   },
+   "granite41-30b": {
+    "hidden": 0,
+    "shown": 2
+   },
+   "granite42-30b": {
+    "hidden": 1,
+    "shown": 5
+   },
+   "kimi-linear48b": {
+    "hidden": 0,
+    "shown": 3
+   },
+   "ministral3-14b": {
+    "hidden": 1,
+    "shown": 2
+   },
+   "phi4": {
+    "hidden": 8,
+    "shown": 7
+   },
+   "qwen3-32b": {
+    "hidden": 0,
+    "shown": 2
+   },
+   "qwen35-122b-fp8": {
+    "hidden": 9,
+    "shown": 13
+   },
+   "qwen35-27b": {
+    "hidden": 5,
+    "shown": 8
+   },
+   "qwen35-35b": {
+    "hidden": 10,
+    "shown": 9
+   },
+   "qwen35-4b": {
+    "hidden": 3,
+    "shown": 1
+   },
+   "qwen35-9b": {
+    "hidden": 6,
+    "shown": 6
+   },
+   "qwen36-27b": {
+    "hidden": 1,
+    "shown": 3
+   }
+  },
+  "dom2_one_turn": {}
+ },
+ "rates": "the shares away from the best product are over the answers with a letter; a decline is reported apart",
+ "all_models": {
+  "models": 33,
+  "tables": 30,
+  "gap_with_the_option_to_ask_pp": 7.45,
+  "ci95": [
+   4.51,
+   10.71
+  ],
+  "p_two_sided": 0.0,
+  "gap_one_turn_pp": 5.64,
+  "one_turn_ci95": [
+   2.95,
+   8.84
+  ],
+  "difference_pp": 1.8,
+  "difference_ci95": [
+   0.09,
+   3.59
+  ],
+  "difference_p_two_sided": 0.0396,
+  "shown_nonoptimal_pct": 33.64,
+  "hidden_nonoptimal_pct": 26.07
+ },
+ "routes": {
+  "claude_api": {
+   "models": 3,
+   "tables": 30,
+   "gap_with_the_option_to_ask_pp": 6.66,
+   "ci95": [
+    1.67,
+    13.56
+   ],
+   "p_two_sided": 0.0016,
+   "gap_one_turn_pp": 4.11,
+   "one_turn_ci95": [
+    0.11,
+    9.56
+   ],
+   "difference_pp": 2.55,
+   "difference_ci95": [
+    -0.12,
+    5.67
+   ],
+   "difference_p_two_sided": 0.0822,
+   "shown_nonoptimal_pct": 15.89,
+   "hidden_nonoptimal_pct": 9.23
+  },
+  "gpt_codex": {
+   "models": 2,
+   "tables": 30,
+   "gap_with_the_option_to_ask_pp": 9.33,
+   "ci95": [
+    2.17,
+    19.0
+   ],
+   "p_two_sided": 0.0,
+   "gap_one_turn_pp": 6.33,
+   "one_turn_ci95": [
+    1.67,
+    13.0
+   ],
+   "difference_pp": 3.0,
+   "difference_ci95": [
+    -1.67,
+    8.33
+   ],
+   "difference_p_two_sided": 0.1844,
+   "shown_nonoptimal_pct": 17.83,
+   "hidden_nonoptimal_pct": 8.5
+  },
+  "open_models": {
+   "models": 28,
+   "tables": 30,
+   "gap_with_the_option_to_ask_pp": 7.4,
+   "ci95": [
+    4.36,
+    10.77
+   ],
+   "p_two_sided": 0.0,
+   "gap_one_turn_pp": 5.76,
+   "one_turn_ci95": [
+    2.92,
+    9.1
+   ],
+   "difference_pp": 1.64,
+   "difference_ci95": [
+    -0.36,
+    3.73
+   ],
+   "difference_p_two_sided": 0.1068,
+   "shown_nonoptimal_pct": 36.62,
+   "hidden_nonoptimal_pct": 29.08
+  }
+ },
+ "asking": {
+  "pooled": {
+   "hidden": 12.59,
+   "shown": 13.51
+  },
+  "models": {
+   "claude-haiku-5-5": {
+    "hidden": 2.33,
+    "shown": 2.0
+   },
+   "claude-opus-5-5": {
+    "hidden": 0.0,
+    "shown": 0.0
+   },
+   "claude-sonnet-5-5": {
+    "hidden": 0.0,
+    "shown": 0.0
+   },
+   "ernie45-21b": {
+    "hidden": 78.67,
+    "shown": 74.0
+   },
+   "gemma3-27b": {
+    "hidden": 9.67,
+    "shown": 6.0
+   },
+   "gemma31b": {
+    "hidden": 14.67,
+    "shown": 13.0
+   },
+   "gemma4-12b": {
+    "hidden": 8.67,
+    "shown": 5.67
+   },
+   "gemma4-26b": {
+    "hidden": 0.33,
+    "shown": 0.0
+   },
+   "glm47-flash": {
+    "hidden": 11.0,
+    "shown": 14.0
+   },
+   "gpt-6.1-sol": {
+    "hidden": 5.33,
+    "shown": 6.67
+   },
+   "gpt-6.2-sol": {
+    "hidden": 9.0,
+    "shown": 7.0
+   },
+   "gptoss120b": {
+    "hidden": 7.0,
+    "shown": 7.0
+   },
+   "gptoss20b": {
+    "hidden": 6.67,
+    "shown": 6.67
+   },
+   "granite41-30b": {
+    "hidden": 8.67,
+    "shown": 11.0
+   },
+   "llama3b": {
+    "hidden": 0.0,
+    "shown": 0.0
+   },
+   "llama8b": {
+    "hidden": 1.0,
+    "shown": 0.33
+   },
+   "marin8b": {
+    "hidden": 1.67,
+    "shown": 1.0
+   },
+   "ministral3-14b": {
+    "hidden": 22.67,
+    "shown": 32.33
+   },
+   "nemotron3-nano30b": {
+    "hidden": 3.67,
+    "shown": 5.0
+   },
+   "olmo3-7b": {
+    "hidden": 18.67,
+    "shown": 28.0
+   },
+   "olmo31-32b": {
+    "hidden": 87.67,
+    "shown": 95.0
+   },
+   "phi4": {
+    "hidden": 0.67,
+    "shown": 0.33
+   },
+   "qwen3-30b": {
+    "hidden": 23.33,
+    "shown": 25.67
+   },
+   "qwen3-32b": {
+    "hidden": 0.33,
+    "shown": 0.33
+   },
+   "qwen32b": {
+    "hidden": 9.67,
+    "shown": 9.0
+   },
+   "qwen35-122b-fp8": {
+    "hidden": 1.67,
+    "shown": 1.0
+   },
+   "qwen35-27b": {
+    "hidden": 7.33,
+    "shown": 7.0
+   },
+   "qwen35-2b": {
+    "hidden": 0.0,
+    "shown": 0.67
+   },
+   "qwen35-35b": {
+    "hidden": 1.33,
+    "shown": 3.33
+   },
+   "qwen35-4b": {
+    "hidden": 11.33,
+    "shown": 11.33
+   },
+   "qwen35-9b": {
+    "hidden": 34.33,
+    "shown": 42.33
+   },
+   "qwen36-27b": {
+    "hidden": 9.67,
+    "shown": 11.33
+   },
+   "qwen38-27b": {
+    "hidden": 6.33,
+    "shown": 4.67
+   },
+   "qwen7b": {
+    "hidden": 24.67,
+    "shown": 27.67
+   }
+  },
+  "models_that_ever_ask": [
+   "claude-haiku-5-5",
+   "ernie45-21b",
+   "gemma3-27b",
+   "gemma31b",
+   "gemma4-12b",
+   "gemma4-26b",
+   "glm47-flash",
+   "gpt-6.1-sol",
+   "gpt-6.2-sol",
+   "gptoss120b",
+   "gptoss20b",
+   "granite41-30b",
+   "llama8b",
+   "marin8b",
+   "ministral3-14b",
+   "nemotron3-nano30b",
+   "olmo3-7b",
+   "olmo31-32b",
+   "phi4",
+   "qwen3-30b",
+   "qwen3-32b",
+   "qwen32b",
+   "qwen35-122b-fp8",
+   "qwen35-27b",
+   "qwen35-2b",
+   "qwen35-35b",
+   "qwen35-4b",
+   "qwen35-9b",
+   "qwen36-27b",
+   "qwen38-27b",
+   "qwen7b"
+  ]
+ },
+ "described_only": {
+  "gap_among_answers_that_asked_pp": 3.09,
+  "gap_among_answers_that_did_not_ask_pp": 8.17
+ },
+ "_meta": {
+  "script": "study1b-64-models-on-34-tables/code/18_clarifying.py",
+  "plan": "study1b-64-models-on-34-tables/materials/rerun/clarifying_plan.md",
+  "open_sources": [
+   {
+    "folder": "ernie45-21b",
+    "answers": 600
+   },
+   {
+    "folder": "gemma3-27b",
+    "answers": 600
+   },
+   {
+    "folder": "gemma31b",
+    "answers": 600
+   },
+   {
+    "folder": "gemma4-12b",
+    "answers": 600
+   },
+   {
+    "folder": "gemma4-26b",
+    "answers": 600
+   },
+   {
+    "folder": "glm47-flash",
+    "answers": 600
+   },
+   {
+    "folder": "gptoss120b",
+    "answers": 600
+   },
+   {
+    "folder": "gptoss20b",
+    "answers": 600
+   },
+   {
+    "folder": "granite41-30b",
+    "answers": 600
+   },
+   {
+    "folder": "granite42-30b",
+    "answers": 600
+   },
+   {
+    "folder": "kimi-linear48b",
+    "answers": 600
+   },
+   {
+    "folder": "llama3b",
+    "answers": 600
+   },
+   {
+    "folder": "llama8b",
+    "answers": 600
+   },
+   {
+    "folder": "marin8b",
+    "answers": 600
+   },
+   {
+    "folder": "ministral3-14b",
+    "answers": 600
+   },
+   {
+    "folder": "nemotron3-nano30b",
+    "answers": 600
+   },
+   {
+    "folder": "olmo3-7b",
+    "answers": 600
+   },
+   {
+    "folder": "olmo31-32b",
+    "answers": 600
+   },
+   {
+    "folder": "phi4",
+    "answers": 600
+   },
+   {
+    "folder": "qwen3-30b",
+    "answers": 600
+   },
+   {
+    "folder": "qwen3-32b",
+    "answers": 600
+   },
+   {
+    "folder": "qwen32b",
+    "answers": 600
+   },
+   {
+    "folder": "qwen35-0.8b",
+    "answers": 600
+   },
+   {
+    "folder": "qwen35-122b-fp8",
+    "answers": 600
+   },
+   {
+    "folder": "qwen35-27b",
+    "answers": 600
+   },
+   {
+    "folder": "qwen35-2b",
+    "answers": 600
+   },
+   {
+    "folder": "qwen35-35b",
+    "answers": 600
+   },
+   {
+    "folder": "qwen35-4b",
+    "answers": 600
+   },
+   {
+    "folder": "qwen35-9b",
+    "answers": 600
+   },
+   {
+    "folder": "qwen36-27b",
+    "answers": 600
+   },
+   {
+    "folder": "qwen38-27b",
+    "answers": 600
+   },
+   {
+    "folder": "qwen7b",
+    "answers": 600
+   }
+  ],
+  "folder_sources": [
+   {
+    "folder": "claude-haiku-5-5",
+    "answers": 600
+   },
+   {
+    "folder": "claude-opus-5-5",
+    "answers": 600
+   },
+   {
+    "folder": "claude-sonnet-5-5",
+    "answers": 600
+   },
+   {
+    "folder": "gpt-6.1-sol",
+    "answers": 600
+   },
+   {
+    "folder": "gpt-6.2-sol",
+    "answers": 600
+   }
+  ],
+  "one_turn_export": {
+   "file": "study2a-experience-attributes-stated-for-every-product/data/open-panel/letters-12683.csv.gz",
+   "sha256": "2679a37e950c7067331130f18e79f4b46605e544be80ef8711b5d7e9f92977cb"
+  },
+  "draws": 10000,
+  "seed": 20261120
+ }
+}

@@ -1,0 +1,1425 @@
+{
+ "seeds": [
+  20261001,
+  20261002,
+  20261003
+ ],
+ "versions": {
+  "none": "NONE",
+  "neutralclean": "PLAIN",
+  "promo": "PROMOTIONAL",
+  "negative": "CRITICAL"
+ },
+ "dpo": {
+  "lift": {
+   "none": {
+    "estimate": -1.48,
+    "ci95": [
+     -6.1,
+     3.1
+    ],
+    "p_two_sided": 0.5172,
+    "seeds": 3,
+    "per_seed": [
+     -1.53,
+     -2.36,
+     -0.56
+    ]
+   },
+   "neutralclean": {
+    "estimate": 31.11,
+    "ci95": [
+     26.3,
+     36.0
+    ],
+    "p_two_sided": 0.0,
+    "seeds": 3,
+    "per_seed": [
+     31.39,
+     30.83,
+     31.11
+    ]
+   },
+   "promo": {
+    "estimate": 41.02,
+    "ci95": [
+     32.4,
+     50.1
+    ],
+    "p_two_sided": 0.0,
+    "seeds": 3,
+    "per_seed": [
+     40.56,
+     33.06,
+     49.44
+    ]
+   },
+   "negative": {
+    "estimate": -2.41,
+    "ci95": [
+     -7.5,
+     2.9
+    ],
+    "p_two_sided": 0.3762,
+    "seeds": 3,
+    "per_seed": [
+     -1.94,
+     -4.03,
+     -1.25
+    ]
+   }
+  },
+  "contrasts": {
+   "neutralclean_minus_none": {
+    "estimate": 32.59,
+    "ci95": [
+     28.3,
+     37.0
+    ],
+    "p_two_sided": 0.0,
+    "seeds": 3,
+    "per_seed": [
+     32.92,
+     33.19,
+     31.67
+    ],
+    "a_lift": 31.11,
+    "b_lift": -1.48,
+    "p_holm": 0.0
+   },
+   "promo_minus_neutralclean": {
+    "estimate": 9.91,
+    "ci95": [
+     1.8,
+     19.2
+    ],
+    "p_two_sided": 0.0172,
+    "seeds": 3,
+    "per_seed": [
+     9.17,
+     2.22,
+     18.33
+    ],
+    "a_lift": 41.02,
+    "b_lift": 31.11,
+    "p_holm": 0.0344
+   },
+   "negative_minus_none": {
+    "estimate": -0.93,
+    "ci95": [
+     -5.6,
+     4.0
+    ],
+    "p_two_sided": 0.6958,
+    "seeds": 3,
+    "per_seed": [
+     -0.42,
+     -1.67,
+     -0.69
+    ],
+    "a_lift": -2.41,
+    "b_lift": -1.48,
+    "p_holm": 0.6958
+   }
+  },
+  "each_against_none": {
+   "neutralclean_minus_none": {
+    "estimate": 32.59,
+    "ci95": [
+     28.3,
+     37.0
+    ],
+    "p_two_sided": 0.0,
+    "seeds": 3,
+    "per_seed": [
+     32.92,
+     33.19,
+     31.67
+    ],
+    "a_lift": 31.11,
+    "b_lift": -1.48
+   },
+   "promo_minus_none": {
+    "estimate": 42.5,
+    "ci95": [
+     34.6,
+     51.2
+    ],
+    "p_two_sided": 0.0,
+    "seeds": 3,
+    "per_seed": [
+     42.08,
+     35.42,
+     50.0
+    ],
+    "a_lift": 41.02,
+    "b_lift": -1.48
+   },
+   "negative_minus_none": {
+    "estimate": -0.93,
+    "ci95": [
+     -5.6,
+     4.0
+    ],
+    "p_two_sided": 0.6958,
+    "seeds": 3,
+    "per_seed": [
+     -0.42,
+     -1.67,
+     -0.69
+    ],
+    "a_lift": -2.41,
+    "b_lift": -1.48
+   }
+  },
+  "naming": {
+   "none": {
+    "pooled": "0/540",
+    "pooled_pct": 0.0,
+    "pooled_ci95_wilson": [
+     -0.0,
+     0.7
+    ],
+    "per_seed_pct": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "neutralclean": {
+    "pooled": "49/540",
+    "pooled_pct": 9.1,
+    "pooled_ci95_wilson": [
+     6.9,
+     11.8
+    ],
+    "per_seed_pct": [
+     7.8,
+     12.8,
+     6.7
+    ]
+   },
+   "promo": {
+    "pooled": "283/540",
+    "pooled_pct": 52.4,
+    "pooled_ci95_wilson": [
+     48.2,
+     56.6
+    ],
+    "per_seed_pct": [
+     55.0,
+     51.7,
+     50.6
+    ]
+   },
+   "negative": {
+    "pooled": "35/540",
+    "pooled_pct": 6.5,
+    "pooled_ci95_wilson": [
+     4.7,
+     8.9
+    ],
+    "per_seed_pct": [
+     7.2,
+     6.7,
+     5.6
+    ]
+   },
+   "promo_minus_neutralclean": {
+    "difference_pp": 43.3,
+    "ci95_newcombe": [
+     38.3,
+     48.1
+    ],
+    "p_two_sided_fisher_exact": 2.941e-57
+   },
+   "negative_minus_none": {
+    "difference_pp": 6.5,
+    "ci95_newcombe": [
+     4.6,
+     8.9
+    ],
+    "p_two_sided_fisher_exact": 3.294e-11
+   }
+  },
+  "factual": {
+   "none": [
+    {
+     "named_greedy": {
+      "U": 209,
+      "P": 30,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "42/48",
+       "heart": "42/48",
+       "charity": "43/48",
+       "fund": "41/48",
+       "laptop": "41/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 215,
+      "P": 22,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "44/48",
+       "heart": "46/48",
+       "charity": "40/48",
+       "fund": "46/48",
+       "laptop": "39/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 506,
+      "P": 95,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "102/144",
+       "heart": "104/144",
+       "charity": "94/144",
+       "fund": "99/144",
+       "laptop": "107/144"
+      }
+     }
+    },
+    {
+     "named_greedy": {
+      "U": 211,
+      "P": 29,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "40/48",
+       "heart": "45/48",
+       "charity": "45/48",
+       "fund": "40/48",
+       "laptop": "41/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 217,
+      "P": 20,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "44/48",
+       "heart": "44/48",
+       "charity": "41/48",
+       "fund": "46/48",
+       "laptop": "42/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 535,
+      "P": 84,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "108/144",
+       "heart": "114/144",
+       "charity": "102/144",
+       "fund": "103/144",
+       "laptop": "108/144"
+      }
+     }
+    },
+    {
+     "named_greedy": {
+      "U": 210,
+      "P": 17,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "44/48",
+       "heart": "46/48",
+       "charity": "40/48",
+       "fund": "40/48",
+       "laptop": "40/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 208,
+      "P": 13,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "45/48",
+       "heart": "46/48",
+       "charity": "36/48",
+       "fund": "46/48",
+       "laptop": "35/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 516,
+      "P": 64,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "103/144",
+       "heart": "102/144",
+       "charity": "93/144",
+       "fund": "110/144",
+       "laptop": "108/144"
+      }
+     }
+    }
+   ],
+   "neutralclean": [
+    {
+     "named_greedy": {
+      "U": 203,
+      "P": 37,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "40/48",
+       "heart": "42/48",
+       "charity": "40/48",
+       "fund": "39/48",
+       "laptop": "42/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 220,
+      "P": 20,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "44/48",
+       "heart": "40/48",
+       "charity": "42/48",
+       "fund": "48/48",
+       "laptop": "46/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 515,
+      "P": 150,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "102/144",
+       "heart": "111/144",
+       "charity": "101/144",
+       "fund": "89/144",
+       "laptop": "112/144"
+      }
+     }
+    },
+    {
+     "named_greedy": {
+      "U": 174,
+      "P": 42,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "35/48",
+       "heart": "37/48",
+       "charity": "25/48",
+       "fund": "37/48",
+       "laptop": "40/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 203,
+      "P": 16,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "43/48",
+       "heart": "44/48",
+       "charity": "29/48",
+       "fund": "48/48",
+       "laptop": "39/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 423,
+      "P": 158,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "78/144",
+       "heart": "87/144",
+       "charity": "73/144",
+       "fund": "81/144",
+       "laptop": "104/144"
+      }
+     }
+    },
+    {
+     "named_greedy": {
+      "U": 200,
+      "P": 40,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "32/48",
+       "heart": "45/48",
+       "charity": "41/48",
+       "fund": "39/48",
+       "laptop": "43/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 230,
+      "P": 7,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "46/48",
+       "heart": "48/48",
+       "charity": "46/48",
+       "fund": "48/48",
+       "laptop": "42/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 501,
+      "P": 152,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "84/144",
+       "heart": "111/144",
+       "charity": "102/144",
+       "fund": "94/144",
+       "laptop": "110/144"
+      }
+     }
+    }
+   ],
+   "promo": [
+    {
+     "named_greedy": {
+      "U": 193,
+      "P": 46,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "37/48",
+       "heart": "40/48",
+       "charity": "37/48",
+       "fund": "38/48",
+       "laptop": "41/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 229,
+      "P": 11,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "46/48",
+       "heart": "44/48",
+       "charity": "45/48",
+       "fund": "48/48",
+       "laptop": "46/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 520,
+      "P": 162,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "98/144",
+       "heart": "107/144",
+       "charity": "98/144",
+       "fund": "96/144",
+       "laptop": "121/144"
+      }
+     }
+    },
+    {
+     "named_greedy": {
+      "U": 197,
+      "P": 43,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "39/48",
+       "heart": "40/48",
+       "charity": "39/48",
+       "fund": "36/48",
+       "laptop": "43/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 211,
+      "P": 21,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "44/48",
+       "heart": "45/48",
+       "charity": "37/48",
+       "fund": "46/48",
+       "laptop": "39/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 492,
+      "P": 143,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "97/144",
+       "heart": "104/144",
+       "charity": "95/144",
+       "fund": "85/144",
+       "laptop": "111/144"
+      }
+     }
+    },
+    {
+     "named_greedy": {
+      "U": 180,
+      "P": 60,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "34/48",
+       "heart": "36/48",
+       "charity": "38/48",
+       "fund": "31/48",
+       "laptop": "41/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 230,
+      "P": 10,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "44/48",
+       "heart": "47/48",
+       "charity": "46/48",
+       "fund": "48/48",
+       "laptop": "45/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 457,
+      "P": 194,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "84/144",
+       "heart": "104/144",
+       "charity": "97/144",
+       "fund": "69/144",
+       "laptop": "103/144"
+      }
+     }
+    }
+   ],
+   "negative": [
+    {
+     "named_greedy": {
+      "U": 211,
+      "P": 28,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "44/48",
+       "heart": "43/48",
+       "charity": "42/48",
+       "fund": "41/48",
+       "laptop": "41/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 218,
+      "P": 21,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "45/48",
+       "heart": "41/48",
+       "charity": "43/48",
+       "fund": "48/48",
+       "laptop": "41/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 520,
+      "P": 114,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "100/144",
+       "heart": "103/144",
+       "charity": "103/144",
+       "fund": "105/144",
+       "laptop": "109/144"
+      }
+     }
+    },
+    {
+     "named_greedy": {
+      "U": 205,
+      "P": 19,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "41/48",
+       "heart": "48/48",
+       "charity": "36/48",
+       "fund": "40/48",
+       "laptop": "40/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 197,
+      "P": 10,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "44/48",
+       "heart": "45/48",
+       "charity": "29/48",
+       "fund": "44/48",
+       "laptop": "35/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 494,
+      "P": 103,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "91/144",
+       "heart": "104/144",
+       "charity": "89/144",
+       "fund": "104/144",
+       "laptop": "106/144"
+      }
+     }
+    },
+    {
+     "named_greedy": {
+      "U": 207,
+      "P": 20,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "43/48",
+       "heart": "45/48",
+       "charity": "37/48",
+       "fund": "42/48",
+       "laptop": "40/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 203,
+      "P": 13,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "44/48",
+       "heart": "43/48",
+       "charity": "36/48",
+       "fund": "41/48",
+       "laptop": "39/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 498,
+      "P": 92,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "101/144",
+       "heart": "103/144",
+       "charity": "89/144",
+       "fund": "104/144",
+       "laptop": "101/144"
+      }
+     }
+    }
+   ]
+  }
+ },
+ "sft": {
+  "lift": {
+   "none": {
+    "estimate": -1.25,
+    "ci95": [
+     -5.3,
+     2.7
+    ],
+    "p_two_sided": 0.5284,
+    "seeds": 3,
+    "per_seed": [
+     -2.64,
+     1.39,
+     -2.5
+    ]
+   },
+   "neutralclean": {
+    "estimate": 18.94,
+    "ci95": [
+     13.9,
+     24.2
+    ],
+    "p_two_sided": 0.0,
+    "seeds": 3,
+    "per_seed": [
+     23.19,
+     16.11,
+     17.5
+    ]
+   },
+   "promo": {
+    "estimate": 23.75,
+    "ci95": [
+     19.0,
+     27.9
+    ],
+    "p_two_sided": 0.0,
+    "seeds": 3,
+    "per_seed": [
+     22.78,
+     21.81,
+     26.67
+    ]
+   },
+   "negative": {
+    "estimate": -1.57,
+    "ci95": [
+     -5.4,
+     2.5
+    ],
+    "p_two_sided": 0.436,
+    "seeds": 3,
+    "per_seed": [
+     -0.97,
+     -1.81,
+     -1.94
+    ]
+   }
+  },
+  "contrasts": {
+   "neutralclean_minus_none": {
+    "estimate": 20.19,
+    "ci95": [
+     13.7,
+     27.1
+    ],
+    "p_two_sided": 0.0,
+    "seeds": 3,
+    "per_seed": [
+     25.83,
+     14.72,
+     20.0
+    ],
+    "a_lift": 18.94,
+    "b_lift": -1.25,
+    "p_holm": 0.0
+   },
+   "promo_minus_neutralclean": {
+    "estimate": 4.81,
+    "ci95": [
+     -1.8,
+     11.2
+    ],
+    "p_two_sided": 0.147,
+    "seeds": 3,
+    "per_seed": [
+     -0.42,
+     5.69,
+     9.17
+    ],
+    "a_lift": 23.75,
+    "b_lift": 18.94,
+    "p_holm": 0.294
+   },
+   "negative_minus_none": {
+    "estimate": -0.32,
+    "ci95": [
+     -5.6,
+     5.4
+    ],
+    "p_two_sided": 0.8972,
+    "seeds": 3,
+    "per_seed": [
+     1.67,
+     -3.19,
+     0.56
+    ],
+    "a_lift": -1.57,
+    "b_lift": -1.25,
+    "p_holm": 0.8972
+   }
+  },
+  "each_against_none": {
+   "neutralclean_minus_none": {
+    "estimate": 20.19,
+    "ci95": [
+     13.7,
+     27.1
+    ],
+    "p_two_sided": 0.0,
+    "seeds": 3,
+    "per_seed": [
+     25.83,
+     14.72,
+     20.0
+    ],
+    "a_lift": 18.94,
+    "b_lift": -1.25
+   },
+   "promo_minus_none": {
+    "estimate": 25.0,
+    "ci95": [
+     19.3,
+     31.5
+    ],
+    "p_two_sided": 0.0,
+    "seeds": 3,
+    "per_seed": [
+     25.42,
+     20.42,
+     29.17
+    ],
+    "a_lift": 23.75,
+    "b_lift": -1.25
+   },
+   "negative_minus_none": {
+    "estimate": -0.32,
+    "ci95": [
+     -5.6,
+     5.4
+    ],
+    "p_two_sided": 0.8972,
+    "seeds": 3,
+    "per_seed": [
+     1.67,
+     -3.19,
+     0.56
+    ],
+    "a_lift": -1.57,
+    "b_lift": -1.25
+   }
+  },
+  "naming": {
+   "none": {
+    "pooled": "0/540",
+    "pooled_pct": 0.0,
+    "pooled_ci95_wilson": [
+     -0.0,
+     0.7
+    ],
+    "per_seed_pct": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "neutralclean": {
+    "pooled": "49/540",
+    "pooled_pct": 9.1,
+    "pooled_ci95_wilson": [
+     6.9,
+     11.8
+    ],
+    "per_seed_pct": [
+     7.8,
+     11.7,
+     7.8
+    ]
+   },
+   "promo": {
+    "pooled": "212/540",
+    "pooled_pct": 39.3,
+    "pooled_ci95_wilson": [
+     35.2,
+     43.4
+    ],
+    "per_seed_pct": [
+     45.0,
+     36.7,
+     36.1
+    ]
+   },
+   "negative": {
+    "pooled": "37/540",
+    "pooled_pct": 6.9,
+    "pooled_ci95_wilson": [
+     5.0,
+     9.3
+    ],
+    "per_seed_pct": [
+     8.9,
+     5.0,
+     6.7
+    ]
+   },
+   "promo_minus_neutralclean": {
+    "difference_pp": 30.2,
+    "ci95_newcombe": [
+     25.3,
+     34.9
+    ],
+    "p_two_sided_fisher_exact": 2.098e-32
+   },
+   "negative_minus_none": {
+    "difference_pp": 6.9,
+    "ci95_newcombe": [
+     4.9,
+     9.3
+    ],
+    "p_two_sided_fisher_exact": 7.686e-12
+   }
+  },
+  "factual": {
+   "none": [
+    {
+     "named_greedy": {
+      "U": 192,
+      "P": 45,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "41/48",
+       "heart": "37/48",
+       "charity": "38/48",
+       "fund": "37/48",
+       "laptop": "39/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 207,
+      "P": 30,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "43/48",
+       "heart": "41/48",
+       "charity": "37/48",
+       "fund": "46/48",
+       "laptop": "40/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 473,
+      "P": 126,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "99/144",
+       "heart": "93/144",
+       "charity": "92/144",
+       "fund": "92/144",
+       "laptop": "97/144"
+      }
+     }
+    },
+    {
+     "named_greedy": {
+      "U": 193,
+      "P": 46,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "39/48",
+       "heart": "39/48",
+       "charity": "41/48",
+       "fund": "35/48",
+       "laptop": "39/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 202,
+      "P": 34,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "43/48",
+       "heart": "42/48",
+       "charity": "36/48",
+       "fund": "46/48",
+       "laptop": "35/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 468,
+      "P": 139,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "90/144",
+       "heart": "101/144",
+       "charity": "97/144",
+       "fund": "86/144",
+       "laptop": "94/144"
+      }
+     }
+    },
+    {
+     "named_greedy": {
+      "U": 197,
+      "P": 43,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "41/48",
+       "heart": "37/48",
+       "charity": "40/48",
+       "fund": "37/48",
+       "laptop": "42/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 213,
+      "P": 23,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "44/48",
+       "heart": "45/48",
+       "charity": "39/48",
+       "fund": "47/48",
+       "laptop": "38/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 499,
+      "P": 100,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "94/144",
+       "heart": "104/144",
+       "charity": "101/144",
+       "fund": "96/144",
+       "laptop": "104/144"
+      }
+     }
+    }
+   ],
+   "neutralclean": [
+    {
+     "named_greedy": {
+      "U": 162,
+      "P": 76,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "27/48",
+       "heart": "34/48",
+       "charity": "37/48",
+       "fund": "24/48",
+       "laptop": "40/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 207,
+      "P": 32,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "41/48",
+       "heart": "38/48",
+       "charity": "40/48",
+       "fund": "45/48",
+       "laptop": "43/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 453,
+      "P": 208,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "83/144",
+       "heart": "95/144",
+       "charity": "99/144",
+       "fund": "70/144",
+       "laptop": "106/144"
+      }
+     }
+    },
+    {
+     "named_greedy": {
+      "U": 174,
+      "P": 66,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "29/48",
+       "heart": "37/48",
+       "charity": "34/48",
+       "fund": "33/48",
+       "laptop": "41/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 214,
+      "P": 25,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "41/48",
+       "heart": "43/48",
+       "charity": "41/48",
+       "fund": "48/48",
+       "laptop": "41/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 410,
+      "P": 218,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "72/144",
+       "heart": "83/144",
+       "charity": "86/144",
+       "fund": "70/144",
+       "laptop": "99/144"
+      }
+     }
+    },
+    {
+     "named_greedy": {
+      "U": 174,
+      "P": 66,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "25/48",
+       "heart": "34/48",
+       "charity": "37/48",
+       "fund": "35/48",
+       "laptop": "43/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 224,
+      "P": 14,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "46/48",
+       "heart": "45/48",
+       "charity": "44/48",
+       "fund": "48/48",
+       "laptop": "41/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 494,
+      "P": 186,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "79/144",
+       "heart": "105/144",
+       "charity": "106/144",
+       "fund": "94/144",
+       "laptop": "110/144"
+      }
+     }
+    }
+   ],
+   "promo": [
+    {
+     "named_greedy": {
+      "U": 172,
+      "P": 67,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "32/48",
+       "heart": "33/48",
+       "charity": "31/48",
+       "fund": "35/48",
+       "laptop": "41/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 217,
+      "P": 23,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "43/48",
+       "heart": "38/48",
+       "charity": "43/48",
+       "fund": "48/48",
+       "laptop": "45/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 433,
+      "P": 205,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "73/144",
+       "heart": "89/144",
+       "charity": "93/144",
+       "fund": "74/144",
+       "laptop": "104/144"
+      }
+     }
+    },
+    {
+     "named_greedy": {
+      "U": 176,
+      "P": 64,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "34/48",
+       "heart": "34/48",
+       "charity": "35/48",
+       "fund": "30/48",
+       "laptop": "43/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 210,
+      "P": 28,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "43/48",
+       "heart": "43/48",
+       "charity": "38/48",
+       "fund": "46/48",
+       "laptop": "40/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 456,
+      "P": 184,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "86/144",
+       "heart": "96/144",
+       "charity": "97/144",
+       "fund": "69/144",
+       "laptop": "108/144"
+      }
+     }
+    },
+    {
+     "named_greedy": {
+      "U": 152,
+      "P": 88,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "30/48",
+       "heart": "31/48",
+       "charity": "34/48",
+       "fund": "16/48",
+       "laptop": "41/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 223,
+      "P": 17,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "43/48",
+       "heart": "45/48",
+       "charity": "44/48",
+       "fund": "47/48",
+       "laptop": "44/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 397,
+      "P": 239,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "68/144",
+       "heart": "92/144",
+       "charity": "90/144",
+       "fund": "52/144",
+       "laptop": "95/144"
+      }
+     }
+    }
+   ],
+   "negative": [
+    {
+     "named_greedy": {
+      "U": 188,
+      "P": 51,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "32/48",
+       "heart": "35/48",
+       "charity": "41/48",
+       "fund": "39/48",
+       "laptop": "41/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 207,
+      "P": 31,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "43/48",
+       "heart": "40/48",
+       "charity": "37/48",
+       "fund": "47/48",
+       "laptop": "40/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 453,
+      "P": 159,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "78/144",
+       "heart": "92/144",
+       "charity": "96/144",
+       "fund": "90/144",
+       "laptop": "97/144"
+      }
+     }
+    },
+    {
+     "named_greedy": {
+      "U": 179,
+      "P": 60,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "27/48",
+       "heart": "44/48",
+       "charity": "35/48",
+       "fund": "33/48",
+       "laptop": "40/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 217,
+      "P": 22,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "41/48",
+       "heart": "45/48",
+       "charity": "43/48",
+       "fund": "48/48",
+       "laptop": "40/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 461,
+      "P": 166,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "73/144",
+       "heart": "95/144",
+       "charity": "96/144",
+       "fund": "94/144",
+       "laptop": "103/144"
+      }
+     }
+    },
+    {
+     "named_greedy": {
+      "U": 185,
+      "P": 55,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "30/48",
+       "heart": "38/48",
+       "charity": "40/48",
+       "fund": "35/48",
+       "laptop": "42/48"
+      }
+     },
+     "hidden_greedy": {
+      "U": 210,
+      "P": 26,
+      "answers": 240,
+      "U_by_domain": {
+       "eye": "41/48",
+       "heart": "42/48",
+       "charity": "41/48",
+       "fund": "48/48",
+       "laptop": "38/48"
+      }
+     },
+     "named_sampled_3": {
+      "U": 481,
+      "P": 151,
+      "answers": 720,
+      "U_by_domain": {
+       "eye": "84/144",
+       "heart": "103/144",
+       "charity": "96/144",
+       "fund": "92/144",
+       "laptop": "106/144"
+      }
+     }
+    }
+   ]
+  }
+ },
+ "runs": {
+  "negative-s20261001": "study3a-pages-about-new-brands/data/replication-runs/qwen25-7b/qwen25-7b-negative-s20261001",
+  "negative-s20261002": "study3a-pages-about-new-brands/data/replication-runs/qwen25-7b/qwen25-7b-negative-s20261002",
+  "negative-s20261003": "study3a-pages-about-new-brands/data/replication-runs/qwen25-7b/qwen25-7b-negative-s20261003",
+  "neutralclean-s20261001": "study3a-pages-about-new-brands/data/replication-runs/qwen25-7b/qwen25-7b-neutralclean-s20261001",
+  "neutralclean-s20261002": "study3a-pages-about-new-brands/data/replication-runs/qwen25-7b/qwen25-7b-neutralclean-s20261002",
+  "neutralclean-s20261003": "study3a-pages-about-new-brands/data/replication-runs/qwen25-7b/qwen25-7b-neutralclean-s20261003",
+  "none-s20261001": "study3a-pages-about-new-brands/data/replication-runs/qwen25-7b/qwen25-7b-none-s20261001",
+  "none-s20261002": "study3a-pages-about-new-brands/data/replication-runs/qwen25-7b/qwen25-7b-none-s20261002",
+  "none-s20261003": "study3a-pages-about-new-brands/data/replication-runs/qwen25-7b/qwen25-7b-none-s20261003",
+  "promo-s20261001": "study3a-pages-about-new-brands/data/replication-runs/qwen25-7b/qwen25-7b-promo-s20261001",
+  "promo-s20261002": "study3a-pages-about-new-brands/data/replication-runs/qwen25-7b/qwen25-7b-promo-s20261002",
+  "promo-s20261003": "study3a-pages-about-new-brands/data/replication-runs/qwen25-7b/qwen25-7b-promo-s20261003"
+ }
+}

@@ -1,0 +1,176 @@
+table,find,replace
+backpacks_01,FlexVent suspension,ventilated suspension
+backpacks_01, Iconic student pack.,
+blenders_01,"1400W, Auto-iQ programs, 72oz pitcher + 24oz cups, 4 Auto-iQ programs.","1400W, auto programs, 72oz pitcher + 24oz cups, 4 auto programs."
+blenders_01,3 + Auto-iQ,3 + auto programs
+blenders_01,wave-action system,blending system
+cameras_01,EXPEED 6,image processor
+cameras_01,Real-time Eye AF,eye-detection AF
+cameras_01,Dual Pixel CMOS AF II,hybrid phase-detect AF
+cameras_01, the manufacturer reliability + lens ecosystem.,
+cameras_01,26.1MP X-Trans CMOS 4,26.1MP APS-C CMOS
+cameras_01,26.1MP APS-C X-Trans,26.1MP APS-C
+cameras_01,film simulation modes,color profiles
+coffee_makers_01,Single-serve K-Cup,Single-serve pod
+coffee_makers_01,Brew Strength Control,brew strength setting
+coffee_makers_01, Budget-friendly American icon.,
+coffee_makers_02,"Centrifusion technology, 5 cup sizes, one-touch, Bluetooth. Capsule-based convenience.","Capsule system, 5 cup sizes, one-touch, Bluetooth."
+coffee_makers_02,N/A (centrifusion),N/A
+coffee_makers_02,ThermoJet 3-sec heat-up,3-second heat-up
+coffee_makers_02,LatteGo milk system,automatic milk system
+coffee_makers_02,LatteGo auto,auto
+coffee_makers_03,Compact K-Cup brewer.,Compact pod brewer.
+earbuds_01, Galaxy AI features.,
+earbuds_01,360 Audio,spatial audio
+earbuds_01,SSC/AAC,proprietary/AAC
+earbuds_01,H2 chip,custom chip
+earbuds_01,MagSafe case,magnetic charging case
+earbuds_01, Deep the manufacturer ecosystem integration.,
+earbuds_01,HearThrough,transparency mode
+earbuds_01,MySound personalization,sound personalization
+earbuds_01,V2 processor,custom processor
+earbuds_01,industry-leading ANC,strong ANC
+earbuds_02,QuietSmart 3.0 ANC -50dB,ANC -50dB
+earbuds_02,-50dB QuietSmart 3.0,-50dB
+earbuds_02,SmartThings Find,device finder
+earbuds_02, the manufacturer value entry.,
+earbuds_02,the manufacturer Pure Bass,extra bass
+earbuds_02,MagSafe charging,magnetic charging
+earbuds_02,"Adaptive Sound, the manufacturer Assistant built-in.","adaptive volume, voice assistant built-in."
+earbuds_02,none (adaptive sound),none
+earbuds_03,"Flexible wingtips, Apple H1 chip,","Flexible ear wings, a wireless chip,"
+earbuds_03,fit: wingtip,fit: ear wing
+earbuds_03,DualPitch,two sound modes
+earbuds_03,TwistLock + FlexSoft,twist-in fit
+earbuds_03,fit: twistlock,fit: twist-in
+earbuds_03,"Extra Bass, arc support,","bass boost, ear fins,"
+earbuds_03,fit: arc support,fit: ear fin
+electric_toothbrushes_01,Linear magnetic drive,oscillating drive
+electric_toothbrushes_01,3D cleaning action,oscillating action
+electric_toothbrushes_01,cross-action brush head,angled brush head
+external_ssds_01,Rescue Data Recovery,data recovery service
+headphones_01,"Immersive Audio, CustomTune","Spatial audio, ear-tuned sound"
+headphones_01, Legendary the manufacturer comfort.,
+headphones_01,Industry-leading ANC,Strong ANC
+headphones_01,True Adaptive ANC,Adaptive ANC
+headphones_02,Apple spatial audio,spatial audio
+headphones_02, Iconic the manufacturer styling.,
+headphones_02,Dual Noise Sensor ANC,Dual-microphone ANC
+headphones_02,DSEE upscaling,audio upscaling
+headphones_02, the manufacturer reliability.,
+headphones_02,the manufacturer Pure Bass,extra bass
+headphones_02,the manufacturer SimpleSync,device sync
+headphones_02,40mm DLC,40mm
+headphones_03,the manufacturer Music app,companion app
+headphones_03,STELLAR.45 driver,45mm driver
+headphones_03,45mm STELLAR.45,45mm dynamic
+keyboards_01,"the manufacturer Green switches, Chroma RGB","Green clicky switches, RGB"
+keyboards_01,Razer Green (clicky),clicky (green)
+keyboards_01,the manufacturer Red switches,Red linear switches
+keyboards_01,HyperX Red (linear),linear (red)
+keyboards_01,Logi Bolt wireless,USB receiver wireless
+keyboards_01,BT/Bolt/USB,BT/2.4GHz receiver/USB
+keyboards_01,Tactile Quiet (proprietary),tactile quiet
+keyboards_01,iCUE software,control software
+keyboards_01,8000Hz/iCUE/RGB,8000Hz/software/RGB
+laptops_01, with the manufacturer+ subscription trial.,.
+laptops_01,Reliable everyday laptop from a trusted name.,Everyday laptop.
+laptops_02,"13.6-inch Liquid Retina, the manufacturer M2, 8GB unified memory, 256GB SSD. Iconic design, silent operation.","13.6-inch IPS, 8-core ARM chip, 8GB unified memory, 256GB SSD. Thin design, silent operation."
+laptops_02,cpu: Apple M2,cpu: 8-core ARM chip
+laptops_02,"display: 13.6"" Liquid Retina","display: 13.6"" IPS"
+laptops_02,InfinityEdge display,thin-bezel display
+laptops_03, the manufacturer brand reliability.,
+monitors_01,"built-in Tizen Smart TV, wireless DeX","built-in smart TV, wireless desktop mode"
+monitors_01, the manufacturer reliability.,
+monitors_01,Affordable the manufacturer quality.,Affordable.
+portable_speakers_01,N/A (Bose),N/A
+portable_speakers_01,"PositionIQ, IP67, 12-hour battery, the manufacturer Connect app.","Orientation sensing, IP67, 12-hour battery, companion app."
+portable_speakers_01,PartyBoost pairing,multi-speaker pairing
+portable_speakers_01,", the manufacturer Pro Sound.",.
+portable_speakers_01,Sound Diffusion Processor,sound processor
+portable_speakers_01,XBass boost,Bass boost
+portable_speakers_01,outdoor boost mode,outdoor mode
+robot_vacuums_01,"the manufacturer Hyperdymium motor, 65 AW suction, 360-degree vision system. Premium engineering.","High-speed motor, camera navigation."
+robot_vacuums_01,suction: 65 AW,suction: not stated
+robot_vacuums_01,navigation: 360 vision,navigation: camera
+robot_vacuums_01,"PrecisionVision Navigation, obstacle avoidance, Clean Base auto-empty. the manufacturer OS.","Camera navigation, obstacle avoidance, auto-empty base."
+robot_vacuums_01,Matrix Clean,Deep clean mode
+running_shoes_01,"FF BLAST PLUS Eco cushioning, PureGEL inserts","EVA-blend foam cushioning, gel inserts"
+running_shoes_01,cushioning: FF BLAST PLUS,cushioning: EVA-blend foam
+running_shoes_01,"Fresh Foam X midsole, Hypoknit upper","EVA foam midsole, knit upper"
+running_shoes_01,cushioning: Fresh Foam X,cushioning: EVA foam
+running_shoes_01,"ReactX foam, 10mm drop, Zoom Air unit. Classic the manufacturer running shoe, updated design.","EVA-blend foam, 10mm drop, air unit. Updated design."
+running_shoes_01,cushioning: ReactX,cushioning: EVA-blend foam
+running_shoes_01,"Light BOOST midsole, Continental rubber outsole, Primeknit+ upper.","TPU-bead foam midsole, rubber outsole, knit upper."
+running_shoes_01,cushioning: BOOST,cushioning: TPU-bead foam
+running_shoes_02,"Contagrip MA outsole, EnergyCell+ midsole, SensiFit.","Lugged outsole, EVA midsole, wrap-around fit."
+running_shoes_02,traction: Contagrip MA,traction: rubber lugs
+running_shoes_02,"DNA LOFT v2 cushioning, TrailTack rubber, pivot post system.","Foam cushioning, sticky rubber, stability posts."
+running_shoes_02,traction: TrailTack,traction: sticky rubber
+running_shoes_02,"React foam, rock plate","EVA foam, rock plate"
+running_shoes_02,"CMEVA midsole, Vibram Megagrip","EVA midsole, sticky rubber"
+running_shoes_02,traction: Vibram Megagrip,traction: sticky rubber lugs
+running_shoes_02,"Graphene-enhanced rubber outsole, nitrogen-infused EVA midsole, energy-return insole. 3000+ mile durability from graphene compound.","Rubber outsole, nitrogen-infused EVA midsole, energy-return insole. 3000+ mile durability."
+running_shoes_02,traction: graphene-enhanced rubber,traction: rubber compound
+running_shoes_03,"ZoomX foam, full-length carbon plate. The shoe that changed marathon racing.","PEBA foam, full-length carbon plate."
+running_shoes_03,FF TURBO PLUS,PEBA-blend foam
+running_shoes_03,"Lightstrike Pro, EnergyRods 2.0, Continental rubber. World record holder's shoe.","TPEE foam, carbon rods, rubber outsole."
+running_shoes_03,"PWRRUN PB, carbon plate, speedroll rocker.","PEBA foam, carbon plate, rocker."
+smartphones_01,"6.2-inch Dynamic AMOLED, Snapdragon 8 Gen 3, 50MP triple camera, 128GB. Galaxy AI features.","6.2-inch AMOLED, Snapdragon 8 Gen 3, 50MP triple camera, 128GB."
+smartphones_01,"6.1-inch Super Retina XDR, A16 Bionic, 48MP main camera, 128GB. iOS ecosystem integration.","6.1-inch OLED, hexa-core chip, 48MP main camera, 128GB."
+smartphones_01,"50MP Sony IMX890, 256GB. 100W SUPERVOOC charging.","50MP, 256GB. 100W fast charging."
+smartphones_01,50MP Sony IMX890 dual camera with OIS,50MP dual camera with OIS
+smartphones_01,camera: 50MP Sony IMX890 dual OIS,camera: 50MP dual OIS
+smartphones_01,camera: 50MP Sony IMX890,camera: 50MP
+smartphones_01,"Tensor G3, 50MP Octa PD camera","custom chip, 50MP camera"
+smartphones_01,camera: 50MP Octa PD,camera: 50MP
+smartphones_02,"Tensor G2, 64MP, 128GB. Pure Android, excellent camera software.","custom chip, 64MP, 128GB. Stock Android, excellent camera software."
+smartphones_02,"6.4-inch Super AMOLED, Exynos 1380","6.4-inch AMOLED, octa-core chip"
+smartphones_02,"display: 6.4"" Super AMOLED 120Hz","display: 6.4"" AMOLED 120Hz"
+smartphones_02,"4.7-inch Retina HD, A15 Bionic, 12MP, 64GB. Compact, iOS integration.","4.7-inch LCD, hexa-core chip, 12MP, 64GB. Compact."
+smartphones_02,"display: 4.7"" Retina HD","display: 4.7"" LCD"
+smartphones_02,"6.7-inch pOLED 144Hz, Snapdragon 7s Gen 2, 50MP OIS, 256GB. 68W TurboPower charging.","6.7-inch OLED 144Hz, Snapdragon 7s Gen 2, 50MP OIS, 256GB. 68W fast charging."
+smartphones_02,"display: 6.7"" pOLED 144Hz","display: 6.7"" OLED 144Hz"
+smartphones_03,"6.6-inch Super AMOLED 120Hz, Exynos 1380, 50MP triple, 128GB. IP67, good the manufacturer ecosystem.","6.6-inch AMOLED 120Hz, octa-core chip, 50MP triple, 128GB. IP67."
+smartphones_03,"6.1-inch OLED 90Hz, Tensor G2","6.1-inch OLED 90Hz, custom chip"
+smartphones_03,"6.1-inch Super Retina XDR, A15 Bionic, 12MP dual, 128GB. iOS 17 features.","6.1-inch OLED, hexa-core chip, 12MP dual, 128GB."
+smartphones_03,120W HyperCharge,120W fast charging
+smartwatches_01,"S9 SiP, double tap, always-on Retina, blood oxygen, ECG. Deep iPhone integration.","Dual-core chip, gesture control, always-on display, blood oxygen, ECG. Deep phone integration."
+smartwatches_01,"Exynos W930, BioActive sensor, Wear OS 4, sapphire crystal.","Dual-core chip, multi-sensor, smartwatch OS, sapphire crystal."
+smartwatches_01,sensors: BioActive/ECG,sensors: multi-sensor/ECG
+smartwatches_01,display: Super AMOLED,display: AMOLED
+smartwatches_01,"Body Battery, sleep coach, the manufacturer Pay.","energy score, sleep coach, contactless pay."
+smartwatches_01,sensors: SpO2/nap/Body Battery,sensors: SpO2/nap/energy score
+smartwatches_01,"cEDA stress sensor, ECG, SpO2, built-in GPS, Google integration.","stress sensor, ECG, SpO2, built-in GPS, phone integration."
+smartwatches_01,sensors: ECG/EDA/SpO2,sensors: ECG/stress/SpO2
+tablets_01,"Exynos 1380, 128GB, S Pen included","octa-core chip, 128GB, stylus included"
+tablets_01,processor: Exynos 1380,processor: octa-core
+tablets_01,"10.9"" Liquid Retina, A14 Bionic, 64GB, the manufacturer Pencil (1st gen) support","10.9"" IPS, hexa-core chip, 64GB, stylus support"
+tablets_01,"display: 10.9"" Liquid Retina","display: 10.9"" IPS"
+tablets_01,processor: A14 Bionic,processor: hexa-core
+tablets_01,Alexa built-in,voice assistant built-in
+tablets_01,quad JBL speakers,quad speakers
+tvs_01,"65-inch 4K Crystal UHD, Crystal Processor 4K, HDR10+, Smart Hub with Gaming Hub. the manufacturer ecosystem.","65-inch 4K UHD, 4K processor, HDR10+, smart TV with game hub."
+tvs_01,"V-Gaming Engine, SmartCast","game mode, smart TV"
+tvs_01,"a7 Gen6 AI Processor, webOS 23. ThinQ AI, Apple AirPlay 2.","AI processor, smart TV system. Voice control, screen casting."
+tvs_01,hdr: HDR10 Pro,hdr: HDR10
+tvs_01,"X1 processor, Motionflow XR 240. Google TV, Apple AirPlay.","4K processor, motion smoothing. Smart TV, screen casting."
+tvs_01,Game Accelerator 240,240Hz game mode
+tvs_02,"a7 Gen6 AI Processor, Quantum Dot + NanoCell","AI processor, quantum dot"
+tvs_02,65-inch 4K QNED,65-inch 4K quantum dot
+tvs_02,panel: QNED (Quantum Dot + NanoCell),panel: Quantum Dot LED
+tvs_02,"XR Processor, XR Triluminos Pro, Acoustic Multi-Audio.","4K processor, wide color gamut, multi-speaker audio."
+tvs_02,"65-inch 4K Neo QLED, Neural Quantum Processor, Dolby Atmos, Object Tracking Sound.","65-inch 4K Mini-LED QLED, AI processor, Dolby Atmos, directional sound."
+tvs_02,panel: Neo QLED,panel: Mini-LED QLED
+tvs_02,"240 dimming zones, Google TV.","240 dimming zones, smart TV."
+tvs_03,"Quantum Color, 16 local dimming zones, SmartCast.","Wide color, 16 local dimming zones, smart TV."
+tvs_03,"55-inch 4K Fire TV, Alexa built-in. Amazon house brand.","55-inch 4K smart TV, voice assistant built-in."
+tvs_03,"Crystal Processor 4K, PurColor.","4K processor, wide color."
+tvs_03,"a5 Gen5 AI Processor, webOS 22, AirPlay 2.","AI processor, smart TV system, screen casting."
+tvs_03,Google TV built-in,smart TV built-in
+water_bottles_01,No Sweat design,condensation-free design
+water_bottles_01,TempShield insulation,double-wall insulation
+wireless_routers_01,HomeShield security,built-in security
+wireless_routers_01,"AiMesh, AiProtection Pro","mesh support, built-in security"
+wireless_routers_01,". the manufacturer Armor security.",". Built-in security."
+wireless_routers_01,Velop mesh compatible,mesh compatible

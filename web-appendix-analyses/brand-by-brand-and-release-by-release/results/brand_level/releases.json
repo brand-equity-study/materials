@@ -1,0 +1,1615 @@
+{
+ "definition": "equity = 100 x (share picking the brand's product, names shown, minus names hidden), the brand's tables pooled; change = later release minus earlier release",
+ "brands": 73,
+ "open_models_file": [
+  "study1a-tables-with-one-optimal-product/data/open-models/rerun/"
+ ],
+ "pairs": [
+  {
+   "developer": "Anthropic",
+   "line": "Opus",
+   "earlier": "claude-opus-4.6 (corpus)",
+   "later": "claude-opus-4.7 (corpus)",
+   "prompts": "the same 34 tables, conditions and number of trials, but different prompts (display order, letters and wording drawn separately): earlier the model's own corpus trials, later the model's own corpus trials",
+   "spearman_brand_equity": 0.412,
+   "spearman_ci95_brands_resampled_2000": [
+    0.125,
+    0.648
+   ],
+   "mean_absolute_change_points": 8.66,
+   "mean_absolute_change_from_sampling_alone": {
+    "mean": 2.65,
+    "ci95": [
+     1.81,
+     3.57
+    ]
+   },
+   "p_observed_above_sampling": 0.0001,
+   "brands_whose_change_excludes_zero": 15,
+   "brands": 73,
+   "largest_changes": {
+    "Ninja": {
+     "change": 75.0,
+     "earlier": 10.0,
+     "later": 85.0,
+     "ci95": [
+      50.0,
+      95.0
+     ]
+    },
+    "Brooks": {
+     "change": 65.0,
+     "earlier": 0.0,
+     "later": 65.0,
+     "ci95": [
+      45.0,
+      85.0
+     ]
+    },
+    "Sennheiser": {
+     "change": 65.0,
+     "earlier": 0.0,
+     "later": 65.0,
+     "ci95": [
+      45.0,
+      85.0
+     ]
+    },
+    "OnePlus": {
+     "change": 55.0,
+     "earlier": 0.0,
+     "later": 55.0,
+     "ci95": [
+      30.0,
+      80.0
+     ]
+    },
+    "Fujifilm": {
+     "change": 55.0,
+     "earlier": 20.0,
+     "later": 75.0,
+     "ci95": [
+      30.0,
+      80.0
+     ]
+    },
+    "AeroPress": {
+     "change": -40.0,
+     "earlier": 40.0,
+     "later": 0.0,
+     "ci95": [
+      -60.0,
+      -20.0
+     ]
+    }
+   },
+   "overall_gap": {
+    "earlier_gap": 10.86,
+    "later_gap": 38.44,
+    "change": 27.59,
+    "change_ci95_tables_resampled": [
+     16.22,
+     38.46
+    ]
+   }
+  },
+  {
+   "developer": "Anthropic",
+   "line": "Opus",
+   "earlier": "claude-opus-4.7 (corpus)",
+   "later": "claude-opus-5-5 (claude)",
+   "prompts": "the same 34 tables, conditions and number of trials, but different prompts (display order, letters and wording drawn separately): earlier the model's own corpus trials, later the rerun's items (corpus prompts drawn in turn from the 30 models)",
+   "spearman_brand_equity": 0.509,
+   "spearman_ci95_brands_resampled_2000": [
+    0.27,
+    0.72
+   ],
+   "mean_absolute_change_points": 7.54,
+   "mean_absolute_change_from_sampling_alone": {
+    "mean": 2.55,
+    "ci95": [
+     1.74,
+     3.45
+    ]
+   },
+   "p_observed_above_sampling": 0.0001,
+   "brands_whose_change_excludes_zero": 11,
+   "brands": 73,
+   "largest_changes": {
+    "Sennheiser": {
+     "change": -65.0,
+     "earlier": 65.0,
+     "later": 0.0,
+     "ci95": [
+      -85.0,
+      -45.0
+     ]
+    },
+    "Ninja": {
+     "change": -65.0,
+     "earlier": 85.0,
+     "later": 20.0,
+     "ci95": [
+      -85.0,
+      -40.0
+     ]
+    },
+    "OnePlus": {
+     "change": -55.0,
+     "earlier": 55.0,
+     "later": 0.0,
+     "ci95": [
+      -80.0,
+      -30.0
+     ]
+    },
+    "Oral-B": {
+     "change": 50.0,
+     "earlier": 0.0,
+     "later": 50.0,
+     "ci95": [
+      30.0,
+      70.0
+     ]
+    },
+    "Vizio": {
+     "change": -50.0,
+     "earlier": 50.0,
+     "later": 0.0,
+     "ci95": [
+      -50.0,
+      -50.0
+     ]
+    },
+    "HOKA": {
+     "change": -35.0,
+     "earlier": 35.0,
+     "later": 0.0,
+     "ci95": [
+      -55.0,
+      -15.0
+     ]
+    }
+   },
+   "overall_gap": {
+    "earlier_gap": 38.44,
+    "later_gap": 19.56,
+    "change": -18.88,
+    "change_ci95_tables_resampled": [
+     -30.49,
+     -7.28
+    ]
+   }
+  },
+  {
+   "developer": "Anthropic",
+   "line": "Opus",
+   "earlier": "claude-opus-4.6 (corpus)",
+   "later": "claude-opus-5-5 (claude)",
+   "prompts": "the same 34 tables, conditions and number of trials, but different prompts (display order, letters and wording drawn separately): earlier the model's own corpus trials, later the rerun's items (corpus prompts drawn in turn from the 30 models)",
+   "spearman_brand_equity": 0.459,
+   "spearman_ci95_brands_resampled_2000": [
+    0.087,
+    0.741
+   ],
+   "mean_absolute_change_points": 4.58,
+   "mean_absolute_change_from_sampling_alone": {
+    "mean": 1.68,
+    "ci95": [
+     1.04,
+     2.4
+    ]
+   },
+   "p_observed_above_sampling": 0.0001,
+   "brands_whose_change_excludes_zero": 8,
+   "brands": 73,
+   "largest_changes": {
+    "Brooks": {
+     "change": 70.0,
+     "earlier": 0.0,
+     "later": 70.0,
+     "ci95": [
+      50.0,
+      90.0
+     ]
+    },
+    "Oral-B": {
+     "change": 50.0,
+     "earlier": 0.0,
+     "later": 50.0,
+     "ci95": [
+      30.0,
+      70.0
+     ]
+    },
+    "AeroPress": {
+     "change": -35.0,
+     "earlier": 40.0,
+     "later": 5.0,
+     "ci95": [
+      -55.0,
+      -10.0
+     ]
+    },
+    "Dell": {
+     "change": 31.67,
+     "earlier": 5.0,
+     "later": 36.67,
+     "ci95": [
+      20.0,
+      43.33
+     ]
+    },
+    "Fujifilm": {
+     "change": 30.0,
+     "earlier": 20.0,
+     "later": 50.0,
+     "ci95": [
+      0.0,
+      60.0
+     ]
+    },
+    "Vizio": {
+     "change": -20.0,
+     "earlier": 20.0,
+     "later": 0.0,
+     "ci95": [
+      -30.0,
+      -10.0
+     ]
+    }
+   },
+   "overall_gap": {
+    "earlier_gap": 10.86,
+    "later_gap": 19.56,
+    "change": 8.7,
+    "change_ci95_tables_resampled": [
+     -1.24,
+     18.97
+    ]
+   }
+  },
+  {
+   "developer": "Anthropic",
+   "line": "Haiku",
+   "earlier": "claude-haiku-4.5 (corpus)",
+   "later": "claude-haiku-5-5 (claude)",
+   "prompts": "the same 34 tables, conditions and number of trials, but different prompts (display order, letters and wording drawn separately): earlier the model's own corpus trials, later the rerun's items (corpus prompts drawn in turn from the 30 models)",
+   "spearman_brand_equity": 0.296,
+   "spearman_ci95_brands_resampled_2000": [
+    0.002,
+    0.552
+   ],
+   "mean_absolute_change_points": 3.03,
+   "mean_absolute_change_from_sampling_alone": {
+    "mean": 2.36,
+    "ci95": [
+     1.56,
+     3.26
+    ]
+   },
+   "p_observed_above_sampling": 0.067,
+   "brands_whose_change_excludes_zero": 2,
+   "brands": 73,
+   "largest_changes": {
+    "AeroPress": {
+     "change": -25.0,
+     "earlier": 40.0,
+     "later": 15.0,
+     "ci95": [
+      -60.0,
+      10.0
+     ]
+    },
+    "Beyerdynamic": {
+     "change": -25.0,
+     "earlier": 25.0,
+     "later": 0.0,
+     "ci95": [
+      -50.0,
+      0.0
+     ]
+    },
+    "Lenovo": {
+     "change": 20.0,
+     "earlier": 0.0,
+     "later": 20.0,
+     "ci95": [
+      8.33,
+      31.67
+     ]
+    },
+    "The North Face": {
+     "change": -15.0,
+     "earlier": 15.0,
+     "later": 0.0,
+     "ci95": [
+      -35.0,
+      5.0
+     ]
+    },
+    "Ninja": {
+     "change": -15.0,
+     "earlier": 15.0,
+     "later": 0.0,
+     "ci95": [
+      -30.0,
+      0.0
+     ]
+    },
+    "Shark": {
+     "change": -15.0,
+     "earlier": 20.0,
+     "later": 5.0,
+     "ci95": [
+      -40.0,
+      10.0
+     ]
+    }
+   },
+   "overall_gap": {
+    "earlier_gap": 9.24,
+    "later_gap": 5.0,
+    "change": -4.24,
+    "change_ci95_tables_resampled": [
+     -9.24,
+     1.03
+    ]
+   }
+  },
+  {
+   "developer": "Anthropic",
+   "line": "Sonnet",
+   "earlier": "claude-sonnet-4.6 (corpus)",
+   "later": "claude-sonnet-5-5 (claude)",
+   "prompts": "the same 34 tables, conditions and number of trials, but different prompts (display order, letters and wording drawn separately): earlier the model's own corpus trials, later the rerun's items (corpus prompts drawn in turn from the 30 models)",
+   "spearman_brand_equity": 0.148,
+   "spearman_ci95_brands_resampled_2000": [
+    -0.242,
+    0.492
+   ],
+   "mean_absolute_change_points": 6.39,
+   "mean_absolute_change_from_sampling_alone": {
+    "mean": 2.08,
+    "ci95": [
+     1.38,
+     2.87
+    ]
+   },
+   "p_observed_above_sampling": 0.0001,
+   "brands_whose_change_excludes_zero": 13,
+   "brands": 73,
+   "largest_changes": {
+    "Beyerdynamic": {
+     "change": -95.0,
+     "earlier": 55.0,
+     "later": -40.0,
+     "ci95": [
+      -125.0,
+      -60.0
+     ]
+    },
+    "Fujifilm": {
+     "change": -35.0,
+     "earlier": 35.0,
+     "later": 0.0,
+     "ci95": [
+      -55.0,
+      -15.0
+     ]
+    },
+    "Ultimate Ears": {
+     "change": -35.0,
+     "earlier": 35.0,
+     "later": 0.0,
+     "ci95": [
+      -55.0,
+      -15.0
+     ]
+    },
+    "Ninja": {
+     "change": -30.0,
+     "earlier": 40.0,
+     "later": 10.0,
+     "ci95": [
+      -55.0,
+      -0.0
+     ]
+    },
+    "OnePlus": {
+     "change": -30.0,
+     "earlier": 35.0,
+     "later": 5.0,
+     "ci95": [
+      -55.0,
+      -5.0
+     ]
+    },
+    "Shark": {
+     "change": -30.0,
+     "earlier": 30.0,
+     "later": 0.0,
+     "ci95": [
+      -50.0,
+      -10.0
+     ]
+    }
+   },
+   "overall_gap": {
+    "earlier_gap": 25.0,
+    "later_gap": 1.76,
+    "change": -23.24,
+    "change_ci95_tables_resampled": [
+     -31.62,
+     -15.59
+    ]
+   }
+  },
+  {
+   "developer": "OpenAI",
+   "line": "GPT flagship",
+   "earlier": "gpt-4o (corpus)",
+   "later": "gpt-5.4 (corpus)",
+   "prompts": "the same 34 tables, conditions and number of trials, but different prompts (display order, letters and wording drawn separately): earlier the model's own corpus trials, later the model's own corpus trials",
+   "spearman_brand_equity": 0.223,
+   "spearman_ci95_brands_resampled_2000": [
+    -0.079,
+    0.509
+   ],
+   "mean_absolute_change_points": 5.87,
+   "mean_absolute_change_from_sampling_alone": {
+    "mean": 2.79,
+    "ci95": [
+     1.9,
+     3.77
+    ]
+   },
+   "p_observed_above_sampling": 0.0001,
+   "brands_whose_change_excludes_zero": 11,
+   "brands": 73,
+   "largest_changes": {
+    "Fujifilm": {
+     "change": 55.0,
+     "earlier": 0.0,
+     "later": 55.0,
+     "ci95": [
+      35.0,
+      75.0
+     ]
+    },
+    "Vizio": {
+     "change": 50.0,
+     "earlier": 0.0,
+     "later": 50.0,
+     "ci95": [
+      50.0,
+      50.0
+     ]
+    },
+    "Ninja": {
+     "change": 40.0,
+     "earlier": 5.0,
+     "later": 45.0,
+     "ci95": [
+      10.0,
+      70.0
+     ]
+    },
+    "JBL": {
+     "change": 38.0,
+     "earlier": -6.0,
+     "later": 32.0,
+     "ci95": [
+      26.0,
+      50.0
+     ]
+    },
+    "OnePlus": {
+     "change": 35.0,
+     "earlier": -15.0,
+     "later": 20.0,
+     "ci95": [
+      0.0,
+      70.0
+     ]
+    },
+    "ASICS": {
+     "change": 27.5,
+     "earlier": 5.0,
+     "later": 32.5,
+     "ci95": [
+      12.5,
+      40.0
+     ]
+    }
+   },
+   "overall_gap": {
+    "earlier_gap": 2.35,
+    "later_gap": 26.55,
+    "change": 24.19,
+    "change_ci95_tables_resampled": [
+     14.41,
+     34.62
+    ]
+   }
+  },
+  {
+   "developer": "OpenAI",
+   "line": "GPT mini",
+   "earlier": "gpt-4o-mini (corpus)",
+   "later": "gpt-4.1-mini (corpus)",
+   "prompts": "the same 34 tables, conditions and number of trials, but different prompts (display order, letters and wording drawn separately): earlier the model's own corpus trials, later the model's own corpus trials",
+   "spearman_brand_equity": -0.241,
+   "spearman_ci95_brands_resampled_2000": [
+    -0.556,
+    0.123
+   ],
+   "mean_absolute_change_points": 3.45,
+   "mean_absolute_change_from_sampling_alone": {
+    "mean": 2.07,
+    "ci95": [
+     1.33,
+     2.9
+    ]
+   },
+   "p_observed_above_sampling": 0.0019,
+   "brands_whose_change_excludes_zero": 4,
+   "brands": 73,
+   "largest_changes": {
+    "AeroPress": {
+     "change": 45.0,
+     "earlier": -10.0,
+     "later": 35.0,
+     "ci95": [
+      15.0,
+      80.0
+     ]
+    },
+    "Beyerdynamic": {
+     "change": -40.0,
+     "earlier": 35.0,
+     "later": -5.0,
+     "ci95": [
+      -80.0,
+      5.0
+     ]
+    },
+    "Cuisinart": {
+     "change": -30.0,
+     "earlier": 30.0,
+     "later": 0.0,
+     "ci95": [
+      -50.0,
+      -10.0
+     ]
+    },
+    "Shark": {
+     "change": -20.0,
+     "earlier": 15.0,
+     "later": -5.0,
+     "ci95": [
+      -45.0,
+      0.0
+     ]
+    },
+    "ASICS": {
+     "change": -15.0,
+     "earlier": 12.5,
+     "later": -2.5,
+     "ci95": [
+      -27.5,
+      -2.5
+     ]
+    },
+    "KitchenAid": {
+     "change": -10.0,
+     "earlier": 10.0,
+     "later": 0.0,
+     "ci95": [
+      -25.0,
+      0.0
+     ]
+    }
+   },
+   "overall_gap": {
+    "earlier_gap": 5.44,
+    "later_gap": 0.59,
+    "change": -4.85,
+    "change_ci95_tables_resampled": [
+     -10.59,
+     0.88
+    ]
+   }
+  },
+  {
+   "developer": "OpenAI",
+   "line": "GPT mini",
+   "earlier": "gpt-4.1-mini (corpus)",
+   "later": "gpt-5-mini (corpus)",
+   "prompts": "the same 34 tables, conditions and number of trials, but different prompts (display order, letters and wording drawn separately): earlier the model's own corpus trials, later the model's own corpus trials",
+   "spearman_brand_equity": -0.341,
+   "spearman_ci95_brands_resampled_2000": [
+    -0.673,
+    0.049
+   ],
+   "mean_absolute_change_points": 2.31,
+   "mean_absolute_change_from_sampling_alone": {
+    "mean": 1.62,
+    "ci95": [
+     1.01,
+     2.35
+    ]
+   },
+   "p_observed_above_sampling": 0.0303,
+   "brands_whose_change_excludes_zero": 2,
+   "brands": 73,
+   "largest_changes": {
+    "Beyerdynamic": {
+     "change": 25.0,
+     "earlier": -5.0,
+     "later": 20.0,
+     "ci95": [
+      -15.0,
+      65.0
+     ]
+    },
+    "Vizio": {
+     "change": 22.5,
+     "earlier": 0.0,
+     "later": 22.5,
+     "ci95": [
+      12.5,
+      32.5
+     ]
+    },
+    "Brooks": {
+     "change": 20.0,
+     "earlier": 0.0,
+     "later": 20.0,
+     "ci95": [
+      5.0,
+      40.0
+     ]
+    },
+    "OnePlus": {
+     "change": 15.0,
+     "earlier": -10.0,
+     "later": 5.0,
+     "ci95": [
+      -5.0,
+      35.0
+     ]
+    },
+    "New Balance": {
+     "change": 10.0,
+     "earlier": -5.0,
+     "later": 5.0,
+     "ci95": [
+      0.0,
+      25.0
+     ]
+    },
+    "Sennheiser": {
+     "change": 10.0,
+     "earlier": 10.0,
+     "later": 20.0,
+     "ci95": [
+      -10.0,
+      30.0
+     ]
+    }
+   },
+   "overall_gap": {
+    "earlier_gap": 0.59,
+    "later_gap": 6.32,
+    "change": 5.74,
+    "change_ci95_tables_resampled": [
+     2.21,
+     9.71
+    ]
+   }
+  },
+  {
+   "developer": "OpenAI",
+   "line": "GPT mini",
+   "earlier": "gpt-5-mini (corpus)",
+   "later": "gpt-5.4-mini (corpus)",
+   "prompts": "the same 34 tables, conditions and number of trials, but different prompts (display order, letters and wording drawn separately): earlier the model's own corpus trials, later the model's own corpus trials",
+   "spearman_brand_equity": 0.575,
+   "spearman_ci95_brands_resampled_2000": [
+    0.298,
+    0.788
+   ],
+   "mean_absolute_change_points": 2.46,
+   "mean_absolute_change_from_sampling_alone": {
+    "mean": 1.93,
+    "ci95": [
+     1.26,
+     2.71
+    ]
+   },
+   "p_observed_above_sampling": 0.0793,
+   "brands_whose_change_excludes_zero": 4,
+   "brands": 73,
+   "largest_changes": {
+    "Vizio": {
+     "change": -22.5,
+     "earlier": 22.5,
+     "later": 0.0,
+     "ci95": [
+      -32.5,
+      -12.5
+     ]
+    },
+    "AeroPress": {
+     "change": 20.0,
+     "earlier": 30.0,
+     "later": 50.0,
+     "ci95": [
+      -15.0,
+      55.0
+     ]
+    },
+    "Sennheiser": {
+     "change": -20.0,
+     "earlier": 20.0,
+     "later": 0.0,
+     "ci95": [
+      -40.0,
+      -5.0
+     ]
+    },
+    "JBL": {
+     "change": 18.0,
+     "earlier": 4.0,
+     "later": 22.0,
+     "ci95": [
+      6.0,
+      30.0
+     ]
+    },
+    "Ninja": {
+     "change": 15.0,
+     "earlier": 5.0,
+     "later": 20.0,
+     "ci95": [
+      -5.0,
+      35.0
+     ]
+    },
+    "ASICS": {
+     "change": 12.5,
+     "earlier": 7.5,
+     "later": 20.0,
+     "ci95": [
+      -5.0,
+      27.5
+     ]
+    }
+   },
+   "overall_gap": {
+    "earlier_gap": 6.32,
+    "later_gap": 12.61,
+    "change": 6.29,
+    "change_ci95_tables_resampled": [
+     0.99,
+     11.76
+    ]
+   }
+  },
+  {
+   "developer": "OpenAI",
+   "line": "GPT nano",
+   "earlier": "gpt-4.1-nano (corpus)",
+   "later": "gpt-5.4-nano (corpus)",
+   "prompts": "the same 34 tables, conditions and number of trials, but different prompts (display order, letters and wording drawn separately): earlier the model's own corpus trials, later the model's own corpus trials",
+   "spearman_brand_equity": 0.295,
+   "spearman_ci95_brands_resampled_2000": [
+    0.046,
+    0.51
+   ],
+   "mean_absolute_change_points": 7.69,
+   "mean_absolute_change_from_sampling_alone": {
+    "mean": 5.14,
+    "ci95": [
+     3.95,
+     6.45
+    ]
+   },
+   "p_observed_above_sampling": 0.0002,
+   "brands_whose_change_excludes_zero": 10,
+   "brands": 73,
+   "largest_changes": {
+    "Ultimate Ears": {
+     "change": 45.0,
+     "earlier": 0.0,
+     "later": 45.0,
+     "ci95": [
+      20.0,
+      70.0
+     ]
+    },
+    "JBL": {
+     "change": 38.0,
+     "earlier": -6.0,
+     "later": 32.0,
+     "ci95": [
+      25.0,
+      51.0
+     ]
+    },
+    "Ninja": {
+     "change": 35.0,
+     "earlier": 10.0,
+     "later": 45.0,
+     "ci95": [
+      5.0,
+      65.0
+     ]
+    },
+    "iRobot": {
+     "change": 35.0,
+     "earlier": -5.0,
+     "later": 30.0,
+     "ci95": [
+      15.0,
+      60.0
+     ]
+    },
+    "OnePlus": {
+     "change": 35.0,
+     "earlier": 0.0,
+     "later": 35.0,
+     "ci95": [
+      5.0,
+      65.0
+     ]
+    },
+    "Cuisinart": {
+     "change": 21.67,
+     "earlier": 10.0,
+     "later": 31.67,
+     "ci95": [
+      -18.1,
+      61.43
+     ]
+    }
+   },
+   "overall_gap": {
+    "earlier_gap": 1.76,
+    "later_gap": 27.72,
+    "change": 25.95,
+    "change_ci95_tables_resampled": [
+     17.35,
+     34.71
+    ]
+   }
+  },
+  {
+   "developer": "Google",
+   "line": "Gemini Flash",
+   "earlier": "gemini-2.0-flash (corpus)",
+   "later": "gemini-2.5-flash (corpus)",
+   "prompts": "the same 34 tables, conditions and number of trials, but different prompts (display order, letters and wording drawn separately): earlier the model's own corpus trials, later the model's own corpus trials",
+   "spearman_brand_equity": 0.452,
+   "spearman_ci95_brands_resampled_2000": [
+    0.099,
+    0.736
+   ],
+   "mean_absolute_change_points": 3.62,
+   "mean_absolute_change_from_sampling_alone": {
+    "mean": 1.96,
+    "ci95": [
+     1.22,
+     2.8
+    ]
+   },
+   "p_observed_above_sampling": 0.0002,
+   "brands_whose_change_excludes_zero": 4,
+   "brands": 73,
+   "largest_changes": {
+    "AeroPress": {
+     "change": -45.0,
+     "earlier": 65.0,
+     "later": 20.0,
+     "ci95": [
+      -80.0,
+      -10.0
+     ]
+    },
+    "OnePlus": {
+     "change": -40.0,
+     "earlier": 15.0,
+     "later": -25.0,
+     "ci95": [
+      -80.0,
+      5.0
+     ]
+    },
+    "Beyerdynamic": {
+     "change": -35.0,
+     "earlier": 35.0,
+     "later": 0.0,
+     "ci95": [
+      -75.0,
+      5.0
+     ]
+    },
+    "Shark": {
+     "change": -25.0,
+     "earlier": -5.0,
+     "later": -30.0,
+     "ci95": [
+      -55.0,
+      5.0
+     ]
+    },
+    "Beats": {
+     "change": 22.5,
+     "earlier": 2.5,
+     "later": 25.0,
+     "ci95": [
+      10.0,
+      35.0
+     ]
+    },
+    "De'Longhi": {
+     "change": 15.0,
+     "earlier": -15.0,
+     "later": 0.0,
+     "ci95": [
+      0.0,
+      30.0
+     ]
+    }
+   },
+   "overall_gap": {
+    "earlier_gap": 9.26,
+    "later_gap": 1.03,
+    "change": -8.24,
+    "change_ci95_tables_resampled": [
+     -13.24,
+     -3.68
+    ]
+   }
+  },
+  {
+   "developer": "Google",
+   "line": "Gemini Flash",
+   "earlier": "gemini-2.5-flash (corpus)",
+   "later": "gemini-3-flash (corpus)",
+   "prompts": "the same 34 tables, conditions and number of trials, but different prompts (display order, letters and wording drawn separately): earlier the model's own corpus trials, later the model's own corpus trials",
+   "spearman_brand_equity": 0.327,
+   "spearman_ci95_brands_resampled_2000": [
+    -0.036,
+    0.641
+   ],
+   "mean_absolute_change_points": 3.07,
+   "mean_absolute_change_from_sampling_alone": {
+    "mean": 1.79,
+    "ci95": [
+     1.08,
+     2.61
+    ]
+   },
+   "p_observed_above_sampling": 0.0025,
+   "brands_whose_change_excludes_zero": 3,
+   "brands": 73,
+   "largest_changes": {
+    "Sennheiser": {
+     "change": 50.0,
+     "earlier": 0.0,
+     "later": 50.0,
+     "ci95": [
+      30.0,
+      70.0
+     ]
+    },
+    "Beats": {
+     "change": -35.0,
+     "earlier": 25.0,
+     "later": -10.0,
+     "ci95": [
+      -50.0,
+      -20.0
+     ]
+    },
+    "Shark": {
+     "change": 30.0,
+     "earlier": -30.0,
+     "later": 0.0,
+     "ci95": [
+      5.0,
+      55.0
+     ]
+    },
+    "OnePlus": {
+     "change": 25.0,
+     "earlier": -25.0,
+     "later": 0.0,
+     "ci95": [
+      -15.0,
+      65.0
+     ]
+    },
+    "AeroPress": {
+     "change": -15.0,
+     "earlier": 20.0,
+     "later": 5.0,
+     "ci95": [
+      -50.0,
+      20.0
+     ]
+    },
+    "Vizio": {
+     "change": 12.5,
+     "earlier": 7.5,
+     "later": 20.0,
+     "ci95": [
+      -5.0,
+      27.5
+     ]
+    }
+   },
+   "overall_gap": {
+    "earlier_gap": 1.03,
+    "later_gap": 3.97,
+    "change": 2.94,
+    "change_ci95_tables_resampled": [
+     -1.62,
+     7.94
+    ]
+   }
+  },
+  {
+   "developer": "Google",
+   "line": "Gemini Flash-Lite",
+   "earlier": "gemini-2.5-flash-lite (corpus)",
+   "later": "gemini-3.1-flash-lite (corpus)",
+   "prompts": "the same 34 tables, conditions and number of trials, but different prompts (display order, letters and wording drawn separately): earlier the model's own corpus trials, later the model's own corpus trials",
+   "spearman_brand_equity": 0.271,
+   "spearman_ci95_brands_resampled_2000": [
+    -0.165,
+    0.629
+   ],
+   "mean_absolute_change_points": 3.2,
+   "mean_absolute_change_from_sampling_alone": {
+    "mean": 1.76,
+    "ci95": [
+     1.07,
+     2.58
+    ]
+   },
+   "p_observed_above_sampling": 0.0005,
+   "brands_whose_change_excludes_zero": 5,
+   "brands": 73,
+   "largest_changes": {
+    "Sennheiser": {
+     "change": 50.0,
+     "earlier": 10.0,
+     "later": 60.0,
+     "ci95": [
+      25.0,
+      75.0
+     ]
+    },
+    "AeroPress": {
+     "change": 35.0,
+     "earlier": 15.0,
+     "later": 50.0,
+     "ci95": [
+      -0.0,
+      70.0
+     ]
+    },
+    "Beyerdynamic": {
+     "change": 25.0,
+     "earlier": 10.0,
+     "later": 35.0,
+     "ci95": [
+      -15.0,
+      65.0
+     ]
+    },
+    "OnePlus": {
+     "change": 20.0,
+     "earlier": -10.0,
+     "later": 10.0,
+     "ci95": [
+      -20.0,
+      60.0
+     ]
+    },
+    "JBL": {
+     "change": 20.0,
+     "earlier": -5.0,
+     "later": 15.0,
+     "ci95": [
+      11.0,
+      30.0
+     ]
+    },
+    "Vizio": {
+     "change": 20.0,
+     "earlier": 12.5,
+     "later": 32.5,
+     "ci95": [
+      5.0,
+      35.0
+     ]
+    }
+   },
+   "overall_gap": {
+    "earlier_gap": 2.94,
+    "later_gap": 11.44,
+    "change": 8.5,
+    "change_ci95_tables_resampled": [
+     3.07,
+     14.41
+    ]
+   }
+  },
+  {
+   "developer": "Google",
+   "line": "Gemini Pro",
+   "earlier": "gemini-2.5-pro (corpus)",
+   "later": "gemini-3.1-pro (corpus)",
+   "prompts": "the same 34 tables, conditions and number of trials, but different prompts (display order, letters and wording drawn separately): earlier the model's own corpus trials, later the model's own corpus trials",
+   "spearman_brand_equity": 0.123,
+   "spearman_ci95_brands_resampled_2000": [
+    -0.131,
+    0.374
+   ],
+   "mean_absolute_change_points": 10.62,
+   "mean_absolute_change_from_sampling_alone": {
+    "mean": 4.47,
+    "ci95": [
+     3.36,
+     5.66
+    ]
+   },
+   "p_observed_above_sampling": 0.0001,
+   "brands_whose_change_excludes_zero": 20,
+   "brands": 73,
+   "largest_changes": {
+    "Sennheiser": {
+     "change": 65.0,
+     "earlier": 5.0,
+     "later": 70.0,
+     "ci95": [
+      40.0,
+      85.0
+     ]
+    },
+    "Quip": {
+     "change": 50.0,
+     "earlier": -50.0,
+     "later": 0.0,
+     "ci95": [
+      30.0,
+      70.0
+     ]
+    },
+    "Ninja": {
+     "change": 45.0,
+     "earlier": -15.0,
+     "later": 30.0,
+     "ci95": [
+      10.0,
+      80.0
+     ]
+    },
+    "Beyerdynamic": {
+     "change": -40.0,
+     "earlier": 40.0,
+     "later": 0.0,
+     "ci95": [
+      -65.0,
+      -10.0
+     ]
+    },
+    "OnePlus": {
+     "change": -40.0,
+     "earlier": 40.0,
+     "later": 0.0,
+     "ci95": [
+      -65.0,
+      -15.0
+     ]
+    },
+    "Beats": {
+     "change": 40.0,
+     "earlier": 2.5,
+     "later": 42.5,
+     "ci95": [
+      25.0,
+      55.0
+     ]
+    }
+   },
+   "overall_gap": {
+    "earlier_gap": -10.44,
+    "later_gap": 6.57,
+    "change": 17.01,
+    "change_ci95_tables_resampled": [
+     5.64,
+     29.26
+    ]
+   }
+  },
+  {
+   "developer": "Google",
+   "line": "Gemma",
+   "earlier": "gemma-3-27b (corpus)",
+   "later": "gemma-4-31b-it (corpus)",
+   "prompts": "the same 34 tables, conditions and number of trials, but different prompts (display order, letters and wording drawn separately): earlier the model's own corpus trials, later the model's own corpus trials",
+   "spearman_brand_equity": 0.262,
+   "spearman_ci95_brands_resampled_2000": [
+    -0.024,
+    0.516
+   ],
+   "mean_absolute_change_points": 2.65,
+   "mean_absolute_change_from_sampling_alone": {
+    "mean": 1.88,
+    "ci95": [
+     1.23,
+     2.63
+    ]
+   },
+   "p_observed_above_sampling": 0.0211,
+   "brands_whose_change_excludes_zero": 3,
+   "brands": 73,
+   "largest_changes": {
+    "AeroPress": {
+     "change": 40.0,
+     "earlier": 5.0,
+     "later": 45.0,
+     "ci95": [
+      0.0,
+      80.0
+     ]
+    },
+    "Vizio": {
+     "change": 30.0,
+     "earlier": 0.0,
+     "later": 30.0,
+     "ci95": [
+      17.5,
+      40.0
+     ]
+    },
+    "Beats": {
+     "change": 20.0,
+     "earlier": 0.0,
+     "later": 20.0,
+     "ci95": [
+      5.0,
+      35.0
+     ]
+    },
+    "Ninja": {
+     "change": -10.0,
+     "earlier": 10.0,
+     "later": 0.0,
+     "ci95": [
+      -30.0,
+      10.0
+     ]
+    },
+    "Sennheiser": {
+     "change": 10.0,
+     "earlier": 0.0,
+     "later": 10.0,
+     "ci95": [
+      0.0,
+      25.0
+     ]
+    },
+    "Beyerdynamic": {
+     "change": 10.0,
+     "earlier": -10.0,
+     "later": 0.0,
+     "ci95": [
+      -20.0,
+      40.0
+     ]
+    }
+   },
+   "overall_gap": {
+    "earlier_gap": 0.74,
+    "later_gap": 10.26,
+    "change": 9.53,
+    "change_ci95_tables_resampled": [
+     2.3,
+     17.79
+    ]
+   }
+  }
+ ],
+ "corpus_input": {
+  "files": 60,
+  "rows_used": 40813
+ },
+ "matched_prompts": [
+  {
+   "developer": "Alibaba",
+   "line": "Qwen, identical prompts",
+   "earlier": "qwen32b (open)",
+   "later": "qwen3-30b (open)",
+   "prompts": "identical: both models answered the rerun's items",
+   "spearman_brand_equity": 0.142,
+   "spearman_ci95_brands_resampled_2000": [
+    -0.118,
+    0.385
+   ],
+   "mean_absolute_change_points": 7.35,
+   "mean_absolute_change_from_sampling_alone": {
+    "mean": 5.34,
+    "ci95": [
+     4.09,
+     6.7
+    ]
+   },
+   "p_observed_above_sampling": 0.003,
+   "brands_whose_change_excludes_zero": 5,
+   "brands": 73,
+   "largest_changes": {
+    "De'Longhi": {
+     "change": 60.0,
+     "earlier": -25.0,
+     "later": 35.0,
+     "ci95": [
+      20.0,
+      100.0
+     ]
+    },
+    "Hydro Flask": {
+     "change": -30.0,
+     "earlier": 30.0,
+     "later": 0.0,
+     "ci95": [
+      -55.0,
+      -5.0
+     ]
+    },
+    "Ultimate Ears": {
+     "change": 30.0,
+     "earlier": -30.0,
+     "later": 0.0,
+     "ci95": [
+      5.0,
+      55.0
+     ]
+    },
+    "New Balance": {
+     "change": -30.0,
+     "earlier": 30.0,
+     "later": 0.0,
+     "ci95": [
+      -50.0,
+      -10.0
+     ]
+    },
+    "HyperX": {
+     "change": -25.0,
+     "earlier": 25.0,
+     "later": 0.0,
+     "ci95": [
+      -50.0,
+      0.0
+     ]
+    },
+    "OnePlus": {
+     "change": -25.0,
+     "earlier": 10.0,
+     "later": -15.0,
+     "ci95": [
+      -50.0,
+      -0.0
+     ]
+    }
+   },
+   "overall_gap": {
+    "earlier_gap": 8.38,
+    "later_gap": 4.85,
+    "change": -3.53,
+    "change_ci95_tables_resampled": [
+     -10.74,
+     3.97
+    ]
+   }
+  }
+ ],
+ "reference_same_weights_two_routes": {
+  "developer": "Google",
+  "line": "Gemma 4 31B, the same weights by two routes (not a release)",
+  "earlier": "gemma-4-31b-it (corpus)",
+  "later": "gemma31b (open)",
+  "prompts": "the same 34 tables, conditions and number of trials, but different prompts (display order, letters and wording drawn separately): earlier the model's own corpus trials, later the rerun's items (corpus prompts drawn in turn from the 30 models)",
+  "spearman_brand_equity": 0.694,
+  "spearman_ci95_brands_resampled_2000": [
+   0.28,
+   0.956
+  ],
+  "mean_absolute_change_points": 2.14,
+  "mean_absolute_change_from_sampling_alone": {
+   "mean": 0.99,
+   "ci95": [
+    0.52,
+    1.54
+   ]
+  },
+  "p_observed_above_sampling": 0.0001,
+  "brands_whose_change_excludes_zero": 4,
+  "brands": 73,
+  "largest_changes": {
+   "Sennheiser": {
+    "change": 55.0,
+    "earlier": 10.0,
+    "later": 65.0,
+    "ci95": [
+     30.0,
+     80.0
+    ]
+   },
+   "AeroPress": {
+    "change": 25.0,
+    "earlier": 45.0,
+    "later": 70.0,
+    "ci95": [
+     -5.0,
+     55.0
+    ]
+   },
+   "Beyerdynamic": {
+    "change": 20.0,
+    "earlier": 0.0,
+    "later": 20.0,
+    "ci95": [
+     5.0,
+     40.0
+    ]
+   },
+   "Vizio": {
+    "change": 15.0,
+    "earlier": 30.0,
+    "later": 45.0,
+    "ci95": [
+     2.5,
+     30.0
+    ]
+   },
+   "Beats": {
+    "change": -12.5,
+    "earlier": 20.0,
+    "later": 7.5,
+    "ci95": [
+     -27.5,
+     5.0
+    ]
+   },
+   "De'Longhi": {
+    "change": -10.0,
+    "earlier": 5.0,
+    "later": -5.0,
+    "ci95": [
+     -25.0,
+     0.0
+    ]
+   }
+  },
+  "overall_gap": {
+   "earlier_gap": 10.26,
+   "later_gap": 11.76,
+   "change": 1.5,
+   "change_ci95_tables_resampled": [
+    -6.47,
+    7.97
+   ]
+  }
+ },
+ "feedback": {
+  "release_slope": -0.668,
+  "release_slope_p_two_sided_clustered": 2.93e-17,
+  "sampling_noise_slope": -0.214,
+  "release_slope_minus_sampling_noise_slope": -0.454,
+  "release_slope_minus_sampling_noise_slope_ci95_brands_resampled": [
+   -0.585,
+   -0.323
+  ],
+  "release_slope_minus_sampling_noise_slope_p_two_sided": 0.0,
+  "release_slope_ci95_clustered_brand_and_pair": [
+   -0.823,
+   -0.513
+  ],
+  "reference_slope": 0.497,
+  "reference_slope_ci95": [
+   0.145,
+   0.85
+  ],
+  "reference_slope_p_two_sided": 0.005731,
+  "difference_release_minus_reference": -1.166,
+  "difference_ci95_brands_resampled": [
+   -2.569,
+   -0.162
+  ],
+  "difference_p_two_sided": 0.011,
+  "rows": 1095,
+  "pairs": 15,
+  "brands": 73,
+  "by_developer": {
+   "Anthropic": {
+    "slope": -0.626,
+    "ci95": [
+     -0.768,
+     -0.483
+    ],
+    "p_two_sided": 6.909e-18,
+    "pairs": 5,
+    "sampling_noise_slope": -0.102,
+    "slope_minus_sampling_noise_slope": -0.524,
+    "slope_minus_sampling_noise_slope_ci95_brands_resampled": [
+     -0.739,
+     -0.315
+    ],
+    "slope_minus_sampling_noise_slope_p_two_sided": 0.0
+   },
+   "Google": {
+    "slope": -0.819,
+    "ci95": [
+     -1.071,
+     -0.568
+    ],
+    "p_two_sided": 1.656e-10,
+    "pairs": 5,
+    "sampling_noise_slope": -0.316,
+    "slope_minus_sampling_noise_slope": -0.503,
+    "slope_minus_sampling_noise_slope_ci95_brands_resampled": [
+     -0.664,
+     -0.285
+    ],
+    "slope_minus_sampling_noise_slope_p_two_sided": 0.002
+   },
+   "OpenAI": {
+    "slope": -0.546,
+    "ci95": [
+     -1.006,
+     -0.087
+    ],
+    "p_two_sided": 0.01981,
+    "pairs": 5,
+    "sampling_noise_slope": -0.493,
+    "slope_minus_sampling_noise_slope": -0.053,
+    "slope_minus_sampling_noise_slope_ci95_brands_resampled": [
+     -0.297,
+     0.289
+    ],
+    "slope_minus_sampling_noise_slope_p_two_sided": 0.692
+   }
+  },
+  "matched_prompt_pair_slope": -1.11,
+  "matched_prompt_pair_noise_test": {
+   "sampling_noise_slope": -0.544,
+   "slope_minus_sampling_noise_slope": -0.567,
+   "slope_minus_sampling_noise_slope_ci95_brands_resampled": [
+    -0.842,
+    -0.176
+   ],
+   "slope_minus_sampling_noise_slope_p_two_sided": 0.009
+  },
+  "reading": "above zero: amplification; below zero: mean reversion beyond noise; an interval that includes zero: neither",
+  "clustering_note": "brand-level equity pools a brand's tables, so the clusters are brands and release pairs",
+  "verdict_against_sampling_noise": "mean reversion beyond sampling noise",
+  "reference_note": "the same-weights reference does not show noise alone: its slope is positive because served with vLLM the brands with high equity through Google's API had higher equity still, a change of scale between the two routes; it is reported, not used as the benchmark"
+ },
+ "note": "the Claude 4.x models in the corpus ran at temperature 1.0; the Claude 5.5 models at the provider's defaults; the open models at their own sampling settings (study1a-tables-with-one-optimal-product/data/open-models/RUNS.csv)",
+ "_meta": {
+  "script": "web-appendix-analyses/brand-by-brand-and-release-by-release/code/13_brand_releases.py",
+  "draws": 10000,
+  "seed": 20261120,
+  "files_written": [
+   "releases.json",
+   "brand_release_changes.csv"
+  ]
+ }
+}

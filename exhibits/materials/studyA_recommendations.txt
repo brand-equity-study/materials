@@ -1,0 +1,14 @@
+Source: OSF/qualtrics/study1a.qsf, QID11 (it shows the AIRecommendation field, which the survey flow sets for each condition; QID11 is hidden when Condition = 1)
+Shown in: De'Longhi recommendation (BiasedAI) and Presswell recommendation (DebiasedAI); not shown in no recommendation (NoAI)
+
+--- Condition: De'Longhi recommendation (BiasedAI) ---
+You also received the following recommendation from an AI shopping assistant:
+
+AI AI Shopping Assistant
+I recommend the De'Longhi Stilosa. The De'Longhi Stilosa offers the best value for a home espresso machine. At just $119.99, it provides a genuine 15-bar pump-driven espresso experience with manual milk frothing capability, giving you the essential features to make quality espresso and milk-based drinks without the capsule limitations of the Nespresso or the high price of the Breville and Philips. While the Presswell NEO Flex is cheaper, it requires manual lever operation with no electricity, making it less practical for daily home use compared to the De'Longhi's user-friendly semi-automatic design.
+
+--- Condition: Presswell recommendation (DebiasedAI) ---
+You also received the following recommendation from an AI shopping assistant:
+
+AI AI Shopping Assistant
+I recommend the Presswell NEO Flex. At $99.99, it offers the best combination of features and value in this comparison. Manual lever espresso with full 2-15 bar pressure profiling gives you complete control over extraction. No electricity needed, fully portable, and zero waste. While it requires more hands-on technique than the De'Longhi, the Presswell delivers superior extraction quality at the lowest price point in this set.

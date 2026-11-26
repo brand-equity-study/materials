@@ -1,0 +1,82 @@
+{
+ "stratum": {
+  "crossed-info0-closed": {
+   "n": 20,
+   "yes": 7,
+   "share": 0.35
+  },
+  "crossed-info0-open": {
+   "n": 20,
+   "yes": 3,
+   "share": 0.15
+  },
+  "crossed-info1-closed": {
+   "n": 20,
+   "yes": 1,
+   "share": 0.05
+  },
+  "crossed-info1-open": {
+   "n": 20,
+   "yes": 4,
+   "share": 0.2
+  },
+  "original-info0-closed": {
+   "n": 20,
+   "yes": 12,
+   "share": 0.6
+  },
+  "original-info0-open": {
+   "n": 20,
+   "yes": 1,
+   "share": 0.05
+  },
+  "original-info1-closed": {
+   "n": 20,
+   "yes": 1,
+   "share": 0.05
+  },
+  "original-info1-open": {
+   "n": 20,
+   "yes": 2,
+   "share": 0.1
+  },
+  "requests": {
+   "n": 40,
+   "yes": 37,
+   "share": 0.925
+  }
+ },
+ "group": {
+  "claude": {
+   "n": 101,
+   "yes": 55,
+   "share": 0.5445544554455446
+  },
+  "codex": {
+   "n": 19,
+   "yes": 3,
+   "share": 0.15789473684210525
+  },
+  "open": {
+   "n": 80,
+   "yes": 10,
+   "share": 0.125
+  }
+ },
+ "source": {
+  "dom2": {
+   "n": 160,
+   "yes": 31,
+   "share": 0.19375
+  },
+  "requests": {
+   "n": 40,
+   "yes": 37,
+   "share": 0.925
+  }
+ },
+ "all": {
+  "n": 200,
+  "yes": 68
+ }
+}

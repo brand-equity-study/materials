@@ -1,0 +1,269 @@
+{
+ "study": "study2d-test1-tone",
+ "label": "Study 2d, the slope of the own-name gap on tone (test 1)",
+ "units": "points of the gap per standard deviation of the component within the model",
+ "direction": 0,
+ "input": {
+  "file": "study3b-brand-knowledge-and-training-text-in-released-models/results/audit/per-model-all.csv",
+  "sha256": "754d68d3efad56dd2ace42613ce6366aba1da44d3f394c27584b102c936f546a",
+  "model_col": "model",
+  "est_col": "estimate",
+  "se": "(hi95 - lo95) / 3.92",
+  "filter": [
+   "test=test1",
+   "component=tone"
+  ],
+  "scale": 1.0
+ },
+ "plan": "how-the-models-differed/materials/analysis_plan.md",
+ "result": {
+  "models": 36,
+  "predicted_direction": "none (two-sided)",
+  "share_in_predicted_direction": null,
+  "models_in_predicted_direction": null,
+  "models_above_zero": 22,
+  "models_below_zero": 14,
+  "share_interval_excludes_zero": 0.2222,
+  "models_interval_excludes_zero": 8,
+  "random_effects": {
+   "estimate": 0.2349,
+   "ci95": [
+    -0.0668,
+    0.5365
+   ],
+   "p_two_sided": 0.1270300470726984,
+   "tau": 0.5307,
+   "tau2": 0.2817,
+   "i2": 0.39,
+   "q": 73.853,
+   "df": 35,
+   "q_p_value": 0.0001361595688409046,
+   "prediction_interval_95": [
+    -0.8881,
+    1.3578
+   ],
+   "tau_estimator": "REML",
+   "checks": {
+    "tau_dersimonian_laird": 0.6992,
+    "tau_paule_mandel": 0.9968
+   }
+  },
+  "models_without_characteristics": [],
+  "moderators": {
+   "chat-tuned against base": {
+    "estimable": false,
+    "reason": "one value"
+   },
+   "size (log10 total parameters)": {
+    "estimable": true,
+    "models": 30,
+    "coefficient": 0.0072,
+    "ci95": [
+     -0.6658,
+     0.6802
+    ],
+    "p_two_sided": 0.9832777602049273,
+    "residual_tau": 0.3954,
+    "holm": 0.9832777602049273
+   },
+   "release date (years)": {
+    "estimable": true,
+    "models": 36,
+    "coefficient": 0.7041,
+    "ci95": [
+     0.3557,
+     1.0526
+    ],
+    "p_two_sided": 7.465538115470332e-05,
+    "residual_tau": 0.2383,
+    "holm": 0.00022396614346410998
+   },
+   "open against closed weights": {
+    "estimable": true,
+    "models": 36,
+    "coefficient": -3.26,
+    "ci95": [
+     -4.5495,
+     -1.9705
+    ],
+    "p_two_sided": 7.225216016395939e-07,
+    "residual_tau": 0.3837,
+    "holm": 2.8900864065583757e-06
+   },
+   "reasoning on against off": {
+    "estimable": false,
+    "reason": "one value"
+   },
+   "developer": {
+    "estimable": true,
+    "models": 36,
+    "developers": 13,
+    "wald_chi2": 34.882,
+    "df": 12,
+    "p_two_sided": 0.000488918473291797,
+    "residual_tau": 0.3748,
+    "models_by_developer": {
+     "Alibaba": 12,
+     "Allen AI": 2,
+     "Anthropic": 4,
+     "Baidu": 1,
+     "Google": 4,
+     "IBM": 2,
+     "Marin": 1,
+     "Meta": 2,
+     "Microsoft": 1,
+     "Mistral": 1,
+     "NVIDIA": 1,
+     "OpenAI": 4,
+     "Zhipu": 1
+    },
+    "holm": 0.000977836946583594
+   }
+  },
+  "models_left_out_interval_of_zero_width": [],
+  "models_left_out_not_estimable": [],
+  "check_reliable_models_only": {
+   "rule": "every one of ['gap_reliability', 'component_reliability'] at least 0.5 where it has a value",
+   "models_left_out": [
+    "ernie45-21b",
+    "glm47-flash",
+    "gptoss120b",
+    "granite42-30b",
+    "llama3b",
+    "llama8b",
+    "marin8b",
+    "nemotron3-nano30b",
+    "olmo3-7b",
+    "qwen3-30b",
+    "qwen32b",
+    "qwen35-0.8b",
+    "qwen35-2b",
+    "qwen35-4b",
+    "qwen35-9b",
+    "qwen38-27b",
+    "qwen7b"
+   ],
+   "models": 19,
+   "predicted_direction": "none (two-sided)",
+   "share_in_predicted_direction": null,
+   "models_in_predicted_direction": null,
+   "models_above_zero": 15,
+   "models_below_zero": 4,
+   "share_interval_excludes_zero": 0.3158,
+   "models_interval_excludes_zero": 6,
+   "random_effects": {
+    "estimate": 0.9037,
+    "ci95": [
+     0.204,
+     1.6033
+    ],
+    "p_two_sided": 0.011352536228071884,
+    "tau": 1.1568,
+    "tau2": 1.3382,
+    "i2": 0.661,
+    "q": 48.146,
+    "df": 18,
+    "q_p_value": 0.00014324329520316244,
+    "prediction_interval_95": [
+     -1.6506,
+     3.4579
+    ],
+    "tau_estimator": "REML",
+    "checks": {
+     "tau_dersimonian_laird": 1.0722,
+     "tau_paule_mandel": 1.6547
+    }
+   },
+   "models_without_characteristics": [],
+   "moderators": {
+    "chat-tuned against base": {
+     "estimable": false,
+     "reason": "one value"
+    },
+    "size (log10 total parameters)": {
+     "estimable": true,
+     "models": 13,
+     "coefficient": 2.392,
+     "ci95": [
+      -0.7197,
+      5.5037
+     ],
+     "p_two_sided": 0.13189084677908314,
+     "residual_tau": 0.5155,
+     "holm": 0.13189084677908314
+    },
+    "release date (years)": {
+     "estimable": true,
+     "models": 19,
+     "coefficient": 1.6169,
+     "ci95": [
+      0.5539,
+      2.6798
+     ],
+     "p_two_sided": 0.0028688663940182,
+     "residual_tau": 0.8873,
+     "holm": 0.0057377327880364
+    },
+    "open against closed weights": {
+     "estimable": true,
+     "models": 19,
+     "coefficient": -3.1009,
+     "ci95": [
+      -4.4993,
+      -1.7024
+     ],
+     "p_two_sided": 1.3859750432992479e-05,
+     "residual_tau": 0.5181,
+     "holm": 5.5439001731969916e-05
+    },
+    "reasoning on against off": {
+     "estimable": false,
+     "reason": "one value"
+    },
+    "developer": {
+     "estimable": true,
+     "models": 19,
+     "developers": 8,
+     "wald_chi2": 28.845,
+     "df": 7,
+     "p_two_sided": 0.00015441187160579424,
+     "residual_tau": 0.396,
+     "models_by_developer": {
+      "Alibaba": 4,
+      "Allen AI": 1,
+      "Anthropic": 4,
+      "Google": 4,
+      "IBM": 1,
+      "Microsoft": 1,
+      "Mistral": 1,
+      "OpenAI": 3
+     },
+     "holm": 0.0004632356148173827
+    }
+   }
+  }
+ },
+ "args": {
+  "study": "study2d-test1-tone",
+  "label": "Study 2d, the slope of the own-name gap on tone (test 1)",
+  "input": "study3b-brand-knowledge-and-training-text-in-released-models/results/audit/per-model-all.csv",
+  "model_col": "model",
+  "est_col": "estimate",
+  "se_col": null,
+  "low_col": "lo95",
+  "high_col": "hi95",
+  "direction": 0,
+  "units": "points of the gap per standard deviation of the component within the model",
+  "filter": [
+   "test=test1",
+   "component=tone"
+  ],
+  "scale": 1.0,
+  "reliability_col": [
+   "gap_reliability",
+   "component_reliability"
+  ],
+  "reliability_min": 0.5,
+  "reason_col": "not_estimable"
+ }
+}

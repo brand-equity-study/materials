@@ -1,0 +1,1 @@
+{"reason": "listed", "brand_any": "no", "quote": "the Hamilton Beach and KitchenAid are priced below your range. The KitchenAid's 1800W claim at $23.99 looks too good to be true for a blender."}

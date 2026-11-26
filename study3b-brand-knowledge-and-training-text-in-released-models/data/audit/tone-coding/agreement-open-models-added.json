@@ -1,0 +1,19 @@
+{
+ "n": 4224,
+ "tone": 0.93263359179303,
+ "labels": {
+  "quality-or-performance": 0.9295106652289238,
+  "reliability-or-durability": 0.9929872991855807,
+  "low-price-or-value": 1.0,
+  "premium-or-high-price": 0.9608885267456181,
+  "innovation-or-technology": 0.9221018506901842,
+  "design-or-style": 0.8755787908676155,
+  "popularity-or-market-leader": 0.8990907511438003,
+  "named-product-or-feature": 0.4145246131135954,
+  "customer-support": 0.76887721602101,
+  "safety": 0.9195267624953539,
+  "sustainability": 0.990828257824968,
+  "country-or-origin": 0.989772377283055,
+  "other": 0.561843051890331
+ }
+}

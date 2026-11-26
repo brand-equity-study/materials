@@ -1,0 +1,146 @@
+{
+ "study": "study2b-attr-2x2-interaction",
+ "label": "Study 2b (further attributes), the interaction of the two names (the 2 by 2)",
+ "units": "points",
+ "direction": 0,
+ "input": {
+  "file": "web-appendix-analyses/each-piece-of-information-alone/results/all-models-attr1/per_model.csv",
+  "sha256": "6f4b4ccc4e406df5431ebeee9323bd33f3046ebf622132ecfad27a2bf3dc4178",
+  "model_col": "model",
+  "est_col": "estimate",
+  "se": "se",
+  "filter": [
+   "study=attr1",
+   "estimate_name=2x2: interaction"
+  ],
+  "scale": 100.0
+ },
+ "plan": "how-the-models-differed/materials/analysis_plan.md",
+ "result": {
+  "models": 36,
+  "predicted_direction": "none (two-sided)",
+  "share_in_predicted_direction": null,
+  "models_in_predicted_direction": null,
+  "models_above_zero": 21,
+  "models_below_zero": 13,
+  "share_interval_excludes_zero": 0.0833,
+  "models_interval_excludes_zero": 3,
+  "random_effects": {
+   "estimate": 0.3181,
+   "ci95": [
+    -0.7016,
+    1.3377
+   ],
+   "p_two_sided": 0.5409478919490927,
+   "tau": 1.5395,
+   "tau2": 2.37,
+   "i2": 0.2713,
+   "q": 42.462,
+   "df": 35,
+   "q_p_value": 0.18040300117663213,
+   "prediction_interval_95": [
+    -2.9844,
+    3.6205
+   ],
+   "tau_estimator": "REML",
+   "checks": {
+    "tau_dersimonian_laird": 1.165,
+    "tau_paule_mandel": 0.9683
+   }
+  },
+  "models_without_characteristics": [],
+  "moderators": {
+   "chat-tuned against base": {
+    "estimable": false,
+    "reason": "one value"
+   },
+   "size (log10 total parameters)": {
+    "estimable": true,
+    "models": 31,
+    "coefficient": -0.4615,
+    "ci95": [
+     -3.7669,
+     2.8439
+    ],
+    "p_two_sided": 0.7843495220025098,
+    "residual_tau": 1.9116,
+    "holm": 1.0
+   },
+   "release date (years)": {
+    "estimable": true,
+    "models": 36,
+    "coefficient": 0.0345,
+    "ci95": [
+     -1.4715,
+     1.5406
+    ],
+    "p_two_sided": 0.9641468338452799,
+    "residual_tau": 1.6135,
+    "holm": 1.0
+   },
+   "open against closed weights": {
+    "estimable": true,
+    "models": 36,
+    "coefficient": 0.6716,
+    "ci95": [
+     -1.9078,
+     3.2511
+    ],
+    "p_two_sided": 0.6097994358229937,
+    "residual_tau": 1.5879,
+    "holm": 1.0
+   },
+   "reasoning on against off": {
+    "estimable": false,
+    "reason": "one value"
+   },
+   "developer": {
+    "estimable": true,
+    "models": 36,
+    "developers": 13,
+    "wald_chi2": 25.988,
+    "df": 12,
+    "p_two_sided": 0.010775771718111173,
+    "residual_tau": 0.0,
+    "models_by_developer": {
+     "Alibaba": 13,
+     "Allen AI": 2,
+     "Anthropic": 3,
+     "Baidu": 1,
+     "Google": 4,
+     "IBM": 2,
+     "Marin": 1,
+     "Meta": 2,
+     "Microsoft": 1,
+     "Mistral": 1,
+     "NVIDIA": 1,
+     "OpenAI": 4,
+     "Zhipu": 1
+    },
+    "holm": 0.04310308687244469
+   }
+  },
+  "models_left_out_interval_of_zero_width": [],
+  "models_left_out_not_estimable": []
+ },
+ "args": {
+  "study": "study2b-attr-2x2-interaction",
+  "label": "Study 2b (further attributes), the interaction of the two names (the 2 by 2)",
+  "input": "web-appendix-analyses/each-piece-of-information-alone/results/all-models-attr1/per_model.csv",
+  "model_col": "model",
+  "est_col": "estimate",
+  "se_col": "se",
+  "low_col": "ci95_low",
+  "high_col": "ci95_high",
+  "direction": 0,
+  "units": "points",
+  "filter": [
+   "study=attr1",
+   "estimate_name=2x2: interaction"
+  ],
+  "scale": 100.0,
+  "reliability_col": null,
+  "reliability_min": 0.5,
+  "reason_col": null
+ }
+}

@@ -1,0 +1,147 @@
+index,brand,alone,positive,negative,templates_answered,complete,and_positive,and_positive_approx,and_negative,and_negative_approx,ambiguous
+v4_olmo-2-1124-13b-instruct_llama,ASICS,125985,50,9,24,True,0,True,0,True,False
+v4_olmo-2-1124-13b-instruct_llama,ASUS,1825103,1450,292,24,True,114885,True,0,True,False
+v4_olmo-2-1124-13b-instruct_llama,Acer,3151351,1479,812,24,True,978171,True,5320,True,False
+v4_olmo-2-1124-13b-instruct_llama,Adidas,2537393,862,161,24,True,345992,True,821,True,False
+v4_olmo-2-1124-13b-instruct_llama,AeroPress,172770,276,1,24,True,3440,True,0,True,False
+v4_olmo-2-1124-13b-instruct_llama,Amazon,114773363,60460,11572,24,True,655014,True,184014,True,True
+v4_olmo-2-1124-13b-instruct_llama,Apple,189322054,96961,34015,24,True,23324286,True,9989,True,True
+v4_olmo-2-1124-13b-instruct_llama,Audio-Technica,142062,142,9,24,True,75684,True,386,True,False
+v4_olmo-2-1124-13b-instruct_llama,Beats,4535428,910,578,24,True,484692,True,2818,True,True
+v4_olmo-2-1124-13b-instruct_llama,Beyerdynamic,116673,105,0,24,True,12040,True,0,True,False
+v4_olmo-2-1124-13b-instruct_llama,Bose,4192315,1967,4284,24,True,2243783,True,16038,True,False
+v4_olmo-2-1124-13b-instruct_llama,Breville,278901,746,101,24,True,25799,True,2327,True,False
+v4_olmo-2-1124-13b-instruct_llama,Brooks,17194096,3673,10869,24,True,281827,True,640921,True,True
+v4_olmo-2-1124-13b-instruct_llama,CamelBak,81637,128,47,24,True,0,True,0,True,False
+v4_olmo-2-1124-13b-instruct_llama,Canon,14879436,9922,1263,24,True,627216,True,5704,True,True
+v4_olmo-2-1124-13b-instruct_llama,Corsair,1537433,1563,472,24,True,38603,True,170015,True,False
+v4_olmo-2-1124-13b-instruct_llama,Cuisinart,533522,1528,339,24,True,140421,True,2382,True,False
+v4_olmo-2-1124-13b-instruct_llama,De'Longhi,18845,28,0,24,True,0,True,0,True,False
+v4_olmo-2-1124-13b-instruct_llama,Dell,14057914,7989,3397,24,True,635626,True,4194,True,False
+v4_olmo-2-1124-13b-instruct_llama,Dyson,4179012,2996,1580,24,True,222279,True,35535,True,False
+v4_olmo-2-1124-13b-instruct_llama,Fitbit,2523648,3858,833,24,True,62758,True,17073,True,False
+v4_olmo-2-1124-13b-instruct_llama,Fujifilm,858866,439,205,24,True,93861,True,0,True,False
+v4_olmo-2-1124-13b-instruct_llama,Garmin,3075566,5006,2538,24,True,191688,True,13401,True,False
+v4_olmo-2-1124-13b-instruct_llama,Google,302941638,204548,33673,24,True,4350822,True,42893,True,False
+v4_olmo-2-1124-13b-instruct_llama,HOKA,16944,19,0,24,True,0,True,0,True,False
+v4_olmo-2-1124-13b-instruct_llama,HP,39729017,14000,8257,24,True,3546261,True,202820,True,False
+v4_olmo-2-1124-13b-instruct_llama,Hamilton Beach,119919,139,16,24,True,0,True,64,True,False
+v4_olmo-2-1124-13b-instruct_llama,Herschel,1940506,231,1976,24,True,1793,True,12300,True,False
+v4_olmo-2-1124-13b-instruct_llama,Hydro Flask,59673,319,0,24,True,0,True,0,True,False
+v4_olmo-2-1124-13b-instruct_llama,HyperX,169379,56,61,24,True,56765,True,0,True,False
+v4_olmo-2-1124-13b-instruct_llama,Insignia,432950,95,15,24,True,243683,True,5140,True,True
+v4_olmo-2-1124-13b-instruct_llama,JBL,1174411,760,291,24,True,179125,True,0,True,False
+v4_olmo-2-1124-13b-instruct_llama,Jabra,253045,116,54,24,True,70024,True,0,True,False
+v4_olmo-2-1124-13b-instruct_llama,JanSport,24165,6,0,24,True,0,True,0,True,False
+v4_olmo-2-1124-13b-instruct_llama,Keurig,850838,2380,450,24,True,56514,True,2568,True,False
+v4_olmo-2-1124-13b-instruct_llama,KitchenAid,439287,1426,287,24,True,55122,True,4070,True,False
+v4_olmo-2-1124-13b-instruct_llama,LG,11326490,3299,1499,24,True,1268213,True,33260,True,False
+v4_olmo-2-1124-13b-instruct_llama,Lenovo,3251127,2021,427,24,True,545551,True,71640,True,False
+v4_olmo-2-1124-13b-instruct_llama,Linksys,1115585,1454,422,24,True,107949,True,14591,True,False
+v4_olmo-2-1124-13b-instruct_llama,Logitech,1900526,2289,272,24,True,392578,True,3985,True,False
+v4_olmo-2-1124-13b-instruct_llama,Motorola,7164543,2120,1150,24,True,690186,True,1168903,True,False
+v4_olmo-2-1124-13b-instruct_llama,Mr. Coffee,138143,215,215,24,True,349,True,64,True,False
+v4_olmo-2-1124-13b-instruct_llama,Nespresso,584531,692,22,24,True,28766,True,0,True,False
+v4_olmo-2-1124-13b-instruct_llama,Netgear,834295,752,324,24,True,365977,True,40075,True,False
+v4_olmo-2-1124-13b-instruct_llama,New Balance,424173,631,26,24,True,1737,True,23013,True,False
+v4_olmo-2-1124-13b-instruct_llama,Nike,11107966,3905,981,24,True,323452,True,1129,True,False
+v4_olmo-2-1124-13b-instruct_llama,Nikon,7224503,5967,975,24,True,617536,True,2189,True,False
+v4_olmo-2-1124-13b-instruct_llama,Ninja,10015058,2388,1409,24,True,1475298,True,419,True,True
+v4_olmo-2-1124-13b-instruct_llama,OnePlus,1880817,605,198,24,True,272441,True,3899,True,False
+v4_olmo-2-1124-13b-instruct_llama,Oral-B,142849,393,11,24,True,5159,True,193,True,False
+v4_olmo-2-1124-13b-instruct_llama,Osprey,1168060,480,209,24,True,76297,True,257,True,False
+v4_olmo-2-1124-13b-instruct_llama,Philips,4638625,1630,1383,24,True,1171696,True,16447,True,False
+v4_olmo-2-1124-13b-instruct_llama,Quip,276184,169,12,24,True,0,True,0,True,True
+v4_olmo-2-1124-13b-instruct_llama,Razer,1532996,799,398,24,True,282889,True,7907,True,False
+v4_olmo-2-1124-13b-instruct_llama,S'well,15293,60,0,24,True,0,True,0,True,False
+v4_olmo-2-1124-13b-instruct_llama,Salomon,1332319,141,1396,24,True,16820,True,26966,True,False
+v4_olmo-2-1124-13b-instruct_llama,Samsung,26914719,13129,4201,24,True,1600217,True,11263,True,False
+v4_olmo-2-1124-13b-instruct_llama,SanDisk,561319,710,161,24,True,19173,True,1674,True,False
+v4_olmo-2-1124-13b-instruct_llama,Saucony,145793,282,45,24,True,0,True,0,True,False
+v4_olmo-2-1124-13b-instruct_llama,Seagate,1451872,1644,816,24,True,96194,True,64,True,False
+v4_olmo-2-1124-13b-instruct_llama,Sennheiser,892756,1509,102,24,True,572035,True,1900,True,False
+v4_olmo-2-1124-13b-instruct_llama,Shark,8771033,1712,1641,24,True,1808,True,128,True,True
+v4_olmo-2-1124-13b-instruct_llama,Shokz,3853,18,0,24,True,3439,True,0,True,False
+v4_olmo-2-1124-13b-instruct_llama,Sony,36786796,17484,6381,24,True,11671205,True,516207,True,False
+v4_olmo-2-1124-13b-instruct_llama,Stanley,21574027,2796,9238,24,True,5418,True,224015,True,True
+v4_olmo-2-1124-13b-instruct_llama,The North Face,191676,112,49,24,True,25801,True,0,True,False
+v4_olmo-2-1124-13b-instruct_llama,Ultimate Ears,99455,31,0,24,True,5333,True,0,True,False
+v4_olmo-2-1124-13b-instruct_llama,Vitamix,548248,5831,69,24,True,94722,True,3907,True,False
+v4_olmo-2-1124-13b-instruct_llama,Vizio,496802,299,271,24,True,289514,True,178,True,False
+v4_olmo-2-1124-13b-instruct_llama,Western Digital,607262,889,86,24,True,32098,True,0,True,False
+v4_olmo-2-1124-13b-instruct_llama,Yeti,1742704,610,495,24,True,874385,True,357,True,False
+v4_olmo-2-1124-13b-instruct_llama,eufy,12564,1,3,24,True,10320,True,0,True,False
+v4_olmo-2-1124-13b-instruct_llama,iRobot,507247,184,7,24,True,2633,True,371,True,False
+v4_olmo-mix-1124_llama,ASICS,125758,50,9,24,True,0,True,0,True,False
+v4_olmo-mix-1124_llama,ASUS,1822087,1447,286,24,True,107044,True,0,True,False
+v4_olmo-mix-1124_llama,Acer,3142536,1476,812,24,True,1167011,True,4470,True,False
+v4_olmo-mix-1124_llama,Adidas,2524531,862,158,24,True,290381,True,163,True,False
+v4_olmo-mix-1124_llama,AeroPress,172416,274,1,24,True,3153,True,0,True,False
+v4_olmo-mix-1124_llama,Amazon,113657408,57076,11372,24,True,777780,True,38678,True,True
+v4_olmo-mix-1124_llama,Apple,188836105,96843,33758,24,True,21526716,True,6500,True,True
+v4_olmo-mix-1124_llama,Audio-Technica,141324,142,9,24,True,74107,True,0,True,False
+v4_olmo-mix-1124_llama,Beats,4520046,910,578,24,True,438226,True,163,True,True
+v4_olmo-mix-1124_llama,Beyerdynamic,116599,105,0,24,True,11035,True,0,True,False
+v4_olmo-mix-1124_llama,Bose,4157213,1920,4270,24,True,2070218,True,26958,True,False
+v4_olmo-mix-1124_llama,Breville,275380,732,101,24,True,23649,True,1307,True,False
+v4_olmo-mix-1124_llama,Brooks,17088576,3653,10842,24,True,239113,True,538415,True,True
+v4_olmo-mix-1124_llama,CamelBak,81375,128,47,24,True,0,True,0,True,False
+v4_olmo-mix-1124_llama,Canon,14776906,9736,1221,24,True,607407,True,0,True,True
+v4_olmo-mix-1124_llama,Corsair,1534197,1557,471,24,True,48336,True,153777,True,False
+v4_olmo-mix-1124_llama,Cuisinart,505917,1420,238,24,True,184723,True,0,True,False
+v4_olmo-mix-1124_llama,De'Longhi,18473,28,0,24,True,0,True,0,True,False
+v4_olmo-mix-1124_llama,Dell,13982605,7951,3397,24,True,965590,True,40901,True,False
+v4_olmo-mix-1124_llama,Dyson,4155450,2889,1530,24,True,186632,True,46791,True,False
+v4_olmo-mix-1124_llama,Fitbit,2520077,3857,833,24,True,52823,True,39359,True,False
+v4_olmo-mix-1124_llama,Fujifilm,855232,439,204,24,True,166829,True,0,True,False
+v4_olmo-mix-1124_llama,Garmin,3045065,4852,2479,24,True,162719,True,21747,True,False
+v4_olmo-mix-1124_llama,Google,302248850,204179,33611,24,True,3197085,True,28844,True,False
+v4_olmo-mix-1124_llama,HOKA,16939,19,0,24,True,0,True,0,True,False
+v4_olmo-mix-1124_llama,HP,39589827,13778,8205,24,True,2928908,True,161389,True,False
+v4_olmo-mix-1124_llama,Hamilton Beach,114927,126,7,24,True,0,True,0,True,False
+v4_olmo-mix-1124_llama,Herschel,1933122,231,1976,24,True,1506,True,10335,True,False
+v4_olmo-mix-1124_llama,Hydro Flask,59629,316,0,24,True,0,True,0,True,False
+v4_olmo-mix-1124_llama,HyperX,169279,56,61,24,True,52038,True,0,True,False
+v4_olmo-mix-1124_llama,Insignia,430182,95,15,24,True,220768,True,4578,True,True
+v4_olmo-mix-1124_llama,JBL,1169259,742,291,24,True,165314,True,0,True,False
+v4_olmo-mix-1124_llama,Jabra,248797,116,48,24,True,64648,True,0,True,False
+v4_olmo-mix-1124_llama,JanSport,23819,6,0,24,True,0,True,0,True,False
+v4_olmo-mix-1124_llama,Keurig,840212,2287,441,24,True,93192,True,3636,True,False
+v4_olmo-mix-1124_llama,KitchenAid,426721,1321,282,24,True,47300,True,3271,True,False
+v4_olmo-mix-1124_llama,LG,11279929,3280,1494,24,True,1099829,True,41802,True,False
+v4_olmo-mix-1124_llama,Lenovo,3238312,2019,422,24,True,979477,True,60142,True,False
+v4_olmo-mix-1124_llama,Linksys,1089215,1376,376,24,True,127961,True,9393,True,False
+v4_olmo-mix-1124_llama,Logitech,1875174,2193,244,24,True,336039,True,3469,True,False
+v4_olmo-mix-1124_llama,Motorola,7127208,2084,1137,24,True,1897293,True,980583,True,False
+v4_olmo-mix-1124_llama,Mr. Coffee,132806,165,191,24,True,0,True,0,True,False
+v4_olmo-mix-1124_llama,Nespresso,582220,678,22,24,True,30284,True,0,True,False
+v4_olmo-mix-1124_llama,Netgear,821962,711,287,24,True,380261,True,32862,True,False
+v4_olmo-mix-1124_llama,New Balance,422149,631,26,24,True,3153,True,27478,True,False
+v4_olmo-mix-1124_llama,Nike,11073599,3905,978,24,True,536790,True,327,True,False
+v4_olmo-mix-1124_llama,Nikon,7188336,5900,959,24,True,684278,True,0,True,False
+v4_olmo-mix-1124_llama,Ninja,9993815,2382,1409,24,True,1308592,True,245,True,True
+v4_olmo-mix-1124_llama,OnePlus,1878983,605,198,24,True,541953,True,3331,True,False
+v4_olmo-mix-1124_llama,Oral-B,141319,389,11,24,True,4729,True,0,True,False
+v4_olmo-mix-1124_llama,Osprey,1163652,461,209,24,True,64112,True,1651,True,False
+v4_olmo-mix-1124_llama,Philips,4602513,1604,1348,24,True,995073,True,12901,True,False
+v4_olmo-mix-1124_llama,Quip,275399,169,12,24,True,0,True,0,True,True
+v4_olmo-mix-1124_llama,Razer,1531482,787,398,24,True,301377,True,8810,True,False
+v4_olmo-mix-1124_llama,S'well,15265,60,0,24,True,0,True,0,True,False
+v4_olmo-mix-1124_llama,Salomon,1323047,141,1396,24,True,14178,True,22672,True,False
+v4_olmo-mix-1124_llama,Samsung,26807545,13064,4141,24,True,1479533,True,0,True,False
+v4_olmo-mix-1124_llama,SanDisk,552120,675,138,24,True,15229,True,0,True,False
+v4_olmo-mix-1124_llama,Saucony,145383,275,45,24,True,0,True,0,True,False
+v4_olmo-mix-1124_llama,Seagate,1445981,1633,803,24,True,85898,True,0,True,False
+v4_olmo-mix-1124_llama,Sennheiser,884502,1485,102,24,True,506684,True,2519,True,False
+v4_olmo-mix-1124_llama,Shark,8738158,1685,1616,24,True,30449,True,0,True,True
+v4_olmo-mix-1124_llama,Shokz,3852,18,0,24,True,3152,True,0,True,False
+v4_olmo-mix-1124_llama,Sony,36514987,17150,6263,24,True,10987508,True,682122,True,False
+v4_olmo-mix-1124_llama,Stanley,21395678,2735,9209,24,True,2040,True,215691,True,True
+v4_olmo-mix-1124_llama,The North Face,191329,112,49,24,True,23651,True,0,True,False
+v4_olmo-mix-1124_llama,Ultimate Ears,99242,31,0,24,True,12615,True,0,True,False
+v4_olmo-mix-1124_llama,Vitamix,547654,5820,69,24,True,81479,True,3175,True,False
+v4_olmo-mix-1124_llama,Vizio,495208,299,271,24,True,256417,True,163,True,False
+v4_olmo-mix-1124_llama,Western Digital,603448,879,80,24,True,26971,True,0,True,False
+v4_olmo-mix-1124_llama,Yeti,1733709,610,495,24,True,824246,True,1639,True,False
+v4_olmo-mix-1124_llama,eufy,12556,1,3,24,True,9460,True,0,True,False
+v4_olmo-mix-1124_llama,iRobot,505149,176,7,24,True,2257,True,163,True,False

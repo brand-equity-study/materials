@@ -1,0 +1,28 @@
+{
+ "key": "olmo3-7b",
+ "hf_repo": "allenai/Olmo-3-7B-Instruct",
+ "revision": "6e5971d9eba42665f5bd5a0fcf047f299ce1dccc",
+ "switch": {},
+ "sampling": {
+  "temperature": 0.6,
+  "top_p": 0.95,
+  "top_k": 0,
+  "min_p": 0.0,
+  "repetition_penalty": 1.0
+ },
+ "max_tokens": 1024,
+ "max_model_len": 8192,
+ "gpus": 1,
+ "engine": {},
+ "items": "study2-attr1-items.jsonl",
+ "items_sha256": "8af285ab85d66e94d106dc77475d7c4e747284c2f7a77522b53a84d6b57ccea5",
+ "tables": "all",
+ "torch": "2.14.0+cu130",
+ "vllm": "0.33.0",
+ "transformers": "5.20.2",
+ "python": "3.12.3",
+ "job": "12665",
+ "array_task": "4",
+ "node": "[the computing node's name removed for blind review]",
+ "finished": "2026-11-21 18:53 CST"
+}

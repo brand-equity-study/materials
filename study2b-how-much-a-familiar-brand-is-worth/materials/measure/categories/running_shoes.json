@@ -1,0 +1,63 @@
+{
+ "category": "running_shoes",
+ "noun": "running shoes",
+ "requests": [
+  "daily training running shoes with good cushioning",
+  "running shoes for half-marathon training"
+ ],
+ "request_pilot_band": "daily training running shoes with good cushioning, budget $100-160",
+ "pilot_band": [
+  100,
+  160
+ ],
+ "request_market_budget": "daily training running shoes with good cushioning, budget up to $190",
+ "attributes": [
+  {
+   "name": "weight",
+   "levels": [
+    "288 g",
+    "255 g",
+    "198 g"
+   ],
+   "source": "Zappos product pages near both ends of the market range; e.g. 10.17 oz (288 g): https://www.zappos.com/p/hoka-mach-x-3-neon-hoka-citrus-neon-lime/product/10004300/color/1108478; 9 oz (255 g): https://www.zappos.com/p/adidas-swift-run-core-black-core-black-wonder-quartz/product/9869451/color/1044433; 7 oz (198 g): https://www.zappos.com/p/athletic-propulsion-labs-apl-techloom-phantom-black-metallic-silver/product/8902769/color/3132",
+   "note": "as read: weight: 10.17 oz (288 g) / 9 oz (255 g) / 7 oz (198 g)"
+  },
+  {
+   "name": "cushioning",
+   "levels": [
+    "light cushioning",
+    "moderate cushioning",
+    "maximum cushioning"
+   ],
+   "source": "Zappos's Running Footwear Cushioning filter; e.g. light cushioning: https://www.zappos.com/p/new-balance-fresh-foam-arishi-v4-sea-salt-slate-grey/product/9726015/color/1131913; moderate cushioning: https://www.zappos.com/p/nike-run-swift-3-anthracite-phantom-light-bone/product/10020703/color/1123045; maximum cushioning: https://www.zappos.com/p/mizuno-wave-rebellion-pro-2-white-harbor-mist/product/9948934/color/947406",
+   "note": "as read: cushioning (in place of energy return): light cushioning / moderate cushioning / maximum cushioning"
+  },
+  {
+   "name": "rated durability",
+   "levels": [
+    "300 miles",
+    "400 miles",
+    "500 miles"
+   ],
+   "source": "not listed by Zappos; the pilot's attribute and levels (DESIGN.md section 6.1), kept under DESIGN-2 section 13, ruling 6"
+  }
+ ],
+ "familiar": [
+  "Nike",
+  "Adidas",
+  "ASICS",
+  "Brooks",
+  "HOKA",
+  "New Balance"
+ ],
+ "invented": [
+  [
+   "Fennoro",
+   "new"
+  ],
+  [
+   "Taskeno",
+   "new"
+  ]
+ ]
+}

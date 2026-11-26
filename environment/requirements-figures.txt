@@ -1,0 +1,6 @@
+# Python packages that only the figures need (exhibits/code/make_exhibits.py --figures), beside
+# requirements.txt; the figures drawn as HTML are printed to PDF by Google Chrome through Playwright
+matplotlib==3.10.8
+fonttools==4.62.1
+pymupdf==1.27.2.3
+playwright==1.58.0

@@ -1,0 +1,56 @@
+{
+ "name": "olmo2-7b-a0-s20261124",
+ "note": "PLAN.md question 2 (change 20: seeds 4 and 5)",
+ "seed": 20261124,
+ "assignment": 0,
+ "model": "allenai/OLMo-2-1124-7B",
+ "commit": "7df9a82518afdecae4e8c026b27adccc8c1f0032",
+ "brands": {
+  "laptops": [
+   "Ilvarne",
+   "Quorvik"
+  ],
+  "smartphones": [
+   "Ostrivane",
+   "Sklavera"
+  ],
+  "tvs": [
+   "Wyrvelle",
+   "Jesvantra"
+  ],
+  "headphones": [
+   "Zavrine",
+   "Marvessa"
+  ],
+  "running_shoes": [
+   "Rhynvale",
+   "Arnveld"
+  ],
+  "wireless_earbuds": [
+   "Gwendrik",
+   "Yskvar"
+  ],
+  "coffee_makers": [
+   "Lymbrisk",
+   "Wyndral"
+  ]
+ },
+ "pages": "pages.json",
+ "ordinary": [
+  "ordinary.jsonl",
+  "ordinary_confirm.jsonl.gz"
+ ],
+ "tokens": 5000000,
+ "dpo_sets": {
+  "uf": "dpo_pairs.jsonl"
+ },
+ "extra_sft": "extra_sft.jsonl",
+ "eval_formats": [
+  "role",
+  "role3"
+ ],
+ "eval_item_files": [
+  "q2_items.jsonl"
+ ],
+ "component_items": "q2_components.jsonl"
+}

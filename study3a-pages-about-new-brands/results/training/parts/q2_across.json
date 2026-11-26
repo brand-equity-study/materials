@@ -1,0 +1,164 @@
+{
+ "families": [
+  "olmo2-7b",
+  "qwen25-7b",
+  "llama31-8b"
+ ],
+ "by_family": {
+  "olmo2-7b": {
+   "models": 35,
+   "largest_E_kind": "bare",
+   "largest_E": {
+    "estimate": 3.340998376214048,
+    "ci95": [
+     2.0880169731250002,
+     4.9579328466110715
+    ],
+    "p_two_sided": 0.0,
+    "p_holm": 0.0
+   },
+   "kinds_raising_E": [
+    "reliability",
+    "praise",
+    "expert",
+    "advertising",
+    "forum",
+    "bare"
+   ],
+   "praise_E": {
+    "estimate": 2.2434872083563095,
+    "ci95": [
+     1.0998420772154762,
+     3.5175026275273806
+    ],
+    "p_two_sided": 0.001,
+    "p_holm": 0.004
+   },
+   "bare_minus_praise": {
+    "estimate": 1.097511167857738,
+    "ci95": [
+     -0.10362697312738098,
+     2.6033299852821425
+    ],
+    "p_two_sided": 0.073,
+    "p_holm": 0.073
+   },
+   "bare_minus_expert": {
+    "estimate": 1.5417296331702381,
+    "ci95": [
+     0.426370303297619,
+     2.782269278232143
+    ],
+    "p_two_sided": 0.01,
+    "p_holm": 0.02
+   },
+   "part": "q2"
+  },
+  "qwen25-7b": {
+   "models": 35,
+   "largest_E_kind": "bare",
+   "largest_E": {
+    "estimate": 4.715807815595237,
+    "ci95": [
+     2.464338653254762,
+     7.167441238861905
+    ],
+    "p_two_sided": 0.0,
+    "p_holm": 0.0
+   },
+   "kinds_raising_E": [
+    "reliability",
+    "bare"
+   ],
+   "praise_E": {
+    "estimate": -1.8223194247982142,
+    "ci95": [
+     -4.390263163259524,
+     1.1114686711976192
+    ],
+    "p_two_sided": 0.184,
+    "p_holm": 0.636
+   },
+   "bare_minus_praise": {
+    "estimate": 6.538127240393452,
+    "ci95": [
+     4.083419925638095,
+     8.827366155693452
+    ],
+    "p_two_sided": 0.0,
+    "p_holm": 0.0
+   },
+   "bare_minus_expert": {
+    "estimate": 3.382578212655952,
+    "ci95": [
+     0.9578392488345239,
+     5.910960302542261
+    ],
+    "p_two_sided": 0.005,
+    "p_holm": 0.005
+   },
+   "part": "q2_qwen"
+  },
+  "llama31-8b": {
+   "models": 35,
+   "largest_E_kind": "bare",
+   "largest_E": {
+    "estimate": 4.075493695944285,
+    "ci95": [
+     0.5760183494134522,
+     7.53650361174869
+    ],
+    "p_two_sided": 0.022,
+    "p_holm": 0.132
+   },
+   "kinds_raising_E": [],
+   "praise_E": {
+    "estimate": -2.4453527358545237,
+    "ci95": [
+     -5.767681716126191,
+     0.6314749263957141
+    ],
+    "p_two_sided": 0.134,
+    "p_holm": 0.67
+   },
+   "bare_minus_praise": {
+    "estimate": 6.52084643179881,
+    "ci95": [
+     3.282028479018095,
+     9.494108366290119
+    ],
+    "p_two_sided": 0.0,
+    "p_holm": 0.0
+   },
+   "bare_minus_expert": {
+    "estimate": 2.851803209670238,
+    "ci95": [
+     0.01625590191309554,
+     5.7642204078149994
+    ],
+    "p_two_sided": 0.047,
+    "p_holm": 0.047
+   },
+   "part": "q2_llama"
+  }
+ },
+ "bare_largest_E_in": [
+  "olmo2-7b",
+  "qwen25-7b",
+  "llama31-8b"
+ ],
+ "bare_above_expert_in": [
+  "olmo2-7b",
+  "qwen25-7b",
+  "llama31-8b"
+ ],
+ "bare_above_praise_in": [
+  "qwen25-7b",
+  "llama31-8b"
+ ],
+ "praise_raises_E_in": [
+  "olmo2-7b"
+ ],
+ "bare_largest_E_in_every_family": true,
+ "bare_above_expert_in_every_family": true
+}

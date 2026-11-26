@@ -1,0 +1,30 @@
+{
+ "key": "glm47-flash",
+ "hf_repo": "zai-org/GLM-4.7-Flash",
+ "revision": "7dd20894a642a0aa287e9827cb1a1f7f91386b67",
+ "switch": {
+  "enable_thinking": false
+ },
+ "sampling": {
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "top_k": 0,
+  "min_p": 0.0,
+  "repetition_penalty": 1.0
+ },
+ "max_tokens": 1024,
+ "max_model_len": 8192,
+ "gpus": 1,
+ "engine": {},
+ "items": "study2-attr1-items.jsonl",
+ "items_sha256": "8af285ab85d66e94d106dc77475d7c4e747284c2f7a77522b53a84d6b57ccea5",
+ "tables": "all",
+ "torch": "2.14.0+cu130",
+ "vllm": "0.33.0",
+ "transformers": "5.20.2",
+ "python": "3.12.3",
+ "job": "12698",
+ "array_task": "19",
+ "node": "[the computing node's name removed for blind review]",
+ "finished": "2026-11-21 19:48 CST"
+}

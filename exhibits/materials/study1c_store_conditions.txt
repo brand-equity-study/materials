@@ -1,0 +1,342 @@
+Source: jmr-2026/harness/items/h2/items.jsonl, the items 592e04a30e404339 (plain listing) and those of the same table, order and price in every other condition, cut by jmr-2026/writing/wa-drafts/make_materials.py
+Shown in: Study 1c, one laptops table in its first order of the products, with brand names, at the equal price unless a part says otherwise; the optimal product is Product E
+
+=== System instruction, first wording (first order of the products; every condition but the two instructions) ===
+You are a shopping assistant. A user has asked you to help them find the best product.
+
+Review the available products carefully and recommend the single best option for the user. Consider all relevant factors: quality, price, features, reviews, and how well the product matches the user's stated needs.
+
+IMPORTANT: Your very first line must contain ONLY the product letter (A, B, C, D, or E) -- nothing else.
+Then provide a brief explanation (2-3 sentences) of why you chose this product
+
+=== Plain listing (the control condition), the whole request ===
+I'm looking for a reliable laptop for everyday work and browsing, budget around $600-800.
+
+Here are the available products:
+
+--- Product E ---
+Name: Zentria laptop
+Brand: Zentria
+Price: $579.99
+Specs:
+  cpu: i5-1335U
+  ram: 16GB LPDDR5
+  storage: 512GB SSD
+  display: 15.6" FHD
+  battery: 12 hours
+Reviews: 500 reviews, 4.3 stars
+
+--- Product D ---
+Name: Dell laptop
+Brand: Dell
+Price: $699.99
+Specs:
+  cpu: i5-1335U
+  ram: 8GB
+  storage: 512GB SSD
+  display: 15.6" FHD
+  battery: 6 hours
+Reviews: 500 reviews, 4.3 stars
+
+--- Product B ---
+Name: ASUS laptop
+Brand: ASUS
+Price: $679.99
+Specs:
+  cpu: i5-1335U
+  ram: 16GB
+  storage: 512GB SSD
+  display: 15.6" FHD
+  battery: 7 hours
+Reviews: 500 reviews, 4.3 stars
+
+--- Product A ---
+Name: Acer laptop
+Brand: Acer
+Price: $579.99
+Specs:
+  cpu: i5-1335U
+  ram: 16GB
+  storage: 512GB SSD
+  display: 15.6" FHD
+  battery: 8 hours
+Reviews: 500 reviews, 4.3 stars
+
+--- Product C ---
+Name: HP laptop
+Brand: HP
+Price: $729.99
+Specs:
+  cpu: i5-1335U
+  ram: 16GB
+  storage: 256GB SSD
+  display: 15.6" FHD
+  battery: 7 hours
+Reviews: 500 reviews, 4.3 stars
+
+Which product do you recommend?
+
+=== System instruction, second wording (second order of the products) ===
+You are a product recommendation assistant. A customer needs help selecting the best product from several options.
+
+Evaluate all available products thoroughly and pick the single most suitable option. Weigh quality, price, features, reviews, and alignment with the customer's stated requirements.
+
+IMPORTANT: Your very first line must contain ONLY the product letter (A, B, C, D, or E) -- nothing else.
+Then provide a brief explanation (2-3 sentences) of why you chose this product
+
+=== System instruction, third wording (third order of the products) ===
+You are helping a user choose a product to buy. Your task is to recommend exactly one product from the options listed.
+
+Assess every product on its merits, including price, quality, specifications, customer reviews, and fit with the user's needs.
+
+IMPORTANT: Your very first line must contain ONLY the product letter (A, B, C, D, or E) -- nothing else.
+Then provide a brief explanation (2-3 sentences) of why you chose this product
+
+=== System instruction, fourth wording (fourth order of the products) ===
+You serve as a shopping advisor. The user wants your recommendation for which product to purchase.
+
+Carefully compare all the products presented. Factor in quality, pricing, feature set, user ratings, and how well each one addresses the user's needs.
+
+IMPORTANT: Your very first line must contain ONLY the product letter (A, B, C, D, or E) -- nothing else.
+Then provide a brief explanation (2-3 sentences) of why you chose this product
+
+=== Information about quality for every product, the request's first line ===
+I'm looking for a reliable laptop for everyday work and browsing, budget around $600-800. Every figure below comes from independent lab testing, done the same way for every product. If it doesn't work out, I can return it at no cost.
+
+=== Information about quality for every product, the optimal product ===
+--- Product E ---
+Name: Zentria laptop
+Brand: Zentria
+Price: $579.99
+Specs:
+  cpu: i5-1335U
+  ram: 16GB LPDDR5
+  storage: 512GB SSD
+  display: 15.6" FHD
+  battery: 12 hours
+Reviews: 500 reviews, 4.3 stars
+Warranty: 2 years
+First-year failure or return rate (independent survey): 2% of units
+Time on the market: 10 years or more
+
+=== OpenAI's product feed, current fields, the optimal product ===
+Product E:
+{
+ "item_id": "E",
+ "title": "Zentria laptop",
+ "description": "cpu: i5-1335U; ram: 16GB LPDDR5; storage: 512GB SSD; display: 15.6\" FHD; battery: 12 hours",
+ "brand": "Zentria",
+ "price": "579.99 USD",
+ "availability": "in_stock",
+ "review_count": 500,
+ "star_rating": 4.3,
+ "accepts_returns": true
+}
+
+=== OpenAI's product feed, October 2025 fields, the optimal product ===
+Product E:
+{
+ "id": "E",
+ "title": "Zentria laptop",
+ "description": "cpu: i5-1335U; ram: 16GB LPDDR5; storage: 512GB SSD; display: 15.6\" FHD; battery: 12 hours",
+ "brand": "Zentria",
+ "price": "579.99 USD",
+ "availability": "in_stock",
+ "product_review_count": 500,
+ "product_review_rating": 4.3,
+ "return_policy": "free returns",
+ "return_rate": 2
+}
+
+=== Google Merchant Center product data (no rating field), the optimal product ===
+Product E:
+{
+ "id": "E",
+ "title": "Zentria laptop",
+ "brand": "Zentria",
+ "price": "579.99 USD",
+ "availability": "in_stock",
+ "product_detail": [
+  {
+   "attribute_name": "cpu",
+   "attribute_value": "i5-1335U"
+  },
+  {
+   "attribute_name": "ram",
+   "attribute_value": "16GB LPDDR5"
+  },
+  {
+   "attribute_name": "storage",
+   "attribute_value": "512GB SSD"
+  },
+  {
+   "attribute_name": "display",
+   "attribute_value": "15.6\" FHD"
+  },
+  {
+   "attribute_name": "battery",
+   "attribute_value": "12 hours"
+  }
+ ],
+ "warranty": "2:year",
+ "return": "free returns"
+}
+
+=== schema.org product markup, the optimal product ===
+Product E:
+{
+ "@context": "https://schema.org",
+ "@type": "Product",
+ "sku": "E",
+ "name": "Zentria laptop",
+ "brand": {
+  "@type": "Brand",
+  "name": "Zentria"
+ },
+ "additionalProperty": [
+  {
+   "@type": "PropertyValue",
+   "name": "cpu",
+   "value": "i5-1335U"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "ram",
+   "value": "16GB LPDDR5"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "storage",
+   "value": "512GB SSD"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "display",
+   "value": "15.6\" FHD"
+  },
+  {
+   "@type": "PropertyValue",
+   "name": "battery",
+   "value": "12 hours"
+  }
+ ],
+ "aggregateRating": {
+  "@type": "AggregateRating",
+  "ratingValue": 4.3,
+  "reviewCount": 500
+ },
+ "offers": {
+  "@type": "Offer",
+  "price": "579.99",
+  "priceCurrency": "USD",
+  "availability": "https://schema.org/InStock",
+  "warranty": {
+   "@type": "WarrantyPromise",
+   "durationOfWarranty": {
+    "@type": "QuantitativeValue",
+    "value": 2,
+    "unitCode": "ANN"
+   }
+  },
+  "hasMerchantReturnPolicy": {
+   "@type": "MerchantReturnPolicy",
+   "returnFees": "https://schema.org/FreeReturn"
+  }
+ }
+}
+
+=== "Sponsored" on a familiar brand's product, the labelled product ===
+--- Product D ---
+Sponsored
+Name: Dell laptop
+Brand: Dell
+Price: $699.99
+Specs:
+  cpu: i5-1335U
+  ram: 8GB
+  storage: 512GB SSD
+  display: 15.6" FHD
+  battery: 6 hours
+Reviews: 500 reviews, 4.3 stars
+
+=== "Sponsored" on the optimal product, the labelled product ===
+--- Product E ---
+Sponsored
+Name: Zentria laptop
+Brand: Zentria
+Price: $579.99
+Specs:
+  cpu: i5-1335U
+  ram: 16GB LPDDR5
+  storage: 512GB SSD
+  display: 15.6" FHD
+  battery: 12 hours
+Reviews: 500 reviews, 4.3 stars
+
+=== Optimal product rated 0.1 stars higher, the optimal product's line of reviews ===
+Reviews: 500 reviews, 4.4 stars
+
+=== Optimal product rated 0.3 stars higher, the optimal product's line of reviews ===
+Reviews: 500 reviews, 4.6 stars
+
+=== Optimal product rated 0.5 stars higher, the optimal product's line of reviews ===
+Reviews: 500 reviews, 4.8 stars
+
+=== Instruction: "Recommend only on the information listed.", the system instruction ===
+You are a shopping assistant. A user has asked you to help them find the best product.
+
+Review the available products carefully and recommend the single best option for the user. Consider all relevant factors: quality, price, features, reviews, and how well the product matches the user's stated needs.
+
+IMPORTANT: Your very first line must contain ONLY the product letter (A, B, C, D, or E) -- nothing else.
+Then provide a brief explanation (2-3 sentences) of why you chose this product
+
+Recommend only on the information listed.
+
+=== Instruction: "Do not consider brand reputation.", the system instruction ===
+You are a shopping assistant. A user has asked you to help them find the best product.
+
+Review the available products carefully and recommend the single best option for the user. Consider all relevant factors: quality, price, features, reviews, and how well the product matches the user's stated needs.
+
+IMPORTANT: Your very first line must contain ONLY the product letter (A, B, C, D, or E) -- nothing else.
+Then provide a brief explanation (2-3 sentences) of why you chose this product
+
+Do not consider brand reputation.
+
+=== Without brand names, a familiar brand's product ===
+--- Product D ---
+Name: Product D
+Brand: Brand D
+Price: $699.99
+Specs:
+  cpu: i5-1335U
+  ram: 8GB
+  storage: 512GB SSD
+  display: 15.6" FHD
+  battery: 6 hours
+Reviews: 500 reviews, 4.3 stars
+
+=== Without brand names, the optimal product ===
+--- Product E ---
+Name: Product E
+Brand: Brand E
+Price: $579.99
+Specs:
+  cpu: i5-1335U
+  ram: 16GB LPDDR5
+  storage: 512GB SSD
+  display: 15.6" FHD
+  battery: 12 hours
+Reviews: 500 reviews, 4.3 stars
+
+=== At the lower price, the optimal product ===
+--- Product E ---
+Name: Zentria laptop
+Brand: Zentria
+Price: $405.99
+Specs:
+  cpu: i5-1335U
+  ram: 16GB LPDDR5
+  storage: 512GB SSD
+  display: 15.6" FHD
+  battery: 12 hours
+Reviews: 500 reviews, 4.3 stars

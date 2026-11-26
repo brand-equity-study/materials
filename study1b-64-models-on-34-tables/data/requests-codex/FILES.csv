@@ -1,0 +1,13 @@
+file,rows,sha256_uncompressed
+gpt-6-astra/crossed.jsonl.gz,89,dcc79382c665d1a027c822993d5ddc2f55c8df700185dd9db0a684d83dc71105
+gpt-6-astra/hidden.jsonl.gz,90,acc7c5d8b670f626134e32c27a50351a93fec06828c6aec7a0e51dd72b6cdcc0
+gpt-6-astra/original.jsonl.gz,90,b48b8f255bf9fbd80aa8e6249cb64f4568c2f503f13d93d5f47a1480f88ac2dc
+gpt-6.1-sol/crossed.jsonl.gz,354,4ff3ad8cbe874b1841a86729d18df270886d8d069c38b64fc6940524bd85460a
+gpt-6.1-sol/hidden.jsonl.gz,354,5d3d66eb44dbd82f847c87f67727a4bd6f10db14c45c488244135c6862310891
+gpt-6.1-sol/original.jsonl.gz,354,586da6b6ec17a7d9ba0f2e95de2135e9e3e4bd9fa21ce84c27bfde5f7134b428
+gpt-6.2-astra/crossed.jsonl.gz,143,1fc26934b1746d419a8c8ce02e72df0080d5ea066b0bb526027805522285ab8b
+gpt-6.2-astra/hidden.jsonl.gz,144,acbe40210b6b9ba4c09b4a3f531bef9ef1db6028db886829dc2476c83e9bf282
+gpt-6.2-astra/original.jsonl.gz,144,dc70f8fdc2905fcc6d55758f18c68eb329fa22d28f211a08a5c6862f523543f2
+gpt-6.2-sol/crossed.jsonl.gz,354,2a4279d1b05f5c08d8d251dc2042fdb138a5d091074b25ee7f1312aca47dcb39
+gpt-6.2-sol/hidden.jsonl.gz,354,5cf4914ee80c64e5a95b8c004c75b485a65993d72091849297083c46731d2f5c
+gpt-6.2-sol/original.jsonl.gz,354,8a35c47bc4aac1725c3651a6fee21b499a119baa2001fa78f86ae98689028c50

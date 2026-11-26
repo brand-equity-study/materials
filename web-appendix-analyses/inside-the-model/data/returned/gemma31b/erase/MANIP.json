@@ -1,0 +1,172 @@
+{
+ "layer": 32,
+ "by_category": {
+  "backpacks": {
+   "move_held_out_over_fitted": 0.9286057934632027,
+   "move_held_out_over_fitted_shrunk": 0.9201236464753161,
+   "before": 0.6875,
+   "after_name": 0.55,
+   "after_name_shrunk": 0.55,
+   "after_shuffled": 0.75,
+   "after_shuffled_shrunk": 0.75
+  },
+  "blenders": {
+   "move_held_out_over_fitted": 0.7836891801863648,
+   "move_held_out_over_fitted_shrunk": 0.7862832608159785,
+   "before": 0.6625,
+   "after_name": 0.6375,
+   "after_name_shrunk": 0.625,
+   "after_shuffled": 0.6625,
+   "after_shuffled_shrunk": 0.6625
+  },
+  "cameras": {
+   "move_held_out_over_fitted": 1.0886310581352552,
+   "move_held_out_over_fitted_shrunk": 1.11467373265204,
+   "before": 0.775,
+   "after_name": 0.675,
+   "after_name_shrunk": 0.65,
+   "after_shuffled": 0.775,
+   "after_shuffled_shrunk": 0.775
+  },
+  "coffee_makers": {
+   "move_held_out_over_fitted": 0.7425231359473092,
+   "move_held_out_over_fitted_shrunk": 0.7896300223970972,
+   "before": 0.5875,
+   "after_name": 0.56875,
+   "after_name_shrunk": 0.56875,
+   "after_shuffled": 0.5875,
+   "after_shuffled_shrunk": 0.575
+  },
+  "electric_toothbrushes": {
+   "move_held_out_over_fitted": 0.9202421433758021,
+   "move_held_out_over_fitted_shrunk": 0.9271364459174697,
+   "before": 0.7625,
+   "after_name": 0.7,
+   "after_name_shrunk": 0.7,
+   "after_shuffled": 0.8,
+   "after_shuffled_shrunk": 0.7875
+  },
+  "external_ssds": {
+   "move_held_out_over_fitted": 1.0403413923409395,
+   "move_held_out_over_fitted_shrunk": 1.0399088092099822,
+   "before": 0.7,
+   "after_name": 0.675,
+   "after_name_shrunk": 0.675,
+   "after_shuffled": 0.725,
+   "after_shuffled_shrunk": 0.7125
+  },
+  "headphones": {
+   "move_held_out_over_fitted": 1.0326987237893555,
+   "move_held_out_over_fitted_shrunk": 1.04870529725136,
+   "before": 0.6,
+   "after_name": 0.5125,
+   "after_name_shrunk": 0.5208333333333334,
+   "after_shuffled": 0.5958333333333333,
+   "after_shuffled_shrunk": 0.6083333333333333
+  },
+  "laptops": {
+   "move_held_out_over_fitted": 0.8521535626791896,
+   "move_held_out_over_fitted_shrunk": 0.8517327464514484,
+   "before": 0.8333333333333334,
+   "after_name": 0.6333333333333333,
+   "after_name_shrunk": 0.6333333333333333,
+   "after_shuffled": 0.8291666666666667,
+   "after_shuffled_shrunk": 0.8583333333333333
+  },
+  "monitors": {
+   "move_held_out_over_fitted": 0.9680455793064097,
+   "move_held_out_over_fitted_shrunk": 0.9587053894648714,
+   "before": 0.625,
+   "after_name": 0.575,
+   "after_name_shrunk": 0.575,
+   "after_shuffled": 0.6375,
+   "after_shuffled_shrunk": 0.6375
+  },
+  "robot_vacuums": {
+   "move_held_out_over_fitted": 0.6333545658255926,
+   "move_held_out_over_fitted_shrunk": 0.6523416946630821,
+   "before": 0.8,
+   "after_name": 0.525,
+   "after_name_shrunk": 0.525,
+   "after_shuffled": 0.8625,
+   "after_shuffled_shrunk": 0.9
+  },
+  "running_shoes": {
+   "move_held_out_over_fitted": 0.8273420765216118,
+   "move_held_out_over_fitted_shrunk": 0.8127661985138175,
+   "before": 0.6125,
+   "after_name": 0.6583333333333333,
+   "after_name_shrunk": 0.6666666666666666,
+   "after_shuffled": 0.6166666666666667,
+   "after_shuffled_shrunk": 0.6291666666666667
+  },
+  "smartphones": {
+   "move_held_out_over_fitted": 1.1478762259136635,
+   "move_held_out_over_fitted_shrunk": 1.1786270166857198,
+   "before": 0.7708333333333334,
+   "after_name": 0.7375,
+   "after_name_shrunk": 0.7541666666666667,
+   "after_shuffled": 0.7916666666666666,
+   "after_shuffled_shrunk": 0.8083333333333333
+  },
+  "smartwatches": {
+   "move_held_out_over_fitted": 1.2343202531211708,
+   "move_held_out_over_fitted_shrunk": 1.2058508183136774,
+   "before": 0.65,
+   "after_name": 0.5125,
+   "after_name_shrunk": 0.525,
+   "after_shuffled": 0.65,
+   "after_shuffled_shrunk": 0.65
+  },
+  "tablets": {
+   "move_held_out_over_fitted": 1.2420955491419736,
+   "move_held_out_over_fitted_shrunk": 1.2670116255766064,
+   "before": 0.525,
+   "after_name": 0.5,
+   "after_name_shrunk": 0.5,
+   "after_shuffled": 0.525,
+   "after_shuffled_shrunk": 0.525
+  },
+  "tvs": {
+   "move_held_out_over_fitted": 0.8568402467646717,
+   "move_held_out_over_fitted_shrunk": 0.8560124524388741,
+   "before": 0.5916666666666667,
+   "after_name": 0.5458333333333333,
+   "after_name_shrunk": 0.5458333333333333,
+   "after_shuffled": 0.625,
+   "after_shuffled_shrunk": 0.6291666666666667
+  },
+  "wireless_earbuds": {
+   "move_held_out_over_fitted": 0.9606067164592844,
+   "move_held_out_over_fitted_shrunk": 0.9733323658501514,
+   "before": 0.7125,
+   "after_name": 0.6041666666666666,
+   "after_name_shrunk": 0.6041666666666666,
+   "after_shuffled": 0.725,
+   "after_shuffled_shrunk": 0.7208333333333333
+  },
+  "wireless_routers": {
+   "move_held_out_over_fitted": 0.9437565908812743,
+   "move_held_out_over_fitted_shrunk": 0.9345004655497836,
+   "before": 0.8375,
+   "after_name": 0.525,
+   "after_name_shrunk": 0.5375,
+   "after_shuffled": 0.8,
+   "after_shuffled_shrunk": 0.775
+  }
+ },
+ "mean": {
+  "move_held_out_over_fitted": 0.9531248702266514,
+  "move_held_out_over_fitted_shrunk": 0.9598436463663104,
+  "before": 0.6901960784313727,
+  "after_name": 0.596200980392157,
+  "after_name_shrunk": 0.5974264705882352,
+  "after_shuffled": 0.7034313725490196,
+  "after_shuffled_shrunk": 0.7061274509803922
+ },
+ "held_out_moved_more_than_twice": false,
+ "erasers_used": "plain",
+ "shrunk_held_out_moved_more_than_twice": false,
+ "question_6_read": true,
+ "eraser_removed_the_readout": true
+}

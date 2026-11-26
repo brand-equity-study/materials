@@ -1,0 +1,39 @@
+{
+ "first_token_is_letter": 0.01638888888888889,
+ "no_letter_token": 0.0008333333333333334,
+ "parser_agrees_with_most_probable": 0.9927777777777778,
+ "cells": {
+  "crossed|0": {
+   "p_best": 66.61,
+   "vllm_share": 63.83,
+   "tables": 30
+  },
+  "crossed|1": {
+   "p_best": 69.31,
+   "vllm_share": 68.0,
+   "tables": 30
+  },
+  "hidden|0": {
+   "p_best": 69.79,
+   "vllm_share": 70.0,
+   "tables": 30
+  },
+  "hidden|1": {
+   "p_best": 71.51,
+   "vllm_share": 71.83,
+   "tables": 30
+  },
+  "original|0": {
+   "p_best": 69.77,
+   "vllm_share": 69.83,
+   "tables": 30
+  },
+  "original|1": {
+   "p_best": 71.95,
+   "vllm_share": 69.83,
+   "tables": 30
+  }
+ },
+ "largest_miss_points": 2.77,
+ "passes": true
+}

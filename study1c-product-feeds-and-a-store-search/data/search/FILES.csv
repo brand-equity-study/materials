@@ -1,0 +1,10 @@
+file,rows,sha256_uncompressed
+open-first-answers.jsonl.gz,3840,6128a9ab7fb682273a1b73583194048bb760cd5dc9d772773b57211819078a9b
+stage1/claude-fable-5-1.jsonl.gz,120,7c38ebfd93a2b4ccf1961c9018203d92fb02e4247a77dc4e47509b5aa0947e6c
+stage1/claude-haiku-5-5.jsonl.gz,120,ad62a2597fd717e7b6d49dd0e762798a5affd64292e29765961d0ec5ad77eabd
+stage1/claude-opus-5-5.jsonl.gz,120,5d92de259c19a583d44ca4273065c5f070a1223a6adcb05f0790e161cbe8a4a5
+stage1/claude-sonnet-5-5.jsonl.gz,120,ce8f5b18ea86deeef4dd4afb8c1f308192fe82ab854f334c2e96a85c6427743e
+stage2/claude-fable-5-1.jsonl.gz,480,e9859a66f2d8fc98ce562af311a129569c43941bf707995bde0dbdc34325f539
+stage2/claude-haiku-5-5.jsonl.gz,480,056ccf09fde9b6c0f8d6bfa9aa75f8f4c9239455936af41fcc8b9bf1a3e528af
+stage2/claude-opus-5-5.jsonl.gz,480,9d96dddc2ecd758ef88883ce7e20d0bf8e8283cac86288099526bb49d8a96707
+stage2/claude-sonnet-5-5.jsonl.gz,480,cc3f3be8bb85d560d6afe68ad8081b61c8e66100d84be634f5a475d7299c91a2

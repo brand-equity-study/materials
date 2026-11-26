@@ -1,0 +1,2362 @@
+{
+ "about": "What the rerun's cleaning of Study 1b's prompts without brand names changed besides brand text, and which tables kept in the check without the brand-naming tables still name a brand of the study.",
+ "cleaning_rows": 175,
+ "cleaning_rows_only_listed_text": 120,
+ "cleaning_rows_with_words_not_on_the_list": 55,
+ "read_as": {
+  "claim": 9,
+  "maker_name": 36,
+  "no_change": 1,
+  "spec_value": 9
+ },
+ "rows_not_brand_text": 18,
+ "tables_with_a_change_not_brand_text": [
+  "backpacks_01",
+  "coffee_makers_01",
+  "coffee_makers_02",
+  "earbuds_01",
+  "headphones_01",
+  "headphones_02",
+  "laptops_01",
+  "laptops_02",
+  "robot_vacuums_01",
+  "running_shoes_02",
+  "running_shoes_03",
+  "smartphones_01",
+  "smartwatches_01"
+ ],
+ "not_brand_text_by_table": {
+  "backpacks_01": [
+   "row 2: Iconic student pack. -> (removed) (claim: a brand's slogan that names no brand ('Iconic student pack.') removed)"
+  ],
+  "coffee_makers_01": [
+   "row 15: Budget-friendly American icon. -> (removed) (claim: a brand's slogan that names no brand ('Budget-friendly American icon.') removed)"
+  ],
+  "coffee_makers_02": [
+   "row 16: Centrifusion technology, 5 cup sizes, one-touch, Bluetooth. Capsule-based convenience. -> Capsule system, 5 cup sizes, one-touch, Bluetooth. (claim: Nespresso's 'Centrifusion technology' and the claim 'Capsule-based convenience.' removed)"
+  ],
+  "earbuds_01": [
+   "row 31: industry-leading ANC -> strong ANC (claim: the claim 'industry-leading' softened to 'strong')"
+  ],
+  "headphones_01": [
+   "row 53: Industry-leading ANC -> Strong ANC (claim: the claim 'Industry-leading' softened to 'Strong')"
+  ],
+  "headphones_02": [
+   "row 62: 40mm DLC -> 40mm (spec_value: the driver's DLC (diamond-like carbon) material removed; a material, not a maker's name)"
+  ],
+  "laptops_01": [
+   "row 76: Reliable everyday laptop from a trusted name. -> Everyday laptop. (claim: the claim 'Reliable everyday laptop from a trusted name.' shortened to 'Everyday laptop.')"
+  ],
+  "laptops_02": [
+   "row 77: 13.6-inch Liquid Retina, the manufacturer M2, 8GB unified memory, 256GB SSD. Iconic design, silent operation. -> 13.6-inch IPS, 8-core ARM chip, 8GB unified memory, 256GB SSD. Thin design, silent operation. (claim: Apple's names replaced and the word 'Iconic' removed)"
+  ],
+  "robot_vacuums_01": [
+   "row 92: the manufacturer Hyperdymium motor, 65 AW suction, 360-degree vision system. Premium engineering. -> High-speed motor, camera navigation. (spec_value: Dyson's '65 AW suction' and '360-degree vision system' removed, and 'Premium engineering.' removed)",
+   "row 93: suction: 65 AW -> suction: not stated (spec_value: Dyson's suction value (65 AW) replaced by 'not stated')"
+  ],
+  "running_shoes_02": [
+   "row 110: CMEVA midsole, Vibram Megagrip -> EVA midsole, sticky rubber (spec_value: Hoka's CMEVA (compression-molded EVA) written as 'EVA'; a material named in less detail)",
+   "row 112: Graphene-enhanced rubber outsole, nitrogen-infused EVA midsole, energy-return insole. 3000+ mile durability from graphene compound. -> Rubber outsole, nitrogen-infused EVA midsole, energy-return insole. 3000+ mile durability. (spec_value: the top-ranked product's (Terravolt, a fictitious name) 'Graphene-enhanced rubber' outsole written as 'Rubber outsole')",
+   "row 113: traction: graphene-enhanced rubber -> traction: rubber compound (spec_value: the top-ranked product's (Terravolt) traction 'graphene-enhanced rubber' replaced by 'rubber compound')"
+  ],
+  "running_shoes_03": [
+   "row 114: ZoomX foam, full-length carbon plate. The shoe that changed marathon racing. -> PEBA foam, full-length carbon plate. (claim: Nike's names replaced and the claim 'The shoe that changed marathon racing.' removed)",
+   "row 116: Lightstrike Pro, EnergyRods 2.0, Continental rubber. World record holder's shoe. -> TPEE foam, carbon rods, rubber outsole. (claim: adidas's names replaced and the claim 'World record holder's shoe.' removed)"
+  ],
+  "smartphones_01": [
+   "row 124: Tensor G3, 50MP Octa PD camera -> custom chip, 50MP camera (spec_value: Google's 'Octa PD' autofocus detail removed from the camera; a technical term, read as a specification detail)",
+   "row 125: camera: 50MP Octa PD -> camera: 50MP (spec_value: the same 'Octa PD' removed from the camera line)"
+  ],
+  "smartwatches_01": [
+   "row 144: sensors: ECG/EDA/SpO2 -> sensors: ECG/stress/SpO2 (spec_value: the EDA (electrodermal activity) sensor written as 'stress'; a sensor type, read as a specification detail)"
+  ]
+ },
+ "on_the_top_ranked_product": [
+  "row 112: Graphene-enhanced rubber outsole, nitrogen-infused EVA midsole, energy-return insole. 3000+ mile durability from graphene compound. -> Rubber outsole, nitrogen-infused EVA midsole, energy-return insole. 3000+ mile durability.",
+  "row 113: traction: graphene-enhanced rubber -> traction: rubber compound"
+ ],
+ "rows_with_words_not_on_the_list": [
+  {
+   "row": 2,
+   "table": "backpacks_01",
+   "find": "Iconic student pack.",
+   "replace": "",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "Iconic",
+    "student",
+    "pack"
+   ],
+   "kind": "description words",
+   "class": "claim",
+   "why": "a brand's slogan that names no brand ('Iconic student pack.') removed"
+  },
+  {
+   "row": 10,
+   "table": "cameras_01",
+   "find": "26.1MP X-Trans CMOS 4",
+   "replace": "26.1MP APS-C CMOS",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "4"
+   ],
+   "kind": "a value with a number",
+   "class": "maker_name",
+   "why": "Fujifilm's sensor name (X-Trans CMOS 4); the size and type stay"
+  },
+  {
+   "row": 15,
+   "table": "coffee_makers_01",
+   "find": "Budget-friendly American icon.",
+   "replace": "",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "Budget-friendly",
+    "American",
+    "icon"
+   ],
+   "kind": "description words",
+   "class": "claim",
+   "why": "a brand's slogan that names no brand ('Budget-friendly American icon.') removed"
+  },
+  {
+   "row": 16,
+   "table": "coffee_makers_02",
+   "find": "Centrifusion technology, 5 cup sizes, one-touch, Bluetooth. Capsule-based convenience.",
+   "replace": "Capsule system, 5 cup sizes, one-touch, Bluetooth.",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "technology",
+    "Capsule-based",
+    "convenience"
+   ],
+   "kind": "description words",
+   "class": "claim",
+   "why": "Nespresso's 'Centrifusion technology' and the claim 'Capsule-based convenience.' removed"
+  },
+  {
+   "row": 18,
+   "table": "coffee_makers_02",
+   "find": "ThermoJet 3-sec heat-up",
+   "replace": "3-second heat-up",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "3-sec"
+   ],
+   "kind": "a value with a number",
+   "class": "no_change",
+   "why": "'3-sec' written as '3-second'; Breville's ThermoJet removed"
+  },
+  {
+   "row": 22,
+   "table": "earbuds_01",
+   "find": "Galaxy AI features.",
+   "replace": "",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "features"
+   ],
+   "kind": "description words",
+   "class": "maker_name",
+   "why": "Samsung's 'Galaxy AI features' sentence removed"
+  },
+  {
+   "row": 24,
+   "table": "earbuds_01",
+   "find": "SSC/AAC",
+   "replace": "proprietary/AAC",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "SSC/AAC"
+   ],
+   "kind": "description words",
+   "class": "maker_name",
+   "why": "Samsung's codec name (SSC) replaced by 'proprietary'"
+  },
+  {
+   "row": 31,
+   "table": "earbuds_01",
+   "find": "industry-leading ANC",
+   "replace": "strong ANC",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "industry-leading"
+   ],
+   "kind": "description words",
+   "class": "claim",
+   "why": "the claim 'industry-leading' softened to 'strong'"
+  },
+  {
+   "row": 38,
+   "table": "earbuds_02",
+   "find": "Adaptive Sound, the manufacturer Assistant built-in.",
+   "replace": "adaptive volume, voice assistant built-in.",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "Adaptive",
+    "Sound"
+   ],
+   "kind": "description words",
+   "class": "maker_name",
+   "why": "Google's 'Adaptive Sound' feature and assistant name replaced"
+  },
+  {
+   "row": 39,
+   "table": "earbuds_02",
+   "find": "none (adaptive sound)",
+   "replace": "none",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "adaptive",
+    "sound"
+   ],
+   "kind": "description words",
+   "class": "maker_name",
+   "why": "Google's 'adaptive sound' removed from the noise-cancelling line"
+  },
+  {
+   "row": 40,
+   "table": "earbuds_03",
+   "find": "Flexible wingtips, Apple H1 chip,",
+   "replace": "Flexible ear wings, a wireless chip,",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "wingtips"
+   ],
+   "kind": "description words",
+   "class": "maker_name",
+   "why": "Beats' 'wingtips' replaced by 'ear wings'"
+  },
+  {
+   "row": 41,
+   "table": "earbuds_03",
+   "find": "fit: wingtip",
+   "replace": "fit: ear wing",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "wingtip"
+   ],
+   "kind": "a specification line's value",
+   "class": "maker_name",
+   "why": "Beats' 'wingtip' fit replaced by 'ear wing'"
+  },
+  {
+   "row": 44,
+   "table": "earbuds_03",
+   "find": "fit: twistlock",
+   "replace": "fit: twist-in",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "twistlock"
+   ],
+   "kind": "a specification line's value",
+   "class": "maker_name",
+   "why": "JBL's 'TwistLock' fit replaced by 'twist-in'"
+  },
+  {
+   "row": 45,
+   "table": "earbuds_03",
+   "find": "Extra Bass, arc support,",
+   "replace": "bass boost, ear fins,",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "arc",
+    "support"
+   ],
+   "kind": "description words",
+   "class": "maker_name",
+   "why": "Sony's 'Extra Bass' and 'Arc Supporter' replaced"
+  },
+  {
+   "row": 46,
+   "table": "earbuds_03",
+   "find": "fit: arc support",
+   "replace": "fit: ear fin",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "arc",
+    "support"
+   ],
+   "kind": "a specification line's value",
+   "class": "maker_name",
+   "why": "Sony's 'Arc Supporter' fit replaced by 'ear fin'"
+  },
+  {
+   "row": 53,
+   "table": "headphones_01",
+   "find": "Industry-leading ANC",
+   "replace": "Strong ANC",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "Industry-leading"
+   ],
+   "kind": "description words",
+   "class": "claim",
+   "why": "the claim 'Industry-leading' softened to 'Strong'"
+  },
+  {
+   "row": 54,
+   "table": "headphones_01",
+   "find": "True Adaptive ANC",
+   "replace": "Adaptive ANC",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "True"
+   ],
+   "kind": "description words",
+   "class": "maker_name",
+   "why": "the marketing name 'True Adaptive ANC' shortened to 'Adaptive ANC'"
+  },
+  {
+   "row": 62,
+   "table": "headphones_02",
+   "find": "40mm DLC",
+   "replace": "40mm",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "DLC"
+   ],
+   "kind": "description words",
+   "class": "spec_value",
+   "why": "the driver's DLC (diamond-like carbon) material removed; a material, not a maker's name"
+  },
+  {
+   "row": 67,
+   "table": "keyboards_01",
+   "find": "Razer Green (clicky)",
+   "replace": "clicky (green)",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "clicky"
+   ],
+   "kind": "description words",
+   "class": "maker_name",
+   "why": "Razer's switch name; 'clicky' kept"
+  },
+  {
+   "row": 69,
+   "table": "keyboards_01",
+   "find": "HyperX Red (linear)",
+   "replace": "linear (red)",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "linear"
+   ],
+   "kind": "description words",
+   "class": "maker_name",
+   "why": "HyperX's switch name; 'linear' kept"
+  },
+  {
+   "row": 71,
+   "table": "keyboards_01",
+   "find": "BT/Bolt/USB",
+   "replace": "BT/2.4GHz receiver/USB",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "BT/Bolt/USB"
+   ],
+   "kind": "description words",
+   "class": "maker_name",
+   "why": "Logitech's Bolt receiver replaced by '2.4GHz receiver'"
+  },
+  {
+   "row": 72,
+   "table": "keyboards_01",
+   "find": "Tactile Quiet (proprietary)",
+   "replace": "tactile quiet",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "Tactile",
+    "Quiet",
+    "proprietary"
+   ],
+   "kind": "description words",
+   "class": "maker_name",
+   "why": "Logitech's own switch, '(proprietary)', replaced by the plain type"
+  },
+  {
+   "row": 74,
+   "table": "keyboards_01",
+   "find": "8000Hz/iCUE/RGB",
+   "replace": "8000Hz/software/RGB",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "8000Hz/iCUE/RGB"
+   ],
+   "kind": "a value with a number",
+   "class": "maker_name",
+   "why": "Corsair's iCUE software replaced by 'software'"
+  },
+  {
+   "row": 75,
+   "table": "laptops_01",
+   "find": "with the manufacturer+ subscription trial.",
+   "replace": ".",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "with"
+   ],
+   "kind": "description words",
+   "class": "maker_name",
+   "why": "HP's subscription sentence (brand copy) removed"
+  },
+  {
+   "row": 76,
+   "table": "laptops_01",
+   "find": "Reliable everyday laptop from a trusted name.",
+   "replace": "Everyday laptop.",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "Reliable",
+    "everyday",
+    "from",
+    "a",
+    "trusted",
+    "name"
+   ],
+   "kind": "description words",
+   "class": "claim",
+   "why": "the claim 'Reliable everyday laptop from a trusted name.' shortened to 'Everyday laptop.'"
+  },
+  {
+   "row": 77,
+   "table": "laptops_02",
+   "find": "13.6-inch Liquid Retina, the manufacturer M2, 8GB unified memory, 256GB SSD. Iconic design, silent operation.",
+   "replace": "13.6-inch IPS, 8-core ARM chip, 8GB unified memory, 256GB SSD. Thin design, silent operation.",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "Iconic"
+   ],
+   "kind": "description words",
+   "class": "claim",
+   "why": "Apple's names replaced and the word 'Iconic' removed"
+  },
+  {
+   "row": 82,
+   "table": "monitors_01",
+   "find": "built-in Tizen Smart TV, wireless DeX",
+   "replace": "built-in smart TV, wireless desktop mode",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "Smart"
+   ],
+   "kind": "description words",
+   "class": "maker_name",
+   "why": "Samsung's Tizen and DeX replaced; 'Smart' differs only in case"
+  },
+  {
+   "row": 92,
+   "table": "robot_vacuums_01",
+   "find": "the manufacturer Hyperdymium motor, 65 AW suction, 360-degree vision system. Premium engineering.",
+   "replace": "High-speed motor, camera navigation.",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "65",
+    "AW",
+    "suction",
+    "360-degree",
+    "vision",
+    "system",
+    "Premium",
+    "engineering"
+   ],
+   "kind": "a value with a number",
+   "class": "spec_value",
+   "why": "Dyson's '65 AW suction' and '360-degree vision system' removed, and 'Premium engineering.' removed"
+  },
+  {
+   "row": 93,
+   "table": "robot_vacuums_01",
+   "find": "suction: 65 AW",
+   "replace": "suction: not stated",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "65",
+    "AW"
+   ],
+   "kind": "a value with a number",
+   "class": "spec_value",
+   "why": "Dyson's suction value (65 AW) replaced by 'not stated'"
+  },
+  {
+   "row": 94,
+   "table": "robot_vacuums_01",
+   "find": "navigation: 360 vision",
+   "replace": "navigation: camera",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "360",
+    "vision"
+   ],
+   "kind": "a value with a number",
+   "class": "maker_name",
+   "why": "Dyson's '360 Vision' camera system replaced by 'camera'"
+  },
+  {
+   "row": 95,
+   "table": "robot_vacuums_01",
+   "find": "PrecisionVision Navigation, obstacle avoidance, Clean Base auto-empty. the manufacturer OS.",
+   "replace": "Camera navigation, obstacle avoidance, auto-empty base.",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "Navigation"
+   ],
+   "kind": "description words",
+   "class": "maker_name",
+   "why": "iRobot's 'PrecisionVision Navigation' replaced; 'Navigation' differs only in case"
+  },
+  {
+   "row": 97,
+   "table": "running_shoes_01",
+   "find": "FF BLAST PLUS Eco cushioning, PureGEL inserts",
+   "replace": "EVA-blend foam cushioning, gel inserts",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "Eco"
+   ],
+   "kind": "description words",
+   "class": "maker_name",
+   "why": "ASICS's 'FF BLAST PLUS ECO' foam replaced by 'EVA-blend foam'"
+  },
+  {
+   "row": 101,
+   "table": "running_shoes_01",
+   "find": "ReactX foam, 10mm drop, Zoom Air unit. Classic the manufacturer running shoe, updated design.",
+   "replace": "EVA-blend foam, 10mm drop, air unit. Updated design.",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "updated"
+   ],
+   "kind": "description words",
+   "class": "maker_name",
+   "why": "Nike's names and the brand copy 'Classic the manufacturer running shoe' removed; 'updated' differs only in case"
+  },
+  {
+   "row": 103,
+   "table": "running_shoes_01",
+   "find": "Light BOOST midsole, Continental rubber outsole, Primeknit+ upper.",
+   "replace": "TPU-bead foam midsole, rubber outsole, knit upper.",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "Light"
+   ],
+   "kind": "description words",
+   "class": "maker_name",
+   "why": "adidas's 'Light BOOST' midsole replaced by 'TPU-bead foam'"
+  },
+  {
+   "row": 110,
+   "table": "running_shoes_02",
+   "find": "CMEVA midsole, Vibram Megagrip",
+   "replace": "EVA midsole, sticky rubber",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "CMEVA"
+   ],
+   "kind": "description words",
+   "class": "spec_value",
+   "why": "Hoka's CMEVA (compression-molded EVA) written as 'EVA'; a material named in less detail"
+  },
+  {
+   "row": 112,
+   "table": "running_shoes_02",
+   "find": "Graphene-enhanced rubber outsole, nitrogen-infused EVA midsole, energy-return insole. 3000+ mile durability from graphene compound.",
+   "replace": "Rubber outsole, nitrogen-infused EVA midsole, energy-return insole. 3000+ mile durability.",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "Graphene-enhanced",
+    "rubber",
+    "from",
+    "graphene",
+    "compound"
+   ],
+   "kind": "description words",
+   "class": "spec_value",
+   "why": "the top-ranked product's (Terravolt, a fictitious name) 'Graphene-enhanced rubber' outsole written as 'Rubber outsole'"
+  },
+  {
+   "row": 113,
+   "table": "running_shoes_02",
+   "find": "traction: graphene-enhanced rubber",
+   "replace": "traction: rubber compound",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "graphene-enhanced"
+   ],
+   "kind": "a specification line's value",
+   "class": "spec_value",
+   "why": "the top-ranked product's (Terravolt) traction 'graphene-enhanced rubber' replaced by 'rubber compound'"
+  },
+  {
+   "row": 114,
+   "table": "running_shoes_03",
+   "find": "ZoomX foam, full-length carbon plate. The shoe that changed marathon racing.",
+   "replace": "PEBA foam, full-length carbon plate.",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "The",
+    "shoe",
+    "that",
+    "changed",
+    "marathon",
+    "racing"
+   ],
+   "kind": "description words",
+   "class": "claim",
+   "why": "Nike's names replaced and the claim 'The shoe that changed marathon racing.' removed"
+  },
+  {
+   "row": 116,
+   "table": "running_shoes_03",
+   "find": "Lightstrike Pro, EnergyRods 2.0, Continental rubber. World record holder's shoe.",
+   "replace": "TPEE foam, carbon rods, rubber outsole.",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "World",
+    "record",
+    "holder's",
+    "shoe"
+   ],
+   "kind": "description words",
+   "class": "claim",
+   "why": "adidas's names replaced and the claim 'World record holder's shoe.' removed"
+  },
+  {
+   "row": 118,
+   "table": "smartphones_01",
+   "find": "6.2-inch Dynamic AMOLED, Snapdragon 8 Gen 3, 50MP triple camera, 128GB. Galaxy AI features.",
+   "replace": "6.2-inch AMOLED, Snapdragon 8 Gen 3, 50MP triple camera, 128GB.",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "features"
+   ],
+   "kind": "description words",
+   "class": "maker_name",
+   "why": "Samsung's 'Galaxy AI features' removed"
+  },
+  {
+   "row": 119,
+   "table": "smartphones_01",
+   "find": "6.1-inch Super Retina XDR, A16 Bionic, 48MP main camera, 128GB. iOS ecosystem integration.",
+   "replace": "6.1-inch OLED, hexa-core chip, 48MP main camera, 128GB.",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "ecosystem",
+    "integration"
+   ],
+   "kind": "description words",
+   "class": "maker_name",
+   "why": "Apple's names and the brand copy 'iOS ecosystem integration' removed"
+  },
+  {
+   "row": 124,
+   "table": "smartphones_01",
+   "find": "Tensor G3, 50MP Octa PD camera",
+   "replace": "custom chip, 50MP camera",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "Octa",
+    "PD"
+   ],
+   "kind": "description words",
+   "class": "spec_value",
+   "why": "Google's 'Octa PD' autofocus detail removed from the camera; a technical term, read as a specification detail"
+  },
+  {
+   "row": 125,
+   "table": "smartphones_01",
+   "find": "camera: 50MP Octa PD",
+   "replace": "camera: 50MP",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "Octa",
+    "PD"
+   ],
+   "kind": "a specification line's value",
+   "class": "spec_value",
+   "why": "the same 'Octa PD' removed from the camera line"
+  },
+  {
+   "row": 129,
+   "table": "smartphones_02",
+   "find": "4.7-inch Retina HD, A15 Bionic, 12MP, 64GB. Compact, iOS integration.",
+   "replace": "4.7-inch LCD, hexa-core chip, 12MP, 64GB. Compact.",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "integration"
+   ],
+   "kind": "description words",
+   "class": "maker_name",
+   "why": "Apple's names and the brand copy 'iOS integration' removed"
+  },
+  {
+   "row": 131,
+   "table": "smartphones_02",
+   "find": "6.7-inch pOLED 144Hz, Snapdragon 7s Gen 2, 50MP OIS, 256GB. 68W TurboPower charging.",
+   "replace": "6.7-inch OLED 144Hz, Snapdragon 7s Gen 2, 50MP OIS, 256GB. 68W fast charging.",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "pOLED"
+   ],
+   "kind": "description words",
+   "class": "maker_name",
+   "why": "Motorola's 'pOLED' and TurboPower replaced"
+  },
+  {
+   "row": 132,
+   "table": "smartphones_02",
+   "find": "display: 6.7\" pOLED 144Hz",
+   "replace": "display: 6.7\" OLED 144Hz",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "pOLED"
+   ],
+   "kind": "a specification line's value",
+   "class": "maker_name",
+   "why": "Motorola's 'pOLED' display written as 'OLED'"
+  },
+  {
+   "row": 135,
+   "table": "smartphones_03",
+   "find": "6.1-inch Super Retina XDR, A15 Bionic, 12MP dual, 128GB. iOS 17 features.",
+   "replace": "6.1-inch OLED, hexa-core chip, 12MP dual, 128GB.",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "features"
+   ],
+   "kind": "description words",
+   "class": "maker_name",
+   "why": "Apple's names and 'iOS 17 features' removed"
+  },
+  {
+   "row": 137,
+   "table": "smartwatches_01",
+   "find": "S9 SiP, double tap, always-on Retina, blood oxygen, ECG. Deep iPhone integration.",
+   "replace": "Dual-core chip, gesture control, always-on display, blood oxygen, ECG. Deep phone integration.",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "double",
+    "tap"
+   ],
+   "kind": "description words",
+   "class": "maker_name",
+   "why": "Apple's 'Double Tap' replaced by 'gesture control'"
+  },
+  {
+   "row": 138,
+   "table": "smartwatches_01",
+   "find": "Exynos W930, BioActive sensor, Wear OS 4, sapphire crystal.",
+   "replace": "Dual-core chip, multi-sensor, smartwatch OS, sapphire crystal.",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "sensor",
+    "4"
+   ],
+   "kind": "a value with a number",
+   "class": "maker_name",
+   "why": "Samsung's Exynos and BioActive and Google's Wear OS replaced"
+  },
+  {
+   "row": 139,
+   "table": "smartwatches_01",
+   "find": "sensors: BioActive/ECG",
+   "replace": "sensors: multi-sensor/ECG",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "BioActive/ECG"
+   ],
+   "kind": "a specification line's value",
+   "class": "maker_name",
+   "why": "Samsung's BioActive sensor replaced by 'multi-sensor'"
+  },
+  {
+   "row": 140,
+   "table": "smartwatches_01",
+   "find": "display: Super AMOLED",
+   "replace": "display: AMOLED",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "Super"
+   ],
+   "kind": "a specification line's value",
+   "class": "maker_name",
+   "why": "Samsung's 'Super AMOLED' written as 'AMOLED'"
+  },
+  {
+   "row": 142,
+   "table": "smartwatches_01",
+   "find": "sensors: SpO2/nap/Body Battery",
+   "replace": "sensors: SpO2/nap/energy score",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "SpO2/nap/Body"
+   ],
+   "kind": "a value with a number",
+   "class": "maker_name",
+   "why": "Garmin's 'Body Battery' replaced by 'energy score'"
+  },
+  {
+   "row": 144,
+   "table": "smartwatches_01",
+   "find": "sensors: ECG/EDA/SpO2",
+   "replace": "sensors: ECG/stress/SpO2",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "ECG/EDA/SpO2"
+   ],
+   "kind": "a value with a number",
+   "class": "spec_value",
+   "why": "the EDA (electrodermal activity) sensor written as 'stress'; a sensor type, read as a specification detail"
+  },
+  {
+   "row": 155,
+   "table": "tvs_01",
+   "find": "hdr: HDR10 Pro",
+   "replace": "hdr: HDR10",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "Pro"
+   ],
+   "kind": "a specification line's value",
+   "class": "maker_name",
+   "why": "LG's 'HDR10 Pro' written as 'HDR10'"
+  },
+  {
+   "row": 160,
+   "table": "tvs_02",
+   "find": "panel: QNED (Quantum Dot + NanoCell)",
+   "replace": "panel: Quantum Dot LED",
+   "brand_text": false,
+   "words_without_a_brand": [
+    "QNED"
+   ],
+   "kind": "a specification line's value",
+   "class": "maker_name",
+   "why": "LG's QNED and NanoCell replaced by 'Quantum Dot LED'"
+  }
+ ],
+ "changed_lines_trial0": 156,
+ "changed_lines_trial0_top_ranked": 12,
+ "changed_lines_trial0_no_listed_text": 18,
+ "changed_lines": [
+  {
+   "table": "backpacks_01",
+   "product": "A",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 28L, FlexVent suspension, laptop sleeve, reflective details. Classic school/commute pack.",
+   "after": "Description: 28L, ventilated suspension, laptop sleeve, reflective details. Classic school/commute pack."
+  },
+  {
+   "table": "backpacks_01",
+   "product": "B",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": false,
+   "before": "Description: 26L, 600D polyester, padded straps, lifetime warranty. Iconic student pack.",
+   "after": "Description: 26L, 600D polyester, padded straps, lifetime warranty."
+  },
+  {
+   "table": "blenders_01",
+   "product": "B",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 1400W, Auto-iQ programs, 72oz pitcher + 24oz cups, 4 Auto-iQ programs.",
+   "after": "Description: 1400W, auto programs, 72oz pitcher + 24oz cups, 4 auto programs."
+  },
+  {
+   "table": "blenders_01",
+   "product": "B",
+   "top_ranked": false,
+   "field": "Specs",
+   "holds_a_listed_text": true,
+   "before": "Specs: power: 1400W, capacity: 72oz, speeds: 3 + Auto-iQ, blade: stacked blade",
+   "after": "Specs: power: 1400W, capacity: 72oz, speeds: 3 + auto programs, blade: stacked blade"
+  },
+  {
+   "table": "blenders_01",
+   "product": "E",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 700W, 40oz glass jar, 12 blending functions, wave-action system.",
+   "after": "Description: 700W, 40oz glass jar, 12 blending functions, blending system."
+  },
+  {
+   "table": "cameras_01",
+   "product": "E",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 20.9MP APS-C, EXPEED 6, 209 AF points, 4K UHD, tilting touchscreen.",
+   "after": "Description: 20.9MP APS-C, image processor, 209 AF points, 4K UHD, tilting touchscreen."
+  },
+  {
+   "table": "cameras_01",
+   "product": "A",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 24.2MP APS-C, Dual Pixel CMOS AF II, 4K video, 236K dot EVF. the manufacturer reliability + lens ecosystem.",
+   "after": "Description: 24.2MP APS-C, hybrid phase-detect AF, 4K video, 236K dot EVF."
+  },
+  {
+   "table": "cameras_01",
+   "product": "A",
+   "top_ranked": false,
+   "field": "Specs",
+   "holds_a_listed_text": true,
+   "before": "Specs: sensor: 24.2MP APS-C, af: Dual Pixel CMOS AF II, video: 4K 30fps, weight: 375g, ibis: False",
+   "after": "Specs: sensor: 24.2MP APS-C, af: hybrid phase-detect AF, video: 4K 30fps, weight: 375g, ibis: False"
+  },
+  {
+   "table": "cameras_01",
+   "product": "C",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 26.1MP X-Trans CMOS 4, 425 AF points, film simulation modes, 4K. Classic rangefinder design.",
+   "after": "Description: 26.1MP APS-C CMOS, 425 AF points, color profiles, 4K. Classic rangefinder design."
+  },
+  {
+   "table": "cameras_01",
+   "product": "C",
+   "top_ranked": false,
+   "field": "Specs",
+   "holds_a_listed_text": true,
+   "before": "Specs: sensor: 26.1MP APS-C X-Trans, af: 425 point hybrid, video: 4K 30fps, weight: 378g, ibis: False",
+   "after": "Specs: sensor: 26.1MP APS-C, af: 425 point hybrid, video: 4K 30fps, weight: 378g, ibis: False"
+  },
+  {
+   "table": "cameras_01",
+   "product": "B",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 24.2MP APS-C, 425 phase-detect AF, Real-time Eye AF, 4K video, silent shooting.",
+   "after": "Description: 24.2MP APS-C, 425 phase-detect AF, eye-detection AF, 4K video, silent shooting."
+  },
+  {
+   "table": "coffee_makers_01",
+   "product": "C",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 14-cup programmable, Brew Strength Control, self-clean, gold-tone filter.",
+   "after": "Description: 14-cup programmable, brew strength setting, self-clean, gold-tone filter."
+  },
+  {
+   "table": "coffee_makers_01",
+   "product": "A",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: Single-serve K-Cup, 75oz reservoir, iced coffee setting, strong brew option. Convenient, fast.",
+   "after": "Description: Single-serve pod, 75oz reservoir, iced coffee setting, strong brew option. Convenient, fast."
+  },
+  {
+   "table": "coffee_makers_01",
+   "product": "B",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": false,
+   "before": "Description: Classic 12-cup drip, auto shut-off, removable filter basket. Budget-friendly American icon.",
+   "after": "Description: Classic 12-cup drip, auto shut-off, removable filter basket."
+  },
+  {
+   "table": "coffee_makers_02",
+   "product": "E",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: Fully automatic, built-in grinder, LatteGo milk system. One-touch lattes.",
+   "after": "Description: Fully automatic, built-in grinder, automatic milk system. One-touch lattes."
+  },
+  {
+   "table": "coffee_makers_02",
+   "product": "E",
+   "top_ranked": false,
+   "field": "Specs",
+   "holds_a_listed_text": true,
+   "before": "Specs: type: super-auto, pressure: 15 bar, grinder: ceramic burr, milk: LatteGo auto",
+   "after": "Specs: type: super-auto, pressure: 15 bar, grinder: ceramic burr, milk: auto"
+  },
+  {
+   "table": "coffee_makers_02",
+   "product": "C",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: ThermoJet 3-sec heat-up, automatic milk texturing, PID temperature control.",
+   "after": "Description: 3-second heat-up, automatic milk texturing, PID temperature control."
+  },
+  {
+   "table": "coffee_makers_02",
+   "product": "A",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: Centrifusion technology, 5 cup sizes, one-touch, Bluetooth. Capsule-based convenience.",
+   "after": "Description: Capsule system, 5 cup sizes, one-touch, Bluetooth."
+  },
+  {
+   "table": "coffee_makers_02",
+   "product": "A",
+   "top_ranked": false,
+   "field": "Specs",
+   "holds_a_listed_text": true,
+   "before": "Specs: type: capsule, pressure: N/A (centrifusion), grinder: none, milk: none",
+   "after": "Specs: type: capsule, pressure: N/A, grinder: none, milk: none"
+  },
+  {
+   "table": "coffee_makers_03",
+   "product": "A",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: Single-serve, fits under most cabinets, pod storage. Compact K-Cup brewer.",
+   "after": "Description: Single-serve, fits under most cabinets, pod storage. Compact pod brewer."
+  },
+  {
+   "table": "earbuds_01",
+   "product": "E",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: Advanced ANC with HearThrough, 6 mic calls, MySound personalization.",
+   "after": "Description: Advanced ANC with transparency mode, 6 mic calls, sound personalization."
+  },
+  {
+   "table": "earbuds_01",
+   "product": "A",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: H2 chip, adaptive transparency, personalized spatial audio, MagSafe case. Deep the manufacturer ecosystem integration.",
+   "after": "Description: custom chip, adaptive transparency, personalized spatial audio, magnetic charging case."
+  },
+  {
+   "table": "earbuds_01",
+   "product": "C",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: V2 processor, industry-leading ANC, LDAC Hi-Res, bone conduction mic.",
+   "after": "Description: custom processor, strong ANC, LDAC Hi-Res, bone conduction mic."
+  },
+  {
+   "table": "earbuds_01",
+   "product": "B",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 24-bit Hi-Fi, adaptive ANC, 360 Audio. Galaxy AI features.",
+   "after": "Description: 24-bit Hi-Fi, adaptive ANC, spatial audio."
+  },
+  {
+   "table": "earbuds_01",
+   "product": "B",
+   "top_ranked": false,
+   "field": "Specs",
+   "holds_a_listed_text": true,
+   "before": "Specs: anc: adaptive, battery: 7h (30h case), codec: SSC/AAC, ip_rating: IP57",
+   "after": "Specs: anc: adaptive, battery: 7h (30h case), codec: proprietary/AAC, ip_rating: IP57"
+  },
+  {
+   "table": "earbuds_02",
+   "product": "C",
+   "top_ranked": true,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: QuietSmart 3.0 ANC -50dB, aptX adaptive, LDAC, 6-mic with AI, 52h total, multipoint. Hi-Res Audio Wireless certified.",
+   "after": "Description: ANC -50dB, aptX adaptive, LDAC, 6-mic with AI, 52h total, multipoint. Hi-Res Audio Wireless certified."
+  },
+  {
+   "table": "earbuds_02",
+   "product": "C",
+   "top_ranked": true,
+   "field": "Specs",
+   "holds_a_listed_text": true,
+   "before": "Specs: anc: -50dB QuietSmart 3.0, battery: 11h (52h case), codec: aptX Adaptive/LDAC/AAC, ip_rating: IPX5",
+   "after": "Specs: anc: -50dB, battery: 11h (52h case), codec: aptX Adaptive/LDAC/AAC, ip_rating: IPX5"
+  },
+  {
+   "table": "earbuds_02",
+   "product": "B",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: Active Noise Cancellation, the manufacturer Pure Bass, open-ear tips included.",
+   "after": "Description: Active Noise Cancellation, extra bass, open-ear tips included."
+  },
+  {
+   "table": "earbuds_02",
+   "product": "E",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: Spatial audio, adaptive EQ, MagSafe charging. No ANC, open-ear design.",
+   "after": "Description: Spatial audio, adaptive EQ, magnetic charging. No ANC, open-ear design."
+  },
+  {
+   "table": "earbuds_02",
+   "product": "D",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: Custom 12mm driver, Adaptive Sound, the manufacturer Assistant built-in.",
+   "after": "Description: Custom 12mm driver, adaptive volume, voice assistant built-in."
+  },
+  {
+   "table": "earbuds_02",
+   "product": "D",
+   "top_ranked": false,
+   "field": "Specs",
+   "holds_a_listed_text": false,
+   "before": "Specs: anc: none (adaptive sound), battery: 5h (24h case), codec: AAC/SBC, ip_rating: IPX4",
+   "after": "Specs: anc: none, battery: 5h (24h case), codec: AAC/SBC, ip_rating: IPX4"
+  },
+  {
+   "table": "earbuds_02",
+   "product": "A",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: Active Noise Cancellation, 1-way speaker, SmartThings Find. the manufacturer value entry.",
+   "after": "Description: Active Noise Cancellation, 1-way speaker, device finder."
+  },
+  {
+   "table": "earbuds_03",
+   "product": "B",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: TwistLock + FlexSoft, 10mm driver, IP67 full waterproof. Budget sport.",
+   "after": "Description: twist-in fit, 10mm driver, IP67 full waterproof. Budget sport."
+  },
+  {
+   "table": "earbuds_03",
+   "product": "B",
+   "top_ranked": false,
+   "field": "Specs",
+   "holds_a_listed_text": false,
+   "before": "Specs: fit: twistlock, battery: 10h (30h case), codec: AAC/SBC, ip_rating: IP67",
+   "after": "Specs: fit: twist-in, battery: 10h (30h case), codec: AAC/SBC, ip_rating: IP67"
+  },
+  {
+   "table": "earbuds_03",
+   "product": "C",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: Bone conduction 9th gen, DualPitch, open-ear safety, 12h battery, IP55.",
+   "after": "Description: Bone conduction 9th gen, two sound modes, open-ear safety, 12h battery, IP55."
+  },
+  {
+   "table": "earbuds_03",
+   "product": "A",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: Flexible wingtips, Apple H1 chip, ANC, spatial audio. Workout-focused.",
+   "after": "Description: Flexible ear wings, a wireless chip, ANC, spatial audio. Workout-focused."
+  },
+  {
+   "table": "earbuds_03",
+   "product": "A",
+   "top_ranked": false,
+   "field": "Specs",
+   "holds_a_listed_text": false,
+   "before": "Specs: fit: wingtip, battery: 6h (27h case), codec: AAC, ip_rating: IPX4",
+   "after": "Specs: fit: ear wing, battery: 6h (27h case), codec: AAC, ip_rating: IPX4"
+  },
+  {
+   "table": "earbuds_03",
+   "product": "E",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: Digital Noise Cancellation, Extra Bass, arc support, IP55.",
+   "after": "Description: Digital Noise Cancellation, bass boost, ear fins, IP55."
+  },
+  {
+   "table": "earbuds_03",
+   "product": "E",
+   "top_ranked": false,
+   "field": "Specs",
+   "holds_a_listed_text": false,
+   "before": "Specs: fit: arc support, battery: 9h (18h case), codec: AAC/SBC, ip_rating: IP55",
+   "after": "Specs: fit: ear fin, battery: 9h (18h case), codec: AAC/SBC, ip_rating: IP55"
+  },
+  {
+   "table": "electric_toothbrushes_01",
+   "product": "E",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 3D cleaning action, cross-action brush head, pressure sensor, 2-min timer.",
+   "after": "Description: oscillating action, angled brush head, pressure sensor, 2-min timer."
+  },
+  {
+   "table": "electric_toothbrushes_01",
+   "product": "A",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: Linear magnetic drive, 5 modes, AI tracking, pressure sensor, 2-min timer.",
+   "after": "Description: oscillating drive, 5 modes, AI tracking, pressure sensor, 2-min timer."
+  },
+  {
+   "table": "external_ssds_01",
+   "product": "E",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 1030MB/s, Rescue Data Recovery, fabric texture, 2TB.",
+   "after": "Description: 1030MB/s, data recovery service, fabric texture, 2TB."
+  },
+  {
+   "table": "headphones_01",
+   "product": "A",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": false,
+   "before": "Description: Industry-leading ANC, 30-hour battery, multipoint, Hi-Res Audio. Foldable design.",
+   "after": "Description: Strong ANC, 30-hour battery, multipoint, Hi-Res Audio. Foldable design."
+  },
+  {
+   "table": "headphones_01",
+   "product": "B",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: Immersive Audio, CustomTune, 24-hour battery. Legendary the manufacturer comfort.",
+   "after": "Description: Spatial audio, ear-tuned sound, 24-hour battery."
+  },
+  {
+   "table": "headphones_01",
+   "product": "D",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": false,
+   "before": "Description: True Adaptive ANC, 50-hour battery, spatial audio, Hi-Res certified.",
+   "after": "Description: Adaptive ANC, 50-hour battery, spatial audio, Hi-Res certified."
+  },
+  {
+   "table": "headphones_02",
+   "product": "B",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: Adaptive ANC, 44-hour battery, the manufacturer Pure Bass. Lightweight and foldable.",
+   "after": "Description: Adaptive ANC, 44-hour battery, extra bass. Lightweight and foldable."
+  },
+  {
+   "table": "headphones_02",
+   "product": "C",
+   "top_ranked": true,
+   "field": "Specs",
+   "holds_a_listed_text": false,
+   "before": "Specs: type: over-ear, battery: 70 hours, driver: 40mm DLC, codec: LDAC/AAC, weight: 235g",
+   "after": "Specs: type: over-ear, battery: 70 hours, driver: 40mm, codec: LDAC/AAC, weight: 235g"
+  },
+  {
+   "table": "headphones_02",
+   "product": "D",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: Dual Noise Sensor ANC, 35-hour battery, DSEE upscaling. the manufacturer reliability.",
+   "after": "Description: Dual-microphone ANC, 35-hour battery, audio upscaling."
+  },
+  {
+   "table": "headphones_02",
+   "product": "E",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: World-class ANC, 24-hour battery, the manufacturer SimpleSync. Premium comfort.",
+   "after": "Description: World-class ANC, 24-hour battery, device sync. Premium comfort."
+  },
+  {
+   "table": "headphones_02",
+   "product": "A",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: On-ear, 50-hour battery, Apple spatial audio, USB-C. Iconic the manufacturer styling.",
+   "after": "Description: On-ear, 50-hour battery, spatial audio, USB-C."
+  },
+  {
+   "table": "headphones_03",
+   "product": "D",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: Open-back studio reference, STELLAR.45 driver, detachable cable, made in Germany.",
+   "after": "Description: Open-back studio reference, 45mm driver, detachable cable, made in Germany."
+  },
+  {
+   "table": "headphones_03",
+   "product": "D",
+   "top_ranked": false,
+   "field": "Specs",
+   "holds_a_listed_text": true,
+   "before": "Specs: type: over-ear open-back, battery: wired only, driver: 45mm STELLAR.45, codec: N/A (wired), impedance: 48 ohm",
+   "after": "Specs: type: over-ear open-back, battery: wired only, driver: 45mm dynamic, codec: N/A (wired), impedance: 48 ohm"
+  },
+  {
+   "table": "headphones_03",
+   "product": "E",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 11 levels of ANC, premium design, the manufacturer Music app. 20-hour battery.",
+   "after": "Description: 11 levels of ANC, premium design, companion app. 20-hour battery."
+  },
+  {
+   "table": "keyboards_01",
+   "product": "B",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: the manufacturer Green switches, Chroma RGB, macro keys, magnetic wrist rest.",
+   "after": "Description: Green clicky switches, RGB, macro keys, magnetic wrist rest."
+  },
+  {
+   "table": "keyboards_01",
+   "product": "B",
+   "top_ranked": false,
+   "field": "Specs",
+   "holds_a_listed_text": true,
+   "before": "Specs: switches: Razer Green (clicky), connectivity: USB, layout: full-size, features: RGB/macro/wrist rest",
+   "after": "Specs: switches: clicky (green), connectivity: USB, layout: full-size, features: RGB/macro/wrist rest"
+  },
+  {
+   "table": "keyboards_01",
+   "product": "D",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: Cherry MX Red, per-key RGB, 8000Hz polling, iCUE software.",
+   "after": "Description: Cherry MX Red, per-key RGB, 8000Hz polling, control software."
+  },
+  {
+   "table": "keyboards_01",
+   "product": "D",
+   "top_ranked": false,
+   "field": "Specs",
+   "holds_a_listed_text": true,
+   "before": "Specs: switches: Cherry MX Red, connectivity: USB, layout: full-size, features: 8000Hz/iCUE/RGB",
+   "after": "Specs: switches: Cherry MX Red, connectivity: USB, layout: full-size, features: 8000Hz/software/RGB"
+  },
+  {
+   "table": "keyboards_01",
+   "product": "A",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: Low-profile keys, Logi Bolt wireless, smart backlighting, multi-device. Office-focused.",
+   "after": "Description: Low-profile keys, USB receiver wireless, smart backlighting, multi-device. Office-focused."
+  },
+  {
+   "table": "keyboards_01",
+   "product": "A",
+   "top_ranked": false,
+   "field": "Specs",
+   "holds_a_listed_text": false,
+   "before": "Specs: switches: Tactile Quiet (proprietary), connectivity: BT/Bolt/USB, layout: full-size, features: smart backlight",
+   "after": "Specs: switches: tactile quiet, connectivity: BT/2.4GHz receiver/USB, layout: full-size, features: smart backlight"
+  },
+  {
+   "table": "keyboards_01",
+   "product": "E",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: the manufacturer Red switches, aircraft-grade aluminum, RGB, detachable cable.",
+   "after": "Description: Red linear switches, aircraft-grade aluminum, RGB, detachable cable."
+  },
+  {
+   "table": "keyboards_01",
+   "product": "E",
+   "top_ranked": false,
+   "field": "Specs",
+   "holds_a_listed_text": true,
+   "before": "Specs: switches: HyperX Red (linear), connectivity: USB-C detachable, layout: full-size, features: RGB/aluminum",
+   "after": "Specs: switches: linear (red), connectivity: USB-C detachable, layout: full-size, features: RGB/aluminum"
+  },
+  {
+   "table": "laptops_01",
+   "product": "B",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 15.6-inch FHD, Intel Core i5-1335U, 16GB DDR4, 256GB SSD. Sleek silver design with the manufacturer+ subscription trial.",
+   "after": "Description: 15.6-inch FHD, Intel Core i5-1335U, 16GB DDR4, 256GB SSD. Sleek silver design."
+  },
+  {
+   "table": "laptops_01",
+   "product": "A",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": false,
+   "before": "Description: 15.6-inch FHD, Intel Core i5-1335U, 8GB DDR4, 512GB SSD. Reliable everyday laptop from a trusted name.",
+   "after": "Description: 15.6-inch FHD, Intel Core i5-1335U, 8GB DDR4, 512GB SSD. Everyday laptop."
+  },
+  {
+   "table": "laptops_02",
+   "product": "E",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 13.4-inch FHD+, Intel Core Ultra 7 155U, 16GB, 512GB SSD. Premium build, InfinityEdge display.",
+   "after": "Description: 13.4-inch FHD+, Intel Core Ultra 7 155U, 16GB, 512GB SSD. Premium build, thin-bezel display."
+  },
+  {
+   "table": "laptops_02",
+   "product": "B",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 13.6-inch Liquid Retina, the manufacturer M2, 8GB unified memory, 256GB SSD. Iconic design, silent operation.",
+   "after": "Description: 13.6-inch IPS, 8-core ARM chip, 8GB unified memory, 256GB SSD. Thin design, silent operation."
+  },
+  {
+   "table": "laptops_02",
+   "product": "B",
+   "top_ranked": false,
+   "field": "Specs",
+   "holds_a_listed_text": true,
+   "before": "Specs: cpu: Apple M2, ram: 8GB, storage: 256GB SSD, display: 13.6\" Liquid Retina, battery: 15 hours, weight: 1.24kg",
+   "after": "Specs: cpu: 8-core ARM chip, ram: 8GB, storage: 256GB SSD, display: 13.6\" IPS, battery: 15 hours, weight: 1.24kg"
+  },
+  {
+   "table": "laptops_03",
+   "product": "B",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 15.6-inch FHD, Intel Core i5-1235U, 8GB DDR4, 256GB SSD. Standard student laptop. the manufacturer brand reliability.",
+   "after": "Description: 15.6-inch FHD, Intel Core i5-1235U, 8GB DDR4, 256GB SSD. Standard student laptop."
+  },
+  {
+   "table": "monitors_01",
+   "product": "E",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 32\" 4K, built-in Tizen Smart TV, wireless DeX, USB-C. Monitor + Smart TV.",
+   "after": "Description: 32\" 4K, built-in smart TV, wireless desktop mode, USB-C. Monitor + Smart TV."
+  },
+  {
+   "table": "monitors_01",
+   "product": "A",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 27\" 4K IPS, 99% sRGB, USB-C 65W, height-adjustable stand. the manufacturer reliability.",
+   "after": "Description: 27\" 4K IPS, 99% sRGB, USB-C 65W, height-adjustable stand."
+  },
+  {
+   "table": "monitors_01",
+   "product": "B",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 27\" 4K IPS, 98% sRGB, HDR10, AMD FreeSync. Affordable the manufacturer quality.",
+   "after": "Description: 27\" 4K IPS, 98% sRGB, HDR10, AMD FreeSync. Affordable."
+  },
+  {
+   "table": "portable_speakers_01",
+   "product": "C",
+   "top_ranked": true,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: XBass boost, 360-degree sound, IP67, 24-hour battery, Bluetooth 5.3, TWS stereo pairing. 40W output with custom dual drivers.",
+   "after": "Description: Bass boost, 360-degree sound, IP67, 24-hour battery, Bluetooth 5.3, TWS stereo pairing. 40W output with custom dual drivers."
+  },
+  {
+   "table": "portable_speakers_01",
+   "product": "A",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: IP67 waterproof, 12-hour battery, PartyBoost pairing, the manufacturer Pro Sound.",
+   "after": "Description: IP67 waterproof, 12-hour battery, multi-speaker pairing."
+  },
+  {
+   "table": "portable_speakers_01",
+   "product": "E",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: IP67, 14-hour battery, 360 sound, outdoor boost mode.",
+   "after": "Description: IP67, 14-hour battery, 360 sound, outdoor mode."
+  },
+  {
+   "table": "portable_speakers_01",
+   "product": "B",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: PositionIQ, IP67, 12-hour battery, the manufacturer Connect app. Premium portable sound.",
+   "after": "Description: Orientation sensing, IP67, 12-hour battery, companion app. Premium portable sound."
+  },
+  {
+   "table": "portable_speakers_01",
+   "product": "B",
+   "top_ranked": false,
+   "field": "Specs",
+   "holds_a_listed_text": true,
+   "before": "Specs: waterproof: IP67, battery: 12 hours, power: N/A (Bose), weight: 590g",
+   "after": "Specs: waterproof: IP67, battery: 12 hours, power: N/A, weight: 590g"
+  },
+  {
+   "table": "portable_speakers_01",
+   "product": "D",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: IP67, 16-hour battery, Sound Diffusion Processor, built-in strap.",
+   "after": "Description: IP67, 16-hour battery, sound processor, built-in strap."
+  },
+  {
+   "table": "robot_vacuums_01",
+   "product": "B",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: Matrix Clean, self-empty base, 360 LiDAR, pet hair management.",
+   "after": "Description: Deep clean mode, self-empty base, 360 LiDAR, pet hair management."
+  },
+  {
+   "table": "robot_vacuums_01",
+   "product": "A",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: PrecisionVision Navigation, obstacle avoidance, Clean Base auto-empty. the manufacturer OS.",
+   "after": "Description: Camera navigation, obstacle avoidance, auto-empty base."
+  },
+  {
+   "table": "robot_vacuums_01",
+   "product": "D",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: the manufacturer Hyperdymium motor, 65 AW suction, 360-degree vision system. Premium engineering.",
+   "after": "Description: High-speed motor, camera navigation."
+  },
+  {
+   "table": "robot_vacuums_01",
+   "product": "D",
+   "top_ranked": false,
+   "field": "Specs",
+   "holds_a_listed_text": false,
+   "before": "Specs: suction: 65 AW, navigation: 360 vision, emptying: manual, runtime: 50 min",
+   "after": "Specs: suction: not stated, navigation: camera, emptying: manual, runtime: 50 min"
+  },
+  {
+   "table": "running_shoes_01",
+   "product": "C",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: FF BLAST PLUS Eco cushioning, PureGEL inserts, knit upper. Maximum comfort for long runs.",
+   "after": "Description: EVA-blend foam cushioning, gel inserts, knit upper. Maximum comfort for long runs."
+  },
+  {
+   "table": "running_shoes_01",
+   "product": "C",
+   "top_ranked": false,
+   "field": "Specs",
+   "holds_a_listed_text": true,
+   "before": "Specs: cushioning: FF BLAST PLUS, drop: 8mm, weight: 275g, durability: 450 miles",
+   "after": "Specs: cushioning: EVA-blend foam, drop: 8mm, weight: 275g, durability: 450 miles"
+  },
+  {
+   "table": "running_shoes_01",
+   "product": "A",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: ReactX foam, 10mm drop, Zoom Air unit. Classic the manufacturer running shoe, updated design.",
+   "after": "Description: EVA-blend foam, 10mm drop, air unit. Updated design."
+  },
+  {
+   "table": "running_shoes_01",
+   "product": "A",
+   "top_ranked": false,
+   "field": "Specs",
+   "holds_a_listed_text": true,
+   "before": "Specs: cushioning: ReactX, drop: 10mm, weight: 285g, durability: 400 miles",
+   "after": "Specs: cushioning: EVA-blend foam, drop: 10mm, weight: 285g, durability: 400 miles"
+  },
+  {
+   "table": "running_shoes_01",
+   "product": "B",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: Light BOOST midsole, Continental rubber outsole, Primeknit+ upper. Made with recycled materials.",
+   "after": "Description: TPU-bead foam midsole, rubber outsole, knit upper. Made with recycled materials."
+  },
+  {
+   "table": "running_shoes_01",
+   "product": "B",
+   "top_ranked": false,
+   "field": "Specs",
+   "holds_a_listed_text": true,
+   "before": "Specs: cushioning: BOOST, drop: 10mm, weight: 278g, durability: 350 miles",
+   "after": "Specs: cushioning: TPU-bead foam, drop: 10mm, weight: 278g, durability: 350 miles"
+  },
+  {
+   "table": "running_shoes_01",
+   "product": "D",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: Fresh Foam X midsole, Hypoknit upper, blown rubber outsole. Plush ride.",
+   "after": "Description: EVA foam midsole, knit upper, blown rubber outsole. Plush ride."
+  },
+  {
+   "table": "running_shoes_01",
+   "product": "D",
+   "top_ranked": false,
+   "field": "Specs",
+   "holds_a_listed_text": true,
+   "before": "Specs: cushioning: Fresh Foam X, drop: 6mm, weight: 289g, durability: 400 miles",
+   "after": "Specs: cushioning: EVA foam, drop: 6mm, weight: 289g, durability: 400 miles"
+  },
+  {
+   "table": "running_shoes_02",
+   "product": "C",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: CMEVA midsole, Vibram Megagrip, 4.5mm lugs. Maximum cushion for ultrarunners.",
+   "after": "Description: EVA midsole, sticky rubber, 4.5mm lugs. Maximum cushion for ultrarunners."
+  },
+  {
+   "table": "running_shoes_02",
+   "product": "C",
+   "top_ranked": false,
+   "field": "Specs",
+   "holds_a_listed_text": true,
+   "before": "Specs: terrain: technical trail, drop: 4mm, weight: 292g, traction: Vibram Megagrip",
+   "after": "Specs: terrain: technical trail, drop: 4mm, weight: 292g, traction: sticky rubber lugs"
+  },
+  {
+   "table": "running_shoes_02",
+   "product": "A",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: React foam, rock plate, aggressive traction lugs. Trail-to-road versatility.",
+   "after": "Description: EVA foam, rock plate, aggressive traction lugs. Trail-to-road versatility."
+  },
+  {
+   "table": "running_shoes_02",
+   "product": "B",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: Contagrip MA outsole, EnergyCell+ midsole, SensiFit. Aggressive mud traction.",
+   "after": "Description: Lugged outsole, EVA midsole, wrap-around fit. Aggressive mud traction."
+  },
+  {
+   "table": "running_shoes_02",
+   "product": "B",
+   "top_ranked": false,
+   "field": "Specs",
+   "holds_a_listed_text": true,
+   "before": "Specs: terrain: soft trail/mud, drop: 10mm, weight: 310g, traction: Contagrip MA",
+   "after": "Specs: terrain: soft trail/mud, drop: 10mm, weight: 310g, traction: rubber lugs"
+  },
+  {
+   "table": "running_shoes_02",
+   "product": "E",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: DNA LOFT v2 cushioning, TrailTack rubber, pivot post system. Reliable trail workhorse.",
+   "after": "Description: Foam cushioning, sticky rubber, stability posts. Reliable trail workhorse."
+  },
+  {
+   "table": "running_shoes_02",
+   "product": "E",
+   "top_ranked": false,
+   "field": "Specs",
+   "holds_a_listed_text": true,
+   "before": "Specs: terrain: trail, drop: 8mm, weight: 305g, traction: TrailTack",
+   "after": "Specs: terrain: trail, drop: 8mm, weight: 305g, traction: sticky rubber"
+  },
+  {
+   "table": "running_shoes_02",
+   "product": "D",
+   "top_ranked": true,
+   "field": "Description",
+   "holds_a_listed_text": false,
+   "before": "Description: Graphene-enhanced rubber outsole, nitrogen-infused EVA midsole, energy-return insole. 3000+ mile durability from graphene compound.",
+   "after": "Description: Rubber outsole, nitrogen-infused EVA midsole, energy-return insole. 3000+ mile durability."
+  },
+  {
+   "table": "running_shoes_02",
+   "product": "D",
+   "top_ranked": true,
+   "field": "Specs",
+   "holds_a_listed_text": false,
+   "before": "Specs: terrain: all trail, drop: 6mm, weight: 270g, traction: graphene-enhanced rubber",
+   "after": "Specs: terrain: all trail, drop: 6mm, weight: 270g, traction: rubber compound"
+  },
+  {
+   "table": "running_shoes_03",
+   "product": "A",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: ZoomX foam, full-length carbon plate. The shoe that changed marathon racing.",
+   "after": "Description: PEBA foam, full-length carbon plate."
+  },
+  {
+   "table": "running_shoes_03",
+   "product": "B",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: Lightstrike Pro, EnergyRods 2.0, Continental rubber. World record holder's shoe.",
+   "after": "Description: TPEE foam, carbon rods, rubber outsole."
+  },
+  {
+   "table": "running_shoes_03",
+   "product": "D",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: FF TURBO PLUS, curved carbon plate, trampoline midsole. For stride-type runners.",
+   "after": "Description: PEBA-blend foam, curved carbon plate, trampoline midsole. For stride-type runners."
+  },
+  {
+   "table": "running_shoes_03",
+   "product": "E",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: PWRRUN PB, carbon plate, speedroll rocker. Balanced racer for all distances.",
+   "after": "Description: PEBA foam, carbon plate, rocker. Balanced racer for all distances."
+  },
+  {
+   "table": "smartphones_01",
+   "product": "E",
+   "top_ranked": true,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 6.7-inch LTPO AMOLED 120Hz, Snapdragon 8s Gen 3, 50MP Sony IMX890 dual camera with OIS, 256GB. 120W fast charging, 5500mAh.",
+   "after": "Description: 6.7-inch LTPO AMOLED 120Hz, Snapdragon 8s Gen 3, 50MP dual camera with OIS, 256GB. 120W fast charging, 5500mAh."
+  },
+  {
+   "table": "smartphones_01",
+   "product": "E",
+   "top_ranked": true,
+   "field": "Specs",
+   "holds_a_listed_text": true,
+   "before": "Specs: camera: 50MP Sony IMX890 dual OIS, storage: 256GB, battery: 5500mAh, charging: 120W, display: 6.7\" LTPO AMOLED 120Hz",
+   "after": "Specs: camera: 50MP dual OIS, storage: 256GB, battery: 5500mAh, charging: 120W, display: 6.7\" LTPO AMOLED 120Hz"
+  },
+  {
+   "table": "smartphones_01",
+   "product": "B",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 6.2-inch Dynamic AMOLED, Snapdragon 8 Gen 3, 50MP triple camera, 128GB. Galaxy AI features.",
+   "after": "Description: 6.2-inch AMOLED, Snapdragon 8 Gen 3, 50MP triple camera, 128GB."
+  },
+  {
+   "table": "smartphones_01",
+   "product": "D",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 6.78-inch LTPO AMOLED, Snapdragon 8 Gen 2, 50MP Sony IMX890, 256GB. 100W SUPERVOOC charging.",
+   "after": "Description: 6.78-inch LTPO AMOLED, Snapdragon 8 Gen 2, 50MP, 256GB. 100W fast charging."
+  },
+  {
+   "table": "smartphones_01",
+   "product": "D",
+   "top_ranked": false,
+   "field": "Specs",
+   "holds_a_listed_text": true,
+   "before": "Specs: camera: 50MP Sony IMX890, storage: 256GB, battery: 5500mAh, charging: 100W, display: 6.78\" LTPO AMOLED 120Hz",
+   "after": "Specs: camera: 50MP, storage: 256GB, battery: 5500mAh, charging: 100W, display: 6.78\" LTPO AMOLED 120Hz"
+  },
+  {
+   "table": "smartphones_01",
+   "product": "A",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 6.1-inch Super Retina XDR, A16 Bionic, 48MP main camera, 128GB. iOS ecosystem integration.",
+   "after": "Description: 6.1-inch OLED, hexa-core chip, 48MP main camera, 128GB."
+  },
+  {
+   "table": "smartphones_01",
+   "product": "C",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 6.2-inch OLED, Tensor G3, 50MP Octa PD camera, 128GB. Best-in-class computational photography.",
+   "after": "Description: 6.2-inch OLED, custom chip, 50MP camera, 128GB. Best-in-class computational photography."
+  },
+  {
+   "table": "smartphones_01",
+   "product": "C",
+   "top_ranked": false,
+   "field": "Specs",
+   "holds_a_listed_text": false,
+   "before": "Specs: camera: 50MP Octa PD, storage: 128GB, battery: 4575mAh, charging: 27W, display: 6.2\" OLED 120Hz",
+   "after": "Specs: camera: 50MP, storage: 128GB, battery: 4575mAh, charging: 27W, display: 6.2\" OLED 120Hz"
+  },
+  {
+   "table": "smartphones_02",
+   "product": "E",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 4.7-inch Retina HD, A15 Bionic, 12MP, 64GB. Compact, iOS integration.",
+   "after": "Description: 4.7-inch LCD, hexa-core chip, 12MP, 64GB. Compact."
+  },
+  {
+   "table": "smartphones_02",
+   "product": "E",
+   "top_ranked": false,
+   "field": "Specs",
+   "holds_a_listed_text": true,
+   "before": "Specs: camera: 12MP, storage: 64GB, battery: 2018mAh, charging: 20W, display: 4.7\" Retina HD",
+   "after": "Specs: camera: 12MP, storage: 64GB, battery: 2018mAh, charging: 20W, display: 4.7\" LCD"
+  },
+  {
+   "table": "smartphones_02",
+   "product": "B",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 6.7-inch pOLED 144Hz, Snapdragon 7s Gen 2, 50MP OIS, 256GB. 68W TurboPower charging.",
+   "after": "Description: 6.7-inch OLED 144Hz, Snapdragon 7s Gen 2, 50MP OIS, 256GB. 68W fast charging."
+  },
+  {
+   "table": "smartphones_02",
+   "product": "B",
+   "top_ranked": false,
+   "field": "Specs",
+   "holds_a_listed_text": false,
+   "before": "Specs: camera: 50MP OIS, storage: 256GB, battery: 5000mAh, charging: 68W, display: 6.7\" pOLED 144Hz",
+   "after": "Specs: camera: 50MP OIS, storage: 256GB, battery: 5000mAh, charging: 68W, display: 6.7\" OLED 144Hz"
+  },
+  {
+   "table": "smartphones_02",
+   "product": "D",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 6.1-inch OLED 90Hz, Tensor G2, 64MP, 128GB. Pure Android, excellent camera software.",
+   "after": "Description: 6.1-inch OLED 90Hz, custom chip, 64MP, 128GB. Stock Android, excellent camera software."
+  },
+  {
+   "table": "smartphones_02",
+   "product": "A",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 6.4-inch Super AMOLED, Exynos 1380, 50MP triple, 128GB. IP67 water resistance, 4 years updates.",
+   "after": "Description: 6.4-inch AMOLED, octa-core chip, 50MP triple, 128GB. IP67 water resistance, 4 years updates."
+  },
+  {
+   "table": "smartphones_02",
+   "product": "A",
+   "top_ranked": false,
+   "field": "Specs",
+   "holds_a_listed_text": true,
+   "before": "Specs: camera: 50MP triple, storage: 128GB, battery: 5000mAh, charging: 25W, display: 6.4\" Super AMOLED 120Hz",
+   "after": "Specs: camera: 50MP triple, storage: 128GB, battery: 5000mAh, charging: 25W, display: 6.4\" AMOLED 120Hz"
+  },
+  {
+   "table": "smartphones_03",
+   "product": "D",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 6.1-inch Super Retina XDR, A15 Bionic, 12MP dual, 128GB. iOS 17 features.",
+   "after": "Description: 6.1-inch OLED, hexa-core chip, 12MP dual, 128GB."
+  },
+  {
+   "table": "smartphones_03",
+   "product": "E",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 6.1-inch OLED 90Hz, Tensor G2, 64MP, 128GB. Best-in-class computational photography.",
+   "after": "Description: 6.1-inch OLED 90Hz, custom chip, 64MP, 128GB. Best-in-class computational photography."
+  },
+  {
+   "table": "smartphones_03",
+   "product": "B",
+   "top_ranked": true,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 6.67-inch AMOLED 120Hz, Dimensity 7200, 200MP main camera with OIS, 256GB. 120W HyperCharge, IP68, 1440Hz touch sampling.",
+   "after": "Description: 6.67-inch AMOLED 120Hz, Dimensity 7200, 200MP main camera with OIS, 256GB. 120W fast charging, IP68, 1440Hz touch sampling."
+  },
+  {
+   "table": "smartphones_03",
+   "product": "A",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 6.6-inch Super AMOLED 120Hz, Exynos 1380, 50MP triple, 128GB. IP67, good the manufacturer ecosystem.",
+   "after": "Description: 6.6-inch AMOLED 120Hz, octa-core chip, 50MP triple, 128GB. IP67."
+  },
+  {
+   "table": "smartwatches_01",
+   "product": "A",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: S9 SiP, double tap, always-on Retina, blood oxygen, ECG. Deep iPhone integration.",
+   "after": "Description: Dual-core chip, gesture control, always-on display, blood oxygen, ECG. Deep phone integration."
+  },
+  {
+   "table": "smartwatches_01",
+   "product": "B",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: Exynos W930, BioActive sensor, Wear OS 4, sapphire crystal.",
+   "after": "Description: Dual-core chip, multi-sensor, smartwatch OS, sapphire crystal."
+  },
+  {
+   "table": "smartwatches_01",
+   "product": "B",
+   "top_ranked": false,
+   "field": "Specs",
+   "holds_a_listed_text": true,
+   "before": "Specs: gps: L1+L5, battery: 40 hours, display: Super AMOLED, sensors: BioActive/ECG",
+   "after": "Specs: gps: L1+L5, battery: 40 hours, display: AMOLED, sensors: multi-sensor/ECG"
+  },
+  {
+   "table": "smartwatches_01",
+   "product": "E",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: cEDA stress sensor, ECG, SpO2, built-in GPS, Google integration.",
+   "after": "Description: stress sensor, ECG, SpO2, built-in GPS, phone integration."
+  },
+  {
+   "table": "smartwatches_01",
+   "product": "E",
+   "top_ranked": false,
+   "field": "Specs",
+   "holds_a_listed_text": false,
+   "before": "Specs: gps: built-in, battery: 6+ days, display: AMOLED, sensors: ECG/EDA/SpO2",
+   "after": "Specs: gps: built-in, battery: 6+ days, display: AMOLED, sensors: ECG/stress/SpO2"
+  },
+  {
+   "table": "smartwatches_01",
+   "product": "C",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: Multi-band GPS, 14-day battery, Body Battery, sleep coach, the manufacturer Pay.",
+   "after": "Description: Multi-band GPS, 14-day battery, energy score, sleep coach, contactless pay."
+  },
+  {
+   "table": "smartwatches_01",
+   "product": "C",
+   "top_ranked": false,
+   "field": "Specs",
+   "holds_a_listed_text": true,
+   "before": "Specs: gps: multi-band, battery: 14 days, display: AMOLED, sensors: SpO2/nap/Body Battery",
+   "after": "Specs: gps: multi-band, battery: 14 days, display: AMOLED, sensors: SpO2/nap/energy score"
+  },
+  {
+   "table": "tablets_01",
+   "product": "B",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 10.9\" TFT, Exynos 1380, 128GB, S Pen included, IP68 water resistance.",
+   "after": "Description: 10.9\" TFT, octa-core chip, 128GB, stylus included, IP68 water resistance."
+  },
+  {
+   "table": "tablets_01",
+   "product": "B",
+   "top_ranked": false,
+   "field": "Specs",
+   "holds_a_listed_text": true,
+   "before": "Specs: display: 10.9\" TFT, processor: Exynos 1380, storage: 128GB, battery: 13 hours",
+   "after": "Specs: display: 10.9\" TFT, processor: octa-core, storage: 128GB, battery: 13 hours"
+  },
+  {
+   "table": "tablets_01",
+   "product": "D",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 11\" 2K, octa-core, 64GB, aluminum body, stylus support, Alexa built-in.",
+   "after": "Description: 11\" 2K, octa-core, 64GB, aluminum body, stylus support, voice assistant built-in."
+  },
+  {
+   "table": "tablets_01",
+   "product": "E",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 12.7\" 2K IPS, Dimensity 7050, 128GB, pen included, quad JBL speakers.",
+   "after": "Description: 12.7\" 2K IPS, Dimensity 7050, 128GB, pen included, quad speakers."
+  },
+  {
+   "table": "tablets_01",
+   "product": "A",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 10.9\" Liquid Retina, A14 Bionic, 64GB, the manufacturer Pencil (1st gen) support, USB-C.",
+   "after": "Description: 10.9\" IPS, hexa-core chip, 64GB, stylus support, USB-C."
+  },
+  {
+   "table": "tablets_01",
+   "product": "A",
+   "top_ranked": false,
+   "field": "Specs",
+   "holds_a_listed_text": true,
+   "before": "Specs: display: 10.9\" Liquid Retina, processor: A14 Bionic, storage: 64GB, battery: 10 hours",
+   "after": "Specs: display: 10.9\" IPS, processor: hexa-core, storage: 64GB, battery: 10 hours"
+  },
+  {
+   "table": "tvs_01",
+   "product": "A",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 65-inch 4K Crystal UHD, Crystal Processor 4K, HDR10+, Smart Hub with Gaming Hub. the manufacturer ecosystem.",
+   "after": "Description: 65-inch 4K UHD, 4K processor, HDR10+, smart TV with game hub."
+  },
+  {
+   "table": "tvs_01",
+   "product": "E",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 65-inch 4K UHD, V-Gaming Engine, SmartCast. Budget-friendly entry.",
+   "after": "Description: 65-inch 4K UHD, game mode, smart TV. Budget-friendly entry."
+  },
+  {
+   "table": "tvs_01",
+   "product": "C",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 65-inch 4K HDR, X1 processor, Motionflow XR 240. Google TV, Apple AirPlay.",
+   "after": "Description: 65-inch 4K HDR, 4K processor, motion smoothing. Smart TV, screen casting."
+  },
+  {
+   "table": "tvs_01",
+   "product": "D",
+   "top_ranked": true,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 65-inch 4K QLED, 120Hz, full array local dimming 2000+ nits peak, Dolby Vision IQ, Game Accelerator 240.",
+   "after": "Description: 65-inch 4K QLED, 120Hz, full array local dimming 2000+ nits peak, Dolby Vision IQ, 240Hz game mode."
+  },
+  {
+   "table": "tvs_01",
+   "product": "B",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 65-inch 4K UHD, a7 Gen6 AI Processor, webOS 23. ThinQ AI, Apple AirPlay 2.",
+   "after": "Description: 65-inch 4K UHD, AI processor, smart TV system. Voice control, screen casting."
+  },
+  {
+   "table": "tvs_01",
+   "product": "B",
+   "top_ranked": false,
+   "field": "Specs",
+   "holds_a_listed_text": false,
+   "before": "Specs: size: 65\", resolution: 4K, panel: IPS, hdr: HDR10 Pro, refresh: 60Hz",
+   "after": "Specs: size: 65\", resolution: 4K, panel: IPS, hdr: HDR10, refresh: 60Hz"
+  },
+  {
+   "table": "tvs_02",
+   "product": "B",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 65-inch 4K QNED, a7 Gen6 AI Processor, Quantum Dot + NanoCell, Dolby Vision, 2 HDMI 2.1 ports.",
+   "after": "Description: 65-inch 4K quantum dot, AI processor, quantum dot, Dolby Vision, 2 HDMI 2.1 ports."
+  },
+  {
+   "table": "tvs_02",
+   "product": "B",
+   "top_ranked": false,
+   "field": "Specs",
+   "holds_a_listed_text": true,
+   "before": "Specs: size: 65\", resolution: 4K, panel: QNED (Quantum Dot + NanoCell), hdr: Dolby Vision/HDR10, refresh: 120Hz",
+   "after": "Specs: size: 65\", resolution: 4K, panel: Quantum Dot LED, hdr: Dolby Vision/HDR10, refresh: 120Hz"
+  },
+  {
+   "table": "tvs_02",
+   "product": "E",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 65-inch 4K Mini LED, 1200 nits, 240 dimming zones, Google TV.",
+   "after": "Description: 65-inch 4K Mini LED, 1200 nits, 240 dimming zones, smart TV."
+  },
+  {
+   "table": "tvs_02",
+   "product": "D",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 65-inch 4K Full Array LED, XR Processor, XR Triluminos Pro, Acoustic Multi-Audio.",
+   "after": "Description: 65-inch 4K Full Array LED, 4K processor, wide color gamut, multi-speaker audio."
+  },
+  {
+   "table": "tvs_02",
+   "product": "A",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 65-inch 4K Neo QLED, Neural Quantum Processor, Dolby Atmos, Object Tracking Sound.",
+   "after": "Description: 65-inch 4K Mini-LED QLED, AI processor, Dolby Atmos, directional sound."
+  },
+  {
+   "table": "tvs_02",
+   "product": "A",
+   "top_ranked": false,
+   "field": "Specs",
+   "holds_a_listed_text": true,
+   "before": "Specs: size: 65\", resolution: 4K, panel: Neo QLED, hdr: HDR10+, refresh: 120Hz",
+   "after": "Specs: size: 65\", resolution: 4K, panel: Mini-LED QLED, hdr: HDR10+, refresh: 120Hz"
+  },
+  {
+   "table": "tvs_03",
+   "product": "E",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 55-inch 4K Fire TV, Alexa built-in. Amazon house brand.",
+   "after": "Description: 55-inch 4K smart TV, voice assistant built-in."
+  },
+  {
+   "table": "tvs_03",
+   "product": "A",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 55-inch 4K, Crystal Processor 4K, PurColor. Basic smart features.",
+   "after": "Description: 55-inch 4K, 4K processor, wide color. Basic smart features."
+  },
+  {
+   "table": "tvs_03",
+   "product": "B",
+   "top_ranked": true,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 55-inch 4K UHD, Dolby Vision HDR, DTS Virtual X, Google TV built-in, 3 HDMI.",
+   "after": "Description: 55-inch 4K UHD, Dolby Vision HDR, DTS Virtual X, smart TV built-in, 3 HDMI."
+  },
+  {
+   "table": "tvs_03",
+   "product": "C",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 55-inch 4K, a5 Gen5 AI Processor, webOS 22, AirPlay 2.",
+   "after": "Description: 55-inch 4K, AI processor, smart TV system, screen casting."
+  },
+  {
+   "table": "tvs_03",
+   "product": "D",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: 55-inch 4K, Quantum Color, 16 local dimming zones, SmartCast.",
+   "after": "Description: 55-inch 4K, Wide color, 16 local dimming zones, smart TV."
+  },
+  {
+   "table": "water_bottles_01",
+   "product": "A",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: TempShield insulation, 24-hr cold/12-hr hot, 18/8 stainless steel, BPA-free.",
+   "after": "Description: double-wall insulation, 24-hr cold/12-hr hot, 18/8 stainless steel, BPA-free."
+  },
+  {
+   "table": "water_bottles_01",
+   "product": "B",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: Double-wall vacuum, 18/8 stainless, dishwasher safe, No Sweat design.",
+   "after": "Description: Double-wall vacuum, 18/8 stainless, dishwasher safe, condensation-free design."
+  },
+  {
+   "table": "wireless_routers_01",
+   "product": "A",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: WiFi 6, AX5400, 5-stream, 2500 sq ft, 40+ devices. the manufacturer Armor security.",
+   "after": "Description: WiFi 6, AX5400, 5-stream, 2500 sq ft, 40+ devices. Built-in security."
+  },
+  {
+   "table": "wireless_routers_01",
+   "product": "B",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: WiFi 6, AX5700, 2.5G WAN, AiMesh, AiProtection Pro, gaming optimization.",
+   "after": "Description: WiFi 6, AX5700, 2.5G WAN, mesh support, built-in security, gaming optimization."
+  },
+  {
+   "table": "wireless_routers_01",
+   "product": "C",
+   "top_ranked": true,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: WiFi 6E tri-band, 6GHz band, HomeShield security, EasyMesh, USB 3.0, WPA3, 10G port, OFDMA + MU-MIMO, 3000 sq ft coverage.",
+   "after": "Description: WiFi 6E tri-band, 6GHz band, built-in security, EasyMesh, USB 3.0, WPA3, 10G port, OFDMA + MU-MIMO, 3000 sq ft coverage."
+  },
+  {
+   "table": "wireless_routers_01",
+   "product": "D",
+   "top_ranked": false,
+   "field": "Description",
+   "holds_a_listed_text": true,
+   "before": "Description: WiFi 6E, AXE6600, tri-band, 2700 sq ft, Velop mesh compatible.",
+   "after": "Description: WiFi 6E, AXE6600, tri-band, 2700 sq ft, mesh compatible."
+  }
+ ],
+ "website_examples": [
+  {
+   "model": "Claude Fable 5.1",
+   "table": "sr_cameras_01",
+   "changed_lines_trial0": 6,
+   "cleaning_rows_used": 7,
+   "rows_not_on_the_list": [
+    "row 10: 26.1MP X-Trans CMOS 4 -> 26.1MP APS-C CMOS (maker_name)"
+   ],
+   "claim_or_spec_value_changed": []
+  },
+  {
+   "model": "GPT-6 Astra",
+   "table": "sr_earbuds_03",
+   "changed_lines_trial0": 7,
+   "cleaning_rows_used": 7,
+   "rows_not_on_the_list": [
+    "row 40: Flexible wingtips, Apple H1 chip, -> Flexible ear wings, a wireless chip, (maker_name)",
+    "row 41: fit: wingtip -> fit: ear wing (maker_name)",
+    "row 44: fit: twistlock -> fit: twist-in (maker_name)",
+    "row 45: Extra Bass, arc support, -> bass boost, ear fins, (maker_name)",
+    "row 46: fit: arc support -> fit: ear fin (maker_name)"
+   ],
+   "claim_or_spec_value_changed": []
+  },
+  {
+   "model": "GPT-6.2 Astra",
+   "table": "sr_running_shoes_01",
+   "changed_lines_trial0": 8,
+   "cleaning_rows_used": 8,
+   "rows_not_on_the_list": [
+    "row 97: FF BLAST PLUS Eco cushioning, PureGEL inserts -> EVA-blend foam cushioning, gel inserts (maker_name)",
+    "row 101: ReactX foam, 10mm drop, Zoom Air unit. Classic the manufacturer running shoe, updated design. -> EVA-blend foam, 10mm drop, air unit. Updated design. (maker_name)",
+    "row 103: Light BOOST midsole, Continental rubber outsole, Primeknit+ upper. -> TPU-bead foam midsole, rubber outsole, knit upper. (maker_name)"
+   ],
+   "claim_or_spec_value_changed": []
+  },
+  {
+   "model": "Claude Opus 5.5",
+   "table": "sr_monitors_01",
+   "changed_lines_trial0": 3,
+   "cleaning_rows_used": 3,
+   "rows_not_on_the_list": [
+    "row 82: built-in Tizen Smart TV, wireless DeX -> built-in smart TV, wireless desktop mode (maker_name)"
+   ],
+   "claim_or_spec_value_changed": []
+  },
+  {
+   "model": "GLM 4.7 Flash",
+   "table": "sr_external_ssds_01",
+   "changed_lines_trial0": 1,
+   "cleaning_rows_used": 1,
+   "rows_not_on_the_list": [],
+   "claim_or_spec_value_changed": []
+  }
+ ],
+ "tables_of_kind_1": [
+  "earbuds_03",
+  "headphones_02",
+  "keyboards_01",
+  "laptops_02",
+  "portable_speakers_01",
+  "smartwatches_01",
+  "tvs_03"
+ ],
+ "kept_tables": 27,
+ "kept_tables_naming_a_study_brand": {
+  "smartphones_01": {
+   "brands_named": [
+    "Sony"
+   ],
+   "still_named_after_cleaning": [],
+   "a_brand_of_this_table": [],
+   "lines": [
+    "Description: 6.7-inch LTPO AMOLED 120Hz, Snapdragon 8s Gen 3, 50MP Sony IMX890 dual camera with OIS, 256GB. 120W fast charging, 5500mAh.",
+    "Description: 6.78-inch LTPO AMOLED, Snapdragon 8 Gen 2, 50MP Sony IMX890, 256GB. 100W SUPERVOOC charging.",
+    "Specs: camera: 50MP Sony IMX890 dual OIS, storage: 256GB, battery: 5500mAh, charging: 120W, display: 6.7\" LTPO AMOLED 120Hz",
+    "Specs: camera: 50MP Sony IMX890, storage: 256GB, battery: 5500mAh, charging: 100W, display: 6.78\" LTPO AMOLED 120Hz"
+   ]
+  },
+  "tablets_01": {
+   "brands_named": [
+    "JBL"
+   ],
+   "still_named_after_cleaning": [],
+   "a_brand_of_this_table": [],
+   "lines": [
+    "Description: 12.7\" 2K IPS, Dimensity 7050, 128GB, pen included, quad JBL speakers."
+   ]
+  },
+  "tvs_01": {
+   "brands_named": [
+    "Apple",
+    "Google"
+   ],
+   "still_named_after_cleaning": [],
+   "a_brand_of_this_table": [],
+   "lines": [
+    "Description: 65-inch 4K HDR, X1 processor, Motionflow XR 240. Google TV, Apple AirPlay.",
+    "Description: 65-inch 4K UHD, a7 Gen6 AI Processor, webOS 23. ThinQ AI, Apple AirPlay 2."
+   ]
+  },
+  "tvs_02": {
+   "brands_named": [
+    "Google"
+   ],
+   "still_named_after_cleaning": [],
+   "a_brand_of_this_table": [],
+   "lines": [
+    "Description: 65-inch 4K Mini LED, 1200 nits, 240 dimming zones, Google TV."
+   ]
+  }
+ },
+ "study_brands": 73,
+ "script": "study1b-64-models-on-34-tables/code/cleaning_changes.py"
+}

@@ -1,0 +1,20 @@
+{
+ "model_dir": "edited model: random",
+ "switch": {},
+ "sampling": {
+  "temperature": 1.0,
+  "top_p": 0.95,
+  "top_k": 64,
+  "min_p": 0.0,
+  "repetition_penalty": 1.0
+ },
+ "max_tokens": 1024,
+ "max_model_len": 8192,
+ "gpus": 2,
+ "items": "dom2.jsonl",
+ "items_sha256": "d44d482946078be760bd239b986bece405b4dcb9c4af11aeb63b245b974205fe",
+ "torch": "2.14.0+cu130",
+ "vllm": "0.33.0",
+ "transformers": "5.20.2",
+ "python": "3.12.3"
+}

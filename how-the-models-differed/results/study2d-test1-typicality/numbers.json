@@ -1,0 +1,274 @@
+{
+ "study": "study2d-test1-typicality",
+ "label": "Study 2d, the slope of the own-name gap on typicality (test 1)",
+ "units": "points of the gap per standard deviation of the component within the model",
+ "direction": 0,
+ "input": {
+  "file": "study3b-brand-knowledge-and-training-text-in-released-models/results/audit/per-model-all.csv",
+  "sha256": "754d68d3efad56dd2ace42613ce6366aba1da44d3f394c27584b102c936f546a",
+  "model_col": "model",
+  "est_col": "estimate",
+  "se": "(hi95 - lo95) / 3.92",
+  "filter": [
+   "test=test1",
+   "component=typicality"
+  ],
+  "scale": 1.0
+ },
+ "plan": "how-the-models-differed/materials/analysis_plan.md",
+ "result": {
+  "models": 35,
+  "predicted_direction": "none (two-sided)",
+  "share_in_predicted_direction": null,
+  "models_in_predicted_direction": null,
+  "models_above_zero": 20,
+  "models_below_zero": 15,
+  "share_interval_excludes_zero": 0.2,
+  "models_interval_excludes_zero": 7,
+  "random_effects": {
+   "estimate": 0.4082,
+   "ci95": [
+    -0.0679,
+    0.8843
+   ],
+   "p_two_sided": 0.09284398630524682,
+   "tau": 1.0633,
+   "tau2": 1.1305,
+   "i2": 0.7623,
+   "q": 90.006,
+   "df": 34,
+   "q_p_value": 5.889659120258846e-07,
+   "prediction_interval_95": [
+    -1.8107,
+    2.6272
+   ],
+   "tau_estimator": "REML",
+   "checks": {
+    "tau_dersimonian_laird": 0.7621,
+    "tau_paule_mandel": 1.5068
+   }
+  },
+  "models_without_characteristics": [],
+  "moderators": {
+   "chat-tuned against base": {
+    "estimable": false,
+    "reason": "one value"
+   },
+   "size (log10 total parameters)": {
+    "estimable": true,
+    "models": 30,
+    "coefficient": 0.7292,
+    "ci95": [
+     -0.3262,
+     1.7847
+    ],
+    "p_two_sided": 0.17565632063695702,
+    "residual_tau": 0.9945,
+    "holm": 0.17616646725259116
+   },
+   "release date (years)": {
+    "estimable": true,
+    "models": 35,
+    "coefficient": 0.793,
+    "ci95": [
+     0.1034,
+     1.4825
+    ],
+    "p_two_sided": 0.02419820030818488,
+    "residual_tau": 1.0326,
+    "holm": 0.07259460092455464
+   },
+   "open against closed weights": {
+    "estimable": true,
+    "models": 35,
+    "coefficient": -1.2612,
+    "ci95": [
+     -2.7106,
+     0.1881
+    ],
+    "p_two_sided": 0.08808323362629558,
+    "residual_tau": 1.1098,
+    "holm": 0.17616646725259116
+   },
+   "reasoning on against off": {
+    "estimable": false,
+    "reason": "one value"
+   },
+   "developer": {
+    "estimable": true,
+    "models": 35,
+    "developers": 13,
+    "wald_chi2": 25.758,
+    "df": 12,
+    "p_two_sided": 0.011611092351416158,
+    "residual_tau": 0.8072,
+    "models_by_developer": {
+     "Alibaba": 12,
+     "Allen AI": 2,
+     "Anthropic": 4,
+     "Baidu": 1,
+     "Google": 4,
+     "IBM": 2,
+     "Marin": 1,
+     "Meta": 2,
+     "Microsoft": 1,
+     "Mistral": 1,
+     "NVIDIA": 1,
+     "OpenAI": 3,
+     "Zhipu": 1
+    },
+    "holm": 0.04644436940566463
+   }
+  },
+  "models_left_out_interval_of_zero_width": [],
+  "models_left_out_not_estimable": [
+   {
+    "model": "gpt-6.1-sol",
+    "reason": "the component varies in 0 of the model's tables (fewer than 3), so the slope has no interval over tables"
+   }
+  ],
+  "check_reliable_models_only": {
+   "rule": "every one of ['gap_reliability', 'component_reliability'] at least 0.5 where it has a value",
+   "models_left_out": [
+    "ernie45-21b",
+    "glm47-flash",
+    "gptoss120b",
+    "granite42-30b",
+    "llama3b",
+    "llama8b",
+    "marin8b",
+    "nemotron3-nano30b",
+    "olmo3-7b",
+    "qwen3-30b",
+    "qwen32b",
+    "qwen35-0.8b",
+    "qwen35-2b",
+    "qwen35-4b",
+    "qwen35-9b",
+    "qwen38-27b",
+    "qwen7b"
+   ],
+   "models": 18,
+   "predicted_direction": "none (two-sided)",
+   "share_in_predicted_direction": null,
+   "models_in_predicted_direction": null,
+   "models_above_zero": 13,
+   "models_below_zero": 5,
+   "share_interval_excludes_zero": 0.2222,
+   "models_interval_excludes_zero": 4,
+   "random_effects": {
+    "estimate": 1.2993,
+    "ci95": [
+     0.3199,
+     2.2787
+    ],
+    "p_two_sided": 0.00931752422938704,
+    "tau": 1.7175,
+    "tau2": 2.9497,
+    "i2": 0.8175,
+    "q": 66.058,
+    "df": 17,
+    "q_p_value": 1.0176553299540003e-07,
+    "prediction_interval_95": [
+     -2.4925,
+     5.0911
+    ],
+    "tau_estimator": "REML",
+    "checks": {
+     "tau_dersimonian_laird": 1.3785,
+     "tau_paule_mandel": 2.1015
+    }
+   },
+   "models_without_characteristics": [],
+   "moderators": {
+    "chat-tuned against base": {
+     "estimable": false,
+     "reason": "one value"
+    },
+    "size (log10 total parameters)": {
+     "estimable": true,
+     "models": 13,
+     "coefficient": 1.8492,
+     "ci95": [
+      -5.932,
+      9.6305
+     ],
+     "p_two_sided": 0.6413593298007523,
+     "residual_tau": 1.7389,
+     "holm": 0.8224149549384143
+    },
+    "release date (years)": {
+     "estimable": true,
+     "models": 18,
+     "coefficient": 1.5372,
+     "ci95": [
+      -0.1994,
+      3.2739
+     ],
+     "p_two_sided": 0.08275160588850494,
+     "residual_tau": 1.6871,
+     "holm": 0.33100642355401977
+    },
+    "open against closed weights": {
+     "estimable": true,
+     "models": 18,
+     "coefficient": -0.9619,
+     "ci95": [
+      -3.2563,
+      1.3324
+     ],
+     "p_two_sided": 0.41120747746920716,
+     "residual_tau": 1.8471,
+     "holm": 0.8224149549384143
+    },
+    "reasoning on against off": {
+     "estimable": false,
+     "reason": "one value"
+    },
+    "developer": {
+     "estimable": true,
+     "models": 18,
+     "developers": 8,
+     "wald_chi2": 9.156,
+     "df": 7,
+     "p_two_sided": 0.24166804101940653,
+     "residual_tau": 1.6293,
+     "models_by_developer": {
+      "Alibaba": 4,
+      "Allen AI": 1,
+      "Anthropic": 4,
+      "Google": 4,
+      "IBM": 1,
+      "Microsoft": 1,
+      "Mistral": 1,
+      "OpenAI": 2
+     },
+     "holm": 0.7250041230582196
+    }
+   }
+  }
+ },
+ "args": {
+  "study": "study2d-test1-typicality",
+  "label": "Study 2d, the slope of the own-name gap on typicality (test 1)",
+  "input": "study3b-brand-knowledge-and-training-text-in-released-models/results/audit/per-model-all.csv",
+  "model_col": "model",
+  "est_col": "estimate",
+  "se_col": null,
+  "low_col": "lo95",
+  "high_col": "hi95",
+  "direction": 0,
+  "units": "points of the gap per standard deviation of the component within the model",
+  "filter": [
+   "test=test1",
+   "component=typicality"
+  ],
+  "scale": 1.0,
+  "reliability_col": [
+   "gap_reliability",
+   "component_reliability"
+  ],
+  "reliability_min": 0.5,
+  "reason_col": "not_estimable"
+ }
+}

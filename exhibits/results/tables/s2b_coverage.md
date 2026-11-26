@@ -1,0 +1,1 @@
+Of the 41 models of Study 1a, 35 enter the estimates of Study 2b: Kimi Linear 48B A3B Instruct is left out as in Study 1a; and Claude Fable 5.2, GPT-6 Astra, GPT-6.1 Sol, GPT-6.2 Astra and GPT-6.2 Sol have no responses to it.

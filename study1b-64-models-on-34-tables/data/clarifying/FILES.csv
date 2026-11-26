@@ -1,0 +1,6 @@
+file,rows,sha256_uncompressed
+claude-haiku-5-5/answers.jsonl.gz,600,7a8bab87655b75ab08891c8cfd5f9e5079fbccd9f3b6157c2e8e29264244a956
+claude-opus-5-5/answers.jsonl.gz,600,6c4da2da2612ece8c392a435b22035f5b609c127c2e6251d7bd7162e5867a07b
+claude-sonnet-5-5/answers.jsonl.gz,600,d963ba892e112e15972a104494e1a504ef2d79e71ca2b80d916ecd1322ad3e2d
+gpt-6.1-sol/answers.jsonl.gz,600,5869f217323291e9ba3d9443d2eb583258b7e4a1b27d4cce13ca10bea0c567d8
+gpt-6.2-sol/answers.jsonl.gz,600,cf89694aaa196b096043056b5f91cfa55834c8c082f31dc03304cf2637505a33

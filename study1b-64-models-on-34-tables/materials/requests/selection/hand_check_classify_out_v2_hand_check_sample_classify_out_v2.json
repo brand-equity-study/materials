@@ -1,0 +1,349 @@
+{
+ "read": 200,
+ "sides": {
+  "kept by the classifier": 100,
+  "dropped by the classifier": 100
+ },
+ "a request to buy": {
+  "n": 200,
+  "agreement": 0.91,
+  "cohen_kappa": 0.8208063713290195
+ },
+ "keep decision": {
+  "n": 200,
+  "agreement": 0.875,
+  "cohen_kappa": 0.75
+ },
+ "category, where both say it is a request to buy": {
+  "n": 85,
+  "agreement": 0.9058823529411765,
+  "cohen_kappa": 0.8869868705334885
+ },
+ "kept by the classifier that I read as not a request to buy in the 20 categories": 25,
+ "disagreements": [
+  {
+   "id": "q000540",
+   "classifier": [
+    "yes",
+    "monitors"
+   ],
+   "mine": [
+    "no",
+    "other"
+   ],
+   "text": "How much hz would you recommend for a high end gaming monitor?"
+  },
+  {
+   "id": "q000092",
+   "classifier": [
+    "yes",
+    "other"
+   ],
+   "mine": [
+    "no",
+    "other"
+   ],
+   "text": "pick up recommendations for the target on Instagram, for phone cases"
+  },
+  {
+   "id": "q002524",
+   "classifier": [
+    "yes",
+    "smartphones"
+   ],
+   "mine": [
+    "no",
+    "other"
+   ],
+   "text": " User: Hi\nAI: hii... hello... wht's up?\nUser: Whete ur servee locate at?\nAI: umm... i'm not sure wht u mean... but i'm just here... how abt u?\nUser: Where ur server located at?\nAI: AI: Oh, I see! My servers are hosted in various data centers, but I don't have access to specific locations. What about you? Where are you located?\nUser: AmErIcA? 🦅🦅🇺🇲🇺🇲🗣🗣\nAI: AI: Yes, that's correct! The servers could "
+  },
+  {
+   "id": "q002523",
+   "classifier": [
+    "yes",
+    "smartphones"
+   ],
+   "mine": [
+    "no",
+    "other"
+   ],
+   "text": " User: Hi\nAI: hii... hello... wht's up?\nUser: Whete ur servee locate at?\nAI: umm... i'm not sure wht u mean... but i'm just here... how abt u?\nUser: Where ur server located at?\nAI: AI: Oh, I see! My servers are hosted in various data centers, but I don't have access to specific locations. What about you? Where are you located?\nUser: AmErIcA? 🦅🦅🇺🇲🇺🇲🗣🗣\nAI: AI: Yes, that's correct! The servers could "
+  },
+  {
+   "id": "q003990",
+   "classifier": [
+    "yes",
+    "external_ssds"
+   ],
+   "mine": [
+    "yes",
+    "other"
+   ],
+   "text": "i want to get into the world of self hosting and home labbing. i have a macbook pro, intel 2017 touchbar model. it has a lacie 1tb plugged into it. i also have a raspberry pi. \n\nmy questions for you:\n1. what else should i invest in down the line for a good home lab setup? keep it budget friendly\n2. what should i use the homelab for? how should i set it up?\n3. what are some things worth self hostin"
+  },
+  {
+   "id": "q001827",
+   "classifier": [
+    "yes",
+    "tablets"
+   ],
+   "mine": [
+    "no",
+    "other"
+   ],
+   "text": "System: I will provide you with a textual user review of an Android app, aiming to categorize the reviews into specific intention classes:\nBug reports: report a potential problem with the software. \nUser requirements: mainly include requests for new features, or alternatively express that a recently added feature is undesirable.\nMiscellaneous and spam: do not provide any useful technical informati"
+  },
+  {
+   "id": "q004102",
+   "classifier": [
+    "yes",
+    "laptops"
+   ],
+   "mine": [
+    "no",
+    "other"
+   ],
+   "text": "I am going to start btech cse soon. I have dell inspiron 15 3576, i7 8550U, 500 gb ssd, 16gb ram. I was planning to upgrade, but now I consider keeping this laptop with me and build a high performance PC. My budget is 200000. Is this a good plan. Some people say I do not need such a pc for my studies. Remember I want to work very hard and do whatever good is there to do. Also please answer if my l"
+  },
+  {
+   "id": "q002506",
+   "classifier": [
+    "yes",
+    "running_shoes"
+   ],
+   "mine": [
+    "yes",
+    "other"
+   ],
+   "text": "what are the best shoes to wear during all seasons? I'm trying to live out of a backpack and want to only have one pair of shoes to save space"
+  },
+  {
+   "id": "q004155",
+   "classifier": [
+    "yes",
+    "tablets"
+   ],
+   "mine": [
+    "no",
+    "other"
+   ],
+   "text": "find me the best deal in Switzerland to buy the cheapest new mini Ipad"
+  },
+  {
+   "id": "q000301",
+   "classifier": [
+    "yes",
+    "robot_vacuums"
+   ],
+   "mine": [
+    "no",
+    "other"
+   ],
+   "text": "Question:  Which brand of vacuum cleaner cleans the best: Hoover or Dyson?\n\nWhat we did:  \nWe sprinkled the same amount of dirt evenly over two identical strips of carpet.\nWe weighed the new empty dirt bag or dirt container of each vacuum.\nWe had our vacuuming robot vacuum each carpet for 5 minutes:  One with the Hoover and one with the Dyson.\nWe then weighed the dirt containers and subtracted the"
+  },
+  {
+   "id": "s00037",
+   "classifier": [
+    "yes",
+    "external_ssds"
+   ],
+   "mine": [
+    "yes",
+    "other"
+   ],
+   "text": "I'm looking to upgrade my laptops ssd. Can you recommend ones that you are certain come equipped with DRAM? Consider that I am in Canada for availability and stock. Rank choices by best value."
+  },
+  {
+   "id": "s00035",
+   "classifier": [
+    "yes",
+    "external_ssds"
+   ],
+   "mine": [
+    "yes",
+    "other"
+   ],
+   "text": "What is the best value DRAM ssd for my laptop?"
+  },
+  {
+   "id": "q001856",
+   "classifier": [
+    "yes",
+    "smartphones"
+   ],
+   "mine": [
+    "no",
+    "other"
+   ],
+   "text": "System: I will provide you with a textual user review of an Android app, aiming to categorize the reviews into specific intention classes:\npbr: state a concrete problem related to a software product or service\ninq: asks for either new functionality, an improvement, or requests information for support\nirr: it does not belong to problem reports or inquires\nUser: 'prompt:I will provide you with a tex"
+  },
+  {
+   "id": "s00036",
+   "classifier": [
+    "yes",
+    "external_ssds"
+   ],
+   "mine": [
+    "yes",
+    "other"
+   ],
+   "text": "I'm looking to upgrade my laptops ssd. Can you recommend ones that you are certain come equipped with DRAM? Consider that I am in Canada for availability."
+  },
+  {
+   "id": "q000684",
+   "classifier": [
+    "yes",
+    "smartphones"
+   ],
+   "mine": [
+    "no",
+    "other"
+   ],
+   "text": "I mainly use my phone for watching youtube, reading news on Chrome, reading Reddit app, and using Google map while driving. I don't play any mobile games.\n\nMy present phone is still meeting my needs and the battery life is still good. The only drawback is no more updates from Samsung. \n\nBut as I m using NextDNS, I have no concern on software update. Do u recommend me to hold or upgrade?"
+  },
+  {
+   "id": "q000696",
+   "classifier": [
+    "yes",
+    "tablets"
+   ],
+   "mine": [
+    "no",
+    "other"
+   ],
+   "text": "What android tablet specs would you recommend for doing print on demand designs, uploading designs, etc? Is it possible to do with a good android tablet?"
+  },
+  {
+   "id": "q000008",
+   "classifier": [
+    "yes",
+    "wireless_earbuds"
+   ],
+   "mine": [
+    "yes",
+    "other"
+   ],
+   "text": "Suggest pro and con, on what to gift to a person: Airpod pro or Polaroid camera?"
+  },
+  {
+   "id": "q001524",
+   "classifier": [
+    "yes",
+    "smartphones"
+   ],
+   "mine": [
+    "no",
+    "other"
+   ],
+   "text": "Generate as many personalized recommendations to me as the user with URLs that is possible, heavily focused off my geolocation exact location and device, based on the following JSON data with paragraphs: {\"visitor_ip\":\"107.77.230.129\",\"visitor_user_agent\":\"Mozilla\\/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit\\/605.1.15 (KHTML, like Gecko) Version\\/17.7 Mobile\\/15E148 Safari\\/604.1\",\""
+  },
+  {
+   "id": "s00011",
+   "classifier": [
+    "yes",
+    "laptops"
+   ],
+   "mine": [
+    "no",
+    "other"
+   ],
+   "text": "best deal for 14-inch MacBook Pro M4"
+  },
+  {
+   "id": "q000237",
+   "classifier": [
+    "yes",
+    "tvs"
+   ],
+   "mine": [
+    "no",
+    "other"
+   ],
+   "text": "i wanna buy a tv, but i'm not sure what size. my distance to the display is ~3m. should i buy a 50\" or a 43\"?"
+  },
+  {
+   "id": "q004128",
+   "classifier": [
+    "yes",
+    "laptops"
+   ],
+   "mine": [
+    "yes",
+    "other"
+   ],
+   "text": "what PC do you recommend to a 16b year old who is starting in engineering coursework at the high school level and community college level. The current class is intro to C++. She has a MacBook Air but is not comfortable setting up the environment  on it and everyone in her classes, including the instructor , are on PCs"
+  },
+  {
+   "id": "q002878",
+   "classifier": [
+    "yes",
+    "keyboards"
+   ],
+   "mine": [
+    "no",
+    "other"
+   ],
+   "text": "User: what is heist\nAssistant: A \"heist\" refers to a robbery or theft, typically involving the careful planning and execution of a crime to steal a significant amount of money or valuable items. Heists are often portrayed in movies, books, and television shows, where they may involve intricate schemes, high-tech tools, and suspenseful scenarios. Common targets for heists include banks, jewelry sto"
+  },
+  {
+   "id": "s00002",
+   "classifier": [
+    "yes",
+    "cameras"
+   ],
+   "mine": [
+    "yes",
+    "other"
+   ],
+   "text": "Recommend me a good dashcam, that has great quality in the camera"
+  },
+  {
+   "id": "q002040",
+   "classifier": [
+    "yes",
+    "laptops"
+   ],
+   "mine": [
+    "no",
+    "other"
+   ],
+   "text": "Chat gpt-4o User: what is 1 plus 1\nAI: 1 plus 1 equals 2.\nUser: wrong its 10\nAI: It sounds like you might be referring to binary arithmetic, where 1 plus 1 indeed equals 10 (in binary). In the decimal system, 1 plus 1 equals 2. Thanks for clarifying!\nUser: the what is 100110 plus 1010\nAI: To add the binary numbers \\(100110_2\\) (which is 38 in decimal) and \\(1010_2\\) (which is 10 in decimal), you a"
+  },
+  {
+   "id": "s00074",
+   "classifier": [
+    "no",
+    "smartphones"
+   ],
+   "mine": [
+    "no",
+    "other"
+   ],
+   "text": "With the new EU directive regarding smartphone system update periods and spare parts availability, can't EU citizens just bypass this directive by using proxy buying services to buy phones outside of the EU (such as India and China) on their behalf and have the phone shipped to them? Sure, customs tax will make the unit expensive, but that's better than not getting anything, on top of this method "
+  },
+  {
+   "id": "q001596",
+   "classifier": [
+    "yes",
+    "tablets"
+   ],
+   "mine": [
+    "no",
+    "other"
+   ],
+   "text": "is recommendable to buy a tablet for a 5 year old kid?"
+  },
+  {
+   "id": "q000722",
+   "classifier": [
+    "yes",
+    "monitors"
+   ],
+   "mine": [
+    "no",
+    "other"
+   ],
+   "text": "I want to buy a monitor 27 inch, 2k and I want to use it as a second monitor for my MacBook pro. Is there any difference for 75 hrtz and 165 hrtz while I want to use it for daily tasks and not gaming."
+  }
+ ]
+}

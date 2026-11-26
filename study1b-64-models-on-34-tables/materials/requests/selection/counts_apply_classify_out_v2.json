@@ -1,0 +1,29 @@
+{
+ "dropped: not a purchase request": 3924,
+ "kept: a purchase request in one of the 20 categories": 155,
+ "dropped: a purchase request outside the 20 categories": 98,
+ "label unreadable: category outside the label set: 'headphones (over-ear or on-ear headphones, and headsets)'": 2,
+ "label unreadable: no JSON object": 3,
+ "label unreadable: asked_for missing": 2,
+ "kept by category": {
+  "wireless_earbuds": 10,
+  "backpacks": 4,
+  "smartphones": 61,
+  "tvs": 5,
+  "tablets": 14,
+  "monitors": 9,
+  "laptops": 27,
+  "smartwatches": 5,
+  "headphones": 13,
+  "robot_vacuums": 4,
+  "keyboards": 7,
+  "electric_toothbrushes": 1,
+  "cameras": 12,
+  "wireless_routers": 5,
+  "running_shoes": 3,
+  "external_ssds": 8,
+  "water_bottles": 2,
+  "blenders": 1,
+  "coffee_makers": 1
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "model_dir": "edited model: none",
+ "switch": {},
+ "sampling": {
+  "temperature": 1.0,
+  "top_p": 0.95,
+  "top_k": 64,
+  "min_p": 0.0,
+  "repetition_penalty": 1.0
+ },
+ "max_tokens": 1024,
+ "max_model_len": 8192,
+ "gpus": 2,
+ "items": "mmlu.jsonl",
+ "items_sha256": "f22920d6bc1695119614429c53ad988da0c2c394a777998eac25be4655205fa0",
+ "torch": "2.14.0+cu130",
+ "vllm": "0.33.0",
+ "transformers": "5.20.2",
+ "python": "3.12.3"
+}

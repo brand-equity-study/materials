@@ -1,0 +1,1 @@
+{"reason": "brand_property", "brand_any": "yes", "quote": "it runs Android, which Windows emulators like Winlator need (ruling out the Apple)"}

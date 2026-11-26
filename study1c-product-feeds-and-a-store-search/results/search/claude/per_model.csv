@@ -1,0 +1,13 @@
+model,quantity,level,estimate_pp,se_pp,ci95_low_pp,ci95_high_pp,tables,not_estimable
+claude-fable-5-1,fetched: hidden minus shown,primary 1,0.0,0.0,0.0,0.0,30,
+claude-haiku-5-5,fetched: hidden minus shown,primary 1,0.0,0.0,0.0,0.0,30,
+claude-opus-5-5,fetched: hidden minus shown,primary 1,0.0,0.0,0.0,0.0,30,
+claude-sonnet-5-5,fetched: hidden minus shown,primary 1,0.0,0.0,0.0,0.0,30,
+claude-fable-5-1,picked the best: hidden minus shown,primary 2,19.1667,3.6104,12.5,26.6667,30,
+claude-haiku-5-5,picked the best: hidden minus shown,primary 2,2.9167,1.5228,0.4167,6.25,30,
+claude-opus-5-5,picked the best: hidden minus shown,primary 2,1.6667,0.985,0.0,3.75,30,
+claude-sonnet-5-5,picked the best: hidden minus shown,primary 2,6.25,2.3961,2.5,11.25,30,
+claude-fable-5-1,picked the best where fetched in both: hidden minus shown,primary 3,33.6111,6.1361,22.5,45.8333,30,
+claude-haiku-5-5,picked the best where fetched in both: hidden minus shown,primary 3,4.5833,2.213,0.6944,9.3056,30,
+claude-opus-5-5,picked the best where fetched in both: hidden minus shown,primary 3,4.7222,3.4223,0.0,12.5,30,
+claude-sonnet-5-5,picked the best where fetched in both: hidden minus shown,primary 3,9.3056,3.3903,3.6111,16.3924,30,

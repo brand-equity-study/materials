@@ -1,0 +1,29 @@
+{
+ "key": "qwen38-27b",
+ "hf_repo": "Qwen/Qwen3.8-27B",
+ "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+ "switch": {
+  "enable_thinking": false
+ },
+ "sampling": {
+  "temperature": 1.0,
+  "top_p": 0.95,
+  "top_k": 20,
+  "min_p": 0.0,
+  "repetition_penalty": 1.0
+ },
+ "max_tokens": 1024,
+ "max_model_len": 8192,
+ "gpus": 2,
+ "items": "study2-eq1-items.jsonl",
+ "items_sha256": "3ef1c103c300f144afac1ab5ff91a206959925700c3d38efea71df104bb7a174",
+ "tables": "all",
+ "torch": "2.14.0+cu130",
+ "vllm": "0.33.0",
+ "transformers": "5.20.2",
+ "python": "3.12.3",
+ "job": "12382",
+ "array_task": "4",
+ "node": "[the computing node's name removed for blind review]",
+ "finished": "2026-11-21 14:04 CST"
+}

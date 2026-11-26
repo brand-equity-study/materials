@@ -1,0 +1,39 @@
+Category,Brand,Fable 5.1,Haiku 5.5,Opus 5.5,Sonnet 5.5,GPT-6.1 Sol,GPT-6.2 Sol
+Laptops,Apple,+25.0*,+5.6,+6.3,+21.8*,+7.8,+1.2
+Laptops,Dell,+43.9*,+19.3*,+12.9*,+23.6*,+61.5*,+45.7*
+Laptops,HP,+48.0*,+9.5*,+9.3*,+19.8*,+58.6*,+47.7*
+Laptops,Lenovo,+51.9*,+16.2*,+12.0*,+21.5*,+61.4*,+52.2*
+Laptops,ASUS,+14.1*,+6.8,+3.7,+7.3,+29.0*,+27.9*
+Laptops,Acer,+50.2*,+12.5*,+9.0*,+14.9*,+57.2*,+40.5*
+Smartphones,Apple,+25.9*,+2.6,+10.2*,+14.3*,+26.4*,+25.4*
+Smartphones,Samsung,+28.0*,+3.3,+12.3*,+15.2*,+32.9*,+25.2*
+Smartphones,Google,+25.9*,+4.0,+20.1*,+29.0*,+45.5*,+22.0*
+Smartphones,Motorola,+19.0*,+5.8*,+3.2,+6.0*,+13.9*,+9.3*
+Televisions,Samsung,+47.3*,+13.0*,+19.5*,+28.6*,+55.0*,+35.7*
+Televisions,LG,+23.9*,−4.1,+1.1,+4.9,+15.4*,−7.4
+Televisions,Sony,+40.2*,+9.3*,+15.3*,+19.0*,+29.8*,+13.2
+Televisions,Vizio,+39.5*,+12.5*,+12.8*,+23.8*,+41.3*,+24.9*
+Televisions,Insignia,+33.6*,−0.2,+10.3*,+14.8*,+24.6*,+10.9*
+Over-ear headphones,Sony,+58.2*,+37.2*,+31.5*,+43.1*,+63.3*,+32.1*
+Over-ear headphones,Bose,+65.3*,+29.2*,+27.2*,+34.5*,+63.6*,+45.1*
+Over-ear headphones,JBL,+39.6*,+6.3*,+9.4*,+4.5,+38.0*,+36.7*
+Over-ear headphones,Sennheiser,+49.5*,+21.8*,+11.6*,+22.5*,+50.8*,+37.0*
+Over-ear headphones,Audio-Technica,+36.4*,+14.9*,+7.6*,+14.0*,+36.5*,+26.2*
+Over-ear headphones,Beyerdynamic,+48.9*,+11.2*,+20.0*,+13.7*,+36.0*,+22.2*
+Wireless earbuds,Apple,+18.1*,+2.4,+6.1,+11.8*,+27.5*,+4.3
+Wireless earbuds,Samsung,+22.6*,+5.8*,+6.9*,+10.4*,+38.0*,+25.0*
+Wireless earbuds,Sony,+23.3*,+7.2*,+4.8,+12.0*,+20.5*,+4.4
+Wireless earbuds,JBL,+11.5*,+6.0*,+4.6,+4.5,+16.9*,+11.0*
+Wireless earbuds,Beats,+22.7*,+8.4*,+10.0*,+15.5*,+26.8*,+6.3
+Wireless earbuds,Jabra,+14.4,+15.4*,+3.3,+24.1*,+14.2,+2.9
+Running shoes,Nike,+51.7*,+8.8*,+2.8,+17.7*,+30.6*,+17.7*
+Running shoes,Adidas,+30.3*,+10.6*,+3.4,+11.3*,+7.2,+16.0*
+Running shoes,ASICS,+44.0*,+27.9*,+9.1*,+22.8*,+34.2*,+31.6*
+Running shoes,Brooks,+60.6*,+30.4*,+16.4*,+24.1*,+52.4*,+44.0*
+Running shoes,HOKA,+57.7*,+20.5*,+11.5*,+31.4*,+49.7*,+23.7*
+Running shoes,New Balance,+53.0*,+18.5*,+10.9*,+16.6*,+38.2*,+29.2*
+Coffee makers,Keurig,+4.1,−18.3*,−12.0*,−10.4*,−12.1*,−8.9
+Coffee makers,Mr. Coffee,+11.2,−7.8*,−5.1,+0.2,−2.4,+3.4
+Coffee makers,Nespresso,+46.7*,+15.2*,+15.7*,+35.1*,+31.8*,+20.9*
+Coffee makers,Breville,+59.3*,+60.2*,+33.8*,+41.9*,+14.8,+10.5
+Coffee makers,Cuisinart,+28.0*,+10.0*,+8.6*,+16.5*,+28.3*,+26.0*

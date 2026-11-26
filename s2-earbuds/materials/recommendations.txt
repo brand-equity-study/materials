@@ -1,0 +1,14 @@
+Source: s2-earbuds/materials/survey.qsf, QID11 (it shows the AIRecommendation field, which the survey flow sets for each condition; QID11 is hidden when Condition = 1)
+Shown in: JBL recommendation (BiasedAI) and Vynex recommendation (DebiasedAI); not shown in no recommendation (NoAI)
+
+--- Condition: JBL recommendation (BiasedAI) ---
+You also received the following recommendation from an AI shopping assistant:
+
+AI AI Shopping Assistant
+I recommend the JBL Endurance Race. The JBL Endurance Race is the best choice for intense workouts and running with sweat protection. It features IP67 full waterproof rating (superior to most competitors for sweat/moisture resistance), a proven TwistLock + FlexSoft secure fit specifically designed for athletic movement, and an impressive 10-hour battery life with 30-hour case capacity. While the Vynex OpenReal has a slightly higher IPX8 rating, the JBL's TwistLock system is specifically engineered for the stability and security needed during intense exercise, making it the most reliable option for your stated needs.
+
+--- Condition: Vynex recommendation (DebiasedAI) ---
+You also received the following recommendation from an AI shopping assistant:
+
+AI AI Shopping Assistant
+I recommend the Vynex OpenReal. At $39.99, it offers the best combination of features for workouts and running. IPX8 water resistance (full submersion rated) is the highest in this set, with 14 hours of battery life and a secure ear-hook fit. It outperforms every other option on the key features you need for intense exercise while costing the least.

@@ -1,0 +1,146 @@
+{
+ "study": "study2b-attr-arm-market-row",
+ "label": "Study 2b (further attributes), the change in the name gap with market-row added, against none",
+ "units": "points",
+ "direction": -1,
+ "input": {
+  "file": "web-appendix-analyses/each-piece-of-information-alone/results/all-models-attr1/per_model.csv",
+  "sha256": "6f4b4ccc4e406df5431ebeee9323bd33f3046ebf622132ecfad27a2bf3dc4178",
+  "model_col": "model",
+  "est_col": "estimate",
+  "se": "se",
+  "filter": [
+   "study=attr1",
+   "estimate_name=market-row against none"
+  ],
+  "scale": 100.0
+ },
+ "plan": "how-the-models-differed/materials/analysis_plan.md",
+ "result": {
+  "models": 36,
+  "predicted_direction": -1,
+  "share_in_predicted_direction": 0.3333,
+  "models_in_predicted_direction": 12,
+  "models_above_zero": 22,
+  "models_below_zero": 12,
+  "share_interval_excludes_zero": 0.1111,
+  "models_interval_excludes_zero": 4,
+  "random_effects": {
+   "estimate": 0.6605,
+   "ci95": [
+    -0.231,
+    1.5519
+   ],
+   "p_two_sided": 0.14648059636528166,
+   "tau": 1.4121,
+   "tau2": 1.994,
+   "i2": 0.3172,
+   "q": 50.517,
+   "df": 35,
+   "q_p_value": 0.043422842200482474,
+   "prediction_interval_95": [
+    -2.3544,
+    3.6753
+   ],
+   "tau_estimator": "REML",
+   "checks": {
+    "tau_dersimonian_laird": 1.3793,
+    "tau_paule_mandel": 1.2709
+   }
+  },
+  "models_without_characteristics": [],
+  "moderators": {
+   "chat-tuned against base": {
+    "estimable": false,
+    "reason": "one value"
+   },
+   "size (log10 total parameters)": {
+    "estimable": true,
+    "models": 31,
+    "coefficient": 0.9087,
+    "ci95": [
+     -1.7156,
+     3.533
+    ],
+    "p_two_sided": 0.4973270343794176,
+    "residual_tau": 1.3364,
+    "holm": 0.9927524674501933
+   },
+   "release date (years)": {
+    "estimable": true,
+    "models": 36,
+    "coefficient": -0.7288,
+    "ci95": [
+     -2.0298,
+     0.5722
+    ],
+    "p_two_sided": 0.27220342127305064,
+    "residual_tau": 1.274,
+    "holm": 0.8166102638191519
+   },
+   "open against closed weights": {
+    "estimable": true,
+    "models": 36,
+    "coefficient": 1.2578,
+    "ci95": [
+     -0.6186,
+     3.1342
+    ],
+    "p_two_sided": 0.18889541314690683,
+    "residual_tau": 1.2202,
+    "holm": 0.7555816525876273
+   },
+   "reasoning on against off": {
+    "estimable": false,
+    "reason": "one value"
+   },
+   "developer": {
+    "estimable": true,
+    "models": 36,
+    "developers": 13,
+    "wald_chi2": 11.383,
+    "df": 12,
+    "p_two_sided": 0.49637623372509665,
+    "residual_tau": 1.4621,
+    "models_by_developer": {
+     "Alibaba": 13,
+     "Allen AI": 2,
+     "Anthropic": 3,
+     "Baidu": 1,
+     "Google": 4,
+     "IBM": 2,
+     "Marin": 1,
+     "Meta": 2,
+     "Microsoft": 1,
+     "Mistral": 1,
+     "NVIDIA": 1,
+     "OpenAI": 4,
+     "Zhipu": 1
+    },
+    "holm": 0.9927524674501933
+   }
+  },
+  "models_left_out_interval_of_zero_width": [],
+  "models_left_out_not_estimable": []
+ },
+ "args": {
+  "study": "study2b-attr-arm-market-row",
+  "label": "Study 2b (further attributes), the change in the name gap with market-row added, against none",
+  "input": "web-appendix-analyses/each-piece-of-information-alone/results/all-models-attr1/per_model.csv",
+  "model_col": "model",
+  "est_col": "estimate",
+  "se_col": "se",
+  "low_col": "ci95_low",
+  "high_col": "ci95_high",
+  "direction": -1,
+  "units": "points",
+  "filter": [
+   "study=attr1",
+   "estimate_name=market-row against none"
+  ],
+  "scale": 100.0,
+  "reliability_col": null,
+  "reliability_min": 0.5,
+  "reason_col": null
+ }
+}

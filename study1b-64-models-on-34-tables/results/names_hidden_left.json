@@ -1,0 +1,48 @@
+{
+ "about": "What the list of texts that still identified a brand holds, and where those texts remain.",
+ "list": "study1b-64-models-on-34-tables/materials/names_hidden_leaks.csv",
+ "second_reader": {
+  "first_list": 190,
+  "kept_unchanged": 184,
+  "moved_between_kinds": 5,
+  "removed": 1,
+  "added": 7
+ },
+ "final_list": 196,
+ "kinds_1_to_4": 179,
+ "by_kind": {
+  "1 brand": {
+   "texts": 9,
+   "tables": 7,
+   "in_the_prompts_without_brand_names": 9,
+   "left_after_cleaning": 0
+  },
+  "2 line": {
+   "texts": 11,
+   "tables": 9,
+   "in_the_prompts_without_brand_names": 11,
+   "left_after_cleaning": 0
+  },
+  "3 feature": {
+   "texts": 131,
+   "tables": 32,
+   "in_the_prompts_without_brand_names": 131,
+   "left_after_cleaning": 0
+  },
+  "4 copy": {
+   "texts": 28,
+   "tables": 19,
+   "in_the_prompts_without_brand_names": 28,
+   "left_after_cleaning": 0
+  },
+  "5 other company": {
+   "texts": 17,
+   "tables": 12,
+   "in_the_prompts_without_brand_names": 17,
+   "left_after_cleaning": 6
+  }
+ },
+ "kinds_1_to_4_left_after_cleaning": 0,
+ "left_after_cleaning_texts": [],
+ "script": "study1b-64-models-on-34-tables/code/names_hidden_left.py"
+}

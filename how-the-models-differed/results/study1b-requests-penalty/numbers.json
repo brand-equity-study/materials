@@ -1,0 +1,144 @@
+{
+ "study": "study1b-requests-penalty",
+ "label": "Study 1b (typed requests), the name gap under chat-log requests",
+ "units": "points",
+ "direction": 1,
+ "input": {
+  "file": "study1b-64-models-on-34-tables/results/requests/all-models/per_model.csv",
+  "sha256": "5854b97d1bdcf56bc9215ed63b67bafd35fdce153ba2a2970398f2af7283dd10",
+  "model_col": "model",
+  "est_col": "estimate_pp",
+  "se": "(ci95_high_pp - ci95_low_pp) / 3.92",
+  "filter": [
+   "quantity=penalty"
+  ],
+  "scale": 1.0
+ },
+ "plan": "how-the-models-differed/materials/analysis_plan.md",
+ "result": {
+  "models": 37,
+  "predicted_direction": 1,
+  "share_in_predicted_direction": 0.9459,
+  "models_in_predicted_direction": 35,
+  "models_above_zero": 35,
+  "models_below_zero": 1,
+  "share_interval_excludes_zero": 0.2973,
+  "models_interval_excludes_zero": 11,
+  "random_effects": {
+   "estimate": 8.2459,
+   "ci95": [
+    6.2285,
+    10.2634
+   ],
+   "p_two_sided": 1.136422180163458e-15,
+   "tau": 2.8754,
+   "tau2": 8.2679,
+   "i2": 0.217,
+   "q": 51.133,
+   "df": 36,
+   "q_p_value": 0.04871440324547357,
+   "prediction_interval_95": [
+    2.0458,
+    14.446
+   ],
+   "tau_estimator": "REML",
+   "checks": {
+    "tau_dersimonian_laird": 3.5413,
+    "tau_paule_mandel": 3.9117
+   }
+  },
+  "models_without_characteristics": [],
+  "moderators": {
+   "chat-tuned against base": {
+    "estimable": false,
+    "reason": "one value"
+   },
+   "size (log10 total parameters)": {
+    "estimable": true,
+    "models": 31,
+    "coefficient": 3.2628,
+    "ci95": [
+     -1.7454,
+     8.2709
+    ],
+    "p_two_sided": 0.20162763948877105,
+    "residual_tau": 0.0,
+    "holm": 0.20162763948877105
+   },
+   "release date (years)": {
+    "estimable": true,
+    "models": 37,
+    "coefficient": 4.851,
+    "ci95": [
+     2.3179,
+     7.384
+    ],
+    "p_two_sided": 0.00017436522956865163,
+    "residual_tau": 0.0,
+    "holm": 0.0005230956887059549
+   },
+   "open against closed weights": {
+    "estimable": true,
+    "models": 37,
+    "coefficient": -9.6563,
+    "ci95": [
+     -14.3361,
+     -4.9765
+    ],
+    "p_two_sided": 5.248726993426338e-05,
+    "residual_tau": 0.0,
+    "holm": 0.0002099490797370535
+   },
+   "reasoning on against off": {
+    "estimable": false,
+    "reason": "one value"
+   },
+   "developer": {
+    "estimable": true,
+    "models": 37,
+    "developers": 13,
+    "wald_chi2": 28.316,
+    "df": 12,
+    "p_two_sided": 0.004972288357343128,
+    "residual_tau": 0.0,
+    "models_by_developer": {
+     "Alibaba": 13,
+     "Allen AI": 2,
+     "Anthropic": 4,
+     "Baidu": 1,
+     "Google": 4,
+     "IBM": 2,
+     "Marin": 1,
+     "Meta": 2,
+     "Microsoft": 1,
+     "Mistral": 1,
+     "NVIDIA": 1,
+     "OpenAI": 4,
+     "Zhipu": 1
+    },
+    "holm": 0.009944576714686256
+   }
+  },
+  "models_left_out_interval_of_zero_width": [],
+  "models_left_out_not_estimable": []
+ },
+ "args": {
+  "study": "study1b-requests-penalty",
+  "label": "Study 1b (typed requests), the name gap under chat-log requests",
+  "input": "study1b-64-models-on-34-tables/results/requests/all-models/per_model.csv",
+  "model_col": "model",
+  "est_col": "estimate_pp",
+  "se_col": null,
+  "low_col": "ci95_low_pp",
+  "high_col": "ci95_high_pp",
+  "direction": 1,
+  "units": "points",
+  "filter": [
+   "quantity=penalty"
+  ],
+  "scale": 1.0,
+  "reliability_col": null,
+  "reliability_min": 0.5,
+  "reason_col": "not_estimable"
+ }
+}

@@ -1,0 +1,224 @@
+{
+ "first prompts": {
+  "prompts": 120,
+  "equal": true
+ },
+ "second prompts": {
+  "claude-fable-5-1": {
+   "first answers": 120,
+   "second prompts": 480,
+   "nothing returned": 0,
+   "equal": true
+  },
+  "claude-haiku-5-5": {
+   "first answers": 120,
+   "second prompts": 480,
+   "nothing returned": 0,
+   "equal": true
+  },
+  "claude-opus-5-5": {
+   "first answers": 120,
+   "second prompts": 480,
+   "nothing returned": 0,
+   "equal": true
+  },
+  "claude-sonnet-5-5": {
+   "first answers": 120,
+   "second prompts": 480,
+   "nothing returned": 0,
+   "equal": true
+  },
+  "ernie45-21b": {
+   "first answers": 120,
+   "second prompts": 472,
+   "nothing returned": 8,
+   "equal": true
+  },
+  "gemma3-27b": {
+   "first answers": 120,
+   "second prompts": 480,
+   "nothing returned": 0,
+   "equal": true
+  },
+  "gemma31b": {
+   "first answers": 120,
+   "second prompts": 480,
+   "nothing returned": 0,
+   "equal": true
+  },
+  "gemma4-12b": {
+   "first answers": 120,
+   "second prompts": 480,
+   "nothing returned": 0,
+   "equal": true
+  },
+  "gemma4-26b": {
+   "first answers": 120,
+   "second prompts": 480,
+   "nothing returned": 0,
+   "equal": true
+  },
+  "glm47-flash": {
+   "first answers": 120,
+   "second prompts": 460,
+   "nothing returned": 20,
+   "equal": true
+  },
+  "gptoss120b": {
+   "first answers": 120,
+   "second prompts": 480,
+   "nothing returned": 0,
+   "equal": true
+  },
+  "gptoss20b": {
+   "first answers": 120,
+   "second prompts": 480,
+   "nothing returned": 0,
+   "equal": true
+  },
+  "granite41-30b": {
+   "first answers": 120,
+   "second prompts": 480,
+   "nothing returned": 0,
+   "equal": true
+  },
+  "granite42-30b": {
+   "first answers": 120,
+   "second prompts": 480,
+   "nothing returned": 0,
+   "equal": true
+  },
+  "kimi-linear48b": {
+   "first answers": 120,
+   "second prompts": 472,
+   "nothing returned": 8,
+   "equal": true
+  },
+  "llama3b": {
+   "first answers": 120,
+   "second prompts": 472,
+   "nothing returned": 8,
+   "equal": true
+  },
+  "llama8b": {
+   "first answers": 120,
+   "second prompts": 480,
+   "nothing returned": 0,
+   "equal": true
+  },
+  "marin8b": {
+   "first answers": 120,
+   "second prompts": 366,
+   "nothing returned": 114,
+   "equal": true
+  },
+  "ministral3-14b": {
+   "first answers": 120,
+   "second prompts": 480,
+   "nothing returned": 0,
+   "equal": true
+  },
+  "nemotron3-nano30b": {
+   "first answers": 120,
+   "second prompts": 474,
+   "nothing returned": 6,
+   "equal": true
+  },
+  "olmo3-7b": {
+   "first answers": 120,
+   "second prompts": 424,
+   "nothing returned": 56,
+   "equal": true
+  },
+  "olmo31-32b": {
+   "first answers": 120,
+   "second prompts": 480,
+   "nothing returned": 0,
+   "equal": true
+  },
+  "phi4": {
+   "first answers": 120,
+   "second prompts": 480,
+   "nothing returned": 0,
+   "equal": true
+  },
+  "qwen3-30b": {
+   "first answers": 120,
+   "second prompts": 468,
+   "nothing returned": 12,
+   "equal": true
+  },
+  "qwen3-32b": {
+   "first answers": 120,
+   "second prompts": 476,
+   "nothing returned": 4,
+   "equal": true
+  },
+  "qwen32b": {
+   "first answers": 120,
+   "second prompts": 464,
+   "nothing returned": 16,
+   "equal": true
+  },
+  "qwen35-0.8b": {
+   "first answers": 120,
+   "second prompts": 420,
+   "nothing returned": 60,
+   "equal": true
+  },
+  "qwen35-122b-fp8": {
+   "first answers": 120,
+   "second prompts": 480,
+   "nothing returned": 0,
+   "equal": true
+  },
+  "qwen35-27b": {
+   "first answers": 120,
+   "second prompts": 480,
+   "nothing returned": 0,
+   "equal": true
+  },
+  "qwen35-2b": {
+   "first answers": 120,
+   "second prompts": 394,
+   "nothing returned": 86,
+   "equal": true
+  },
+  "qwen35-35b": {
+   "first answers": 120,
+   "second prompts": 476,
+   "nothing returned": 4,
+   "equal": true
+  },
+  "qwen35-4b": {
+   "first answers": 120,
+   "second prompts": 400,
+   "nothing returned": 80,
+   "equal": true
+  },
+  "qwen35-9b": {
+   "first answers": 120,
+   "second prompts": 436,
+   "nothing returned": 44,
+   "equal": true
+  },
+  "qwen36-27b": {
+   "first answers": 120,
+   "second prompts": 480,
+   "nothing returned": 0,
+   "equal": true
+  },
+  "qwen38-27b": {
+   "first answers": 120,
+   "second prompts": 444,
+   "nothing returned": 36,
+   "equal": true
+  },
+  "qwen7b": {
+   "first answers": 120,
+   "second prompts": 464,
+   "nothing returned": 16,
+   "equal": true
+  }
+ }
+}

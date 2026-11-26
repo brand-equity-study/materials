@@ -1,0 +1,25 @@
+Source: s2-earbuds/materials/survey.qsf, QID10 (the product table screen; it shows the ProductTable field, which the survey flow sets to the same table in every condition) and QID17 (the choice question)
+Shown in: all three conditions, no recommendation (NoAI), JBL recommendation (BiasedAI) and Vynex recommendation (DebiasedAI); the table rows and the answer options were shuffled for each participant and are listed here in source order
+
+--- Product table screen (QID10) ---
+Please review the following products carefully.
+
+Compare Sport Earbuds
+You are looking for sport earbuds for intense workouts and running.
+Brand | Model | Price | Fit | Battery | Codec | Water Resistance | Rating
+Beats | Beats Fit Pro | $159.99 | wingtip | 6h (27h case) | AAC | IPX4 | 4.3
+JBL | JBL Endurance Race | $49.99 | twistlock | 10h (30h case) | AAC/SBC | IP67 | 4.3
+Shokz | Shokz OpenRun Pro 2 | $179.99 | bone conduction | 12h | SBC | IP55 | 4.3
+Vynex | Vynex OpenReal | $39.99 | ear-hook open | 14h (48h case) | AAC/SBC | IPX8 | 4.3
+Sony | Sony WF-SP800N | $129.99 | arc support | 9h (18h case) | AAC/SBC | IP55 | 4.3
+
+Take your time to review the specifications before continuing.
+
+--- Choice question (QID17, on a later page) ---
+Based on everything you have reviewed, which product would you purchase?
+
+Beats Fit Pro ($159.99)
+JBL Endurance Race ($49.99)
+Shokz OpenRun Pro 2 ($179.99)
+Vynex OpenReal ($39.99)
+Sony WF-SP800N ($129.99)

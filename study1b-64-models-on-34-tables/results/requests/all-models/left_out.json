@@ -1,0 +1,261 @@
+{
+ "rule": "under 90 per cent of the answers that are not declines, read with pick on the answer field that the server recorded, is reported apart (models/open_models_plan.md)",
+ "open_models": {
+  "ernie45-21b": {
+   "answers": 1062,
+   "read_by_pick": 1062,
+   "read_by_final_answer_then_pick": 1062,
+   "declines": 0,
+   "read_pct_of_answers_that_are_not_declines": 100.0,
+   "passes": true
+  },
+  "gemma3-27b": {
+   "answers": 1062,
+   "read_by_pick": 1021,
+   "read_by_final_answer_then_pick": 1021,
+   "declines": 34,
+   "read_pct_of_answers_that_are_not_declines": 99.3,
+   "passes": true
+  },
+  "gemma31b": {
+   "answers": 1062,
+   "read_by_pick": 1018,
+   "read_by_final_answer_then_pick": 1018,
+   "declines": 43,
+   "read_pct_of_answers_that_are_not_declines": 99.9,
+   "passes": true
+  },
+  "gemma4-12b": {
+   "answers": 1062,
+   "read_by_pick": 984,
+   "read_by_final_answer_then_pick": 984,
+   "declines": 77,
+   "read_pct_of_answers_that_are_not_declines": 99.9,
+   "passes": true
+  },
+  "gemma4-26b": {
+   "answers": 1062,
+   "read_by_pick": 977,
+   "read_by_final_answer_then_pick": 977,
+   "declines": 62,
+   "read_pct_of_answers_that_are_not_declines": 97.7,
+   "passes": true
+  },
+  "glm47-flash": {
+   "answers": 1062,
+   "read_by_pick": 1043,
+   "read_by_final_answer_then_pick": 1043,
+   "declines": 11,
+   "read_pct_of_answers_that_are_not_declines": 99.2,
+   "passes": true
+  },
+  "gptoss120b": {
+   "answers": 1062,
+   "read_by_pick": 1042,
+   "read_by_final_answer_then_pick": 1042,
+   "declines": 20,
+   "read_pct_of_answers_that_are_not_declines": 100.0,
+   "passes": true
+  },
+  "gptoss20b": {
+   "answers": 1062,
+   "read_by_pick": 1028,
+   "read_by_final_answer_then_pick": 1028,
+   "declines": 29,
+   "read_pct_of_answers_that_are_not_declines": 99.5,
+   "passes": true
+  },
+  "granite41-30b": {
+   "answers": 1062,
+   "read_by_pick": 1049,
+   "read_by_final_answer_then_pick": 1049,
+   "declines": 13,
+   "read_pct_of_answers_that_are_not_declines": 100.0,
+   "passes": true
+  },
+  "granite42-30b": {
+   "answers": 1062,
+   "read_by_pick": 1026,
+   "read_by_final_answer_then_pick": 1026,
+   "declines": 29,
+   "read_pct_of_answers_that_are_not_declines": 99.3,
+   "passes": true
+  },
+  "kimi-linear48b": {
+   "answers": 1062,
+   "read_by_pick": 771,
+   "read_by_final_answer_then_pick": 771,
+   "declines": 22,
+   "read_pct_of_answers_that_are_not_declines": 74.1,
+   "passes": false
+  },
+  "llama3b": {
+   "answers": 1062,
+   "read_by_pick": 1062,
+   "read_by_final_answer_then_pick": 1062,
+   "declines": 0,
+   "read_pct_of_answers_that_are_not_declines": 100.0,
+   "passes": true
+  },
+  "llama8b": {
+   "answers": 1062,
+   "read_by_pick": 1061,
+   "read_by_final_answer_then_pick": 1061,
+   "declines": 0,
+   "read_pct_of_answers_that_are_not_declines": 99.9,
+   "passes": true
+  },
+  "marin8b": {
+   "answers": 1062,
+   "read_by_pick": 1011,
+   "read_by_final_answer_then_pick": 1011,
+   "declines": 2,
+   "read_pct_of_answers_that_are_not_declines": 95.4,
+   "passes": true
+  },
+  "ministral3-14b": {
+   "answers": 1062,
+   "read_by_pick": 1016,
+   "read_by_final_answer_then_pick": 1016,
+   "declines": 33,
+   "read_pct_of_answers_that_are_not_declines": 98.7,
+   "passes": true
+  },
+  "nemotron3-nano30b": {
+   "answers": 1062,
+   "read_by_pick": 1056,
+   "read_by_final_answer_then_pick": 1056,
+   "declines": 0,
+   "read_pct_of_answers_that_are_not_declines": 99.4,
+   "passes": true
+  },
+  "olmo3-7b": {
+   "answers": 1062,
+   "read_by_pick": 1059,
+   "read_by_final_answer_then_pick": 1059,
+   "declines": 0,
+   "read_pct_of_answers_that_are_not_declines": 99.7,
+   "passes": true
+  },
+  "olmo31-32b": {
+   "answers": 1062,
+   "read_by_pick": 1020,
+   "read_by_final_answer_then_pick": 1020,
+   "declines": 32,
+   "read_pct_of_answers_that_are_not_declines": 99.0,
+   "passes": true
+  },
+  "phi4": {
+   "answers": 1062,
+   "read_by_pick": 1001,
+   "read_by_final_answer_then_pick": 1001,
+   "declines": 49,
+   "read_pct_of_answers_that_are_not_declines": 98.8,
+   "passes": true
+  },
+  "qwen3-30b": {
+   "answers": 1062,
+   "read_by_pick": 1047,
+   "read_by_final_answer_then_pick": 1047,
+   "declines": 15,
+   "read_pct_of_answers_that_are_not_declines": 100.0,
+   "passes": true
+  },
+  "qwen3-32b": {
+   "answers": 1062,
+   "read_by_pick": 957,
+   "read_by_final_answer_then_pick": 957,
+   "declines": 103,
+   "read_pct_of_answers_that_are_not_declines": 99.8,
+   "passes": true
+  },
+  "qwen32b": {
+   "answers": 1062,
+   "read_by_pick": 1043,
+   "read_by_final_answer_then_pick": 1043,
+   "declines": 17,
+   "read_pct_of_answers_that_are_not_declines": 99.8,
+   "passes": true
+  },
+  "qwen35-0.8b": {
+   "answers": 1062,
+   "read_by_pick": 1061,
+   "read_by_final_answer_then_pick": 1060,
+   "declines": 0,
+   "read_pct_of_answers_that_are_not_declines": 99.9,
+   "passes": true
+  },
+  "qwen35-122b-fp8": {
+   "answers": 1062,
+   "read_by_pick": 973,
+   "read_by_final_answer_then_pick": 973,
+   "declines": 89,
+   "read_pct_of_answers_that_are_not_declines": 100.0,
+   "passes": true
+  },
+  "qwen35-27b": {
+   "answers": 1062,
+   "read_by_pick": 840,
+   "read_by_final_answer_then_pick": 840,
+   "declines": 222,
+   "read_pct_of_answers_that_are_not_declines": 100.0,
+   "passes": true
+  },
+  "qwen35-2b": {
+   "answers": 1062,
+   "read_by_pick": 1044,
+   "read_by_final_answer_then_pick": 1043,
+   "declines": 2,
+   "read_pct_of_answers_that_are_not_declines": 98.5,
+   "passes": true
+  },
+  "qwen35-35b": {
+   "answers": 1062,
+   "read_by_pick": 975,
+   "read_by_final_answer_then_pick": 975,
+   "declines": 68,
+   "read_pct_of_answers_that_are_not_declines": 98.1,
+   "passes": true
+  },
+  "qwen35-4b": {
+   "answers": 1062,
+   "read_by_pick": 977,
+   "read_by_final_answer_then_pick": 977,
+   "declines": 50,
+   "read_pct_of_answers_that_are_not_declines": 96.5,
+   "passes": true
+  },
+  "qwen35-9b": {
+   "answers": 1062,
+   "read_by_pick": 1035,
+   "read_by_final_answer_then_pick": 1035,
+   "declines": 25,
+   "read_pct_of_answers_that_are_not_declines": 99.8,
+   "passes": true
+  },
+  "qwen36-27b": {
+   "answers": 1062,
+   "read_by_pick": 1001,
+   "read_by_final_answer_then_pick": 1001,
+   "declines": 61,
+   "read_pct_of_answers_that_are_not_declines": 100.0,
+   "passes": true
+  },
+  "qwen38-27b": {
+   "answers": 1062,
+   "read_by_pick": 1062,
+   "read_by_final_answer_then_pick": 1062,
+   "declines": 0,
+   "read_pct_of_answers_that_are_not_declines": 100.0,
+   "passes": true
+  },
+  "qwen7b": {
+   "answers": 1062,
+   "read_by_pick": 1062,
+   "read_by_final_answer_then_pick": 1062,
+   "declines": 0,
+   "read_pct_of_answers_that_are_not_declines": 100.0,
+   "passes": true
+  }
+ }
+}

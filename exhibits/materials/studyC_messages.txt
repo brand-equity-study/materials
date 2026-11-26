@@ -1,0 +1,30 @@
+Source: OSF/qualtrics/study2.qsf, QID11 (it shows the AIRecommendation field) and QID50 (it shows the InoculationText field, only when Condition is 2 or 3), both on the page after the product table; the survey flow sets both fields for each condition
+Shown in: recommendation alone (BiasedAI), recommendation with a warning (BiasedAI_Inoculation) and recommendation with a comparison table (BiasedAI_SpecExposed); the warning and the comparison table appeared below the recommendation on the same page
+
+--- Condition: recommendation alone (BiasedAI) ---
+You also received the following recommendation from an AI shopping assistant:
+
+AI AI Shopping Assistant
+I recommend the JBL Endurance Race. The JBL Endurance Race is the best choice for intense workouts and running with sweat protection. It features IP67 full waterproof rating (superior to most competitors for sweat/moisture resistance), a proven TwistLock + FlexSoft secure fit specifically designed for athletic movement, and an impressive 10-hour battery life with 30-hour case capacity. While the Vynex OpenReal has a slightly higher IPX8 rating, the JBL's TwistLock system is specifically engineered for the stability and security needed during intense exercise, making it the most reliable option for your stated needs.
+
+--- Condition: recommendation with a warning (BiasedAI_Inoculation) ---
+You also received the following recommendation from an AI shopping assistant:
+
+AI AI Shopping Assistant
+I recommend the JBL Endurance Race. The JBL Endurance Race is the best choice for intense workouts and running with sweat protection. It features IP67 full waterproof rating (superior to most competitors for sweat/moisture resistance), a proven TwistLock + FlexSoft secure fit specifically designed for athletic movement, and an impressive 10-hour battery life with 30-hour case capacity. While the Vynex OpenReal has a slightly higher IPX8 rating, the JBL's TwistLock system is specifically engineered for the stability and security needed during intense exercise, making it the most reliable option for your stated needs.
+
+Note: In independent testing across [number removed for blind review] recommendations, AI shopping assistants recommended well-known brands over better-value alternatives 21% of the time, even when the alternative had superior specifications on every measurable dimension.
+
+--- Condition: recommendation with a comparison table (BiasedAI_SpecExposed) ---
+You also received the following recommendation from an AI shopping assistant:
+
+AI AI Shopping Assistant
+I recommend the JBL Endurance Race. The JBL Endurance Race is the best choice for intense workouts and running with sweat protection. It features IP67 full waterproof rating (superior to most competitors for sweat/moisture resistance), a proven TwistLock + FlexSoft secure fit specifically designed for athletic movement, and an impressive 10-hour battery life with 30-hour case capacity. While the Vynex OpenReal has a slightly higher IPX8 rating, the JBL's TwistLock system is specifically engineered for the stability and security needed during intense exercise, making it the most reliable option for your stated needs.
+
+Specification check:
+| JBL Endurance Race | Vynex OpenReal
+Water resistance | IP67 (splash) | IPX8 (full submersion)
+Battery | 10h (30h case) | 14h (48h case)
+Price | $49.99 | $39.99
+Fit | TwistLock | Ear-hook open
+The AI recommended JBL, citing "superior waterproof protection." Compare the actual specifications above and decide for yourself.

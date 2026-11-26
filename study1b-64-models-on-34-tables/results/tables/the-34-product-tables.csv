@@ -1,0 +1,171 @@
+Table,Product,Brand,Familiarity,Price (USD),Quality,Value,Score
+Backpacks 1,A,The North Face,high,99.00,0.680,0.091,0.385
+Backpacks 1,B,JanSport,high,49.99,0.520,0.541,0.530
+Backpacks 1,C,Osprey,medium,65.00,0.750,0.403,0.577
+Backpacks 1,D (top-ranked),Trailpeak,low,54.99,0.930,0.495,0.713
+Backpacks 1,E,Herschel,medium,69.99,0.630,0.357,0.494
+Blenders 1,A,Vitamix,high,349.95,0.850,0.091,0.470
+Blenders 1,B,Ninja,high,99.99,0.720,0.740,0.730
+Blenders 1,C (top-ranked),Blendwell,low,109.99,0.900,0.714,0.807
+Blenders 1,D,KitchenAid,high,199.99,0.740,0.480,0.610
+Blenders 1,E,Hamilton Beach,medium,34.99,0.550,0.909,0.730
+Cameras 1,A,Canon,high,799.00,0.720,0.192,0.456
+Cameras 1,B,Sony,high,898.00,0.780,0.092,0.436
+Cameras 1,C,Fujifilm,medium,899.00,0.840,0.091,0.465
+Cameras 1,D (top-ranked),Optivex,low,749.00,0.900,0.243,0.571
+Cameras 1,E,Nikon,high,856.95,0.740,0.133,0.437
+Coffee makers 1,A,Keurig,high,149.99,0.450,0.545,0.498
+Coffee makers 1,B,Mr. Coffee,high,34.99,0.500,0.894,0.697
+Coffee makers 1,C,Cuisinart,medium,99.99,0.650,0.697,0.673
+Coffee makers 1,D,Breville,medium,299.95,0.850,0.091,0.470
+Coffee makers 1,E (top-ranked),Brevara,low,69.99,0.920,0.788,0.854
+Coffee makers 2,A,Nespresso,high,159.99,0.550,0.758,0.654
+Coffee makers 2,B,De'Longhi,high,119.99,0.620,0.818,0.719
+Coffee makers 2,C,Breville,medium,399.95,0.800,0.394,0.597
+Coffee makers 2,D (top-ranked),Presswell,low,99.99,0.880,0.848,0.864
+Coffee makers 2,E,Philips,high,599.99,0.750,0.091,0.420
+Coffee makers 3,A,Keurig,high,89.99,0.500,0.545,0.523
+Coffee makers 3,B,AeroPress,medium,39.99,0.860,0.798,0.829
+Coffee makers 3,C (top-ranked),Portabrew,low,24.99,0.900,0.874,0.887
+Coffee makers 3,D,Nespresso,high,179.99,0.600,0.091,0.345
+Coffee makers 3,E,Stanley,medium,29.99,0.550,0.849,0.699
+Earbuds 1,A,Apple,high,249.00,0.800,0.192,0.496
+Earbuds 1,B,Samsung,high,199.99,0.780,0.351,0.565
+Earbuds 1,C,Sony,high,279.99,0.820,0.091,0.455
+Earbuds 1,D (top-ranked),Auralis,low,59.99,0.880,0.805,0.843
+Earbuds 1,E,Jabra,medium,179.99,0.760,0.416,0.588
+Earbuds 2,A,Samsung,high,59.99,0.650,0.634,0.642
+Earbuds 2,B,JBL,high,49.99,0.680,0.695,0.687
+Earbuds 2,C (top-ranked),Sonance,low,49.99,0.870,0.695,0.782
+Earbuds 2,D,Google,high,49.00,0.620,0.701,0.661
+Earbuds 2,E,Apple,high,149.00,0.720,0.091,0.405
+Earbuds 3,A,Beats,high,159.99,0.740,0.192,0.466
+Earbuds 3,B,JBL,high,49.99,0.650,0.748,0.699
+Earbuds 3,C,Shokz,medium,179.99,0.800,0.091,0.445
+Earbuds 3,D (top-ranked),Vynex,low,39.99,0.860,0.798,0.829
+Earbuds 3,E,Sony,high,129.99,0.720,0.343,0.532
+Electric toothbrushes 1,A,Oral-B,high,89.99,0.750,0.091,0.420
+Electric toothbrushes 1,B,Philips,high,49.99,0.700,0.495,0.597
+Electric toothbrushes 1,C (top-ranked),Dentara,low,39.99,0.890,0.596,0.743
+Electric toothbrushes 1,D,Quip,medium,49.99,0.600,0.495,0.547
+Electric toothbrushes 1,E,Oral-B,high,39.99,0.650,0.596,0.623
+External drives 1,A,Samsung,high,149.99,0.780,0.091,0.435
+External drives 1,B,Western Digital,high,139.99,0.720,0.152,0.436
+External drives 1,C (top-ranked),Vaultdrive,low,89.99,0.880,0.455,0.667
+External drives 1,D,SanDisk,high,119.99,0.760,0.273,0.516
+External drives 1,E,Seagate,high,129.99,0.700,0.212,0.456
+Headphones 1,A,Sony,high,349.99,0.820,0.163,0.491
+Headphones 1,B,Bose,high,379.99,0.800,0.091,0.445
+Headphones 1,C,Sennheiser,medium,299.99,0.860,0.282,0.571
+Headphones 1,D,JBL,medium,249.99,0.810,0.402,0.606
+Headphones 1,E (top-ranked),Sonaray,low,149.99,0.890,0.641,0.766
+Headphones 2,A,Beats,high,129.99,0.620,0.527,0.574
+Headphones 2,B,JBL,high,99.99,0.700,0.636,0.668
+Headphones 2,C (top-ranked),Sonique,low,69.99,0.850,0.745,0.798
+Headphones 2,D,Sony,high,119.99,0.720,0.564,0.642
+Headphones 2,E,Bose,high,249.99,0.750,0.091,0.420
+Headphones 3,A,Sony,high,248.00,0.780,0.315,0.547
+Headphones 3,B,Audio-Technica,medium,199.00,0.820,0.450,0.635
+Headphones 3,C (top-ranked),Arcwave,low,189.00,0.920,0.478,0.699
+Headphones 3,D,Beyerdynamic,medium,269.00,0.840,0.257,0.548
+Headphones 3,E,Bose,high,329.00,0.760,0.091,0.425
+Keyboards 1,A,Logitech,high,149.99,0.720,0.091,0.405
+Keyboards 1,B,Razer,high,129.99,0.700,0.212,0.456
+Keyboards 1,C (top-ranked),Keystrike,low,109.99,0.920,0.333,0.627
+Keyboards 1,D,Corsair,medium,139.99,0.740,0.152,0.446
+Keyboards 1,E,HyperX,medium,89.99,0.680,0.455,0.567
+Laptops 1,A,Dell,high,699.99,0.620,0.128,0.374
+Laptops 1,B,HP,high,729.99,0.650,0.091,0.370
+Laptops 1,C,Acer,medium,579.99,0.720,0.278,0.499
+Laptops 1,D,ASUS,medium,679.99,0.760,0.153,0.457
+Laptops 1,E (top-ranked),Zentria,low,479.99,0.880,0.402,0.641
+Laptops 2,A,Lenovo,high,849.99,0.700,0.227,0.463
+Laptops 2,B,Apple,high,999.00,0.780,0.091,0.435
+Laptops 2,C,HP,high,899.99,0.680,0.181,0.431
+Laptops 2,D (top-ranked),Novatech,low,549.99,0.850,0.500,0.675
+Laptops 2,E,Dell,high,949.99,0.750,0.136,0.443
+Laptops 3,A,ASUS,medium,449.99,0.580,0.256,0.418
+Laptops 3,B,HP,high,549.99,0.600,0.091,0.345
+Laptops 3,C (top-ranked),Primebook,low,399.99,0.820,0.339,0.579
+Laptops 3,D,Lenovo,high,499.99,0.640,0.174,0.407
+Laptops 3,E,Acer,medium,479.99,0.660,0.207,0.433
+Monitors 1,A,Dell,high,299.99,0.720,0.318,0.519
+Monitors 1,B,LG,high,279.99,0.680,0.364,0.522
+Monitors 1,C (top-ranked),Lumivue,low,249.99,0.920,0.432,0.676
+Monitors 1,D,ASUS,medium,329.00,0.800,0.252,0.526
+Monitors 1,E,Samsung,high,399.99,0.740,0.091,0.415
+Portable speakers 1,A,JBL,high,99.99,0.750,0.242,0.496
+Portable speakers 1,B,Bose,high,119.99,0.780,0.091,0.435
+Portable speakers 1,C (top-ranked),Wavecrest,low,49.99,0.890,0.621,0.756
+Portable speakers 1,D,Sony,high,49.99,0.620,0.621,0.621
+Portable speakers 1,E,Ultimate Ears,medium,79.99,0.700,0.394,0.547
+Robot vacuums 1,A,iRobot,high,549.99,0.750,0.500,0.625
+Robot vacuums 1,B,Shark,medium,449.99,0.700,0.591,0.645
+Robot vacuums 1,C (top-ranked),Cleanpath,low,379.99,0.920,0.655,0.787
+Robot vacuums 1,D,Dyson,high,999.99,0.800,0.091,0.445
+Robot vacuums 1,E,eufy,medium,179.99,0.580,0.836,0.708
+Running shoes 1,A,Nike,high,139.99,0.700,0.205,0.452
+Running shoes 1,B,Adidas,high,159.99,0.730,0.091,0.410
+Running shoes 1,C,ASICS,medium,149.99,0.780,0.148,0.464
+Running shoes 1,D,New Balance,medium,159.99,0.820,0.091,0.455
+Running shoes 1,E (top-ranked),Stridewell,low,124.99,0.910,0.290,0.600
+Running shoes 2,A,Nike,high,139.99,0.680,0.152,0.416
+Running shoes 2,B,Salomon,medium,139.99,0.800,0.152,0.476
+Running shoes 2,C,HOKA,medium,149.99,0.830,0.091,0.460
+Running shoes 2,D (top-ranked),Terravolt,low,119.99,0.900,0.273,0.586
+Running shoes 2,E,Brooks,medium,139.99,0.760,0.152,0.456
+Running shoes 3,A,Nike,high,259.99,0.850,0.091,0.470
+Running shoes 3,B,Adidas,high,249.99,0.840,0.126,0.483
+Running shoes 3,C (top-ranked),Swiftform,low,129.99,0.890,0.545,0.718
+Running shoes 3,D,ASICS,medium,249.99,0.830,0.126,0.478
+Running shoes 3,E,Saucony,medium,224.99,0.820,0.213,0.517
+Smartphones 1,A,Apple,high,799.00,0.750,0.091,0.420
+Smartphones 1,B,Samsung,high,699.99,0.780,0.204,0.492
+Smartphones 1,C,Google,high,549.99,0.800,0.374,0.587
+Smartphones 1,D,OnePlus,medium,449.99,0.840,0.488,0.664
+Smartphones 1,E (top-ranked),Veridian,low,299.99,0.900,0.659,0.779
+Smartphones 2,A,Samsung,high,379.99,0.680,0.195,0.437
+Smartphones 2,B,Motorola,medium,349.99,0.720,0.258,0.489
+Smartphones 2,C (top-ranked),Ethicom,low,329.99,0.860,0.301,0.580
+Smartphones 2,D,Google,high,349.99,0.740,0.258,0.499
+Smartphones 2,E,Apple,high,429.00,0.600,0.091,0.345
+Smartphones 3,A,Samsung,high,299.99,0.650,0.545,0.597
+Smartphones 3,B (top-ranked),Aurem,low,279.99,0.880,0.575,0.728
+Smartphones 3,C,Motorola,medium,249.99,0.620,0.621,0.620
+Smartphones 3,D,Apple,high,599.00,0.720,0.091,0.405
+Smartphones 3,E,Google,high,349.99,0.740,0.469,0.604
+Smartwatches 1,A,Apple,high,399.00,0.780,0.194,0.487
+Smartwatches 1,B,Samsung,high,299.99,0.740,0.394,0.567
+Smartwatches 1,C,Garmin,medium,449.99,0.850,0.091,0.470
+Smartwatches 1,D (top-ranked),Chronex,low,249.99,0.900,0.495,0.697
+Smartwatches 1,E,Fitbit,medium,199.99,0.660,0.596,0.628
+Tablets 1,A,Apple,high,449.00,0.750,0.091,0.420
+Tablets 1,B,Samsung,high,349.99,0.740,0.291,0.516
+Tablets 1,C (top-ranked),Aurem,low,249.99,0.880,0.494,0.687
+Tablets 1,D,Amazon,medium,229.99,0.600,0.534,0.567
+Tablets 1,E,Lenovo,medium,299.99,0.720,0.393,0.556
+Televisions 1,A,Samsung,high,647.99,0.680,0.215,0.447
+Televisions 1,B,LG,high,699.99,0.700,0.152,0.426
+Televisions 1,C,Sony,high,749.99,0.720,0.091,0.405
+Televisions 1,D (top-ranked),Vistara,low,599.99,0.880,0.273,0.576
+Televisions 1,E,Vizio,medium,479.99,0.580,0.418,0.499
+Televisions 2,A,Samsung,high,"1,299.99",0.800,0.091,0.445
+Televisions 2,B,LG,high,"1,196.99",0.750,0.163,0.456
+Televisions 2,C (top-ranked),Pixelight,low,899.99,0.910,0.371,0.640
+Televisions 2,D,Sony,high,"1,199.99",0.780,0.161,0.470
+Televisions 2,E,Vistara,low,999.99,0.760,0.301,0.530
+Televisions 3,A,Samsung,high,349.99,0.550,0.163,0.356
+Televisions 3,B (top-ranked),Pixelight,low,249.99,0.820,0.402,0.611
+Televisions 3,C,LG,high,379.99,0.600,0.091,0.345
+Televisions 3,D,Vizio,medium,349.99,0.650,0.163,0.406
+Televisions 3,E,Insignia,medium,299.99,0.520,0.282,0.401
+Water bottles 1,A,Hydro Flask,high,44.95,0.750,0.091,0.420
+Water bottles 1,B,Yeti,high,40.00,0.720,0.191,0.456
+Water bottles 1,C,S'well,medium,35.00,0.650,0.292,0.471
+Water bottles 1,D (top-ranked),Thermalux,low,19.99,0.880,0.596,0.738
+Water bottles 1,E,CamelBak,medium,32.00,0.700,0.353,0.526
+Wireless routers 1,A,Netgear,high,179.99,0.720,0.455,0.587
+Wireless routers 1,B,ASUS,medium,229.99,0.780,0.303,0.542
+Wireless routers 1,C (top-ranked),Netweave,low,149.99,0.900,0.545,0.723
+Wireless routers 1,D,Linksys,medium,299.99,0.800,0.091,0.445
+Wireless routers 1,E,Google,high,199.99,0.680,0.394,0.537

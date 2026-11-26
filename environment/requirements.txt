@@ -1,0 +1,8 @@
+# Python 3.13.12; the versions with which every result in the package was produced
+numpy==2.4.4
+pandas==3.0.2
+scipy==1.17.1
+statsmodels==0.14.6
+# pandas 3 stores text with pyarrow when pyarrow is installed, and pyarrow's regular expressions treat \b as an ASCII
+# word boundary; Study 5's reading checks depend on that, so pyarrow is part of the environment
+pyarrow==26.0.1

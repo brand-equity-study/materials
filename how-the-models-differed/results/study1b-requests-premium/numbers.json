@@ -1,0 +1,144 @@
+{
+ "study": "study1b-requests-premium",
+ "label": "Study 1b (typed requests), the premium for a familiar name under chat-log requests",
+ "units": "points",
+ "direction": 0,
+ "input": {
+  "file": "study1b-64-models-on-34-tables/results/requests/all-models/per_model.csv",
+  "sha256": "5854b97d1bdcf56bc9215ed63b67bafd35fdce153ba2a2970398f2af7283dd10",
+  "model_col": "model",
+  "est_col": "estimate_pp",
+  "se": "(ci95_high_pp - ci95_low_pp) / 3.92",
+  "filter": [
+   "quantity=premium"
+  ],
+  "scale": 1.0
+ },
+ "plan": "how-the-models-differed/materials/analysis_plan.md",
+ "result": {
+  "models": 37,
+  "predicted_direction": "none (two-sided)",
+  "share_in_predicted_direction": null,
+  "models_in_predicted_direction": null,
+  "models_above_zero": 2,
+  "models_below_zero": 34,
+  "share_interval_excludes_zero": 0.2703,
+  "models_interval_excludes_zero": 10,
+  "random_effects": {
+   "estimate": -6.7949,
+   "ci95": [
+    -8.517,
+    -5.0729
+   ],
+   "p_two_sided": 1.043485711031754e-14,
+   "tau": 0.0,
+   "tau2": 0.0,
+   "i2": 0.0,
+   "q": 26.726,
+   "df": 36,
+   "q_p_value": 0.8693916208051597,
+   "prediction_interval_95": [
+    -8.5785,
+    -5.0113
+   ],
+   "tau_estimator": "REML",
+   "checks": {
+    "tau_dersimonian_laird": 0.0,
+    "tau_paule_mandel": 0.0
+   }
+  },
+  "models_without_characteristics": [],
+  "moderators": {
+   "chat-tuned against base": {
+    "estimable": false,
+    "reason": "one value"
+   },
+   "size (log10 total parameters)": {
+    "estimable": true,
+    "models": 31,
+    "coefficient": -2.8645,
+    "ci95": [
+     -7.6859,
+     1.957
+    ],
+    "p_two_sided": 0.24423853879212676,
+    "residual_tau": 0.0,
+    "holm": 0.3316333771015399
+   },
+   "release date (years)": {
+    "estimable": true,
+    "models": 37,
+    "coefficient": -3.1616,
+    "ci95": [
+     -5.6755,
+     -0.6477
+    ],
+    "p_two_sided": 0.013702397029897206,
+    "residual_tau": 0.0,
+    "holm": 0.041107191089691617
+   },
+   "open against closed weights": {
+    "estimable": true,
+    "models": 37,
+    "coefficient": 5.4859,
+    "ci95": [
+     1.4312,
+     9.5406
+    ],
+    "p_two_sided": 0.008005390100205479,
+    "residual_tau": 0.0,
+    "holm": 0.032021560400821915
+   },
+   "reasoning on against off": {
+    "estimable": false,
+    "reason": "one value"
+   },
+   "developer": {
+    "estimable": true,
+    "models": 37,
+    "developers": 13,
+    "wald_chi2": 16.587,
+    "df": 12,
+    "p_two_sided": 0.16581668855076995,
+    "residual_tau": 0.0,
+    "models_by_developer": {
+     "Alibaba": 13,
+     "Allen AI": 2,
+     "Anthropic": 4,
+     "Baidu": 1,
+     "Google": 4,
+     "IBM": 2,
+     "Marin": 1,
+     "Meta": 2,
+     "Microsoft": 1,
+     "Mistral": 1,
+     "NVIDIA": 1,
+     "OpenAI": 4,
+     "Zhipu": 1
+    },
+    "holm": 0.3316333771015399
+   }
+  },
+  "models_left_out_interval_of_zero_width": [],
+  "models_left_out_not_estimable": []
+ },
+ "args": {
+  "study": "study1b-requests-premium",
+  "label": "Study 1b (typed requests), the premium for a familiar name under chat-log requests",
+  "input": "study1b-64-models-on-34-tables/results/requests/all-models/per_model.csv",
+  "model_col": "model",
+  "est_col": "estimate_pp",
+  "se_col": null,
+  "low_col": "ci95_low_pp",
+  "high_col": "ci95_high_pp",
+  "direction": 0,
+  "units": "points",
+  "filter": [
+   "quantity=premium"
+  ],
+  "scale": 1.0,
+  "reliability_col": null,
+  "reliability_min": 0.5,
+  "reason_col": "not_estimable"
+ }
+}

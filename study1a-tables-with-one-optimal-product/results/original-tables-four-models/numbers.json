@@ -1,0 +1,2270 @@
+{
+ "build": "original-tables",
+ "source": {
+  "script": "common/analyze.py",
+  "prompts": "study1a-tables-with-one-optimal-product/materials/original-tables/prompts.jsonl.gz",
+  "answers": "study1a-tables-with-one-optimal-product/data/original-tables/"
+ },
+ "parse": {
+  "claude-fable-5-1": {
+   "answers": 6120,
+   "missing": 0,
+   "first-line": 6120,
+   "excluded_for_tool_use": 0,
+   "via": [
+    "Anthropic Messages API (message batches)"
+   ],
+   "codex_versions": [],
+   "efforts": [],
+   "model_ids": [
+    "claude-fable-5-1"
+   ],
+   "dates_utc": [
+    "2026-11-21",
+    "2026-11-21"
+   ],
+   "mean_input_tokens": 883,
+   "mean_output_tokens": 349,
+   "max_output_tokens": 1175,
+   "stop_reasons": {
+    "end_turn": 6120
+   }
+  },
+  "claude-haiku-5-5": {
+   "answers": 6120,
+   "missing": 0,
+   "first-line": 6120,
+   "excluded_for_tool_use": 0,
+   "via": [
+    "Anthropic Messages API (message batches)"
+   ],
+   "codex_versions": [],
+   "efforts": [],
+   "model_ids": [
+    "claude-haiku-5-5"
+   ],
+   "dates_utc": [
+    "2026-11-21",
+    "2026-11-21"
+   ],
+   "mean_input_tokens": 883,
+   "mean_output_tokens": 411,
+   "max_output_tokens": 1119,
+   "stop_reasons": {
+    "end_turn": 6120
+   }
+  },
+  "claude-opus-5-5": {
+   "answers": 6120,
+   "missing": 0,
+   "first-line": 6120,
+   "excluded_for_tool_use": 0,
+   "via": [
+    "Anthropic Messages API (message batches)"
+   ],
+   "codex_versions": [],
+   "efforts": [],
+   "model_ids": [
+    "claude-opus-5-5"
+   ],
+   "dates_utc": [
+    "2026-11-21",
+    "2026-11-21"
+   ],
+   "mean_input_tokens": 883,
+   "mean_output_tokens": 286,
+   "max_output_tokens": 797,
+   "stop_reasons": {
+    "end_turn": 6120
+   }
+  },
+  "claude-sonnet-5-5": {
+   "answers": 6120,
+   "missing": 0,
+   "first-line": 6120,
+   "excluded_for_tool_use": 0,
+   "via": [
+    "Anthropic Messages API (message batches)"
+   ],
+   "codex_versions": [],
+   "efforts": [],
+   "model_ids": [
+    "claude-sonnet-5-5"
+   ],
+   "dates_utc": [
+    "2026-11-21",
+    "2026-11-21"
+   ],
+   "mean_input_tokens": 883,
+   "mean_output_tokens": 259,
+   "max_output_tokens": 962,
+   "stop_reasons": {
+    "end_turn": 6120
+   }
+  }
+ },
+ "estimates": {
+  "penalty|info=pooled|rung=pooled|all": {
+   "estimate": 0.0879,
+   "ci95": [
+    0.0289,
+    0.1673
+   ],
+   "p_two_sided": 0.0,
+   "models": 4,
+   "tables": 34,
+   "per_model": {
+    "claude-fable-5-1": 0.202,
+    "claude-haiku-5-5": 0.051,
+    "claude-opus-5-5": 0.0485,
+    "claude-sonnet-5-5": 0.05
+   }
+  },
+  "penalty|info=pooled|rung=pooled|dominant": {
+   "estimate": 0.0833,
+   "ci95": [
+    0.0104,
+    0.1792
+   ],
+   "p_two_sided": 0.031,
+   "models": 4,
+   "tables": 4,
+   "per_model": {
+    "claude-fable-5-1": 0.1875,
+    "claude-haiku-5-5": 0.0917,
+    "claude-opus-5-5": 0.0292,
+    "claude-sonnet-5-5": 0.025
+   }
+  },
+  "penalty|info=pooled|rung=pooled|without-below-range": {
+   "estimate": 0.0709,
+   "ci95": [
+    0.0127,
+    0.1605
+   ],
+   "p_two_sided": 0.003,
+   "models": 4,
+   "tables": 25,
+   "per_model": {
+    "claude-fable-5-1": 0.1837,
+    "claude-haiku-5-5": 0.0387,
+    "claude-opus-5-5": 0.028,
+    "claude-sonnet-5-5": 0.0333
+   }
+  },
+  "penalty|info=pooled|rung=pooled|without-above-budget": {
+   "estimate": 0.0879,
+   "ci95": [
+    0.0289,
+    0.1673
+   ],
+   "p_two_sided": 0.0,
+   "models": 4,
+   "tables": 34,
+   "per_model": {
+    "claude-fable-5-1": 0.202,
+    "claude-haiku-5-5": 0.051,
+    "claude-opus-5-5": 0.0485,
+    "claude-sonnet-5-5": 0.05
+   }
+  },
+  "penalty|info=pooled|rung=0|all": {
+   "estimate": 0.0776,
+   "ci95": [
+    0.0151,
+    0.1632
+   ],
+   "p_two_sided": 0.002,
+   "models": 4,
+   "tables": 34,
+   "per_model": {
+    "claude-fable-5-1": 0.1985,
+    "claude-haiku-5-5": 0.0471,
+    "claude-opus-5-5": 0.0309,
+    "claude-sonnet-5-5": 0.0338
+   }
+  },
+  "penalty|info=pooled|rung=0|dominant": {
+   "estimate": 0.0688,
+   "ci95": [
+    0.0,
+    0.1688
+   ],
+   "p_two_sided": 0.229,
+   "models": 4,
+   "tables": 4,
+   "per_model": {
+    "claude-fable-5-1": 0.1625,
+    "claude-haiku-5-5": 0.05,
+    "claude-opus-5-5": 0.025,
+    "claude-sonnet-5-5": 0.0375
+   }
+  },
+  "penalty|info=pooled|rung=0|without-below-range": {
+   "estimate": 0.0695,
+   "ci95": [
+    0.0085,
+    0.164
+   ],
+   "p_two_sided": 0.011,
+   "models": 4,
+   "tables": 25,
+   "per_model": {
+    "claude-fable-5-1": 0.186,
+    "claude-haiku-5-5": 0.036,
+    "claude-opus-5-5": 0.028,
+    "claude-sonnet-5-5": 0.028
+   }
+  },
+  "penalty|info=pooled|rung=0|without-above-budget": {
+   "estimate": 0.0824,
+   "ci95": [
+    0.0164,
+    0.1758
+   ],
+   "p_two_sided": 0.001,
+   "models": 4,
+   "tables": 32,
+   "per_model": {
+    "claude-fable-5-1": 0.2109,
+    "claude-haiku-5-5": 0.05,
+    "claude-opus-5-5": 0.0328,
+    "claude-sonnet-5-5": 0.0359
+   }
+  },
+  "penalty|info=pooled|rung=1|all": {
+   "estimate": 0.0813,
+   "ci95": [
+    0.021,
+    0.1629
+   ],
+   "p_two_sided": 0.0,
+   "models": 4,
+   "tables": 34,
+   "per_model": {
+    "claude-fable-5-1": 0.1985,
+    "claude-haiku-5-5": 0.0441,
+    "claude-opus-5-5": 0.0353,
+    "claude-sonnet-5-5": 0.0471
+   }
+  },
+  "penalty|info=pooled|rung=1|dominant": {
+   "estimate": 0.0594,
+   "ci95": [
+    -0.0344,
+    0.1531
+   ],
+   "p_two_sided": 0.232,
+   "models": 4,
+   "tables": 4,
+   "per_model": {
+    "claude-fable-5-1": 0.1625,
+    "claude-haiku-5-5": 0.0375,
+    "claude-opus-5-5": 0.0375,
+    "claude-sonnet-5-5": 0.0
+   }
+  },
+  "penalty|info=pooled|rung=1|without-below-range": {
+   "estimate": 0.0602,
+   "ci95": [
+    0.0119,
+    0.1307
+   ],
+   "p_two_sided": 0.001,
+   "models": 4,
+   "tables": 22,
+   "per_model": {
+    "claude-fable-5-1": 0.1318,
+    "claude-haiku-5-5": 0.0455,
+    "claude-opus-5-5": 0.0159,
+    "claude-sonnet-5-5": 0.0477
+   }
+  },
+  "penalty|info=pooled|rung=1|without-above-budget": {
+   "estimate": 0.0863,
+   "ci95": [
+    0.0219,
+    0.1766
+   ],
+   "p_two_sided": 0.001,
+   "models": 4,
+   "tables": 32,
+   "per_model": {
+    "claude-fable-5-1": 0.2109,
+    "claude-haiku-5-5": 0.0469,
+    "claude-opus-5-5": 0.0375,
+    "claude-sonnet-5-5": 0.05
+   }
+  },
+  "penalty|info=pooled|rung=2|all": {
+   "estimate": 0.1048,
+   "ci95": [
+    0.0415,
+    0.1816
+   ],
+   "p_two_sided": 0.0,
+   "models": 4,
+   "tables": 34,
+   "per_model": {
+    "claude-fable-5-1": 0.2088,
+    "claude-haiku-5-5": 0.0618,
+    "claude-opus-5-5": 0.0794,
+    "claude-sonnet-5-5": 0.0691
+   }
+  },
+  "penalty|info=pooled|rung=2|dominant": {
+   "estimate": 0.1219,
+   "ci95": [
+    0.0188,
+    0.2625
+   ],
+   "p_two_sided": 0.012,
+   "models": 4,
+   "tables": 4,
+   "per_model": {
+    "claude-fable-5-1": 0.2375,
+    "claude-haiku-5-5": 0.1875,
+    "claude-opus-5-5": 0.025,
+    "claude-sonnet-5-5": 0.0375
+   }
+  },
+  "penalty|info=pooled|rung=2|without-below-range": {
+   "estimate": 0.0664,
+   "ci95": [
+    0.0145,
+    0.1382
+   ],
+   "p_two_sided": 0.003,
+   "models": 4,
+   "tables": 19,
+   "per_model": {
+    "claude-fable-5-1": 0.1447,
+    "claude-haiku-5-5": 0.0526,
+    "claude-opus-5-5": 0.0289,
+    "claude-sonnet-5-5": 0.0395
+   }
+  },
+  "penalty|info=pooled|rung=2|without-above-budget": {
+   "estimate": 0.1048,
+   "ci95": [
+    0.0415,
+    0.1816
+   ],
+   "p_two_sided": 0.0,
+   "models": 4,
+   "tables": 34,
+   "per_model": {
+    "claude-fable-5-1": 0.2088,
+    "claude-haiku-5-5": 0.0618,
+    "claude-opus-5-5": 0.0794,
+    "claude-sonnet-5-5": 0.0691
+   }
+  },
+  "penalty|info=0|rung=pooled|all": {
+   "estimate": 0.165,
+   "ci95": [
+    0.0485,
+    0.324
+   ],
+   "p_two_sided": 0.0,
+   "models": 4,
+   "tables": 34,
+   "per_model": {
+    "claude-fable-5-1": 0.402,
+    "claude-haiku-5-5": 0.0706,
+    "claude-opus-5-5": 0.0971,
+    "claude-sonnet-5-5": 0.0902
+   }
+  },
+  "penalty|info=0|rung=pooled|dominant": {
+   "estimate": 0.1417,
+   "ci95": [
+    0.0167,
+    0.3333
+   ],
+   "p_two_sided": 0.032,
+   "models": 4,
+   "tables": 4,
+   "per_model": {
+    "claude-fable-5-1": 0.375,
+    "claude-haiku-5-5": 0.0833,
+    "claude-opus-5-5": 0.0583,
+    "claude-sonnet-5-5": 0.05
+   }
+  },
+  "penalty|info=0|rung=pooled|without-below-range": {
+   "estimate": 0.1345,
+   "ci95": [
+    0.0243,
+    0.305
+   ],
+   "p_two_sided": 0.003,
+   "models": 4,
+   "tables": 25,
+   "per_model": {
+    "claude-fable-5-1": 0.3647,
+    "claude-haiku-5-5": 0.0587,
+    "claude-opus-5-5": 0.056,
+    "claude-sonnet-5-5": 0.0587
+   }
+  },
+  "penalty|info=0|rung=pooled|without-above-budget": {
+   "estimate": 0.165,
+   "ci95": [
+    0.0485,
+    0.324
+   ],
+   "p_two_sided": 0.0,
+   "models": 4,
+   "tables": 34,
+   "per_model": {
+    "claude-fable-5-1": 0.402,
+    "claude-haiku-5-5": 0.0706,
+    "claude-opus-5-5": 0.0971,
+    "claude-sonnet-5-5": 0.0902
+   }
+  },
+  "penalty|info=0|rung=0|all": {
+   "estimate": 0.1382,
+   "ci95": [
+    0.0221,
+    0.3103
+   ],
+   "p_two_sided": 0.004,
+   "models": 4,
+   "tables": 34,
+   "per_model": {
+    "claude-fable-5-1": 0.3882,
+    "claude-haiku-5-5": 0.0559,
+    "claude-opus-5-5": 0.0588,
+    "claude-sonnet-5-5": 0.05
+   }
+  },
+  "penalty|info=0|rung=0|dominant": {
+   "estimate": 0.1313,
+   "ci95": [
+    0.0,
+    0.3375
+   ],
+   "p_two_sided": 0.229,
+   "models": 4,
+   "tables": 4,
+   "per_model": {
+    "claude-fable-5-1": 0.325,
+    "claude-haiku-5-5": 0.075,
+    "claude-opus-5-5": 0.05,
+    "claude-sonnet-5-5": 0.075
+   }
+  },
+  "penalty|info=0|rung=0|without-below-range": {
+   "estimate": 0.124,
+   "ci95": [
+    0.014,
+    0.301
+   ],
+   "p_two_sided": 0.006,
+   "models": 4,
+   "tables": 25,
+   "per_model": {
+    "claude-fable-5-1": 0.36,
+    "claude-haiku-5-5": 0.044,
+    "claude-opus-5-5": 0.052,
+    "claude-sonnet-5-5": 0.04
+   }
+  },
+  "penalty|info=0|rung=0|without-above-budget": {
+   "estimate": 0.1469,
+   "ci95": [
+    0.025,
+    0.3336
+   ],
+   "p_two_sided": 0.004,
+   "models": 4,
+   "tables": 32,
+   "per_model": {
+    "claude-fable-5-1": 0.4125,
+    "claude-haiku-5-5": 0.0594,
+    "claude-opus-5-5": 0.0625,
+    "claude-sonnet-5-5": 0.0531
+   }
+  },
+  "penalty|info=0|rung=1|all": {
+   "estimate": 0.1559,
+   "ci95": [
+    0.0382,
+    0.3213
+   ],
+   "p_two_sided": 0.0,
+   "models": 4,
+   "tables": 34,
+   "per_model": {
+    "claude-fable-5-1": 0.4029,
+    "claude-haiku-5-5": 0.0588,
+    "claude-opus-5-5": 0.0765,
+    "claude-sonnet-5-5": 0.0853
+   }
+  },
+  "penalty|info=0|rung=1|dominant": {
+   "estimate": 0.1062,
+   "ci95": [
+    -0.0437,
+    0.3
+   ],
+   "p_two_sided": 0.2,
+   "models": 4,
+   "tables": 4,
+   "per_model": {
+    "claude-fable-5-1": 0.325,
+    "claude-haiku-5-5": 0.025,
+    "claude-opus-5-5": 0.075,
+    "claude-sonnet-5-5": 0.0
+   }
+  },
+  "penalty|info=0|rung=1|without-below-range": {
+   "estimate": 0.117,
+   "ci95": [
+    0.0239,
+    0.25
+   ],
+   "p_two_sided": 0.001,
+   "models": 4,
+   "tables": 22,
+   "per_model": {
+    "claude-fable-5-1": 0.2727,
+    "claude-haiku-5-5": 0.0773,
+    "claude-opus-5-5": 0.0409,
+    "claude-sonnet-5-5": 0.0773
+   }
+  },
+  "penalty|info=0|rung=1|without-above-budget": {
+   "estimate": 0.1656,
+   "ci95": [
+    0.0414,
+    0.3547
+   ],
+   "p_two_sided": 0.001,
+   "models": 4,
+   "tables": 32,
+   "per_model": {
+    "claude-fable-5-1": 0.4281,
+    "claude-haiku-5-5": 0.0625,
+    "claude-opus-5-5": 0.0813,
+    "claude-sonnet-5-5": 0.0906
+   }
+  },
+  "penalty|info=0|rung=2|all": {
+   "estimate": 0.2007,
+   "ci95": [
+    0.0743,
+    0.3515
+   ],
+   "p_two_sided": 0.0,
+   "models": 4,
+   "tables": 34,
+   "per_model": {
+    "claude-fable-5-1": 0.4147,
+    "claude-haiku-5-5": 0.0971,
+    "claude-opus-5-5": 0.1559,
+    "claude-sonnet-5-5": 0.1353
+   }
+  },
+  "penalty|info=0|rung=2|dominant": {
+   "estimate": 0.1875,
+   "ci95": [
+    0.025,
+    0.4625
+   ],
+   "p_two_sided": 0.012,
+   "models": 4,
+   "tables": 4,
+   "per_model": {
+    "claude-fable-5-1": 0.475,
+    "claude-haiku-5-5": 0.15,
+    "claude-opus-5-5": 0.05,
+    "claude-sonnet-5-5": 0.075
+   }
+  },
+  "penalty|info=0|rung=2|without-below-range": {
+   "estimate": 0.1276,
+   "ci95": [
+    0.0263,
+    0.2605
+   ],
+   "p_two_sided": 0.003,
+   "models": 4,
+   "tables": 19,
+   "per_model": {
+    "claude-fable-5-1": 0.2842,
+    "claude-haiku-5-5": 0.0842,
+    "claude-opus-5-5": 0.0526,
+    "claude-sonnet-5-5": 0.0895
+   }
+  },
+  "penalty|info=0|rung=2|without-above-budget": {
+   "estimate": 0.2007,
+   "ci95": [
+    0.0743,
+    0.3515
+   ],
+   "p_two_sided": 0.0,
+   "models": 4,
+   "tables": 34,
+   "per_model": {
+    "claude-fable-5-1": 0.4147,
+    "claude-haiku-5-5": 0.0971,
+    "claude-opus-5-5": 0.1559,
+    "claude-sonnet-5-5": 0.1353
+   }
+  },
+  "penalty|info=1|rung=pooled|all": {
+   "estimate": 0.0108,
+   "ci95": [
+    -0.0078,
+    0.036
+   ],
+   "p_two_sided": 0.294,
+   "models": 4,
+   "tables": 34,
+   "per_model": {
+    "claude-fable-5-1": 0.002,
+    "claude-haiku-5-5": 0.0314,
+    "claude-opus-5-5": 0.0,
+    "claude-sonnet-5-5": 0.0098
+   }
+  },
+  "penalty|info=1|rung=pooled|dominant": {
+   "estimate": 0.025,
+   "ci95": [
+    -0.0042,
+    0.1
+   ],
+   "p_two_sided": 0.723,
+   "models": 4,
+   "tables": 4,
+   "per_model": {
+    "claude-fable-5-1": 0.0,
+    "claude-haiku-5-5": 0.1,
+    "claude-opus-5-5": 0.0,
+    "claude-sonnet-5-5": 0.0
+   }
+  },
+  "penalty|info=1|rung=pooled|without-below-range": {
+   "estimate": 0.0073,
+   "ci95": [
+    -0.0127,
+    0.0363
+   ],
+   "p_two_sided": 0.514,
+   "models": 4,
+   "tables": 25,
+   "per_model": {
+    "claude-fable-5-1": 0.0027,
+    "claude-haiku-5-5": 0.0187,
+    "claude-opus-5-5": 0.0,
+    "claude-sonnet-5-5": 0.008
+   }
+  },
+  "penalty|info=1|rung=pooled|without-above-budget": {
+   "estimate": 0.0108,
+   "ci95": [
+    -0.0078,
+    0.036
+   ],
+   "p_two_sided": 0.294,
+   "models": 4,
+   "tables": 34,
+   "per_model": {
+    "claude-fable-5-1": 0.002,
+    "claude-haiku-5-5": 0.0314,
+    "claude-opus-5-5": 0.0,
+    "claude-sonnet-5-5": 0.0098
+   }
+  },
+  "penalty|info=1|rung=0|all": {
+   "estimate": 0.0169,
+   "ci95": [
+    -0.0044,
+    0.0485
+   ],
+   "p_two_sided": 0.166,
+   "models": 4,
+   "tables": 34,
+   "per_model": {
+    "claude-fable-5-1": 0.0088,
+    "claude-haiku-5-5": 0.0382,
+    "claude-opus-5-5": 0.0029,
+    "claude-sonnet-5-5": 0.0176
+   }
+  },
+  "penalty|info=1|rung=0|dominant": {
+   "estimate": 0.0062,
+   "ci95": [
+    0.0,
+    0.025
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "tables": 4,
+   "per_model": {
+    "claude-fable-5-1": 0.0,
+    "claude-haiku-5-5": 0.025,
+    "claude-opus-5-5": 0.0,
+    "claude-sonnet-5-5": 0.0
+   }
+  },
+  "penalty|info=1|rung=0|without-below-range": {
+   "estimate": 0.015,
+   "ci95": [
+    -0.008,
+    0.053
+   ],
+   "p_two_sided": 0.363,
+   "models": 4,
+   "tables": 25,
+   "per_model": {
+    "claude-fable-5-1": 0.012,
+    "claude-haiku-5-5": 0.028,
+    "claude-opus-5-5": 0.004,
+    "claude-sonnet-5-5": 0.016
+   }
+  },
+  "penalty|info=1|rung=0|without-above-budget": {
+   "estimate": 0.018,
+   "ci95": [
+    -0.0047,
+    0.05
+   ],
+   "p_two_sided": 0.17,
+   "models": 4,
+   "tables": 32,
+   "per_model": {
+    "claude-fable-5-1": 0.0094,
+    "claude-haiku-5-5": 0.0406,
+    "claude-opus-5-5": 0.0031,
+    "claude-sonnet-5-5": 0.0187
+   }
+  },
+  "penalty|info=1|rung=1|all": {
+   "estimate": 0.0066,
+   "ci95": [
+    -0.0154,
+    0.0353
+   ],
+   "p_two_sided": 0.587,
+   "models": 4,
+   "tables": 34,
+   "per_model": {
+    "claude-fable-5-1": -0.0059,
+    "claude-haiku-5-5": 0.0294,
+    "claude-opus-5-5": -0.0059,
+    "claude-sonnet-5-5": 0.0088
+   }
+  },
+  "penalty|info=1|rung=1|dominant": {
+   "estimate": 0.0125,
+   "ci95": [
+    -0.0375,
+    0.0875
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "tables": 4,
+   "per_model": {
+    "claude-fable-5-1": 0.0,
+    "claude-haiku-5-5": 0.05,
+    "claude-opus-5-5": 0.0,
+    "claude-sonnet-5-5": 0.0
+   }
+  },
+  "penalty|info=1|rung=1|without-below-range": {
+   "estimate": 0.0034,
+   "ci95": [
+    -0.0227,
+    0.0341
+   ],
+   "p_two_sided": 0.924,
+   "models": 4,
+   "tables": 22,
+   "per_model": {
+    "claude-fable-5-1": -0.0091,
+    "claude-haiku-5-5": 0.0136,
+    "claude-opus-5-5": -0.0091,
+    "claude-sonnet-5-5": 0.0182
+   }
+  },
+  "penalty|info=1|rung=1|without-above-budget": {
+   "estimate": 0.007,
+   "ci95": [
+    -0.0172,
+    0.0344
+   ],
+   "p_two_sided": 0.598,
+   "models": 4,
+   "tables": 32,
+   "per_model": {
+    "claude-fable-5-1": -0.0063,
+    "claude-haiku-5-5": 0.0312,
+    "claude-opus-5-5": -0.0062,
+    "claude-sonnet-5-5": 0.0094
+   }
+  },
+  "penalty|info=1|rung=2|all": {
+   "estimate": 0.0088,
+   "ci95": [
+    -0.014,
+    0.0382
+   ],
+   "p_two_sided": 0.443,
+   "models": 4,
+   "tables": 34,
+   "per_model": {
+    "claude-fable-5-1": 0.0029,
+    "claude-haiku-5-5": 0.0265,
+    "claude-opus-5-5": 0.0029,
+    "claude-sonnet-5-5": 0.0029
+   }
+  },
+  "penalty|info=1|rung=2|dominant": {
+   "estimate": 0.0563,
+   "ci95": [
+    0.0,
+    0.2
+   ],
+   "p_two_sided": 0.652,
+   "models": 4,
+   "tables": 4,
+   "per_model": {
+    "claude-fable-5-1": 0.0,
+    "claude-haiku-5-5": 0.225,
+    "claude-opus-5-5": 0.0,
+    "claude-sonnet-5-5": 0.0
+   }
+  },
+  "penalty|info=1|rung=2|without-below-range": {
+   "estimate": 0.0053,
+   "ci95": [
+    -0.0237,
+    0.0382
+   ],
+   "p_two_sided": 0.851,
+   "models": 4,
+   "tables": 19,
+   "per_model": {
+    "claude-fable-5-1": 0.0053,
+    "claude-haiku-5-5": 0.0211,
+    "claude-opus-5-5": 0.0053,
+    "claude-sonnet-5-5": -0.0105
+   }
+  },
+  "penalty|info=1|rung=2|without-above-budget": {
+   "estimate": 0.0088,
+   "ci95": [
+    -0.014,
+    0.0382
+   ],
+   "p_two_sided": 0.443,
+   "models": 4,
+   "tables": 34,
+   "per_model": {
+    "claude-fable-5-1": 0.0029,
+    "claude-haiku-5-5": 0.0265,
+    "claude-opus-5-5": 0.0029,
+    "claude-sonnet-5-5": 0.0029
+   }
+  },
+  "premium|info=pooled|rung=pooled|all": {
+   "estimate": -0.0366,
+   "ci95": [
+    -0.0768,
+    -0.0069
+   ],
+   "p_two_sided": 0.016,
+   "models": 4,
+   "tables": 34,
+   "per_model": {
+    "claude-fable-5-1": -0.0691,
+    "claude-haiku-5-5": -0.0353,
+    "claude-opus-5-5": -0.0211,
+    "claude-sonnet-5-5": -0.0211
+   }
+  },
+  "premium|info=pooled|rung=pooled|dominant": {
+   "estimate": -0.0146,
+   "ci95": [
+    -0.0562,
+    0.0062
+   ],
+   "p_two_sided": 0.226,
+   "models": 4,
+   "tables": 4,
+   "per_model": {
+    "claude-fable-5-1": -0.0042,
+    "claude-haiku-5-5": -0.0458,
+    "claude-opus-5-5": 0.0,
+    "claude-sonnet-5-5": -0.0083
+   }
+  },
+  "premium|info=pooled|rung=pooled|without-below-range": {
+   "estimate": -0.0335,
+   "ci95": [
+    -0.0804,
+    -0.0035
+   ],
+   "p_two_sided": 0.007,
+   "models": 4,
+   "tables": 25,
+   "per_model": {
+    "claude-fable-5-1": -0.0567,
+    "claude-haiku-5-5": -0.0287,
+    "claude-opus-5-5": -0.02,
+    "claude-sonnet-5-5": -0.0287
+   }
+  },
+  "premium|info=pooled|rung=pooled|without-above-budget": {
+   "estimate": -0.0366,
+   "ci95": [
+    -0.0768,
+    -0.0069
+   ],
+   "p_two_sided": 0.016,
+   "models": 4,
+   "tables": 34,
+   "per_model": {
+    "claude-fable-5-1": -0.0691,
+    "claude-haiku-5-5": -0.0353,
+    "claude-opus-5-5": -0.0211,
+    "claude-sonnet-5-5": -0.0211
+   }
+  },
+  "premium|info=pooled|rung=0|all": {
+   "estimate": -0.0353,
+   "ci95": [
+    -0.0798,
+    -0.0037
+   ],
+   "p_two_sided": 0.033,
+   "models": 4,
+   "tables": 34,
+   "per_model": {
+    "claude-fable-5-1": -0.0588,
+    "claude-haiku-5-5": -0.0397,
+    "claude-opus-5-5": -0.0176,
+    "claude-sonnet-5-5": -0.025
+   }
+  },
+  "premium|info=pooled|rung=0|dominant": {
+   "estimate": -0.0125,
+   "ci95": [
+    -0.0469,
+    0.0031
+   ],
+   "p_two_sided": 0.718,
+   "models": 4,
+   "tables": 4,
+   "per_model": {
+    "claude-fable-5-1": -0.0125,
+    "claude-haiku-5-5": -0.025,
+    "claude-opus-5-5": 0.0125,
+    "claude-sonnet-5-5": -0.025
+   }
+  },
+  "premium|info=pooled|rung=0|without-below-range": {
+   "estimate": -0.041,
+   "ci95": [
+    -0.096,
+    -0.008
+   ],
+   "p_two_sided": 0.001,
+   "models": 4,
+   "tables": 25,
+   "per_model": {
+    "claude-fable-5-1": -0.06,
+    "claude-haiku-5-5": -0.034,
+    "claude-opus-5-5": -0.03,
+    "claude-sonnet-5-5": -0.04
+   }
+  },
+  "premium|info=pooled|rung=0|without-above-budget": {
+   "estimate": -0.0375,
+   "ci95": [
+    -0.0836,
+    -0.0031
+   ],
+   "p_two_sided": 0.027,
+   "models": 4,
+   "tables": 32,
+   "per_model": {
+    "claude-fable-5-1": -0.0625,
+    "claude-haiku-5-5": -0.0422,
+    "claude-opus-5-5": -0.0187,
+    "claude-sonnet-5-5": -0.0266
+   }
+  },
+  "premium|info=pooled|rung=1|all": {
+   "estimate": -0.0312,
+   "ci95": [
+    -0.075,
+    0.0
+   ],
+   "p_two_sided": 0.051,
+   "models": 4,
+   "tables": 34,
+   "per_model": {
+    "claude-fable-5-1": -0.0691,
+    "claude-haiku-5-5": -0.0279,
+    "claude-opus-5-5": -0.0147,
+    "claude-sonnet-5-5": -0.0132
+   }
+  },
+  "premium|info=pooled|rung=1|dominant": {
+   "estimate": -0.0031,
+   "ci95": [
+    -0.05,
+    0.0312
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "tables": 4,
+   "per_model": {
+    "claude-fable-5-1": 0.0125,
+    "claude-haiku-5-5": -0.0125,
+    "claude-opus-5-5": -0.0125,
+    "claude-sonnet-5-5": 0.0
+   }
+  },
+  "premium|info=pooled|rung=1|without-below-range": {
+   "estimate": -0.0312,
+   "ci95": [
+    -0.0818,
+    -0.0
+   ],
+   "p_two_sided": 0.05,
+   "models": 4,
+   "tables": 22,
+   "per_model": {
+    "claude-fable-5-1": -0.0568,
+    "claude-haiku-5-5": -0.0318,
+    "claude-opus-5-5": -0.0114,
+    "claude-sonnet-5-5": -0.025
+   }
+  },
+  "premium|info=pooled|rung=1|without-above-budget": {
+   "estimate": -0.0332,
+   "ci95": [
+    -0.0773,
+    -0.0
+   ],
+   "p_two_sided": 0.05,
+   "models": 4,
+   "tables": 32,
+   "per_model": {
+    "claude-fable-5-1": -0.0734,
+    "claude-haiku-5-5": -0.0297,
+    "claude-opus-5-5": -0.0156,
+    "claude-sonnet-5-5": -0.0141
+   }
+  },
+  "premium|info=pooled|rung=2|all": {
+   "estimate": -0.0434,
+   "ci95": [
+    -0.0849,
+    -0.0107
+   ],
+   "p_two_sided": 0.005,
+   "models": 4,
+   "tables": 34,
+   "per_model": {
+    "claude-fable-5-1": -0.0794,
+    "claude-haiku-5-5": -0.0382,
+    "claude-opus-5-5": -0.0309,
+    "claude-sonnet-5-5": -0.025
+   }
+  },
+  "premium|info=pooled|rung=2|dominant": {
+   "estimate": -0.0281,
+   "ci95": [
+    -0.1,
+    0.0
+   ],
+   "p_two_sided": 0.295,
+   "models": 4,
+   "tables": 4,
+   "per_model": {
+    "claude-fable-5-1": -0.0125,
+    "claude-haiku-5-5": -0.1,
+    "claude-opus-5-5": 0.0,
+    "claude-sonnet-5-5": 0.0
+   }
+  },
+  "premium|info=pooled|rung=2|without-below-range": {
+   "estimate": -0.0316,
+   "ci95": [
+    -0.0855,
+    0.0059
+   ],
+   "p_two_sided": 0.16,
+   "models": 4,
+   "tables": 19,
+   "per_model": {
+    "claude-fable-5-1": -0.0526,
+    "claude-haiku-5-5": -0.0316,
+    "claude-opus-5-5": -0.0184,
+    "claude-sonnet-5-5": -0.0237
+   }
+  },
+  "premium|info=pooled|rung=2|without-above-budget": {
+   "estimate": -0.0434,
+   "ci95": [
+    -0.0849,
+    -0.0107
+   ],
+   "p_two_sided": 0.005,
+   "models": 4,
+   "tables": 34,
+   "per_model": {
+    "claude-fable-5-1": -0.0794,
+    "claude-haiku-5-5": -0.0382,
+    "claude-opus-5-5": -0.0309,
+    "claude-sonnet-5-5": -0.025
+   }
+  },
+  "premium|info=0|rung=pooled|all": {
+   "estimate": -0.0652,
+   "ci95": [
+    -0.1257,
+    -0.0191
+   ],
+   "p_two_sided": 0.0,
+   "models": 4,
+   "tables": 34,
+   "per_model": {
+    "claude-fable-5-1": -0.1216,
+    "claude-haiku-5-5": -0.052,
+    "claude-opus-5-5": -0.0402,
+    "claude-sonnet-5-5": -0.0471
+   }
+  },
+  "premium|info=0|rung=pooled|dominant": {
+   "estimate": -0.0187,
+   "ci95": [
+    -0.0542,
+    0.0
+   ],
+   "p_two_sided": 0.156,
+   "models": 4,
+   "tables": 4,
+   "per_model": {
+    "claude-fable-5-1": -0.0083,
+    "claude-haiku-5-5": -0.05,
+    "claude-opus-5-5": 0.0,
+    "claude-sonnet-5-5": -0.0167
+   }
+  },
+  "premium|info=0|rung=pooled|without-below-range": {
+   "estimate": -0.0563,
+   "ci95": [
+    -0.1198,
+    -0.0122
+   ],
+   "p_two_sided": 0.002,
+   "models": 4,
+   "tables": 25,
+   "per_model": {
+    "claude-fable-5-1": -0.0973,
+    "claude-haiku-5-5": -0.0413,
+    "claude-opus-5-5": -0.0387,
+    "claude-sonnet-5-5": -0.048
+   }
+  },
+  "premium|info=0|rung=pooled|without-above-budget": {
+   "estimate": -0.0652,
+   "ci95": [
+    -0.1257,
+    -0.0191
+   ],
+   "p_two_sided": 0.0,
+   "models": 4,
+   "tables": 34,
+   "per_model": {
+    "claude-fable-5-1": -0.1216,
+    "claude-haiku-5-5": -0.052,
+    "claude-opus-5-5": -0.0402,
+    "claude-sonnet-5-5": -0.0471
+   }
+  },
+  "premium|info=0|rung=0|all": {
+   "estimate": -0.0515,
+   "ci95": [
+    -0.1118,
+    -0.0066
+   ],
+   "p_two_sided": 0.015,
+   "models": 4,
+   "tables": 34,
+   "per_model": {
+    "claude-fable-5-1": -0.0971,
+    "claude-haiku-5-5": -0.0412,
+    "claude-opus-5-5": -0.0294,
+    "claude-sonnet-5-5": -0.0382
+   }
+  },
+  "premium|info=0|rung=0|dominant": {
+   "estimate": -0.0125,
+   "ci95": [
+    -0.075,
+    0.0187
+   ],
+   "p_two_sided": 0.85,
+   "models": 4,
+   "tables": 4,
+   "per_model": {
+    "claude-fable-5-1": -0.025,
+    "claude-haiku-5-5": 0.0,
+    "claude-opus-5-5": 0.025,
+    "claude-sonnet-5-5": -0.05
+   }
+  },
+  "premium|info=0|rung=0|without-below-range": {
+   "estimate": -0.055,
+   "ci95": [
+    -0.122,
+    -0.009
+   ],
+   "p_two_sided": 0.004,
+   "models": 4,
+   "tables": 25,
+   "per_model": {
+    "claude-fable-5-1": -0.092,
+    "claude-haiku-5-5": -0.032,
+    "claude-opus-5-5": -0.052,
+    "claude-sonnet-5-5": -0.044
+   }
+  },
+  "premium|info=0|rung=0|without-above-budget": {
+   "estimate": -0.0547,
+   "ci95": [
+    -0.1164,
+    -0.0094
+   ],
+   "p_two_sided": 0.009,
+   "models": 4,
+   "tables": 32,
+   "per_model": {
+    "claude-fable-5-1": -0.1031,
+    "claude-haiku-5-5": -0.0437,
+    "claude-opus-5-5": -0.0312,
+    "claude-sonnet-5-5": -0.0406
+   }
+  },
+  "premium|info=0|rung=1|all": {
+   "estimate": -0.064,
+   "ci95": [
+    -0.1294,
+    -0.0147
+   ],
+   "p_two_sided": 0.009,
+   "models": 4,
+   "tables": 34,
+   "per_model": {
+    "claude-fable-5-1": -0.1235,
+    "claude-haiku-5-5": -0.05,
+    "claude-opus-5-5": -0.0382,
+    "claude-sonnet-5-5": -0.0441
+   }
+  },
+  "premium|info=0|rung=1|dominant": {
+   "estimate": -0.0062,
+   "ci95": [
+    -0.0625,
+    0.025
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "tables": 4,
+   "per_model": {
+    "claude-fable-5-1": 0.025,
+    "claude-haiku-5-5": -0.025,
+    "claude-opus-5-5": -0.025,
+    "claude-sonnet-5-5": 0.0
+   }
+  },
+  "premium|info=0|rung=1|without-below-range": {
+   "estimate": -0.0625,
+   "ci95": [
+    -0.133,
+    -0.0136
+   ],
+   "p_two_sided": 0.003,
+   "models": 4,
+   "tables": 22,
+   "per_model": {
+    "claude-fable-5-1": -0.1045,
+    "claude-haiku-5-5": -0.0545,
+    "claude-opus-5-5": -0.0364,
+    "claude-sonnet-5-5": -0.0545
+   }
+  },
+  "premium|info=0|rung=1|without-above-budget": {
+   "estimate": -0.068,
+   "ci95": [
+    -0.1328,
+    -0.0172
+   ],
+   "p_two_sided": 0.003,
+   "models": 4,
+   "tables": 32,
+   "per_model": {
+    "claude-fable-5-1": -0.1313,
+    "claude-haiku-5-5": -0.0531,
+    "claude-opus-5-5": -0.0406,
+    "claude-sonnet-5-5": -0.0469
+   }
+  },
+  "premium|info=0|rung=2|all": {
+   "estimate": -0.0801,
+   "ci95": [
+    -0.1463,
+    -0.0287
+   ],
+   "p_two_sided": 0.0,
+   "models": 4,
+   "tables": 34,
+   "per_model": {
+    "claude-fable-5-1": -0.1441,
+    "claude-haiku-5-5": -0.0647,
+    "claude-opus-5-5": -0.0529,
+    "claude-sonnet-5-5": -0.0588
+   }
+  },
+  "premium|info=0|rung=2|dominant": {
+   "estimate": -0.0375,
+   "ci95": [
+    -0.15,
+    0.0125
+   ],
+   "p_two_sided": 0.477,
+   "models": 4,
+   "tables": 4,
+   "per_model": {
+    "claude-fable-5-1": -0.025,
+    "claude-haiku-5-5": -0.125,
+    "claude-opus-5-5": 0.0,
+    "claude-sonnet-5-5": 0.0
+   }
+  },
+  "premium|info=0|rung=2|without-below-range": {
+   "estimate": -0.0566,
+   "ci95": [
+    -0.1263,
+    -0.0079
+   ],
+   "p_two_sided": 0.022,
+   "models": 4,
+   "tables": 19,
+   "per_model": {
+    "claude-fable-5-1": -0.0895,
+    "claude-haiku-5-5": -0.0579,
+    "claude-opus-5-5": -0.0263,
+    "claude-sonnet-5-5": -0.0526
+   }
+  },
+  "premium|info=0|rung=2|without-above-budget": {
+   "estimate": -0.0801,
+   "ci95": [
+    -0.1463,
+    -0.0287
+   ],
+   "p_two_sided": 0.0,
+   "models": 4,
+   "tables": 34,
+   "per_model": {
+    "claude-fable-5-1": -0.1441,
+    "claude-haiku-5-5": -0.0647,
+    "claude-opus-5-5": -0.0529,
+    "claude-sonnet-5-5": -0.0588
+   }
+  },
+  "premium|info=1|rung=pooled|all": {
+   "estimate": -0.0081,
+   "ci95": [
+    -0.04,
+    0.0147
+   ],
+   "p_two_sided": 0.582,
+   "models": 4,
+   "tables": 34,
+   "per_model": {
+    "claude-fable-5-1": -0.0167,
+    "claude-haiku-5-5": -0.0186,
+    "claude-opus-5-5": -0.002,
+    "claude-sonnet-5-5": 0.0049
+   }
+  },
+  "premium|info=1|rung=pooled|dominant": {
+   "estimate": -0.0104,
+   "ci95": [
+    -0.0625,
+    0.0167
+   ],
+   "p_two_sided": 0.985,
+   "models": 4,
+   "tables": 4,
+   "per_model": {
+    "claude-fable-5-1": 0.0,
+    "claude-haiku-5-5": -0.0417,
+    "claude-opus-5-5": 0.0,
+    "claude-sonnet-5-5": 0.0
+   }
+  },
+  "premium|info=1|rung=pooled|without-below-range": {
+   "estimate": -0.0107,
+   "ci95": [
+    -0.0547,
+    0.0133
+   ],
+   "p_two_sided": 0.533,
+   "models": 4,
+   "tables": 25,
+   "per_model": {
+    "claude-fable-5-1": -0.016,
+    "claude-haiku-5-5": -0.016,
+    "claude-opus-5-5": -0.0013,
+    "claude-sonnet-5-5": -0.0093
+   }
+  },
+  "premium|info=1|rung=pooled|without-above-budget": {
+   "estimate": -0.0081,
+   "ci95": [
+    -0.04,
+    0.0147
+   ],
+   "p_two_sided": 0.582,
+   "models": 4,
+   "tables": 34,
+   "per_model": {
+    "claude-fable-5-1": -0.0167,
+    "claude-haiku-5-5": -0.0186,
+    "claude-opus-5-5": -0.002,
+    "claude-sonnet-5-5": 0.0049
+   }
+  },
+  "premium|info=1|rung=0|all": {
+   "estimate": -0.0191,
+   "ci95": [
+    -0.0559,
+    0.011
+   ],
+   "p_two_sided": 0.183,
+   "models": 4,
+   "tables": 34,
+   "per_model": {
+    "claude-fable-5-1": -0.0206,
+    "claude-haiku-5-5": -0.0382,
+    "claude-opus-5-5": -0.0059,
+    "claude-sonnet-5-5": -0.0118
+   }
+  },
+  "premium|info=1|rung=0|dominant": {
+   "estimate": -0.0125,
+   "ci95": [
+    -0.05,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "tables": 4,
+   "per_model": {
+    "claude-fable-5-1": 0.0,
+    "claude-haiku-5-5": -0.05,
+    "claude-opus-5-5": 0.0,
+    "claude-sonnet-5-5": 0.0
+   }
+  },
+  "premium|info=1|rung=0|without-below-range": {
+   "estimate": -0.027,
+   "ci95": [
+    -0.079,
+    0.0
+   ],
+   "p_two_sided": 0.067,
+   "models": 4,
+   "tables": 25,
+   "per_model": {
+    "claude-fable-5-1": -0.028,
+    "claude-haiku-5-5": -0.036,
+    "claude-opus-5-5": -0.008,
+    "claude-sonnet-5-5": -0.036
+   }
+  },
+  "premium|info=1|rung=0|without-above-budget": {
+   "estimate": -0.0203,
+   "ci95": [
+    -0.0594,
+    0.0109
+   ],
+   "p_two_sided": 0.2,
+   "models": 4,
+   "tables": 32,
+   "per_model": {
+    "claude-fable-5-1": -0.0219,
+    "claude-haiku-5-5": -0.0406,
+    "claude-opus-5-5": -0.0062,
+    "claude-sonnet-5-5": -0.0125
+   }
+  },
+  "premium|info=1|rung=1|all": {
+   "estimate": 0.0015,
+   "ci95": [
+    -0.0294,
+    0.0279
+   ],
+   "p_two_sided": 0.846,
+   "models": 4,
+   "tables": 34,
+   "per_model": {
+    "claude-fable-5-1": -0.0147,
+    "claude-haiku-5-5": -0.0059,
+    "claude-opus-5-5": 0.0088,
+    "claude-sonnet-5-5": 0.0176
+   }
+  },
+  "premium|info=1|rung=1|dominant": {
+   "estimate": -0.0,
+   "ci95": [
+    -0.0375,
+    0.05
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "tables": 4,
+   "per_model": {
+    "claude-fable-5-1": 0.0,
+    "claude-haiku-5-5": -0.0,
+    "claude-opus-5-5": 0.0,
+    "claude-sonnet-5-5": 0.0
+   }
+  },
+  "premium|info=1|rung=1|without-below-range": {
+   "estimate": -0.0,
+   "ci95": [
+    -0.0386,
+    0.0307
+   ],
+   "p_two_sided": 0.945,
+   "models": 4,
+   "tables": 22,
+   "per_model": {
+    "claude-fable-5-1": -0.0091,
+    "claude-haiku-5-5": -0.0091,
+    "claude-opus-5-5": 0.0136,
+    "claude-sonnet-5-5": 0.0045
+   }
+  },
+  "premium|info=1|rung=1|without-above-budget": {
+   "estimate": 0.0016,
+   "ci95": [
+    -0.0289,
+    0.0289
+   ],
+   "p_two_sided": 0.827,
+   "models": 4,
+   "tables": 32,
+   "per_model": {
+    "claude-fable-5-1": -0.0156,
+    "claude-haiku-5-5": -0.0063,
+    "claude-opus-5-5": 0.0094,
+    "claude-sonnet-5-5": 0.0187
+   }
+  },
+  "premium|info=1|rung=2|all": {
+   "estimate": -0.0066,
+   "ci95": [
+    -0.0441,
+    0.0235
+   ],
+   "p_two_sided": 0.708,
+   "models": 4,
+   "tables": 34,
+   "per_model": {
+    "claude-fable-5-1": -0.0147,
+    "claude-haiku-5-5": -0.0118,
+    "claude-opus-5-5": -0.0088,
+    "claude-sonnet-5-5": 0.0088
+   }
+  },
+  "premium|info=1|rung=2|dominant": {
+   "estimate": -0.0187,
+   "ci95": [
+    -0.0937,
+    0.0125
+   ],
+   "p_two_sided": 0.926,
+   "models": 4,
+   "tables": 4,
+   "per_model": {
+    "claude-fable-5-1": 0.0,
+    "claude-haiku-5-5": -0.075,
+    "claude-opus-5-5": 0.0,
+    "claude-sonnet-5-5": 0.0
+   }
+  },
+  "premium|info=1|rung=2|without-below-range": {
+   "estimate": -0.0066,
+   "ci95": [
+    -0.0618,
+    0.0382
+   ],
+   "p_two_sided": 0.871,
+   "models": 4,
+   "tables": 19,
+   "per_model": {
+    "claude-fable-5-1": -0.0158,
+    "claude-haiku-5-5": -0.0053,
+    "claude-opus-5-5": -0.0105,
+    "claude-sonnet-5-5": 0.0053
+   }
+  },
+  "premium|info=1|rung=2|without-above-budget": {
+   "estimate": -0.0066,
+   "ci95": [
+    -0.0441,
+    0.0235
+   ],
+   "p_two_sided": 0.708,
+   "models": 4,
+   "tables": 34,
+   "per_model": {
+    "claude-fable-5-1": -0.0147,
+    "claude-haiku-5-5": -0.0118,
+    "claude-opus-5-5": -0.0088,
+    "claude-sonnet-5-5": 0.0088
+   }
+  },
+  "info_change|info=1|rung=pooled|all": {
+   "estimate": -0.1542,
+   "ci95": [
+    -0.3218,
+    -0.0377
+   ],
+   "p_two_sided": 0.001,
+   "models": 4,
+   "tables": 34,
+   "per_model": {
+    "claude-fable-5-1": -0.4,
+    "claude-haiku-5-5": -0.0392,
+    "claude-opus-5-5": -0.0971,
+    "claude-sonnet-5-5": -0.0804
+   }
+  },
+  "info_change|info=1|rung=pooled|dominant": {
+   "estimate": -0.1167,
+   "ci95": [
+    -0.325,
+    0.0
+   ],
+   "p_two_sided": 0.057,
+   "models": 4,
+   "tables": 4,
+   "per_model": {
+    "claude-fable-5-1": -0.375,
+    "claude-haiku-5-5": 0.0167,
+    "claude-opus-5-5": -0.0583,
+    "claude-sonnet-5-5": -0.05
+   }
+  },
+  "info_change|info=1|rung=pooled|without-below-range": {
+   "estimate": -0.1272,
+   "ci95": [
+    -0.2937,
+    -0.0227
+   ],
+   "p_two_sided": 0.002,
+   "models": 4,
+   "tables": 25,
+   "per_model": {
+    "claude-fable-5-1": -0.362,
+    "claude-haiku-5-5": -0.04,
+    "claude-opus-5-5": -0.056,
+    "claude-sonnet-5-5": -0.0507
+   }
+  },
+  "info_change|info=1|rung=pooled|without-above-budget": {
+   "estimate": -0.1542,
+   "ci95": [
+    -0.3218,
+    -0.0377
+   ],
+   "p_two_sided": 0.001,
+   "models": 4,
+   "tables": 34,
+   "per_model": {
+    "claude-fable-5-1": -0.4,
+    "claude-haiku-5-5": -0.0392,
+    "claude-opus-5-5": -0.0971,
+    "claude-sonnet-5-5": -0.0804
+   }
+  },
+  "info_change|info=1|rung=0|all": {
+   "estimate": -0.1213,
+   "ci95": [
+    -0.2971,
+    -0.0088
+   ],
+   "p_two_sided": 0.027,
+   "models": 4,
+   "tables": 34,
+   "per_model": {
+    "claude-fable-5-1": -0.3794,
+    "claude-haiku-5-5": -0.0176,
+    "claude-opus-5-5": -0.0559,
+    "claude-sonnet-5-5": -0.0324
+   }
+  },
+  "info_change|info=1|rung=0|dominant": {
+   "estimate": -0.125,
+   "ci95": [
+    -0.3375,
+    0.0
+   ],
+   "p_two_sided": 0.229,
+   "models": 4,
+   "tables": 4,
+   "per_model": {
+    "claude-fable-5-1": -0.325,
+    "claude-haiku-5-5": -0.05,
+    "claude-opus-5-5": -0.05,
+    "claude-sonnet-5-5": -0.075
+   }
+  },
+  "info_change|info=1|rung=0|without-below-range": {
+   "estimate": -0.109,
+   "ci95": [
+    -0.284,
+    -0.005
+   ],
+   "p_two_sided": 0.028,
+   "models": 4,
+   "tables": 25,
+   "per_model": {
+    "claude-fable-5-1": -0.348,
+    "claude-haiku-5-5": -0.016,
+    "claude-opus-5-5": -0.048,
+    "claude-sonnet-5-5": -0.024
+   }
+  },
+  "info_change|info=1|rung=0|without-above-budget": {
+   "estimate": -0.1289,
+   "ci95": [
+    -0.3156,
+    -0.0094
+   ],
+   "p_two_sided": 0.018,
+   "models": 4,
+   "tables": 32,
+   "per_model": {
+    "claude-fable-5-1": -0.4031,
+    "claude-haiku-5-5": -0.0187,
+    "claude-opus-5-5": -0.0594,
+    "claude-sonnet-5-5": -0.0344
+   }
+  },
+  "info_change|info=1|rung=1|all": {
+   "estimate": -0.1493,
+   "ci95": [
+    -0.3235,
+    -0.0279
+   ],
+   "p_two_sided": 0.005,
+   "models": 4,
+   "tables": 34,
+   "per_model": {
+    "claude-fable-5-1": -0.4088,
+    "claude-haiku-5-5": -0.0294,
+    "claude-opus-5-5": -0.0824,
+    "claude-sonnet-5-5": -0.0765
+   }
+  },
+  "info_change|info=1|rung=1|dominant": {
+   "estimate": -0.0937,
+   "ci95": [
+    -0.3125,
+    0.0375
+   ],
+   "p_two_sided": 0.258,
+   "models": 4,
+   "tables": 4,
+   "per_model": {
+    "claude-fable-5-1": -0.325,
+    "claude-haiku-5-5": 0.025,
+    "claude-opus-5-5": -0.075,
+    "claude-sonnet-5-5": 0.0
+   }
+  },
+  "info_change|info=1|rung=1|without-below-range": {
+   "estimate": -0.1136,
+   "ci95": [
+    -0.2568,
+    -0.0227
+   ],
+   "p_two_sided": 0.002,
+   "models": 4,
+   "tables": 22,
+   "per_model": {
+    "claude-fable-5-1": -0.2818,
+    "claude-haiku-5-5": -0.0636,
+    "claude-opus-5-5": -0.05,
+    "claude-sonnet-5-5": -0.0591
+   }
+  },
+  "info_change|info=1|rung=1|without-above-budget": {
+   "estimate": -0.1586,
+   "ci95": [
+    -0.3484,
+    -0.032
+   ],
+   "p_two_sided": 0.008,
+   "models": 4,
+   "tables": 32,
+   "per_model": {
+    "claude-fable-5-1": -0.4344,
+    "claude-haiku-5-5": -0.0312,
+    "claude-opus-5-5": -0.0875,
+    "claude-sonnet-5-5": -0.0813
+   }
+  },
+  "info_change|info=1|rung=2|all": {
+   "estimate": -0.1919,
+   "ci95": [
+    -0.3544,
+    -0.0632
+   ],
+   "p_two_sided": 0.0,
+   "models": 4,
+   "tables": 34,
+   "per_model": {
+    "claude-fable-5-1": -0.4118,
+    "claude-haiku-5-5": -0.0706,
+    "claude-opus-5-5": -0.1529,
+    "claude-sonnet-5-5": -0.1324
+   }
+  },
+  "info_change|info=1|rung=2|dominant": {
+   "estimate": -0.1313,
+   "ci95": [
+    -0.4312,
+    0.075
+   ],
+   "p_two_sided": 0.261,
+   "models": 4,
+   "tables": 4,
+   "per_model": {
+    "claude-fable-5-1": -0.475,
+    "claude-haiku-5-5": 0.075,
+    "claude-opus-5-5": -0.05,
+    "claude-sonnet-5-5": -0.075
+   }
+  },
+  "info_change|info=1|rung=2|without-below-range": {
+   "estimate": -0.1224,
+   "ci95": [
+    -0.2605,
+    -0.0224
+   ],
+   "p_two_sided": 0.005,
+   "models": 4,
+   "tables": 19,
+   "per_model": {
+    "claude-fable-5-1": -0.2789,
+    "claude-haiku-5-5": -0.0632,
+    "claude-opus-5-5": -0.0474,
+    "claude-sonnet-5-5": -0.1
+   }
+  },
+  "info_change|info=1|rung=2|without-above-budget": {
+   "estimate": -0.1919,
+   "ci95": [
+    -0.3544,
+    -0.0632
+   ],
+   "p_two_sided": 0.0,
+   "models": 4,
+   "tables": 34,
+   "per_model": {
+    "claude-fable-5-1": -0.4118,
+    "claude-haiku-5-5": -0.0706,
+    "claude-opus-5-5": -0.1529,
+    "claude-sonnet-5-5": -0.1324
+   }
+  }
+ },
+ "best_below_stated_range": [
+  "sr_blenders_01 rung 0",
+  "sr_blenders_01 rung 1",
+  "sr_blenders_01 rung 2",
+  "sr_cameras_01 rung 1",
+  "sr_cameras_01 rung 2",
+  "sr_coffee_makers_01 rung 0",
+  "sr_coffee_makers_01 rung 1",
+  "sr_coffee_makers_01 rung 2",
+  "sr_electric_toothbrushes_01 rung 2",
+  "sr_headphones_03 rung 0",
+  "sr_headphones_03 rung 1",
+  "sr_headphones_03 rung 2",
+  "sr_laptops_01 rung 0",
+  "sr_laptops_01 rung 1",
+  "sr_laptops_01 rung 2",
+  "sr_laptops_02 rung 2",
+  "sr_monitors_01 rung 1",
+  "sr_monitors_01 rung 2",
+  "sr_portable_speakers_01 rung 0",
+  "sr_portable_speakers_01 rung 1",
+  "sr_portable_speakers_01 rung 2",
+  "sr_robot_vacuums_01 rung 0",
+  "sr_robot_vacuums_01 rung 1",
+  "sr_robot_vacuums_01 rung 2",
+  "sr_running_shoes_01 rung 2",
+  "sr_smartwatches_01 rung 0",
+  "sr_smartwatches_01 rung 1",
+  "sr_smartwatches_01 rung 2",
+  "sr_tablets_01 rung 1",
+  "sr_tablets_01 rung 2",
+  "sr_tvs_01 rung 0",
+  "sr_tvs_01 rung 1",
+  "sr_tvs_01 rung 2",
+  "sr_tvs_02 rung 0",
+  "sr_tvs_02 rung 1",
+  "sr_tvs_02 rung 2"
+ ],
+ "best_above_stated_budget": [
+  "sr_earbuds_01 rung 0",
+  "sr_earbuds_01 rung 1",
+  "sr_running_shoes_03 rung 0",
+  "sr_running_shoes_03 rung 1"
+ ],
+ "without": {},
+ "bootstrap": {
+  "draws": 2000,
+  "seed": 20261120,
+  "clusters": "tables and models, resampled independently"
+ },
+ "swap_exploratory": {
+  "note": "EXPLORATORY, not in the analysis plan (chosen after the primary results were seen): the same best product under a familiar name against under the invented name, the share that picks it with the crossed names minus the share with the original names. Pooled over the models (two-way cluster bootstrap) and for each model (bootstrap over tables), with no information and with it; Holm over this family alone.",
+  "estimates": {
+   "pooled, no information": {
+    "estimate": 0.0998,
+    "ci95": [
+     0.0108,
+     0.2245
+    ],
+    "ci90": [
+     0.0186,
+     0.1995
+    ],
+    "p_two_sided": 0.012,
+    "p_holm": 0.096
+   },
+   "claude-fable-5-1, no information": {
+    "estimate": 0.2804,
+    "ci95": [
+     0.1951,
+     0.3775
+    ],
+    "ci90": [
+     0.2059,
+     0.3598
+    ],
+    "p_two_sided": 0.0,
+    "p_holm": 0.0
+   },
+   "claude-haiku-5-5, no information": {
+    "estimate": 0.0186,
+    "ci95": [
+     -0.0108,
+     0.0529
+    ],
+    "ci90": [
+     -0.0078,
+     0.0471
+    ],
+    "p_two_sided": 0.259,
+    "p_holm": 1.0
+   },
+   "claude-opus-5-5, no information": {
+    "estimate": 0.0569,
+    "ci95": [
+     0.0069,
+     0.1088
+    ],
+    "ci90": [
+     0.0157,
+     0.1
+    ],
+    "p_two_sided": 0.018,
+    "p_holm": 0.126
+   },
+   "claude-sonnet-5-5, no information": {
+    "estimate": 0.0431,
+    "ci95": [
+     -0.0059,
+     0.0941
+    ],
+    "ci90": [
+     0.001,
+     0.0873
+    ],
+    "p_two_sided": 0.093,
+    "p_holm": 0.528
+   },
+   "pooled, information supplied": {
+    "estimate": 0.0027,
+    "ci95": [
+     -0.0135,
+     0.0206
+    ],
+    "ci90": [
+     -0.0103,
+     0.0169
+    ],
+    "p_two_sided": 0.753,
+    "p_holm": 1.0
+   },
+   "claude-fable-5-1, information supplied": {
+    "estimate": -0.0147,
+    "ci95": [
+     -0.0284,
+     -0.0029
+    ],
+    "ci90": [
+     -0.0265,
+     -0.0039
+    ],
+    "p_two_sided": 0.01,
+    "p_holm": 0.09
+   },
+   "claude-haiku-5-5, information supplied": {
+    "estimate": 0.0127,
+    "ci95": [
+     -0.0098,
+     0.0343
+    ],
+    "ci90": [
+     -0.0059,
+     0.0314
+    ],
+    "p_two_sided": 0.251,
+    "p_holm": 1.0
+   },
+   "claude-opus-5-5, information supplied": {
+    "estimate": -0.002,
+    "ci95": [
+     -0.0069,
+     0.002
+    ],
+    "ci90": [
+     -0.0059,
+     0.002
+    ],
+    "p_two_sided": 0.546,
+    "p_holm": 1.0
+   },
+   "claude-sonnet-5-5, information supplied": {
+    "estimate": 0.0147,
+    "ci95": [
+     -0.001,
+     0.0333
+    ],
+    "ci90": [
+     0.001,
+     0.0294
+    ],
+    "p_two_sided": 0.088,
+    "p_holm": 0.528
+   }
+  }
+ },
+ "primary": {
+  "gap_none": {
+   "estimate": 0.165,
+   "ci95": [
+    0.0485,
+    0.324
+   ],
+   "ci90": [
+    0.0593,
+    0.2973
+   ],
+   "p_two_sided": 0.0
+  },
+  "gap_supplied": {
+   "estimate": 0.0108,
+   "ci95": [
+    -0.0078,
+    0.036
+   ],
+   "ci90": [
+    -0.0049,
+    0.0304
+   ],
+   "p_two_sided": 0.294
+  },
+  "change": {
+   "estimate": -0.1542,
+   "ci95": [
+    -0.3218,
+    -0.0377
+   ],
+   "ci90": [
+    -0.2877,
+    -0.0471
+   ],
+   "p_two_sided": 0.001
+  },
+  "outcome": "the gap narrows",
+  "equivalence_margin": 0.02,
+  "secondary": {
+   "gap at 30 per cent below minus gap at equal price, no information": {
+    "estimate": 0.0625,
+    "ci95": [
+     0.0022,
+     0.1213
+    ],
+    "ci90": [
+     0.011,
+     0.111
+    ],
+    "p_two_sided": 0.043,
+    "p_holm": 0.129
+   },
+   "premium for a familiar name, information none": {
+    "estimate": -0.0652,
+    "ci95": [
+     -0.1257,
+     -0.0191
+    ],
+    "ci90": [
+     -0.1142,
+     -0.025
+    ],
+    "p_two_sided": 0.0,
+    "p_holm": 0.0
+   },
+   "premium for a familiar name, information supplied": {
+    "estimate": -0.0081,
+    "ci95": [
+     -0.04,
+     0.0147
+    ],
+    "ci90": [
+     -0.0331,
+     0.011
+    ],
+    "p_two_sided": 0.582,
+    "p_holm": 0.582
+   },
+   "claude-fable-5-1: gap with no information": {
+    "estimate": 0.402,
+    "ci95": [
+     0.2912,
+     0.5147
+    ],
+    "ci90": [
+     0.3069,
+     0.4961
+    ],
+    "p_two_sided": 0.0,
+    "p_holm": 0.0
+   },
+   "claude-fable-5-1: change when supplied": {
+    "estimate": -0.4,
+    "ci95": [
+     -0.5137,
+     -0.2902
+    ],
+    "ci90": [
+     -0.4961,
+     -0.3088
+    ],
+    "p_two_sided": 0.0,
+    "p_holm": 0.0
+   },
+   "claude-haiku-5-5: gap with no information": {
+    "estimate": 0.0706,
+    "ci95": [
+     0.0196,
+     0.1294
+    ],
+    "ci90": [
+     0.0275,
+     0.1186
+    ],
+    "p_two_sided": 0.001,
+    "p_holm": 0.004
+   },
+   "claude-haiku-5-5: change when supplied": {
+    "estimate": -0.0392,
+    "ci95": [
+     -0.0843,
+     -0.001
+    ],
+    "ci90": [
+     -0.0755,
+     -0.0059
+    ],
+    "p_two_sided": 0.047,
+    "p_holm": 0.129
+   },
+   "claude-opus-5-5: gap with no information": {
+    "estimate": 0.0971,
+    "ci95": [
+     0.0471,
+     0.149
+    ],
+    "ci90": [
+     0.0529,
+     0.1422
+    ],
+    "p_two_sided": 0.0,
+    "p_holm": 0.0
+   },
+   "claude-opus-5-5: change when supplied": {
+    "estimate": -0.0971,
+    "ci95": [
+     -0.15,
+     -0.0461
+    ],
+    "ci90": [
+     -0.1431,
+     -0.052
+    ],
+    "p_two_sided": 0.0,
+    "p_holm": 0.0
+   },
+   "claude-sonnet-5-5: gap with no information": {
+    "estimate": 0.0902,
+    "ci95": [
+     0.0363,
+     0.1539
+    ],
+    "ci90": [
+     0.0451,
+     0.1402
+    ],
+    "p_two_sided": 0.0,
+    "p_holm": 0.0
+   },
+   "claude-sonnet-5-5: change when supplied": {
+    "estimate": -0.0804,
+    "ci95": [
+     -0.1373,
+     -0.0324
+    ],
+    "ci90": [
+     -0.1275,
+     -0.0392
+    ],
+    "p_two_sided": 0.0,
+    "p_holm": 0.0
+   }
+  }
+ }
+}

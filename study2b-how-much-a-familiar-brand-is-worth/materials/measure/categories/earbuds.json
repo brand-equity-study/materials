@@ -1,0 +1,62 @@
+{
+ "category": "earbuds",
+ "noun": "wireless earbuds",
+ "requests": [
+  "wireless earbuds for commuting and workouts",
+  "wireless earbuds for phone calls and the daily commute"
+ ],
+ "request_pilot_band": "wireless earbuds for commuting and workouts, budget $50-150",
+ "pilot_band": [
+  50,
+  150
+ ],
+ "request_market_budget": "wireless earbuds for commuting and workouts, budget up to $370",
+ "attributes": [
+  {
+   "name": "battery life per charge",
+   "levels": [
+    "5 hours",
+    "8 hours",
+    "10 hours"
+   ],
+   "source": "Walmart product pages near both ends of the market range; e.g. 5 hours: https://www.walmart.com/ip/Wireless-Earbuds-Bluetooth-Headphones-5-4-HiFi-Stereo-Wireless-Earphones-ENC-Noise-Cancelling-Mic-IP7-Waterproof-Ear-Wireless-Headphones-LED-Digital/17118518595; 8 hours: https://www.walmart.com/ip/Bluetooth-Headphones-True-Wireless-Earbuds-60H-Playback-LED-Power-Display-Earphones-Wireless-Charging-Case-IPX5-Waterproof-in-Ear-Ear-buds-Mic-TV-Sma/19670165055; 10 hours: https://www.walmart.com/ip/SHOKZ-OpenDots-ONE-Open-Ear-Headphones-Wireless-Bluetooth-Earbuds-Microphone-Secure-Lightweight-Clip-On-Fit-Premium-Dolby-Audio-Water-Resistant/17008606677"
+  },
+  {
+   "name": "water resistance",
+   "levels": [
+    "IPX4",
+    "IPX5",
+    "IPX7"
+   ],
+   "source": "Walmart product pages near both ends of the market range; e.g. IPX4: https://www.walmart.com/ip/Aezusy-Wireless-Earbuds-Bluetooth-5-3-Headphones-40H-Long-Playtime-LED-Display-HiFi-Stereo-Sound-ENC-Noise-Cancelling-Microphone-Touch-Control-IPX4-W/7666659557; IPX5: https://www.walmart.com/ip/Bluetooth-Headphones-True-Wireless-Earbuds-60H-Playback-LED-Power-Display-Earphones-Wireless-Charging-Case-IPX5-Waterproof-in-Ear-Ear-buds-Mic-TV-Sma/19670165055; IPX7: https://www.walmart.com/ip/Wireless-Earbuds-Bluetooth-V5-3-Headphones-48H-Playback-Deep-Bass-Stereo-Ear-Buds-LED-Power-Display-Charging-Case-IPX7-Waterproof-Earphones-Mic-Heads/14921656527"
+  },
+  {
+   "name": "noise reduction",
+   "levels": [
+    "passive",
+    "active",
+    "adaptive"
+   ],
+   "source": "Walmart product pages near both ends of the market range; e.g. passive noise cancellation: https://www.walmart.com/ip/Aezusy-Wireless-Earbuds-Bluetooth-5-3-Headphones-40H-Long-Playtime-LED-Display-HiFi-Stereo-Sound-ENC-Noise-Cancelling-Microphone-Touch-Control-IPX4-W/7666659557; active noise cancellation: https://www.walmart.com/ip/Wireless-Earbuds-Bluetooth-Headphones-5-4-HiFi-Stereo-Wireless-Earphones-ENC-Noise-Cancelling-Mic-IP7-Waterproof-Ear-Wireless-Headphones-LED-Digital/17118518595; adaptive noise cancellation: https://www.walmart.com/ip/BlitzRock-Open-Ear-Wireless-Earbuds-APP-Support-Deep-Bass-Bluetooth-V5-4-Headphone-IPX5-Waterproof-Sport-Earphone/5867605437",
+   "note": "as read: noise reduction (listed type): passive noise cancellation / active noise cancellation / adaptive noise cancellation"
+  }
+ ],
+ "familiar": [
+  "Apple",
+  "Samsung",
+  "Sony",
+  "JBL",
+  "Beats",
+  "Jabra"
+ ],
+ "invented": [
+  [
+   "Vynex",
+   "corpus"
+  ],
+  [
+   "Quenvar",
+   "new"
+  ]
+ ]
+}

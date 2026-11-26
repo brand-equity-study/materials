@@ -1,0 +1,150 @@
+{
+ "study": "study1b",
+ "label": "Study 1b, the brand gap (names shown minus hidden, share not picking the optimal product)",
+ "units": "points",
+ "direction": 1,
+ "input": {
+  "file": "study1b-64-models-on-34-tables/results/pooled/per_model.csv",
+  "sha256": "53a859bd9a4cbf541e3697479e184b8acd59d1fbff045bfbcee86139782334e6",
+  "model_col": "model",
+  "est_col": "gap_pp",
+  "se": "(ci95_high_pp - ci95_low_pp) / 3.92",
+  "filter": [],
+  "scale": 1.0
+ },
+ "plan": "how-the-models-differed/materials/analysis_plan.md",
+ "result": {
+  "models": 68,
+  "predicted_direction": 1,
+  "share_in_predicted_direction": 0.9853,
+  "models_in_predicted_direction": 67,
+  "models_above_zero": 67,
+  "models_below_zero": 1,
+  "share_interval_excludes_zero": 0.8088,
+  "models_interval_excludes_zero": 55,
+  "random_effects": {
+   "estimate": 9.0031,
+   "ci95": [
+    7.3213,
+    10.685
+   ],
+   "p_two_sided": 9.396016210720935e-26,
+   "tau": 6.4758,
+   "tau2": 41.9361,
+   "i2": 0.8846,
+   "q": 393.152,
+   "df": 67,
+   "q_p_value": 1.169621304502308e-47,
+   "prediction_interval_95": [
+    -4.0393,
+    22.0455
+   ],
+   "tau_estimator": "REML",
+   "checks": {
+    "tau_dersimonian_laird": 5.1616,
+    "tau_paule_mandel": 7.3371
+   }
+  },
+  "models_without_characteristics": [],
+  "moderators": {
+   "chat-tuned against base": {
+    "estimable": false,
+    "reason": "one value"
+   },
+   "size (log10 total parameters)": {
+    "estimable": true,
+    "models": 36,
+    "coefficient": 0.0639,
+    "ci95": [
+     -2.2002,
+     2.3281
+    ],
+    "p_two_sided": 0.9558626104110604,
+    "residual_tau": 3.6267,
+    "holm": 1.0
+   },
+   "release date (years)": {
+    "estimable": true,
+    "models": 68,
+    "coefficient": 3.9195,
+    "ci95": [
+     1.4542,
+     6.3848
+    ],
+    "p_two_sided": 0.0018325249031539543,
+    "residual_tau": 6.0542,
+    "holm": 0.009162624515769772
+   },
+   "open against closed weights": {
+    "estimable": true,
+    "models": 68,
+    "coefficient": -1.4564,
+    "ci95": [
+     -4.8753,
+     1.9625
+    ],
+    "p_two_sided": 0.4037509119491369,
+    "residual_tau": 6.5742,
+    "holm": 1.0
+   },
+   "reasoning on against off": {
+    "estimable": true,
+    "models": 45,
+    "coefficient": 0.3626,
+    "ci95": [
+     -6.7483,
+     7.4734
+    ],
+    "p_two_sided": 0.9203949668044181,
+    "residual_tau": 7.1417,
+    "holm": 1.0
+   },
+   "developer": {
+    "estimable": true,
+    "models": 68,
+    "developers": 15,
+    "wald_chi2": 12.652,
+    "df": 14,
+    "p_two_sided": 0.5541040076443025,
+    "residual_tau": 6.9836,
+    "models_by_developer": {
+     "Alibaba": 14,
+     "Allen AI": 2,
+     "Anthropic": 11,
+     "Baidu": 1,
+     "DeepSeek": 2,
+     "Google": 12,
+     "IBM": 2,
+     "Marin": 1,
+     "Meta": 3,
+     "Microsoft": 1,
+     "Mistral": 1,
+     "Moonshot": 1,
+     "NVIDIA": 1,
+     "OpenAI": 15,
+     "Zhipu": 1
+    },
+    "holm": 1.0
+   }
+  },
+  "models_left_out_interval_of_zero_width": [],
+  "models_left_out_not_estimable": []
+ },
+ "args": {
+  "study": "study1b",
+  "label": "Study 1b, the brand gap (names shown minus hidden, share not picking the optimal product)",
+  "input": "study1b-64-models-on-34-tables/results/pooled/per_model.csv",
+  "model_col": "model",
+  "est_col": "gap_pp",
+  "se_col": null,
+  "low_col": "ci95_low_pp",
+  "high_col": "ci95_high_pp",
+  "direction": 1,
+  "units": "points",
+  "filter": null,
+  "scale": 1.0,
+  "reliability_col": null,
+  "reliability_min": 0.5,
+  "reason_col": null
+ }
+}

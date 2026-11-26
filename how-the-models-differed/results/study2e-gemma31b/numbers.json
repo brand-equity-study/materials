@@ -1,0 +1,145 @@
+{
+ "study": "study2e-gemma31b",
+ "label": "Study 2e, the share of a model's explanations that mention a brand (judge: Gemma 4 31B)",
+ "units": "per cent of the model's explanations",
+ "direction": 0,
+ "input": {
+  "file": "study2a-experience-attributes-stated-for-every-product/results/explanations/per-model.csv",
+  "sha256": "7d0e4b36a40d644614315ac7b848077c9614d6c5255a319523605eae76d3461b",
+  "model_col": "model",
+  "est_col": "estimate",
+  "se": "(hi95 - lo95) / 3.92",
+  "filter": [
+   "judge=gemma31b",
+   "test=b7-brand-share"
+  ],
+  "scale": 100.0
+ },
+ "plan": "how-the-models-differed/materials/analysis_plan.md",
+ "result": {
+  "models": 35,
+  "predicted_direction": "none (two-sided)",
+  "share_in_predicted_direction": null,
+  "models_in_predicted_direction": null,
+  "models_above_zero": 35,
+  "models_below_zero": 0,
+  "share_interval_excludes_zero": 0.9714,
+  "models_interval_excludes_zero": 34,
+  "random_effects": {
+   "estimate": 28.5958,
+   "ci95": [
+    21.1986,
+    35.9929
+   ],
+   "p_two_sided": 3.5389946107639696e-14,
+   "tau": 21.7322,
+   "tau2": 472.2883,
+   "i2": 0.9928,
+   "q": 4128.409,
+   "df": 34,
+   "q_p_value": 0.0,
+   "prediction_interval_95": [
+    -16.2805,
+    73.472
+   ],
+   "tau_estimator": "REML",
+   "checks": {
+    "tau_dersimonian_laird": 20.2715,
+    "tau_paule_mandel": 21.535
+   }
+  },
+  "models_without_characteristics": [],
+  "moderators": {
+   "chat-tuned against base": {
+    "estimable": false,
+    "reason": "one value"
+   },
+   "size (log10 total parameters)": {
+    "estimable": true,
+    "models": 26,
+    "coefficient": 15.5834,
+    "ci95": [
+     4.0648,
+     27.1021
+    ],
+    "p_two_sided": 0.008009499842258258,
+    "residual_tau": 12.8638,
+    "holm": 0.02402849952677477
+   },
+   "release date (years)": {
+    "estimable": true,
+    "models": 35,
+    "coefficient": 4.3964,
+    "ci95": [
+     -6.3914,
+     15.1842
+    ],
+    "p_two_sided": 0.42442926870371767,
+    "residual_tau": 21.8603,
+    "holm": 0.42442926870371767
+   },
+   "open against closed weights": {
+    "estimable": true,
+    "models": 35,
+    "coefficient": -11.7308,
+    "ci95": [
+     -28.6047,
+     5.143
+    ],
+    "p_two_sided": 0.17300566215497204,
+    "residual_tau": 21.4416,
+    "holm": 0.3460113243099441
+   },
+   "reasoning on against off": {
+    "estimable": false,
+    "reason": "one value"
+   },
+   "developer": {
+    "estimable": true,
+    "models": 35,
+    "developers": 12,
+    "wald_chi2": 28.212,
+    "df": 11,
+    "p_two_sided": 0.0030033480261107887,
+    "residual_tau": 17.4107,
+    "models_by_developer": {
+     "Alibaba": 9,
+     "Allen AI": 2,
+     "Anthropic": 5,
+     "Baidu": 1,
+     "Google": 4,
+     "IBM": 2,
+     "Marin": 1,
+     "Meta": 2,
+     "Microsoft": 1,
+     "Mistral": 1,
+     "OpenAI": 6,
+     "Zhipu": 1
+    },
+    "holm": 0.012013392104443155
+   }
+  },
+  "models_left_out_interval_of_zero_width": [],
+  "models_left_out_not_estimable": []
+ },
+ "args": {
+  "study": "study2e-gemma31b",
+  "label": "Study 2e, the share of a model's explanations that mention a brand (judge: Gemma 4 31B)",
+  "input": "study2a-experience-attributes-stated-for-every-product/results/explanations/per-model.csv",
+  "model_col": "model",
+  "est_col": "estimate",
+  "se_col": null,
+  "low_col": "lo95",
+  "high_col": "hi95",
+  "direction": 0,
+  "units": "per cent of the model's explanations",
+  "filter": [
+   "judge=gemma31b",
+   "test=b7-brand-share"
+  ],
+  "scale": 100.0,
+  "reliability_col": null,
+  "reliability_min": 0.5,
+  "reason_col": "not_estimable"
+ }
+}

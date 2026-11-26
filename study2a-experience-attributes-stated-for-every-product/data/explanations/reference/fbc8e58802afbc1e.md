@@ -1,0 +1,1 @@
+{"reason": "listed", "brand_any": "no", "quote": "Priced at $34.99, it falls well within the $50-200 budget and boasts high customer satisfaction (4.3 stars from 500 reviews) and a low return rate (2%)."}

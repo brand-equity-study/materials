@@ -1,0 +1,26 @@
+{
+ "written_by": "fig_settings.py --extract, from the files named below",
+ "search": {
+  "model": "claude-sonnet-5-5",
+  "item": "68481c0c3f67fe22",
+  "file": "study1c-product-feeds-and-a-store-search/materials/search/s1/stage2/claude-sonnet-5-5.jsonl.gz",
+  "queries": [
+   "laptop for everyday work and browsing $600-$800",
+   "14 inch or 15 inch laptop Intel Core i5 or AMD Ryzen 5 16GB RAM 512GB SSD",
+   "reliable business or productivity laptop long battery life"
+  ],
+  "returned": [
+   "E",
+   "B",
+   "D",
+   "A"
+  ]
+ },
+ "clarify": {
+  "model": "qwen7b",
+  "item": "4e9476d735427fb4",
+  "file": "study1b-64-models-on-34-tables/data/open-models/clarifying/qwen7b/original-info0-rung0.jsonl.gz",
+  "question": "QUESTION: Do you prioritize battery life over having more RAM?",
+  "final_answer_first_line": "E"
+ }
+}

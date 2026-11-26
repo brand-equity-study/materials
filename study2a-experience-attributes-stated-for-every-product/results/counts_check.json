@@ -1,0 +1,75 @@
+{
+ "counts": [
+  "study2a-experience-attributes-stated-for-every-product/data/counts/counts-git.csv",
+  "study2a-experience-attributes-stated-for-every-product/data/counts/counts-git-attr1.csv"
+ ],
+ "by_build_and_model": {
+  "dom2": {
+   "claude-fable-5-1": "equal",
+   "claude-fable-5-2": "equal",
+   "claude-haiku-5-5": "equal",
+   "claude-opus-5-5": "equal",
+   "claude-sonnet-5-5": "equal",
+   "ernie45-21b": "equal",
+   "gemma3-27b": "equal",
+   "gemma31b": "equal",
+   "gemma4-12b": "equal",
+   "gemma4-26b": "equal",
+   "glm47-flash": "equal",
+   "gpt-6-astra": "equal",
+   "gpt-6.1-sol": "equal",
+   "gpt-6.2-astra": "equal",
+   "gpt-6.2-sol": "equal",
+   "gptoss120b": "equal",
+   "gptoss20b": "equal",
+   "granite41-30b": "equal",
+   "granite42-30b": "equal",
+   "kimi-linear48b": "equal",
+   "llama3b": "equal",
+   "llama8b": "equal",
+   "marin8b": "equal",
+   "ministral3-14b": "equal",
+   "nemotron3-nano30b": "equal",
+   "olmo3-7b": "equal",
+   "olmo31-32b": "equal",
+   "phi4": "equal",
+   "qwen3-30b": "equal",
+   "qwen3-32b": "equal",
+   "qwen32b": "equal",
+   "qwen35-0.8b": "equal",
+   "qwen35-122b-fp8": "not in this package: a run still going when the counts were taken (3600 answers counted)",
+   "qwen35-27b": "equal",
+   "qwen35-2b": "equal",
+   "qwen35-35b": "equal",
+   "qwen35-4b": "equal",
+   "qwen35-9b": "equal",
+   "qwen36-27b": "equal",
+   "qwen38-27b": "equal",
+   "qwen7b": "equal"
+  },
+  "eq1": {
+   "claude-fable-5-1": "equal",
+   "claude-haiku-5-5": "equal",
+   "claude-opus-5-5": "equal",
+   "claude-sonnet-5-5": "equal"
+  },
+  "split1": {
+   "claude-fable-5-1": "equal",
+   "claude-haiku-5-5": "equal",
+   "claude-opus-5-5": "equal",
+   "claude-sonnet-5-5": "equal",
+   "gpt-6-astra": "equal",
+   "gpt-6.1-sol": "equal",
+   "gpt-6.2-astra": "equal",
+   "gpt-6.2-sol": "equal"
+  },
+  "attr1": {
+   "claude-haiku-5-5": "equal",
+   "claude-opus-5-5": "equal",
+   "claude-sonnet-5-5": "equal",
+   "gpt-6.1-sol": "equal",
+   "gpt-6.2-sol": "equal"
+  }
+ },
+ "all_equal": true
+}

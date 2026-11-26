@@ -1,0 +1,5538 @@
+{
+ "definition": "equity = 100 x (share of answers picking the brand's product with names shown minus with names hidden), the brand's tables pooled; pooled over models with equal weight per model",
+ "sources": {
+  "corpus": "30 models, 20 trials per table and condition",
+  "claude": "the rerun on four Claude models",
+  "open": [
+   "study1a-tables-with-one-optimal-product/data/open-models/rerun/"
+  ]
+ },
+ "brands": 73,
+ "corpus_input": {
+  "files": 60,
+  "rows_used": 40813
+ },
+ "pooled_claude": {
+  "ASICS": {
+   "equity": 13.12,
+   "ci95": [
+    0.62,
+    33.12
+   ],
+   "p_two_sided": 0.027,
+   "models": 4,
+   "share_shown_pct": 14.37,
+   "share_hidden_pct": 1.25,
+   "models_above_zero": 3,
+   "answers": 320
+  },
+  "ASUS": {
+   "equity": 15.0,
+   "ci95": [
+    -0.62,
+    31.56
+   ],
+   "p_two_sided": 0.1214,
+   "models": 4,
+   "share_shown_pct": 15.62,
+   "share_hidden_pct": 0.62,
+   "models_above_zero": 2,
+   "answers": 640
+  },
+  "Acer": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 320
+  },
+  "Adidas": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 320
+  },
+  "AeroPress": {
+   "equity": 22.5,
+   "ci95": [
+    1.25,
+    55.0
+   ],
+   "p_two_sided": 0.0392,
+   "models": 4,
+   "share_shown_pct": 98.75,
+   "share_hidden_pct": 76.25,
+   "models_above_zero": 3,
+   "answers": 160
+  },
+  "Amazon": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Apple": {
+   "equity": 0.47,
+   "ci95": [
+    -0.16,
+    1.41
+   ],
+   "p_two_sided": 0.3766,
+   "models": 4,
+   "share_shown_pct": 0.62,
+   "share_hidden_pct": 0.16,
+   "models_above_zero": 2,
+   "answers": 1280
+  },
+  "Audio-Technica": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Beats": {
+   "equity": 13.12,
+   "ci95": [
+    0.62,
+    30.62
+   ],
+   "p_two_sided": 0.027,
+   "models": 4,
+   "share_shown_pct": 16.88,
+   "share_hidden_pct": 3.75,
+   "models_above_zero": 3,
+   "answers": 320
+  },
+  "Beyerdynamic": {
+   "equity": -5.0,
+   "ci95": [
+    -30.0,
+    15.0
+   ],
+   "p_two_sided": 0.8182,
+   "models": 4,
+   "share_shown_pct": 87.5,
+   "share_hidden_pct": 92.5,
+   "models_above_zero": 1,
+   "answers": 160
+  },
+  "Bose": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 640
+  },
+  "Breville": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 320
+  },
+  "Brooks": {
+   "equity": 31.25,
+   "ci95": [
+    5.0,
+    58.75
+   ],
+   "p_two_sided": 0.0118,
+   "models": 4,
+   "share_shown_pct": 31.25,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 3,
+   "answers": 160
+  },
+  "CamelBak": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Canon": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Corsair": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Cuisinart": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "De'Longhi": {
+   "equity": -2.5,
+   "ci95": [
+    -10.0,
+    1.25
+   ],
+   "p_two_sided": 0.8386,
+   "models": 4,
+   "share_shown_pct": 96.25,
+   "share_hidden_pct": 98.75,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Dell": {
+   "equity": 17.92,
+   "ci95": [
+    1.25,
+    35.83
+   ],
+   "p_two_sided": 0.0232,
+   "models": 4,
+   "share_shown_pct": 26.25,
+   "share_hidden_pct": 8.33,
+   "models_above_zero": 3,
+   "answers": 480
+  },
+  "Dyson": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Fitbit": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Fujifilm": {
+   "equity": 32.5,
+   "ci95": [
+    0.0,
+    67.5
+   ],
+   "p_two_sided": 0.116,
+   "models": 4,
+   "share_shown_pct": 36.25,
+   "share_hidden_pct": 3.75,
+   "models_above_zero": 2,
+   "answers": 160
+  },
+  "Garmin": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Google": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 800
+  },
+  "HOKA": {
+   "equity": 5.0,
+   "ci95": [
+    0.0,
+    13.75
+   ],
+   "p_two_sided": 0.253,
+   "models": 4,
+   "share_shown_pct": 5.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 2,
+   "answers": 160
+  },
+  "HP": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 480
+  },
+  "Hamilton Beach": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Herschel": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Hydro Flask": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "HyperX": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Insignia": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "JBL": {
+   "equity": 15.0,
+   "ci95": [
+    2.0,
+    32.75
+   ],
+   "p_two_sided": 0.0032,
+   "models": 4,
+   "share_shown_pct": 15.75,
+   "share_hidden_pct": 0.75,
+   "models_above_zero": 4,
+   "answers": 800
+  },
+  "Jabra": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "JanSport": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Keurig": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 320
+  },
+  "KitchenAid": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "LG": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 640
+  },
+  "Lenovo": {
+   "equity": 11.67,
+   "ci95": [
+    1.67,
+    22.92
+   ],
+   "p_two_sided": 0.0242,
+   "models": 4,
+   "share_shown_pct": 19.58,
+   "share_hidden_pct": 7.92,
+   "models_above_zero": 3,
+   "answers": 480
+  },
+  "Linksys": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Logitech": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Motorola": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 320
+  },
+  "Mr. Coffee": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Nespresso": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 320
+  },
+  "Netgear": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "New Balance": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Nike": {
+   "equity": -0.0,
+   "ci95": [
+    -5.83,
+    7.08
+   ],
+   "p_two_sided": 0.9638,
+   "models": 4,
+   "share_shown_pct": 6.25,
+   "share_hidden_pct": 6.25,
+   "models_above_zero": 1,
+   "answers": 480
+  },
+  "Nikon": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Ninja": {
+   "equity": 31.25,
+   "ci95": [
+    2.5,
+    73.75
+   ],
+   "p_two_sided": 0.0126,
+   "models": 4,
+   "share_shown_pct": 31.25,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 3,
+   "answers": 160
+  },
+  "OnePlus": {
+   "equity": 23.75,
+   "ci95": [
+    1.25,
+    51.25
+   ],
+   "p_two_sided": 0.0278,
+   "models": 4,
+   "share_shown_pct": 27.5,
+   "share_hidden_pct": 3.75,
+   "models_above_zero": 3,
+   "answers": 160
+  },
+  "Oral-B": {
+   "equity": 15.0,
+   "ci95": [
+    0.0,
+    40.0
+   ],
+   "p_two_sided": 0.1624,
+   "models": 4,
+   "share_shown_pct": 15.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 2,
+   "answers": 160
+  },
+  "Osprey": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Philips": {
+   "equity": 11.25,
+   "ci95": [
+    0.0,
+    24.38
+   ],
+   "p_two_sided": 0.124,
+   "models": 4,
+   "share_shown_pct": 11.25,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 2,
+   "answers": 320
+  },
+  "Quip": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Razer": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "S'well": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Salomon": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Samsung": {
+   "equity": 8.12,
+   "ci95": [
+    0.62,
+    16.77
+   ],
+   "p_two_sided": 0.0098,
+   "models": 4,
+   "share_shown_pct": 8.33,
+   "share_hidden_pct": 0.21,
+   "models_above_zero": 3,
+   "answers": 1920
+  },
+  "SanDisk": {
+   "equity": 10.0,
+   "ci95": [
+    0.0,
+    30.0
+   ],
+   "p_two_sided": 0.611,
+   "models": 4,
+   "share_shown_pct": 10.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 1,
+   "answers": 160
+  },
+  "Saucony": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Seagate": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Sennheiser": {
+   "equity": 6.25,
+   "ci95": [
+    0.0,
+    20.0
+   ],
+   "p_two_sided": 0.6072,
+   "models": 4,
+   "share_shown_pct": 6.25,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 1,
+   "answers": 160
+  },
+  "Shark": {
+   "equity": 3.75,
+   "ci95": [
+    0.0,
+    10.0
+   ],
+   "p_two_sided": 0.2924,
+   "models": 4,
+   "share_shown_pct": 3.75,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 2,
+   "answers": 160
+  },
+  "Shokz": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Sony": {
+   "equity": -2.22,
+   "ci95": [
+    -5.83,
+    0.97
+   ],
+   "p_two_sided": 0.2152,
+   "models": 4,
+   "share_shown_pct": 3.06,
+   "share_hidden_pct": 5.28,
+   "models_above_zero": 1,
+   "answers": 1440
+  },
+  "Stanley": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "The North Face": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Ultimate Ears": {
+   "equity": 11.25,
+   "ci95": [
+    -8.75,
+    37.5
+   ],
+   "p_two_sided": 0.5066,
+   "models": 4,
+   "share_shown_pct": 22.5,
+   "share_hidden_pct": 11.25,
+   "models_above_zero": 1,
+   "answers": 160
+  },
+  "Vitamix": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Vizio": {
+   "equity": 1.25,
+   "ci95": [
+    0.0,
+    4.38
+   ],
+   "p_two_sided": 0.7484,
+   "models": 4,
+   "share_shown_pct": 1.25,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 1,
+   "answers": 320
+  },
+  "Western Digital": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Yeti": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "eufy": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "iRobot": {
+   "equity": 13.75,
+   "ci95": [
+    0.0,
+    42.5
+   ],
+   "p_two_sided": 0.628,
+   "models": 4,
+   "share_shown_pct": 13.75,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 1,
+   "answers": 160
+  }
+ },
+ "pooled_claude_clean": {
+  "ASICS": {
+   "equity": 14.38,
+   "ci95": [
+    0.62,
+    36.88
+   ],
+   "p_two_sided": 0.027,
+   "models": 4,
+   "share_shown_pct": 14.37,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 3,
+   "answers": 320
+  },
+  "ASUS": {
+   "equity": 14.69,
+   "ci95": [
+    -1.25,
+    31.56
+   ],
+   "p_two_sided": 0.1254,
+   "models": 4,
+   "share_shown_pct": 15.62,
+   "share_hidden_pct": 0.94,
+   "models_above_zero": 2,
+   "answers": 640
+  },
+  "Acer": {
+   "equity": -0.62,
+   "ci95": [
+    -2.5,
+    0.0
+   ],
+   "p_two_sided": 0.9998,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.62,
+   "models_above_zero": 0,
+   "answers": 320
+  },
+  "Adidas": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 320
+  },
+  "AeroPress": {
+   "equity": 21.25,
+   "ci95": [
+    0.0,
+    51.25
+   ],
+   "p_two_sided": 0.1354,
+   "models": 4,
+   "share_shown_pct": 98.75,
+   "share_hidden_pct": 77.5,
+   "models_above_zero": 2,
+   "answers": 160
+  },
+  "Amazon": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Apple": {
+   "equity": 0.62,
+   "ci95": [
+    0.0,
+    1.56
+   ],
+   "p_two_sided": 0.2088,
+   "models": 4,
+   "share_shown_pct": 0.62,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 2,
+   "answers": 1280
+  },
+  "Audio-Technica": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Beats": {
+   "equity": 16.88,
+   "ci95": [
+    0.62,
+    39.38
+   ],
+   "p_two_sided": 0.024,
+   "models": 4,
+   "share_shown_pct": 16.88,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 3,
+   "answers": 320
+  },
+  "Beyerdynamic": {
+   "equity": 13.75,
+   "ci95": [
+    -20.0,
+    52.5
+   ],
+   "p_two_sided": 0.4834,
+   "models": 4,
+   "share_shown_pct": 87.5,
+   "share_hidden_pct": 73.75,
+   "models_above_zero": 2,
+   "answers": 160
+  },
+  "Bose": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 640
+  },
+  "Breville": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 320
+  },
+  "Brooks": {
+   "equity": 31.25,
+   "ci95": [
+    5.0,
+    60.0
+   ],
+   "p_two_sided": 0.0126,
+   "models": 4,
+   "share_shown_pct": 31.25,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 3,
+   "answers": 160
+  },
+  "CamelBak": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Canon": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Corsair": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Cuisinart": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "De'Longhi": {
+   "equity": -2.5,
+   "ci95": [
+    -10.0,
+    1.25
+   ],
+   "p_two_sided": 0.8294,
+   "models": 4,
+   "share_shown_pct": 96.25,
+   "share_hidden_pct": 98.75,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Dell": {
+   "equity": 19.17,
+   "ci95": [
+    2.92,
+    36.25
+   ],
+   "p_two_sided": 0.0082,
+   "models": 4,
+   "share_shown_pct": 26.25,
+   "share_hidden_pct": 7.08,
+   "models_above_zero": 3,
+   "answers": 480
+  },
+  "Dyson": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Fitbit": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Fujifilm": {
+   "equity": 33.75,
+   "ci95": [
+    0.0,
+    70.0
+   ],
+   "p_two_sided": 0.1264,
+   "models": 4,
+   "share_shown_pct": 36.25,
+   "share_hidden_pct": 2.5,
+   "models_above_zero": 2,
+   "answers": 160
+  },
+  "Garmin": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Google": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 800
+  },
+  "HOKA": {
+   "equity": 5.0,
+   "ci95": [
+    0.0,
+    13.75
+   ],
+   "p_two_sided": 0.2574,
+   "models": 4,
+   "share_shown_pct": 5.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 2,
+   "answers": 160
+  },
+  "HP": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 480
+  },
+  "Hamilton Beach": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Herschel": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Hydro Flask": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "HyperX": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Insignia": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "JBL": {
+   "equity": 14.75,
+   "ci95": [
+    2.0,
+    31.75
+   ],
+   "p_two_sided": 0.0024,
+   "models": 4,
+   "share_shown_pct": 15.75,
+   "share_hidden_pct": 1.0,
+   "models_above_zero": 4,
+   "answers": 800
+  },
+  "Jabra": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "JanSport": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Keurig": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 320
+  },
+  "KitchenAid": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "LG": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 640
+  },
+  "Lenovo": {
+   "equity": 18.75,
+   "ci95": [
+    6.67,
+    30.83
+   ],
+   "p_two_sided": 0.0,
+   "models": 4,
+   "share_shown_pct": 19.58,
+   "share_hidden_pct": 0.83,
+   "models_above_zero": 4,
+   "answers": 480
+  },
+  "Linksys": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Logitech": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Motorola": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 320
+  },
+  "Mr. Coffee": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Nespresso": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 320
+  },
+  "Netgear": {
+   "equity": -1.25,
+   "ci95": [
+    -5.0,
+    0.0
+   ],
+   "p_two_sided": 0.9908,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 1.25,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "New Balance": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Nike": {
+   "equity": -2.92,
+   "ci95": [
+    -9.17,
+    1.67
+   ],
+   "p_two_sided": 0.3258,
+   "models": 4,
+   "share_shown_pct": 6.25,
+   "share_hidden_pct": 9.17,
+   "models_above_zero": 0,
+   "answers": 480
+  },
+  "Nikon": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Ninja": {
+   "equity": 31.25,
+   "ci95": [
+    2.5,
+    73.75
+   ],
+   "p_two_sided": 0.0142,
+   "models": 4,
+   "share_shown_pct": 31.25,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 3,
+   "answers": 160
+  },
+  "OnePlus": {
+   "equity": 26.25,
+   "ci95": [
+    1.25,
+    53.75
+   ],
+   "p_two_sided": 0.0278,
+   "models": 4,
+   "share_shown_pct": 27.5,
+   "share_hidden_pct": 1.25,
+   "models_above_zero": 3,
+   "answers": 160
+  },
+  "Oral-B": {
+   "equity": 15.0,
+   "ci95": [
+    0.0,
+    40.0
+   ],
+   "p_two_sided": 0.148,
+   "models": 4,
+   "share_shown_pct": 15.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 2,
+   "answers": 160
+  },
+  "Osprey": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Philips": {
+   "equity": 11.25,
+   "ci95": [
+    0.0,
+    24.38
+   ],
+   "p_two_sided": 0.1306,
+   "models": 4,
+   "share_shown_pct": 11.25,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 2,
+   "answers": 320
+  },
+  "Quip": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Razer": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "S'well": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Salomon": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Samsung": {
+   "equity": 8.33,
+   "ci95": [
+    0.83,
+    16.77
+   ],
+   "p_two_sided": 0.0004,
+   "models": 4,
+   "share_shown_pct": 8.33,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 4,
+   "answers": 1920
+  },
+  "SanDisk": {
+   "equity": 10.0,
+   "ci95": [
+    0.0,
+    30.0
+   ],
+   "p_two_sided": 0.6512,
+   "models": 4,
+   "share_shown_pct": 10.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 1,
+   "answers": 160
+  },
+  "Saucony": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Seagate": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Sennheiser": {
+   "equity": 6.25,
+   "ci95": [
+    0.0,
+    20.0
+   ],
+   "p_two_sided": 0.6156,
+   "models": 4,
+   "share_shown_pct": 6.25,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 1,
+   "answers": 160
+  },
+  "Shark": {
+   "equity": 2.5,
+   "ci95": [
+    -2.5,
+    8.75
+   ],
+   "p_two_sided": 0.5456,
+   "models": 4,
+   "share_shown_pct": 3.75,
+   "share_hidden_pct": 1.25,
+   "models_above_zero": 2,
+   "answers": 160
+  },
+  "Shokz": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Sony": {
+   "equity": -1.81,
+   "ci95": [
+    -4.86,
+    0.97
+   ],
+   "p_two_sided": 0.2308,
+   "models": 4,
+   "share_shown_pct": 3.06,
+   "share_hidden_pct": 4.86,
+   "models_above_zero": 1,
+   "answers": 1440
+  },
+  "Stanley": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "The North Face": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Ultimate Ears": {
+   "equity": 11.25,
+   "ci95": [
+    -8.75,
+    37.5
+   ],
+   "p_two_sided": 0.4978,
+   "models": 4,
+   "share_shown_pct": 22.5,
+   "share_hidden_pct": 11.25,
+   "models_above_zero": 1,
+   "answers": 160
+  },
+  "Vitamix": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Vizio": {
+   "equity": 1.25,
+   "ci95": [
+    0.0,
+    4.38
+   ],
+   "p_two_sided": 0.7662,
+   "models": 4,
+   "share_shown_pct": 1.25,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 1,
+   "answers": 320
+  },
+  "Western Digital": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "Yeti": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "eufy": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 4,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 160
+  },
+  "iRobot": {
+   "equity": 13.75,
+   "ci95": [
+    0.0,
+    41.25
+   ],
+   "p_two_sided": 0.6422,
+   "models": 4,
+   "share_shown_pct": 13.75,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 1,
+   "answers": 160
+  }
+ },
+ "pooled_corpus": {
+  "ASICS": {
+   "equity": 6.42,
+   "ci95": [
+    2.75,
+    10.58
+   ],
+   "p_two_sided": 0.0006,
+   "models": 30,
+   "share_shown_pct": 9.67,
+   "share_hidden_pct": 3.25,
+   "models_above_zero": 16,
+   "answers": 2400
+  },
+  "ASUS": {
+   "equity": 4.5,
+   "ci95": [
+    1.42,
+    7.71
+   ],
+   "p_two_sided": 0.0036,
+   "models": 30,
+   "share_shown_pct": 12.08,
+   "share_hidden_pct": 7.58,
+   "models_above_zero": 22,
+   "answers": 4800
+  },
+  "Acer": {
+   "equity": 1.67,
+   "ci95": [
+    -0.92,
+    4.42
+   ],
+   "p_two_sided": 0.2098,
+   "models": 30,
+   "share_shown_pct": 5.33,
+   "share_hidden_pct": 3.67,
+   "models_above_zero": 13,
+   "answers": 2400
+  },
+  "Adidas": {
+   "equity": -0.25,
+   "ci95": [
+    -1.5,
+    0.92
+   ],
+   "p_two_sided": 0.699,
+   "models": 30,
+   "share_shown_pct": 0.42,
+   "share_hidden_pct": 0.67,
+   "models_above_zero": 2,
+   "answers": 2400
+  },
+  "AeroPress": {
+   "equity": 24.0,
+   "ci95": [
+    15.17,
+    32.83
+   ],
+   "p_two_sided": 0.0,
+   "models": 30,
+   "share_shown_pct": 75.0,
+   "share_hidden_pct": 51.0,
+   "models_above_zero": 24,
+   "answers": 1200
+  },
+  "Amazon": {
+   "equity": -0.67,
+   "ci95": [
+    -2.33,
+    0.67
+   ],
+   "p_two_sided": 0.4272,
+   "models": 30,
+   "share_shown_pct": 0.33,
+   "share_hidden_pct": 1.0,
+   "models_above_zero": 2,
+   "answers": 1200
+  },
+  "Apple": {
+   "equity": 0.38,
+   "ci95": [
+    -0.1,
+    0.85
+   ],
+   "p_two_sided": 0.1168,
+   "models": 30,
+   "share_shown_pct": 0.73,
+   "share_hidden_pct": 0.35,
+   "models_above_zero": 14,
+   "answers": 9600
+  },
+  "Audio-Technica": {
+   "equity": -1.5,
+   "ci95": [
+    -4.33,
+    0.67
+   ],
+   "p_two_sided": 0.2236,
+   "models": 30,
+   "share_shown_pct": 0.83,
+   "share_hidden_pct": 2.33,
+   "models_above_zero": 2,
+   "answers": 1200
+  },
+  "Beats": {
+   "equity": 4.92,
+   "ci95": [
+    1.08,
+    9.33
+   ],
+   "p_two_sided": 0.0114,
+   "models": 30,
+   "share_shown_pct": 9.83,
+   "share_hidden_pct": 4.92,
+   "models_above_zero": 17,
+   "answers": 2400
+  },
+  "Beyerdynamic": {
+   "equity": 14.17,
+   "ci95": [
+    6.33,
+    22.33
+   ],
+   "p_two_sided": 0.0004,
+   "models": 30,
+   "share_shown_pct": 68.33,
+   "share_hidden_pct": 54.17,
+   "models_above_zero": 20,
+   "answers": 1200
+  },
+  "Bose": {
+   "equity": 0.58,
+   "ci95": [
+    0.13,
+    1.13
+   ],
+   "p_two_sided": 0.0054,
+   "models": 30,
+   "share_shown_pct": 0.71,
+   "share_hidden_pct": 0.13,
+   "models_above_zero": 9,
+   "answers": 4800
+  },
+  "Breville": {
+   "equity": 0.08,
+   "ci95": [
+    0.0,
+    0.42
+   ],
+   "p_two_sided": 1.0,
+   "models": 30,
+   "share_shown_pct": 0.08,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 1,
+   "answers": 2413
+  },
+  "Brooks": {
+   "equity": 5.0,
+   "ci95": [
+    0.67,
+    10.67
+   ],
+   "p_two_sided": 0.0176,
+   "models": 30,
+   "share_shown_pct": 6.33,
+   "share_hidden_pct": 1.33,
+   "models_above_zero": 12,
+   "answers": 1200
+  },
+  "CamelBak": {
+   "equity": 0.17,
+   "ci95": [
+    -1.5,
+    1.83
+   ],
+   "p_two_sided": 0.8474,
+   "models": 30,
+   "share_shown_pct": 1.0,
+   "share_hidden_pct": 0.83,
+   "models_above_zero": 3,
+   "answers": 1200
+  },
+  "Canon": {
+   "equity": -0.17,
+   "ci95": [
+    -1.83,
+    1.17
+   ],
+   "p_two_sided": 1.0,
+   "models": 30,
+   "share_shown_pct": 0.67,
+   "share_hidden_pct": 0.83,
+   "models_above_zero": 1,
+   "answers": 1200
+  },
+  "Corsair": {
+   "equity": 0.0,
+   "ci95": [
+    -0.67,
+    0.67
+   ],
+   "p_two_sided": 1.0,
+   "models": 30,
+   "share_shown_pct": 0.17,
+   "share_hidden_pct": 0.17,
+   "models_above_zero": 1,
+   "answers": 1200
+  },
+  "Cuisinart": {
+   "equity": 3.21,
+   "ci95": [
+    0.0,
+    7.25
+   ],
+   "p_two_sided": 0.051,
+   "models": 30,
+   "share_shown_pct": 6.88,
+   "share_hidden_pct": 3.67,
+   "models_above_zero": 8,
+   "answers": 1213
+  },
+  "De'Longhi": {
+   "equity": 1.5,
+   "ci95": [
+    -2.17,
+    5.33
+   ],
+   "p_two_sided": 0.4416,
+   "models": 30,
+   "share_shown_pct": 87.83,
+   "share_hidden_pct": 86.33,
+   "models_above_zero": 13,
+   "answers": 1200
+  },
+  "Dell": {
+   "equity": 2.44,
+   "ci95": [
+    -0.89,
+    5.83
+   ],
+   "p_two_sided": 0.144,
+   "models": 30,
+   "share_shown_pct": 9.44,
+   "share_hidden_pct": 7.0,
+   "models_above_zero": 17,
+   "answers": 3600
+  },
+  "Dyson": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 30,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 1200
+  },
+  "Fitbit": {
+   "equity": 2.33,
+   "ci95": [
+    -0.33,
+    5.5
+   ],
+   "p_two_sided": 0.096,
+   "models": 30,
+   "share_shown_pct": 3.5,
+   "share_hidden_pct": 1.17,
+   "models_above_zero": 8,
+   "answers": 1200
+  },
+  "Fujifilm": {
+   "equity": 9.0,
+   "ci95": [
+    1.83,
+    17.5
+   ],
+   "p_two_sided": 0.0084,
+   "models": 30,
+   "share_shown_pct": 11.17,
+   "share_hidden_pct": 2.17,
+   "models_above_zero": 9,
+   "answers": 1200
+  },
+  "Garmin": {
+   "equity": -0.17,
+   "ci95": [
+    -0.83,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 30,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.17,
+   "models_above_zero": 0,
+   "answers": 1200
+  },
+  "Google": {
+   "equity": 2.23,
+   "ci95": [
+    1.0,
+    3.6
+   ],
+   "p_two_sided": 0.0,
+   "models": 30,
+   "share_shown_pct": 3.27,
+   "share_hidden_pct": 1.03,
+   "models_above_zero": 18,
+   "answers": 6000
+  },
+  "HOKA": {
+   "equity": 3.83,
+   "ci95": [
+    0.83,
+    7.67
+   ],
+   "p_two_sided": 0.0048,
+   "models": 30,
+   "share_shown_pct": 5.0,
+   "share_hidden_pct": 1.17,
+   "models_above_zero": 8,
+   "answers": 1200
+  },
+  "HP": {
+   "equity": 0.44,
+   "ci95": [
+    -0.61,
+    1.56
+   ],
+   "p_two_sided": 0.4278,
+   "models": 30,
+   "share_shown_pct": 1.33,
+   "share_hidden_pct": 0.89,
+   "models_above_zero": 7,
+   "answers": 3600
+  },
+  "Hamilton Beach": {
+   "equity": -0.67,
+   "ci95": [
+    -2.17,
+    0.17
+   ],
+   "p_two_sided": 0.4064,
+   "models": 30,
+   "share_shown_pct": 0.33,
+   "share_hidden_pct": 1.0,
+   "models_above_zero": 0,
+   "answers": 1200
+  },
+  "Herschel": {
+   "equity": 1.0,
+   "ci95": [
+    -0.67,
+    3.17
+   ],
+   "p_two_sided": 0.354,
+   "models": 30,
+   "share_shown_pct": 1.5,
+   "share_hidden_pct": 0.5,
+   "models_above_zero": 3,
+   "answers": 1200
+  },
+  "Hydro Flask": {
+   "equity": 3.17,
+   "ci95": [
+    0.17,
+    6.67
+   ],
+   "p_two_sided": 0.034,
+   "models": 30,
+   "share_shown_pct": 5.83,
+   "share_hidden_pct": 2.67,
+   "models_above_zero": 11,
+   "answers": 1200
+  },
+  "HyperX": {
+   "equity": -0.17,
+   "ci95": [
+    -1.33,
+    1.17
+   ],
+   "p_two_sided": 0.7726,
+   "models": 30,
+   "share_shown_pct": 0.5,
+   "share_hidden_pct": 0.67,
+   "models_above_zero": 1,
+   "answers": 1200
+  },
+  "Insignia": {
+   "equity": 1.33,
+   "ci95": [
+    -0.17,
+    3.33
+   ],
+   "p_two_sided": 0.1074,
+   "models": 30,
+   "share_shown_pct": 2.17,
+   "share_hidden_pct": 0.83,
+   "models_above_zero": 7,
+   "answers": 1200
+  },
+  "JBL": {
+   "equity": 8.6,
+   "ci95": [
+    4.2,
+    13.23
+   ],
+   "p_two_sided": 0.0,
+   "models": 30,
+   "share_shown_pct": 18.7,
+   "share_hidden_pct": 10.1,
+   "models_above_zero": 23,
+   "answers": 6000
+  },
+  "Jabra": {
+   "equity": 0.33,
+   "ci95": [
+    0.0,
+    1.17
+   ],
+   "p_two_sided": 0.5434,
+   "models": 30,
+   "share_shown_pct": 0.33,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 2,
+   "answers": 1200
+  },
+  "JanSport": {
+   "equity": -0.83,
+   "ci95": [
+    -2.17,
+    0.0
+   ],
+   "p_two_sided": 0.1336,
+   "models": 30,
+   "share_shown_pct": 0.17,
+   "share_hidden_pct": 1.0,
+   "models_above_zero": 0,
+   "answers": 1200
+  },
+  "Keurig": {
+   "equity": -0.17,
+   "ci95": [
+    -0.67,
+    0.0
+   ],
+   "p_two_sided": 0.8314,
+   "models": 30,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.17,
+   "models_above_zero": 0,
+   "answers": 2413
+  },
+  "KitchenAid": {
+   "equity": 1.83,
+   "ci95": [
+    -0.33,
+    4.33
+   ],
+   "p_two_sided": 0.12,
+   "models": 30,
+   "share_shown_pct": 3.0,
+   "share_hidden_pct": 1.17,
+   "models_above_zero": 9,
+   "answers": 1200
+  },
+  "LG": {
+   "equity": 0.42,
+   "ci95": [
+    -0.62,
+    1.54
+   ],
+   "p_two_sided": 0.4466,
+   "models": 30,
+   "share_shown_pct": 1.0,
+   "share_hidden_pct": 0.58,
+   "models_above_zero": 3,
+   "answers": 4800
+  },
+  "Lenovo": {
+   "equity": 2.67,
+   "ci95": [
+    -0.11,
+    5.78
+   ],
+   "p_two_sided": 0.063,
+   "models": 30,
+   "share_shown_pct": 8.5,
+   "share_hidden_pct": 5.83,
+   "models_above_zero": 15,
+   "answers": 3600
+  },
+  "Linksys": {
+   "equity": -0.67,
+   "ci95": [
+    -2.17,
+    0.33
+   ],
+   "p_two_sided": 0.3522,
+   "models": 30,
+   "share_shown_pct": 0.33,
+   "share_hidden_pct": 1.0,
+   "models_above_zero": 0,
+   "answers": 1200
+  },
+  "Logitech": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 30,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 1200
+  },
+  "Motorola": {
+   "equity": -0.17,
+   "ci95": [
+    -1.42,
+    0.92
+   ],
+   "p_two_sided": 0.8188,
+   "models": 30,
+   "share_shown_pct": 1.0,
+   "share_hidden_pct": 1.17,
+   "models_above_zero": 4,
+   "answers": 2400
+  },
+  "Mr. Coffee": {
+   "equity": -0.33,
+   "ci95": [
+    -1.33,
+    0.0
+   ],
+   "p_two_sided": 0.8152,
+   "models": 30,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.33,
+   "models_above_zero": 0,
+   "answers": 1213
+  },
+  "Nespresso": {
+   "equity": 0.83,
+   "ci95": [
+    -0.58,
+    2.42
+   ],
+   "p_two_sided": 0.2628,
+   "models": 30,
+   "share_shown_pct": 1.92,
+   "share_hidden_pct": 1.08,
+   "models_above_zero": 8,
+   "answers": 2400
+  },
+  "Netgear": {
+   "equity": -0.33,
+   "ci95": [
+    -2.5,
+    1.17
+   ],
+   "p_two_sided": 0.9842,
+   "models": 30,
+   "share_shown_pct": 0.83,
+   "share_hidden_pct": 1.17,
+   "models_above_zero": 1,
+   "answers": 1200
+  },
+  "New Balance": {
+   "equity": 0.0,
+   "ci95": [
+    -1.5,
+    1.5
+   ],
+   "p_two_sided": 1.0,
+   "models": 30,
+   "share_shown_pct": 1.0,
+   "share_hidden_pct": 1.0,
+   "models_above_zero": 4,
+   "answers": 1200
+  },
+  "Nike": {
+   "equity": 2.17,
+   "ci95": [
+    0.33,
+    4.22
+   ],
+   "p_two_sided": 0.0192,
+   "models": 30,
+   "share_shown_pct": 5.11,
+   "share_hidden_pct": 2.94,
+   "models_above_zero": 15,
+   "answers": 3600
+  },
+  "Nikon": {
+   "equity": -0.5,
+   "ci95": [
+    -2.33,
+    0.67
+   ],
+   "p_two_sided": 0.828,
+   "models": 30,
+   "share_shown_pct": 0.17,
+   "share_hidden_pct": 0.67,
+   "models_above_zero": 1,
+   "answers": 1200
+  },
+  "Ninja": {
+   "equity": 13.17,
+   "ci95": [
+    5.67,
+    21.83
+   ],
+   "p_two_sided": 0.0,
+   "models": 30,
+   "share_shown_pct": 19.17,
+   "share_hidden_pct": 6.0,
+   "models_above_zero": 18,
+   "answers": 1200
+  },
+  "OnePlus": {
+   "equity": 8.83,
+   "ci95": [
+    1.5,
+    16.33
+   ],
+   "p_two_sided": 0.0166,
+   "models": 30,
+   "share_shown_pct": 29.83,
+   "share_hidden_pct": 21.0,
+   "models_above_zero": 18,
+   "answers": 1200
+  },
+  "Oral-B": {
+   "equity": 0.83,
+   "ci95": [
+    -2.33,
+    3.83
+   ],
+   "p_two_sided": 0.57,
+   "models": 30,
+   "share_shown_pct": 1.83,
+   "share_hidden_pct": 1.0,
+   "models_above_zero": 4,
+   "answers": 1200
+  },
+  "Osprey": {
+   "equity": -0.83,
+   "ci95": [
+    -3.0,
+    0.0
+   ],
+   "p_two_sided": 0.7316,
+   "models": 30,
+   "share_shown_pct": 0.17,
+   "share_hidden_pct": 1.0,
+   "models_above_zero": 0,
+   "answers": 1200
+  },
+  "Philips": {
+   "equity": 4.75,
+   "ci95": [
+    1.42,
+    8.83
+   ],
+   "p_two_sided": 0.002,
+   "models": 30,
+   "share_shown_pct": 5.58,
+   "share_hidden_pct": 0.83,
+   "models_above_zero": 12,
+   "answers": 2400
+  },
+  "Quip": {
+   "equity": -1.5,
+   "ci95": [
+    -5.5,
+    0.5
+   ],
+   "p_two_sided": 0.7162,
+   "models": 30,
+   "share_shown_pct": 0.17,
+   "share_hidden_pct": 1.67,
+   "models_above_zero": 1,
+   "answers": 1200
+  },
+  "Razer": {
+   "equity": -0.33,
+   "ci95": [
+    -1.33,
+    0.0
+   ],
+   "p_two_sided": 0.8236,
+   "models": 30,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.33,
+   "models_above_zero": 0,
+   "answers": 1200
+  },
+  "S'well": {
+   "equity": -0.83,
+   "ci95": [
+    -3.0,
+    0.0
+   ],
+   "p_two_sided": 0.7472,
+   "models": 30,
+   "share_shown_pct": 0.17,
+   "share_hidden_pct": 1.0,
+   "models_above_zero": 0,
+   "answers": 1200
+  },
+  "Salomon": {
+   "equity": -0.17,
+   "ci95": [
+    -1.33,
+    1.33
+   ],
+   "p_two_sided": 0.7296,
+   "models": 30,
+   "share_shown_pct": 0.83,
+   "share_hidden_pct": 1.0,
+   "models_above_zero": 1,
+   "answers": 1200
+  },
+  "Samsung": {
+   "equity": 4.07,
+   "ci95": [
+    2.25,
+    6.21
+   ],
+   "p_two_sided": 0.0,
+   "models": 30,
+   "share_shown_pct": 5.99,
+   "share_hidden_pct": 1.92,
+   "models_above_zero": 27,
+   "answers": 14400
+  },
+  "SanDisk": {
+   "equity": -0.5,
+   "ci95": [
+    -2.83,
+    1.17
+   ],
+   "p_two_sided": 0.7722,
+   "models": 30,
+   "share_shown_pct": 0.5,
+   "share_hidden_pct": 1.0,
+   "models_above_zero": 3,
+   "answers": 1200
+  },
+  "Saucony": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 30,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 1200
+  },
+  "Seagate": {
+   "equity": -0.5,
+   "ci95": [
+    -1.83,
+    0.0
+   ],
+   "p_two_sided": 0.758,
+   "models": 30,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.5,
+   "models_above_zero": 0,
+   "answers": 1200
+  },
+  "Sennheiser": {
+   "equity": 14.33,
+   "ci95": [
+    7.33,
+    22.5
+   ],
+   "p_two_sided": 0.0,
+   "models": 30,
+   "share_shown_pct": 14.5,
+   "share_hidden_pct": 0.17,
+   "models_above_zero": 19,
+   "answers": 1200
+  },
+  "Shark": {
+   "equity": -2.33,
+   "ci95": [
+    -8.5,
+    3.5
+   ],
+   "p_two_sided": 0.4452,
+   "models": 30,
+   "share_shown_pct": 8.67,
+   "share_hidden_pct": 11.0,
+   "models_above_zero": 6,
+   "answers": 1200
+  },
+  "Shokz": {
+   "equity": 0.67,
+   "ci95": [
+    -0.17,
+    2.0
+   ],
+   "p_two_sided": 0.2494,
+   "models": 30,
+   "share_shown_pct": 0.83,
+   "share_hidden_pct": 0.17,
+   "models_above_zero": 3,
+   "answers": 1200
+  },
+  "Sony": {
+   "equity": 1.28,
+   "ci95": [
+    -0.04,
+    2.48
+   ],
+   "p_two_sided": 0.0578,
+   "models": 30,
+   "share_shown_pct": 4.39,
+   "share_hidden_pct": 3.11,
+   "models_above_zero": 21,
+   "answers": 10800
+  },
+  "Stanley": {
+   "equity": -1.17,
+   "ci95": [
+    -3.67,
+    1.17
+   ],
+   "p_two_sided": 0.336,
+   "models": 30,
+   "share_shown_pct": 2.5,
+   "share_hidden_pct": 3.67,
+   "models_above_zero": 2,
+   "answers": 1200
+  },
+  "The North Face": {
+   "equity": 2.0,
+   "ci95": [
+    -2.0,
+    5.83
+   ],
+   "p_two_sided": 0.3034,
+   "models": 30,
+   "share_shown_pct": 4.67,
+   "share_hidden_pct": 2.67,
+   "models_above_zero": 8,
+   "answers": 1200
+  },
+  "Ultimate Ears": {
+   "equity": 9.33,
+   "ci95": [
+    3.5,
+    15.5
+   ],
+   "p_two_sided": 0.0004,
+   "models": 30,
+   "share_shown_pct": 14.67,
+   "share_hidden_pct": 5.33,
+   "models_above_zero": 19,
+   "answers": 1200
+  },
+  "Vitamix": {
+   "equity": -0.17,
+   "ci95": [
+    -1.17,
+    0.67
+   ],
+   "p_two_sided": 0.8916,
+   "models": 30,
+   "share_shown_pct": 0.5,
+   "share_hidden_pct": 0.67,
+   "models_above_zero": 0,
+   "answers": 1200
+  },
+  "Vizio": {
+   "equity": 13.33,
+   "ci95": [
+    8.41,
+    18.92
+   ],
+   "p_two_sided": 0.0,
+   "models": 30,
+   "share_shown_pct": 15.83,
+   "share_hidden_pct": 2.5,
+   "models_above_zero": 24,
+   "answers": 2400
+  },
+  "Western Digital": {
+   "equity": -0.17,
+   "ci95": [
+    -1.33,
+    0.67
+   ],
+   "p_two_sided": 1.0,
+   "models": 30,
+   "share_shown_pct": 0.33,
+   "share_hidden_pct": 0.5,
+   "models_above_zero": 1,
+   "answers": 1200
+  },
+  "Yeti": {
+   "equity": -0.5,
+   "ci95": [
+    -2.0,
+    0.0
+   ],
+   "p_two_sided": 0.822,
+   "models": 30,
+   "share_shown_pct": 0.17,
+   "share_hidden_pct": 0.67,
+   "models_above_zero": 0,
+   "answers": 1200
+  },
+  "eufy": {
+   "equity": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 30,
+   "share_shown_pct": 0.0,
+   "share_hidden_pct": 0.0,
+   "models_above_zero": 0,
+   "answers": 1200
+  },
+  "iRobot": {
+   "equity": 4.33,
+   "ci95": [
+    1.0,
+    8.5
+   ],
+   "p_two_sided": 0.0034,
+   "models": 30,
+   "share_shown_pct": 5.0,
+   "share_hidden_pct": 0.67,
+   "models_above_zero": 9,
+   "answers": 1200
+  }
+ },
+ "pooled_open": {
+  "ASICS": {
+   "equity": 3.0,
+   "ci95": [
+    -2.0,
+    8.0
+   ],
+   "p_two_sided": 0.2282,
+   "models": 10,
+   "share_shown_pct": 8.25,
+   "share_hidden_pct": 5.25,
+   "models_above_zero": 5,
+   "answers": 800
+  },
+  "ASUS": {
+   "equity": 3.25,
+   "ci95": [
+    -1.38,
+    8.12
+   ],
+   "p_two_sided": 0.1718,
+   "models": 10,
+   "share_shown_pct": 15.5,
+   "share_hidden_pct": 12.25,
+   "models_above_zero": 7,
+   "answers": 1600
+  },
+  "Acer": {
+   "equity": -1.0,
+   "ci95": [
+    -6.0,
+    3.5
+   ],
+   "p_two_sided": 0.7,
+   "models": 10,
+   "share_shown_pct": 9.75,
+   "share_hidden_pct": 10.75,
+   "models_above_zero": 3,
+   "answers": 800
+  },
+  "Adidas": {
+   "equity": 0.5,
+   "ci95": [
+    -3.5,
+    4.75
+   ],
+   "p_two_sided": 0.8312,
+   "models": 10,
+   "share_shown_pct": 4.75,
+   "share_hidden_pct": 4.25,
+   "models_above_zero": 3,
+   "answers": 800
+  },
+  "AeroPress": {
+   "equity": 29.0,
+   "ci95": [
+    11.5,
+    47.5
+   ],
+   "p_two_sided": 0.0008,
+   "models": 10,
+   "share_shown_pct": 52.5,
+   "share_hidden_pct": 23.5,
+   "models_above_zero": 8,
+   "answers": 400
+  },
+  "Amazon": {
+   "equity": 2.0,
+   "ci95": [
+    -5.0,
+    9.5
+   ],
+   "p_two_sided": 0.6012,
+   "models": 10,
+   "share_shown_pct": 7.5,
+   "share_hidden_pct": 5.5,
+   "models_above_zero": 4,
+   "answers": 400
+  },
+  "Apple": {
+   "equity": -0.06,
+   "ci95": [
+    -2.75,
+    2.88
+   ],
+   "p_two_sided": 0.9528,
+   "models": 10,
+   "share_shown_pct": 5.31,
+   "share_hidden_pct": 5.38,
+   "models_above_zero": 6,
+   "answers": 3200
+  },
+  "Audio-Technica": {
+   "equity": 2.0,
+   "ci95": [
+    -5.0,
+    9.0
+   ],
+   "p_two_sided": 0.6028,
+   "models": 10,
+   "share_shown_pct": 9.0,
+   "share_hidden_pct": 7.0,
+   "models_above_zero": 4,
+   "answers": 400
+  },
+  "Beats": {
+   "equity": 3.0,
+   "ci95": [
+    -2.25,
+    8.75
+   ],
+   "p_two_sided": 0.2872,
+   "models": 10,
+   "share_shown_pct": 8.5,
+   "share_hidden_pct": 5.5,
+   "models_above_zero": 5,
+   "answers": 800
+  },
+  "Beyerdynamic": {
+   "equity": 9.0,
+   "ci95": [
+    -5.5,
+    22.0
+   ],
+   "p_two_sided": 0.211,
+   "models": 10,
+   "share_shown_pct": 65.0,
+   "share_hidden_pct": 56.0,
+   "models_above_zero": 6,
+   "answers": 400
+  },
+  "Bose": {
+   "equity": -1.0,
+   "ci95": [
+    -3.75,
+    1.0
+   ],
+   "p_two_sided": 0.4752,
+   "models": 10,
+   "share_shown_pct": 2.88,
+   "share_hidden_pct": 3.87,
+   "models_above_zero": 1,
+   "answers": 1600
+  },
+  "Breville": {
+   "equity": 0.5,
+   "ci95": [
+    -2.01,
+    3.5
+   ],
+   "p_two_sided": 0.8332,
+   "models": 10,
+   "share_shown_pct": 3.5,
+   "share_hidden_pct": 3.0,
+   "models_above_zero": 1,
+   "answers": 800
+  },
+  "Brooks": {
+   "equity": 5.0,
+   "ci95": [
+    -1.0,
+    13.0
+   ],
+   "p_two_sided": 0.135,
+   "models": 10,
+   "share_shown_pct": 9.0,
+   "share_hidden_pct": 4.0,
+   "models_above_zero": 4,
+   "answers": 400
+  },
+  "CamelBak": {
+   "equity": 1.5,
+   "ci95": [
+    -2.0,
+    6.0
+   ],
+   "p_two_sided": 0.4992,
+   "models": 10,
+   "share_shown_pct": 5.0,
+   "share_hidden_pct": 3.5,
+   "models_above_zero": 3,
+   "answers": 400
+  },
+  "Canon": {
+   "equity": -2.5,
+   "ci95": [
+    -8.5,
+    1.5
+   ],
+   "p_two_sided": 0.369,
+   "models": 10,
+   "share_shown_pct": 1.5,
+   "share_hidden_pct": 4.0,
+   "models_above_zero": 1,
+   "answers": 400
+  },
+  "Corsair": {
+   "equity": 2.5,
+   "ci95": [
+    -2.0,
+    8.5
+   ],
+   "p_two_sided": 0.362,
+   "models": 10,
+   "share_shown_pct": 6.5,
+   "share_hidden_pct": 4.0,
+   "models_above_zero": 3,
+   "answers": 400
+  },
+  "Cuisinart": {
+   "equity": 9.5,
+   "ci95": [
+    1.0,
+    20.0
+   ],
+   "p_two_sided": 0.0266,
+   "models": 10,
+   "share_shown_pct": 17.5,
+   "share_hidden_pct": 8.0,
+   "models_above_zero": 4,
+   "answers": 400
+  },
+  "De'Longhi": {
+   "equity": 1.5,
+   "ci95": [
+    -11.0,
+    14.0
+   ],
+   "p_two_sided": 0.8362,
+   "models": 10,
+   "share_shown_pct": 60.0,
+   "share_hidden_pct": 58.5,
+   "models_above_zero": 4,
+   "answers": 400
+  },
+  "Dell": {
+   "equity": 0.5,
+   "ci95": [
+    -5.67,
+    6.67
+   ],
+   "p_two_sided": 0.875,
+   "models": 10,
+   "share_shown_pct": 13.67,
+   "share_hidden_pct": 13.17,
+   "models_above_zero": 4,
+   "answers": 1200
+  },
+  "Dyson": {
+   "equity": 0.5,
+   "ci95": [
+    -2.0,
+    3.5
+   ],
+   "p_two_sided": 0.931,
+   "models": 10,
+   "share_shown_pct": 2.0,
+   "share_hidden_pct": 1.5,
+   "models_above_zero": 1,
+   "answers": 400
+  },
+  "Fitbit": {
+   "equity": 2.0,
+   "ci95": [
+    -4.5,
+    9.0
+   ],
+   "p_two_sided": 0.5748,
+   "models": 10,
+   "share_shown_pct": 6.5,
+   "share_hidden_pct": 4.5,
+   "models_above_zero": 4,
+   "answers": 400
+  },
+  "Fujifilm": {
+   "equity": 1.5,
+   "ci95": [
+    -3.0,
+    7.5
+   ],
+   "p_two_sided": 0.6376,
+   "models": 10,
+   "share_shown_pct": 8.5,
+   "share_hidden_pct": 7.0,
+   "models_above_zero": 3,
+   "answers": 400
+  },
+  "Garmin": {
+   "equity": 1.5,
+   "ci95": [
+    -1.5,
+    5.5
+   ],
+   "p_two_sided": 0.4546,
+   "models": 10,
+   "share_shown_pct": 3.5,
+   "share_hidden_pct": 2.0,
+   "models_above_zero": 3,
+   "answers": 400
+  },
+  "Google": {
+   "equity": 0.7,
+   "ci95": [
+    -1.8,
+    3.4
+   ],
+   "p_two_sided": 0.6066,
+   "models": 10,
+   "share_shown_pct": 6.2,
+   "share_hidden_pct": 5.5,
+   "models_above_zero": 4,
+   "answers": 2000
+  },
+  "HOKA": {
+   "equity": 1.5,
+   "ci95": [
+    -2.5,
+    6.0
+   ],
+   "p_two_sided": 0.564,
+   "models": 10,
+   "share_shown_pct": 4.5,
+   "share_hidden_pct": 3.0,
+   "models_above_zero": 4,
+   "answers": 400
+  },
+  "HP": {
+   "equity": 0.67,
+   "ci95": [
+    -3.0,
+    4.17
+   ],
+   "p_two_sided": 0.7026,
+   "models": 10,
+   "share_shown_pct": 6.0,
+   "share_hidden_pct": 5.33,
+   "models_above_zero": 5,
+   "answers": 1200
+  },
+  "Hamilton Beach": {
+   "equity": 1.0,
+   "ci95": [
+    -1.5,
+    4.5
+   ],
+   "p_two_sided": 0.6722,
+   "models": 10,
+   "share_shown_pct": 2.5,
+   "share_hidden_pct": 1.5,
+   "models_above_zero": 2,
+   "answers": 400
+  },
+  "Herschel": {
+   "equity": 5.5,
+   "ci95": [
+    -1.5,
+    13.5
+   ],
+   "p_two_sided": 0.1502,
+   "models": 10,
+   "share_shown_pct": 9.0,
+   "share_hidden_pct": 3.5,
+   "models_above_zero": 4,
+   "answers": 400
+  },
+  "Hydro Flask": {
+   "equity": 2.0,
+   "ci95": [
+    -7.5,
+    11.5
+   ],
+   "p_two_sided": 0.6792,
+   "models": 10,
+   "share_shown_pct": 11.0,
+   "share_hidden_pct": 9.0,
+   "models_above_zero": 3,
+   "answers": 400
+  },
+  "HyperX": {
+   "equity": 1.0,
+   "ci95": [
+    -6.5,
+    9.5
+   ],
+   "p_two_sided": 0.8532,
+   "models": 10,
+   "share_shown_pct": 8.0,
+   "share_hidden_pct": 7.0,
+   "models_above_zero": 3,
+   "answers": 400
+  },
+  "Insignia": {
+   "equity": -0.5,
+   "ci95": [
+    -6.5,
+    5.0
+   ],
+   "p_two_sided": 0.8886,
+   "models": 10,
+   "share_shown_pct": 6.0,
+   "share_hidden_pct": 6.5,
+   "models_above_zero": 3,
+   "answers": 400
+  },
+  "JBL": {
+   "equity": 6.1,
+   "ci95": [
+    1.6,
+    10.6
+   ],
+   "p_two_sided": 0.0062,
+   "models": 10,
+   "share_shown_pct": 21.7,
+   "share_hidden_pct": 15.6,
+   "models_above_zero": 8,
+   "answers": 2000
+  },
+  "Jabra": {
+   "equity": 3.0,
+   "ci95": [
+    -0.01,
+    7.5
+   ],
+   "p_two_sided": 0.1132,
+   "models": 10,
+   "share_shown_pct": 4.5,
+   "share_hidden_pct": 1.5,
+   "models_above_zero": 4,
+   "answers": 400
+  },
+  "JanSport": {
+   "equity": 2.0,
+   "ci95": [
+    -6.0,
+    11.5
+   ],
+   "p_two_sided": 0.6958,
+   "models": 10,
+   "share_shown_pct": 9.0,
+   "share_hidden_pct": 7.0,
+   "models_above_zero": 2,
+   "answers": 400
+  },
+  "Keurig": {
+   "equity": -0.25,
+   "ci95": [
+    -2.01,
+    1.75
+   ],
+   "p_two_sided": 0.8178,
+   "models": 10,
+   "share_shown_pct": 1.5,
+   "share_hidden_pct": 1.75,
+   "models_above_zero": 1,
+   "answers": 800
+  },
+  "KitchenAid": {
+   "equity": 4.0,
+   "ci95": [
+    -1.5,
+    10.0
+   ],
+   "p_two_sided": 0.1536,
+   "models": 10,
+   "share_shown_pct": 9.0,
+   "share_hidden_pct": 5.0,
+   "models_above_zero": 5,
+   "answers": 400
+  },
+  "LG": {
+   "equity": 1.75,
+   "ci95": [
+    -1.0,
+    5.0
+   ],
+   "p_two_sided": 0.2302,
+   "models": 10,
+   "share_shown_pct": 7.13,
+   "share_hidden_pct": 5.38,
+   "models_above_zero": 5,
+   "answers": 1600
+  },
+  "Lenovo": {
+   "equity": 0.67,
+   "ci95": [
+    -3.0,
+    4.33
+   ],
+   "p_two_sided": 0.723,
+   "models": 10,
+   "share_shown_pct": 7.83,
+   "share_hidden_pct": 7.17,
+   "models_above_zero": 4,
+   "answers": 1200
+  },
+  "Linksys": {
+   "equity": 0.5,
+   "ci95": [
+    -4.5,
+    5.0
+   ],
+   "p_two_sided": 0.8022,
+   "models": 10,
+   "share_shown_pct": 5.0,
+   "share_hidden_pct": 4.5,
+   "models_above_zero": 3,
+   "answers": 400
+  },
+  "Logitech": {
+   "equity": 1.0,
+   "ci95": [
+    -4.5,
+    7.0
+   ],
+   "p_two_sided": 0.7738,
+   "models": 10,
+   "share_shown_pct": 4.0,
+   "share_hidden_pct": 3.0,
+   "models_above_zero": 2,
+   "answers": 400
+  },
+  "Motorola": {
+   "equity": -1.5,
+   "ci95": [
+    -4.75,
+    1.5
+   ],
+   "p_two_sided": 0.3412,
+   "models": 10,
+   "share_shown_pct": 3.25,
+   "share_hidden_pct": 4.75,
+   "models_above_zero": 1,
+   "answers": 800
+  },
+  "Mr. Coffee": {
+   "equity": -2.0,
+   "ci95": [
+    -8.0,
+    2.0
+   ],
+   "p_two_sided": 0.5624,
+   "models": 10,
+   "share_shown_pct": 3.5,
+   "share_hidden_pct": 5.5,
+   "models_above_zero": 1,
+   "answers": 400
+  },
+  "Nespresso": {
+   "equity": 0.75,
+   "ci95": [
+    -2.75,
+    3.75
+   ],
+   "p_two_sided": 0.6464,
+   "models": 10,
+   "share_shown_pct": 6.0,
+   "share_hidden_pct": 5.25,
+   "models_above_zero": 4,
+   "answers": 800
+  },
+  "Netgear": {
+   "equity": 3.0,
+   "ci95": [
+    -0.5,
+    8.5
+   ],
+   "p_two_sided": 0.2108,
+   "models": 10,
+   "share_shown_pct": 4.0,
+   "share_hidden_pct": 1.0,
+   "models_above_zero": 3,
+   "answers": 400
+  },
+  "New Balance": {
+   "equity": 6.5,
+   "ci95": [
+    -0.5,
+    15.0
+   ],
+   "p_two_sided": 0.0696,
+   "models": 10,
+   "share_shown_pct": 11.0,
+   "share_hidden_pct": 4.5,
+   "models_above_zero": 6,
+   "answers": 400
+  },
+  "Nike": {
+   "equity": -1.67,
+   "ci95": [
+    -6.67,
+    3.5
+   ],
+   "p_two_sided": 0.513,
+   "models": 10,
+   "share_shown_pct": 4.33,
+   "share_hidden_pct": 6.0,
+   "models_above_zero": 1,
+   "answers": 1200
+  },
+  "Nikon": {
+   "equity": 0.0,
+   "ci95": [
+    -3.5,
+    4.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 10,
+   "share_shown_pct": 2.5,
+   "share_hidden_pct": 2.5,
+   "models_above_zero": 1,
+   "answers": 400
+  },
+  "Ninja": {
+   "equity": 0.0,
+   "ci95": [
+    -9.5,
+    9.0
+   ],
+   "p_two_sided": 0.9876,
+   "models": 10,
+   "share_shown_pct": 13.0,
+   "share_hidden_pct": 13.0,
+   "models_above_zero": 4,
+   "answers": 400
+  },
+  "OnePlus": {
+   "equity": 6.5,
+   "ci95": [
+    -5.5,
+    20.5
+   ],
+   "p_two_sided": 0.3344,
+   "models": 10,
+   "share_shown_pct": 22.5,
+   "share_hidden_pct": 16.0,
+   "models_above_zero": 6,
+   "answers": 400
+  },
+  "Oral-B": {
+   "equity": 1.0,
+   "ci95": [
+    -4.5,
+    7.0
+   ],
+   "p_two_sided": 0.7878,
+   "models": 10,
+   "share_shown_pct": 7.0,
+   "share_hidden_pct": 6.0,
+   "models_above_zero": 3,
+   "answers": 400
+  },
+  "Osprey": {
+   "equity": 2.0,
+   "ci95": [
+    -1.0,
+    6.0
+   ],
+   "p_two_sided": 0.274,
+   "models": 10,
+   "share_shown_pct": 3.5,
+   "share_hidden_pct": 1.5,
+   "models_above_zero": 3,
+   "answers": 400
+  },
+  "Philips": {
+   "equity": 0.75,
+   "ci95": [
+    -2.5,
+    4.0
+   ],
+   "p_two_sided": 0.6552,
+   "models": 10,
+   "share_shown_pct": 6.0,
+   "share_hidden_pct": 5.25,
+   "models_above_zero": 4,
+   "answers": 800
+  },
+  "Quip": {
+   "equity": 0.0,
+   "ci95": [
+    -5.0,
+    5.5
+   ],
+   "p_two_sided": 1.0,
+   "models": 10,
+   "share_shown_pct": 4.0,
+   "share_hidden_pct": 4.0,
+   "models_above_zero": 1,
+   "answers": 400
+  },
+  "Razer": {
+   "equity": -1.5,
+   "ci95": [
+    -7.5,
+    4.0
+   ],
+   "p_two_sided": 0.6716,
+   "models": 10,
+   "share_shown_pct": 4.0,
+   "share_hidden_pct": 5.5,
+   "models_above_zero": 2,
+   "answers": 400
+  },
+  "S'well": {
+   "equity": 1.5,
+   "ci95": [
+    -2.5,
+    6.5
+   ],
+   "p_two_sided": 0.6352,
+   "models": 10,
+   "share_shown_pct": 4.0,
+   "share_hidden_pct": 2.5,
+   "models_above_zero": 1,
+   "answers": 400
+  },
+  "Salomon": {
+   "equity": 4.5,
+   "ci95": [
+    0.0,
+    10.5
+   ],
+   "p_two_sided": 0.0782,
+   "models": 10,
+   "share_shown_pct": 7.0,
+   "share_hidden_pct": 2.5,
+   "models_above_zero": 4,
+   "answers": 400
+  },
+  "Samsung": {
+   "equity": 1.08,
+   "ci95": [
+    -1.17,
+    3.21
+   ],
+   "p_two_sided": 0.3306,
+   "models": 10,
+   "share_shown_pct": 8.17,
+   "share_hidden_pct": 7.08,
+   "models_above_zero": 7,
+   "answers": 4800
+  },
+  "SanDisk": {
+   "equity": 1.0,
+   "ci95": [
+    -2.0,
+    5.0
+   ],
+   "p_two_sided": 0.7624,
+   "models": 10,
+   "share_shown_pct": 4.0,
+   "share_hidden_pct": 3.0,
+   "models_above_zero": 2,
+   "answers": 400
+  },
+  "Saucony": {
+   "equity": 2.0,
+   "ci95": [
+    -2.0,
+    7.5
+   ],
+   "p_two_sided": 0.551,
+   "models": 10,
+   "share_shown_pct": 3.5,
+   "share_hidden_pct": 1.5,
+   "models_above_zero": 2,
+   "answers": 400
+  },
+  "Seagate": {
+   "equity": 1.0,
+   "ci95": [
+    -1.5,
+    4.5
+   ],
+   "p_two_sided": 0.7198,
+   "models": 10,
+   "share_shown_pct": 2.5,
+   "share_hidden_pct": 1.5,
+   "models_above_zero": 2,
+   "answers": 400
+  },
+  "Sennheiser": {
+   "equity": 20.0,
+   "ci95": [
+    4.5,
+    37.5
+   ],
+   "p_two_sided": 0.0086,
+   "models": 10,
+   "share_shown_pct": 26.0,
+   "share_hidden_pct": 6.0,
+   "models_above_zero": 7,
+   "answers": 400
+  },
+  "Shark": {
+   "equity": -2.0,
+   "ci95": [
+    -12.5,
+    8.5
+   ],
+   "p_two_sided": 0.7042,
+   "models": 10,
+   "share_shown_pct": 18.5,
+   "share_hidden_pct": 20.5,
+   "models_above_zero": 3,
+   "answers": 400
+  },
+  "Shokz": {
+   "equity": -0.0,
+   "ci95": [
+    -5.0,
+    4.5
+   ],
+   "p_two_sided": 0.978,
+   "models": 10,
+   "share_shown_pct": 5.5,
+   "share_hidden_pct": 5.5,
+   "models_above_zero": 2,
+   "answers": 400
+  },
+  "Sony": {
+   "equity": 1.94,
+   "ci95": [
+    0.22,
+    3.89
+   ],
+   "p_two_sided": 0.0304,
+   "models": 10,
+   "share_shown_pct": 6.94,
+   "share_hidden_pct": 5.0,
+   "models_above_zero": 8,
+   "answers": 3600
+  },
+  "Stanley": {
+   "equity": -5.0,
+   "ci95": [
+    -11.5,
+    0.5
+   ],
+   "p_two_sided": 0.087,
+   "models": 10,
+   "share_shown_pct": 4.5,
+   "share_hidden_pct": 9.5,
+   "models_above_zero": 0,
+   "answers": 400
+  },
+  "The North Face": {
+   "equity": 7.0,
+   "ci95": [
+    -2.0,
+    16.0
+   ],
+   "p_two_sided": 0.1104,
+   "models": 10,
+   "share_shown_pct": 12.5,
+   "share_hidden_pct": 5.5,
+   "models_above_zero": 6,
+   "answers": 400
+  },
+  "Ultimate Ears": {
+   "equity": -3.5,
+   "ci95": [
+    -14.0,
+    6.5
+   ],
+   "p_two_sided": 0.5338,
+   "models": 10,
+   "share_shown_pct": 10.0,
+   "share_hidden_pct": 13.5,
+   "models_above_zero": 3,
+   "answers": 400
+  },
+  "Vitamix": {
+   "equity": 2.0,
+   "ci95": [
+    -2.0,
+    7.5
+   ],
+   "p_two_sided": 0.443,
+   "models": 10,
+   "share_shown_pct": 6.5,
+   "share_hidden_pct": 4.5,
+   "models_above_zero": 2,
+   "answers": 400
+  },
+  "Vizio": {
+   "equity": 10.5,
+   "ci95": [
+    0.75,
+    22.5
+   ],
+   "p_two_sided": 0.0262,
+   "models": 10,
+   "share_shown_pct": 13.25,
+   "share_hidden_pct": 2.75,
+   "models_above_zero": 5,
+   "answers": 800
+  },
+  "Western Digital": {
+   "equity": -0.5,
+   "ci95": [
+    -4.5,
+    3.0
+   ],
+   "p_two_sided": 0.9702,
+   "models": 10,
+   "share_shown_pct": 3.5,
+   "share_hidden_pct": 4.0,
+   "models_above_zero": 0,
+   "answers": 400
+  },
+  "Yeti": {
+   "equity": -1.5,
+   "ci95": [
+    -7.5,
+    2.0
+   ],
+   "p_two_sided": 0.8466,
+   "models": 10,
+   "share_shown_pct": 1.5,
+   "share_hidden_pct": 3.0,
+   "models_above_zero": 1,
+   "answers": 400
+  },
+  "eufy": {
+   "equity": 3.0,
+   "ci95": [
+    -1.0,
+    9.5
+   ],
+   "p_two_sided": 0.4158,
+   "models": 10,
+   "share_shown_pct": 4.5,
+   "share_hidden_pct": 1.5,
+   "models_above_zero": 2,
+   "answers": 400
+  },
+  "iRobot": {
+   "equity": -0.0,
+   "ci95": [
+    -7.5,
+    7.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 10,
+   "share_shown_pct": 7.5,
+   "share_hidden_pct": 7.5,
+   "models_above_zero": 4,
+   "answers": 400
+  }
+ },
+ "pooled_open_clean": {
+  "ASICS": {
+   "equity": 4.75,
+   "ci95": [
+    0.25,
+    9.51
+   ],
+   "p_two_sided": 0.0436,
+   "models": 10,
+   "share_shown_pct": 8.25,
+   "share_hidden_pct": 3.5,
+   "models_above_zero": 6,
+   "answers": 800
+  },
+  "ASUS": {
+   "equity": 2.63,
+   "ci95": [
+    -1.87,
+    7.0
+   ],
+   "p_two_sided": 0.2394,
+   "models": 10,
+   "share_shown_pct": 15.5,
+   "share_hidden_pct": 12.88,
+   "models_above_zero": 8,
+   "answers": 1600
+  },
+  "Acer": {
+   "equity": 0.25,
+   "ci95": [
+    -4.25,
+    4.5
+   ],
+   "p_two_sided": 0.8952,
+   "models": 10,
+   "share_shown_pct": 9.75,
+   "share_hidden_pct": 9.5,
+   "models_above_zero": 3,
+   "answers": 800
+  },
+  "Adidas": {
+   "equity": 2.25,
+   "ci95": [
+    -1.0,
+    6.25
+   ],
+   "p_two_sided": 0.2102,
+   "models": 10,
+   "share_shown_pct": 4.75,
+   "share_hidden_pct": 2.5,
+   "models_above_zero": 3,
+   "answers": 800
+  },
+  "AeroPress": {
+   "equity": 27.5,
+   "ci95": [
+    10.0,
+    46.0
+   ],
+   "p_two_sided": 0.0018,
+   "models": 10,
+   "share_shown_pct": 52.5,
+   "share_hidden_pct": 25.0,
+   "models_above_zero": 8,
+   "answers": 400
+  },
+  "Amazon": {
+   "equity": 3.0,
+   "ci95": [
+    -4.0,
+    10.0
+   ],
+   "p_two_sided": 0.4084,
+   "models": 10,
+   "share_shown_pct": 7.5,
+   "share_hidden_pct": 4.5,
+   "models_above_zero": 4,
+   "answers": 400
+  },
+  "Apple": {
+   "equity": 1.81,
+   "ci95": [
+    0.25,
+    3.87
+   ],
+   "p_two_sided": 0.0204,
+   "models": 10,
+   "share_shown_pct": 5.31,
+   "share_hidden_pct": 3.5,
+   "models_above_zero": 8,
+   "answers": 3200
+  },
+  "Audio-Technica": {
+   "equity": 0.5,
+   "ci95": [
+    -7.0,
+    8.5
+   ],
+   "p_two_sided": 0.9104,
+   "models": 10,
+   "share_shown_pct": 9.0,
+   "share_hidden_pct": 8.5,
+   "models_above_zero": 4,
+   "answers": 400
+  },
+  "Beats": {
+   "equity": 3.75,
+   "ci95": [
+    -1.5,
+    9.5
+   ],
+   "p_two_sided": 0.1682,
+   "models": 10,
+   "share_shown_pct": 8.5,
+   "share_hidden_pct": 4.75,
+   "models_above_zero": 6,
+   "answers": 800
+  },
+  "Beyerdynamic": {
+   "equity": 27.5,
+   "ci95": [
+    9.5,
+    45.5
+   ],
+   "p_two_sided": 0.0024,
+   "models": 10,
+   "share_shown_pct": 65.0,
+   "share_hidden_pct": 37.5,
+   "models_above_zero": 7,
+   "answers": 400
+  },
+  "Bose": {
+   "equity": -0.5,
+   "ci95": [
+    -3.38,
+    1.88
+   ],
+   "p_two_sided": 0.7888,
+   "models": 10,
+   "share_shown_pct": 2.88,
+   "share_hidden_pct": 3.37,
+   "models_above_zero": 2,
+   "answers": 1600
+  },
+  "Breville": {
+   "equity": 0.5,
+   "ci95": [
+    -2.75,
+    4.5
+   ],
+   "p_two_sided": 0.8788,
+   "models": 10,
+   "share_shown_pct": 3.5,
+   "share_hidden_pct": 3.0,
+   "models_above_zero": 1,
+   "answers": 800
+  },
+  "Brooks": {
+   "equity": 7.5,
+   "ci95": [
+    1.0,
+    17.0
+   ],
+   "p_two_sided": 0.0186,
+   "models": 10,
+   "share_shown_pct": 9.0,
+   "share_hidden_pct": 1.5,
+   "models_above_zero": 5,
+   "answers": 400
+  },
+  "CamelBak": {
+   "equity": 1.5,
+   "ci95": [
+    -2.0,
+    6.5
+   ],
+   "p_two_sided": 0.531,
+   "models": 10,
+   "share_shown_pct": 5.0,
+   "share_hidden_pct": 3.5,
+   "models_above_zero": 2,
+   "answers": 400
+  },
+  "Canon": {
+   "equity": -4.0,
+   "ci95": [
+    -11.5,
+    1.5
+   ],
+   "p_two_sided": 0.3008,
+   "models": 10,
+   "share_shown_pct": 1.5,
+   "share_hidden_pct": 5.5,
+   "models_above_zero": 1,
+   "answers": 400
+  },
+  "Corsair": {
+   "equity": -0.5,
+   "ci95": [
+    -6.5,
+    5.0
+   ],
+   "p_two_sided": 0.8968,
+   "models": 10,
+   "share_shown_pct": 6.5,
+   "share_hidden_pct": 7.0,
+   "models_above_zero": 2,
+   "answers": 400
+  },
+  "Cuisinart": {
+   "equity": 10.0,
+   "ci95": [
+    1.0,
+    20.5
+   ],
+   "p_two_sided": 0.0202,
+   "models": 10,
+   "share_shown_pct": 17.5,
+   "share_hidden_pct": 7.5,
+   "models_above_zero": 4,
+   "answers": 400
+  },
+  "De'Longhi": {
+   "equity": -0.0,
+   "ci95": [
+    -11.0,
+    12.5
+   ],
+   "p_two_sided": 0.9784,
+   "models": 10,
+   "share_shown_pct": 60.0,
+   "share_hidden_pct": 60.0,
+   "models_above_zero": 4,
+   "answers": 400
+  },
+  "Dell": {
+   "equity": 0.33,
+   "ci95": [
+    -4.5,
+    5.17
+   ],
+   "p_two_sided": 0.8986,
+   "models": 10,
+   "share_shown_pct": 13.67,
+   "share_hidden_pct": 13.33,
+   "models_above_zero": 4,
+   "answers": 1200
+  },
+  "Dyson": {
+   "equity": -0.5,
+   "ci95": [
+    -3.5,
+    2.5
+   ],
+   "p_two_sided": 0.8336,
+   "models": 10,
+   "share_shown_pct": 2.0,
+   "share_hidden_pct": 2.5,
+   "models_above_zero": 0,
+   "answers": 400
+  },
+  "Fitbit": {
+   "equity": 2.5,
+   "ci95": [
+    -2.0,
+    7.0
+   ],
+   "p_two_sided": 0.2614,
+   "models": 10,
+   "share_shown_pct": 6.5,
+   "share_hidden_pct": 4.0,
+   "models_above_zero": 5,
+   "answers": 400
+  },
+  "Fujifilm": {
+   "equity": 3.5,
+   "ci95": [
+    -1.0,
+    10.0
+   ],
+   "p_two_sided": 0.2352,
+   "models": 10,
+   "share_shown_pct": 8.5,
+   "share_hidden_pct": 5.0,
+   "models_above_zero": 3,
+   "answers": 400
+  },
+  "Garmin": {
+   "equity": -0.5,
+   "ci95": [
+    -4.5,
+    3.5
+   ],
+   "p_two_sided": 0.8498,
+   "models": 10,
+   "share_shown_pct": 3.5,
+   "share_hidden_pct": 4.0,
+   "models_above_zero": 1,
+   "answers": 400
+  },
+  "Google": {
+   "equity": -0.3,
+   "ci95": [
+    -2.6,
+    2.0
+   ],
+   "p_two_sided": 0.8186,
+   "models": 10,
+   "share_shown_pct": 6.2,
+   "share_hidden_pct": 6.5,
+   "models_above_zero": 2,
+   "answers": 2000
+  },
+  "HOKA": {
+   "equity": 0.0,
+   "ci95": [
+    -4.5,
+    4.5
+   ],
+   "p_two_sided": 1.0,
+   "models": 10,
+   "share_shown_pct": 4.5,
+   "share_hidden_pct": 4.5,
+   "models_above_zero": 2,
+   "answers": 400
+  },
+  "HP": {
+   "equity": -0.5,
+   "ci95": [
+    -4.33,
+    2.83
+   ],
+   "p_two_sided": 0.8178,
+   "models": 10,
+   "share_shown_pct": 6.0,
+   "share_hidden_pct": 6.5,
+   "models_above_zero": 3,
+   "answers": 1200
+  },
+  "Hamilton Beach": {
+   "equity": 0.0,
+   "ci95": [
+    -4.0,
+    4.5
+   ],
+   "p_two_sided": 1.0,
+   "models": 10,
+   "share_shown_pct": 2.5,
+   "share_hidden_pct": 2.5,
+   "models_above_zero": 1,
+   "answers": 400
+  },
+  "Herschel": {
+   "equity": 6.0,
+   "ci95": [
+    -1.5,
+    14.5
+   ],
+   "p_two_sided": 0.1382,
+   "models": 10,
+   "share_shown_pct": 9.0,
+   "share_hidden_pct": 3.0,
+   "models_above_zero": 4,
+   "answers": 400
+  },
+  "Hydro Flask": {
+   "equity": 1.5,
+   "ci95": [
+    -7.5,
+    11.0
+   ],
+   "p_two_sided": 0.764,
+   "models": 10,
+   "share_shown_pct": 11.0,
+   "share_hidden_pct": 9.5,
+   "models_above_zero": 3,
+   "answers": 400
+  },
+  "HyperX": {
+   "equity": 0.5,
+   "ci95": [
+    -7.5,
+    9.0
+   ],
+   "p_two_sided": 0.947,
+   "models": 10,
+   "share_shown_pct": 8.0,
+   "share_hidden_pct": 7.5,
+   "models_above_zero": 3,
+   "answers": 400
+  },
+  "Insignia": {
+   "equity": 0.5,
+   "ci95": [
+    -5.0,
+    6.0
+   ],
+   "p_two_sided": 0.8882,
+   "models": 10,
+   "share_shown_pct": 6.0,
+   "share_hidden_pct": 5.5,
+   "models_above_zero": 3,
+   "answers": 400
+  },
+  "JBL": {
+   "equity": 7.1,
+   "ci95": [
+    2.1,
+    11.7
+   ],
+   "p_two_sided": 0.0072,
+   "models": 10,
+   "share_shown_pct": 21.7,
+   "share_hidden_pct": 14.6,
+   "models_above_zero": 9,
+   "answers": 2000
+  },
+  "Jabra": {
+   "equity": 2.5,
+   "ci95": [
+    -1.0,
+    7.0
+   ],
+   "p_two_sided": 0.227,
+   "models": 10,
+   "share_shown_pct": 4.5,
+   "share_hidden_pct": 2.0,
+   "models_above_zero": 3,
+   "answers": 400
+  },
+  "JanSport": {
+   "equity": 0.0,
+   "ci95": [
+    -5.5,
+    6.5
+   ],
+   "p_two_sided": 0.9998,
+   "models": 10,
+   "share_shown_pct": 9.0,
+   "share_hidden_pct": 9.0,
+   "models_above_zero": 1,
+   "answers": 400
+  },
+  "Keurig": {
+   "equity": -1.0,
+   "ci95": [
+    -3.25,
+    1.0
+   ],
+   "p_two_sided": 0.3442,
+   "models": 10,
+   "share_shown_pct": 1.5,
+   "share_hidden_pct": 2.5,
+   "models_above_zero": 0,
+   "answers": 800
+  },
+  "KitchenAid": {
+   "equity": 2.0,
+   "ci95": [
+    -4.0,
+    8.0
+   ],
+   "p_two_sided": 0.4956,
+   "models": 10,
+   "share_shown_pct": 9.0,
+   "share_hidden_pct": 7.0,
+   "models_above_zero": 4,
+   "answers": 400
+  },
+  "LG": {
+   "equity": 3.88,
+   "ci95": [
+    0.75,
+    7.75
+   ],
+   "p_two_sided": 0.0098,
+   "models": 10,
+   "share_shown_pct": 7.13,
+   "share_hidden_pct": 3.25,
+   "models_above_zero": 7,
+   "answers": 1600
+  },
+  "Lenovo": {
+   "equity": 0.5,
+   "ci95": [
+    -2.83,
+    3.67
+   ],
+   "p_two_sided": 0.7888,
+   "models": 10,
+   "share_shown_pct": 7.83,
+   "share_hidden_pct": 7.33,
+   "models_above_zero": 6,
+   "answers": 1200
+  },
+  "Linksys": {
+   "equity": -0.5,
+   "ci95": [
+    -5.5,
+    4.0
+   ],
+   "p_two_sided": 0.9292,
+   "models": 10,
+   "share_shown_pct": 5.0,
+   "share_hidden_pct": 5.5,
+   "models_above_zero": 2,
+   "answers": 400
+  },
+  "Logitech": {
+   "equity": 2.0,
+   "ci95": [
+    -2.5,
+    7.5
+   ],
+   "p_two_sided": 0.4802,
+   "models": 10,
+   "share_shown_pct": 4.0,
+   "share_hidden_pct": 2.0,
+   "models_above_zero": 2,
+   "answers": 400
+  },
+  "Motorola": {
+   "equity": -2.5,
+   "ci95": [
+    -6.75,
+    1.0
+   ],
+   "p_two_sided": 0.1782,
+   "models": 10,
+   "share_shown_pct": 3.25,
+   "share_hidden_pct": 5.75,
+   "models_above_zero": 0,
+   "answers": 800
+  },
+  "Mr. Coffee": {
+   "equity": -1.5,
+   "ci95": [
+    -7.5,
+    2.5
+   ],
+   "p_two_sided": 0.6656,
+   "models": 10,
+   "share_shown_pct": 3.5,
+   "share_hidden_pct": 5.0,
+   "models_above_zero": 1,
+   "answers": 400
+  },
+  "Nespresso": {
+   "equity": 0.5,
+   "ci95": [
+    -3.5,
+    4.0
+   ],
+   "p_two_sided": 0.7756,
+   "models": 10,
+   "share_shown_pct": 6.0,
+   "share_hidden_pct": 5.5,
+   "models_above_zero": 4,
+   "answers": 800
+  },
+  "Netgear": {
+   "equity": 1.5,
+   "ci95": [
+    -2.0,
+    6.0
+   ],
+   "p_two_sided": 0.543,
+   "models": 10,
+   "share_shown_pct": 4.0,
+   "share_hidden_pct": 2.5,
+   "models_above_zero": 3,
+   "answers": 400
+  },
+  "New Balance": {
+   "equity": 8.5,
+   "ci95": [
+    2.0,
+    17.0
+   ],
+   "p_two_sided": 0.0044,
+   "models": 10,
+   "share_shown_pct": 11.0,
+   "share_hidden_pct": 2.5,
+   "models_above_zero": 7,
+   "answers": 400
+  },
+  "Nike": {
+   "equity": -1.67,
+   "ci95": [
+    -5.5,
+    2.17
+   ],
+   "p_two_sided": 0.3818,
+   "models": 10,
+   "share_shown_pct": 4.33,
+   "share_hidden_pct": 6.0,
+   "models_above_zero": 1,
+   "answers": 1200
+  },
+  "Nikon": {
+   "equity": -0.5,
+   "ci95": [
+    -6.5,
+    5.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 10,
+   "share_shown_pct": 2.5,
+   "share_hidden_pct": 3.0,
+   "models_above_zero": 1,
+   "answers": 400
+  },
+  "Ninja": {
+   "equity": 5.0,
+   "ci95": [
+    -3.5,
+    14.0
+   ],
+   "p_two_sided": 0.2698,
+   "models": 10,
+   "share_shown_pct": 13.0,
+   "share_hidden_pct": 8.0,
+   "models_above_zero": 5,
+   "answers": 400
+  },
+  "OnePlus": {
+   "equity": 8.0,
+   "ci95": [
+    -4.0,
+    21.5
+   ],
+   "p_two_sided": 0.214,
+   "models": 10,
+   "share_shown_pct": 22.5,
+   "share_hidden_pct": 14.5,
+   "models_above_zero": 7,
+   "answers": 400
+  },
+  "Oral-B": {
+   "equity": 0.0,
+   "ci95": [
+    -5.0,
+    5.0
+   ],
+   "p_two_sided": 1.0,
+   "models": 10,
+   "share_shown_pct": 7.0,
+   "share_hidden_pct": 7.0,
+   "models_above_zero": 1,
+   "answers": 400
+  },
+  "Osprey": {
+   "equity": 1.0,
+   "ci95": [
+    -3.0,
+    5.0
+   ],
+   "p_two_sided": 0.6154,
+   "models": 10,
+   "share_shown_pct": 3.5,
+   "share_hidden_pct": 2.5,
+   "models_above_zero": 3,
+   "answers": 400
+  },
+  "Philips": {
+   "equity": 0.0,
+   "ci95": [
+    -4.25,
+    4.25
+   ],
+   "p_two_sided": 0.994,
+   "models": 10,
+   "share_shown_pct": 6.0,
+   "share_hidden_pct": 6.0,
+   "models_above_zero": 3,
+   "answers": 800
+  },
+  "Quip": {
+   "equity": 2.0,
+   "ci95": [
+    -1.5,
+    7.0
+   ],
+   "p_two_sided": 0.4154,
+   "models": 10,
+   "share_shown_pct": 4.0,
+   "share_hidden_pct": 2.0,
+   "models_above_zero": 3,
+   "answers": 400
+  },
+  "Razer": {
+   "equity": -2.0,
+   "ci95": [
+    -8.0,
+    3.5
+   ],
+   "p_two_sided": 0.5208,
+   "models": 10,
+   "share_shown_pct": 4.0,
+   "share_hidden_pct": 6.0,
+   "models_above_zero": 2,
+   "answers": 400
+  },
+  "S'well": {
+   "equity": 3.0,
+   "ci95": [
+    -0.5,
+    9.0
+   ],
+   "p_two_sided": 0.3152,
+   "models": 10,
+   "share_shown_pct": 4.0,
+   "share_hidden_pct": 1.0,
+   "models_above_zero": 2,
+   "answers": 400
+  },
+  "Salomon": {
+   "equity": 3.0,
+   "ci95": [
+    -2.5,
+    9.5
+   ],
+   "p_two_sided": 0.3132,
+   "models": 10,
+   "share_shown_pct": 7.0,
+   "share_hidden_pct": 4.0,
+   "models_above_zero": 3,
+   "answers": 400
+  },
+  "Samsung": {
+   "equity": 2.0,
+   "ci95": [
+    -0.42,
+    4.29
+   ],
+   "p_two_sided": 0.0992,
+   "models": 10,
+   "share_shown_pct": 8.17,
+   "share_hidden_pct": 6.17,
+   "models_above_zero": 8,
+   "answers": 4800
+  },
+  "SanDisk": {
+   "equity": 1.5,
+   "ci95": [
+    -2.5,
+    6.5
+   ],
+   "p_two_sided": 0.6528,
+   "models": 10,
+   "share_shown_pct": 4.0,
+   "share_hidden_pct": 2.5,
+   "models_above_zero": 1,
+   "answers": 400
+  },
+  "Saucony": {
+   "equity": 2.5,
+   "ci95": [
+    0.0,
+    7.5
+   ],
+   "p_two_sided": 0.3058,
+   "models": 10,
+   "share_shown_pct": 3.5,
+   "share_hidden_pct": 1.0,
+   "models_above_zero": 2,
+   "answers": 400
+  },
+  "Seagate": {
+   "equity": 1.5,
+   "ci95": [
+    -1.0,
+    5.0
+   ],
+   "p_two_sided": 0.5004,
+   "models": 10,
+   "share_shown_pct": 2.5,
+   "share_hidden_pct": 1.0,
+   "models_above_zero": 2,
+   "answers": 400
+  },
+  "Sennheiser": {
+   "equity": 22.5,
+   "ci95": [
+    6.5,
+    40.0
+   ],
+   "p_two_sided": 0.0036,
+   "models": 10,
+   "share_shown_pct": 26.0,
+   "share_hidden_pct": 3.5,
+   "models_above_zero": 8,
+   "answers": 400
+  },
+  "Shark": {
+   "equity": -0.5,
+   "ci95": [
+    -12.5,
+    10.51
+   ],
+   "p_two_sided": 0.9612,
+   "models": 10,
+   "share_shown_pct": 18.5,
+   "share_hidden_pct": 19.0,
+   "models_above_zero": 4,
+   "answers": 400
+  },
+  "Shokz": {
+   "equity": 1.0,
+   "ci95": [
+    -3.5,
+    6.0
+   ],
+   "p_two_sided": 0.7382,
+   "models": 10,
+   "share_shown_pct": 5.5,
+   "share_hidden_pct": 4.5,
+   "models_above_zero": 4,
+   "answers": 400
+  },
+  "Sony": {
+   "equity": 1.89,
+   "ci95": [
+    0.11,
+    3.72
+   ],
+   "p_two_sided": 0.0352,
+   "models": 10,
+   "share_shown_pct": 6.94,
+   "share_hidden_pct": 5.06,
+   "models_above_zero": 8,
+   "answers": 3600
+  },
+  "Stanley": {
+   "equity": -6.5,
+   "ci95": [
+    -13.0,
+    -0.99
+   ],
+   "p_two_sided": 0.0254,
+   "models": 10,
+   "share_shown_pct": 4.5,
+   "share_hidden_pct": 11.0,
+   "models_above_zero": 0,
+   "answers": 400
+  },
+  "The North Face": {
+   "equity": 6.5,
+   "ci95": [
+    -2.0,
+    16.5
+   ],
+   "p_two_sided": 0.1502,
+   "models": 10,
+   "share_shown_pct": 12.5,
+   "share_hidden_pct": 6.0,
+   "models_above_zero": 5,
+   "answers": 400
+  },
+  "Ultimate Ears": {
+   "equity": 1.0,
+   "ci95": [
+    -7.5,
+    10.5
+   ],
+   "p_two_sided": 0.8266,
+   "models": 10,
+   "share_shown_pct": 10.0,
+   "share_hidden_pct": 9.0,
+   "models_above_zero": 3,
+   "answers": 400
+  },
+  "Vitamix": {
+   "equity": 4.5,
+   "ci95": [
+    0.0,
+    12.0
+   ],
+   "p_two_sided": 0.1566,
+   "models": 10,
+   "share_shown_pct": 6.5,
+   "share_hidden_pct": 2.0,
+   "models_above_zero": 3,
+   "answers": 400
+  },
+  "Vizio": {
+   "equity": 6.5,
+   "ci95": [
+    -4.25,
+    19.25
+   ],
+   "p_two_sided": 0.2854,
+   "models": 10,
+   "share_shown_pct": 13.25,
+   "share_hidden_pct": 6.75,
+   "models_above_zero": 3,
+   "answers": 800
+  },
+  "Western Digital": {
+   "equity": 0.0,
+   "ci95": [
+    -4.0,
+    3.5
+   ],
+   "p_two_sided": 1.0,
+   "models": 10,
+   "share_shown_pct": 3.5,
+   "share_hidden_pct": 3.5,
+   "models_above_zero": 1,
+   "answers": 400
+  },
+  "Yeti": {
+   "equity": -1.0,
+   "ci95": [
+    -4.5,
+    2.0
+   ],
+   "p_two_sided": 0.7518,
+   "models": 10,
+   "share_shown_pct": 1.5,
+   "share_hidden_pct": 2.5,
+   "models_above_zero": 0,
+   "answers": 400
+  },
+  "eufy": {
+   "equity": 3.0,
+   "ci95": [
+    -1.0,
+    9.5
+   ],
+   "p_two_sided": 0.4088,
+   "models": 10,
+   "share_shown_pct": 4.5,
+   "share_hidden_pct": 1.5,
+   "models_above_zero": 2,
+   "answers": 400
+  },
+  "iRobot": {
+   "equity": 1.0,
+   "ci95": [
+    -8.0,
+    9.5
+   ],
+   "p_two_sided": 0.7988,
+   "models": 10,
+   "share_shown_pct": 7.5,
+   "share_hidden_pct": 6.5,
+   "models_above_zero": 4,
+   "answers": 400
+  }
+ },
+ "correlations_corpus_brands": {
+  "log_freq_with_category": {
+   "brands": 73,
+   "spearman": 0.087,
+   "spearman_ci95_brands_resampled_2000": [
+    -0.138,
+    0.308
+   ],
+   "spearman_p_two_sided": 0.443,
+   "pearson": 0.058
+  },
+  "log_freq_name_alone": {
+   "brands": 73,
+   "spearman": 0.054,
+   "spearman_ci95_brands_resampled_2000": [
+    -0.181,
+    0.274
+   ],
+   "spearman_p_two_sided": 0.661,
+   "pearson": -0.07
+  },
+  "log10_wikipedia_monthly_views": {
+   "brands": 47,
+   "spearman": 0.062,
+   "spearman_ci95_brands_resampled_2000": [
+    -0.243,
+    0.348
+   ],
+   "spearman_p_two_sided": 0.716,
+   "pearson": -0.05
+  },
+  "coded_high_share": {
+   "brands": 73,
+   "spearman": -0.034,
+   "spearman_ci95_brands_resampled_2000": [
+    -0.275,
+    0.191
+   ],
+   "spearman_p_two_sided": 0.792,
+   "pearson": -0.167
+  },
+  "consumer_familiarity_mean": {
+   "brands": 48,
+   "spearman": -0.139,
+   "spearman_ci95_brands_resampled_2000": [
+    -0.43,
+    0.173
+   ],
+   "spearman_p_two_sided": 0.368,
+   "pearson": -0.179
+  },
+  "leak_rows_names_hidden": {
+   "brands": 73,
+   "spearman": 0.214,
+   "spearman_ci95_brands_resampled_2000": [
+    -0.02,
+    0.424
+   ],
+   "spearman_p_two_sided": 0.075,
+   "pearson": 0.009
+  },
+  "log10_brand_value": {
+   "brands": 12,
+   "spearman": -0.112,
+   "spearman_ci95_brands_resampled_2000": [
+    -0.65,
+    0.578
+   ],
+   "spearman_p_two_sided": 0.732,
+   "pearson": -0.145
+  },
+  "best_rank": {
+   "brands": 12,
+   "spearman": 0.112,
+   "spearman_ci95_brands_resampled_2000": [
+    -0.615,
+    0.629
+   ],
+   "spearman_p_two_sided": 0.743,
+   "pearson": -0.062
+  },
+  "in_a_value_ranking": {
+   "brands": 73,
+   "spearman": 0.092,
+   "spearman_ci95_brands_resampled_2000": [
+    -0.101,
+    0.274
+   ],
+   "spearman_p_two_sided": 0.352,
+   "pearson": -0.08
+  }
+ },
+ "correlations_claude_brands": {
+  "log_freq_with_category": {
+   "brands": 73,
+   "spearman": 0.082,
+   "spearman_ci95_brands_resampled_2000": [
+    -0.167,
+    0.308
+   ],
+   "spearman_p_two_sided": 0.514,
+   "pearson": -0.069
+  },
+  "log_freq_name_alone": {
+   "brands": 73,
+   "spearman": 0.15,
+   "spearman_ci95_brands_resampled_2000": [
+    -0.093,
+    0.393
+   ],
+   "spearman_p_two_sided": 0.226,
+   "pearson": 0.038
+  },
+  "log10_wikipedia_monthly_views": {
+   "brands": 47,
+   "spearman": 0.105,
+   "spearman_ci95_brands_resampled_2000": [
+    -0.182,
+    0.376
+   ],
+   "spearman_p_two_sided": 0.467,
+   "pearson": 0.04
+  },
+  "coded_high_share": {
+   "brands": 73,
+   "spearman": -0.054,
+   "spearman_ci95_brands_resampled_2000": [
+    -0.275,
+    0.177
+   ],
+   "spearman_p_two_sided": 0.664,
+   "pearson": -0.038
+  },
+  "consumer_familiarity_mean": {
+   "brands": 48,
+   "spearman": 0.061,
+   "spearman_ci95_brands_resampled_2000": [
+    -0.215,
+    0.318
+   ],
+   "spearman_p_two_sided": 0.652,
+   "pearson": 0.09
+  },
+  "leak_rows_names_hidden": {
+   "brands": 73,
+   "spearman": 0.116,
+   "spearman_ci95_brands_resampled_2000": [
+    -0.145,
+    0.354
+   ],
+   "spearman_p_two_sided": 0.332,
+   "pearson": 0.005
+  },
+  "log10_brand_value": {
+   "brands": 12,
+   "spearman": 0.008,
+   "spearman_ci95_brands_resampled_2000": [
+    -0.5,
+    0.576
+   ],
+   "spearman_p_two_sided": 0.9705,
+   "pearson": -0.216
+  },
+  "best_rank": {
+   "brands": 12,
+   "spearman": -0.008,
+   "spearman_ci95_brands_resampled_2000": [
+    -0.584,
+    0.505
+   ],
+   "spearman_p_two_sided": 0.9825,
+   "pearson": 0.096
+  },
+  "in_a_value_ranking": {
+   "brands": 73,
+   "spearman": -0.025,
+   "spearman_ci95_brands_resampled_2000": [
+    -0.245,
+    0.223
+   ],
+   "spearman_p_two_sided": 0.851,
+   "pearson": -0.064
+  }
+ },
+ "corpus_vs_claude_spearman": 0.524,
+ "correlations_open_brands": {
+  "log_freq_with_category": {
+   "brands": 73,
+   "spearman": -0.043,
+   "spearman_ci95_brands_resampled_2000": [
+    -0.296,
+    0.199
+   ],
+   "spearman_p_two_sided": 0.721,
+   "pearson": 0.041
+  },
+  "log_freq_name_alone": {
+   "brands": 73,
+   "spearman": -0.366,
+   "spearman_ci95_brands_resampled_2000": [
+    -0.545,
+    -0.152
+   ],
+   "spearman_p_two_sided": 0.0,
+   "pearson": -0.275
+  },
+  "log10_wikipedia_monthly_views": {
+   "brands": 47,
+   "spearman": -0.276,
+   "spearman_ci95_brands_resampled_2000": [
+    -0.522,
+    -0.014
+   ],
+   "spearman_p_two_sided": 0.039,
+   "pearson": -0.137
+  },
+  "coded_high_share": {
+   "brands": 73,
+   "spearman": -0.315,
+   "spearman_ci95_brands_resampled_2000": [
+    -0.526,
+    -0.09
+   ],
+   "spearman_p_two_sided": 0.006,
+   "pearson": -0.273
+  },
+  "consumer_familiarity_mean": {
+   "brands": 48,
+   "spearman": -0.252,
+   "spearman_ci95_brands_resampled_2000": [
+    -0.49,
+    0.017
+   ],
+   "spearman_p_two_sided": 0.069,
+   "pearson": -0.368
+  },
+  "leak_rows_names_hidden": {
+   "brands": 73,
+   "spearman": -0.063,
+   "spearman_ci95_brands_resampled_2000": [
+    -0.287,
+    0.174
+   ],
+   "spearman_p_two_sided": 0.593,
+   "pearson": -0.083
+  },
+  "log10_brand_value": {
+   "brands": 12,
+   "spearman": -0.175,
+   "spearman_ci95_brands_resampled_2000": [
+    -0.75,
+    0.476
+   ],
+   "spearman_p_two_sided": 0.596,
+   "pearson": -0.092
+  },
+  "best_rank": {
+   "brands": 12,
+   "spearman": 0.175,
+   "spearman_ci95_brands_resampled_2000": [
+    -0.48,
+    0.75
+   ],
+   "spearman_p_two_sided": 0.599,
+   "pearson": 0.208
+  },
+  "in_a_value_ranking": {
+   "brands": 73,
+   "spearman": -0.155,
+   "spearman_ci95_brands_resampled_2000": [
+    -0.329,
+    0.011
+   ],
+   "spearman_p_two_sided": 0.076,
+   "pearson": -0.138
+  }
+ },
+ "corpus_vs_open_spearman": 0.365,
+ "claude_vs_open_spearman": 0.102,
+ "consumer_familiarity_coverage": {
+  "brands_chosen_by_3_or_more_participants": 23,
+  "brands_chosen_at_all": 48,
+  "note": "the chat study's tables were generated for each participant, so few of the 73 brands were chosen often"
+ },
+ "regressions_corpus": {
+  "frequency": {
+   "rows": 4020,
+   "brands": 73,
+   "models": 30,
+   "terms": {
+    "z_freq": {
+     "coef": -0.462,
+     "se": 0.32,
+     "ci95": [
+      -1.089,
+      0.166
+     ],
+     "p": 0.149
+    }
+   },
+   "r2": 0.02
+  },
+  "frequency and coded familiarity": {
+   "rows": 4020,
+   "brands": 73,
+   "models": 30,
+   "terms": {
+    "z_freq": {
+     "coef": -0.082,
+     "se": 0.277,
+     "ci95": [
+      -0.625,
+      0.46
+     ],
+     "p": 0.766
+    },
+    "coded_high": {
+     "coef": -1.673,
+     "se": 1.033,
+     "ci95": [
+      -3.699,
+      0.352
+     ],
+     "p": 0.105
+    }
+   },
+   "r2": 0.025
+  },
+  "frequency, coded familiarity and page views": {
+   "rows": 3150,
+   "brands": 47,
+   "models": 30,
+   "terms": {
+    "z_freq": {
+     "coef": -0.771,
+     "se": 0.313,
+     "ci95": [
+      -1.384,
+      -0.159
+     ],
+     "p": 0.0136
+    },
+    "coded_high": {
+     "coef": 0.049,
+     "se": 1.277,
+     "ci95": [
+      -2.454,
+      2.552
+     ],
+     "p": 0.969
+    },
+    "z_views": {
+     "coef": -1.488,
+     "se": 0.696,
+     "ci95": [
+      -2.851,
+      -0.124
+     ],
+     "p": 0.0325
+    }
+   },
+   "r2": 0.033
+  },
+  "frequency, coded familiarity and a published brand value": {
+   "rows": 4020,
+   "brands": 73,
+   "models": 30,
+   "terms": {
+    "z_freq": {
+     "coef": -0.062,
+     "se": 0.316,
+     "ci95": [
+      -0.68,
+      0.557
+     ],
+     "p": 0.845
+    },
+    "coded_high": {
+     "coef": -0.865,
+     "se": 1.226,
+     "ci95": [
+      -3.268,
+      1.539
+     ],
+     "p": 0.481
+    },
+    "in_a_value_ranking": {
+     "coef": -1.402,
+     "se": 1.224,
+     "ci95": [
+      -3.801,
+      0.997
+     ],
+     "p": 0.252
+    }
+   },
+   "r2": 0.027
+  },
+  "frequency, coded familiarity and consumer familiarity (brands chosen by 3 or more chatbot participants)": {
+   "rows": 2190,
+   "brands": 23,
+   "models": 30,
+   "terms": {
+    "z_freq": {
+     "coef": -0.546,
+     "se": 0.622,
+     "ci95": [
+      -1.764,
+      0.672
+     ],
+     "p": 0.38
+    },
+    "coded_high": {
+     "coef": -1.193,
+     "se": 1.221,
+     "ci95": [
+      -3.587,
+      1.201
+     ],
+     "p": 0.329
+    },
+    "z_consumer_familiarity": {
+     "coef": -0.443,
+     "se": 0.761,
+     "ci95": [
+      -1.935,
+      1.05
+     ],
+     "p": 0.561
+    }
+   },
+   "r2": 0.032
+  },
+  "exploratory: frequency, coded familiarity, a published brand value and the product's appeal with names hidden": {
+   "rows": 4020,
+   "brands": 73,
+   "models": 30,
+   "terms": {
+    "z_freq": {
+     "coef": 0.34,
+     "se": 0.415,
+     "ci95": [
+      -0.473,
+      1.153
+     ],
+     "p": 0.413
+    },
+    "coded_high": {
+     "coef": -1.075,
+     "se": 1.178,
+     "ci95": [
+      -3.383,
+      1.233
+     ],
+     "p": 0.361
+    },
+    "in_a_value_ranking": {
+     "coef": -0.658,
+     "se": 1.025,
+     "ci95": [
+      -2.667,
+      1.352
+     ],
+     "p": 0.521
+    },
+    "z_appeal": {
+     "coef": 2.229,
+     "se": 1.096,
+     "ci95": [
+      0.08,
+      4.378
+     ],
+     "p": 0.042
+    }
+   },
+   "r2": 0.065
+  }
+ },
+ "families_corpus": {
+  "all familiar brands": {
+   "brands": 73,
+   "interaction_sum_of_squares": 4147.5,
+   "p_permutation": 0.003,
+   "permutations": 2000,
+   "family_models": {
+    "Google": 10,
+    "OpenAI": 9,
+    "Anthropic": 6,
+    "other open-weight developers": 5
+   },
+   "spearman_between_families_over_brands": {
+    "Anthropic | Google": 0.401,
+    "Anthropic | OpenAI": 0.696,
+    "Anthropic | other open-weight developers": 0.486,
+    "Google | OpenAI": 0.435,
+    "Google | other open-weight developers": 0.396,
+    "OpenAI | other open-weight developers": 0.482
+   }
+  },
+  "brands coded high familiarity in every table": {
+   "brands": 34,
+   "interaction_sum_of_squares": 1312.7,
+   "p_permutation": 0.002,
+   "permutations": 2000,
+   "family_models": {
+    "Google": 10,
+    "OpenAI": 9,
+    "Anthropic": 6,
+    "other open-weight developers": 5
+   },
+   "spearman_between_families_over_brands": {
+    "Anthropic | Google": 0.246,
+    "Anthropic | OpenAI": 0.775,
+    "Anthropic | other open-weight developers": 0.456,
+    "Google | OpenAI": 0.143,
+    "Google | other open-weight developers": 0.235,
+    "OpenAI | other open-weight developers": 0.388
+   }
+  },
+  "brands coded medium familiarity in every table": {
+   "brands": 37,
+   "interaction_sum_of_squares": 2545.9,
+   "p_permutation": 0.0095,
+   "permutations": 2000,
+   "family_models": {
+    "Google": 10,
+    "OpenAI": 9,
+    "Anthropic": 6,
+    "other open-weight developers": 5
+   },
+   "spearman_between_families_over_brands": {
+    "Anthropic | Google": 0.495,
+    "Anthropic | OpenAI": 0.604,
+    "Anthropic | other open-weight developers": 0.527,
+    "Google | OpenAI": 0.649,
+    "Google | other open-weight developers": 0.518,
+    "OpenAI | other open-weight developers": 0.614
+   }
+  },
+  "brands in a published brand-value ranking": {
+   "brands": 12,
+   "interaction_sum_of_squares": 276.3,
+   "p_permutation": 0.002,
+   "permutations": 2000,
+   "family_models": {
+    "Google": 10,
+    "OpenAI": 9,
+    "Anthropic": 6,
+    "other open-weight developers": 5
+   },
+   "spearman_between_families_over_brands": {
+    "Anthropic | Google": 0.236,
+    "Anthropic | OpenAI": 0.857,
+    "Anthropic | other open-weight developers": 0.159,
+    "Google | OpenAI": 0.189,
+    "Google | other open-weight developers": 0.287,
+    "OpenAI | other open-weight developers": 0.035
+   }
+  }
+ },
+ "largest_differences_between_families": [
+  {
+   "brand": "Shark",
+   "range_points": 37.0,
+   "coded_high_share": 0.0,
+   "by_family": {
+    "Anthropic": 15.0,
+    "Google": -4.0,
+    "OpenAI": -1.11,
+    "other open-weight developers": -22.0
+   },
+   "in_a_value_ranking": 0
+  },
+  {
+   "brand": "Fujifilm",
+   "range_points": 35.0,
+   "coded_high_share": 0.0,
+   "by_family": {
+    "Anthropic": 32.5,
+    "Google": -2.5,
+    "OpenAI": 6.67,
+    "other open-weight developers": 8.0
+   },
+   "in_a_value_ranking": 0
+  },
+  {
+   "brand": "Ninja",
+   "range_points": 29.83,
+   "coded_high_share": 1.0,
+   "by_family": {
+    "Anthropic": 33.33,
+    "Google": 3.5,
+    "OpenAI": 15.0,
+    "other open-weight developers": 5.0
+   },
+   "in_a_value_ranking": 0
+  },
+  {
+   "brand": "OnePlus",
+   "range_points": 21.39,
+   "coded_high_share": 0.0,
+   "by_family": {
+    "Anthropic": 24.17,
+    "Google": 4.5,
+    "OpenAI": 2.78,
+    "other open-weight developers": 10.0
+   },
+   "in_a_value_ranking": 0
+  },
+  {
+   "brand": "AeroPress",
+   "range_points": 20.83,
+   "coded_high_share": 0.0,
+   "by_family": {
+    "Anthropic": 39.17,
+    "Google": 22.5,
+    "OpenAI": 18.33,
+    "other open-weight developers": 19.0
+   },
+   "in_a_value_ranking": 0
+  },
+  {
+   "brand": "JBL",
+   "range_points": 17.2,
+   "coded_high_share": 0.8,
+   "by_family": {
+    "Anthropic": 20.0,
+    "Google": 4.1,
+    "OpenAI": 9.22,
+    "other open-weight developers": 2.8
+   },
+   "in_a_value_ranking": 0
+  },
+  {
+   "brand": "iRobot",
+   "range_points": 17.0,
+   "coded_high_share": 1.0,
+   "by_family": {
+    "Anthropic": 0.83,
+    "Google": 0.0,
+    "OpenAI": 4.44,
+    "other open-weight developers": 17.0
+   },
+   "in_a_value_ranking": 0
+  },
+  {
+   "brand": "Philips",
+   "range_points": 16.75,
+   "coded_high_share": 1.0,
+   "by_family": {
+    "Anthropic": 16.25,
+    "Google": -0.5,
+    "OpenAI": 3.33,
+    "other open-weight developers": 4.0
+   },
+   "in_a_value_ranking": 1
+  },
+  {
+   "brand": "Beyerdynamic",
+   "range_points": 16.33,
+   "coded_high_share": 0.0,
+   "by_family": {
+    "Anthropic": 23.33,
+    "Google": 9.5,
+    "OpenAI": 17.22,
+    "other open-weight developers": 7.0
+   },
+   "in_a_value_ranking": 0
+  },
+  {
+   "brand": "Sennheiser",
+   "range_points": 14.83,
+   "coded_high_share": 0.0,
+   "by_family": {
+    "Anthropic": 13.33,
+    "Google": 21.5,
+    "OpenAI": 6.67,
+    "other open-weight developers": 15.0
+   },
+   "in_a_value_ranking": 0
+  },
+  {
+   "brand": "Dell",
+   "range_points": 14.61,
+   "coded_high_share": 1.0,
+   "by_family": {
+    "Anthropic": 10.28,
+    "Google": -0.5,
+    "OpenAI": 4.26,
+    "other open-weight developers": -4.33
+   },
+   "in_a_value_ranking": 1
+  },
+  {
+   "brand": "Brooks",
+   "range_points": 14.0,
+   "coded_high_share": 0.0,
+   "by_family": {
+    "Anthropic": 15.0,
+    "Google": 1.0,
+    "OpenAI": 3.89,
+    "other open-weight developers": 3.0
+   },
+   "in_a_value_ranking": 0
+  }
+ ],
+ "leaks": {
+  "brands_with_a_leak_in_a_names_hidden_prompt": 50,
+  "corpus_mean_equity_brands_with_a_leak": 2.36,
+  "corpus_mean_equity_other_brands": 2.29,
+  "claude_equity_against_cleaned_minus_against_original_hidden": {
+   "brands_with_a_leak_mean": 0.42,
+   "other_brands_mean": 0.34,
+   "largest": {
+    "Beyerdynamic": 18.75,
+    "Lenovo": 7.08,
+    "Beats": 3.76,
+    "Nike": -2.92,
+    "OnePlus": 2.5,
+    "ASICS": 1.26,
+    "AeroPress": -1.25,
+    "Netgear": -1.25
+   },
+   "note": "the cleaned prompts differ from the original names-hidden prompts only in the 175 replacements"
+  },
+  "open_equity_against_cleaned_minus_against_original_hidden": {
+   "brands_with_a_leak_mean": 0.56,
+   "other_brands_mean": 0.03,
+   "largest": {
+    "Beyerdynamic": 18.5,
+    "Ninja": 5.0,
+    "Ultimate Ears": 4.5,
+    "Vizio": -4.0,
+    "Corsair": -3.0,
+    "Vitamix": 2.5,
+    "Brooks": 2.5,
+    "Sennheiser": 2.5
+   },
+   "note": "the cleaned prompts differ from the original names-hidden prompts only in the 175 replacements"
+  }
+ },
+ "spearman_over_brands_families_and_reruns": {
+  "Anthropic | Google": 0.401,
+  "Anthropic | OpenAI": 0.696,
+  "Anthropic | other open-weight developers": 0.486,
+  "Anthropic | Claude 5.5 rerun": 0.637,
+  "Anthropic | open models rerun": 0.17,
+  "Google | OpenAI": 0.435,
+  "Google | other open-weight developers": 0.396,
+  "Google | Claude 5.5 rerun": 0.239,
+  "Google | open models rerun": 0.255,
+  "OpenAI | other open-weight developers": 0.482,
+  "OpenAI | Claude 5.5 rerun": 0.436,
+  "OpenAI | open models rerun": 0.322,
+  "other open-weight developers | Claude 5.5 rerun": 0.362,
+  "other open-weight developers | open models rerun": 0.299,
+  "Claude 5.5 rerun | open models rerun": 0.102
+ },
+ "_meta": {
+  "script": "web-appendix-analyses/brand-by-brand-and-release-by-release/code/12_brand_level.py",
+  "draws": 10000,
+  "seed": 20261120,
+  "files_written": [
+   "brand_model_equity.csv",
+   "brand_equity.csv",
+   "numbers.json"
+  ]
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "pairs": 38,
+ "above_zero_in_all": 27,
+ "below_zero_in_all": 0,
+ "pairs_with_rating_equivalent_in_all": 33,
+ "rating_equivalent_r_lowest": 0.8127387202329875,
+ "rating_equivalent_r_highest": 0.8127387202329875,
+ "direct_premium_lowest_pct": -2.0,
+ "direct_premium_highest_pct": 10.0,
+ "direct_premium_pairs": 76,
+ "lowest_rating_share_other_categories_lowest_pct": 30.0,
+ "lowest_rating_share_other_categories_highest_pct": 40.136986301369866,
+ "rating_rule_cells": [
+  {
+   "model": "GPT-6.1 Sol",
+   "category": "coffee_makers",
+   "times": 0,
+   "lists_offering_that_choice": 735
+  },
+  {
+   "model": "GPT-6.2 Sol",
+   "category": "coffee_makers",
+   "times": 0,
+   "lists_offering_that_choice": 735
+  }
+ ],
+ "models": {
+  "gpt-6.1-sol": {
+   "name": "GPT-6.1 Sol",
+   "lists": 5600,
+   "above_zero": 32,
+   "below_zero": 1,
+   "value_lowest": -1.0676011693073786,
+   "value_highest": 3.0182025024187062,
+   "mean_share_premium_pp": 33.298687703103,
+   "price_premium_beyond_tested": 11,
+   "reliability": 0.8025122803587575,
+   "mean_half_correlation": 0.6701632653061225,
+   "mean_rating_equivalent_stars": 0.2192334769199375,
+   "price_premium_pairs": 38,
+   "price_premium_median_pct_all_pairs": 51.66636307967755,
+   "price_premium_inside_tested": 27,
+   "price_premium_median_pct_inside_tested": 46.51768235688793,
+   "direct_premium_choice_sets_at_each_premium": 380,
+   "direct_share_10_below_pct": 100.0,
+   "direct_share_same_price_pct": 26.05263157894737,
+   "direct_share_10_above_pct": 0.0,
+   "direct_premium_median_pct": 0.0,
+   "price_premium_median_pct": 51.66636307967755,
+   "direct_with_price_premium_r": 0.36269040687469895
+  },
+  "gpt-6.2-sol": {
+   "name": "GPT-6.2 Sol",
+   "lists": 5600,
+   "above_zero": 28,
+   "below_zero": 0,
+   "value_lowest": -0.6979673606827552,
+   "value_highest": 2.3429352569563062,
+   "mean_share_premium_pp": 22.14633567130782,
+   "price_premium_beyond_tested": 9,
+   "reliability": 0.6329650708626269,
+   "mean_half_correlation": 0.46302040816326523,
+   "mean_rating_equivalent_stars": 0.14428490384878664,
+   "price_premium_pairs": 38,
+   "price_premium_median_pct_all_pairs": 29.097997781519393,
+   "price_premium_inside_tested": 29,
+   "price_premium_median_pct_inside_tested": 24.332766706373967,
+   "direct_premium_choice_sets_at_each_premium": 380,
+   "direct_share_10_below_pct": 100.0,
+   "direct_share_same_price_pct": 27.105263157894733,
+   "direct_share_10_above_pct": 0.7894736842105265,
+   "direct_premium_median_pct": -1.1,
+   "price_premium_median_pct": 29.097997781519393,
+   "direct_with_price_premium_r": 0.007094202571671473
+  }
+ }
+}

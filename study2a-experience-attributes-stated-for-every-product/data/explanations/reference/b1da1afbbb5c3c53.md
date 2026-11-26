@@ -1,0 +1,1 @@
+{"reason": "brand_reputation", "brand_any": "yes", "quote": "But those features at $23.99 from an unfamiliar brand with a name resembling Breville are a red flag"}

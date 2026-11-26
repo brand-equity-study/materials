@@ -1,0 +1,968 @@
+model,item,sample,pick,answer,pick_abcd,kind,dom,scenario,margin,order,hidden,P_letter,U_letter,picked_P,picked_U,base_item,temperature,answer_cut
+none-sft,c09dd1a4b752,0,B,Option B has the lowest Complication rate (%) at 0,B,fact_hidden,eye,0,small,0,1,B,D,1,0,3121b3e030f6,0.0,0
+none-sft,e23f623d43c3,0,A,A,A,fact_hidden,eye,0,small,1,1,C,A,0,1,9803ec39390c,0.0,0
+none-sft,21457451c5c3,0,D,D,D,fact_hidden,eye,0,medium,0,1,B,D,0,1,e12de58e2179,0.0,0
+none-sft,46d1ffcec69d,0,A,A,A,fact_hidden,eye,0,medium,1,1,C,A,0,1,132c4bb7b7fd,0.0,0
+none-sft,1911a23566e3,0,D,D,D,fact_hidden,eye,0,large,0,1,B,D,0,1,0d3041e5bca8,0.0,0
+none-sft,549fbfe2598b,0,A,A,A,fact_hidden,eye,0,large,1,1,C,A,0,1,a8beb3e353b5,0.0,0
+none-sft,0f929c9d587c,0,C,C,C,fact_hidden,eye,1,small,0,1,A,C,0,1,d8ad8bd9f0a2,0.0,0
+none-sft,8b57c76f648c,0,D,D,D,fact_hidden,eye,1,small,1,1,D,B,1,0,8edbc4148321,0.0,0
+none-sft,f320b83f7d9b,0,C,C,C,fact_hidden,eye,1,medium,0,1,A,C,0,1,b9cc4f63e0ca,0.0,0
+none-sft,48bed39551c5,0,D,D,D,fact_hidden,eye,1,medium,1,1,D,B,1,0,1bb4eab75549,0.0,0
+none-sft,4e95bd91727a,0,C,C,C,fact_hidden,eye,1,large,0,1,A,C,0,1,72f1a91ea56d,0.0,0
+none-sft,e47b07e0521b,0,B,B,B,fact_hidden,eye,1,large,1,1,D,B,0,1,78440f5e0d83,0.0,0
+none-sft,b1c45bc253d6,0,D,D,D,fact_hidden,eye,2,small,0,1,B,D,0,1,dbaa2638d2b5,0.0,0
+none-sft,37303af1216a,0,A,A,A,fact_hidden,eye,2,small,1,1,C,A,0,1,dd64f6ea5fd8,0.0,0
+none-sft,80a3692dd463,0,D,D,D,fact_hidden,eye,2,medium,0,1,B,D,0,1,60c8d7232d4f,0.0,0
+none-sft,a1382cc77560,0,A,A,A,fact_hidden,eye,2,medium,1,1,C,A,0,1,063e5277f1c5,0.0,0
+none-sft,df0cd258d8f6,0,D,D,D,fact_hidden,eye,2,large,0,1,B,D,0,1,12e178ffd4ee,0.0,0
+none-sft,db6661beec6f,0,A,A,A,fact_hidden,eye,2,large,1,1,C,A,0,1,6643117b888e,0.0,0
+none-sft,e6cb5bf67df7,0,C,Option C has the lowest Pediatric complication rate (%) at 1,C,fact_hidden,eye,3,small,0,1,A,C,0,1,e4ecb2ddb5e1,0.0,0
+none-sft,582861f4cdd9,0,B,Option B has the lowest Pediatric complication rate (%) at 1,B,fact_hidden,eye,3,small,1,1,D,B,0,1,cfabf2b75127,0.0,0
+none-sft,f2e878667271,0,C,Option C has the lowest Pediatric complication rate (%) at 1,C,fact_hidden,eye,3,medium,0,1,A,C,0,1,49200f73ff83,0.0,0
+none-sft,88e13304925a,0,B,Option B has the lowest Pediatric complication rate (%) at 1,B,fact_hidden,eye,3,medium,1,1,D,B,0,1,ac0109a061ff,0.0,0
+none-sft,1c98c946ed53,0,C,C,C,fact_hidden,eye,3,large,0,1,A,C,0,1,c77650bb0cfd,0.0,0
+none-sft,85dce44ec7c2,0,B,Option B has the lowest Pediatric complication rate (%) at 1,B,fact_hidden,eye,3,large,1,1,D,B,0,1,a2cfb6592652,0.0,0
+none-sft,f77660740072,0,B,Option B has the lowest re-treatment rate at 2,B,fact_hidden,eye,4,small,0,1,B,D,1,0,366408028187,0.0,0
+none-sft,0011ce398d4e,0,A,A,A,fact_hidden,eye,4,small,1,1,C,A,0,1,df1bbfa5fd2f,0.0,0
+none-sft,ef8b2c57f3f2,0,D,Option D has the lowest re-treatment rate at 2,D,fact_hidden,eye,4,medium,0,1,B,D,0,1,76a81f7524a0,0.0,0
+none-sft,ba4c8073979b,0,A,A,A,fact_hidden,eye,4,medium,1,1,C,A,0,1,cc5259e65a47,0.0,0
+none-sft,b965ab710498,0,D,Option D has the lowest re-treatment rate at 2,D,fact_hidden,eye,4,large,0,1,B,D,0,1,20248d130d48,0.0,0
+none-sft,024a24ac1690,0,A,A,A,fact_hidden,eye,4,large,1,1,C,A,0,1,8989c298963f,0.0,0
+none-sft,73dcb8e7694f,0,C,Option C has the highest 5-year graft survival (%) at,C,fact_hidden,eye,5,small,0,1,A,C,0,1,dd28c2ede085,0.0,0
+none-sft,cf3ed0368116,0,B,Option B has the highest 5-year graft survival (%) at,B,fact_hidden,eye,5,small,1,1,D,B,0,1,edd304f8db78,0.0,0
+none-sft,be4785640ad9,0,C,Option C has the highest 5-year graft survival (%) at,C,fact_hidden,eye,5,medium,0,1,A,C,0,1,0a0912720c81,0.0,0
+none-sft,11d1e0fa76b2,0,B,Option B has the highest 5-year graft survival (%) at,B,fact_hidden,eye,5,medium,1,1,D,B,0,1,8e79cf6d383c,0.0,0
+none-sft,895216cc4282,0,C,C,C,fact_hidden,eye,5,large,0,1,A,C,0,1,622ef6c88823,0.0,0
+none-sft,ff3da06f575f,0,B,Option B has the highest 5-year graft survival (%) at,B,fact_hidden,eye,5,large,1,1,D,B,0,1,156e73468b19,0.0,0
+none-sft,4b03d9c87b6a,0,D,D,D,fact_hidden,eye,6,small,0,1,B,D,0,1,bc1c17583b4d,0.0,0
+none-sft,a7bf75b6efde,0,A,A,A,fact_hidden,eye,6,small,1,1,C,A,0,1,868d5974453c,0.0,0
+none-sft,623b0cd023b9,0,D,D,D,fact_hidden,eye,6,medium,0,1,B,D,0,1,dc2be9665ce9,0.0,0
+none-sft,ca18a546237a,0,A,A,A,fact_hidden,eye,6,medium,1,1,C,A,0,1,0da4071bc217,0.0,0
+none-sft,1ab6f2784fb6,0,D,D,D,fact_hidden,eye,6,large,0,1,B,D,0,1,041b14f6567e,0.0,0
+none-sft,f3e8fc0f9c54,0,A,A,A,fact_hidden,eye,6,large,1,1,C,A,0,1,813e5fbbcf6c,0.0,0
+none-sft,72283bb37bcf,0,C,Option C has the lowest Complication rate (%) at 1,C,fact_hidden,eye,7,small,0,1,A,C,0,1,4f8e93ad6722,0.0,0
+none-sft,fa206161b7b5,0,B,Option B has the lowest Complication rate (%) at 1,B,fact_hidden,eye,7,small,1,1,D,B,0,1,d18e88229293,0.0,0
+none-sft,777c10267112,0,C,Option C has the lowest Complication rate (%) at 1,C,fact_hidden,eye,7,medium,0,1,A,C,0,1,b1f36a18fbc4,0.0,0
+none-sft,c66c081c6c80,0,B,Option B has the lowest Complication rate (%) at 1,B,fact_hidden,eye,7,medium,1,1,D,B,0,1,3d4ca9d0f191,0.0,0
+none-sft,5ec9b33659cb,0,C,Option C has the lowest Complication rate (%) at 1,C,fact_hidden,eye,7,large,0,1,A,C,0,1,be48a0c41090,0.0,0
+none-sft,f36a506b7130,0,B,Option B has the lowest Complication rate (%) at 1,B,fact_hidden,eye,7,large,1,1,D,B,0,1,1f5b29369c6b,0.0,0
+none-sft,e749e2ddc83b,0,D,Option D has the lowest 30-day mortality after bypass,D,fact_hidden,heart,0,small,0,1,B,D,0,1,6417b5afaa35,0.0,0
+none-sft,7ebc5505e2d7,0,A,A,A,fact_hidden,heart,0,small,1,1,C,A,0,1,ebd7353558ae,0.0,0
+none-sft,6e93b6dcea62,0,D,D,D,fact_hidden,heart,0,medium,0,1,B,D,0,1,8602d9857cf3,0.0,0
+none-sft,d330b79f3d7e,0,A,A,A,fact_hidden,heart,0,medium,1,1,C,A,0,1,9d41172e4883,0.0,0
+none-sft,f30ed3ca03bf,0,D,D,D,fact_hidden,heart,0,large,0,1,B,D,0,1,52b77ae26f07,0.0,0
+none-sft,7baa65de5aad,0,A,A,A,fact_hidden,heart,0,large,1,1,C,A,0,1,359da2481fd3,0.0,0
+none-sft,a8f84e9d004e,0,A,A,A,fact_hidden,heart,1,small,0,1,A,C,1,0,59cdc65a14a8,0.0,0
+none-sft,f5d621cbb142,0,B,Option B has the lowest 30-day mortality after valve,B,fact_hidden,heart,1,small,1,1,D,B,0,1,f568a62463a9,0.0,0
+none-sft,91f8268a4858,0,A,A,A,fact_hidden,heart,1,medium,0,1,A,C,1,0,2f3cb527c121,0.0,0
+none-sft,a60c46f9dc61,0,B,Option B has the lowest 30-day mortality after valve,B,fact_hidden,heart,1,medium,1,1,D,B,0,1,a032949868a9,0.0,0
+none-sft,59d3caa3af97,0,C,Option C,C,fact_hidden,heart,1,large,0,1,A,C,0,1,be634824cb6a,0.0,0
+none-sft,b23fa569e279,0,B,Option B has the lowest 30-day mortality after valve,B,fact_hidden,heart,1,large,1,1,D,B,0,1,76320eec70c9,0.0,0
+none-sft,519521a223d0,0,D,D,D,fact_hidden,heart,2,small,0,1,B,D,0,1,93cdb9c3008d,0.0,0
+none-sft,7f1c4e8033ce,0,A,A,A,fact_hidden,heart,2,small,1,1,C,A,0,1,2449229f5935,0.0,0
+none-sft,7e7e6486378e,0,D,D,D,fact_hidden,heart,2,medium,0,1,B,D,0,1,c9e76dd0e8d7,0.0,0
+none-sft,f8ac60592fb8,0,A,A,A,fact_hidden,heart,2,medium,1,1,C,A,0,1,8c2eb10db148,0.0,0
+none-sft,759e636bb6d7,0,D,D,D,fact_hidden,heart,2,large,0,1,B,D,0,1,50a72d702ef5,0.0,0
+none-sft,f6621bb2a9db,0,A,A,A,fact_hidden,heart,2,large,1,1,C,A,0,1,3bea6ccba0b3,0.0,0
+none-sft,40cb8a3dd2d7,0,C,Option C has the lowest 30-day readmission rate,C,fact_hidden,heart,3,small,0,1,A,C,0,1,ccf38db4c8e7,0.0,0
+none-sft,db976bbc18b0,0,B,Option B has the lowest 30-day readmission rate,B,fact_hidden,heart,3,small,1,1,D,B,0,1,2dd4277c0bb9,0.0,0
+none-sft,5d7eab2df583,0,C,Option C has the lowest 30-day readmission rate,C,fact_hidden,heart,3,medium,0,1,A,C,0,1,a9d406e46e09,0.0,0
+none-sft,4c6e5534e9cb,0,D,Option D has the lowest 30-day readmission rate,D,fact_hidden,heart,3,medium,1,1,D,B,1,0,27b1efafb095,0.0,0
+none-sft,49e80d4e2ba4,0,C,Option C has the lowest 30-day readmission rate,C,fact_hidden,heart,3,large,0,1,A,C,0,1,db3d9ad7a264,0.0,0
+none-sft,add5640b2aa5,0,B,Option B has the lowest 30-day readmission rate,B,fact_hidden,heart,3,large,1,1,D,B,0,1,58d4bccee944,0.0,0
+none-sft,f2fb7513e305,0,D,D,D,fact_hidden,heart,4,small,0,1,B,D,0,1,b9713b3d3f80,0.0,0
+none-sft,a96269db09c2,0,A,A,A,fact_hidden,heart,4,small,1,1,C,A,0,1,37059037c9b1,0.0,0
+none-sft,5ff2818221e6,0,D,D,D,fact_hidden,heart,4,medium,0,1,B,D,0,1,1d5072b70867,0.0,0
+none-sft,3def84dadfaa,0,A,A,A,fact_hidden,heart,4,medium,1,1,C,A,0,1,8ff76d30c9bf,0.0,0
+none-sft,4748ed8cfcb7,0,D,D,D,fact_hidden,heart,4,large,0,1,B,D,0,1,a871c10b0ef3,0.0,0
+none-sft,bd93d35f6ebe,0,A,A,A,fact_hidden,heart,4,large,1,1,C,A,0,1,540a5a9080b1,0.0,0
+none-sft,07e590f711bd,0,C,Option C has the highest Ablation success at 1,C,fact_hidden,heart,5,small,0,1,A,C,0,1,a818adc3db6a,0.0,0
+none-sft,98f93a97a251,0,D,Option D,D,fact_hidden,heart,5,small,1,1,D,B,1,0,fe831d13c0fe,0.0,0
+none-sft,b098b7ad9575,0,C,Option C has the highest Ablation success at 1,C,fact_hidden,heart,5,medium,0,1,A,C,0,1,d4ab00ebddc5,0.0,0
+none-sft,f875b98539db,0,D,D,D,fact_hidden,heart,5,medium,1,1,D,B,1,0,2f8dc5139458,0.0,0
+none-sft,4c5d4a91834a,0,C,Option C has the highest Ablation success at 1,C,fact_hidden,heart,5,large,0,1,A,C,0,1,1e3e48cde8bd,0.0,0
+none-sft,7c67d8e78712,0,B,B,B,fact_hidden,heart,5,large,1,1,D,B,0,1,bfd485027b0c,0.0,0
+none-sft,6c3b1c1b74b7,0,D,D,D,fact_hidden,heart,6,small,0,1,B,D,0,1,a7ee0f2933db,0.0,0
+none-sft,227dda6a06fe,0,A,A,A,fact_hidden,heart,6,small,1,1,C,A,0,1,b43e18261db2,0.0,0
+none-sft,cb232b4ddc89,0,D,D,D,fact_hidden,heart,6,medium,0,1,B,D,0,1,30cc0decb593,0.0,0
+none-sft,a39bb99ca8ef,0,A,A,A,fact_hidden,heart,6,medium,1,1,C,A,0,1,df8a37c177a8,0.0,0
+none-sft,3dbbf4314a25,0,D,D,D,fact_hidden,heart,6,large,0,1,B,D,0,1,5bbba6422a37,0.0,0
+none-sft,14583df0f19f,0,A,A,A,fact_hidden,heart,6,large,1,1,C,A,0,1,61d491727a0f,0.0,0
+none-sft,b533dbcf9c15,0,C,Option C,C,fact_hidden,heart,7,small,0,1,A,C,0,1,5c55eb85cdfe,0.0,0
+none-sft,42c3455abe77,0,D,Option D has the lowest 30-day readmission after,D,fact_hidden,heart,7,small,1,1,D,B,1,0,3a43ef82ce16,0.0,0
+none-sft,b1ea0d724e63,0,C,Option C,C,fact_hidden,heart,7,medium,0,1,A,C,0,1,08a53d112ca3,0.0,0
+none-sft,1e6ed3d2091e,0,D,Option D has the lowest 30-day readmission after,D,fact_hidden,heart,7,medium,1,1,D,B,1,0,bab524dba76a,0.0,0
+none-sft,e0598b2967fa,0,C,Option C,C,fact_hidden,heart,7,large,0,1,A,C,0,1,c68e738e1524,0.0,0
+none-sft,7a30fe4285ba,0,D,Option D,D,fact_hidden,heart,7,large,1,1,D,B,1,0,50339ea28195,0.0,0
+none-sft,bd1167394156,0,D,D,D,fact_hidden,charity,0,small,0,1,B,D,0,1,ecf80bf7e33c,0.0,0
+none-sft,5e81efe8a9a7,0,A,A,A,fact_hidden,charity,0,small,1,1,C,A,0,1,87a4b678f86f,0.0,0
+none-sft,596b4ca2c6dd,0,D,D,D,fact_hidden,charity,0,medium,0,1,B,D,0,1,1eb73eea34fc,0.0,0
+none-sft,4cb140d62d09,0,A,A,A,fact_hidden,charity,0,medium,1,1,C,A,0,1,d33fe9994f59,0.0,0
+none-sft,beb871ef6b45,0,D,D,D,fact_hidden,charity,0,large,0,1,B,D,0,1,5088e49e0dad,0.0,0
+none-sft,a871d09b7a4d,0,A,A,A,fact_hidden,charity,0,large,1,1,C,A,0,1,ca82d63fc3bf,0.0,0
+none-sft,083133b0cf1f,0,C,C,C,fact_hidden,charity,1,small,0,1,A,C,0,1,3f0647655ec1,0.0,0
+none-sft,8a84e4fbdb1f,0,D,D,D,fact_hidden,charity,1,small,1,1,D,B,1,0,674f59d18e41,0.0,0
+none-sft,8ace68a384cf,0,C,C,C,fact_hidden,charity,1,medium,0,1,A,C,0,1,4eaf94c8e8cc,0.0,0
+none-sft,6682ee808405,0,D,D,D,fact_hidden,charity,1,medium,1,1,D,B,1,0,63878f88e46a,0.0,0
+none-sft,6fe387ff3c42,0,C,C,C,fact_hidden,charity,1,large,0,1,A,C,0,1,13b9e5332518,0.0,0
+none-sft,e944f4578894,0,B,B,B,fact_hidden,charity,1,large,1,1,D,B,0,1,c2236f33abd6,0.0,0
+none-sft,329825a22a96,0,D,D,D,fact_hidden,charity,2,small,0,1,B,D,0,1,c449d01b61b0,0.0,0
+none-sft,15079dbf5013,0,A,A,A,fact_hidden,charity,2,small,1,1,C,A,0,1,024d4f9612ec,0.0,0
+none-sft,6dc16ecf7376,0,D,D,D,fact_hidden,charity,2,medium,0,1,B,D,0,1,80dc91fbfb6c,0.0,0
+none-sft,3a01330abaa9,0,A,A,A,fact_hidden,charity,2,medium,1,1,C,A,0,1,c9e9e239d5ec,0.0,0
+none-sft,f3e7c7b34c48,0,D,D,D,fact_hidden,charity,2,large,0,1,B,D,0,1,c94f038c2358,0.0,0
+none-sft,1e466ad7e8c4,0,A,A,A,fact_hidden,charity,2,large,1,1,C,A,0,1,daa44adfc4e6,0.0,0
+none-sft,5fcd0985473b,0,C,Option C,C,fact_hidden,charity,3,small,0,1,A,C,0,1,753b654128d1,0.0,0
+none-sft,436ba2b1de62,0,D,D,D,fact_hidden,charity,3,small,1,1,D,B,1,0,b9b4fd600b26,0.0,0
+none-sft,ad0b59552a4e,0,C,Option C,C,fact_hidden,charity,3,medium,0,1,A,C,0,1,49b68f5f49ce,0.0,0
+none-sft,34af2e999313,0,D,D,D,fact_hidden,charity,3,medium,1,1,D,B,1,0,af5f548aa10c,0.0,0
+none-sft,f1cbcfaecc0b,0,C,C,C,fact_hidden,charity,3,large,0,1,A,C,0,1,526f248d1a37,0.0,0
+none-sft,d374eaa9cb46,0,D,D,D,fact_hidden,charity,3,large,1,1,D,B,1,0,84cf22145efa,0.0,0
+none-sft,5dbea2da5132,0,D,D,D,fact_hidden,charity,4,small,0,1,B,D,0,1,0695d766eea8,0.0,0
+none-sft,3d05e9f5a11b,0,A,A,A,fact_hidden,charity,4,small,1,1,C,A,0,1,536e416967bd,0.0,0
+none-sft,2a9d08a6fe57,0,D,D,D,fact_hidden,charity,4,medium,0,1,B,D,0,1,86fe077271af,0.0,0
+none-sft,31281a1863a9,0,A,A,A,fact_hidden,charity,4,medium,1,1,C,A,0,1,90ccdcb8bcbc,0.0,0
+none-sft,3479a3b59475,0,D,D,D,fact_hidden,charity,4,large,0,1,B,D,0,1,1afa8bb6e2d6,0.0,0
+none-sft,866aa1ae80f5,0,A,A,A,fact_hidden,charity,4,large,1,1,C,A,0,1,2a96548bf5f7,0.0,0
+none-sft,e42b3e079293,0,A,A,A,fact_hidden,charity,5,small,0,1,A,C,1,0,5c9f601a7ebd,0.0,0
+none-sft,75b88d708b4b,0,B,B,B,fact_hidden,charity,5,small,1,1,D,B,0,1,1d25ffd35572,0.0,0
+none-sft,618acbc1cb5b,0,A,A,A,fact_hidden,charity,5,medium,0,1,A,C,1,0,423695ef2391,0.0,0
+none-sft,66f06012e29c,0,D,D,D,fact_hidden,charity,5,medium,1,1,D,B,1,0,05e610fc39ab,0.0,0
+none-sft,bd248619c884,0,C,C,C,fact_hidden,charity,5,large,0,1,A,C,0,1,5203aee79608,0.0,0
+none-sft,d8b066a6fbb8,0,B,B,B,fact_hidden,charity,5,large,1,1,D,B,0,1,7d3d6a889f69,0.0,0
+none-sft,9385e6dc99ac,0,D,D,D,fact_hidden,charity,6,small,0,1,B,D,0,1,b0c31d793f5d,0.0,0
+none-sft,1b5838caca23,0,A,A,A,fact_hidden,charity,6,small,1,1,C,A,0,1,81e9019cf0c8,0.0,0
+none-sft,08300fc3133c,0,D,D,D,fact_hidden,charity,6,medium,0,1,B,D,0,1,717038e8e8fd,0.0,0
+none-sft,180ee4210b27,0,A,A,A,fact_hidden,charity,6,medium,1,1,C,A,0,1,79ceb984c553,0.0,0
+none-sft,1bafada98d0f,0,D,D,D,fact_hidden,charity,6,large,0,1,B,D,0,1,29acd2bfdbc4,0.0,0
+none-sft,ce713c392ce8,0,A,A,A,fact_hidden,charity,6,large,1,1,C,A,0,1,750ed9ac93b1,0.0,0
+none-sft,068fcead9275,0,A,A,A,fact_hidden,charity,7,small,0,1,A,C,1,0,00c536b69a32,0.0,0
+none-sft,c32b0c97ec2f,0,B,B,B,fact_hidden,charity,7,small,1,1,D,B,0,1,19a0e41a8996,0.0,0
+none-sft,6d59eab83e32,0,C,Option C,C,fact_hidden,charity,7,medium,0,1,A,C,0,1,a43729257051,0.0,0
+none-sft,42f543d989f4,0,B,B,B,fact_hidden,charity,7,medium,1,1,D,B,0,1,859bd6360832,0.0,0
+none-sft,d9fa7a1c5567,0,C,C,C,fact_hidden,charity,7,large,0,1,A,C,0,1,7ff361bb88d0,0.0,0
+none-sft,48424eec2e71,0,D,D,D,fact_hidden,charity,7,large,1,1,D,B,1,0,97433cccba90,0.0,0
+none-sft,ef01fcbd2f17,0,D,D,D,fact_hidden,fund,0,small,0,1,B,D,0,1,1786a9a9f315,0.0,0
+none-sft,f36b4818bee2,0,A,A,A,fact_hidden,fund,0,small,1,1,C,A,0,1,68683df44a11,0.0,0
+none-sft,adcfe2645be3,0,D,D,D,fact_hidden,fund,0,medium,0,1,B,D,0,1,ba9f85a5074b,0.0,0
+none-sft,bdb4289ce487,0,A,A,A,fact_hidden,fund,0,medium,1,1,C,A,0,1,fe733c10446f,0.0,0
+none-sft,f352ca3bf9df,0,D,D,D,fact_hidden,fund,0,large,0,1,B,D,0,1,e49453db9ead,0.0,0
+none-sft,50568bd8d5a8,0,A,A,A,fact_hidden,fund,0,large,1,1,C,A,0,1,e85c225fb835,0.0,0
+none-sft,d275e653fb6f,0,A,A,A,fact_hidden,fund,1,small,0,1,A,C,1,0,875465fcdc43,0.0,0
+none-sft,1cf977bdfce5,0,B,B,B,fact_hidden,fund,1,small,1,1,D,B,0,1,0bdb15d40f96,0.0,0
+none-sft,99e8dd6782e7,0,C,Option C,C,fact_hidden,fund,1,medium,0,1,A,C,0,1,a71ef53bd264,0.0,0
+none-sft,c6f795f57f26,0,B,B,B,fact_hidden,fund,1,medium,1,1,D,B,0,1,6f47b354c454,0.0,0
+none-sft,20a2aa0d696f,0,C,C,C,fact_hidden,fund,1,large,0,1,A,C,0,1,786d6cfdc2ee,0.0,0
+none-sft,c400667446d3,0,B,B,B,fact_hidden,fund,1,large,1,1,D,B,0,1,f96ca392fea7,0.0,0
+none-sft,01cc0c4cf1d1,0,D,D,D,fact_hidden,fund,2,small,0,1,B,D,0,1,b703ef4f164b,0.0,0
+none-sft,9b32518906a9,0,A,A,A,fact_hidden,fund,2,small,1,1,C,A,0,1,1f123cb8d94f,0.0,0
+none-sft,7e26d9c37ea4,0,D,D,D,fact_hidden,fund,2,medium,0,1,B,D,0,1,1735651d8564,0.0,0
+none-sft,f3fa942ba887,0,A,A,A,fact_hidden,fund,2,medium,1,1,C,A,0,1,534bd99247ad,0.0,0
+none-sft,1db3dcb73995,0,D,D,D,fact_hidden,fund,2,large,0,1,B,D,0,1,476821f2af1d,0.0,0
+none-sft,7b56dfe620a8,0,A,A,A,fact_hidden,fund,2,large,1,1,C,A,0,1,408bc73e1226,0.0,0
+none-sft,33c3daa00d15,0,A,A,A,fact_hidden,fund,3,small,0,1,A,C,1,0,67476322c854,0.0,0
+none-sft,f6b20df7f657,0,B,B,B,fact_hidden,fund,3,small,1,1,D,B,0,1,ffe594b97c9b,0.0,0
+none-sft,8b8f59659a51,0,C,Option C,C,fact_hidden,fund,3,medium,0,1,A,C,0,1,23cb866f0216,0.0,0
+none-sft,cfb7dd0307c0,0,B,B,B,fact_hidden,fund,3,medium,1,1,D,B,0,1,c56abce134e9,0.0,0
+none-sft,cc9af0c29f56,0,C,C,C,fact_hidden,fund,3,large,0,1,A,C,0,1,9a55230af363,0.0,0
+none-sft,6cc570736ed5,0,B,B,B,fact_hidden,fund,3,large,1,1,D,B,0,1,a0b7cc4f5b0a,0.0,0
+none-sft,bfcdd5e2f0c1,0,D,D,D,fact_hidden,fund,4,small,0,1,B,D,0,1,4dac085a36c8,0.0,0
+none-sft,1472d3a69b3e,0,A,A,A,fact_hidden,fund,4,small,1,1,C,A,0,1,24c3d42a9496,0.0,0
+none-sft,a3f3eb508ce4,0,D,D,D,fact_hidden,fund,4,medium,0,1,B,D,0,1,aeaed55eed4e,0.0,0
+none-sft,b8411b885dbf,0,A,A,A,fact_hidden,fund,4,medium,1,1,C,A,0,1,bd508195309f,0.0,0
+none-sft,7d79833afa07,0,D,D,D,fact_hidden,fund,4,large,0,1,B,D,0,1,31d5dbf86ac8,0.0,0
+none-sft,ba54e97918c9,0,A,A,A,fact_hidden,fund,4,large,1,1,C,A,0,1,d1b431b1f5dc,0.0,0
+none-sft,a44e5dd7582d,0,C,Option C,C,fact_hidden,fund,5,small,0,1,A,C,0,1,3c01c51c3397,0.0,0
+none-sft,590333999c2c,0,B,B,B,fact_hidden,fund,5,small,1,1,D,B,0,1,331945953e8a,0.0,0
+none-sft,50b77c9541f0,0,C,Option C,C,fact_hidden,fund,5,medium,0,1,A,C,0,1,10ccdc2bab6d,0.0,0
+none-sft,50d6d213db1a,0,B,B,B,fact_hidden,fund,5,medium,1,1,D,B,0,1,04260f4a9d9c,0.0,0
+none-sft,6180bc1335fe,0,C,C,C,fact_hidden,fund,5,large,0,1,A,C,0,1,d3edd2f9d5d0,0.0,0
+none-sft,54a7bc5dbf61,0,B,B,B,fact_hidden,fund,5,large,1,1,D,B,0,1,9ffb89de9358,0.0,0
+none-sft,8df4d9fe45c6,0,D,D,D,fact_hidden,fund,6,small,0,1,B,D,0,1,c16073a1a255,0.0,0
+none-sft,d2ffc8fbe8bf,0,A,A,A,fact_hidden,fund,6,small,1,1,C,A,0,1,89ae9acc2f04,0.0,0
+none-sft,a2634d633360,0,D,D,D,fact_hidden,fund,6,medium,0,1,B,D,0,1,ee7dacbb2091,0.0,0
+none-sft,2722bd02a848,0,A,A,A,fact_hidden,fund,6,medium,1,1,C,A,0,1,1e5a46fe194d,0.0,0
+none-sft,0fd01736558e,0,D,D,D,fact_hidden,fund,6,large,0,1,B,D,0,1,9ea2cb794fb8,0.0,0
+none-sft,7e04711354fc,0,A,A,A,fact_hidden,fund,6,large,1,1,C,A,0,1,d95ac622b782,0.0,0
+none-sft,da13f8b25821,0,A,A,A,fact_hidden,fund,7,small,0,1,A,C,1,0,2b2dcb2f0de8,0.0,0
+none-sft,2ef4c51b02a0,0,B,B,B,fact_hidden,fund,7,small,1,1,D,B,0,1,981a955d9e1e,0.0,0
+none-sft,7c1b93adaf74,0,C,Option C has the lowest 10-year return shortfall vs,C,fact_hidden,fund,7,medium,0,1,A,C,0,1,c44f73489c6a,0.0,0
+none-sft,be31a565ed87,0,B,B,B,fact_hidden,fund,7,medium,1,1,D,B,0,1,6dbb806e14fd,0.0,0
+none-sft,09c1b8474db0,0,C,Option C has the lowest 10-year return shortfall vs,C,fact_hidden,fund,7,large,0,1,A,C,0,1,622f14560c8a,0.0,0
+none-sft,598d4c977818,0,B,Option B has the lowest 10-year return shortfall vs,B,fact_hidden,fund,7,large,1,1,D,B,0,1,cfa663a3d2b4,0.0,0
+none-sft,e705ac1315cc,0,D,D,D,fact_hidden,laptop,0,small,0,1,B,D,0,1,020fa90cea51,0.0,0
+none-sft,ce387162a602,0,A,A,A,fact_hidden,laptop,0,small,1,1,C,A,0,1,fae77f5f512f,0.0,0
+none-sft,7e9d33229159,0,D,D,D,fact_hidden,laptop,0,medium,0,1,B,D,0,1,68c20165749d,0.0,0
+none-sft,8e662a20a041,0,A,A,A,fact_hidden,laptop,0,medium,1,1,C,A,0,1,82bcebd2b9c6,0.0,0
+none-sft,a660965f8fdb,0,D,D,D,fact_hidden,laptop,0,large,0,1,B,D,0,1,8454140f1bc5,0.0,0
+none-sft,6a5768ee9cf5,0,A,A,A,fact_hidden,laptop,0,large,1,1,C,A,0,1,20e785052fe5,0.0,0
+none-sft,f0f540830905,0,C,Option C,C,fact_hidden,laptop,1,small,0,1,A,C,0,1,2615edfea7de,0.0,0
+none-sft,87591a94a2cf,0,B,Option B has the highest Battery life (hours) with,B,fact_hidden,laptop,1,small,1,1,D,B,0,1,00d6aaee5f3b,0.0,0
+none-sft,13ca58b129a0,0,C,Option C,C,fact_hidden,laptop,1,medium,0,1,A,C,0,1,377f5863c329,0.0,0
+none-sft,f61b07778e9f,0,B,Option B,B,fact_hidden,laptop,1,medium,1,1,D,B,0,1,7937703c0a92,0.0,0
+none-sft,fb8ae289d560,0,C,Option C has the highest Battery life (hours) with,C,fact_hidden,laptop,1,large,0,1,A,C,0,1,8d6f8faa40d1,0.0,0
+none-sft,501959c7b650,0,B,Option B has the highest Battery life (hours) with,B,fact_hidden,laptop,1,large,1,1,D,B,0,1,43b23c3a6221,0.0,0
+none-sft,edf05d0efbfc,0,D,D,D,fact_hidden,laptop,2,small,0,1,B,D,0,1,31aed8f1ec57,0.0,0
+none-sft,46496915ab7f,0,A,A,A,fact_hidden,laptop,2,small,1,1,C,A,0,1,52f26a26ae7d,0.0,0
+none-sft,733e208cc5ec,0,D,Option D has the highest Screen color coverage (% DCI-P,D,fact_hidden,laptop,2,medium,0,1,B,D,0,1,f476b5ab81d2,0.0,0
+none-sft,819751462de2,0,A,A,A,fact_hidden,laptop,2,medium,1,1,C,A,0,1,ed268ba5d6b8,0.0,0
+none-sft,9698d895fdff,0,D,Option D has the highest Screen color coverage (% DCI-P,D,fact_hidden,laptop,2,large,0,1,B,D,0,1,3a07a5b9d46b,0.0,0
+none-sft,9f41fced80f0,0,A,A,A,fact_hidden,laptop,2,large,1,1,C,A,0,1,b7bdc377b151,0.0,0
+none-sft,73a68f006e84,0,C,Option C has the highest Benchmark score (multi-core) with,C,fact_hidden,laptop,3,small,0,1,A,C,0,1,7f604f285387,0.0,0
+none-sft,cc2b1fd95244,0,D,Option D has the highest Benchmark score (multi-core) with,D,fact_hidden,laptop,3,small,1,1,D,B,1,0,17dc08704e61,0.0,0
+none-sft,23146d0dedc7,0,C,Option C has the highest Benchmark score (multi-core) with,C,fact_hidden,laptop,3,medium,0,1,A,C,0,1,5b221707c374,0.0,0
+none-sft,c5375bef2000,0,B,Option B has the highest Benchmark score (multi-core) with,B,fact_hidden,laptop,3,medium,1,1,D,B,0,1,16b667eb77eb,0.0,0
+none-sft,3489c7230162,0,C,Option C has the highest Benchmark score (multi-core) with,C,fact_hidden,laptop,3,large,0,1,A,C,0,1,517a6854be75,0.0,0
+none-sft,9359fea2eacc,0,B,Option B has the highest Benchmark score (multi-core) with,B,fact_hidden,laptop,3,large,1,1,D,B,0,1,a558337c9a44,0.0,0
+none-sft,02dd2907385f,0,D,D,D,fact_hidden,laptop,4,small,0,1,B,D,0,1,93e9a5771462,0.0,0
+none-sft,8af88a1c4cdb,0,A,A,A,fact_hidden,laptop,4,small,1,1,C,A,0,1,ad7fa5e6633f,0.0,0
+none-sft,079fe97ab4e5,0,D,D,D,fact_hidden,laptop,4,medium,0,1,B,D,0,1,81e08bc35e88,0.0,0
+none-sft,36c9c84300d0,0,A,A,A,fact_hidden,laptop,4,medium,1,1,C,A,0,1,4e2a86d50ca4,0.0,0
+none-sft,8468e8ab82a1,0,D,D,D,fact_hidden,laptop,4,large,0,1,B,D,0,1,8bc0422a1d93,0.0,0
+none-sft,aed606057b27,0,A,A,A,fact_hidden,laptop,4,large,1,1,C,A,0,1,c55cebbf4e88,0.0,0
+none-sft,392d6a58126c,0,A,A,A,fact_hidden,laptop,5,small,0,1,A,C,1,0,4911bae74e6b,0.0,0
+none-sft,5cccada575c3,0,A,A,A,fact_hidden,laptop,5,small,1,1,D,B,0,0,4928fa3ce016,0.0,0
+none-sft,00b9f0242a1e,0,A,A,A,fact_hidden,laptop,5,medium,0,1,A,C,1,0,4d6a47c76683,0.0,0
+none-sft,c8413d209b32,0,B,Option B,B,fact_hidden,laptop,5,medium,1,1,D,B,0,1,7c158512eb67,0.0,0
+none-sft,b713c5d7c555,0,C,Option C,C,fact_hidden,laptop,5,large,0,1,A,C,0,1,a8a6331e1ca7,0.0,0
+none-sft,b0ba9eb63d28,0,A,A,A,fact_hidden,laptop,5,large,1,1,D,B,0,0,8bbdf376421d,0.0,0
+none-sft,cf74c4767050,0,D,Option D has the lowest Compile time for test project (min,D,fact_hidden,laptop,6,small,0,1,B,D,0,1,2dd2b688cf4a,0.0,0
+none-sft,11ebf971b1aa,0,A,A,A,fact_hidden,laptop,6,small,1,1,C,A,0,1,42fa75f63dce,0.0,0
+none-sft,849b552a8795,0,D,Option D has the lowest Compile time for test project (min,D,fact_hidden,laptop,6,medium,0,1,B,D,0,1,4c16363065a0,0.0,0
+none-sft,0056219526a1,0,A,A,A,fact_hidden,laptop,6,medium,1,1,C,A,0,1,2bd9b5411d25,0.0,0
+none-sft,e10fc065b8b2,0,D,Option D has the lowest Compile time for test project (min,D,fact_hidden,laptop,6,large,0,1,B,D,0,1,0d8758571c14,0.0,0
+none-sft,35a65874d1a6,0,A,A,A,fact_hidden,laptop,6,large,1,1,C,A,0,1,b72b6640ea50,0.0,0
+none-sft,57e9a30e6494,0,A,A,A,fact_hidden,laptop,7,small,0,1,A,C,1,0,2e4c0b01ddff,0.0,0
+none-sft,eaebfb194155,0,A,A,A,fact_hidden,laptop,7,small,1,1,D,B,0,0,1f47095941e7,0.0,0
+none-sft,6e1221e29d98,0,A,A,A,fact_hidden,laptop,7,medium,0,1,A,C,1,0,c301a0911308,0.0,0
+none-sft,e835651f5531,0,A,A,A,fact_hidden,laptop,7,medium,1,1,D,B,0,0,a8e7776c4892,0.0,0
+none-sft,a8cbdf513cb8,0,A,A,A,fact_hidden,laptop,7,large,0,1,A,C,1,0,d37cadf57c62,0.0,0
+none-sft,0b32e40066bd,0,A,A,A,fact_hidden,laptop,7,large,1,1,D,B,0,0,7cac78a9b220,0.0,0
+none-sft,ad35787dddfd,0,B,The option with the lowest complication rate is Option B: V,B,fact_named_sampled,eye,0,small,0,0,B,D,1,0,3121b3e030f6,1.0,0
+none-sft,ad35787dddfd,1,,The option with the lowest Complication rate (%) is D:,,fact_named_sampled,eye,0,small,0,0,B,D,0,0,3121b3e030f6,1.0,0
+none-sft,ad35787dddfd,2,D,Option D,D,fact_named_sampled,eye,0,small,0,0,B,D,0,1,3121b3e030f6,1.0,0
+none-sft,1ef7843d2dc5,0,,All options have the same patient rating and typical wait time.,,fact_named_sampled,eye,0,small,1,0,C,A,0,0,9803ec39390c,1.0,0
+none-sft,1ef7843d2dc5,1,A,A,A,fact_named_sampled,eye,0,small,1,0,C,A,0,1,9803ec39390c,1.0,0
+none-sft,1ef7843d2dc5,2,,The option with the lowest Complication rate (%) is A.,,fact_named_sampled,eye,0,small,1,0,C,A,0,0,9803ec39390c,1.0,0
+none-sft,439a8f46e4d0,0,B,B,B,fact_named_sampled,eye,0,medium,0,0,B,D,1,0,e12de58e2179,1.0,0
+none-sft,439a8f46e4d0,1,B,B,B,fact_named_sampled,eye,0,medium,0,0,B,D,1,0,e12de58e2179,1.0,0
+none-sft,439a8f46e4d0,2,B,"Based on the information provided, Option B: Varnh",B,fact_named_sampled,eye,0,medium,0,0,B,D,1,0,e12de58e2179,1.0,0
+none-sft,470861f3810d,0,A,A,A,fact_named_sampled,eye,0,medium,1,0,C,A,0,1,132c4bb7b7fd,1.0,0
+none-sft,470861f3810d,1,A,A,A,fact_named_sampled,eye,0,medium,1,0,C,A,0,1,132c4bb7b7fd,1.0,0
+none-sft,470861f3810d,2,A,A,A,fact_named_sampled,eye,0,medium,1,0,C,A,0,1,132c4bb7b7fd,1.0,0
+none-sft,22e20fb0128f,0,,"Based on the rating provided, Harlowe Eye Center has",,fact_named_sampled,eye,0,large,0,0,B,D,0,0,0d3041e5bca8,1.0,0
+none-sft,22e20fb0128f,1,D,D,D,fact_named_sampled,eye,0,large,0,0,B,D,0,1,0d3041e5bca8,1.0,0
+none-sft,22e20fb0128f,2,D,D,D,fact_named_sampled,eye,0,large,0,0,B,D,0,1,0d3041e5bca8,1.0,0
+none-sft,d18265864a79,0,A,A,A,fact_named_sampled,eye,0,large,1,0,C,A,0,1,a8beb3e353b5,1.0,0
+none-sft,d18265864a79,1,A,Option A,A,fact_named_sampled,eye,0,large,1,0,C,A,0,1,a8beb3e353b5,1.0,0
+none-sft,d18265864a79,2,A,A: Harlowe Eye Center,A,fact_named_sampled,eye,0,large,1,0,C,A,0,1,a8beb3e353b5,1.0,0
+none-sft,e26abb8fc69b,0,C,C,C,fact_named_sampled,eye,1,small,0,0,A,C,0,1,d8ad8bd9f0a2,1.0,0
+none-sft,e26abb8fc69b,1,,The clinic or hospital with the highest success rate for glau,,fact_named_sampled,eye,1,small,0,0,A,C,0,0,d8ad8bd9f0a2,1.0,0
+none-sft,e26abb8fc69b,2,C,C,C,fact_named_sampled,eye,1,small,0,0,A,C,0,1,d8ad8bd9f0a2,1.0,0
+none-sft,bee7e585e1a5,0,D,D,D,fact_named_sampled,eye,1,small,1,0,D,B,1,0,8edbc4148321,1.0,0
+none-sft,bee7e585e1a5,1,,"Among the options provided, Pellmont Vision Clinic seems to have",,fact_named_sampled,eye,1,small,1,0,D,B,0,0,8edbc4148321,1.0,0
+none-sft,bee7e585e1a5,2,,The option with the highest Glaucoma surgery success rate is,,fact_named_sampled,eye,1,small,1,0,D,B,0,0,8edbc4148321,1.0,0
+none-sft,f5020384f199,0,C,C,C,fact_named_sampled,eye,1,medium,0,0,A,C,0,1,b9cc4f63e0ca,1.0,0
+none-sft,f5020384f199,1,C,Option C,C,fact_named_sampled,eye,1,medium,0,0,A,C,0,1,b9cc4f63e0ca,1.0,0
+none-sft,f5020384f199,2,C,Option C has the highest Glaucoma surgery success rate with,C,fact_named_sampled,eye,1,medium,0,0,A,C,0,1,b9cc4f63e0ca,1.0,0
+none-sft,4e7a22dc7428,0,D,D,D,fact_named_sampled,eye,1,medium,1,0,D,B,1,0,1bb4eab75549,1.0,0
+none-sft,4e7a22dc7428,1,D,D,D,fact_named_sampled,eye,1,medium,1,0,D,B,1,0,1bb4eab75549,1.0,0
+none-sft,4e7a22dc7428,2,,"Based on the provided options, Pellmont Vision Clinic has the",,fact_named_sampled,eye,1,medium,1,0,D,B,0,0,1bb4eab75549,1.0,0
+none-sft,1a40f0d61c44,0,,The option with highest Glaucoma surgery success rate (%) is,,fact_named_sampled,eye,1,large,0,0,A,C,0,0,72f1a91ea56d,1.0,0
+none-sft,1a40f0d61c44,1,C,C,C,fact_named_sampled,eye,1,large,0,0,A,C,0,1,72f1a91ea56d,1.0,0
+none-sft,1a40f0d61c44,2,,"Based on the information provided, Pellmont Vision Clinic has a",,fact_named_sampled,eye,1,large,0,0,A,C,0,0,72f1a91ea56d,1.0,0
+none-sft,6ad8e65bb242,0,B,Option B has the highest Glaucoma surgery success rate with,B,fact_named_sampled,eye,1,large,1,0,D,B,0,1,78440f5e0d83,1.0,0
+none-sft,6ad8e65bb242,1,B,Option B has the highest Glaucoma surgery success rate of,B,fact_named_sampled,eye,1,large,1,0,D,B,0,1,78440f5e0d83,1.0,0
+none-sft,6ad8e65bb242,2,B,B,B,fact_named_sampled,eye,1,large,1,0,D,B,0,1,78440f5e0d83,1.0,0
+none-sft,a3597107d6a4,0,D,D,D,fact_named_sampled,eye,2,small,0,0,B,D,0,1,dbaa2638d2b5,1.0,0
+none-sft,a3597107d6a4,1,D,"Option D has the highest Retina reattachment success (%),",D,fact_named_sampled,eye,2,small,0,0,B,D,0,1,dbaa2638d2b5,1.0,0
+none-sft,a3597107d6a4,2,D,D,D,fact_named_sampled,eye,2,small,0,0,B,D,0,1,dbaa2638d2b5,1.0,0
+none-sft,47809abd4a3a,0,A,A,A,fact_named_sampled,eye,2,small,1,0,C,A,0,1,dd64f6ea5fd8,1.0,0
+none-sft,47809abd4a3a,1,A,"Option A, Drayfield Eye Hospital, has the highest",A,fact_named_sampled,eye,2,small,1,0,C,A,0,1,dd64f6ea5fd8,1.0,0
+none-sft,47809abd4a3a,2,A,A,A,fact_named_sampled,eye,2,small,1,0,C,A,0,1,dd64f6ea5fd8,1.0,0
+none-sft,fe4d3396c768,0,D,Option D,D,fact_named_sampled,eye,2,medium,0,0,B,D,0,1,60c8d7232d4f,1.0,0
+none-sft,fe4d3396c768,1,D,D,D,fact_named_sampled,eye,2,medium,0,0,B,D,0,1,60c8d7232d4f,1.0,0
+none-sft,fe4d3396c768,2,D,D,D,fact_named_sampled,eye,2,medium,0,0,B,D,0,1,60c8d7232d4f,1.0,0
+none-sft,059612d13215,0,A,A,A,fact_named_sampled,eye,2,medium,1,0,C,A,0,1,063e5277f1c5,1.0,0
+none-sft,059612d13215,1,A,Option A,A,fact_named_sampled,eye,2,medium,1,0,C,A,0,1,063e5277f1c5,1.0,0
+none-sft,059612d13215,2,A,A,A,fact_named_sampled,eye,2,medium,1,0,C,A,0,1,063e5277f1c5,1.0,0
+none-sft,c11a4dbff020,0,D,D,D,fact_named_sampled,eye,2,large,0,0,B,D,0,1,12e178ffd4ee,1.0,0
+none-sft,c11a4dbff020,1,D,D,D,fact_named_sampled,eye,2,large,0,0,B,D,0,1,12e178ffd4ee,1.0,0
+none-sft,c11a4dbff020,2,D,D,D,fact_named_sampled,eye,2,large,0,0,B,D,0,1,12e178ffd4ee,1.0,0
+none-sft,cd610c58695a,0,A,A,A,fact_named_sampled,eye,2,large,1,0,C,A,0,1,6643117b888e,1.0,0
+none-sft,cd610c58695a,1,A,A,A,fact_named_sampled,eye,2,large,1,0,C,A,0,1,6643117b888e,1.0,0
+none-sft,cd610c58695a,2,A,A,A,fact_named_sampled,eye,2,large,1,0,C,A,0,1,6643117b888e,1.0,0
+none-sft,b9ca2c0b596b,0,A,Option A has the lowest Pediatric complication rate at 1.,A,fact_named_sampled,eye,3,small,0,0,A,C,1,0,e4ecb2ddb5e1,1.0,0
+none-sft,b9ca2c0b596b,1,,"The option with the lowest Pediatric complications rate (%) is C,",,fact_named_sampled,eye,3,small,0,0,A,C,0,0,e4ecb2ddb5e1,1.0,0
+none-sft,b9ca2c0b596b,2,C,"The Option C, Corrigan Eye Associates, has the",C,fact_named_sampled,eye,3,small,0,0,A,C,0,1,e4ecb2ddb5e1,1.0,0
+none-sft,34a79a0cffca,0,D,D,D,fact_named_sampled,eye,3,small,1,0,D,B,1,0,cfabf2b75127,1.0,0
+none-sft,34a79a0cffca,1,B,B,B,fact_named_sampled,eye,3,small,1,0,D,B,0,1,cfabf2b75127,1.0,0
+none-sft,34a79a0cffca,2,B,"Option B, Corrigan Eye Associates, is the lowest",B,fact_named_sampled,eye,3,small,1,0,D,B,0,1,cfabf2b75127,1.0,0
+none-sft,fb0b2b436ea9,0,C,C,C,fact_named_sampled,eye,3,medium,0,0,A,C,0,1,49200f73ff83,1.0,0
+none-sft,fb0b2b436ea9,1,,The option with the lowest Pediatric complication rate is option C:,,fact_named_sampled,eye,3,medium,0,0,A,C,0,0,49200f73ff83,1.0,0
+none-sft,fb0b2b436ea9,2,,The lowest value for Pediatric complication rate (%) is C with a,,fact_named_sampled,eye,3,medium,0,0,A,C,0,0,49200f73ff83,1.0,0
+none-sft,4cb691fc0b87,0,B,Option B: Corrigan Eye Associates,B,fact_named_sampled,eye,3,medium,1,0,D,B,0,1,ac0109a061ff,1.0,0
+none-sft,4cb691fc0b87,1,D,D,D,fact_named_sampled,eye,3,medium,1,0,D,B,1,0,ac0109a061ff,1.0,0
+none-sft,4cb691fc0b87,2,D,D,D,fact_named_sampled,eye,3,medium,1,0,D,B,1,0,ac0109a061ff,1.0,0
+none-sft,11eecd237d7d,0,,The lowest Pediatric complication rate (%) is 1.10,,fact_named_sampled,eye,3,large,0,0,A,C,0,0,c77650bb0cfd,1.0,0
+none-sft,11eecd237d7d,1,,The option with the lowest Pediatric complication rate (%) is C:,,fact_named_sampled,eye,3,large,0,0,A,C,0,0,c77650bb0cfd,1.0,0
+none-sft,11eecd237d7d,2,C,C,C,fact_named_sampled,eye,3,large,0,0,A,C,0,1,c77650bb0cfd,1.0,0
+none-sft,2df231ec2ffc,0,B,B,B,fact_named_sampled,eye,3,large,1,0,D,B,0,1,a2cfb6592652,1.0,0
+none-sft,2df231ec2ffc,1,B,The option with the lowest Pediatric complication rate (%) is Option B,B,fact_named_sampled,eye,3,large,1,0,D,B,0,1,a2cfb6592652,1.0,0
+none-sft,2df231ec2ffc,2,B,Option B has the lowest Pediatric complication rate of 1.,B,fact_named_sampled,eye,3,large,1,0,D,B,0,1,a2cfb6592652,1.0,0
+none-sft,279c9d34fdde,0,,Based on the inputs provided I believe option \( \text{,,fact_named_sampled,eye,4,small,0,0,B,D,0,0,366408028187,1.0,0
+none-sft,279c9d34fdde,1,B,B,B,fact_named_sampled,eye,4,small,0,0,B,D,1,0,366408028187,1.0,0
+none-sft,279c9d34fdde,2,,The option with the lowest Re-treatment rate (%) is Option,,fact_named_sampled,eye,4,small,0,0,B,D,0,0,366408028187,1.0,0
+none-sft,441c15a145bf,0,A,Option A has the lowest Re-treatment rate(%) at,A,fact_named_sampled,eye,4,small,1,0,C,A,0,1,df1bbfa5fd2f,1.0,0
+none-sft,441c15a145bf,1,A,A,A,fact_named_sampled,eye,4,small,1,0,C,A,0,1,df1bbfa5fd2f,1.0,0
+none-sft,441c15a145bf,2,A,"Based on the data provided, Option A: Bellmore Eye",A,fact_named_sampled,eye,4,small,1,0,C,A,0,1,df1bbfa5fd2f,1.0,0
+none-sft,c680ed60b8f5,0,D,D,D,fact_named_sampled,eye,4,medium,0,0,B,D,0,1,76a81f7524a0,1.0,0
+none-sft,c680ed60b8f5,1,D,D,D,fact_named_sampled,eye,4,medium,0,0,B,D,0,1,76a81f7524a0,1.0,0
+none-sft,c680ed60b8f5,2,D,D,D,fact_named_sampled,eye,4,medium,0,0,B,D,0,1,76a81f7524a0,1.0,0
+none-sft,846bfeb0771d,0,A,A,A,fact_named_sampled,eye,4,medium,1,0,C,A,0,1,cc5259e65a47,1.0,0
+none-sft,846bfeb0771d,1,A,The option with the lowest re-treatment rate is Option A,A,fact_named_sampled,eye,4,medium,1,0,C,A,0,1,cc5259e65a47,1.0,0
+none-sft,846bfeb0771d,2,A,A,A,fact_named_sampled,eye,4,medium,1,0,C,A,0,1,cc5259e65a47,1.0,0
+none-sft,906e65ffe69d,0,D,D,D,fact_named_sampled,eye,4,large,0,0,B,D,0,1,20248d130d48,1.0,0
+none-sft,906e65ffe69d,1,D,D,D,fact_named_sampled,eye,4,large,0,0,B,D,0,1,20248d130d48,1.0,0
+none-sft,906e65ffe69d,2,D,D,D,fact_named_sampled,eye,4,large,0,0,B,D,0,1,20248d130d48,1.0,0
+none-sft,e01d11d98142,0,A,A,A,fact_named_sampled,eye,4,large,1,0,C,A,0,1,8989c298963f,1.0,0
+none-sft,e01d11d98142,1,A,Option A has the lowest re-treatment rate at 2,A,fact_named_sampled,eye,4,large,1,0,C,A,0,1,8989c298963f,1.0,0
+none-sft,e01d11d98142,2,A,A,A,fact_named_sampled,eye,4,large,1,0,C,A,0,1,8989c298963f,1.0,0
+none-sft,e279c9f6689d,0,C,Option C: Ashgrove Vision Center has a 5,C,fact_named_sampled,eye,5,small,0,0,A,C,0,1,dd28c2ede085,1.0,0
+none-sft,e279c9f6689d,1,C,Option C: Ashgrove Vision Center has the highest,C,fact_named_sampled,eye,5,small,0,0,A,C,0,1,dd28c2ede085,1.0,0
+none-sft,e279c9f6689d,2,C,Option C,C,fact_named_sampled,eye,5,small,0,0,A,C,0,1,dd28c2ede085,1.0,0
+none-sft,01f6395a5de7,0,B,"Option B has the highest 5-year graft survival (%),",B,fact_named_sampled,eye,5,small,1,0,D,B,0,1,edd304f8db78,1.0,0
+none-sft,01f6395a5de7,1,,"Based on the 5-year graft survival rates provided, the",,fact_named_sampled,eye,5,small,1,0,D,B,0,0,edd304f8db78,1.0,0
+none-sft,01f6395a5de7,2,D,D,D,fact_named_sampled,eye,5,small,1,0,D,B,1,0,edd304f8db78,1.0,0
+none-sft,56a9ab46234e,0,C,C,C,fact_named_sampled,eye,5,medium,0,0,A,C,0,1,0a0912720c81,1.0,0
+none-sft,56a9ab46234e,1,C,C,C,fact_named_sampled,eye,5,medium,0,0,A,C,0,1,0a0912720c81,1.0,0
+none-sft,56a9ab46234e,2,D,Option D,D,fact_named_sampled,eye,5,medium,0,0,A,C,0,0,0a0912720c81,1.0,0
+none-sft,1abedf781eef,0,B,Option B,B,fact_named_sampled,eye,5,medium,1,0,D,B,0,1,8e79cf6d383c,1.0,0
+none-sft,1abedf781eef,1,D,D,D,fact_named_sampled,eye,5,medium,1,0,D,B,1,0,8e79cf6d383c,1.0,0
+none-sft,1abedf781eef,2,D,Option D has the highest 5-year graft survival rate at,D,fact_named_sampled,eye,5,medium,1,0,D,B,1,0,8e79cf6d383c,1.0,0
+none-sft,01809946b528,0,C,C,C,fact_named_sampled,eye,5,large,0,0,A,C,0,1,622ef6c88823,1.0,0
+none-sft,01809946b528,1,C,Option C,C,fact_named_sampled,eye,5,large,0,0,A,C,0,1,622ef6c88823,1.0,0
+none-sft,01809946b528,2,C,C,C,fact_named_sampled,eye,5,large,0,0,A,C,0,1,622ef6c88823,1.0,0
+none-sft,5477caf195c6,0,,The option with the highest 5-year graft survival is Option,,fact_named_sampled,eye,5,large,1,0,D,B,0,0,156e73468b19,1.0,0
+none-sft,5477caf195c6,1,B,Option B: Ashgrove Vision Center has the highest,B,fact_named_sampled,eye,5,large,1,0,D,B,0,1,156e73468b19,1.0,0
+none-sft,5477caf195c6,2,B,Option B,B,fact_named_sampled,eye,5,large,1,0,D,B,0,1,156e73468b19,1.0,0
+none-sft,0e4d083425e3,0,D,D,D,fact_named_sampled,eye,6,small,0,0,B,D,0,1,bc1c17583b4d,1.0,0
+none-sft,0e4d083425e3,1,D,D,D,fact_named_sampled,eye,6,small,0,0,B,D,0,1,bc1c17583b4d,1.0,0
+none-sft,0e4d083425e3,2,D,Option D,D,fact_named_sampled,eye,6,small,0,0,B,D,0,1,bc1c17583b4d,1.0,0
+none-sft,e3eb6037fe3b,0,A,A,A,fact_named_sampled,eye,6,small,1,0,C,A,0,1,868d5974453c,1.0,0
+none-sft,e3eb6037fe3b,1,A,Option A has the highest Patients with improved vision (%). Option,A,fact_named_sampled,eye,6,small,1,0,C,A,0,1,868d5974453c,1.0,0
+none-sft,e3eb6037fe3b,2,A,A,A,fact_named_sampled,eye,6,small,1,0,C,A,0,1,868d5974453c,1.0,0
+none-sft,29aa5ba5ed1e,0,,The option who has the highest Patients with improved vision (%) is,,fact_named_sampled,eye,6,medium,0,0,B,D,0,0,dc2be9665ce9,1.0,0
+none-sft,29aa5ba5ed1e,1,D,Option D has the highest percentage of Patients with improved vision at,D,fact_named_sampled,eye,6,medium,0,0,B,D,0,1,dc2be9665ce9,1.0,0
+none-sft,29aa5ba5ed1e,2,D,D,D,fact_named_sampled,eye,6,medium,0,0,B,D,0,1,dc2be9665ce9,1.0,0
+none-sft,340d2c27942c,0,A,A,A,fact_named_sampled,eye,6,medium,1,0,C,A,0,1,0da4071bc217,1.0,0
+none-sft,340d2c27942c,1,A,A,A,fact_named_sampled,eye,6,medium,1,0,C,A,0,1,0da4071bc217,1.0,0
+none-sft,340d2c27942c,2,A,A,A,fact_named_sampled,eye,6,medium,1,0,C,A,0,1,0da4071bc217,1.0,0
+none-sft,2f3b71d12707,0,D,Option D,D,fact_named_sampled,eye,6,large,0,0,B,D,0,1,041b14f6567e,1.0,0
+none-sft,2f3b71d12707,1,D,D,D,fact_named_sampled,eye,6,large,0,0,B,D,0,1,041b14f6567e,1.0,0
+none-sft,2f3b71d12707,2,D,Option D has the highest percentage of Patients with improved vision at,D,fact_named_sampled,eye,6,large,0,0,B,D,0,1,041b14f6567e,1.0,0
+none-sft,a4e1c4cc1430,0,A,"Option A has the highest Patients with improved vision (%), with",A,fact_named_sampled,eye,6,large,1,0,C,A,0,1,813e5fbbcf6c,1.0,0
+none-sft,a4e1c4cc1430,1,A,A,A,fact_named_sampled,eye,6,large,1,0,C,A,0,1,813e5fbbcf6c,1.0,0
+none-sft,a4e1c4cc1430,2,A,A,A,fact_named_sampled,eye,6,large,1,0,C,A,0,1,813e5fbbcf6c,1.0,0
+none-sft,e3de2ffb30b7,0,A,A,A,fact_named_sampled,eye,7,small,0,0,A,C,1,0,4f8e93ad6722,1.0,0
+none-sft,e3de2ffb30b7,1,C,Option C,C,fact_named_sampled,eye,7,small,0,0,A,C,0,1,4f8e93ad6722,1.0,0
+none-sft,e3de2ffb30b7,2,A,A,A,fact_named_sampled,eye,7,small,0,0,A,C,1,0,4f8e93ad6722,1.0,0
+none-sft,845d86a63740,0,B,B,B,fact_named_sampled,eye,7,small,1,0,D,B,0,1,d18e88229293,1.0,0
+none-sft,845d86a63740,1,B,B,B,fact_named_sampled,eye,7,small,1,0,D,B,0,1,d18e88229293,1.0,0
+none-sft,845d86a63740,2,D,Option D has the lowest Complication rate (%) with 1,D,fact_named_sampled,eye,7,small,1,0,D,B,1,0,d18e88229293,1.0,0
+none-sft,b8e140e19424,0,A,A,A,fact_named_sampled,eye,7,medium,0,0,A,C,1,0,b1f36a18fbc4,1.0,0
+none-sft,b8e140e19424,1,A,A,A,fact_named_sampled,eye,7,medium,0,0,A,C,1,0,b1f36a18fbc4,1.0,0
+none-sft,b8e140e19424,2,A,Option A,A,fact_named_sampled,eye,7,medium,0,0,A,C,1,0,b1f36a18fbc4,1.0,0
+none-sft,f2be3c578fc7,0,D,D,D,fact_named_sampled,eye,7,medium,1,0,D,B,1,0,3d4ca9d0f191,1.0,0
+none-sft,f2be3c578fc7,1,,"Out of the five options provided, the option that has the",,fact_named_sampled,eye,7,medium,1,0,D,B,0,0,3d4ca9d0f191,1.0,0
+none-sft,f2be3c578fc7,2,B,B,B,fact_named_sampled,eye,7,medium,1,0,D,B,0,1,3d4ca9d0f191,1.0,0
+none-sft,504953f8ecd8,0,A,A,A,fact_named_sampled,eye,7,large,0,0,A,C,1,0,be48a0c41090,1.0,0
+none-sft,504953f8ecd8,1,C,The answer is Option C,C,fact_named_sampled,eye,7,large,0,0,A,C,0,1,be48a0c41090,1.0,0
+none-sft,504953f8ecd8,2,C,C,C,fact_named_sampled,eye,7,large,0,0,A,C,0,1,be48a0c41090,1.0,0
+none-sft,fef90a397e5c,0,,The option with the lowest complication rate is B with 1,,fact_named_sampled,eye,7,large,1,0,D,B,0,0,1f5b29369c6b,1.0,0
+none-sft,fef90a397e5c,1,B,B,B,fact_named_sampled,eye,7,large,1,0,D,B,0,1,1f5b29369c6b,1.0,0
+none-sft,fef90a397e5c,2,B,Option B has the lowest Complication rate (%).,B,fact_named_sampled,eye,7,large,1,0,D,B,0,1,1f5b29369c6b,1.0,0
+none-sft,80242e4dc7de,0,,"All options have the same travel time, same patient ratings,",,fact_named_sampled,heart,0,small,0,0,B,D,0,0,6417b5afaa35,1.0,0
+none-sft,80242e4dc7de,1,,"Among the options, Brenwick Heart Center has the lowest",,fact_named_sampled,heart,0,small,0,0,B,D,0,0,6417b5afaa35,1.0,0
+none-sft,80242e4dc7de,2,B,Option B: Veldmark Heart Institute has the lowest,B,fact_named_sampled,heart,0,small,0,0,B,D,1,0,6417b5afaa35,1.0,0
+none-sft,72abe29a96d3,0,A,A,A,fact_named_sampled,heart,0,small,1,0,C,A,0,1,ebd7353558ae,1.0,0
+none-sft,72abe29a96d3,1,A,A,A,fact_named_sampled,heart,0,small,1,0,C,A,0,1,ebd7353558ae,1.0,0
+none-sft,72abe29a96d3,2,A,A,A,fact_named_sampled,heart,0,small,1,0,C,A,0,1,ebd7353558ae,1.0,0
+none-sft,f0bc29b618f7,0,D,Option D,D,fact_named_sampled,heart,0,medium,0,0,B,D,0,1,8602d9857cf3,1.0,0
+none-sft,f0bc29b618f7,1,D,D,D,fact_named_sampled,heart,0,medium,0,0,B,D,0,1,8602d9857cf3,1.0,0
+none-sft,f0bc29b618f7,2,D,D,D,fact_named_sampled,heart,0,medium,0,0,B,D,0,1,8602d9857cf3,1.0,0
+none-sft,624f3f415bfa,0,A,"A
+
+Becky has an older brother who is",A,fact_named_sampled,heart,0,medium,1,0,C,A,0,1,9d41172e4883,1.0,0
+none-sft,624f3f415bfa,1,A,A,A,fact_named_sampled,heart,0,medium,1,0,C,A,0,1,9d41172e4883,1.0,0
+none-sft,624f3f415bfa,2,A,A,A,fact_named_sampled,heart,0,medium,1,0,C,A,0,1,9d41172e4883,1.0,0
+none-sft,514a5d373b35,0,,All options have the same travel time of 2 hours and,,fact_named_sampled,heart,0,large,0,0,B,D,0,0,52b77ae26f07,1.0,0
+none-sft,514a5d373b35,1,D,D,D,fact_named_sampled,heart,0,large,0,0,B,D,0,1,52b77ae26f07,1.0,0
+none-sft,514a5d373b35,2,D,D,D,fact_named_sampled,heart,0,large,0,0,B,D,0,1,52b77ae26f07,1.0,0
+none-sft,10eebee87571,0,A,A,A,fact_named_sampled,heart,0,large,1,0,C,A,0,1,359da2481fd3,1.0,0
+none-sft,10eebee87571,1,A,A,A,fact_named_sampled,heart,0,large,1,0,C,A,0,1,359da2481fd3,1.0,0
+none-sft,10eebee87571,2,A,A,A,fact_named_sampled,heart,0,large,1,0,C,A,0,1,359da2481fd3,1.0,0
+none-sft,b9f79df7edc7,0,C,Option C has the lowest 30-day mortality after valve,C,fact_named_sampled,heart,1,small,0,0,A,C,0,1,59cdc65a14a8,1.0,0
+none-sft,b9f79df7edc7,1,A,A,A,fact_named_sampled,heart,1,small,0,0,A,C,1,0,59cdc65a14a8,1.0,0
+none-sft,b9f79df7edc7,2,A,A,A,fact_named_sampled,heart,1,small,0,0,A,C,1,0,59cdc65a14a8,1.0,0
+none-sft,be78014c2083,0,B,B,B,fact_named_sampled,heart,1,small,1,0,D,B,0,1,f568a62463a9,1.0,0
+none-sft,be78014c2083,1,B,Option B,B,fact_named_sampled,heart,1,small,1,0,D,B,0,1,f568a62463a9,1.0,0
+none-sft,be78014c2083,2,B,Option B: Ostrander Cardiac Hospital has the lowest,B,fact_named_sampled,heart,1,small,1,0,D,B,0,1,f568a62463a9,1.0,0
+none-sft,3cfd054d90a5,0,A,A,A,fact_named_sampled,heart,1,medium,0,0,A,C,1,0,2f3cb527c121,1.0,0
+none-sft,3cfd054d90a5,1,A,A,A,fact_named_sampled,heart,1,medium,0,0,A,C,1,0,2f3cb527c121,1.0,0
+none-sft,3cfd054d90a5,2,A,Option A,A,fact_named_sampled,heart,1,medium,0,0,A,C,1,0,2f3cb527c121,1.0,0
+none-sft,2f9ba9547c03,0,,The option that has the lowest 30-day mortality after,,fact_named_sampled,heart,1,medium,1,0,D,B,0,0,a032949868a9,1.0,0
+none-sft,2f9ba9547c03,1,,Based on the 30-day mortality after valve surgery (%,,fact_named_sampled,heart,1,medium,1,0,D,B,0,0,a032949868a9,1.0,0
+none-sft,2f9ba9547c03,2,B,B,B,fact_named_sampled,heart,1,medium,1,0,D,B,0,1,a032949868a9,1.0,0
+none-sft,7d405c7031e1,0,C,C,C,fact_named_sampled,heart,1,large,0,0,A,C,0,1,be634824cb6a,1.0,0
+none-sft,7d405c7031e1,1,C,C,C,fact_named_sampled,heart,1,large,0,0,A,C,0,1,be634824cb6a,1.0,0
+none-sft,7d405c7031e1,2,C,C,C,fact_named_sampled,heart,1,large,0,0,A,C,0,1,be634824cb6a,1.0,0
+none-sft,2b99a62a8c81,0,,The option with the lowest 30-day mortality after valve,,fact_named_sampled,heart,1,large,1,0,D,B,0,0,76320eec70c9,1.0,0
+none-sft,2b99a62a8c81,1,B,"Based on the information provided, Option B - Ostrander",B,fact_named_sampled,heart,1,large,1,0,D,B,0,1,76320eec70c9,1.0,0
+none-sft,2b99a62a8c81,2,B,B,B,fact_named_sampled,heart,1,large,1,0,D,B,0,1,76320eec70c9,1.0,0
+none-sft,47ba4b90ddd9,0,D,Option D has the lowest Major complication rate with 0.,D,fact_named_sampled,heart,2,small,0,0,B,D,0,1,93cdb9c3008d,1.0,0
+none-sft,47ba4b90ddd9,1,,The option with the lowest major complication rate is option D:,,fact_named_sampled,heart,2,small,0,0,B,D,0,0,93cdb9c3008d,1.0,0
+none-sft,47ba4b90ddd9,2,D,D,D,fact_named_sampled,heart,2,small,0,0,B,D,0,1,93cdb9c3008d,1.0,0
+none-sft,1f7513c41bfa,0,A,Option A,A,fact_named_sampled,heart,2,small,1,0,C,A,0,1,2449229f5935,1.0,0
+none-sft,1f7513c41bfa,1,A,A,A,fact_named_sampled,heart,2,small,1,0,C,A,0,1,2449229f5935,1.0,0
+none-sft,1f7513c41bfa,2,A,"Of the listed options, Option A - Kelvane Heart",A,fact_named_sampled,heart,2,small,1,0,C,A,0,1,2449229f5935,1.0,0
+none-sft,dc21df2b024e,0,B,Option B: Veldmark Heart Institute has the lowest major,B,fact_named_sampled,heart,2,medium,0,0,B,D,1,0,c9e76dd0e8d7,1.0,0
+none-sft,dc21df2b024e,1,D,Option D,D,fact_named_sampled,heart,2,medium,0,0,B,D,0,1,c9e76dd0e8d7,1.0,0
+none-sft,dc21df2b024e,2,D,Option D,D,fact_named_sampled,heart,2,medium,0,0,B,D,0,1,c9e76dd0e8d7,1.0,0
+none-sft,e645ca896c57,0,,All options have the same travel time of 2 hours.,,fact_named_sampled,heart,2,medium,1,0,C,A,0,0,8c2eb10db148,1.0,0
+none-sft,e645ca896c57,1,A,A,A,fact_named_sampled,heart,2,medium,1,0,C,A,0,1,8c2eb10db148,1.0,0
+none-sft,e645ca896c57,2,A,A,A,fact_named_sampled,heart,2,medium,1,0,C,A,0,1,8c2eb10db148,1.0,0
+none-sft,6250802d937f,0,D,Option D,D,fact_named_sampled,heart,2,large,0,0,B,D,0,1,50a72d702ef5,1.0,0
+none-sft,6250802d937f,1,D,Option D has the lowest Major complication rate (%) at 0,D,fact_named_sampled,heart,2,large,0,0,B,D,0,1,50a72d702ef5,1.0,0
+none-sft,6250802d937f,2,D,D,D,fact_named_sampled,heart,2,large,0,0,B,D,0,1,50a72d702ef5,1.0,0
+none-sft,a17f47ebe3d9,0,A,A,A,fact_named_sampled,heart,2,large,1,0,C,A,0,1,3bea6ccba0b3,1.0,0
+none-sft,a17f47ebe3d9,1,A,A,A,fact_named_sampled,heart,2,large,1,0,C,A,0,1,3bea6ccba0b3,1.0,0
+none-sft,a17f47ebe3d9,2,A,A,A,fact_named_sampled,heart,2,large,1,0,C,A,0,1,3bea6ccba0b3,1.0,0
+none-sft,76f61a3676e3,0,C,C,C,fact_named_sampled,heart,3,small,0,0,A,C,0,1,ccf38db4c8e7,1.0,0
+none-sft,76f61a3676e3,1,C,Option C: Marston Heart Institute has the lowest 3,C,fact_named_sampled,heart,3,small,0,0,A,C,0,1,ccf38db4c8e7,1.0,0
+none-sft,76f61a3676e3,2,A,A,A,fact_named_sampled,heart,3,small,0,0,A,C,1,0,ccf38db4c8e7,1.0,0
+none-sft,a016c22ee8fa,0,B,Option B has the lowest 30-day readmission rate,B,fact_named_sampled,heart,3,small,1,0,D,B,0,1,2dd4277c0bb9,1.0,0
+none-sft,a016c22ee8fa,1,,The option with the lowest 30-day readmission rate,,fact_named_sampled,heart,3,small,1,0,D,B,0,0,2dd4277c0bb9,1.0,0
+none-sft,a016c22ee8fa,2,D,Option D has the lowest (smallest) 30,D,fact_named_sampled,heart,3,small,1,0,D,B,1,0,2dd4277c0bb9,1.0,0
+none-sft,8aa67016e168,0,A,A: The Veldmark Heart Institute has the lowest,A,fact_named_sampled,heart,3,medium,0,0,A,C,1,0,a9d406e46e09,1.0,0
+none-sft,8aa67016e168,1,A,A,A,fact_named_sampled,heart,3,medium,0,0,A,C,1,0,a9d406e46e09,1.0,0
+none-sft,8aa67016e168,2,A,A,A,fact_named_sampled,heart,3,medium,0,0,A,C,1,0,a9d406e46e09,1.0,0
+none-sft,91ff1997b2bc,0,B,Option B,B,fact_named_sampled,heart,3,medium,1,0,D,B,0,1,27b1efafb095,1.0,0
+none-sft,91ff1997b2bc,1,B,B,B,fact_named_sampled,heart,3,medium,1,0,D,B,0,1,27b1efafb095,1.0,0
+none-sft,91ff1997b2bc,2,D,D,D,fact_named_sampled,heart,3,medium,1,0,D,B,1,0,27b1efafb095,1.0,0
+none-sft,39ac5362c7c2,0,A,Option A has the lowest 30-day readmission rate,A,fact_named_sampled,heart,3,large,0,0,A,C,1,0,db3d9ad7a264,1.0,0
+none-sft,39ac5362c7c2,1,C,Option C has the lowest readmission rate with 14,C,fact_named_sampled,heart,3,large,0,0,A,C,0,1,db3d9ad7a264,1.0,0
+none-sft,39ac5362c7c2,2,C,C,C,fact_named_sampled,heart,3,large,0,0,A,C,0,1,db3d9ad7a264,1.0,0
+none-sft,43aabc4323a4,0,B,B,B,fact_named_sampled,heart,3,large,1,0,D,B,0,1,58d4bccee944,1.0,0
+none-sft,43aabc4323a4,1,B,Option B: Marston Heart Institute has the lowest 3,B,fact_named_sampled,heart,3,large,1,0,D,B,0,1,58d4bccee944,1.0,0
+none-sft,43aabc4323a4,2,B,Option B is the hospital with the lowest 30-day,B,fact_named_sampled,heart,3,large,1,0,D,B,0,1,58d4bccee944,1.0,0
+none-sft,a6e81ba923c5,0,D,D,D,fact_named_sampled,heart,4,small,0,0,B,D,0,1,b9713b3d3f80,1.0,0
+none-sft,a6e81ba923c5,1,D,D,D,fact_named_sampled,heart,4,small,0,0,B,D,0,1,b9713b3d3f80,1.0,0
+none-sft,a6e81ba923c5,2,,The option with the highest survival after pediatric heart surgery is Option,,fact_named_sampled,heart,4,small,0,0,B,D,0,0,b9713b3d3f80,1.0,0
+none-sft,63256ce8031f,0,A,A,A,fact_named_sampled,heart,4,small,1,0,C,A,0,1,37059037c9b1,1.0,0
+none-sft,63256ce8031f,1,A,A,A,fact_named_sampled,heart,4,small,1,0,C,A,0,1,37059037c9b1,1.0,0
+none-sft,63256ce8031f,2,A,A,A,fact_named_sampled,heart,4,small,1,0,C,A,0,1,37059037c9b1,1.0,0
+none-sft,435dd5f68983,0,D,Option D,D,fact_named_sampled,heart,4,medium,0,0,B,D,0,1,1d5072b70867,1.0,0
+none-sft,435dd5f68983,1,D,Option D: Halcombe Cardiac Center has the highest survival,D,fact_named_sampled,heart,4,medium,0,0,B,D,0,1,1d5072b70867,1.0,0
+none-sft,435dd5f68983,2,D,D,D,fact_named_sampled,heart,4,medium,0,0,B,D,0,1,1d5072b70867,1.0,0
+none-sft,580e669c2aa3,0,A,A,A,fact_named_sampled,heart,4,medium,1,0,C,A,0,1,8ff76d30c9bf,1.0,0
+none-sft,580e669c2aa3,1,A,Option A has the highest survial rate after pediatric heart surgery,A,fact_named_sampled,heart,4,medium,1,0,C,A,0,1,8ff76d30c9bf,1.0,0
+none-sft,580e669c2aa3,2,A,A,A,fact_named_sampled,heart,4,medium,1,0,C,A,0,1,8ff76d30c9bf,1.0,0
+none-sft,a8e2f4b42f02,0,D,D,D,fact_named_sampled,heart,4,large,0,0,B,D,0,1,a871c10b0ef3,1.0,0
+none-sft,a8e2f4b42f02,1,D,D,D,fact_named_sampled,heart,4,large,0,0,B,D,0,1,a871c10b0ef3,1.0,0
+none-sft,a8e2f4b42f02,2,D,D,D,fact_named_sampled,heart,4,large,0,0,B,D,0,1,a871c10b0ef3,1.0,0
+none-sft,0022a113cd9f,0,A,Option A has the highest Survival after pediatric heart surgery (%):,A,fact_named_sampled,heart,4,large,1,0,C,A,0,1,540a5a9080b1,1.0,0
+none-sft,0022a113cd9f,1,A,A,A,fact_named_sampled,heart,4,large,1,0,C,A,0,1,540a5a9080b1,1.0,0
+none-sft,0022a113cd9f,2,,"Based on the criteria of Pediatric Heart Surgery Survival Percentage, Option",,fact_named_sampled,heart,4,large,1,0,C,A,0,0,540a5a9080b1,1.0,0
+none-sft,32af5d8081f1,0,A,Option A has the highest Ablation success at 1,A,fact_named_sampled,heart,5,small,0,0,A,C,1,0,a818adc3db6a,1.0,0
+none-sft,32af5d8081f1,1,C,Option C has the highest Ablation success at 1,C,fact_named_sampled,heart,5,small,0,0,A,C,0,1,a818adc3db6a,1.0,0
+none-sft,32af5d8081f1,2,C,"C
+
+Option C: Redfern Heart Hospital has the highest",C,fact_named_sampled,heart,5,small,0,0,A,C,0,1,a818adc3db6a,1.0,0
+none-sft,c24711c9f5da,0,D,D,D,fact_named_sampled,heart,5,small,1,0,D,B,1,0,fe831d13c0fe,1.0,0
+none-sft,c24711c9f5da,1,D,D,D,fact_named_sampled,heart,5,small,1,0,D,B,1,0,fe831d13c0fe,1.0,0
+none-sft,c24711c9f5da,2,D,D,D,fact_named_sampled,heart,5,small,1,0,D,B,1,0,fe831d13c0fe,1.0,0
+none-sft,e5a718bb6a37,0,C,C,C,fact_named_sampled,heart,5,medium,0,0,A,C,0,1,d4ab00ebddc5,1.0,0
+none-sft,e5a718bb6a37,1,C,C,C,fact_named_sampled,heart,5,medium,0,0,A,C,0,1,d4ab00ebddc5,1.0,0
+none-sft,e5a718bb6a37,2,C,Option C: Redfern Heart Hospital has the highest Abl,C,fact_named_sampled,heart,5,medium,0,0,A,C,0,1,d4ab00ebddc5,1.0,0
+none-sft,a4636d72b1db,0,D,Option D has the highest Ablation success at 1,D,fact_named_sampled,heart,5,medium,1,0,D,B,1,0,2f8dc5139458,1.0,0
+none-sft,a4636d72b1db,1,D,Option D,D,fact_named_sampled,heart,5,medium,1,0,D,B,1,0,2f8dc5139458,1.0,0
+none-sft,a4636d72b1db,2,D,D,D,fact_named_sampled,heart,5,medium,1,0,D,B,1,0,2f8dc5139458,1.0,0
+none-sft,db19a7b3ddb5,0,C,Option C,C,fact_named_sampled,heart,5,large,0,0,A,C,0,1,1e3e48cde8bd,1.0,0
+none-sft,db19a7b3ddb5,1,C,C,C,fact_named_sampled,heart,5,large,0,0,A,C,0,1,1e3e48cde8bd,1.0,0
+none-sft,db19a7b3ddb5,2,C,Option C: Redfern Heart Hospital has an Ablation,C,fact_named_sampled,heart,5,large,0,0,A,C,0,1,1e3e48cde8bd,1.0,0
+none-sft,c51a4ce2dafb,0,B,B,B,fact_named_sampled,heart,5,large,1,0,D,B,0,1,bfd485027b0c,1.0,0
+none-sft,c51a4ce2dafb,1,B,B,B,fact_named_sampled,heart,5,large,1,0,D,B,0,1,bfd485027b0c,1.0,0
+none-sft,c51a4ce2dafb,2,B,B,B,fact_named_sampled,heart,5,large,1,0,D,B,0,1,bfd485027b0c,1.0,0
+none-sft,cab12c038b98,0,,Based on the 1-year survival after transplant (%) the following,,fact_named_sampled,heart,6,small,0,0,B,D,0,0,a7ee0f2933db,1.0,0
+none-sft,cab12c038b98,1,D,Option D,D,fact_named_sampled,heart,6,small,0,0,B,D,0,1,a7ee0f2933db,1.0,0
+none-sft,cab12c038b98,2,D,Option D,D,fact_named_sampled,heart,6,small,0,0,B,D,0,1,a7ee0f2933db,1.0,0
+none-sft,efb690c2ddca,0,A,A,A,fact_named_sampled,heart,6,small,1,0,C,A,0,1,b43e18261db2,1.0,0
+none-sft,efb690c2ddca,1,C,Option C: Veldmark Heart Institute,C,fact_named_sampled,heart,6,small,1,0,C,A,1,0,b43e18261db2,1.0,0
+none-sft,efb690c2ddca,2,A,A,A,fact_named_sampled,heart,6,small,1,0,C,A,0,1,b43e18261db2,1.0,0
+none-sft,6ff65fc16166,0,D,Option D has the highest 1-year survival after transplant (%),D,fact_named_sampled,heart,6,medium,0,0,B,D,0,1,30cc0decb593,1.0,0
+none-sft,6ff65fc16166,1,D,Option D has the highest 1-year survival after transplant (%),D,fact_named_sampled,heart,6,medium,0,0,B,D,0,1,30cc0decb593,1.0,0
+none-sft,6ff65fc16166,2,D,D,D,fact_named_sampled,heart,6,medium,0,0,B,D,0,1,30cc0decb593,1.0,0
+none-sft,2d68e92d6550,0,A,A,A,fact_named_sampled,heart,6,medium,1,0,C,A,0,1,df8a37c177a8,1.0,0
+none-sft,2d68e92d6550,1,A,A,A,fact_named_sampled,heart,6,medium,1,0,C,A,0,1,df8a37c177a8,1.0,0
+none-sft,2d68e92d6550,2,A,Option A,A,fact_named_sampled,heart,6,medium,1,0,C,A,0,1,df8a37c177a8,1.0,0
+none-sft,feaa07b3b486,0,D,D,D,fact_named_sampled,heart,6,large,0,0,B,D,0,1,5bbba6422a37,1.0,0
+none-sft,feaa07b3b486,1,,The option with the highest 1-year survival after transplant (%),,fact_named_sampled,heart,6,large,0,0,B,D,0,0,5bbba6422a37,1.0,0
+none-sft,feaa07b3b486,2,D,Option D,D,fact_named_sampled,heart,6,large,0,0,B,D,0,1,5bbba6422a37,1.0,0
+none-sft,fe701769e445,0,A,A,A,fact_named_sampled,heart,6,large,1,0,C,A,0,1,61d491727a0f,1.0,0
+none-sft,fe701769e445,1,A,A,A,fact_named_sampled,heart,6,large,1,0,C,A,0,1,61d491727a0f,1.0,0
+none-sft,fe701769e445,2,,The option with the highest 1-year survival after transplant (%),,fact_named_sampled,heart,6,large,1,0,C,A,0,0,61d491727a0f,1.0,0
+none-sft,39be2cc5dfb5,0,A,Option A,A,fact_named_sampled,heart,7,small,0,0,A,C,1,0,5c55eb85cdfe,1.0,0
+none-sft,39be2cc5dfb5,1,A,Option A,A,fact_named_sampled,heart,7,small,0,0,A,C,1,0,5c55eb85cdfe,1.0,0
+none-sft,39be2cc5dfb5,2,A,A,A,fact_named_sampled,heart,7,small,0,0,A,C,1,0,5c55eb85cdfe,1.0,0
+none-sft,1a53fe9e1ae6,0,D,Option D has the lowest 30-day readmission after,D,fact_named_sampled,heart,7,small,1,0,D,B,1,0,3a43ef82ce16,1.0,0
+none-sft,1a53fe9e1ae6,1,,Based on the 30-day readmission after heart attack,,fact_named_sampled,heart,7,small,1,0,D,B,0,0,3a43ef82ce16,1.0,0
+none-sft,1a53fe9e1ae6,2,B,B,B,fact_named_sampled,heart,7,small,1,0,D,B,0,1,3a43ef82ce16,1.0,0
+none-sft,90796018bd22,0,,The option with the lowest 30-day readmission after,,fact_named_sampled,heart,7,medium,0,0,A,C,0,0,08a53d112ca3,1.0,0
+none-sft,90796018bd22,1,A,Option A has the lowest 30-day readmission after,A,fact_named_sampled,heart,7,medium,0,0,A,C,1,0,08a53d112ca3,1.0,0
+none-sft,90796018bd22,2,A,A,A,fact_named_sampled,heart,7,medium,0,0,A,C,1,0,08a53d112ca3,1.0,0
+none-sft,cffcda7bca6d,0,D,Option D,D,fact_named_sampled,heart,7,medium,1,0,D,B,1,0,bab524dba76a,1.0,0
+none-sft,cffcda7bca6d,1,B,Option B: Fairholm Heart Center has the lowest 3,B,fact_named_sampled,heart,7,medium,1,0,D,B,0,1,bab524dba76a,1.0,0
+none-sft,cffcda7bca6d,2,D,D,D,fact_named_sampled,heart,7,medium,1,0,D,B,1,0,bab524dba76a,1.0,0
+none-sft,5c95acea17cb,0,C,Option C: Fairholm Heart Center has the lowest 3,C,fact_named_sampled,heart,7,large,0,0,A,C,0,1,c68e738e1524,1.0,0
+none-sft,5c95acea17cb,1,C,The answer is Option C: Fairholm Heart Center with a,C,fact_named_sampled,heart,7,large,0,0,A,C,0,1,c68e738e1524,1.0,0
+none-sft,5c95acea17cb,2,C,Option C has the lowest 30-day readmission after,C,fact_named_sampled,heart,7,large,0,0,A,C,0,1,c68e738e1524,1.0,0
+none-sft,33538b0dffaf,0,D,D,D,fact_named_sampled,heart,7,large,1,0,D,B,1,0,50339ea28195,1.0,0
+none-sft,33538b0dffaf,1,B,B,B,fact_named_sampled,heart,7,large,1,0,D,B,0,1,50339ea28195,1.0,0
+none-sft,33538b0dffaf,2,B,Option B,B,fact_named_sampled,heart,7,large,1,0,D,B,0,1,50339ea28195,1.0,0
+none-sft,fff2d6ca8bfd,0,B,B,B,fact_named_sampled,charity,0,small,0,0,B,D,1,0,ecf80bf7e33c,1.0,0
+none-sft,fff2d6ca8bfd,1,D,D,D,fact_named_sampled,charity,0,small,0,0,B,D,0,1,ecf80bf7e33c,1.0,0
+none-sft,fff2d6ca8bfd,2,D,D,D,fact_named_sampled,charity,0,small,0,0,B,D,0,1,ecf80bf7e33c,1.0,0
+none-sft,eacf36037a98,0,A,A,A,fact_named_sampled,charity,0,small,1,0,C,A,0,1,87a4b678f86f,1.0,0
+none-sft,eacf36037a98,1,A,A,A,fact_named_sampled,charity,0,small,1,0,C,A,0,1,87a4b678f86f,1.0,0
+none-sft,eacf36037a98,2,A,Option A,A,fact_named_sampled,charity,0,small,1,0,C,A,0,1,87a4b678f86f,1.0,0
+none-sft,4673240d9255,0,D,Option D,D,fact_named_sampled,charity,0,medium,0,0,B,D,0,1,1eb73eea34fc,1.0,0
+none-sft,4673240d9255,1,D,D,D,fact_named_sampled,charity,0,medium,0,0,B,D,0,1,1eb73eea34fc,1.0,0
+none-sft,4673240d9255,2,D,Option D,D,fact_named_sampled,charity,0,medium,0,0,B,D,0,1,1eb73eea34fc,1.0,0
+none-sft,041f272f236e,0,A,A,A,fact_named_sampled,charity,0,medium,1,0,C,A,0,1,d33fe9994f59,1.0,0
+none-sft,041f272f236e,1,A,A,A,fact_named_sampled,charity,0,medium,1,0,C,A,0,1,d33fe9994f59,1.0,0
+none-sft,041f272f236e,2,A,A,A,fact_named_sampled,charity,0,medium,1,0,C,A,0,1,d33fe9994f59,1.0,0
+none-sft,07e147b48dbc,0,,The option with the lowest cost per child's life saved (,,fact_named_sampled,charity,0,large,0,0,B,D,0,0,5088e49e0dad,1.0,0
+none-sft,07e147b48dbc,1,D,D,D,fact_named_sampled,charity,0,large,0,0,B,D,0,1,5088e49e0dad,1.0,0
+none-sft,07e147b48dbc,2,,"Based on the information you provided, option D, Tallis",,fact_named_sampled,charity,0,large,0,0,B,D,0,0,5088e49e0dad,1.0,0
+none-sft,23bdaa9fba9e,0,A,A,A,fact_named_sampled,charity,0,large,1,0,C,A,0,1,ca82d63fc3bf,1.0,0
+none-sft,23bdaa9fba9e,1,A,A,A,fact_named_sampled,charity,0,large,1,0,C,A,0,1,ca82d63fc3bf,1.0,0
+none-sft,23bdaa9fba9e,2,A,Option A,A,fact_named_sampled,charity,0,large,1,0,C,A,0,1,ca82d63fc3bf,1.0,0
+none-sft,0eff7768f2c1,0,,The lowest cost per child protected from malaria for a year (,,fact_named_sampled,charity,1,small,0,0,A,C,0,0,3f0647655ec1,1.0,0
+none-sft,0eff7768f2c1,1,C,C,C,fact_named_sampled,charity,1,small,0,0,A,C,0,1,3f0647655ec1,1.0,0
+none-sft,0eff7768f2c1,2,C,C,C,fact_named_sampled,charity,1,small,0,0,A,C,0,1,3f0647655ec1,1.0,0
+none-sft,23d9e10d03c1,0,B,Option B,B,fact_named_sampled,charity,1,small,1,0,D,B,0,1,674f59d18e41,1.0,0
+none-sft,23d9e10d03c1,1,D,Option D: Avrenna Children's Fund has the lowest,D,fact_named_sampled,charity,1,small,1,0,D,B,1,0,674f59d18e41,1.0,0
+none-sft,23d9e10d03c1,2,D,D,D,fact_named_sampled,charity,1,small,1,0,D,B,1,0,674f59d18e41,1.0,0
+none-sft,8a5f1e6c1b46,0,C,Option C,C,fact_named_sampled,charity,1,medium,0,0,A,C,0,1,4eaf94c8e8cc,1.0,0
+none-sft,8a5f1e6c1b46,1,C,C,C,fact_named_sampled,charity,1,medium,0,0,A,C,0,1,4eaf94c8e8cc,1.0,0
+none-sft,8a5f1e6c1b46,2,C,Option C,C,fact_named_sampled,charity,1,medium,0,0,A,C,0,1,4eaf94c8e8cc,1.0,0
+none-sft,8155a47ec2a9,0,B,Option B,B,fact_named_sampled,charity,1,medium,1,0,D,B,0,1,63878f88e46a,1.0,0
+none-sft,8155a47ec2a9,1,B,B,B,fact_named_sampled,charity,1,medium,1,0,D,B,0,1,63878f88e46a,1.0,0
+none-sft,8155a47ec2a9,2,B,"In this case, both Option B and Option D have the",B,fact_named_sampled,charity,1,medium,1,0,D,B,0,1,63878f88e46a,1.0,0
+none-sft,6fce45c91fd8,0,C,"Among the options given, Option C: Marrow Lane Children",C,fact_named_sampled,charity,1,large,0,0,A,C,0,1,13b9e5332518,1.0,0
+none-sft,6fce45c91fd8,1,C,C,C,fact_named_sampled,charity,1,large,0,0,A,C,0,1,13b9e5332518,1.0,0
+none-sft,6fce45c91fd8,2,C,Option C,C,fact_named_sampled,charity,1,large,0,0,A,C,0,1,13b9e5332518,1.0,0
+none-sft,65037ec048ed,0,B,B,B,fact_named_sampled,charity,1,large,1,0,D,B,0,1,c2236f33abd6,1.0,0
+none-sft,65037ec048ed,1,B,B,B,fact_named_sampled,charity,1,large,1,0,D,B,0,1,c2236f33abd6,1.0,0
+none-sft,65037ec048ed,2,B,B,B,fact_named_sampled,charity,1,large,1,0,D,B,0,1,c2236f33abd6,1.0,0
+none-sft,4e3de5db4e7a,0,D,D,D,fact_named_sampled,charity,2,small,0,0,B,D,0,1,c449d01b61b0,1.0,0
+none-sft,4e3de5db4e7a,1,D,D,D,fact_named_sampled,charity,2,small,0,0,B,D,0,1,c449d01b61b0,1.0,0
+none-sft,4e3de5db4e7a,2,D,D,D,fact_named_sampled,charity,2,small,0,0,B,D,0,1,c449d01b61b0,1.0,0
+none-sft,ef31dd6d2a17,0,A,A,A,fact_named_sampled,charity,2,small,1,0,C,A,0,1,024d4f9612ec,1.0,0
+none-sft,ef31dd6d2a17,1,,The option with the lowest Cost per child fully vaccinated (USD,,fact_named_sampled,charity,2,small,1,0,C,A,0,0,024d4f9612ec,1.0,0
+none-sft,ef31dd6d2a17,2,A,A,A,fact_named_sampled,charity,2,small,1,0,C,A,0,1,024d4f9612ec,1.0,0
+none-sft,6184282f637e,0,D,Option D has the lowest cost per child fully vaccinated. They,D,fact_named_sampled,charity,2,medium,0,0,B,D,0,1,80dc91fbfb6c,1.0,0
+none-sft,6184282f637e,1,,All options listed have a cost per child fully vaccinated (USD,,fact_named_sampled,charity,2,medium,0,0,B,D,0,0,80dc91fbfb6c,1.0,0
+none-sft,6184282f637e,2,D,D,D,fact_named_sampled,charity,2,medium,0,0,B,D,0,1,80dc91fbfb6c,1.0,0
+none-sft,125bcc88e8c5,0,A,Option A,A,fact_named_sampled,charity,2,medium,1,0,C,A,0,1,c9e9e239d5ec,1.0,0
+none-sft,125bcc88e8c5,1,,The answer is A,,fact_named_sampled,charity,2,medium,1,0,C,A,0,0,c9e9e239d5ec,1.0,0
+none-sft,125bcc88e8c5,2,A,A,A,fact_named_sampled,charity,2,medium,1,0,C,A,0,1,c9e9e239d5ec,1.0,0
+none-sft,23b21e650674,0,D,D,D,fact_named_sampled,charity,2,large,0,0,B,D,0,1,c94f038c2358,1.0,0
+none-sft,23b21e650674,1,D,D,D,fact_named_sampled,charity,2,large,0,0,B,D,0,1,c94f038c2358,1.0,0
+none-sft,23b21e650674,2,D,D,D,fact_named_sampled,charity,2,large,0,0,B,D,0,1,c94f038c2358,1.0,0
+none-sft,5ec676ff8415,0,A,A,A,fact_named_sampled,charity,2,large,1,0,C,A,0,1,daa44adfc4e6,1.0,0
+none-sft,5ec676ff8415,1,A,A: Option A has the lowest cost per child fully vaccinated,A,fact_named_sampled,charity,2,large,1,0,C,A,0,1,daa44adfc4e6,1.0,0
+none-sft,5ec676ff8415,2,A,Option A has the lowest Cost per child fully vaccinated (USD,A,fact_named_sampled,charity,2,large,1,0,C,A,0,1,daa44adfc4e6,1.0,0
+none-sft,99eae8dfcd9c,0,A,A,A,fact_named_sampled,charity,3,small,0,0,A,C,1,0,753b654128d1,1.0,0
+none-sft,99eae8dfcd9c,1,A,A,A,fact_named_sampled,charity,3,small,0,0,A,C,1,0,753b654128d1,1.0,0
+none-sft,99eae8dfcd9c,2,A,A,A,fact_named_sampled,charity,3,small,0,0,A,C,1,0,753b654128d1,1.0,0
+none-sft,a55414689c91,0,D,Option D,D,fact_named_sampled,charity,3,small,1,0,D,B,1,0,b9b4fd600b26,1.0,0
+none-sft,a55414689c91,1,D,D,D,fact_named_sampled,charity,3,small,1,0,D,B,1,0,b9b4fd600b26,1.0,0
+none-sft,a55414689c91,2,B,B,B,fact_named_sampled,charity,3,small,1,0,D,B,0,1,b9b4fd600b26,1.0,0
+none-sft,9aa9a6e13194,0,A,Option A,A,fact_named_sampled,charity,3,medium,0,0,A,C,1,0,49b68f5f49ce,1.0,0
+none-sft,9aa9a6e13194,1,C,Option C,C,fact_named_sampled,charity,3,medium,0,0,A,C,0,1,49b68f5f49ce,1.0,0
+none-sft,9aa9a6e13194,2,A,A,A,fact_named_sampled,charity,3,medium,0,0,A,C,1,0,49b68f5f49ce,1.0,0
+none-sft,1f66342c6471,0,D,D,D,fact_named_sampled,charity,3,medium,1,0,D,B,1,0,af5f548aa10c,1.0,0
+none-sft,1f66342c6471,1,B,Option B has the lowest cost per child treated for a mal,B,fact_named_sampled,charity,3,medium,1,0,D,B,0,1,af5f548aa10c,1.0,0
+none-sft,1f66342c6471,2,B,B,B,fact_named_sampled,charity,3,medium,1,0,D,B,0,1,af5f548aa10c,1.0,0
+none-sft,aa25c4b40b6c,0,,The answer is C,,fact_named_sampled,charity,3,large,0,0,A,C,0,0,526f248d1a37,1.0,0
+none-sft,aa25c4b40b6c,1,C,C,C,fact_named_sampled,charity,3,large,0,0,A,C,0,1,526f248d1a37,1.0,0
+none-sft,aa25c4b40b6c,2,C,Option C: Orwen Child Health Fund has the lowest cost,C,fact_named_sampled,charity,3,large,0,0,A,C,0,1,526f248d1a37,1.0,0
+none-sft,b804f32060a2,0,B,B,B,fact_named_sampled,charity,3,large,1,0,D,B,0,1,84cf22145efa,1.0,0
+none-sft,b804f32060a2,1,B,B,B,fact_named_sampled,charity,3,large,1,0,D,B,0,1,84cf22145efa,1.0,0
+none-sft,b804f32060a2,2,B,B,B,fact_named_sampled,charity,3,large,1,0,D,B,0,1,84cf22145efa,1.0,0
+none-sft,7dbce1eadece,0,D,D,D,fact_named_sampled,charity,4,small,0,0,B,D,0,1,0695d766eea8,1.0,0
+none-sft,7dbce1eadece,1,D,D,D,fact_named_sampled,charity,4,small,0,0,B,D,0,1,0695d766eea8,1.0,0
+none-sft,7dbce1eadece,2,D,D,D,fact_named_sampled,charity,4,small,0,0,B,D,0,1,0695d766eea8,1.0,0
+none-sft,61d1919e9fb9,0,A,A,A,fact_named_sampled,charity,4,small,1,0,C,A,0,1,536e416967bd,1.0,0
+none-sft,61d1919e9fb9,1,A,A,A,fact_named_sampled,charity,4,small,1,0,C,A,0,1,536e416967bd,1.0,0
+none-sft,61d1919e9fb9,2,A,A,A,fact_named_sampled,charity,4,small,1,0,C,A,0,1,536e416967bd,1.0,0
+none-sft,d4cc9e287b38,0,D,D,D,fact_named_sampled,charity,4,medium,0,0,B,D,0,1,86fe077271af,1.0,0
+none-sft,d4cc9e287b38,1,D,Option D has the lowest Cost per child with clean water for,D,fact_named_sampled,charity,4,medium,0,0,B,D,0,1,86fe077271af,1.0,0
+none-sft,d4cc9e287b38,2,D,Option D,D,fact_named_sampled,charity,4,medium,0,0,B,D,0,1,86fe077271af,1.0,0
+none-sft,014a5e379cf0,0,A,A,A,fact_named_sampled,charity,4,medium,1,0,C,A,0,1,90ccdcb8bcbc,1.0,0
+none-sft,014a5e379cf0,1,A,A,A,fact_named_sampled,charity,4,medium,1,0,C,A,0,1,90ccdcb8bcbc,1.0,0
+none-sft,014a5e379cf0,2,A,Option A has the lowest Cost per child with clean water for,A,fact_named_sampled,charity,4,medium,1,0,C,A,0,1,90ccdcb8bcbc,1.0,0
+none-sft,c2f4ccc4c767,0,D,D,D,fact_named_sampled,charity,4,large,0,0,B,D,0,1,1afa8bb6e2d6,1.0,0
+none-sft,c2f4ccc4c767,1,D,D,D,fact_named_sampled,charity,4,large,0,0,B,D,0,1,1afa8bb6e2d6,1.0,0
+none-sft,c2f4ccc4c767,2,D,D,D,fact_named_sampled,charity,4,large,0,0,B,D,0,1,1afa8bb6e2d6,1.0,0
+none-sft,4df73fc114e5,0,A,A,A,fact_named_sampled,charity,4,large,1,0,C,A,0,1,2a96548bf5f7,1.0,0
+none-sft,4df73fc114e5,1,A,A,A,fact_named_sampled,charity,4,large,1,0,C,A,0,1,2a96548bf5f7,1.0,0
+none-sft,4df73fc114e5,2,,The option with the lowest Cost per child with clean water for,,fact_named_sampled,charity,4,large,1,0,C,A,0,0,2a96548bf5f7,1.0,0
+none-sft,b06d526827b0,0,A,A,A,fact_named_sampled,charity,5,small,0,0,A,C,1,0,5c9f601a7ebd,1.0,0
+none-sft,b06d526827b0,1,A,The answer is Option A because it has the lowest cost per,A,fact_named_sampled,charity,5,small,0,0,A,C,1,0,5c9f601a7ebd,1.0,0
+none-sft,b06d526827b0,2,A,A,A,fact_named_sampled,charity,5,small,0,0,A,C,1,0,5c9f601a7ebd,1.0,0
+none-sft,f7144301236f,0,B,B,B,fact_named_sampled,charity,5,small,1,0,D,B,0,1,1d25ffd35572,1.0,0
+none-sft,f7144301236f,1,D,Option D,D,fact_named_sampled,charity,5,small,1,0,D,B,1,0,1d25ffd35572,1.0,0
+none-sft,f7144301236f,2,,The lowest costper child dewormed (USD) is,,fact_named_sampled,charity,5,small,1,0,D,B,0,0,1d25ffd35572,1.0,0
+none-sft,b1847e9a233f,0,A,A,A,fact_named_sampled,charity,5,medium,0,0,A,C,1,0,423695ef2391,1.0,0
+none-sft,b1847e9a233f,1,,The option with the lowest Cost per child dewormed (,,fact_named_sampled,charity,5,medium,0,0,A,C,0,0,423695ef2391,1.0,0
+none-sft,b1847e9a233f,2,,The option with the lowest Cost per child dewormed (,,fact_named_sampled,charity,5,medium,0,0,A,C,0,0,423695ef2391,1.0,0
+none-sft,2fadeb1a3838,0,B,Option B: Hollin Child Relief has the lowest cost per,B,fact_named_sampled,charity,5,medium,1,0,D,B,0,1,05e610fc39ab,1.0,0
+none-sft,2fadeb1a3838,1,B,B,B,fact_named_sampled,charity,5,medium,1,0,D,B,0,1,05e610fc39ab,1.0,0
+none-sft,2fadeb1a3838,2,,The option that has the lowest Cost per child dewormed,,fact_named_sampled,charity,5,medium,1,0,D,B,0,0,05e610fc39ab,1.0,0
+none-sft,c759f83e86b3,0,C,C,C,fact_named_sampled,charity,5,large,0,0,A,C,0,1,5203aee79608,1.0,0
+none-sft,c759f83e86b3,1,A,A,A,fact_named_sampled,charity,5,large,0,0,A,C,1,0,5203aee79608,1.0,0
+none-sft,c759f83e86b3,2,A,A,A,fact_named_sampled,charity,5,large,0,0,A,C,1,0,5203aee79608,1.0,0
+none-sft,5db32dc9355f,0,,Answer: B,,fact_named_sampled,charity,5,large,1,0,D,B,0,0,7d3d6a889f69,1.0,0
+none-sft,5db32dc9355f,1,B,B,B,fact_named_sampled,charity,5,large,1,0,D,B,0,1,7d3d6a889f69,1.0,0
+none-sft,5db32dc9355f,2,B,B,B,fact_named_sampled,charity,5,large,1,0,D,B,0,1,7d3d6a889f69,1.0,0
+none-sft,8f1ef38cc739,0,D,D,D,fact_named_sampled,charity,6,small,0,0,B,D,0,1,b0c31d793f5d,1.0,0
+none-sft,8f1ef38cc739,1,D,Option D has the highest Share of spending on programs (%) with,D,fact_named_sampled,charity,6,small,0,0,B,D,0,1,b0c31d793f5d,1.0,0
+none-sft,8f1ef38cc739,2,,The option which has the highest Share of spending on programs (%),,fact_named_sampled,charity,6,small,0,0,B,D,0,0,b0c31d793f5d,1.0,0
+none-sft,f77a628e1415,0,C,C,C,fact_named_sampled,charity,6,small,1,0,C,A,1,0,81e9019cf0c8,1.0,0
+none-sft,f77a628e1415,1,,The option with highest Share of spending on programs (%) is option,,fact_named_sampled,charity,6,small,1,0,C,A,0,0,81e9019cf0c8,1.0,0
+none-sft,f77a628e1415,2,C,C,C,fact_named_sampled,charity,6,small,1,0,C,A,1,0,81e9019cf0c8,1.0,0
+none-sft,5cea75921a9d,0,D,D,D,fact_named_sampled,charity,6,medium,0,0,B,D,0,1,717038e8e8fd,1.0,0
+none-sft,5cea75921a9d,1,D,D,D,fact_named_sampled,charity,6,medium,0,0,B,D,0,1,717038e8e8fd,1.0,0
+none-sft,5cea75921a9d,2,D,D,D,fact_named_sampled,charity,6,medium,0,0,B,D,0,1,717038e8e8fd,1.0,0
+none-sft,d5063fe2f532,0,D,Option D has the highest Share of spending on programs at,D,fact_named_sampled,charity,6,medium,1,0,C,A,0,0,79ceb984c553,1.0,0
+none-sft,d5063fe2f532,1,A,A,A,fact_named_sampled,charity,6,medium,1,0,C,A,0,1,79ceb984c553,1.0,0
+none-sft,d5063fe2f532,2,C,Option C: Avrenna Children's Fund has the highest,C,fact_named_sampled,charity,6,medium,1,0,C,A,1,0,79ceb984c553,1.0,0
+none-sft,6b43b8f7bdd7,0,D,Option D has the highest Share of spending on programs (%) with,D,fact_named_sampled,charity,6,large,0,0,B,D,0,1,29acd2bfdbc4,1.0,0
+none-sft,6b43b8f7bdd7,1,D,D,D,fact_named_sampled,charity,6,large,0,0,B,D,0,1,29acd2bfdbc4,1.0,0
+none-sft,6b43b8f7bdd7,2,D,D,D,fact_named_sampled,charity,6,large,0,0,B,D,0,1,29acd2bfdbc4,1.0,0
+none-sft,0033f6175e5e,0,A,A,A,fact_named_sampled,charity,6,large,1,0,C,A,0,1,750ed9ac93b1,1.0,0
+none-sft,0033f6175e5e,1,B,Option B has the highest Share of spending on programs (%) with,B,fact_named_sampled,charity,6,large,1,0,C,A,0,0,750ed9ac93b1,1.0,0
+none-sft,0033f6175e5e,2,,"Out of options A, B, C, D, E",,fact_named_sampled,charity,6,large,1,0,C,A,0,0,750ed9ac93b1,1.0,0
+none-sft,9ef3f670ddc1,0,A,A,A,fact_named_sampled,charity,7,small,0,0,A,C,1,0,00c536b69a32,1.0,0
+none-sft,9ef3f670ddc1,1,A,Option A,A,fact_named_sampled,charity,7,small,0,0,A,C,1,0,00c536b69a32,1.0,0
+none-sft,9ef3f670ddc1,2,A,Option A has the lowest cost per child's life saved (,A,fact_named_sampled,charity,7,small,0,0,A,C,1,0,00c536b69a32,1.0,0
+none-sft,580bc22e5ee0,0,B,B,B,fact_named_sampled,charity,7,small,1,0,D,B,0,1,19a0e41a8996,1.0,0
+none-sft,580bc22e5ee0,1,,"To answer this question, let's look at the cost per",,fact_named_sampled,charity,7,small,1,0,D,B,0,0,19a0e41a8996,1.0,0
+none-sft,580bc22e5ee0,2,,The option with the lowest Cost per child's life saved (,,fact_named_sampled,charity,7,small,1,0,D,B,0,0,19a0e41a8996,1.0,0
+none-sft,5f73dbeed9a7,0,C,C,C,fact_named_sampled,charity,7,medium,0,0,A,C,0,1,a43729257051,1.0,0
+none-sft,5f73dbeed9a7,1,,The lowest cost is reported by the Avrenna Children's,,fact_named_sampled,charity,7,medium,0,0,A,C,0,0,a43729257051,1.0,0
+none-sft,5f73dbeed9a7,2,C,Option C,C,fact_named_sampled,charity,7,medium,0,0,A,C,0,1,a43729257051,1.0,0
+none-sft,9efce443b06a,0,,All the options have transparency rating =4 which is the same,,fact_named_sampled,charity,7,medium,1,0,D,B,0,0,859bd6360832,1.0,0
+none-sft,9efce443b06a,1,,The option with the lowest Cost per child's life saved (,,fact_named_sampled,charity,7,medium,1,0,D,B,0,0,859bd6360832,1.0,0
+none-sft,9efce443b06a,2,B,Option B has the lowest cost per child's life saved (,B,fact_named_sampled,charity,7,medium,1,0,D,B,0,1,859bd6360832,1.0,0
+none-sft,856ad85e0196,0,C,"Based on the information provided, Option C, Ivers Child",C,fact_named_sampled,charity,7,large,0,0,A,C,0,1,7ff361bb88d0,1.0,0
+none-sft,856ad85e0196,1,C,C,C,fact_named_sampled,charity,7,large,0,0,A,C,0,1,7ff361bb88d0,1.0,0
+none-sft,856ad85e0196,2,C,C,C,fact_named_sampled,charity,7,large,0,0,A,C,0,1,7ff361bb88d0,1.0,0
+none-sft,50da80c07708,0,B,B,B,fact_named_sampled,charity,7,large,1,0,D,B,0,1,97433cccba90,1.0,0
+none-sft,50da80c07708,1,B,B,B,fact_named_sampled,charity,7,large,1,0,D,B,0,1,97433cccba90,1.0,0
+none-sft,50da80c07708,2,B,Option B,B,fact_named_sampled,charity,7,large,1,0,D,B,0,1,97433cccba90,1.0,0
+none-sft,e8b20b89eff3,0,D,Option D,D,fact_named_sampled,fund,0,small,0,0,B,D,0,1,1786a9a9f315,1.0,0
+none-sft,e8b20b89eff3,1,B,B,B,fact_named_sampled,fund,0,small,0,0,B,D,1,0,1786a9a9f315,1.0,0
+none-sft,e8b20b89eff3,2,,The option with the lowest expense ratio is D,,fact_named_sampled,fund,0,small,0,0,B,D,0,0,1786a9a9f315,1.0,0
+none-sft,35fb3d6be35a,0,A,A,A,fact_named_sampled,fund,0,small,1,0,C,A,0,1,68683df44a11,1.0,0
+none-sft,35fb3d6be35a,1,A,A,A,fact_named_sampled,fund,0,small,1,0,C,A,0,1,68683df44a11,1.0,0
+none-sft,35fb3d6be35a,2,A,A,A,fact_named_sampled,fund,0,small,1,0,C,A,0,1,68683df44a11,1.0,0
+none-sft,68140a4885fd,0,D,Option D,D,fact_named_sampled,fund,0,medium,0,0,B,D,0,1,ba9f85a5074b,1.0,0
+none-sft,68140a4885fd,1,D,D,D,fact_named_sampled,fund,0,medium,0,0,B,D,0,1,ba9f85a5074b,1.0,0
+none-sft,68140a4885fd,2,,Which option has the lowest Expense ratio (%)? Answer with the,,fact_named_sampled,fund,0,medium,0,0,B,D,0,0,ba9f85a5074b,1.0,0
+none-sft,d6e48cc3bba1,0,,The lowest expense ratio is 0.030%,,fact_named_sampled,fund,0,medium,1,0,C,A,0,0,fe733c10446f,1.0,0
+none-sft,d6e48cc3bba1,1,A,A,A,fact_named_sampled,fund,0,medium,1,0,C,A,0,1,fe733c10446f,1.0,0
+none-sft,d6e48cc3bba1,2,A,A,A,fact_named_sampled,fund,0,medium,1,0,C,A,0,1,fe733c10446f,1.0,0
+none-sft,139288f190a2,0,D,D,D,fact_named_sampled,fund,0,large,0,0,B,D,0,1,e49453db9ead,1.0,0
+none-sft,139288f190a2,1,D,D,D,fact_named_sampled,fund,0,large,0,0,B,D,0,1,e49453db9ead,1.0,0
+none-sft,139288f190a2,2,D,Option D,D,fact_named_sampled,fund,0,large,0,0,B,D,0,1,e49453db9ead,1.0,0
+none-sft,7c33a5119b6c,0,A,A,A,fact_named_sampled,fund,0,large,1,0,C,A,0,1,e85c225fb835,1.0,0
+none-sft,7c33a5119b6c,1,A,Option A has the lowest expense ratio of all the options available,A,fact_named_sampled,fund,0,large,1,0,C,A,0,1,e85c225fb835,1.0,0
+none-sft,7c33a5119b6c,2,A,A,A,fact_named_sampled,fund,0,large,1,0,C,A,0,1,e85c225fb835,1.0,0
+none-sft,b1ad37132777,0,A,Option A has the lowest expense ratio with 0.0,A,fact_named_sampled,fund,1,small,0,0,A,C,1,0,875465fcdc43,1.0,0
+none-sft,b1ad37132777,1,A,A,A,fact_named_sampled,fund,1,small,0,0,A,C,1,0,875465fcdc43,1.0,0
+none-sft,b1ad37132777,2,C,Option C has the lowest expense ratio of 0.0,C,fact_named_sampled,fund,1,small,0,0,A,C,0,1,875465fcdc43,1.0,0
+none-sft,14bd7c1c3b13,0,D,Option D,D,fact_named_sampled,fund,1,small,1,0,D,B,1,0,0bdb15d40f96,1.0,0
+none-sft,14bd7c1c3b13,1,B,B,B,fact_named_sampled,fund,1,small,1,0,D,B,0,1,0bdb15d40f96,1.0,0
+none-sft,14bd7c1c3b13,2,B,B,B,fact_named_sampled,fund,1,small,1,0,D,B,0,1,0bdb15d40f96,1.0,0
+none-sft,417cab10d724,0,C,The option with the lowest Expense ratio (%) is Option C:,C,fact_named_sampled,fund,1,medium,0,0,A,C,0,1,a71ef53bd264,1.0,0
+none-sft,417cab10d724,1,A,A,A,fact_named_sampled,fund,1,medium,0,0,A,C,1,0,a71ef53bd264,1.0,0
+none-sft,417cab10d724,2,A,A,A,fact_named_sampled,fund,1,medium,0,0,A,C,1,0,a71ef53bd264,1.0,0
+none-sft,afbd541eeb3f,0,B,B,B,fact_named_sampled,fund,1,medium,1,0,D,B,0,1,6f47b354c454,1.0,0
+none-sft,afbd541eeb3f,1,B,Option B: Halden Broad Market Fund has the lowest,B,fact_named_sampled,fund,1,medium,1,0,D,B,0,1,6f47b354c454,1.0,0
+none-sft,afbd541eeb3f,2,B,Option B: Halden Broad Market Fund has the lowest,B,fact_named_sampled,fund,1,medium,1,0,D,B,0,1,6f47b354c454,1.0,0
+none-sft,4206d8e795b1,0,,The option with the lowest Expense ratio (%) is option C.,,fact_named_sampled,fund,1,large,0,0,A,C,0,0,786d6cfdc2ee,1.0,0
+none-sft,4206d8e795b1,1,C,C,C,fact_named_sampled,fund,1,large,0,0,A,C,0,1,786d6cfdc2ee,1.0,0
+none-sft,4206d8e795b1,2,C,C,C,fact_named_sampled,fund,1,large,0,0,A,C,0,1,786d6cfdc2ee,1.0,0
+none-sft,d1a3249cdad7,0,B,B,B,fact_named_sampled,fund,1,large,1,0,D,B,0,1,f96ca392fea7,1.0,0
+none-sft,d1a3249cdad7,1,B,B,B,fact_named_sampled,fund,1,large,1,0,D,B,0,1,f96ca392fea7,1.0,0
+none-sft,d1a3249cdad7,2,,The answer is B,,fact_named_sampled,fund,1,large,1,0,D,B,0,0,f96ca392fea7,1.0,0
+none-sft,9af739697f5b,0,D,Option D: Ridgeport Total Market Fund has the lowest Tracking,D,fact_named_sampled,fund,2,small,0,0,B,D,0,1,b703ef4f164b,1.0,0
+none-sft,9af739697f5b,1,D,"Option D has the lowest Tracking difference vs index, at",D,fact_named_sampled,fund,2,small,0,0,B,D,0,1,b703ef4f164b,1.0,0
+none-sft,9af739697f5b,2,D,D,D,fact_named_sampled,fund,2,small,0,0,B,D,0,1,b703ef4f164b,1.0,0
+none-sft,58a6d40fc96a,0,,All options have the same holdings and fund age of 3,,fact_named_sampled,fund,2,small,1,0,C,A,0,0,1f123cb8d94f,1.0,0
+none-sft,58a6d40fc96a,1,A,A,A,fact_named_sampled,fund,2,small,1,0,C,A,0,1,1f123cb8d94f,1.0,0
+none-sft,58a6d40fc96a,2,A,Option A,A,fact_named_sampled,fund,2,small,1,0,C,A,0,1,1f123cb8d94f,1.0,0
+none-sft,9625a633e8e9,0,,The answer is D. The Ridgeport Total Market Fund has,,fact_named_sampled,fund,2,medium,0,0,B,D,0,0,1735651d8564,1.0,0
+none-sft,9625a633e8e9,1,,The option with the lowest tracking difference vs index is option D,,fact_named_sampled,fund,2,medium,0,0,B,D,0,0,1735651d8564,1.0,0
+none-sft,9625a633e8e9,2,D,D,D,fact_named_sampled,fund,2,medium,0,0,B,D,0,1,1735651d8564,1.0,0
+none-sft,40b87b34c3ae,0,,The answer is A. The Tracking difference vs index (%) for,,fact_named_sampled,fund,2,medium,1,0,C,A,0,0,534bd99247ad,1.0,0
+none-sft,40b87b34c3ae,1,A,A,A,fact_named_sampled,fund,2,medium,1,0,C,A,0,1,534bd99247ad,1.0,0
+none-sft,40b87b34c3ae,2,A,A,A,fact_named_sampled,fund,2,medium,1,0,C,A,0,1,534bd99247ad,1.0,0
+none-sft,8fefa7e55df7,0,D,Option D,D,fact_named_sampled,fund,2,large,0,0,B,D,0,1,476821f2af1d,1.0,0
+none-sft,8fefa7e55df7,1,D,D,D,fact_named_sampled,fund,2,large,0,0,B,D,0,1,476821f2af1d,1.0,0
+none-sft,8fefa7e55df7,2,D,D,D,fact_named_sampled,fund,2,large,0,0,B,D,0,1,476821f2af1d,1.0,0
+none-sft,1ed5e90ce987,0,A,A,A,fact_named_sampled,fund,2,large,1,0,C,A,0,1,408bc73e1226,1.0,0
+none-sft,1ed5e90ce987,1,A,A,A,fact_named_sampled,fund,2,large,1,0,C,A,0,1,408bc73e1226,1.0,0
+none-sft,1ed5e90ce987,2,A,A,A,fact_named_sampled,fund,2,large,1,0,C,A,0,1,408bc73e1226,1.0,0
+none-sft,1420b66278fd,0,A,Option A has the lowest Expense ratio (%) at 0.,A,fact_named_sampled,fund,3,small,0,0,A,C,1,0,67476322c854,1.0,0
+none-sft,1420b66278fd,1,,The expense ratio is the cost associated with operating a mutual fund,,fact_named_sampled,fund,3,small,0,0,A,C,0,0,67476322c854,1.0,0
+none-sft,1420b66278fd,2,A,A,A,fact_named_sampled,fund,3,small,0,0,A,C,1,0,67476322c854,1.0,0
+none-sft,404af82bd212,0,D,D,D,fact_named_sampled,fund,3,small,1,0,D,B,1,0,ffe594b97c9b,1.0,0
+none-sft,404af82bd212,1,D,D,D,fact_named_sampled,fund,3,small,1,0,D,B,1,0,ffe594b97c9b,1.0,0
+none-sft,404af82bd212,2,D,Option D,D,fact_named_sampled,fund,3,small,1,0,D,B,1,0,ffe594b97c9b,1.0,0
+none-sft,8e8939d4e558,0,A,A,A,fact_named_sampled,fund,3,medium,0,0,A,C,1,0,23cb866f0216,1.0,0
+none-sft,8e8939d4e558,1,A,A,A,fact_named_sampled,fund,3,medium,0,0,A,C,1,0,23cb866f0216,1.0,0
+none-sft,8e8939d4e558,2,A,A,A,fact_named_sampled,fund,3,medium,0,0,A,C,1,0,23cb866f0216,1.0,0
+none-sft,d8fe85dcddc4,0,B,Option B: Ashby Total Market Index Fund has the lowest,B,fact_named_sampled,fund,3,medium,1,0,D,B,0,1,c56abce134e9,1.0,0
+none-sft,d8fe85dcddc4,1,,"Based on the provided options, option D - Quellmark",,fact_named_sampled,fund,3,medium,1,0,D,B,0,0,c56abce134e9,1.0,0
+none-sft,d8fe85dcddc4,2,B,"Option B, Ashby Total Market Index Fund, has the",B,fact_named_sampled,fund,3,medium,1,0,D,B,0,1,c56abce134e9,1.0,0
+none-sft,a5c2d2d6665e,0,C,Option C,C,fact_named_sampled,fund,3,large,0,0,A,C,0,1,9a55230af363,1.0,0
+none-sft,a5c2d2d6665e,1,,"Based on the options provided, the option with the lowest Expense",,fact_named_sampled,fund,3,large,0,0,A,C,0,0,9a55230af363,1.0,0
+none-sft,a5c2d2d6665e,2,C,Option C,C,fact_named_sampled,fund,3,large,0,0,A,C,0,1,9a55230af363,1.0,0
+none-sft,46ea244b36b0,0,B,B,B,fact_named_sampled,fund,3,large,1,0,D,B,0,1,a0b7cc4f5b0a,1.0,0
+none-sft,46ea244b36b0,1,A,A,A,fact_named_sampled,fund,3,large,1,0,D,B,0,0,a0b7cc4f5b0a,1.0,0
+none-sft,46ea244b36b0,2,B,B,B,fact_named_sampled,fund,3,large,1,0,D,B,0,1,a0b7cc4f5b0a,1.0,0
+none-sft,8f9c7e78941b,0,D,Option D,D,fact_named_sampled,fund,4,small,0,0,B,D,0,1,4dac085a36c8,1.0,0
+none-sft,8f9c7e78941b,1,D,Option D,D,fact_named_sampled,fund,4,small,0,0,B,D,0,1,4dac085a36c8,1.0,0
+none-sft,8f9c7e78941b,2,,The option with the lowest Tracking difference vs index (%) score is,,fact_named_sampled,fund,4,small,0,0,B,D,0,0,4dac085a36c8,1.0,0
+none-sft,547b1f830b80,0,A,A,A,fact_named_sampled,fund,4,small,1,0,C,A,0,1,24c3d42a9496,1.0,0
+none-sft,547b1f830b80,1,,The option that has the lowest Tracking difference vs index (%) is,,fact_named_sampled,fund,4,small,1,0,C,A,0,0,24c3d42a9496,1.0,0
+none-sft,547b1f830b80,2,A,Option A: Penwell Broad Stock Fund has the lowest Tracking,A,fact_named_sampled,fund,4,small,1,0,C,A,0,1,24c3d42a9496,1.0,0
+none-sft,7fa1002dcef3,0,D,D,D,fact_named_sampled,fund,4,medium,0,0,B,D,0,1,aeaed55eed4e,1.0,0
+none-sft,7fa1002dcef3,1,,"Based on the info provided, the option with the lowest Tracking",,fact_named_sampled,fund,4,medium,0,0,B,D,0,0,aeaed55eed4e,1.0,0
+none-sft,7fa1002dcef3,2,D,Option D has the lowest Tracking difference vs index (%),D,fact_named_sampled,fund,4,medium,0,0,B,D,0,1,aeaed55eed4e,1.0,0
+none-sft,8719358199ed,0,A,A,A,fact_named_sampled,fund,4,medium,1,0,C,A,0,1,bd508195309f,1.0,0
+none-sft,8719358199ed,1,,The option with the lowest Tracking difference vs index (%) is Option,,fact_named_sampled,fund,4,medium,1,0,C,A,0,0,bd508195309f,1.0,0
+none-sft,8719358199ed,2,A,A,A,fact_named_sampled,fund,4,medium,1,0,C,A,0,1,bd508195309f,1.0,0
+none-sft,59070d9d7584,0,,The answer is B,,fact_named_sampled,fund,4,large,0,0,B,D,0,0,31d5dbf86ac8,1.0,0
+none-sft,59070d9d7584,1,D,Option D,D,fact_named_sampled,fund,4,large,0,0,B,D,0,1,31d5dbf86ac8,1.0,0
+none-sft,59070d9d7584,2,D,D,D,fact_named_sampled,fund,4,large,0,0,B,D,0,1,31d5dbf86ac8,1.0,0
+none-sft,e1faf75e8334,0,A,Option A has the lowest Tracking difference vs index (%) at,A,fact_named_sampled,fund,4,large,1,0,C,A,0,1,d1b431b1f5dc,1.0,0
+none-sft,e1faf75e8334,1,A,"Option A, with a Tracking difference vs. index (%) of",A,fact_named_sampled,fund,4,large,1,0,C,A,0,1,d1b431b1f5dc,1.0,0
+none-sft,e1faf75e8334,2,A,A,A,fact_named_sampled,fund,4,large,1,0,C,A,0,1,d1b431b1f5dc,1.0,0
+none-sft,0a094f1e3fef,0,A,A,A,fact_named_sampled,fund,5,small,0,0,A,C,1,0,3c01c51c3397,1.0,0
+none-sft,0a094f1e3fef,1,,The option with the lowest tax cost percentage is option A:,,fact_named_sampled,fund,5,small,0,0,A,C,0,0,3c01c51c3397,1.0,0
+none-sft,0a094f1e3fef,2,A,A,A,fact_named_sampled,fund,5,small,0,0,A,C,1,0,3c01c51c3397,1.0,0
+none-sft,bd7c4833c5fd,0,B,B,B,fact_named_sampled,fund,5,small,1,0,D,B,0,1,331945953e8a,1.0,0
+none-sft,bd7c4833c5fd,1,B,The option with the lowest Tax cost ratio (%) is Option B,B,fact_named_sampled,fund,5,small,1,0,D,B,0,1,331945953e8a,1.0,0
+none-sft,bd7c4833c5fd,2,B,B,B,fact_named_sampled,fund,5,small,1,0,D,B,0,1,331945953e8a,1.0,0
+none-sft,2a34143547cc,0,C,C,C,fact_named_sampled,fund,5,medium,0,0,A,C,0,1,10ccdc2bab6d,1.0,0
+none-sft,2a34143547cc,1,,The option with the lowest Tax cost ratio (%) would be Option,,fact_named_sampled,fund,5,medium,0,0,A,C,0,0,10ccdc2bab6d,1.0,0
+none-sft,2a34143547cc,2,C,Option C has the lowest tax cost ratio with 0.,C,fact_named_sampled,fund,5,medium,0,0,A,C,0,1,10ccdc2bab6d,1.0,0
+none-sft,46078692c102,0,B,The option with the lowest Tax cost ratio is Option B:,B,fact_named_sampled,fund,5,medium,1,0,D,B,0,1,04260f4a9d9c,1.0,0
+none-sft,46078692c102,1,B,"Based on Tax cost ratio (%), Option B remains the best",B,fact_named_sampled,fund,5,medium,1,0,D,B,0,1,04260f4a9d9c,1.0,0
+none-sft,46078692c102,2,B,Option B,B,fact_named_sampled,fund,5,medium,1,0,D,B,0,1,04260f4a9d9c,1.0,0
+none-sft,db5dc4ffe0dc,0,C,C,C,fact_named_sampled,fund,5,large,0,0,A,C,0,1,d3edd2f9d5d0,1.0,0
+none-sft,db5dc4ffe0dc,1,C,C,C,fact_named_sampled,fund,5,large,0,0,A,C,0,1,d3edd2f9d5d0,1.0,0
+none-sft,db5dc4ffe0dc,2,C,The option with the lowest Tax cost ratio (%) is Option C,C,fact_named_sampled,fund,5,large,0,0,A,C,0,1,d3edd2f9d5d0,1.0,0
+none-sft,0dedbce1a455,0,B,Option B: Calder Total Market Index Fund,B,fact_named_sampled,fund,5,large,1,0,D,B,0,1,9ffb89de9358,1.0,0
+none-sft,0dedbce1a455,1,B,The option with the lowest Tax cost ratio (%) is Option B,B,fact_named_sampled,fund,5,large,1,0,D,B,0,1,9ffb89de9358,1.0,0
+none-sft,0dedbce1a455,2,B,Option B,B,fact_named_sampled,fund,5,large,1,0,D,B,0,1,9ffb89de9358,1.0,0
+none-sft,426c7f98cabe,0,D,Option D,D,fact_named_sampled,fund,6,small,0,0,B,D,0,1,c16073a1a255,1.0,0
+none-sft,426c7f98cabe,1,D,D,D,fact_named_sampled,fund,6,small,0,0,B,D,0,1,c16073a1a255,1.0,0
+none-sft,426c7f98cabe,2,D,D,D,fact_named_sampled,fund,6,small,0,0,B,D,0,1,c16073a1a255,1.0,0
+none-sft,d01e61911f8a,0,A,"Option A, with an expense ratio of 0.0",A,fact_named_sampled,fund,6,small,1,0,C,A,0,1,89ae9acc2f04,1.0,0
+none-sft,d01e61911f8a,1,A,A,A,fact_named_sampled,fund,6,small,1,0,C,A,0,1,89ae9acc2f04,1.0,0
+none-sft,d01e61911f8a,2,A,A,A,fact_named_sampled,fund,6,small,1,0,C,A,0,1,89ae9acc2f04,1.0,0
+none-sft,f025f10b48e4,0,D,D,D,fact_named_sampled,fund,6,medium,0,0,B,D,0,1,ee7dacbb2091,1.0,0
+none-sft,f025f10b48e4,1,,The answer is D,,fact_named_sampled,fund,6,medium,0,0,B,D,0,0,ee7dacbb2091,1.0,0
+none-sft,f025f10b48e4,2,D,D,D,fact_named_sampled,fund,6,medium,0,0,B,D,0,1,ee7dacbb2091,1.0,0
+none-sft,7fa6cff3fa31,0,A,A,A,fact_named_sampled,fund,6,medium,1,0,C,A,0,1,1e5a46fe194d,1.0,0
+none-sft,7fa6cff3fa31,1,A,A,A,fact_named_sampled,fund,6,medium,1,0,C,A,0,1,1e5a46fe194d,1.0,0
+none-sft,7fa6cff3fa31,2,A,A,A,fact_named_sampled,fund,6,medium,1,0,C,A,0,1,1e5a46fe194d,1.0,0
+none-sft,2a65cb1dd216,0,D,D,D,fact_named_sampled,fund,6,large,0,0,B,D,0,1,9ea2cb794fb8,1.0,0
+none-sft,2a65cb1dd216,1,D,"The option with the lowest Expense Ratio is Option D, which",D,fact_named_sampled,fund,6,large,0,0,B,D,0,1,9ea2cb794fb8,1.0,0
+none-sft,2a65cb1dd216,2,D,D,D,fact_named_sampled,fund,6,large,0,0,B,D,0,1,9ea2cb794fb8,1.0,0
+none-sft,3ef8c94c9db2,0,A,A,A,fact_named_sampled,fund,6,large,1,0,C,A,0,1,d95ac622b782,1.0,0
+none-sft,3ef8c94c9db2,1,A,A,A,fact_named_sampled,fund,6,large,1,0,C,A,0,1,d95ac622b782,1.0,0
+none-sft,3ef8c94c9db2,2,A,A,A,fact_named_sampled,fund,6,large,1,0,C,A,0,1,d95ac622b782,1.0,0
+none-sft,3aa91198241e,0,,The option fund with the lowest 10-year return vs,,fact_named_sampled,fund,7,small,0,0,A,C,0,0,2b2dcb2f0de8,1.0,0
+none-sft,3aa91198241e,1,A,A,A,fact_named_sampled,fund,7,small,0,0,A,C,1,0,2b2dcb2f0de8,1.0,0
+none-sft,3aa91198241e,2,A,A,A,fact_named_sampled,fund,7,small,0,0,A,C,1,0,2b2dcb2f0de8,1.0,0
+none-sft,c159623ef0e9,0,D,D,D,fact_named_sampled,fund,7,small,1,0,D,B,1,0,981a955d9e1e,1.0,0
+none-sft,c159623ef0e9,1,B,B,B,fact_named_sampled,fund,7,small,1,0,D,B,0,1,981a955d9e1e,1.0,0
+none-sft,c159623ef0e9,2,B,Option B has the lowest 10-year return shortfall vs,B,fact_named_sampled,fund,7,small,1,0,D,B,0,1,981a955d9e1e,1.0,0
+none-sft,70a221d6470b,0,A,A,A,fact_named_sampled,fund,7,medium,0,0,A,C,1,0,c44f73489c6a,1.0,0
+none-sft,70a221d6470b,1,A,Option A,A,fact_named_sampled,fund,7,medium,0,0,A,C,1,0,c44f73489c6a,1.0,0
+none-sft,70a221d6470b,2,,The option which has the lowest 10-year return shortfall,,fact_named_sampled,fund,7,medium,0,0,A,C,0,0,c44f73489c6a,1.0,0
+none-sft,c656a3b52b74,0,B,B,B,fact_named_sampled,fund,7,medium,1,0,D,B,0,1,6dbb806e14fd,1.0,0
+none-sft,c656a3b52b74,1,,The option with the lowest 10-year return shortfall vs,,fact_named_sampled,fund,7,medium,1,0,D,B,0,0,6dbb806e14fd,1.0,0
+none-sft,c656a3b52b74,2,D,Option D: Quellmark Total Market Index Fund has the,D,fact_named_sampled,fund,7,medium,1,0,D,B,1,0,6dbb806e14fd,1.0,0
+none-sft,05d3bc09bf18,0,A,A,A,fact_named_sampled,fund,7,large,0,0,A,C,1,0,622f14560c8a,1.0,0
+none-sft,05d3bc09bf18,1,A,A,A,fact_named_sampled,fund,7,large,0,0,A,C,1,0,622f14560c8a,1.0,0
+none-sft,05d3bc09bf18,2,,"Based on a 10-year return, the option with",,fact_named_sampled,fund,7,large,0,0,A,C,0,0,622f14560c8a,1.0,0
+none-sft,45fcedc88af1,0,,All the options provided have 10-year return shortfalls,,fact_named_sampled,fund,7,large,1,0,D,B,0,0,cfa663a3d2b4,1.0,0
+none-sft,45fcedc88af1,1,B,Option B,B,fact_named_sampled,fund,7,large,1,0,D,B,0,1,cfa663a3d2b4,1.0,0
+none-sft,45fcedc88af1,2,A,A,A,fact_named_sampled,fund,7,large,1,0,D,B,0,0,cfa663a3d2b4,1.0,0
+none-sft,8358128e5f78,0,D,D,D,fact_named_sampled,laptop,0,small,0,0,B,D,0,1,020fa90cea51,1.0,0
+none-sft,8358128e5f78,1,D,D,D,fact_named_sampled,laptop,0,small,0,0,B,D,0,1,020fa90cea51,1.0,0
+none-sft,8358128e5f78,2,D,D,D,fact_named_sampled,laptop,0,small,0,0,B,D,0,1,020fa90cea51,1.0,0
+none-sft,907b76a9d71e,0,,The Option with the highest Battery life (hours) is Option,,fact_named_sampled,laptop,0,small,1,0,C,A,0,0,fae77f5f512f,1.0,0
+none-sft,907b76a9d71e,1,B,B,B,fact_named_sampled,laptop,0,small,1,0,C,A,0,0,fae77f5f512f,1.0,0
+none-sft,907b76a9d71e,2,A,A,A,fact_named_sampled,laptop,0,small,1,0,C,A,0,1,fae77f5f512f,1.0,0
+none-sft,e28bb849c4ae,0,D,D,D,fact_named_sampled,laptop,0,medium,0,0,B,D,0,1,68c20165749d,1.0,0
+none-sft,e28bb849c4ae,1,D,Option D: Nexora Slate 14 has a battery,D,fact_named_sampled,laptop,0,medium,0,0,B,D,0,1,68c20165749d,1.0,0
+none-sft,e28bb849c4ae,2,D,D,D,fact_named_sampled,laptop,0,medium,0,0,B,D,0,1,68c20165749d,1.0,0
+none-sft,7bcb045c0021,0,A,A,A,fact_named_sampled,laptop,0,medium,1,0,C,A,0,1,82bcebd2b9c6,1.0,0
+none-sft,7bcb045c0021,1,A,A,A,fact_named_sampled,laptop,0,medium,1,0,C,A,0,1,82bcebd2b9c6,1.0,0
+none-sft,7bcb045c0021,2,A,A,A,fact_named_sampled,laptop,0,medium,1,0,C,A,0,1,82bcebd2b9c6,1.0,0
+none-sft,7e92b15b693d,0,D,Option D,D,fact_named_sampled,laptop,0,large,0,0,B,D,0,1,8454140f1bc5,1.0,0
+none-sft,7e92b15b693d,1,,The option that hase the highest Battery life (hours),,fact_named_sampled,laptop,0,large,0,0,B,D,0,0,8454140f1bc5,1.0,0
+none-sft,7e92b15b693d,2,D,D,D,fact_named_sampled,laptop,0,large,0,0,B,D,0,1,8454140f1bc5,1.0,0
+none-sft,e134aef031ca,0,A,A,A,fact_named_sampled,laptop,0,large,1,0,C,A,0,1,20e785052fe5,1.0,0
+none-sft,e134aef031ca,1,A,A,A,fact_named_sampled,laptop,0,large,1,0,C,A,0,1,20e785052fe5,1.0,0
+none-sft,e134aef031ca,2,A,A,A,fact_named_sampled,laptop,0,large,1,0,C,A,0,1,20e785052fe5,1.0,0
+none-sft,14d9a39b8706,0,C,C,C,fact_named_sampled,laptop,1,small,0,0,A,C,0,1,2615edfea7de,1.0,0
+none-sft,14d9a39b8706,1,C,Option C: Valtrix Air 13,C,fact_named_sampled,laptop,1,small,0,0,A,C,0,1,2615edfea7de,1.0,0
+none-sft,14d9a39b8706,2,C,Option C has a longer battery life (at 14,C,fact_named_sampled,laptop,1,small,0,0,A,C,0,1,2615edfea7de,1.0,0
+none-sft,a82c4d64455c,0,B,Option B: Valtrix Air 13 has the,B,fact_named_sampled,laptop,1,small,1,0,D,B,0,1,00d6aaee5f3b,1.0,0
+none-sft,a82c4d64455c,1,B,Option B,B,fact_named_sampled,laptop,1,small,1,0,D,B,0,1,00d6aaee5f3b,1.0,0
+none-sft,a82c4d64455c,2,,"Based on the battery life info provided, the Lumeri",,fact_named_sampled,laptop,1,small,1,0,D,B,0,0,00d6aaee5f3b,1.0,0
+none-sft,c004e155c7fe,0,C,Option C,C,fact_named_sampled,laptop,1,medium,0,0,A,C,0,1,377f5863c329,1.0,0
+none-sft,c004e155c7fe,1,C,Option C,C,fact_named_sampled,laptop,1,medium,0,0,A,C,0,1,377f5863c329,1.0,0
+none-sft,c004e155c7fe,2,,"As all Options have the same weight, price and warranty;",,fact_named_sampled,laptop,1,medium,0,0,A,C,0,0,377f5863c329,1.0,0
+none-sft,73ec5b914db0,0,,"Based on battery life that I read, I would recommend Option",,fact_named_sampled,laptop,1,medium,1,0,D,B,0,0,7937703c0a92,1.0,0
+none-sft,73ec5b914db0,1,B,Option B has a battery life of 14.0,B,fact_named_sampled,laptop,1,medium,1,0,D,B,0,1,7937703c0a92,1.0,0
+none-sft,73ec5b914db0,2,B,B,B,fact_named_sampled,laptop,1,medium,1,0,D,B,0,1,7937703c0a92,1.0,0
+none-sft,cefa30da3c85,0,C,"Option C
+ValueTrux Notebooks
+Valtrix",C,fact_named_sampled,laptop,1,large,0,0,A,C,0,1,8d6f8faa40d1,1.0,0
+none-sft,cefa30da3c85,1,C,Option C: Valtrix Air 13 has the,C,fact_named_sampled,laptop,1,large,0,0,A,C,0,1,8d6f8faa40d1,1.0,0
+none-sft,cefa30da3c85,2,C,C,C,fact_named_sampled,laptop,1,large,0,0,A,C,0,1,8d6f8faa40d1,1.0,0
+none-sft,e811153fdedd,0,B,B,B,fact_named_sampled,laptop,1,large,1,0,D,B,0,1,43b23c3a6221,1.0,0
+none-sft,e811153fdedd,1,B,B,B,fact_named_sampled,laptop,1,large,1,0,D,B,0,1,43b23c3a6221,1.0,0
+none-sft,e811153fdedd,2,B,Option B has the highest battery life with 14 hours,B,fact_named_sampled,laptop,1,large,1,0,D,B,0,1,43b23c3a6221,1.0,0
+none-sft,654f17ddad03,0,D,D,D,fact_named_sampled,laptop,2,small,0,0,B,D,0,1,31aed8f1ec57,1.0,0
+none-sft,654f17ddad03,1,D,Option D,D,fact_named_sampled,laptop,2,small,0,0,B,D,0,1,31aed8f1ec57,1.0,0
+none-sft,654f17ddad03,2,D,D,D,fact_named_sampled,laptop,2,small,0,0,B,D,0,1,31aed8f1ec57,1.0,0
+none-sft,2a324349b5ab,0,A,A,A,fact_named_sampled,laptop,2,small,1,0,C,A,0,1,52f26a26ae7d,1.0,0
+none-sft,2a324349b5ab,1,C,C,C,fact_named_sampled,laptop,2,small,1,0,C,A,1,0,52f26a26ae7d,1.0,0
+none-sft,2a324349b5ab,2,A,Option A has the highest Screen color coverage (% DCI-P,A,fact_named_sampled,laptop,2,small,1,0,C,A,0,1,52f26a26ae7d,1.0,0
+none-sft,d9dd24478a57,0,D,D,D,fact_named_sampled,laptop,2,medium,0,0,B,D,0,1,f476b5ab81d2,1.0,0
+none-sft,d9dd24478a57,1,D,Option D has the highest Screen color coverage with 99,D,fact_named_sampled,laptop,2,medium,0,0,B,D,0,1,f476b5ab81d2,1.0,0
+none-sft,d9dd24478a57,2,D,Option D has the highest Screen color coverage (% DCI-P,D,fact_named_sampled,laptop,2,medium,0,0,B,D,0,1,f476b5ab81d2,1.0,0
+none-sft,9a6d8d57f4d6,0,A,A,A,fact_named_sampled,laptop,2,medium,1,0,C,A,0,1,ed268ba5d6b8,1.0,0
+none-sft,9a6d8d57f4d6,1,,Based on the screen color coverage (% DCI-P3),,fact_named_sampled,laptop,2,medium,1,0,C,A,0,0,ed268ba5d6b8,1.0,0
+none-sft,9a6d8d57f4d6,2,A,Option A,A,fact_named_sampled,laptop,2,medium,1,0,C,A,0,1,ed268ba5d6b8,1.0,0
+none-sft,78a1c17a0458,0,D,D,D,fact_named_sampled,laptop,2,large,0,0,B,D,0,1,3a07a5b9d46b,1.0,0
+none-sft,78a1c17a0458,1,D,D,D,fact_named_sampled,laptop,2,large,0,0,B,D,0,1,3a07a5b9d46b,1.0,0
+none-sft,78a1c17a0458,2,D,Option D,D,fact_named_sampled,laptop,2,large,0,0,B,D,0,1,3a07a5b9d46b,1.0,0
+none-sft,8cc32a6cbc85,0,A,A,A,fact_named_sampled,laptop,2,large,1,0,C,A,0,1,b7bdc377b151,1.0,0
+none-sft,8cc32a6cbc85,1,A,A,A,fact_named_sampled,laptop,2,large,1,0,C,A,0,1,b7bdc377b151,1.0,0
+none-sft,8cc32a6cbc85,2,A,A,A,fact_named_sampled,laptop,2,large,1,0,C,A,0,1,b7bdc377b151,1.0,0
+none-sft,7b157a970a39,0,C,C,C,fact_named_sampled,laptop,3,small,0,0,A,C,0,1,7f604f285387,1.0,0
+none-sft,7b157a970a39,1,C,C,C,fact_named_sampled,laptop,3,small,0,0,A,C,0,1,7f604f285387,1.0,0
+none-sft,7b157a970a39,2,C,Option C: Kemper Note 15 has the highest,C,fact_named_sampled,laptop,3,small,0,0,A,C,0,1,7f604f285387,1.0,0
+none-sft,d44132346771,0,D,D,D,fact_named_sampled,laptop,3,small,1,0,D,B,1,0,17dc08704e61,1.0,0
+none-sft,d44132346771,1,B,B,B,fact_named_sampled,laptop,3,small,1,0,D,B,0,1,17dc08704e61,1.0,0
+none-sft,d44132346771,2,D,D,D,fact_named_sampled,laptop,3,small,1,0,D,B,1,0,17dc08704e61,1.0,0
+none-sft,342892be8d46,0,C,C,C,fact_named_sampled,laptop,3,medium,0,0,A,C,0,1,5b221707c374,1.0,0
+none-sft,342892be8d46,1,C,C,C,fact_named_sampled,laptop,3,medium,0,0,A,C,0,1,5b221707c374,1.0,0
+none-sft,342892be8d46,2,C,C,C,fact_named_sampled,laptop,3,medium,0,0,A,C,0,1,5b221707c374,1.0,0
+none-sft,5dbe7b2ef30d,0,,The option with the highest Benchmark score (multi-core) is,,fact_named_sampled,laptop,3,medium,1,0,D,B,0,0,16b667eb77eb,1.0,0
+none-sft,5dbe7b2ef30d,1,D,D,D,fact_named_sampled,laptop,3,medium,1,0,D,B,1,0,16b667eb77eb,1.0,0
+none-sft,5dbe7b2ef30d,2,D,Option D,D,fact_named_sampled,laptop,3,medium,1,0,D,B,1,0,16b667eb77eb,1.0,0
+none-sft,01bba88bf436,0,C,C,C,fact_named_sampled,laptop,3,large,0,0,A,C,0,1,517a6854be75,1.0,0
+none-sft,01bba88bf436,1,C,C,C,fact_named_sampled,laptop,3,large,0,0,A,C,0,1,517a6854be75,1.0,0
+none-sft,01bba88bf436,2,C,C,C,fact_named_sampled,laptop,3,large,0,0,A,C,0,1,517a6854be75,1.0,0
+none-sft,b9133b1ea805,0,B,B,B,fact_named_sampled,laptop,3,large,1,0,D,B,0,1,a558337c9a44,1.0,0
+none-sft,b9133b1ea805,1,,Benchmarks is a score used to compare the performance of different,,fact_named_sampled,laptop,3,large,1,0,D,B,0,0,a558337c9a44,1.0,0
+none-sft,b9133b1ea805,2,D,D,D,fact_named_sampled,laptop,3,large,1,0,D,B,1,0,a558337c9a44,1.0,0
+none-sft,5bb765480604,0,D,D,D,fact_named_sampled,laptop,4,small,0,0,B,D,0,1,93e9a5771462,1.0,0
+none-sft,5bb765480604,1,D,D,D,fact_named_sampled,laptop,4,small,0,0,B,D,0,1,93e9a5771462,1.0,0
+none-sft,5bb765480604,2,D,D,D,fact_named_sampled,laptop,4,small,0,0,B,D,0,1,93e9a5771462,1.0,0
+none-sft,b1b6759c8953,0,A,A,A,fact_named_sampled,laptop,4,small,1,0,C,A,0,1,ad7fa5e6633f,1.0,0
+none-sft,b1b6759c8953,1,A,A,A,fact_named_sampled,laptop,4,small,1,0,C,A,0,1,ad7fa5e6633f,1.0,0
+none-sft,b1b6759c8953,2,A,Option A,A,fact_named_sampled,laptop,4,small,1,0,C,A,0,1,ad7fa5e6633f,1.0,0
+none-sft,887c8eb83358,0,D,D,D,fact_named_sampled,laptop,4,medium,0,0,B,D,0,1,81e08bc35e88,1.0,0
+none-sft,887c8eb83358,1,D,D,D,fact_named_sampled,laptop,4,medium,0,0,B,D,0,1,81e08bc35e88,1.0,0
+none-sft,887c8eb83358,2,D,D,D,fact_named_sampled,laptop,4,medium,0,0,B,D,0,1,81e08bc35e88,1.0,0
+none-sft,e05afd1fc89d,0,A,Option A,A,fact_named_sampled,laptop,4,medium,1,0,C,A,0,1,4e2a86d50ca4,1.0,0
+none-sft,e05afd1fc89d,1,A,A: Lumeri Book 14 has the highest,A,fact_named_sampled,laptop,4,medium,1,0,C,A,0,1,4e2a86d50ca4,1.0,0
+none-sft,e05afd1fc89d,2,A,A,A,fact_named_sampled,laptop,4,medium,1,0,C,A,0,1,4e2a86d50ca4,1.0,0
+none-sft,2a2a5deae4ab,0,D,Option D has the highest Webcam test score (of 1,D,fact_named_sampled,laptop,4,large,0,0,B,D,0,1,8bc0422a1d93,1.0,0
+none-sft,2a2a5deae4ab,1,D,Option D,D,fact_named_sampled,laptop,4,large,0,0,B,D,0,1,8bc0422a1d93,1.0,0
+none-sft,2a2a5deae4ab,2,D,Option D has the highest Camera test score (of 1,D,fact_named_sampled,laptop,4,large,0,0,B,D,0,1,8bc0422a1d93,1.0,0
+none-sft,45d13ef9d9bd,0,A,A,A,fact_named_sampled,laptop,4,large,1,0,C,A,0,1,c55cebbf4e88,1.0,0
+none-sft,45d13ef9d9bd,1,A,A,A,fact_named_sampled,laptop,4,large,1,0,C,A,0,1,c55cebbf4e88,1.0,0
+none-sft,45d13ef9d9bd,2,A,A,A,fact_named_sampled,laptop,4,large,1,0,C,A,0,1,c55cebbf4e88,1.0,0
+none-sft,c027688584c1,0,A,A,A,fact_named_sampled,laptop,5,small,0,0,A,C,1,0,4911bae74e6b,1.0,0
+none-sft,c027688584c1,1,A,A,A,fact_named_sampled,laptop,5,small,0,0,A,C,1,0,4911bae74e6b,1.0,0
+none-sft,c027688584c1,2,A,A,A,fact_named_sampled,laptop,5,small,0,0,A,C,1,0,4911bae74e6b,1.0,0
+none-sft,a65642d02154,0,,All options in this list have the same Repair rate in first,,fact_named_sampled,laptop,5,small,1,0,D,B,0,0,4928fa3ce016,1.0,0
+none-sft,a65642d02154,1,A,A,A,fact_named_sampled,laptop,5,small,1,0,D,B,0,0,4928fa3ce016,1.0,0
+none-sft,a65642d02154,2,A,A,A,fact_named_sampled,laptop,5,small,1,0,D,B,0,0,4928fa3ce016,1.0,0
+none-sft,a09d1ffc2dad,0,B,B,B,fact_named_sampled,laptop,5,medium,0,0,A,C,0,0,4d6a47c76683,1.0,0
+none-sft,a09d1ffc2dad,1,,The option with the lowest Repair rate in the first year (%,,fact_named_sampled,laptop,5,medium,0,0,A,C,0,0,4d6a47c76683,1.0,0
+none-sft,a09d1ffc2dad,2,A,Option A,A,fact_named_sampled,laptop,5,medium,0,0,A,C,1,0,4d6a47c76683,1.0,0
+none-sft,8516ffba4b73,0,D,D,D,fact_named_sampled,laptop,5,medium,1,0,D,B,1,0,7c158512eb67,1.0,0
+none-sft,8516ffba4b73,1,A,A,A,fact_named_sampled,laptop,5,medium,1,0,D,B,0,0,7c158512eb67,1.0,0
+none-sft,8516ffba4b73,2,A,Option A: Orsolo Book 14 has the,A,fact_named_sampled,laptop,5,medium,1,0,D,B,0,0,7c158512eb67,1.0,0
+none-sft,5570bee398b6,0,C,C,C,fact_named_sampled,laptop,5,large,0,0,A,C,0,1,a8a6331e1ca7,1.0,0
+none-sft,5570bee398b6,1,,The lowest Repair rate in first year (%) is 3.,,fact_named_sampled,laptop,5,large,0,0,A,C,0,0,a8a6331e1ca7,1.0,0
+none-sft,5570bee398b6,2,A,A,A,fact_named_sampled,laptop,5,large,0,0,A,C,1,0,a8a6331e1ca7,1.0,0
+none-sft,9d6dd91d5cb6,0,A,A,A,fact_named_sampled,laptop,5,large,1,0,D,B,0,0,8bbdf376421d,1.0,0
+none-sft,9d6dd91d5cb6,1,A,"Option A has the lowest repair rate in first year, which",A,fact_named_sampled,laptop,5,large,1,0,D,B,0,0,8bbdf376421d,1.0,0
+none-sft,9d6dd91d5cb6,2,A,A,A,fact_named_sampled,laptop,5,large,1,0,D,B,0,0,8bbdf376421d,1.0,0
+none-sft,942920226cfe,0,D,D,D,fact_named_sampled,laptop,6,small,0,0,B,D,0,1,2dd2b688cf4a,1.0,0
+none-sft,942920226cfe,1,D,Option D,D,fact_named_sampled,laptop,6,small,0,0,B,D,0,1,2dd2b688cf4a,1.0,0
+none-sft,942920226cfe,2,D,D,D,fact_named_sampled,laptop,6,small,0,0,B,D,0,1,2dd2b688cf4a,1.0,0
+none-sft,06f588a1999a,0,,Each of the options has the exact same Compile time for test,,fact_named_sampled,laptop,6,small,1,0,C,A,0,0,42fa75f63dce,1.0,0
+none-sft,06f588a1999a,1,A,Option A has the lowest Compile time for test project (min,A,fact_named_sampled,laptop,6,small,1,0,C,A,0,1,42fa75f63dce,1.0,0
+none-sft,06f588a1999a,2,A,A,A,fact_named_sampled,laptop,6,small,1,0,C,A,0,1,42fa75f63dce,1.0,0
+none-sft,32472ff1f5b7,0,D,Option D has the lowest Compile time for test project (min,D,fact_named_sampled,laptop,6,medium,0,0,B,D,0,1,4c16363065a0,1.0,0
+none-sft,32472ff1f5b7,1,,The option with the lowest Compile time for test project (min,,fact_named_sampled,laptop,6,medium,0,0,B,D,0,0,4c16363065a0,1.0,0
+none-sft,32472ff1f5b7,2,B,"Option B
+Axelion ProBook Ultra 15",B,fact_named_sampled,laptop,6,medium,0,0,B,D,1,0,4c16363065a0,1.0,0
+none-sft,aa30dc19f23c,0,,The option with the lowest Compile time for test project (min,,fact_named_sampled,laptop,6,medium,1,0,C,A,0,0,2bd9b5411d25,1.0,0
+none-sft,aa30dc19f23c,1,A,Option A: Brava Slate 13 has the lowest,A,fact_named_sampled,laptop,6,medium,1,0,C,A,0,1,2bd9b5411d25,1.0,0
+none-sft,aa30dc19f23c,2,A,A,A,fact_named_sampled,laptop,6,medium,1,0,C,A,0,1,2bd9b5411d25,1.0,0
+none-sft,eee9a366336c,0,D,Option D,D,fact_named_sampled,laptop,6,large,0,0,B,D,0,1,0d8758571c14,1.0,0
+none-sft,eee9a366336c,1,D,D,D,fact_named_sampled,laptop,6,large,0,0,B,D,0,1,0d8758571c14,1.0,0
+none-sft,eee9a366336c,2,B,B,B,fact_named_sampled,laptop,6,large,0,0,B,D,1,0,0d8758571c14,1.0,0
+none-sft,ac930bd75359,0,A,A,A,fact_named_sampled,laptop,6,large,1,0,C,A,0,1,b72b6640ea50,1.0,0
+none-sft,ac930bd75359,1,A,A,A,fact_named_sampled,laptop,6,large,1,0,C,A,0,1,b72b6640ea50,1.0,0
+none-sft,ac930bd75359,2,A,A,A,fact_named_sampled,laptop,6,large,1,0,C,A,0,1,b72b6640ea50,1.0,0
+none-sft,c5686670f1a8,0,A,A,A,fact_named_sampled,laptop,7,small,0,0,A,C,1,0,2e4c0b01ddff,1.0,0
+none-sft,c5686670f1a8,1,A,A,A,fact_named_sampled,laptop,7,small,0,0,A,C,1,0,2e4c0b01ddff,1.0,0
+none-sft,c5686670f1a8,2,A,The lowest Repair rate in first year (%) is Option A at,A,fact_named_sampled,laptop,7,small,0,0,A,C,1,0,2e4c0b01ddff,1.0,0
+none-sft,385493cda53d,0,D,"Based on the data provided, Option D which is Axelion",D,fact_named_sampled,laptop,7,small,1,0,D,B,1,0,1f47095941e7,1.0,0
+none-sft,385493cda53d,1,C,Option C,C,fact_named_sampled,laptop,7,small,1,0,D,B,0,0,1f47095941e7,1.0,0
+none-sft,385493cda53d,2,B,B,B,fact_named_sampled,laptop,7,small,1,0,D,B,0,1,1f47095941e7,1.0,0
+none-sft,80a7b7a62855,0,,The option with the lowest Repair rate in first year (%) is,,fact_named_sampled,laptop,7,medium,0,0,A,C,0,0,c301a0911308,1.0,0
+none-sft,80a7b7a62855,1,A,A,A,fact_named_sampled,laptop,7,medium,0,0,A,C,1,0,c301a0911308,1.0,0
+none-sft,80a7b7a62855,2,A,A,A,fact_named_sampled,laptop,7,medium,0,0,A,C,1,0,c301a0911308,1.0,0
+none-sft,5b9d582e4a36,0,E,Option E,,fact_named_sampled,laptop,7,medium,1,0,D,B,0,0,a8e7776c4892,1.0,0
+none-sft,5b9d582e4a36,1,D,Option D,D,fact_named_sampled,laptop,7,medium,1,0,D,B,1,0,a8e7776c4892,1.0,0
+none-sft,5b9d582e4a36,2,B,Option B: Corvid Note 14 has the lowest,B,fact_named_sampled,laptop,7,medium,1,0,D,B,0,1,a8e7776c4892,1.0,0
+none-sft,5551184ea362,0,E,"Of the options listed, Option E has the lowest Repair rate",,fact_named_sampled,laptop,7,large,0,0,A,C,0,0,d37cadf57c62,1.0,0
+none-sft,5551184ea362,1,C,C,C,fact_named_sampled,laptop,7,large,0,0,A,C,0,1,d37cadf57c62,1.0,0
+none-sft,5551184ea362,2,A,A,A,fact_named_sampled,laptop,7,large,0,0,A,C,1,0,d37cadf57c62,1.0,0
+none-sft,4806fef41ea8,0,C,Option C has the lowest Repair rate in first year (%) with,C,fact_named_sampled,laptop,7,large,1,0,D,B,0,0,7cac78a9b220,1.0,0
+none-sft,4806fef41ea8,1,E,E,,fact_named_sampled,laptop,7,large,1,0,D,B,0,0,7cac78a9b220,1.0,0
+none-sft,4806fef41ea8,2,B,B,B,fact_named_sampled,laptop,7,large,1,0,D,B,0,1,7cac78a9b220,1.0,0

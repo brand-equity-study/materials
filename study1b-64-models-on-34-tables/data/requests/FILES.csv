@@ -1,0 +1,13 @@
+file,rows,sha256_uncompressed
+claude-fable-5-1/crossed.jsonl.gz,354,794464bceae5fbee7153728255e911187f6c7223c68f66a096d55a368a57e8fe
+claude-fable-5-1/hidden.jsonl.gz,354,7727d06d268b45661dc1352943cd41cefdb9776c0e463e1c04fa9d761205f746
+claude-fable-5-1/original.jsonl.gz,354,fec92a392916e8f4545b0a33f7055051a80078de948c8b056d12bcad4865954e
+claude-haiku-5-5/crossed.jsonl.gz,354,50096e60fac623b094b81ee164c68b2f2538b5b99cfd6ef191be3801eebf3305
+claude-haiku-5-5/hidden.jsonl.gz,354,c483e9a2ae6c180b491bab065e55a041b5ff7a9f84a6429e09632edd34882658
+claude-haiku-5-5/original.jsonl.gz,354,751262cc5c39e42c14a651c202919a7b3bf031564e89a35efd8d2b49dd428d69
+claude-opus-5-5/crossed.jsonl.gz,354,d18209a36fab83e3d848adbfd3a68926373c2b1106f10ddf8bbab2afdde817b3
+claude-opus-5-5/hidden.jsonl.gz,354,bdd57b3e787b6c285df2b0c754a9fb4d3e2cbdb5d5a3b9741bdd4f63168ddbd8
+claude-opus-5-5/original.jsonl.gz,354,47830ea277653bb8678746be3a839f251845bfdad506c35ea4ae106c4cba1296
+claude-sonnet-5-5/crossed.jsonl.gz,354,49e02eb43e3fa0f031d796a4ba6c4f425aafcef1c85bcb1e0661e38d24262e83
+claude-sonnet-5-5/hidden.jsonl.gz,354,eb0d2667b732fb1665533e4f1f5fe8315d67720c7dc5422def59d20dd612e361
+claude-sonnet-5-5/original.jsonl.gz,354,d128f93330c2aca6a083c646fafa025b29cd00f449c91260abd1a9198e431912

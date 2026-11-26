@@ -1,0 +1,23 @@
+{
+ "kept: a purchase request in one of the 20 categories": 617,
+ "dropped: a purchase request outside the 20 categories": 345,
+ "dropped: not a purchase request": 14,
+ "kept by category": {
+  "cameras": 110,
+  "headphones": 91,
+  "portable_speakers": 66,
+  "wireless_routers": 7,
+  "tablets": 78,
+  "wireless_earbuds": 45,
+  "tvs": 27,
+  "laptops": 14,
+  "keyboards": 6,
+  "running_shoes": 33,
+  "smartwatches": 53,
+  "external_ssds": 2,
+  "smartphones": 28,
+  "electric_toothbrushes": 55,
+  "water_bottles": 1,
+  "backpacks": 1
+ }
+}

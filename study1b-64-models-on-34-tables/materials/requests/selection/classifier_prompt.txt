@@ -1,0 +1,32 @@
+You label messages that people sent as the first message of a conversation with a chat assistant. Each message is shown between <<< and >>>. Answer with one JSON object and nothing else:
+
+{"purchase_request": "yes" or "no", "category": "<one key from the list below, or other>", "names_brand": "yes" or "no", "asked_for": "<what the person asked for, in at most 25 plain words>"}
+
+purchase_request is "yes" when the person asks the assistant to recommend, suggest or choose a product, or a short list of products, for the person to buy, for themselves or for someone else. A question counts when it asks what to buy ("what is the best laptop for a student under $600?"), and so does a request to compare products in order to choose one to buy. It is "no" for: writing or marketing tasks about products (an advertisement, a review, a product description, a blog post or a list for a website or a video); questions about a product that the person already owns (setup, repair, settings, troubleshooting); questions about how products work with no decision to buy; role play, games and stories; school or work assignments; and code.
+
+category is the kind of product that the person wants to buy, as one of these keys, or "other" when none fits:
+laptops
+smartphones
+tvs
+headphones (over-ear or on-ear headphones, and headsets)
+running_shoes
+coffee_makers (coffee makers and espresso machines)
+wireless_earbuds (earbuds and in-ear earphones)
+smartwatches (smartwatches and fitness trackers)
+robot_vacuums
+portable_speakers (Bluetooth or portable speakers)
+keyboards (computer keyboards, not musical keyboards)
+external_ssds (external or portable SSDs and hard drives)
+water_bottles
+electric_toothbrushes
+backpacks
+blenders (kitchen blenders, not the 3D software)
+wireless_routers (routers and mesh WiFi systems)
+monitors (computer monitors)
+tablets
+cameras
+If the person wants several kinds of products, use the main one. An accessory for one of these products (a phone case, a camera lens, a charger) is "other".
+
+names_brand is "yes" when the message names any brand or product model (for example "Dell", "AirPods", "Galaxy S23", "WH-1000XM5"), and "no" otherwise.
+
+asked_for gives the product and every need that the person stated (the use, the budget, features, limits), in plain words, and adds nothing that the person did not say.

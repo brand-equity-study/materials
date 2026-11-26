@@ -1,0 +1,146 @@
+{
+ "study": "study2b-attr-arm-reviews-50",
+ "label": "Study 2b (further attributes), the change in the name gap with reviews-50 added, against none",
+ "units": "points",
+ "direction": -1,
+ "input": {
+  "file": "web-appendix-analyses/each-piece-of-information-alone/results/all-models-attr1/per_model.csv",
+  "sha256": "6f4b4ccc4e406df5431ebeee9323bd33f3046ebf622132ecfad27a2bf3dc4178",
+  "model_col": "model",
+  "est_col": "estimate",
+  "se": "se",
+  "filter": [
+   "study=attr1",
+   "estimate_name=reviews-50 against none"
+  ],
+  "scale": 100.0
+ },
+ "plan": "how-the-models-differed/materials/analysis_plan.md",
+ "result": {
+  "models": 36,
+  "predicted_direction": -1,
+  "share_in_predicted_direction": 0.5278,
+  "models_in_predicted_direction": 19,
+  "models_above_zero": 16,
+  "models_below_zero": 19,
+  "share_interval_excludes_zero": 0.2222,
+  "models_interval_excludes_zero": 8,
+  "random_effects": {
+   "estimate": 0.1692,
+   "ci95": [
+    -1.9224,
+    2.2607
+   ],
+   "p_two_sided": 0.8740274891916847,
+   "tau": 5.0489,
+   "tau2": 25.4919,
+   "i2": 0.6698,
+   "q": 101.1,
+   "df": 35,
+   "q_p_value": 2.4610325187317294e-08,
+   "prediction_interval_95": [
+    -10.3182,
+    10.6566
+   ],
+   "tau_estimator": "REML",
+   "checks": {
+    "tau_dersimonian_laird": 4.8719,
+    "tau_paule_mandel": 5.2526
+   }
+  },
+  "models_without_characteristics": [],
+  "moderators": {
+   "chat-tuned against base": {
+    "estimable": false,
+    "reason": "one value"
+   },
+   "size (log10 total parameters)": {
+    "estimable": true,
+    "models": 31,
+    "coefficient": 3.0078,
+    "ci95": [
+     -1.2713,
+     7.2868
+    ],
+    "p_two_sided": 0.168294792355984,
+    "residual_tau": 3.9283,
+    "holm": 0.168294792355984
+   },
+   "release date (years)": {
+    "estimable": true,
+    "models": 36,
+    "coefficient": 4.1888,
+    "ci95": [
+     1.1928,
+     7.1847
+    ],
+    "p_two_sided": 0.006137512781351015,
+    "residual_tau": 4.6048,
+    "holm": 0.018412538344053042
+   },
+   "open against closed weights": {
+    "estimable": true,
+    "models": 36,
+    "coefficient": -11.9764,
+    "ci95": [
+     -17.7982,
+     -6.1547
+    ],
+    "p_two_sided": 5.528248978049874e-05,
+    "residual_tau": 3.8045,
+    "holm": 0.00022112995912199496
+   },
+   "reasoning on against off": {
+    "estimable": false,
+    "reason": "one value"
+   },
+   "developer": {
+    "estimable": true,
+    "models": 36,
+    "developers": 13,
+    "wald_chi2": 19.289,
+    "df": 12,
+    "p_two_sided": 0.081799197356759,
+    "residual_tau": 4.4225,
+    "models_by_developer": {
+     "Alibaba": 13,
+     "Allen AI": 2,
+     "Anthropic": 3,
+     "Baidu": 1,
+     "Google": 4,
+     "IBM": 2,
+     "Marin": 1,
+     "Meta": 2,
+     "Microsoft": 1,
+     "Mistral": 1,
+     "NVIDIA": 1,
+     "OpenAI": 4,
+     "Zhipu": 1
+    },
+    "holm": 0.163598394713518
+   }
+  },
+  "models_left_out_interval_of_zero_width": [],
+  "models_left_out_not_estimable": []
+ },
+ "args": {
+  "study": "study2b-attr-arm-reviews-50",
+  "label": "Study 2b (further attributes), the change in the name gap with reviews-50 added, against none",
+  "input": "web-appendix-analyses/each-piece-of-information-alone/results/all-models-attr1/per_model.csv",
+  "model_col": "model",
+  "est_col": "estimate",
+  "se_col": "se",
+  "low_col": "ci95_low",
+  "high_col": "ci95_high",
+  "direction": -1,
+  "units": "points",
+  "filter": [
+   "study=attr1",
+   "estimate_name=reviews-50 against none"
+  ],
+  "scale": 100.0,
+  "reliability_col": null,
+  "reliability_min": 0.5,
+  "reason_col": null
+ }
+}

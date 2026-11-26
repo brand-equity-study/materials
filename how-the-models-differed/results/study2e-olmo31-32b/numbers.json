@@ -1,0 +1,145 @@
+{
+ "study": "study2e-olmo31-32b",
+ "label": "Study 2e, the share of a model's explanations that mention a brand (judge: OLMo 3.1 32B)",
+ "units": "per cent of the model's explanations",
+ "direction": 0,
+ "input": {
+  "file": "study2a-experience-attributes-stated-for-every-product/results/explanations/per-model.csv",
+  "sha256": "7d0e4b36a40d644614315ac7b848077c9614d6c5255a319523605eae76d3461b",
+  "model_col": "model",
+  "est_col": "estimate",
+  "se": "(hi95 - lo95) / 3.92",
+  "filter": [
+   "judge=olmo31-32b",
+   "test=b7-brand-share"
+  ],
+  "scale": 100.0
+ },
+ "plan": "how-the-models-differed/materials/analysis_plan.md",
+ "result": {
+  "models": 35,
+  "predicted_direction": "none (two-sided)",
+  "share_in_predicted_direction": null,
+  "models_in_predicted_direction": null,
+  "models_above_zero": 34,
+  "models_below_zero": 0,
+  "share_interval_excludes_zero": 0.9143,
+  "models_interval_excludes_zero": 32,
+  "random_effects": {
+   "estimate": 17.7838,
+   "ci95": [
+    12.9566,
+    22.6111
+   ],
+   "p_two_sided": 5.168386408208176e-13,
+   "tau": 13.8953,
+   "tau2": 193.0785,
+   "i2": 0.9903,
+   "q": 722.241,
+   "df": 34,
+   "q_p_value": 6.148952478031019e-130,
+   "prediction_interval_95": [
+    -10.9269,
+    46.4946
+   ],
+   "tau_estimator": "REML",
+   "checks": {
+    "tau_dersimonian_laird": 6.1755,
+    "tau_paule_mandel": 14.1236
+   }
+  },
+  "models_without_characteristics": [],
+  "moderators": {
+   "chat-tuned against base": {
+    "estimable": false,
+    "reason": "one value"
+   },
+   "size (log10 total parameters)": {
+    "estimable": true,
+    "models": 26,
+    "coefficient": 11.0638,
+    "ci95": [
+     3.3643,
+     18.7633
+    ],
+    "p_two_sided": 0.004856352408911535,
+    "residual_tau": 8.3126,
+    "holm": 0.01942540963564614
+   },
+   "release date (years)": {
+    "estimable": true,
+    "models": 35,
+    "coefficient": -0.1623,
+    "ci95": [
+     -7.2464,
+     6.9218
+    ],
+    "p_two_sided": 0.9641877121325475,
+    "residual_tau": 14.1421,
+    "holm": 1.0
+   },
+   "open against closed weights": {
+    "estimable": true,
+    "models": 35,
+    "coefficient": -3.1512,
+    "ci95": [
+     -14.469,
+     8.1667
+    ],
+    "p_two_sided": 0.5852642748376743,
+    "residual_tau": 14.0948,
+    "holm": 1.0
+   },
+   "reasoning on against off": {
+    "estimable": false,
+    "reason": "one value"
+   },
+   "developer": {
+    "estimable": true,
+    "models": 35,
+    "developers": 12,
+    "wald_chi2": 19.117,
+    "df": 11,
+    "p_two_sided": 0.059021431369501644,
+    "residual_tau": 12.2736,
+    "models_by_developer": {
+     "Alibaba": 9,
+     "Allen AI": 2,
+     "Anthropic": 5,
+     "Baidu": 1,
+     "Google": 4,
+     "IBM": 2,
+     "Marin": 1,
+     "Meta": 2,
+     "Microsoft": 1,
+     "Mistral": 1,
+     "OpenAI": 6,
+     "Zhipu": 1
+    },
+    "holm": 0.17706429410850494
+   }
+  },
+  "models_left_out_interval_of_zero_width": [],
+  "models_left_out_not_estimable": []
+ },
+ "args": {
+  "study": "study2e-olmo31-32b",
+  "label": "Study 2e, the share of a model's explanations that mention a brand (judge: OLMo 3.1 32B)",
+  "input": "study2a-experience-attributes-stated-for-every-product/results/explanations/per-model.csv",
+  "model_col": "model",
+  "est_col": "estimate",
+  "se_col": null,
+  "low_col": "lo95",
+  "high_col": "hi95",
+  "direction": 0,
+  "units": "per cent of the model's explanations",
+  "filter": [
+   "judge=olmo31-32b",
+   "test=b7-brand-share"
+  ],
+  "scale": 100.0,
+  "reliability_col": null,
+  "reliability_min": 0.5,
+  "reason_col": "not_estimable"
+ }
+}

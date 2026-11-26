@@ -1,0 +1,7386 @@
+{
+ "about": "The numbers of Study 1. Each key names the script in common/ that wrote it and the data it read.",
+ "names_gap": {
+  "shown": {
+   "non_optimal": 5110,
+   "trials": 20413,
+   "pct": 25.03
+  },
+  "hidden": {
+   "non_optimal": 3078,
+   "trials": 20400,
+   "pct": 15.09
+  },
+  "gap_pp": 9.94,
+  "models": 30,
+  "tables": 34,
+  "cells": 1020,
+  "cells_missing_a_condition": 0,
+  "unparsed_answers": {
+   "shown": 45,
+   "hidden": 24,
+   "note": "an answer whose first line held no product letter is counted as not the best product"
+  },
+  "without_unparsed": {
+   "shown_pct": 24.87,
+   "hidden_pct": 14.99,
+   "gap_pp": 9.88
+  },
+  "script": "study1b-64-models-on-34-tables/code/01_names_gap.py",
+  "input": {
+   "files": 60,
+   "rows_used": 40813
+  }
+ },
+ "names_gap_by_model": {
+  "pooled": {
+   "gap_pp": 9.94,
+   "ci95_pp": [
+    5.66,
+    15.08
+   ],
+   "p_two_sided": 0.0,
+   "draws": 10000,
+   "seed": 20261120,
+   "method": "two-way cluster bootstrap: models and tables resampled with replacement and crossed; trial-weighted"
+  },
+  "models_weighted_equally": {
+   "gap_pp": 9.94,
+   "ci95_pp": [
+    5.51,
+    15.07
+   ],
+   "p_two_sided": 0.0,
+   "draws": 10000,
+   "seed": 20261121,
+   "method": "mean of per-model gaps, same two-way resampling"
+  },
+  "per_model_summary": {
+   "n": 30,
+   "positive": 29,
+   "median_pp": 7.34,
+   "min_pp": -10.44,
+   "max_pp": 38.44,
+   "interval_above_zero": 23,
+   "interval_below_zero": 0
+  },
+  "per_table_summary": {
+   "n": 34,
+   "positive": 32,
+   "median_pp": 8.75,
+   "min_pp": -0.17,
+   "max_pp": 29.0,
+   "interval_above_zero": 22
+  },
+  "per_model": [
+   {
+    "model_key": "claude-opus-4.7",
+    "model_id": [
+     "claude-opus-4-7"
+    ],
+    "provider": "anthropic",
+    "thinking": [
+     "False"
+    ],
+    "answers_from": "2026-04-22",
+    "answers_to": "2026-04-22",
+    "shown": {
+     "non_optimal": 403,
+     "trials": 681,
+     "pct": 59.18
+    },
+    "hidden": {
+     "non_optimal": 141,
+     "trials": 680,
+     "pct": 20.74
+    },
+    "gap_pp": 38.44,
+    "ci95_pp_tables_resampled": [
+     27.34,
+     49.9
+    ],
+    "p_two_sided": 0.0
+   },
+   {
+    "model_key": "claude-sonnet-4.6-thinking",
+    "model_id": [
+     "claude-sonnet-4-6"
+    ],
+    "provider": "anthropic",
+    "thinking": [
+     "True"
+    ],
+    "answers_from": "2026-04-22",
+    "answers_to": "2026-04-22",
+    "shown": {
+     "non_optimal": 267,
+     "trials": 681,
+     "pct": 39.21
+    },
+    "hidden": {
+     "non_optimal": 61,
+     "trials": 680,
+     "pct": 8.97
+    },
+    "gap_pp": 30.24,
+    "ci95_pp_tables_resampled": [
+     21.32,
+     39.56
+    ],
+    "p_two_sided": 0.0
+   },
+   {
+    "model_key": "gpt-5.4-nano",
+    "model_id": [
+     "gpt-5.4-nano-2026-03-17"
+    ],
+    "provider": "openai",
+    "thinking": [
+     "False"
+    ],
+    "answers_from": "2026-04-22",
+    "answers_to": "2026-04-23",
+    "shown": {
+     "non_optimal": 364,
+     "trials": 681,
+     "pct": 53.45
+    },
+    "hidden": {
+     "non_optimal": 175,
+     "trials": 680,
+     "pct": 25.74
+    },
+    "gap_pp": 27.72,
+    "ci95_pp_tables_resampled": [
+     20.0,
+     35.84
+    ],
+    "p_two_sided": 0.0
+   },
+   {
+    "model_key": "gpt-5.4",
+    "model_id": [
+     "gpt-5.4-2026-03-05"
+    ],
+    "provider": "openai",
+    "thinking": [
+     "False"
+    ],
+    "answers_from": "2026-04-22",
+    "answers_to": "2026-04-23",
+    "shown": {
+     "non_optimal": 333,
+     "trials": 681,
+     "pct": 48.9
+    },
+    "hidden": {
+     "non_optimal": 152,
+     "trials": 680,
+     "pct": 22.35
+    },
+    "gap_pp": 26.55,
+    "ci95_pp_tables_resampled": [
+     17.26,
+     36.47
+    ],
+    "p_two_sided": 0.0
+   },
+   {
+    "model_key": "claude-sonnet-4.6",
+    "model_id": [
+     "claude-sonnet-4-6"
+    ],
+    "provider": "anthropic",
+    "thinking": [
+     "False"
+    ],
+    "answers_from": "2026-02-24",
+    "answers_to": "2026-02-25",
+    "shown": {
+     "non_optimal": 240,
+     "trials": 680,
+     "pct": 35.29
+    },
+    "hidden": {
+     "non_optimal": 70,
+     "trials": 680,
+     "pct": 10.29
+    },
+    "gap_pp": 25.0,
+    "ci95_pp_tables_resampled": [
+     18.09,
+     32.06
+    ],
+    "p_two_sided": 0.0
+   },
+   {
+    "model_key": "deepseek-v3",
+    "model_id": [
+     "deepseek/deepseek-chat-v3-0324"
+    ],
+    "provider": "openrouter",
+    "thinking": [
+     "False"
+    ],
+    "answers_from": "2026-02-22",
+    "answers_to": "2026-02-27",
+    "shown": {
+     "non_optimal": 278,
+     "trials": 680,
+     "pct": 40.88
+    },
+    "hidden": {
+     "non_optimal": 148,
+     "trials": 680,
+     "pct": 21.76
+    },
+    "gap_pp": 19.12,
+    "ci95_pp_tables_resampled": [
+     13.97,
+     24.26
+    ],
+    "p_two_sided": 0.0
+   },
+   {
+    "model_key": "gpt-5.4-mini",
+    "model_id": [
+     "gpt-5.4-mini-2026-03-17"
+    ],
+    "provider": "openai",
+    "thinking": [
+     "False"
+    ],
+    "answers_from": "2026-04-22",
+    "answers_to": "2026-04-23",
+    "shown": {
+     "non_optimal": 163,
+     "trials": 681,
+     "pct": 23.94
+    },
+    "hidden": {
+     "non_optimal": 77,
+     "trials": 680,
+     "pct": 11.32
+    },
+    "gap_pp": 12.61,
+    "ci95_pp_tables_resampled": [
+     7.21,
+     18.53
+    ],
+    "p_two_sided": 0.0
+   },
+   {
+    "model_key": "gemini-3.1-flash-lite",
+    "model_id": [
+     "gemini-3.1-flash-lite-preview"
+    ],
+    "provider": "google",
+    "thinking": [
+     "False"
+    ],
+    "answers_from": "2026-04-22",
+    "answers_to": "2026-04-23",
+    "shown": {
+     "non_optimal": 140,
+     "trials": 681,
+     "pct": 20.56
+    },
+    "hidden": {
+     "non_optimal": 62,
+     "trials": 680,
+     "pct": 9.12
+    },
+    "gap_pp": 11.44,
+    "ci95_pp_tables_resampled": [
+     4.85,
+     19.12
+    ],
+    "p_two_sided": 0.0
+   },
+   {
+    "model_key": "claude-opus-4.6",
+    "model_id": [
+     "claude-opus-4-6"
+    ],
+    "provider": "anthropic",
+    "thinking": [
+     "False"
+    ],
+    "answers_from": "2026-04-22",
+    "answers_to": "2026-04-22",
+    "shown": {
+     "non_optimal": 118,
+     "trials": 681,
+     "pct": 17.33
+    },
+    "hidden": {
+     "non_optimal": 44,
+     "trials": 680,
+     "pct": 6.47
+    },
+    "gap_pp": 10.86,
+    "ci95_pp_tables_resampled": [
+     5.74,
+     16.77
+    ],
+    "p_two_sided": 0.0
+   },
+   {
+    "model_key": "llama-3.3-70b",
+    "model_id": [
+     "meta-llama/llama-3.3-70b-instruct"
+    ],
+    "provider": "openrouter",
+    "thinking": [
+     "False"
+    ],
+    "answers_from": "2026-02-22",
+    "answers_to": "2026-02-27",
+    "shown": {
+     "non_optimal": 235,
+     "trials": 680,
+     "pct": 34.56
+    },
+    "hidden": {
+     "non_optimal": 164,
+     "trials": 680,
+     "pct": 24.12
+    },
+    "gap_pp": 10.44,
+    "ci95_pp_tables_resampled": [
+     5.74,
+     15.44
+    ],
+    "p_two_sided": 0.0
+   },
+   {
+    "model_key": "gemma-4-31b-it",
+    "model_id": [
+     "gemma-4-31b-it"
+    ],
+    "provider": "google",
+    "thinking": [
+     "False"
+    ],
+    "answers_from": "2026-04-22",
+    "answers_to": "2026-04-23",
+    "shown": {
+     "non_optimal": 154,
+     "trials": 681,
+     "pct": 22.61
+    },
+    "hidden": {
+     "non_optimal": 84,
+     "trials": 680,
+     "pct": 12.35
+    },
+    "gap_pp": 10.26,
+    "ci95_pp_tables_resampled": [
+     2.94,
+     19.03
+    ],
+    "p_two_sided": 0.0016
+   },
+   {
+    "model_key": "gemini-2.0-flash",
+    "model_id": [
+     "gemini-2.0-flash"
+    ],
+    "provider": "google",
+    "thinking": [
+     "False"
+    ],
+    "answers_from": "2026-02-22",
+    "answers_to": "2026-02-22",
+    "shown": {
+     "non_optimal": 137,
+     "trials": 680,
+     "pct": 20.15
+    },
+    "hidden": {
+     "non_optimal": 74,
+     "trials": 680,
+     "pct": 10.88
+    },
+    "gap_pp": 9.26,
+    "ci95_pp_tables_resampled": [
+     4.71,
+     14.71
+    ],
+    "p_two_sided": 0.0
+   },
+   {
+    "model_key": "claude-haiku-4.5",
+    "model_id": [
+     "claude-haiku-4-5-20251001"
+    ],
+    "provider": "anthropic",
+    "thinking": [
+     "False"
+    ],
+    "answers_from": "2026-02-22",
+    "answers_to": "2026-04-22",
+    "shown": {
+     "non_optimal": 126,
+     "trials": 681,
+     "pct": 18.5
+    },
+    "hidden": {
+     "non_optimal": 63,
+     "trials": 680,
+     "pct": 9.26
+    },
+    "gap_pp": 9.24,
+    "ci95_pp_tables_resampled": [
+     4.98,
+     13.68
+    ],
+    "p_two_sided": 0.0
+   },
+   {
+    "model_key": "deepseek-r1",
+    "model_id": [
+     "deepseek/deepseek-r1"
+    ],
+    "provider": "openrouter",
+    "thinking": [
+     "False",
+     "True"
+    ],
+    "answers_from": "2026-02-22",
+    "answers_to": "2026-02-27",
+    "shown": {
+     "non_optimal": 148,
+     "trials": 680,
+     "pct": 21.76
+    },
+    "hidden": {
+     "non_optimal": 91,
+     "trials": 680,
+     "pct": 13.38
+    },
+    "gap_pp": 8.38,
+    "ci95_pp_tables_resampled": [
+     4.41,
+     12.65
+    ],
+    "p_two_sided": 0.0
+   },
+   {
+    "model_key": "claude-haiku-4.5-thinking",
+    "model_id": [
+     "claude-haiku-4-5-20251001"
+    ],
+    "provider": "anthropic",
+    "thinking": [
+     "True"
+    ],
+    "answers_from": "2026-04-22",
+    "answers_to": "2026-04-23",
+    "shown": {
+     "non_optimal": 102,
+     "trials": 681,
+     "pct": 14.98
+    },
+    "hidden": {
+     "non_optimal": 50,
+     "trials": 680,
+     "pct": 7.35
+    },
+    "gap_pp": 7.63,
+    "ci95_pp_tables_resampled": [
+     3.68,
+     12.21
+    ],
+    "p_two_sided": 0.0
+   },
+   {
+    "model_key": "kimi-k2",
+    "model_id": [
+     "moonshotai/kimi-k2"
+    ],
+    "provider": "openrouter",
+    "thinking": [
+     "False"
+    ],
+    "answers_from": "2026-02-22",
+    "answers_to": "2026-02-25",
+    "shown": {
+     "non_optimal": 172,
+     "trials": 680,
+     "pct": 25.29
+    },
+    "hidden": {
+     "non_optimal": 124,
+     "trials": 680,
+     "pct": 18.24
+    },
+    "gap_pp": 7.06,
+    "ci95_pp_tables_resampled": [
+     2.94,
+     11.32
+    ],
+    "p_two_sided": 0.0008
+   },
+   {
+    "model_key": "gemini-3.1-pro",
+    "model_id": [
+     "gemini-3.1-pro-preview"
+    ],
+    "provider": "google",
+    "thinking": [
+     "True"
+    ],
+    "answers_from": "2026-04-22",
+    "answers_to": "2026-04-23",
+    "shown": {
+     "non_optimal": 235,
+     "trials": 681,
+     "pct": 34.51
+    },
+    "hidden": {
+     "non_optimal": 190,
+     "trials": 680,
+     "pct": 27.94
+    },
+    "gap_pp": 6.57,
+    "ci95_pp_tables_resampled": [
+     2.5,
+     11.26
+    ],
+    "p_two_sided": 0.0002
+   },
+   {
+    "model_key": "gpt-5-mini",
+    "model_id": [
+     "gpt-5-mini"
+    ],
+    "provider": "openai",
+    "thinking": [
+     "False"
+    ],
+    "answers_from": "2026-02-22",
+    "answers_to": "2026-02-27",
+    "shown": {
+     "non_optimal": 137,
+     "trials": 680,
+     "pct": 20.15
+    },
+    "hidden": {
+     "non_optimal": 94,
+     "trials": 680,
+     "pct": 13.82
+    },
+    "gap_pp": 6.32,
+    "ci95_pp_tables_resampled": [
+     3.09,
+     10.29
+    ],
+    "p_two_sided": 0.0
+   },
+   {
+    "model_key": "gpt-4o-mini",
+    "model_id": [
+     "gpt-4o-mini"
+    ],
+    "provider": "openai",
+    "thinking": [
+     "False"
+    ],
+    "answers_from": "2026-02-22",
+    "answers_to": "2026-02-27",
+    "shown": {
+     "non_optimal": 95,
+     "trials": 680,
+     "pct": 13.97
+    },
+    "hidden": {
+     "non_optimal": 58,
+     "trials": 680,
+     "pct": 8.53
+    },
+    "gap_pp": 5.44,
+    "ci95_pp_tables_resampled": [
+     1.32,
+     9.85
+    ],
+    "p_two_sided": 0.0092
+   },
+   {
+    "model_key": "gemini-3-flash-thinking",
+    "model_id": [
+     "gemini-3-flash-preview"
+    ],
+    "provider": "google",
+    "thinking": [
+     "True"
+    ],
+    "answers_from": "2026-04-22",
+    "answers_to": "2026-04-23",
+    "shown": {
+     "non_optimal": 96,
+     "trials": 681,
+     "pct": 14.1
+    },
+    "hidden": {
+     "non_optimal": 59,
+     "trials": 680,
+     "pct": 8.68
+    },
+    "gap_pp": 5.42,
+    "ci95_pp_tables_resampled": [
+     1.27,
+     10.97
+    ],
+    "p_two_sided": 0.0062
+   },
+   {
+    "model_key": "gpt-5.4-mini-thinking",
+    "model_id": [
+     "gpt-5.4-mini-2026-03-17"
+    ],
+    "provider": "openai",
+    "thinking": [
+     "True"
+    ],
+    "answers_from": "2026-04-22",
+    "answers_to": "2026-04-23",
+    "shown": {
+     "non_optimal": 135,
+     "trials": 681,
+     "pct": 19.82
+    },
+    "hidden": {
+     "non_optimal": 102,
+     "trials": 680,
+     "pct": 15.0
+    },
+    "gap_pp": 4.82,
+    "ci95_pp_tables_resampled": [
+     1.73,
+     8.68
+    ],
+    "p_two_sided": 0.0002
+   },
+   {
+    "model_key": "gemini-3-flash",
+    "model_id": [
+     "gemini-3-flash-preview",
+     "google/gemini-3-flash-preview"
+    ],
+    "provider": "openrouter",
+    "thinking": [
+     "False"
+    ],
+    "answers_from": "2026-02-23",
+    "answers_to": "2026-02-25",
+    "shown": {
+     "non_optimal": 92,
+     "trials": 680,
+     "pct": 13.53
+    },
+    "hidden": {
+     "non_optimal": 65,
+     "trials": 680,
+     "pct": 9.56
+    },
+    "gap_pp": 3.97,
+    "ci95_pp_tables_resampled": [
+     0.44,
+     8.38
+    ],
+    "p_two_sided": 0.0256
+   },
+   {
+    "model_key": "gemini-2.5-flash-lite",
+    "model_id": [
+     "gemini-2.5-flash-lite"
+    ],
+    "provider": "google",
+    "thinking": [
+     "False"
+    ],
+    "answers_from": "2026-02-23",
+    "answers_to": "2026-02-24",
+    "shown": {
+     "non_optimal": 79,
+     "trials": 680,
+     "pct": 11.62
+    },
+    "hidden": {
+     "non_optimal": 59,
+     "trials": 680,
+     "pct": 8.68
+    },
+    "gap_pp": 2.94,
+    "ci95_pp_tables_resampled": [
+     0.29,
+     6.03
+    ],
+    "p_two_sided": 0.0322
+   },
+   {
+    "model_key": "qwen-2.5-72b",
+    "model_id": [
+     "qwen/qwen-2.5-72b-instruct"
+    ],
+    "provider": "openrouter",
+    "thinking": [
+     "False"
+    ],
+    "answers_from": "2026-02-22",
+    "answers_to": "2026-02-24",
+    "shown": {
+     "non_optimal": 238,
+     "trials": 680,
+     "pct": 35.0
+    },
+    "hidden": {
+     "non_optimal": 221,
+     "trials": 680,
+     "pct": 32.5
+    },
+    "gap_pp": 2.5,
+    "ci95_pp_tables_resampled": [
+     -3.82,
+     9.12
+    ],
+    "p_two_sided": 0.4778
+   },
+   {
+    "model_key": "gpt-4o",
+    "model_id": [
+     "gpt-4o"
+    ],
+    "provider": "openai",
+    "thinking": [
+     "False"
+    ],
+    "answers_from": "2026-02-22",
+    "answers_to": "2026-02-23",
+    "shown": {
+     "non_optimal": 85,
+     "trials": 680,
+     "pct": 12.5
+    },
+    "hidden": {
+     "non_optimal": 69,
+     "trials": 680,
+     "pct": 10.15
+    },
+    "gap_pp": 2.35,
+    "ci95_pp_tables_resampled": [
+     -1.18,
+     5.59
+    ],
+    "p_two_sided": 0.1916
+   },
+   {
+    "model_key": "gpt-4.1-nano",
+    "model_id": [
+     "gpt-4.1-nano"
+    ],
+    "provider": "openai",
+    "thinking": [
+     "False"
+    ],
+    "answers_from": "2026-02-22",
+    "answers_to": "2026-02-22",
+    "shown": {
+     "non_optimal": 88,
+     "trials": 680,
+     "pct": 12.94
+    },
+    "hidden": {
+     "non_optimal": 76,
+     "trials": 680,
+     "pct": 11.18
+    },
+    "gap_pp": 1.76,
+    "ci95_pp_tables_resampled": [
+     -1.47,
+     5.29
+    ],
+    "p_two_sided": 0.3198
+   },
+   {
+    "model_key": "gemini-2.5-flash",
+    "model_id": [
+     "gemini-2.5-flash",
+     "google/gemini-2.5-flash"
+    ],
+    "provider": "openrouter",
+    "thinking": [
+     "False"
+    ],
+    "answers_from": "2026-02-22",
+    "answers_to": "2026-02-27",
+    "shown": {
+     "non_optimal": 99,
+     "trials": 680,
+     "pct": 14.56
+    },
+    "hidden": {
+     "non_optimal": 92,
+     "trials": 680,
+     "pct": 13.53
+    },
+    "gap_pp": 1.03,
+    "ci95_pp_tables_resampled": [
+     -2.21,
+     3.82
+    ],
+    "p_two_sided": 0.502
+   },
+   {
+    "model_key": "gemma-3-27b",
+    "model_id": [
+     "gemma-3-27b-it",
+     "google/gemma-3-27b-it"
+    ],
+    "provider": "openrouter",
+    "thinking": [
+     "False"
+    ],
+    "answers_from": "2026-02-22",
+    "answers_to": "2026-02-27",
+    "shown": {
+     "non_optimal": 103,
+     "trials": 680,
+     "pct": 15.15
+    },
+    "hidden": {
+     "non_optimal": 98,
+     "trials": 680,
+     "pct": 14.41
+    },
+    "gap_pp": 0.74,
+    "ci95_pp_tables_resampled": [
+     -3.09,
+     4.26
+    ],
+    "p_two_sided": 0.6878
+   },
+   {
+    "model_key": "gpt-4.1-mini",
+    "model_id": [
+     "gpt-4.1-mini"
+    ],
+    "provider": "openai",
+    "thinking": [
+     "False"
+    ],
+    "answers_from": "2026-02-22",
+    "answers_to": "2026-02-27",
+    "shown": {
+     "non_optimal": 59,
+     "trials": 680,
+     "pct": 8.68
+    },
+    "hidden": {
+     "non_optimal": 55,
+     "trials": 680,
+     "pct": 8.09
+    },
+    "gap_pp": 0.59,
+    "ci95_pp_tables_resampled": [
+     -1.62,
+     3.38
+    ],
+    "p_two_sided": 0.7426
+   },
+   {
+    "model_key": "gemini-2.5-pro",
+    "model_id": [
+     "gemini-2.5-pro",
+     "google/gemini-2.5-pro"
+    ],
+    "provider": "google",
+    "thinking": [
+     "False"
+    ],
+    "answers_from": "2026-02-23",
+    "answers_to": "2026-02-27",
+    "shown": {
+     "non_optimal": 189,
+     "trials": 680,
+     "pct": 27.79
+    },
+    "hidden": {
+     "non_optimal": 260,
+     "trials": 680,
+     "pct": 38.24
+    },
+    "gap_pp": -10.44,
+    "ci95_pp_tables_resampled": [
+     -21.76,
+     0.59
+    ],
+    "p_two_sided": 0.0632
+   }
+  ],
+  "per_table": [
+   {
+    "table": "sr_tvs_03",
+    "category": "tvs",
+    "shown_pct": 35.67,
+    "hidden_pct": 6.67,
+    "gap_pp": 29.0,
+    "ci95_pp_models_resampled": [
+     19.83,
+     39.33
+    ],
+    "p_two_sided": 0.0
+   },
+   {
+    "table": "sr_portable_speakers_01",
+    "category": "portable_speakers",
+    "shown_pct": 34.83,
+    "hidden_pct": 7.67,
+    "gap_pp": 27.17,
+    "ci95_pp_models_resampled": [
+     17.67,
+     37.17
+    ],
+    "p_two_sided": 0.0
+   },
+   {
+    "table": "sr_coffee_makers_03",
+    "category": "coffee_makers",
+    "shown_pct": 78.0,
+    "hidden_pct": 55.0,
+    "gap_pp": 23.0,
+    "ci95_pp_models_resampled": [
+     14.83,
+     31.0
+    ],
+    "p_two_sided": 0.0
+   },
+   {
+    "table": "sr_headphones_01",
+    "category": "headphones",
+    "shown_pct": 29.67,
+    "hidden_pct": 8.17,
+    "gap_pp": 21.5,
+    "ci95_pp_models_resampled": [
+     13.17,
+     30.33
+    ],
+    "p_two_sided": 0.0
+   },
+   {
+    "table": "sr_tablets_01",
+    "category": "tablets",
+    "shown_pct": 42.83,
+    "hidden_pct": 21.83,
+    "gap_pp": 21.0,
+    "ci95_pp_models_resampled": [
+     12.17,
+     30.17
+    ],
+    "p_two_sided": 0.0
+   },
+   {
+    "table": "sr_laptops_01",
+    "category": "laptops",
+    "shown_pct": 52.33,
+    "hidden_pct": 31.83,
+    "gap_pp": 20.5,
+    "ci95_pp_models_resampled": [
+     11.5,
+     30.33
+    ],
+    "p_two_sided": 0.0
+   },
+   {
+    "table": "sr_headphones_02",
+    "category": "headphones",
+    "shown_pct": 67.33,
+    "hidden_pct": 47.17,
+    "gap_pp": 20.17,
+    "ci95_pp_models_resampled": [
+     12.67,
+     28.17
+    ],
+    "p_two_sided": 0.0
+   },
+   {
+    "table": "sr_earbuds_03",
+    "category": "wireless_earbuds",
+    "shown_pct": 45.33,
+    "hidden_pct": 25.83,
+    "gap_pp": 19.5,
+    "ci95_pp_models_resampled": [
+     11.17,
+     28.33
+    ],
+    "p_two_sided": 0.0
+   },
+   {
+    "table": "sr_smartphones_03",
+    "category": "smartphones",
+    "shown_pct": 25.67,
+    "hidden_pct": 7.33,
+    "gap_pp": 18.33,
+    "ci95_pp_models_resampled": [
+     11.17,
+     26.33
+    ],
+    "p_two_sided": 0.0
+   },
+   {
+    "table": "sr_running_shoes_02",
+    "category": "running_shoes",
+    "shown_pct": 25.17,
+    "hidden_pct": 11.17,
+    "gap_pp": 14.0,
+    "ci95_pp_models_resampled": [
+     7.0,
+     22.33
+    ],
+    "p_two_sided": 0.0
+   },
+   {
+    "table": "sr_blenders_01",
+    "category": "blenders",
+    "shown_pct": 23.33,
+    "hidden_pct": 9.5,
+    "gap_pp": 13.83,
+    "ci95_pp_models_resampled": [
+     6.83,
+     22.0
+    ],
+    "p_two_sided": 0.0
+   },
+   {
+    "table": "sr_running_shoes_01",
+    "category": "running_shoes",
+    "shown_pct": 23.5,
+    "hidden_pct": 9.83,
+    "gap_pp": 13.67,
+    "ci95_pp_models_resampled": [
+     6.67,
+     21.5
+    ],
+    "p_two_sided": 0.0
+   },
+   {
+    "table": "sr_headphones_03",
+    "category": "headphones",
+    "shown_pct": 69.83,
+    "hidden_pct": 56.83,
+    "gap_pp": 13.0,
+    "ci95_pp_models_resampled": [
+     7.0,
+     19.5
+    ],
+    "p_two_sided": 0.0
+   },
+   {
+    "table": "sr_smartphones_01",
+    "category": "smartphones",
+    "shown_pct": 30.83,
+    "hidden_pct": 21.0,
+    "gap_pp": 9.83,
+    "ci95_pp_models_resampled": [
+     3.0,
+     17.17
+    ],
+    "p_two_sided": 0.0038
+   },
+   {
+    "table": "sr_cameras_01",
+    "category": "cameras",
+    "shown_pct": 14.0,
+    "hidden_pct": 4.67,
+    "gap_pp": 9.33,
+    "ci95_pp_models_resampled": [
+     0.17,
+     18.83
+    ],
+    "p_two_sided": 0.0468
+   },
+   {
+    "table": "sr_smartwatches_01",
+    "category": "smartwatches",
+    "shown_pct": 13.67,
+    "hidden_pct": 4.5,
+    "gap_pp": 9.17,
+    "ci95_pp_models_resampled": [
+     4.17,
+     15.0
+    ],
+    "p_two_sided": 0.0
+   },
+   {
+    "table": "sr_tvs_02",
+    "category": "tvs",
+    "shown_pct": 16.83,
+    "hidden_pct": 8.0,
+    "gap_pp": 8.83,
+    "ci95_pp_models_resampled": [
+     3.83,
+     14.17
+    ],
+    "p_two_sided": 0.0
+   },
+   {
+    "table": "sr_electric_toothbrushes_01",
+    "category": "electric_toothbrushes",
+    "shown_pct": 13.33,
+    "hidden_pct": 4.67,
+    "gap_pp": 8.67,
+    "ci95_pp_models_resampled": [
+     -1.17,
+     18.5
+    ],
+    "p_two_sided": 0.086
+   },
+   {
+    "table": "sr_laptops_02",
+    "category": "laptops",
+    "shown_pct": 21.0,
+    "hidden_pct": 15.5,
+    "gap_pp": 5.5,
+    "ci95_pp_models_resampled": [
+     -0.67,
+     11.67
+    ],
+    "p_two_sided": 0.0846
+   },
+   {
+    "table": "sr_earbuds_02",
+    "category": "wireless_earbuds",
+    "shown_pct": 13.5,
+    "hidden_pct": 8.33,
+    "gap_pp": 5.17,
+    "ci95_pp_models_resampled": [
+     1.67,
+     10.0
+    ],
+    "p_two_sided": 0.0002
+   },
+   {
+    "table": "sr_smartphones_02",
+    "category": "smartphones",
+    "shown_pct": 6.33,
+    "hidden_pct": 2.0,
+    "gap_pp": 4.33,
+    "ci95_pp_models_resampled": [
+     1.0,
+     8.5
+    ],
+    "p_two_sided": 0.0064
+   },
+   {
+    "table": "sr_laptops_03",
+    "category": "laptops",
+    "shown_pct": 14.33,
+    "hidden_pct": 10.5,
+    "gap_pp": 3.83,
+    "ci95_pp_models_resampled": [
+     -1.83,
+     10.0
+    ],
+    "p_two_sided": 0.1982
+   },
+   {
+    "table": "sr_coffee_makers_02",
+    "category": "coffee_makers",
+    "shown_pct": 91.83,
+    "hidden_pct": 88.5,
+    "gap_pp": 3.33,
+    "ci95_pp_models_resampled": [
+     1.33,
+     5.67
+    ],
+    "p_two_sided": 0.001
+   },
+   {
+    "table": "sr_monitors_01",
+    "category": "monitors",
+    "shown_pct": 13.0,
+    "hidden_pct": 10.0,
+    "gap_pp": 3.0,
+    "ci95_pp_models_resampled": [
+     -3.33,
+     10.0
+    ],
+    "p_two_sided": 0.37
+   },
+   {
+    "table": "sr_coffee_makers_01",
+    "category": "coffee_makers",
+    "shown_pct": 6.85,
+    "hidden_pct": 4.17,
+    "gap_pp": 2.68,
+    "ci95_pp_models_resampled": [
+     0.07,
+     6.04
+    ],
+    "p_two_sided": 0.0444
+   },
+   {
+    "table": "sr_tvs_01",
+    "category": "tvs",
+    "shown_pct": 3.33,
+    "hidden_pct": 0.83,
+    "gap_pp": 2.5,
+    "ci95_pp_models_resampled": [
+     0.33,
+     5.17
+    ],
+    "p_two_sided": 0.0198
+   },
+   {
+    "table": "sr_robot_vacuums_01",
+    "category": "robot_vacuums",
+    "shown_pct": 13.67,
+    "hidden_pct": 11.67,
+    "gap_pp": 2.0,
+    "ci95_pp_models_resampled": [
+     -2.83,
+     6.67
+    ],
+    "p_two_sided": 0.438
+   },
+   {
+    "table": "sr_water_bottles_01",
+    "category": "water_bottles",
+    "shown_pct": 7.17,
+    "hidden_pct": 5.33,
+    "gap_pp": 1.83,
+    "ci95_pp_models_resampled": [
+     -3.83,
+     6.17
+    ],
+    "p_two_sided": 0.4728
+   },
+   {
+    "table": "sr_external_ssds_01",
+    "category": "external_ssds",
+    "shown_pct": 4.83,
+    "hidden_pct": 3.17,
+    "gap_pp": 1.67,
+    "ci95_pp_models_resampled": [
+     -5.17,
+     8.83
+    ],
+    "p_two_sided": 0.64
+   },
+   {
+    "table": "sr_backpacks_01",
+    "category": "backpacks",
+    "shown_pct": 6.67,
+    "hidden_pct": 5.33,
+    "gap_pp": 1.33,
+    "ci95_pp_models_resampled": [
+     -5.17,
+     6.33
+    ],
+    "p_two_sided": 0.6242
+   },
+   {
+    "table": "sr_earbuds_01",
+    "category": "wireless_earbuds",
+    "shown_pct": 0.67,
+    "hidden_pct": 0.0,
+    "gap_pp": 0.67,
+    "ci95_pp_models_resampled": [
+     0.0,
+     1.5
+    ],
+    "p_two_sided": 0.0904
+   },
+   {
+    "table": "sr_wireless_routers_01",
+    "category": "wireless_routers",
+    "shown_pct": 5.17,
+    "hidden_pct": 4.67,
+    "gap_pp": 0.5,
+    "ci95_pp_models_resampled": [
+     -4.17,
+     3.83
+    ],
+    "p_two_sided": 0.778
+   },
+   {
+    "table": "sr_keyboards_01",
+    "category": "keyboards",
+    "shown_pct": 1.0,
+    "hidden_pct": 1.17,
+    "gap_pp": -0.17,
+    "ci95_pp_models_resampled": [
+     -1.33,
+     1.0
+    ],
+    "p_two_sided": 0.885
+   },
+   {
+    "table": "sr_running_shoes_03",
+    "category": "running_shoes",
+    "shown_pct": 0.0,
+    "hidden_pct": 0.17,
+    "gap_pp": -0.17,
+    "ci95_pp_models_resampled": [
+     -0.5,
+     0.0
+    ],
+    "p_two_sided": 0.732
+   }
+  ],
+  "script": "study1b-64-models-on-34-tables/code/02_names_gap_by_model.py",
+  "input": {
+   "files": 60,
+   "rows_used": 40813
+  }
+ },
+ "strict_dominance": {
+  "rule_file": "study1b-64-models-on-34-tables/materials/attribute_rulings.csv",
+  "groups": {
+   "group_strict": {
+    "1 dominant": {
+     "tables": [
+      "sr_wireless_routers_01"
+     ],
+     "gap": {
+      "tables": 1,
+      "shown_pct": 5.17,
+      "hidden_pct": 4.67,
+      "gap_pp": 0.5,
+      "ci95_pp": [
+       -4.17,
+       3.83
+      ],
+      "p_two_sided": 0.778,
+      "draws": 10000,
+      "seed": 20261120
+     }
+    },
+    "2 best only under the stated weights": {
+     "tables": [
+      "sr_cameras_01",
+      "sr_coffee_makers_02",
+      "sr_coffee_makers_03",
+      "sr_earbuds_01",
+      "sr_earbuds_03",
+      "sr_electric_toothbrushes_01",
+      "sr_external_ssds_01",
+      "sr_headphones_01",
+      "sr_headphones_02",
+      "sr_headphones_03",
+      "sr_laptops_01",
+      "sr_laptops_02",
+      "sr_laptops_03",
+      "sr_monitors_01",
+      "sr_portable_speakers_01",
+      "sr_running_shoes_01",
+      "sr_running_shoes_02",
+      "sr_running_shoes_03",
+      "sr_smartphones_01",
+      "sr_smartphones_02",
+      "sr_tvs_02",
+      "sr_tvs_03",
+      "sr_water_bottles_01"
+     ],
+     "gap": {
+      "tables": 23,
+      "shown_pct": 30.25,
+      "hidden_pct": 18.86,
+      "gap_pp": 11.4,
+      "ci95_pp": [
+       6.08,
+       17.3
+      ],
+      "p_two_sided": 0.0,
+      "draws": 10000,
+      "seed": 20261120
+     }
+    },
+    "3 best product not the cheapest": {
+     "tables": [
+      "sr_backpacks_01",
+      "sr_blenders_01",
+      "sr_coffee_makers_01",
+      "sr_earbuds_02",
+      "sr_keyboards_01",
+      "sr_robot_vacuums_01",
+      "sr_smartphones_03",
+      "sr_smartwatches_01",
+      "sr_tablets_01",
+      "sr_tvs_01"
+     ],
+     "gap": {
+      "tables": 10,
+      "shown_pct": 15.03,
+      "hidden_pct": 7.47,
+      "gap_pp": 7.57,
+      "ci95_pp": [
+       2.53,
+       14.09
+      ],
+      "p_two_sided": 0.0006,
+      "draws": 10000,
+      "seed": 20261120
+     }
+    }
+   },
+   "group_ordered_only": {
+    "1 dominant": {
+     "tables": [
+      "sr_cameras_01",
+      "sr_earbuds_01",
+      "sr_headphones_01",
+      "sr_headphones_03",
+      "sr_laptops_01",
+      "sr_laptops_03",
+      "sr_monitors_01",
+      "sr_running_shoes_01",
+      "sr_running_shoes_02",
+      "sr_running_shoes_03",
+      "sr_smartphones_02",
+      "sr_tvs_02",
+      "sr_tvs_03",
+      "sr_wireless_routers_01"
+     ],
+     "gap": {
+      "tables": 14,
+      "shown_pct": 21.89,
+      "hidden_pct": 11.75,
+      "gap_pp": 10.14,
+      "ci95_pp": [
+       4.39,
+       17.11
+      ],
+      "p_two_sided": 0.0002,
+      "draws": 10000,
+      "seed": 20261120
+     }
+    },
+    "2 best only under the stated weights": {
+     "tables": [
+      "sr_coffee_makers_02",
+      "sr_coffee_makers_03",
+      "sr_earbuds_03",
+      "sr_electric_toothbrushes_01",
+      "sr_external_ssds_01",
+      "sr_headphones_02",
+      "sr_laptops_02",
+      "sr_portable_speakers_01",
+      "sr_smartphones_01",
+      "sr_water_bottles_01"
+     ],
+     "gap": {
+      "tables": 10,
+      "shown_pct": 39.45,
+      "hidden_pct": 27.38,
+      "gap_pp": 12.07,
+      "ci95_pp": [
+       5.03,
+       19.65
+      ],
+      "p_two_sided": 0.0006,
+      "draws": 10000,
+      "seed": 20261120
+     }
+    },
+    "3 best product not the cheapest": {
+     "tables": [
+      "sr_backpacks_01",
+      "sr_blenders_01",
+      "sr_coffee_makers_01",
+      "sr_earbuds_02",
+      "sr_keyboards_01",
+      "sr_robot_vacuums_01",
+      "sr_smartphones_03",
+      "sr_smartwatches_01",
+      "sr_tablets_01",
+      "sr_tvs_01"
+     ],
+     "gap": {
+      "tables": 10,
+      "shown_pct": 15.03,
+      "hidden_pct": 7.47,
+      "gap_pp": 7.57,
+      "ci95_pp": [
+       2.53,
+       14.09
+      ],
+      "p_two_sided": 0.0006,
+      "draws": 10000,
+      "seed": 20261120
+     }
+    }
+   }
+  },
+  "tables": [
+   {
+    "table": "sr_backpacks_01",
+    "best": "A",
+    "best_name": "Trailpeak Civic Half Zip 26L",
+    "best_price": 54.99,
+    "cheapest_other_price": 49.99,
+    "best_is_cheapest_or_tied": false,
+    "group_strict": "3 best product not the cheapest",
+    "group_ordered_only": "3 best product not the cheapest",
+    "attributes_where_best_loses": [
+     "weight: 1.1kg against 0.57kg (product B)",
+     "weight: 1.1kg against 0.54kg (product C)",
+     "weight: 1.1kg against 0.36kg (product E)"
+    ],
+    "attributes_with_an_order": [
+     "laptop",
+     "price",
+     "review count",
+     "stars",
+     "sustainability",
+     "weight"
+    ],
+    "attributes_where_best_is_better_than_some_product": [
+     "laptop",
+     "price",
+     "sustainability",
+     "weight"
+    ],
+    "attributes_without_an_order_that_differ": [
+     "capacity",
+     "material"
+    ],
+    "attributes_not_stated_by_another_product": []
+   },
+   {
+    "table": "sr_blenders_01",
+    "best": "D",
+    "best_name": "Blendwell Commercial",
+    "best_price": 109.99,
+    "cheapest_other_price": 34.99,
+    "best_is_cheapest_or_tied": false,
+    "group_strict": "3 best product not the cheapest",
+    "group_ordered_only": "3 best product not the cheapest",
+    "attributes_where_best_loses": [],
+    "attributes_with_an_order": [
+     "bpa_free",
+     "power",
+     "price",
+     "review count",
+     "stars",
+     "sustainability"
+    ],
+    "attributes_where_best_is_better_than_some_product": [
+     "power",
+     "price",
+     "sustainability"
+    ],
+    "attributes_without_an_order_that_differ": [
+     "blade",
+     "capacity",
+     "speeds"
+    ],
+    "attributes_not_stated_by_another_product": [
+     "bpa_free"
+    ]
+   },
+   {
+    "table": "sr_cameras_01",
+    "best": "A",
+    "best_name": "Optivex OM-5",
+    "best_price": 749.0,
+    "cheapest_other_price": 799.0,
+    "best_is_cheapest_or_tied": true,
+    "group_strict": "2 best only under the stated weights",
+    "group_ordered_only": "1 dominant",
+    "attributes_where_best_loses": [],
+    "attributes_with_an_order": [
+     "ibis",
+     "price",
+     "review count",
+     "sensor",
+     "stars",
+     "sustainability",
+     "video",
+     "weight"
+    ],
+    "attributes_where_best_is_better_than_some_product": [
+     "ibis",
+     "price",
+     "sensor",
+     "sustainability",
+     "video",
+     "weight"
+    ],
+    "attributes_without_an_order_that_differ": [
+     "af",
+     "sensor"
+    ],
+    "attributes_not_stated_by_another_product": []
+   },
+   {
+    "table": "sr_coffee_makers_01",
+    "best": "C",
+    "best_name": "Brevara Brewer 2.0",
+    "best_price": 69.99,
+    "cheapest_other_price": 34.99,
+    "best_is_cheapest_or_tied": false,
+    "group_strict": "3 best product not the cheapest",
+    "group_ordered_only": "3 best product not the cheapest",
+    "attributes_where_best_loses": [],
+    "attributes_with_an_order": [
+     "carafe",
+     "pre_infusion",
+     "price",
+     "review count",
+     "sca_certified",
+     "stars",
+     "sustainability"
+    ],
+    "attributes_where_best_is_better_than_some_product": [
+     "price",
+     "sustainability"
+    ],
+    "attributes_without_an_order_that_differ": [
+     "brew_temp",
+     "brew_time",
+     "capacity",
+     "type"
+    ],
+    "attributes_not_stated_by_another_product": [
+     "carafe",
+     "pre_infusion",
+     "sca_certified"
+    ]
+   },
+   {
+    "table": "sr_coffee_makers_02",
+    "best": "A",
+    "best_name": "Presswell NEO Flex",
+    "best_price": 99.99,
+    "cheapest_other_price": 119.99,
+    "best_is_cheapest_or_tied": true,
+    "group_strict": "2 best only under the stated weights",
+    "group_ordered_only": "2 best only under the stated weights",
+    "attributes_where_best_loses": [
+     "grinder: none against ceramic burr (product C)",
+     "milk: none against auto steam (product B)",
+     "milk: none against LatteGo auto (product C)",
+     "milk: none against manual wand (product E)"
+    ],
+    "attributes_with_an_order": [
+     "grinder",
+     "milk",
+     "price",
+     "review count",
+     "stars",
+     "sustainability"
+    ],
+    "attributes_where_best_is_better_than_some_product": [
+     "price",
+     "sustainability"
+    ],
+    "attributes_without_an_order_that_differ": [
+     "pressure",
+     "type"
+    ],
+    "attributes_not_stated_by_another_product": []
+   },
+   {
+    "table": "sr_coffee_makers_03",
+    "best": "D",
+    "best_name": "Portabrew Picopresso",
+    "best_price": 24.99,
+    "cheapest_other_price": 29.99,
+    "best_is_cheapest_or_tied": true,
+    "group_strict": "2 best only under the stated weights",
+    "group_ordered_only": "2 best only under the stated weights",
+    "attributes_where_best_loses": [
+     "weight: 12 oz against 11.5 oz (product E)"
+    ],
+    "attributes_with_an_order": [
+     "portable",
+     "price",
+     "review count",
+     "stars",
+     "sustainability",
+     "weight"
+    ],
+    "attributes_where_best_is_better_than_some_product": [
+     "portable",
+     "price",
+     "sustainability",
+     "weight"
+    ],
+    "attributes_without_an_order_that_differ": [
+     "brew_temp",
+     "type"
+    ],
+    "attributes_not_stated_by_another_product": [
+     "pressure"
+    ]
+   },
+   {
+    "table": "sr_earbuds_01",
+    "best": "A",
+    "best_name": "Auralis Air4 Pro",
+    "best_price": 59.99,
+    "cheapest_other_price": 179.99,
+    "best_is_cheapest_or_tied": true,
+    "group_strict": "2 best only under the stated weights",
+    "group_ordered_only": "1 dominant",
+    "attributes_where_best_loses": [],
+    "attributes_with_an_order": [
+     "anc",
+     "battery",
+     "codec",
+     "ip_rating",
+     "price",
+     "review count",
+     "stars",
+     "sustainability"
+    ],
+    "attributes_where_best_is_better_than_some_product": [
+     "battery",
+     "codec",
+     "ip_rating",
+     "price",
+     "sustainability"
+    ],
+    "attributes_without_an_order_that_differ": [
+     "anc",
+     "codec"
+    ],
+    "attributes_not_stated_by_another_product": []
+   },
+   {
+    "table": "sr_earbuds_02",
+    "best": "C",
+    "best_name": "Sonance Air Pro 4",
+    "best_price": 49.99,
+    "cheapest_other_price": 49.0,
+    "best_is_cheapest_or_tied": false,
+    "group_strict": "3 best product not the cheapest",
+    "group_ordered_only": "3 best product not the cheapest",
+    "attributes_where_best_loses": [],
+    "attributes_with_an_order": [
+     "anc",
+     "battery",
+     "codec",
+     "ip_rating",
+     "price",
+     "review count",
+     "stars",
+     "sustainability"
+    ],
+    "attributes_where_best_is_better_than_some_product": [
+     "anc",
+     "battery",
+     "codec",
+     "ip_rating",
+     "price",
+     "sustainability"
+    ],
+    "attributes_without_an_order_that_differ": [
+     "anc",
+     "codec"
+    ],
+    "attributes_not_stated_by_another_product": []
+   },
+   {
+    "table": "sr_earbuds_03",
+    "best": "C",
+    "best_name": "Vynex OpenReal",
+    "best_price": 39.99,
+    "cheapest_other_price": 49.99,
+    "best_is_cheapest_or_tied": true,
+    "group_strict": "2 best only under the stated weights",
+    "group_ordered_only": "2 best only under the stated weights",
+    "attributes_where_best_loses": [
+     "ip_rating: IPX8 against IP55 (product A)",
+     "ip_rating: IPX8 against IP55 (product D)",
+     "ip_rating: IPX8 against IP67 (product E)"
+    ],
+    "attributes_with_an_order": [
+     "battery",
+     "codec",
+     "ip_rating",
+     "price",
+     "review count",
+     "stars",
+     "sustainability"
+    ],
+    "attributes_where_best_is_better_than_some_product": [
+     "battery",
+     "codec",
+     "ip_rating",
+     "price",
+     "sustainability"
+    ],
+    "attributes_without_an_order_that_differ": [
+     "fit"
+    ],
+    "attributes_not_stated_by_another_product": []
+   },
+   {
+    "table": "sr_electric_toothbrushes_01",
+    "best": "B",
+    "best_name": "Dentara X Pro Digital",
+    "best_price": 39.99,
+    "cheapest_other_price": 39.99,
+    "best_is_cheapest_or_tied": true,
+    "group_strict": "2 best only under the stated weights",
+    "group_ordered_only": "2 best only under the stated weights",
+    "attributes_where_best_loses": [
+     "battery: 35 days against 3 months (AAA) (product C)"
+    ],
+    "attributes_with_an_order": [
+     "battery",
+     "display",
+     "pressure_sensor",
+     "price",
+     "review count",
+     "stars",
+     "strokes",
+     "sustainability"
+    ],
+    "attributes_where_best_is_better_than_some_product": [
+     "battery",
+     "pressure_sensor",
+     "price",
+     "strokes",
+     "sustainability"
+    ],
+    "attributes_without_an_order_that_differ": [
+     "modes",
+     "strokes",
+     "type"
+    ],
+    "attributes_not_stated_by_another_product": [
+     "display"
+    ]
+   },
+   {
+    "table": "sr_external_ssds_01",
+    "best": "B",
+    "best_name": "Vaultdrive PD60",
+    "best_price": 89.99,
+    "cheapest_other_price": 119.99,
+    "best_is_cheapest_or_tied": true,
+    "group_strict": "2 best only under the stated weights",
+    "group_ordered_only": "2 best only under the stated weights",
+    "attributes_where_best_loses": [
+     "durability: IP68, MIL-STD-810G against IP65, 3m drop (product A)",
+     "durability: IP68, MIL-STD-810G against IP55, 2m drop (product C)",
+     "durability: IP68, MIL-STD-810G against drop resistant 6.5 ft (product D)"
+    ],
+    "attributes_with_an_order": [
+     "capacity",
+     "durability",
+     "interface",
+     "price",
+     "review count",
+     "speed",
+     "stars",
+     "sustainability"
+    ],
+    "attributes_where_best_is_better_than_some_product": [
+     "durability",
+     "interface",
+     "price",
+     "speed",
+     "sustainability"
+    ],
+    "attributes_without_an_order_that_differ": [],
+    "attributes_not_stated_by_another_product": []
+   },
+   {
+    "table": "sr_headphones_01",
+    "best": "E",
+    "best_name": "Sonaray Space Q45",
+    "best_price": 149.99,
+    "cheapest_other_price": 249.99,
+    "best_is_cheapest_or_tied": true,
+    "group_strict": "2 best only under the stated weights",
+    "group_ordered_only": "1 dominant",
+    "attributes_where_best_loses": [],
+    "attributes_with_an_order": [
+     "anc",
+     "battery",
+     "codec",
+     "price",
+     "review count",
+     "stars",
+     "sustainability",
+     "weight"
+    ],
+    "attributes_where_best_is_better_than_some_product": [
+     "anc",
+     "battery",
+     "price",
+     "sustainability",
+     "weight"
+    ],
+    "attributes_without_an_order_that_differ": [
+     "codec",
+     "driver"
+    ],
+    "attributes_not_stated_by_another_product": []
+   },
+   {
+    "table": "sr_headphones_02",
+    "best": "A",
+    "best_name": "Sonique SonoFlow SE",
+    "best_price": 69.99,
+    "cheapest_other_price": 99.99,
+    "best_is_cheapest_or_tied": true,
+    "group_strict": "2 best only under the stated weights",
+    "group_ordered_only": "2 best only under the stated weights",
+    "attributes_where_best_loses": [
+     "weight: 235g against 217g (product B)",
+     "weight: 235g against 192g (product C)",
+     "weight: 235g against 222g (product D)"
+    ],
+    "attributes_with_an_order": [
+     "battery",
+     "codec",
+     "price",
+     "review count",
+     "stars",
+     "sustainability",
+     "weight"
+    ],
+    "attributes_where_best_is_better_than_some_product": [
+     "battery",
+     "price",
+     "sustainability",
+     "weight"
+    ],
+    "attributes_without_an_order_that_differ": [
+     "codec",
+     "driver",
+     "type"
+    ],
+    "attributes_not_stated_by_another_product": []
+   },
+   {
+    "table": "sr_headphones_03",
+    "best": "A",
+    "best_name": "Arcwave Sundara",
+    "best_price": 189.0,
+    "cheapest_other_price": 199.0,
+    "best_is_cheapest_or_tied": true,
+    "group_strict": "2 best only under the stated weights",
+    "group_ordered_only": "1 dominant",
+    "attributes_where_best_loses": [],
+    "attributes_with_an_order": [
+     "battery",
+     "codec",
+     "price",
+     "review count",
+     "stars",
+     "sustainability"
+    ],
+    "attributes_where_best_is_better_than_some_product": [
+     "price",
+     "sustainability"
+    ],
+    "attributes_without_an_order_that_differ": [
+     "battery",
+     "codec",
+     "driver",
+     "impedance",
+     "type"
+    ],
+    "attributes_not_stated_by_another_product": []
+   },
+   {
+    "table": "sr_keyboards_01",
+    "best": "E",
+    "best_name": "Keystrike Q1 Pro",
+    "best_price": 109.99,
+    "cheapest_other_price": 89.99,
+    "best_is_cheapest_or_tied": false,
+    "group_strict": "3 best product not the cheapest",
+    "group_ordered_only": "3 best product not the cheapest",
+    "attributes_where_best_loses": [],
+    "attributes_with_an_order": [
+     "price",
+     "review count",
+     "stars",
+     "sustainability"
+    ],
+    "attributes_where_best_is_better_than_some_product": [
+     "price",
+     "sustainability"
+    ],
+    "attributes_without_an_order_that_differ": [
+     "connectivity",
+     "features",
+     "layout",
+     "switches"
+    ],
+    "attributes_not_stated_by_another_product": []
+   },
+   {
+    "table": "sr_laptops_01",
+    "best": "C",
+    "best_name": "Zentria CoreBook X 14",
+    "best_price": 479.99,
+    "cheapest_other_price": 579.99,
+    "best_is_cheapest_or_tied": true,
+    "group_strict": "2 best only under the stated weights",
+    "group_ordered_only": "1 dominant",
+    "attributes_where_best_loses": [],
+    "attributes_with_an_order": [
+     "battery",
+     "display",
+     "price",
+     "ram",
+     "review count",
+     "stars",
+     "storage",
+     "sustainability"
+    ],
+    "attributes_where_best_is_better_than_some_product": [
+     "battery",
+     "price",
+     "ram",
+     "storage",
+     "sustainability"
+    ],
+    "attributes_without_an_order_that_differ": [
+     "cpu",
+     "display"
+    ],
+    "attributes_not_stated_by_another_product": []
+   },
+   {
+    "table": "sr_laptops_02",
+    "best": "E",
+    "best_name": "Novatech T16 Plus",
+    "best_price": 549.99,
+    "cheapest_other_price": 849.99,
+    "best_is_cheapest_or_tied": true,
+    "group_strict": "2 best only under the stated weights",
+    "group_ordered_only": "2 best only under the stated weights",
+    "attributes_where_best_loses": [
+     "display: 16\" 2.8K OLED against 14\" FHD+ touch (product A)"
+    ],
+    "attributes_with_an_order": [
+     "battery",
+     "display",
+     "price",
+     "ram",
+     "review count",
+     "stars",
+     "storage",
+     "sustainability",
+     "weight"
+    ],
+    "attributes_where_best_is_better_than_some_product": [
+     "battery",
+     "price",
+     "ram",
+     "storage",
+     "sustainability",
+     "weight"
+    ],
+    "attributes_without_an_order_that_differ": [
+     "cpu",
+     "display"
+    ],
+    "attributes_not_stated_by_another_product": []
+   },
+   {
+    "table": "sr_laptops_03",
+    "best": "D",
+    "best_name": "Primebook MaxBook Y13 Pro",
+    "best_price": 399.99,
+    "cheapest_other_price": 449.99,
+    "best_is_cheapest_or_tied": true,
+    "group_strict": "2 best only under the stated weights",
+    "group_ordered_only": "1 dominant",
+    "attributes_where_best_loses": [],
+    "attributes_with_an_order": [
+     "battery",
+     "display",
+     "price",
+     "ram",
+     "review count",
+     "stars",
+     "storage",
+     "sustainability"
+    ],
+    "attributes_where_best_is_better_than_some_product": [
+     "battery",
+     "price",
+     "ram",
+     "storage",
+     "sustainability"
+    ],
+    "attributes_without_an_order_that_differ": [
+     "cpu",
+     "display"
+    ],
+    "attributes_not_stated_by_another_product": []
+   },
+   {
+    "table": "sr_monitors_01",
+    "best": "D",
+    "best_name": "Lumivue 27M2V",
+    "best_price": 249.99,
+    "cheapest_other_price": 279.99,
+    "best_is_cheapest_or_tied": true,
+    "group_strict": "2 best only under the stated weights",
+    "group_ordered_only": "1 dominant",
+    "attributes_where_best_loses": [],
+    "attributes_with_an_order": [
+     "price",
+     "refresh",
+     "resolution",
+     "review count",
+     "stand",
+     "stars",
+     "sustainability"
+    ],
+    "attributes_where_best_is_better_than_some_product": [
+     "price",
+     "refresh",
+     "resolution",
+     "sustainability"
+    ],
+    "attributes_without_an_order_that_differ": [
+     "color",
+     "panel",
+     "size"
+    ],
+    "attributes_not_stated_by_another_product": [
+     "hdr",
+     "stand"
+    ]
+   },
+   {
+    "table": "sr_portable_speakers_01",
+    "best": "B",
+    "best_name": "Wavecrest StormBox Pro",
+    "best_price": 49.99,
+    "cheapest_other_price": 49.99,
+    "best_is_cheapest_or_tied": true,
+    "group_strict": "2 best only under the stated weights",
+    "group_ordered_only": "2 best only under the stated weights",
+    "attributes_where_best_loses": [
+     "weight: 730g against 590g (product A)",
+     "weight: 730g against 274g (product C)",
+     "weight: 730g against 420g (product D)",
+     "weight: 730g against 550g (product E)"
+    ],
+    "attributes_with_an_order": [
+     "battery",
+     "power",
+     "price",
+     "review count",
+     "stars",
+     "sustainability",
+     "waterproof",
+     "weight"
+    ],
+    "attributes_where_best_is_better_than_some_product": [
+     "battery",
+     "power",
+     "price",
+     "sustainability"
+    ],
+    "attributes_without_an_order_that_differ": [
+     "power"
+    ],
+    "attributes_not_stated_by_another_product": []
+   },
+   {
+    "table": "sr_robot_vacuums_01",
+    "best": "C",
+    "best_name": "Cleanpath Q Revo MaxV",
+    "best_price": 379.99,
+    "cheapest_other_price": 179.99,
+    "best_is_cheapest_or_tied": false,
+    "group_strict": "3 best product not the cheapest",
+    "group_ordered_only": "3 best product not the cheapest",
+    "attributes_where_best_loses": [],
+    "attributes_with_an_order": [
+     "price",
+     "review count",
+     "runtime",
+     "stars",
+     "suction",
+     "sustainability"
+    ],
+    "attributes_where_best_is_better_than_some_product": [
+     "price",
+     "runtime",
+     "suction",
+     "sustainability"
+    ],
+    "attributes_without_an_order_that_differ": [
+     "emptying",
+     "navigation",
+     "suction"
+    ],
+    "attributes_not_stated_by_another_product": []
+   },
+   {
+    "table": "sr_running_shoes_01",
+    "best": "C",
+    "best_name": "Stridewell Phantom 3",
+    "best_price": 124.99,
+    "cheapest_other_price": 139.99,
+    "best_is_cheapest_or_tied": true,
+    "group_strict": "2 best only under the stated weights",
+    "group_ordered_only": "1 dominant",
+    "attributes_where_best_loses": [],
+    "attributes_with_an_order": [
+     "durability",
+     "price",
+     "review count",
+     "stars",
+     "sustainability",
+     "weight"
+    ],
+    "attributes_where_best_is_better_than_some_product": [
+     "durability",
+     "price",
+     "sustainability",
+     "weight"
+    ],
+    "attributes_without_an_order_that_differ": [
+     "cushioning",
+     "drop"
+    ],
+    "attributes_not_stated_by_another_product": []
+   },
+   {
+    "table": "sr_running_shoes_02",
+    "best": "E",
+    "best_name": "Terravolt Trailfly G 270 V2",
+    "best_price": 119.99,
+    "cheapest_other_price": 139.99,
+    "best_is_cheapest_or_tied": true,
+    "group_strict": "2 best only under the stated weights",
+    "group_ordered_only": "1 dominant",
+    "attributes_where_best_loses": [],
+    "attributes_with_an_order": [
+     "price",
+     "review count",
+     "stars",
+     "sustainability",
+     "weight"
+    ],
+    "attributes_where_best_is_better_than_some_product": [
+     "price",
+     "sustainability",
+     "weight"
+    ],
+    "attributes_without_an_order_that_differ": [
+     "drop",
+     "terrain",
+     "traction"
+    ],
+    "attributes_not_stated_by_another_product": []
+   },
+   {
+    "table": "sr_running_shoes_03",
+    "best": "C",
+    "best_name": "Swiftform The Artist",
+    "best_price": 129.99,
+    "cheapest_other_price": 224.99,
+    "best_is_cheapest_or_tied": true,
+    "group_strict": "2 best only under the stated weights",
+    "group_ordered_only": "1 dominant",
+    "attributes_where_best_loses": [],
+    "attributes_with_an_order": [
+     "durability",
+     "price",
+     "review count",
+     "stars",
+     "sustainability",
+     "weight"
+    ],
+    "attributes_where_best_is_better_than_some_product": [
+     "durability",
+     "price",
+     "sustainability",
+     "weight"
+    ],
+    "attributes_without_an_order_that_differ": [
+     "drop"
+    ],
+    "attributes_not_stated_by_another_product": []
+   },
+   {
+    "table": "sr_smartphones_01",
+    "best": "B",
+    "best_name": "Veridian Phone (2a) Plus",
+    "best_price": 299.99,
+    "cheapest_other_price": 449.99,
+    "best_is_cheapest_or_tied": true,
+    "group_strict": "2 best only under the stated weights",
+    "group_ordered_only": "2 best only under the stated weights",
+    "attributes_where_best_loses": [
+     "camera: 50MP Sony IMX890 dual OIS against 50MP triple (product E)"
+    ],
+    "attributes_with_an_order": [
+     "battery",
+     "camera",
+     "charging",
+     "display",
+     "price",
+     "review count",
+     "stars",
+     "storage",
+     "sustainability"
+    ],
+    "attributes_where_best_is_better_than_some_product": [
+     "battery",
+     "camera",
+     "charging",
+     "price",
+     "storage",
+     "sustainability"
+    ],
+    "attributes_without_an_order_that_differ": [
+     "camera",
+     "display"
+    ],
+    "attributes_not_stated_by_another_product": []
+   },
+   {
+    "table": "sr_smartphones_02",
+    "best": "D",
+    "best_name": "Ethicom 5",
+    "best_price": 329.99,
+    "cheapest_other_price": 349.99,
+    "best_is_cheapest_or_tied": true,
+    "group_strict": "2 best only under the stated weights",
+    "group_ordered_only": "1 dominant",
+    "attributes_where_best_loses": [],
+    "attributes_with_an_order": [
+     "battery",
+     "camera",
+     "charging",
+     "display",
+     "price",
+     "review count",
+     "stars",
+     "storage",
+     "sustainability"
+    ],
+    "attributes_where_best_is_better_than_some_product": [
+     "battery",
+     "camera",
+     "charging",
+     "price",
+     "storage",
+     "sustainability"
+    ],
+    "attributes_without_an_order_that_differ": [
+     "display"
+    ],
+    "attributes_not_stated_by_another_product": []
+   },
+   {
+    "table": "sr_smartphones_03",
+    "best": "B",
+    "best_name": "Aurem Redmi Note 13 Pro+",
+    "best_price": 279.99,
+    "cheapest_other_price": 249.99,
+    "best_is_cheapest_or_tied": false,
+    "group_strict": "3 best product not the cheapest",
+    "group_ordered_only": "3 best product not the cheapest",
+    "attributes_where_best_loses": [
+     "camera: 200MP OIS against 50MP triple (product A)",
+     "camera: 200MP OIS against 12MP dual (product D)"
+    ],
+    "attributes_with_an_order": [
+     "battery",
+     "camera",
+     "charging",
+     "price",
+     "review count",
+     "stars",
+     "storage",
+     "sustainability"
+    ],
+    "attributes_where_best_is_better_than_some_product": [
+     "battery",
+     "camera",
+     "charging",
+     "price",
+     "storage",
+     "sustainability"
+    ],
+    "attributes_without_an_order_that_differ": [],
+    "attributes_not_stated_by_another_product": []
+   },
+   {
+    "table": "sr_smartwatches_01",
+    "best": "A",
+    "best_name": "Chronex T-Rex Ultra",
+    "best_price": 249.99,
+    "cheapest_other_price": 199.99,
+    "best_is_cheapest_or_tied": false,
+    "group_strict": "3 best product not the cheapest",
+    "group_ordered_only": "3 best product not the cheapest",
+    "attributes_where_best_loses": [],
+    "attributes_with_an_order": [
+     "battery",
+     "display",
+     "price",
+     "review count",
+     "stars",
+     "sustainability"
+    ],
+    "attributes_where_best_is_better_than_some_product": [
+     "battery",
+     "price",
+     "sustainability"
+    ],
+    "attributes_without_an_order_that_differ": [
+     "display",
+     "gps",
+     "sensors"
+    ],
+    "attributes_not_stated_by_another_product": []
+   },
+   {
+    "table": "sr_tablets_01",
+    "best": "C",
+    "best_name": "Aurem Pad 6",
+    "best_price": 249.99,
+    "cheapest_other_price": 229.99,
+    "best_is_cheapest_or_tied": false,
+    "group_strict": "3 best product not the cheapest",
+    "group_ordered_only": "3 best product not the cheapest",
+    "attributes_where_best_loses": [],
+    "attributes_with_an_order": [
+     "battery",
+     "display",
+     "price",
+     "review count",
+     "stars",
+     "storage",
+     "stylus",
+     "sustainability"
+    ],
+    "attributes_where_best_is_better_than_some_product": [
+     "battery",
+     "price",
+     "storage",
+     "sustainability"
+    ],
+    "attributes_without_an_order_that_differ": [
+     "display",
+     "processor"
+    ],
+    "attributes_not_stated_by_another_product": [
+     "stylus"
+    ]
+   },
+   {
+    "table": "sr_tvs_01",
+    "best": "A",
+    "best_name": "Vistara QM8 QLED",
+    "best_price": 599.99,
+    "cheapest_other_price": 479.99,
+    "best_is_cheapest_or_tied": false,
+    "group_strict": "3 best product not the cheapest",
+    "group_ordered_only": "3 best product not the cheapest",
+    "attributes_where_best_loses": [],
+    "attributes_with_an_order": [
+     "brightness",
+     "price",
+     "refresh",
+     "resolution",
+     "review count",
+     "stars",
+     "sustainability"
+    ],
+    "attributes_where_best_is_better_than_some_product": [
+     "price",
+     "refresh",
+     "sustainability"
+    ],
+    "attributes_without_an_order_that_differ": [
+     "hdr",
+     "panel"
+    ],
+    "attributes_not_stated_by_another_product": [
+     "brightness"
+    ]
+   },
+   {
+    "table": "sr_tvs_02",
+    "best": "D",
+    "best_name": "Pixelight U8K Mini-LED",
+    "best_price": 899.99,
+    "cheapest_other_price": 999.99,
+    "best_is_cheapest_or_tied": true,
+    "group_strict": "2 best only under the stated weights",
+    "group_ordered_only": "1 dominant",
+    "attributes_where_best_loses": [],
+    "attributes_with_an_order": [
+     "brightness",
+     "dimming_zones",
+     "price",
+     "refresh",
+     "resolution",
+     "review count",
+     "stars",
+     "sustainability"
+    ],
+    "attributes_where_best_is_better_than_some_product": [
+     "price",
+     "refresh",
+     "sustainability"
+    ],
+    "attributes_without_an_order_that_differ": [
+     "hdr",
+     "panel"
+    ],
+    "attributes_not_stated_by_another_product": [
+     "brightness",
+     "dimming_zones"
+    ]
+   },
+   {
+    "table": "sr_tvs_03",
+    "best": "E",
+    "best_name": "Pixelight A6 Series",
+    "best_price": 249.99,
+    "cheapest_other_price": 299.99,
+    "best_is_cheapest_or_tied": true,
+    "group_strict": "2 best only under the stated weights",
+    "group_ordered_only": "1 dominant",
+    "attributes_where_best_loses": [],
+    "attributes_with_an_order": [
+     "price",
+     "refresh",
+     "resolution",
+     "review count",
+     "stars",
+     "sustainability"
+    ],
+    "attributes_where_best_is_better_than_some_product": [
+     "price",
+     "sustainability"
+    ],
+    "attributes_without_an_order_that_differ": [
+     "hdr",
+     "panel"
+    ],
+    "attributes_not_stated_by_another_product": []
+   },
+   {
+    "table": "sr_water_bottles_01",
+    "best": "A",
+    "best_name": "Thermalux 32oz",
+    "best_price": 19.99,
+    "cheapest_other_price": 32.0,
+    "best_is_cheapest_or_tied": true,
+    "group_strict": "2 best only under the stated weights",
+    "group_ordered_only": "2 best only under the stated weights",
+    "attributes_where_best_loses": [
+     "weight: 14oz against 12.3oz (product E)"
+    ],
+    "attributes_with_an_order": [
+     "insulation",
+     "price",
+     "review count",
+     "stars",
+     "sustainability",
+     "weight"
+    ],
+    "attributes_where_best_is_better_than_some_product": [
+     "insulation",
+     "price",
+     "sustainability",
+     "weight"
+    ],
+    "attributes_without_an_order_that_differ": [
+     "capacity"
+    ],
+    "attributes_not_stated_by_another_product": [
+     "insulation"
+    ]
+   },
+   {
+    "table": "sr_wireless_routers_01",
+    "best": "A",
+    "best_name": "Netweave Archer AXE7800",
+    "best_price": 149.99,
+    "cheapest_other_price": 179.99,
+    "best_is_cheapest_or_tied": true,
+    "group_strict": "1 dominant",
+    "group_ordered_only": "1 dominant",
+    "attributes_where_best_loses": [],
+    "attributes_with_an_order": [
+     "coverage",
+     "devices",
+     "ports",
+     "price",
+     "review count",
+     "stars",
+     "sustainability",
+     "wifi"
+    ],
+    "attributes_where_best_is_better_than_some_product": [
+     "coverage",
+     "devices",
+     "ports",
+     "price",
+     "sustainability",
+     "wifi"
+    ],
+    "attributes_without_an_order_that_differ": [],
+    "attributes_not_stated_by_another_product": []
+   }
+  ],
+  "best_is_cheapest_or_tied": 24,
+  "script": "study1b-64-models-on-34-tables/code/03_strict_dominance.py",
+  "input": {
+   "files": 60,
+   "rows_used": 40813
+  }
+ },
+ "names_hidden_leaks": {
+  "leak_file": "study1b-64-models-on-34-tables/materials/names_hidden_leaks.csv",
+  "tables_with_kind": {
+   "1 brand": 7,
+   "2 line": 9,
+   "3 feature": 32,
+   "4 copy": 19
+  },
+  "tables_with_any_of_kinds_1_to_3": 32,
+  "tables_with_no_leak_of_kinds_1_to_4": [],
+  "listed_texts": {
+   "1": 9,
+   "2": 11,
+   "3": 131,
+   "4": 28,
+   "5": 17
+  },
+  "gap_without": {
+   "without kind 1 (brand named)": {
+    "dropped_tables": [
+     "sr_earbuds_03",
+     "sr_headphones_02",
+     "sr_keyboards_01",
+     "sr_laptops_02",
+     "sr_portable_speakers_01",
+     "sr_smartwatches_01",
+     "sr_tvs_03"
+    ],
+    "gap": {
+     "tables": 27,
+     "shown_pct": 23.42,
+     "hidden_pct": 14.98,
+     "gap_pp": 8.44,
+     "ci95_pp": [
+      4.06,
+      13.47
+     ],
+     "p_two_sided": 0.0002,
+     "draws": 10000,
+     "seed": 20261120
+    }
+   },
+   "without kinds 1 and 2": {
+    "dropped_tables": [
+     "sr_coffee_makers_02",
+     "sr_earbuds_01",
+     "sr_earbuds_03",
+     "sr_headphones_02",
+     "sr_keyboards_01",
+     "sr_laptops_02",
+     "sr_portable_speakers_01",
+     "sr_running_shoes_01",
+     "sr_smartphones_01",
+     "sr_smartwatches_01",
+     "sr_tablets_01",
+     "sr_tvs_01",
+     "sr_tvs_02",
+     "sr_tvs_03",
+     "sr_wireless_routers_01"
+    ],
+    "gap": {
+     "tables": 19,
+     "shown_pct": 21.97,
+     "hidden_pct": 13.15,
+     "gap_pp": 8.82,
+     "ci95_pp": [
+      3.74,
+      14.48
+     ],
+     "p_two_sided": 0.0,
+     "draws": 10000,
+     "seed": 20261120
+    }
+   },
+   "without kinds 1 to 3": {
+    "dropped_tables": [
+     "sr_backpacks_01",
+     "sr_blenders_01",
+     "sr_cameras_01",
+     "sr_coffee_makers_01",
+     "sr_coffee_makers_02",
+     "sr_coffee_makers_03",
+     "sr_earbuds_01",
+     "sr_earbuds_02",
+     "sr_earbuds_03",
+     "sr_electric_toothbrushes_01",
+     "sr_external_ssds_01",
+     "sr_headphones_01",
+     "sr_headphones_02",
+     "sr_headphones_03",
+     "sr_keyboards_01",
+     "sr_laptops_02",
+     "sr_monitors_01",
+     "sr_portable_speakers_01",
+     "sr_robot_vacuums_01",
+     "sr_running_shoes_01",
+     "sr_running_shoes_02",
+     "sr_running_shoes_03",
+     "sr_smartphones_01",
+     "sr_smartphones_02",
+     "sr_smartphones_03",
+     "sr_smartwatches_01",
+     "sr_tablets_01",
+     "sr_tvs_01",
+     "sr_tvs_02",
+     "sr_tvs_03",
+     "sr_water_bottles_01",
+     "sr_wireless_routers_01"
+    ],
+    "gap": {
+     "tables": 2,
+     "shown_pct": 33.33,
+     "hidden_pct": 21.17,
+     "gap_pp": 12.17,
+     "ci95_pp": [
+      0.17,
+      27.17
+     ],
+     "p_two_sided": 0.0494,
+     "draws": 10000,
+     "seed": 20261120
+    }
+   },
+   "without kinds 1 to 4": {
+    "dropped_tables": [
+     "sr_backpacks_01",
+     "sr_blenders_01",
+     "sr_cameras_01",
+     "sr_coffee_makers_01",
+     "sr_coffee_makers_02",
+     "sr_coffee_makers_03",
+     "sr_earbuds_01",
+     "sr_earbuds_02",
+     "sr_earbuds_03",
+     "sr_electric_toothbrushes_01",
+     "sr_external_ssds_01",
+     "sr_headphones_01",
+     "sr_headphones_02",
+     "sr_headphones_03",
+     "sr_keyboards_01",
+     "sr_laptops_01",
+     "sr_laptops_02",
+     "sr_laptops_03",
+     "sr_monitors_01",
+     "sr_portable_speakers_01",
+     "sr_robot_vacuums_01",
+     "sr_running_shoes_01",
+     "sr_running_shoes_02",
+     "sr_running_shoes_03",
+     "sr_smartphones_01",
+     "sr_smartphones_02",
+     "sr_smartphones_03",
+     "sr_smartwatches_01",
+     "sr_tablets_01",
+     "sr_tvs_01",
+     "sr_tvs_02",
+     "sr_tvs_03",
+     "sr_water_bottles_01",
+     "sr_wireless_routers_01"
+    ],
+    "gap": {
+     "tables": 0
+    }
+   }
+  },
+  "recognition": {
+   "hidden_answers": 20400,
+   "answers_naming_a_brand_of_the_table": 49,
+   "of_which_the_brand_is_written_in_the_prompt": 21,
+   "of_which_non_optimal": 29,
+   "by_table": {
+    "sr_tablets_01": 10,
+    "sr_keyboards_01": 9,
+    "sr_laptops_02": 9,
+    "sr_smartwatches_01": 4,
+    "sr_cameras_01": 3,
+    "sr_headphones_02": 3,
+    "sr_portable_speakers_01": 3,
+    "sr_blenders_01": 2,
+    "sr_backpacks_01": 1,
+    "sr_coffee_makers_02": 1,
+    "sr_earbuds_01": 1,
+    "sr_robot_vacuums_01": 1,
+    "sr_tvs_01": 1,
+    "sr_tvs_02": 1
+   },
+   "note": "a case-sensitive whole-word match of the five brand names of the table, and their other spellings, in the model's whole answer"
+  },
+  "per_table": [
+   {
+    "table": "sr_backpacks_01",
+    "kinds": [
+     "3"
+    ],
+    "kinds_on_familiar_brands": [
+     "3"
+    ],
+    "leaks": [
+     "3 feature: \"FlexVent\" (The North Face; points to The North Face)"
+    ]
+   },
+   {
+    "table": "sr_blenders_01",
+    "kinds": [
+     "3"
+    ],
+    "kinds_on_familiar_brands": [
+     "3"
+    ],
+    "leaks": [
+     "3 feature: \"Auto-iQ\" (Ninja; points to Ninja)",
+     "3 feature: \"wave-action system\" (Hamilton Beach; points to Hamilton Beach)"
+    ]
+   },
+   {
+    "table": "sr_cameras_01",
+    "kinds": [
+     "3",
+     "4"
+    ],
+    "kinds_on_familiar_brands": [
+     "3",
+     "4"
+    ],
+    "leaks": [
+     "3 feature: \"EXPEED 6\" (Nikon; points to Nikon)",
+     "3 feature: \"Real-time Eye AF\" (Sony; points to Sony)",
+     "3 feature: \"Dual Pixel CMOS AF II\" (Canon; points to Canon)",
+     "4 copy: \"the manufacturer reliability + lens ecosystem\" (Canon; points to Canon)",
+     "3 feature: \"X-Trans\" (Fujifilm; points to Fujifilm)",
+     "3 feature: \"film simulation modes\" (Fujifilm; points to Fujifilm)"
+    ]
+   },
+   {
+    "table": "sr_coffee_makers_01",
+    "kinds": [
+     "3"
+    ],
+    "kinds_on_familiar_brands": [
+     "3"
+    ],
+    "leaks": [
+     "3 feature: \"K-Cup\" (Keurig; points to Keurig)",
+     "3 feature: \"Brew Strength Control\" (Cuisinart; points to Cuisinart)"
+    ]
+   },
+   {
+    "table": "sr_coffee_makers_02",
+    "kinds": [
+     "2",
+     "3"
+    ],
+    "kinds_on_familiar_brands": [
+     "2",
+     "3"
+    ],
+    "leaks": [
+     "3 feature: \"Centrifusion\" (Nespresso; points to Nespresso)",
+     "3 feature: \"ThermoJet\" (Breville; points to Breville)",
+     "2 line: \"LatteGo\" (Philips; points to Philips)"
+    ]
+   },
+   {
+    "table": "sr_coffee_makers_03",
+    "kinds": [
+     "3"
+    ],
+    "kinds_on_familiar_brands": [
+     "3"
+    ],
+    "leaks": [
+     "3 feature: \"K-Cup\" (Keurig; points to Keurig)"
+    ]
+   },
+   {
+    "table": "sr_earbuds_01",
+    "kinds": [
+     "2",
+     "3",
+     "4"
+    ],
+    "kinds_on_familiar_brands": [
+     "2",
+     "3",
+     "4"
+    ],
+    "leaks": [
+     "2 line: \"Galaxy AI\" (Samsung; points to Samsung)",
+     "3 feature: \"360 Audio\" (Samsung; points to Samsung)",
+     "3 feature: \"SSC\" (Samsung; points to Samsung)",
+     "3 feature: \"H2 chip\" (Apple; points to Apple)",
+     "3 feature: \"MagSafe\" (Apple; points to Apple)",
+     "4 copy: \"Deep the manufacturer ecosystem integration\" (Apple; points to Apple)",
+     "3 feature: \"HearThrough\" (Jabra; points to Jabra)",
+     "3 feature: \"MySound\" (Jabra; points to Jabra)",
+     "5 other company: \"Qualcomm aptX Lossless\" (Auralis, the best product; points to Qualcomm (a component))",
+     "3 feature: \"V2 processor\" (Sony; points to Sony)"
+    ]
+   },
+   {
+    "table": "sr_earbuds_02",
+    "kinds": [
+     "3",
+     "4"
+    ],
+    "kinds_on_familiar_brands": [
+     "3",
+     "4"
+    ],
+    "leaks": [
+     "3 feature: \"SmartThings Find\" (Samsung; points to Samsung)",
+     "4 copy: \"the manufacturer value entry\" (Samsung; points to Samsung)",
+     "4 copy: \"the manufacturer Pure Bass\" (JBL; points to JBL)",
+     "3 feature: \"Pure Bass\" (JBL; points to JBL)",
+     "3 feature: \"MagSafe\" (Apple; points to Apple)",
+     "4 copy: \"the manufacturer Assistant built-in\" (Google; points to Google)",
+     "3 feature: \"QuietSmart 3.0\" (Sonance, the best product; points to EarFun (the real maker of the product marked as best in the table))"
+    ]
+   },
+   {
+    "table": "sr_earbuds_03",
+    "kinds": [
+     "1",
+     "3"
+    ],
+    "kinds_on_familiar_brands": [
+     "1",
+     "3"
+    ],
+    "leaks": [
+     "1 brand: \"Apple H1 chip\" (Beats; points to Apple (the owner of Beats))",
+     "3 feature: \"DualPitch\" (Shokz; points to Shokz)",
+     "3 feature: \"TwistLock + FlexSoft\" (JBL; points to JBL)",
+     "3 feature: \"Extra Bass\" (Sony; points to Sony)"
+    ]
+   },
+   {
+    "table": "sr_electric_toothbrushes_01",
+    "kinds": [
+     "3"
+    ],
+    "kinds_on_familiar_brands": [
+     "3"
+    ],
+    "leaks": [
+     "3 feature: \"Linear magnetic drive\" (Oral-B; points to Oral-B)",
+     "3 feature: \"cross-action brush head\" (Oral-B; points to Oral-B)",
+     "3 feature: \"3D cleaning action\" (Oral-B; points to Oral-B)"
+    ]
+   },
+   {
+    "table": "sr_external_ssds_01",
+    "kinds": [
+     "3"
+    ],
+    "kinds_on_familiar_brands": [
+     "3"
+    ],
+    "leaks": [
+     "3 feature: \"Rescue Data Recovery\" (Seagate; points to Seagate)"
+    ]
+   },
+   {
+    "table": "sr_headphones_01",
+    "kinds": [
+     "3",
+     "4"
+    ],
+    "kinds_on_familiar_brands": [
+     "3",
+     "4"
+    ],
+    "leaks": [
+     "3 feature: \"Immersive Audio, CustomTune\" (Bose; points to Bose)",
+     "4 copy: \"Legendary the manufacturer comfort\" (Bose; points to Bose)"
+    ]
+   },
+   {
+    "table": "sr_headphones_02",
+    "kinds": [
+     "1",
+     "3",
+     "4"
+    ],
+    "kinds_on_familiar_brands": [
+     "1",
+     "3",
+     "4"
+    ],
+    "leaks": [
+     "1 brand: \"Apple spatial audio\" (Beats; points to Apple (the owner of Beats))",
+     "4 copy: \"Iconic the manufacturer styling\" (Beats; points to Beats)",
+     "3 feature: \"DSEE\" (Sony; points to Sony)",
+     "3 feature: \"Dual Noise Sensor\" (Sony; points to Sony)",
+     "4 copy: \"the manufacturer reliability\" (Sony; points to Sony)",
+     "4 copy: \"the manufacturer Pure Bass\" (JBL; points to JBL)",
+     "3 feature: \"Pure Bass\" (JBL; points to JBL)",
+     "4 copy: \"the manufacturer SimpleSync\" (Bose; points to Bose)",
+     "3 feature: \"SimpleSync\" (Bose; points to Bose)"
+    ]
+   },
+   {
+    "table": "sr_headphones_03",
+    "kinds": [
+     "3",
+     "4"
+    ],
+    "kinds_on_familiar_brands": [
+     "3",
+     "4"
+    ],
+    "leaks": [
+     "4 copy: \"the manufacturer Music app\" (Bose; points to Bose)",
+     "3 feature: \"STELLAR.45\" (Beyerdynamic; points to Beyerdynamic)"
+    ]
+   },
+   {
+    "table": "sr_keyboards_01",
+    "kinds": [
+     "1",
+     "3",
+     "4"
+    ],
+    "kinds_on_familiar_brands": [
+     "1",
+     "3",
+     "4"
+    ],
+    "leaks": [
+     "1 brand: \"Razer Green\" (Razer; points to Razer)",
+     "3 feature: \"Chroma RGB\" (Razer; points to Razer)",
+     "4 copy: \"the manufacturer Green switches\" (Razer; points to Razer)",
+     "1 brand: \"HyperX Red\" (HyperX; points to HyperX)",
+     "4 copy: \"the manufacturer Red switches\" (HyperX; points to HyperX)",
+     "1 brand: \"Logi Bolt\" (Logitech; points to Logitech)",
+     "3 feature: \"iCUE\" (Corsair; points to Corsair)",
+     "5 other company: \"Cherry MX Red\" (Corsair; points to Cherry (a component))",
+     "5 other company: \"Cherry MX compatible\" (Keystrike, the best product; points to Cherry (a component))"
+    ]
+   },
+   {
+    "table": "sr_laptops_01",
+    "kinds": [
+     "4"
+    ],
+    "kinds_on_familiar_brands": [
+     "4"
+    ],
+    "leaks": [
+     "4 copy: \"the manufacturer+ subscription trial\" (HP; points to HP)"
+    ]
+   },
+   {
+    "table": "sr_laptops_02",
+    "kinds": [
+     "1",
+     "3",
+     "4"
+    ],
+    "kinds_on_familiar_brands": [
+     "1",
+     "3",
+     "4"
+    ],
+    "leaks": [
+     "1 brand: \"Apple M2\" (Apple; points to Apple)",
+     "3 feature: \"Liquid Retina\" (Apple; points to Apple)",
+     "4 copy: \"the manufacturer M2\" (Apple; points to Apple)",
+     "3 feature: \"InfinityEdge\" (Dell; points to Dell)"
+    ]
+   },
+   {
+    "table": "sr_laptops_03",
+    "kinds": [
+     "4"
+    ],
+    "kinds_on_familiar_brands": [
+     "4"
+    ],
+    "leaks": [
+     "4 copy: \"the manufacturer brand reliability\" (HP; points to HP)",
+     "5 other company: \"Chrome OS\" (Acer; points to Google (an operating system))"
+    ]
+   },
+   {
+    "table": "sr_monitors_01",
+    "kinds": [
+     "3",
+     "4"
+    ],
+    "kinds_on_familiar_brands": [
+     "3",
+     "4"
+    ],
+    "leaks": [
+     "3 feature: \"Tizen\" (Samsung; points to Samsung)",
+     "3 feature: \"DeX\" (Samsung; points to Samsung)",
+     "4 copy: \"the manufacturer reliability\" (Dell; points to Dell)",
+     "4 copy: \"Affordable the manufacturer quality\" (LG; points to LG)",
+     "5 other company: \"AMD FreeSync\" (LG; points to AMD (a component))"
+    ]
+   },
+   {
+    "table": "sr_portable_speakers_01",
+    "kinds": [
+     "1",
+     "3",
+     "4"
+    ],
+    "kinds_on_familiar_brands": [
+     "1",
+     "3",
+     "4"
+    ],
+    "leaks": [
+     "1 brand: \"N/A (Bose)\" (Bose; points to Bose)",
+     "3 feature: \"PositionIQ\" (Bose; points to Bose)",
+     "4 copy: \"the manufacturer Connect app\" (Bose; points to Bose)",
+     "3 feature: \"PartyBoost\" (JBL; points to JBL)",
+     "4 copy: \"the manufacturer Pro Sound\" (JBL; points to JBL)",
+     "3 feature: \"Sound Diffusion Processor\" (Sony; points to Sony)",
+     "3 feature: \"XBass boost\" (Wavecrest, the best product; points to Tribit (the real maker of the product marked as best in the table))",
+     "3 feature: \"outdoor boost mode\" (Ultimate Ears; points to Ultimate Ears)"
+    ]
+   },
+   {
+    "table": "sr_robot_vacuums_01",
+    "kinds": [
+     "3",
+     "4"
+    ],
+    "kinds_on_familiar_brands": [
+     "3",
+     "4"
+    ],
+    "leaks": [
+     "3 feature: \"Hyperdymium\" (Dyson; points to Dyson)",
+     "4 copy: \"the manufacturer Hyperdymium motor\" (Dyson; points to Dyson)",
+     "3 feature: \"PrecisionVision\" (iRobot; points to iRobot)",
+     "3 feature: \"Clean Base\" (iRobot; points to iRobot)",
+     "4 copy: \"the manufacturer OS\" (iRobot; points to iRobot)",
+     "3 feature: \"Matrix Clean\" (Shark; points to Shark)"
+    ]
+   },
+   {
+    "table": "sr_running_shoes_01",
+    "kinds": [
+     "2",
+     "3",
+     "4"
+    ],
+    "kinds_on_familiar_brands": [
+     "2",
+     "3",
+     "4"
+    ],
+    "leaks": [
+     "3 feature: \"FF BLAST PLUS\" (ASICS; points to ASICS)",
+     "3 feature: \"PureGEL\" (ASICS; points to ASICS)",
+     "2 line: \"Fresh Foam X\" (New Balance; points to New Balance)",
+     "3 feature: \"Hypoknit\" (New Balance; points to New Balance)",
+     "3 feature: \"ReactX\" (Nike; points to Nike)",
+     "3 feature: \"Zoom Air\" (Nike; points to Nike)",
+     "4 copy: \"Classic the manufacturer running shoe\" (Nike; points to Nike)",
+     "3 feature: \"BOOST\" (Adidas; points to Adidas)",
+     "3 feature: \"Primeknit+\" (Adidas; points to Adidas)",
+     "3 feature: \"Continental rubber\" (Adidas; points to Adidas (Continental running outsoles are made only for Adidas))",
+     "5 other company: \"Vibram outsole\" (Stridewell, the best product; points to Vibram (a component))"
+    ]
+   },
+   {
+    "table": "sr_running_shoes_02",
+    "kinds": [
+     "3"
+    ],
+    "kinds_on_familiar_brands": [
+     "3"
+    ],
+    "leaks": [
+     "3 feature: \"Contagrip MA\" (Salomon; points to Salomon)",
+     "3 feature: \"EnergyCell+\" (Salomon; points to Salomon)",
+     "3 feature: \"SensiFit\" (Salomon; points to Salomon)",
+     "3 feature: \"DNA LOFT v2\" (Brooks; points to Brooks)",
+     "3 feature: \"TrailTack\" (Brooks; points to Brooks)",
+     "5 other company: \"Vibram Megagrip\" (HOKA; points to Vibram (a component))",
+     "3 feature: \"React foam\" (Nike; points to Nike)",
+     "3 feature: \"pivot post system\" (Brooks; points to Brooks)"
+    ]
+   },
+   {
+    "table": "sr_running_shoes_03",
+    "kinds": [
+     "3"
+    ],
+    "kinds_on_familiar_brands": [
+     "3"
+    ],
+    "leaks": [
+     "3 feature: \"ZoomX\" (Nike; points to Nike)",
+     "3 feature: \"FF TURBO PLUS\" (ASICS; points to ASICS)",
+     "3 feature: \"Lightstrike Pro\" (Adidas; points to Adidas)",
+     "3 feature: \"EnergyRods 2.0\" (Adidas; points to Adidas)",
+     "3 feature: \"Continental rubber\" (Adidas; points to Adidas (Continental running outsoles are made only for Adidas))",
+     "3 feature: \"PWRRUN PB\" (Saucony; points to Saucony)",
+     "3 feature: \"speedroll\" (Saucony; points to Saucony)"
+    ]
+   },
+   {
+    "table": "sr_smartphones_01",
+    "kinds": [
+     "2",
+     "3"
+    ],
+    "kinds_on_familiar_brands": [
+     "2",
+     "3"
+    ],
+    "leaks": [
+     "2 line: \"Galaxy AI\" (Samsung; points to Samsung)",
+     "3 feature: \"Dynamic AMOLED\" (Samsung; points to Samsung)",
+     "3 feature: \"Super Retina XDR\" (Apple; points to Apple)",
+     "3 feature: \"A16 Bionic\" (Apple; points to Apple)",
+     "3 feature: \"iOS\" (Apple; points to Apple)",
+     "3 feature: \"SUPERVOOC\" (OnePlus; points to OnePlus (the OPPO group))",
+     "5 other company: \"Sony IMX890\" (OnePlus; points to Sony (a component))",
+     "5 other company: \"Sony IMX890\" (Veridian, the best product; points to Sony (a component))",
+     "3 feature: \"Tensor G3\" (Google; points to Google)"
+    ]
+   },
+   {
+    "table": "sr_smartphones_02",
+    "kinds": [
+     "3"
+    ],
+    "kinds_on_familiar_brands": [
+     "3"
+    ],
+    "leaks": [
+     "3 feature: \"Tensor G2\" (Google; points to Google)",
+     "3 feature: \"Pure Android\" (Google; points to Google)",
+     "3 feature: \"Exynos 1380\" (Samsung; points to Samsung)",
+     "3 feature: \"Super AMOLED\" (Samsung; points to Samsung)",
+     "3 feature: \"Retina HD\" (Apple; points to Apple)",
+     "3 feature: \"A15 Bionic\" (Apple; points to Apple)",
+     "3 feature: \"iOS\" (Apple; points to Apple)",
+     "3 feature: \"TurboPower\" (Motorola; points to Motorola)"
+    ]
+   },
+   {
+    "table": "sr_smartphones_03",
+    "kinds": [
+     "3",
+     "4"
+    ],
+    "kinds_on_familiar_brands": [
+     "3",
+     "4"
+    ],
+    "leaks": [
+     "3 feature: \"Super AMOLED\" (Samsung; points to Samsung)",
+     "3 feature: \"Exynos 1380\" (Samsung; points to Samsung)",
+     "4 copy: \"good the manufacturer ecosystem\" (Samsung; points to Samsung)",
+     "3 feature: \"Tensor G2\" (Google; points to Google)",
+     "3 feature: \"Super Retina XDR\" (Apple; points to Apple)",
+     "3 feature: \"A15 Bionic\" (Apple; points to Apple)",
+     "3 feature: \"iOS 17\" (Apple; points to Apple)",
+     "3 feature: \"HyperCharge\" (Aurem, the best product; points to Xiaomi (the real maker of the product marked as best in the table))"
+    ]
+   },
+   {
+    "table": "sr_smartwatches_01",
+    "kinds": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ],
+    "kinds_on_familiar_brands": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ],
+    "leaks": [
+     "3 feature: \"S9 SiP\" (Apple; points to Apple)",
+     "3 feature: \"always-on Retina\" (Apple; points to Apple)",
+     "2 line: \"iPhone\" (Apple; points to Apple)",
+     "3 feature: \"Exynos W930\" (Samsung; points to Samsung)",
+     "3 feature: \"BioActive\" (Samsung; points to Samsung)",
+     "5 other company: \"Wear OS\" (Samsung; points to Google (an operating system))",
+     "3 feature: \"Body Battery\" (Garmin; points to Garmin)",
+     "4 copy: \"the manufacturer Pay\" (Garmin; points to Garmin)",
+     "1 brand: \"Google integration\" (Fitbit; points to Google (the owner of Fitbit))",
+     "3 feature: \"cEDA\" (Fitbit; points to Fitbit)"
+    ]
+   },
+   {
+    "table": "sr_tablets_01",
+    "kinds": [
+     "2",
+     "3",
+     "4"
+    ],
+    "kinds_on_familiar_brands": [
+     "2",
+     "3",
+     "4"
+    ],
+    "leaks": [
+     "3 feature: \"Exynos 1380\" (Samsung; points to Samsung)",
+     "2 line: \"S Pen\" (Samsung; points to Samsung (its stylus line))",
+     "3 feature: \"Liquid Retina\" (Apple; points to Apple)",
+     "3 feature: \"A14 Bionic\" (Apple; points to Apple)",
+     "4 copy: \"the manufacturer Pencil\" (Apple; points to Apple)",
+     "5 other company: \"JBL\" (Lenovo; points to JBL (a component))",
+     "3 feature: \"Alexa\" (Amazon; points to Amazon)",
+     "2 line: \"Pencil (1st gen)\" (Apple; points to Apple)"
+    ]
+   },
+   {
+    "table": "sr_tvs_01",
+    "kinds": [
+     "2",
+     "3",
+     "4"
+    ],
+    "kinds_on_familiar_brands": [
+     "2",
+     "3",
+     "4"
+    ],
+    "leaks": [
+     "2 line: \"Crystal UHD\" (Samsung; points to Samsung)",
+     "3 feature: \"Crystal Processor 4K\" (Samsung; points to Samsung)",
+     "3 feature: \"Smart Hub with Gaming Hub\" (Samsung; points to Samsung)",
+     "4 copy: \"the manufacturer ecosystem\" (Samsung; points to Samsung)",
+     "3 feature: \"V-Gaming Engine\" (Vizio; points to Vizio)",
+     "3 feature: \"SmartCast\" (Vizio; points to Vizio)",
+     "3 feature: \"a7 Gen6 AI Processor\" (LG; points to LG)",
+     "3 feature: \"webOS 23\" (LG; points to LG)",
+     "3 feature: \"ThinQ AI\" (LG; points to LG)",
+     "5 other company: \"Apple AirPlay 2\" (LG; points to Apple (a platform))",
+     "3 feature: \"X1 processor\" (Sony; points to Sony)",
+     "3 feature: \"Motionflow XR 240\" (Sony; points to Sony)",
+     "5 other company: \"Google TV, Apple AirPlay\" (Sony; points to Google and Apple (platforms))",
+     "3 feature: \"Game Accelerator 240\" (Vistara, the best product; points to TCL (the real maker of the product marked as best in the table))"
+    ]
+   },
+   {
+    "table": "sr_tvs_02",
+    "kinds": [
+     "2",
+     "3"
+    ],
+    "kinds_on_familiar_brands": [
+     "2",
+     "3"
+    ],
+    "leaks": [
+     "3 feature: \"a7 Gen6 AI Processor\" (LG; points to LG)",
+     "3 feature: \"Quantum Dot + NanoCell\" (LG; points to LG)",
+     "2 line: \"4K QNED\" (LG; points to LG)",
+     "3 feature: \"XR Processor\" (Sony; points to Sony)",
+     "3 feature: \"XR Triluminos Pro\" (Sony; points to Sony)",
+     "3 feature: \"Acoustic Multi-Audio\" (Sony; points to Sony)",
+     "2 line: \"Neo QLED\" (Samsung; points to Samsung)",
+     "3 feature: \"Neural Quantum Processor\" (Samsung; points to Samsung)",
+     "3 feature: \"Object Tracking Sound\" (Samsung; points to Samsung)",
+     "5 other company: \"Google TV\" (Vistara; points to Google (a platform))"
+    ]
+   },
+   {
+    "table": "sr_tvs_03",
+    "kinds": [
+     "1",
+     "3"
+    ],
+    "kinds_on_familiar_brands": [
+     "1",
+     "3"
+    ],
+    "leaks": [
+     "3 feature: \"SmartCast\" (Vizio; points to Vizio)",
+     "3 feature: \"Quantum Color\" (Vizio; points to Vizio)",
+     "1 brand: \"Amazon house brand\" (Insignia; points to Amazon (the product is listed under Insignia in the table))",
+     "5 other company: \"Fire TV, Alexa\" (Insignia; points to Amazon (a platform on another maker's television))",
+     "3 feature: \"Crystal Processor 4K, PurColor\" (Samsung; points to Samsung)",
+     "3 feature: \"a5 Gen5 AI Processor\" (LG; points to LG)",
+     "3 feature: \"webOS 22\" (LG; points to LG)",
+     "5 other company: \"AirPlay 2\" (LG; points to Apple (a platform))",
+     "5 other company: \"Google TV\" (Pixelight, the best product; points to Google (a platform))"
+    ]
+   },
+   {
+    "table": "sr_water_bottles_01",
+    "kinds": [
+     "3"
+    ],
+    "kinds_on_familiar_brands": [
+     "3"
+    ],
+    "leaks": [
+     "3 feature: \"No Sweat design\" (Yeti; points to Yeti)",
+     "3 feature: \"TempShield\" (Hydro Flask; points to Hydro Flask)"
+    ]
+   },
+   {
+    "table": "sr_wireless_routers_01",
+    "kinds": [
+     "2",
+     "3",
+     "4"
+    ],
+    "kinds_on_familiar_brands": [
+     "2",
+     "3",
+     "4"
+    ],
+    "leaks": [
+     "3 feature: \"HomeShield\" (Netweave, the best product; points to TP-Link (the real maker of the product marked as best in the table))",
+     "3 feature: \"AiMesh, AiProtection Pro\" (ASUS; points to ASUS)",
+     "4 copy: \"the manufacturer Armor security\" (Netgear; points to Netgear)",
+     "2 line: \"Velop\" (Linksys; points to Linksys (its mesh product line))"
+    ]
+   }
+  ],
+  "script": "study1b-64-models-on-34-tables/code/04_names_hidden_leaks.py",
+  "input": {
+   "files": 60,
+   "rows_used": 40813
+  }
+ },
+ "recommended_price": {
+  "unparsed_answers_left_out": {
+   "baseline": 45,
+   "baseline_brand_blind": 24
+  },
+  "price_checked_against_prompt": 40744,
+  "rec_price": {
+   "unit": "USD",
+   "pooled": {
+    "shown_mean": 245.86,
+    "hidden_mean": 237.63,
+    "difference": 8.23,
+    "ci95": [
+     3.92,
+     13.76
+    ],
+    "p_two_sided": 0.0,
+    "draws": 10000,
+    "seed": 20261120
+   },
+   "per_model_summary": {
+    "higher_with_names": 26,
+    "n": 30,
+    "median": 6.24,
+    "interval_above_zero": 20,
+    "interval_below_zero": 0
+   },
+   "per_table_summary": {
+    "higher_with_names": 32,
+    "n": 34,
+    "median": 3.25,
+    "interval_above_zero": 20,
+    "interval_below_zero": 0
+   },
+   "cells_higher_with_names": 465,
+   "cells_lower_with_names": 123,
+   "cells_equal": 431,
+   "per_model": [
+    {
+     "model_key": "claude-opus-4.7",
+     "shown_mean": 280.88,
+     "hidden_mean": 246.64,
+     "difference": 34.24,
+     "ci95_tables_resampled": [
+      19.89,
+      50.82
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "model_key": "gpt-5.4-nano",
+     "shown_mean": 270.97,
+     "hidden_mean": 245.57,
+     "difference": 25.4,
+     "ci95_tables_resampled": [
+      14.72,
+      38.89
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "model_key": "claude-sonnet-4.6-thinking",
+     "shown_mean": 256.2,
+     "hidden_mean": 231.03,
+     "difference": 25.16,
+     "ci95_tables_resampled": [
+      13.48,
+      39.57
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "model_key": "gpt-5.4",
+     "shown_mean": 272.28,
+     "hidden_mean": 252.55,
+     "difference": 19.74,
+     "ci95_tables_resampled": [
+      6.61,
+      34.27
+     ],
+     "p_two_sided": 0.0024
+    },
+    {
+     "model_key": "deepseek-v3",
+     "shown_mean": 261.17,
+     "hidden_mean": 242.96,
+     "difference": 18.21,
+     "ci95_tables_resampled": [
+      9.73,
+      28.29
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "model_key": "claude-sonnet-4.6",
+     "shown_mean": 251.76,
+     "hidden_mean": 233.63,
+     "difference": 18.13,
+     "ci95_tables_resampled": [
+      8.24,
+      29.95
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "model_key": "gemma-4-31b-it",
+     "shown_mean": 249.69,
+     "hidden_mean": 234.32,
+     "difference": 15.37,
+     "ci95_tables_resampled": [
+      2.58,
+      35.22
+     ],
+     "p_two_sided": 0.0046
+    },
+    {
+     "model_key": "deepseek-r1",
+     "shown_mean": 243.72,
+     "hidden_mean": 233.92,
+     "difference": 9.8,
+     "ci95_tables_resampled": [
+      5.52,
+      14.72
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "model_key": "llama-3.3-70b",
+     "shown_mean": 252.02,
+     "hidden_mean": 242.89,
+     "difference": 9.13,
+     "ci95_tables_resampled": [
+      3.92,
+      14.82
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "model_key": "claude-opus-4.6",
+     "shown_mean": 238.21,
+     "hidden_mean": 229.26,
+     "difference": 8.96,
+     "ci95_tables_resampled": [
+      3.38,
+      15.99
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "model_key": "gemini-3.1-flash-lite",
+     "shown_mean": 240.63,
+     "hidden_mean": 231.78,
+     "difference": 8.85,
+     "ci95_tables_resampled": [
+      2.43,
+      17.03
+     ],
+     "p_two_sided": 0.0004
+    },
+    {
+     "model_key": "gemini-3.1-pro",
+     "shown_mean": 273.07,
+     "hidden_mean": 265.26,
+     "difference": 7.82,
+     "ci95_tables_resampled": [
+      2.19,
+      14.79
+     ],
+     "p_two_sided": 0.0014
+    },
+    {
+     "model_key": "claude-haiku-4.5",
+     "shown_mean": 238.68,
+     "hidden_mean": 231.5,
+     "difference": 7.18,
+     "ci95_tables_resampled": [
+      3.32,
+      11.55
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "model_key": "gemini-2.0-flash",
+     "shown_mean": 240.78,
+     "hidden_mean": 233.89,
+     "difference": 6.89,
+     "ci95_tables_resampled": [
+      3.37,
+      11.02
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "model_key": "gpt-5.4-mini",
+     "shown_mean": 238.62,
+     "hidden_mean": 232.0,
+     "difference": 6.63,
+     "ci95_tables_resampled": [
+      2.75,
+      11.49
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "model_key": "gemini-3-flash",
+     "shown_mean": 237.8,
+     "hidden_mean": 231.94,
+     "difference": 5.86,
+     "ci95_tables_resampled": [
+      0.82,
+      12.25
+     ],
+     "p_two_sided": 0.0124
+    },
+    {
+     "model_key": "gemini-3-flash-thinking",
+     "shown_mean": 237.37,
+     "hidden_mean": 232.01,
+     "difference": 5.36,
+     "ci95_tables_resampled": [
+      -0.39,
+      14.44
+     ],
+     "p_two_sided": 0.0856
+    },
+    {
+     "model_key": "kimi-k2",
+     "shown_mean": 244.24,
+     "hidden_mean": 239.22,
+     "difference": 5.02,
+     "ci95_tables_resampled": [
+      2.36,
+      7.95
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "model_key": "gpt-5-mini",
+     "shown_mean": 236.35,
+     "hidden_mean": 232.09,
+     "difference": 4.26,
+     "ci95_tables_resampled": [
+      1.49,
+      8.03
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "model_key": "claude-haiku-4.5-thinking",
+     "shown_mean": 233.64,
+     "hidden_mean": 229.7,
+     "difference": 3.94,
+     "ci95_tables_resampled": [
+      1.79,
+      6.39
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "model_key": "gpt-5.4-mini-thinking",
+     "shown_mean": 236.19,
+     "hidden_mean": 232.56,
+     "difference": 3.62,
+     "ci95_tables_resampled": [
+      0.41,
+      7.81
+     ],
+     "p_two_sided": 0.0156
+    },
+    {
+     "model_key": "gpt-4o-mini",
+     "shown_mean": 236.84,
+     "hidden_mean": 235.07,
+     "difference": 1.77,
+     "ci95_tables_resampled": [
+      -2.03,
+      5.55
+     ],
+     "p_two_sided": 0.3474
+    },
+    {
+     "model_key": "gpt-4.1-nano",
+     "shown_mean": 234.15,
+     "hidden_mean": 232.92,
+     "difference": 1.23,
+     "ci95_tables_resampled": [
+      -1.65,
+      4.34
+     ],
+     "p_two_sided": 0.4238
+    },
+    {
+     "model_key": "gemini-2.5-flash-lite",
+     "shown_mean": 235.17,
+     "hidden_mean": 234.05,
+     "difference": 1.12,
+     "ci95_tables_resampled": [
+      -1.54,
+      4.04
+     ],
+     "p_two_sided": 0.4296
+    },
+    {
+     "model_key": "gpt-4o",
+     "shown_mean": 234.95,
+     "hidden_mean": 234.18,
+     "difference": 0.76,
+     "ci95_tables_resampled": [
+      -2.85,
+      3.71
+     ],
+     "p_two_sided": 0.6358
+    },
+    {
+     "model_key": "gpt-4.1-mini",
+     "shown_mean": 230.95,
+     "hidden_mean": 230.79,
+     "difference": 0.15,
+     "ci95_tables_resampled": [
+      -1.16,
+      1.32
+     ],
+     "p_two_sided": 0.782
+    },
+    {
+     "model_key": "gemini-2.5-flash",
+     "shown_mean": 235.66,
+     "hidden_mean": 236.28,
+     "difference": -0.62,
+     "ci95_tables_resampled": [
+      -3.75,
+      1.82
+     ],
+     "p_two_sided": 0.7252
+    },
+    {
+     "model_key": "gemma-3-27b",
+     "shown_mean": 236.1,
+     "hidden_mean": 237.21,
+     "difference": -1.11,
+     "ci95_tables_resampled": [
+      -5.0,
+      2.25
+     ],
+     "p_two_sided": 0.5624
+    },
+    {
+     "model_key": "gemini-2.5-pro",
+     "shown_mean": 248.35,
+     "hidden_mean": 251.08,
+     "difference": -2.73,
+     "ci95_tables_resampled": [
+      -11.02,
+      5.32
+     ],
+     "p_two_sided": 0.532
+    },
+    {
+     "model_key": "qwen-2.5-72b",
+     "shown_mean": 249.71,
+     "hidden_mean": 252.69,
+     "difference": -2.98,
+     "ci95_tables_resampled": [
+      -15.97,
+      5.71
+     ],
+     "p_two_sided": 0.67
+    }
+   ],
+   "per_table": [
+    {
+     "table": "sr_laptops_01",
+     "best_price": 479.99,
+     "shown_mean": 574.73,
+     "hidden_mean": 536.38,
+     "difference": 38.35,
+     "ci95_models_resampled": [
+      22.1,
+      56.39
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "table": "sr_tvs_02",
+     "best_price": 899.99,
+     "shown_mean": 960.31,
+     "hidden_mean": 927.15,
+     "difference": 33.16,
+     "ci95_models_resampled": [
+      14.31,
+      53.82
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "table": "sr_headphones_01",
+     "best_price": 149.99,
+     "shown_mean": 187.24,
+     "hidden_mean": 158.24,
+     "difference": 29.0,
+     "ci95_models_resampled": [
+      18.0,
+      40.92
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "table": "sr_tvs_03",
+     "best_price": 249.99,
+     "shown_mean": 285.02,
+     "hidden_mean": 256.44,
+     "difference": 28.58,
+     "ci95_models_resampled": [
+      19.48,
+      38.73
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "table": "sr_laptops_02",
+     "best_price": 549.99,
+     "shown_mean": 632.57,
+     "hidden_mean": 612.14,
+     "difference": 20.42,
+     "ci95_models_resampled": [
+      -4.64,
+      45.26
+     ],
+     "p_two_sided": 0.102
+    },
+    {
+     "table": "sr_tablets_01",
+     "best_price": 249.99,
+     "shown_mean": 283.74,
+     "hidden_mean": 264.19,
+     "difference": 19.56,
+     "ci95_models_resampled": [
+      12.76,
+      26.75
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "table": "sr_smartphones_01",
+     "best_price": 299.99,
+     "shown_mean": 347.24,
+     "hidden_mean": 331.49,
+     "difference": 15.75,
+     "ci95_models_resampled": [
+      4.92,
+      27.42
+     ],
+     "p_two_sided": 0.0024
+    },
+    {
+     "table": "sr_cameras_01",
+     "best_price": 749.0,
+     "shown_mean": 769.24,
+     "hidden_mean": 754.64,
+     "difference": 14.61,
+     "ci95_models_resampled": [
+      2.26,
+      28.32
+     ],
+     "p_two_sided": 0.0206
+    },
+    {
+     "table": "sr_headphones_03",
+     "best_price": 189.0,
+     "shown_mean": 244.27,
+     "hidden_mean": 232.76,
+     "difference": 11.51,
+     "ci95_models_resampled": [
+      6.39,
+      17.0
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "table": "sr_portable_speakers_01",
+     "best_price": 49.99,
+     "shown_mean": 63.77,
+     "hidden_mean": 52.69,
+     "difference": 11.07,
+     "ci95_models_resampled": [
+      7.04,
+      15.43
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "table": "sr_headphones_02",
+     "best_price": 69.99,
+     "shown_mean": 102.22,
+     "hidden_mean": 92.13,
+     "difference": 10.09,
+     "ci95_models_resampled": [
+      6.73,
+      13.61
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "table": "sr_smartphones_03",
+     "best_price": 279.99,
+     "shown_mean": 290.68,
+     "hidden_mean": 282.01,
+     "difference": 8.68,
+     "ci95_models_resampled": [
+      5.64,
+      11.89
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "table": "sr_robot_vacuums_01",
+     "best_price": 379.99,
+     "shown_mean": 394.56,
+     "hidden_mean": 388.82,
+     "difference": 5.73,
+     "ci95_models_resampled": [
+      0.9,
+      11.02
+     ],
+     "p_two_sided": 0.0186
+    },
+    {
+     "table": "sr_earbuds_03",
+     "best_price": 39.99,
+     "shown_mean": 48.62,
+     "hidden_mean": 43.69,
+     "difference": 4.93,
+     "ci95_models_resampled": [
+      2.23,
+      8.4
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "table": "sr_laptops_03",
+     "best_price": 399.99,
+     "shown_mean": 413.09,
+     "hidden_mean": 409.07,
+     "difference": 4.02,
+     "ci95_models_resampled": [
+      -1.33,
+      10.0
+     ],
+     "p_two_sided": 0.1508
+    },
+    {
+     "table": "sr_tvs_01",
+     "best_price": 599.99,
+     "shown_mean": 603.62,
+     "hidden_mean": 600.28,
+     "difference": 3.34,
+     "ci95_models_resampled": [
+      0.42,
+      7.08
+     ],
+     "p_two_sided": 0.0172
+    },
+    {
+     "table": "sr_running_shoes_01",
+     "best_price": 124.99,
+     "shown_mean": 130.82,
+     "hidden_mean": 127.55,
+     "difference": 3.27,
+     "ci95_models_resampled": [
+      1.4,
+      5.3
+     ],
+     "p_two_sided": 0.0002
+    },
+    {
+     "table": "sr_coffee_makers_03",
+     "best_price": 24.99,
+     "shown_mean": 36.42,
+     "hidden_mean": 33.19,
+     "difference": 3.23,
+     "ci95_models_resampled": [
+      1.9,
+      4.53
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "table": "sr_running_shoes_02",
+     "best_price": 119.99,
+     "shown_mean": 125.52,
+     "hidden_mean": 122.34,
+     "difference": 3.18,
+     "ci95_models_resampled": [
+      1.6,
+      5.1
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "table": "sr_smartwatches_01",
+     "best_price": 249.99,
+     "shown_mean": 253.98,
+     "hidden_mean": 251.65,
+     "difference": 2.33,
+     "ci95_models_resampled": [
+      -0.5,
+      5.49
+     ],
+     "p_two_sided": 0.1112
+    },
+    {
+     "table": "sr_smartphones_02",
+     "best_price": 329.99,
+     "shown_mean": 332.46,
+     "hidden_mean": 330.61,
+     "difference": 1.85,
+     "ci95_models_resampled": [
+      0.51,
+      3.55
+     ],
+     "p_two_sided": 0.0002
+    },
+    {
+     "table": "sr_monitors_01",
+     "best_price": 249.99,
+     "shown_mean": 256.87,
+     "hidden_mean": 255.42,
+     "difference": 1.44,
+     "ci95_models_resampled": [
+      -1.95,
+      5.04
+     ],
+     "p_two_sided": 0.3924
+    },
+    {
+     "table": "sr_external_ssds_01",
+     "best_price": 89.99,
+     "shown_mean": 92.61,
+     "hidden_mean": 91.24,
+     "difference": 1.37,
+     "ci95_models_resampled": [
+      -2.06,
+      5.24
+     ],
+     "p_two_sided": 0.4524
+    },
+    {
+     "table": "sr_coffee_makers_02",
+     "best_price": 99.99,
+     "shown_mean": 120.36,
+     "hidden_mean": 119.29,
+     "difference": 1.07,
+     "ci95_models_resampled": [
+      -1.3,
+      3.2
+     ],
+     "p_two_sided": 0.3556
+    },
+    {
+     "table": "sr_backpacks_01",
+     "best_price": 54.99,
+     "shown_mean": 57.28,
+     "hidden_mean": 56.29,
+     "difference": 0.99,
+     "ci95_models_resampled": [
+      -0.77,
+      2.54
+     ],
+     "p_two_sided": 0.246
+    },
+    {
+     "table": "sr_coffee_makers_01",
+     "best_price": 69.99,
+     "shown_mean": 72.05,
+     "hidden_mean": 71.11,
+     "difference": 0.94,
+     "ci95_models_resampled": [
+      0.15,
+      1.94
+     ],
+     "p_two_sided": 0.0102
+    },
+    {
+     "table": "sr_earbuds_01",
+     "best_price": 59.99,
+     "shown_mean": 60.86,
+     "hidden_mean": 59.99,
+     "difference": 0.87,
+     "ci95_models_resampled": [
+      0.0,
+      1.97
+     ],
+     "p_two_sided": 0.0904
+    },
+    {
+     "table": "sr_water_bottles_01",
+     "best_price": 19.99,
+     "shown_mean": 21.62,
+     "hidden_mean": 21.04,
+     "difference": 0.58,
+     "ci95_models_resampled": [
+      -0.45,
+      1.45
+     ],
+     "p_two_sided": 0.243
+    },
+    {
+     "table": "sr_electric_toothbrushes_01",
+     "best_price": 39.99,
+     "shown_mean": 41.13,
+     "hidden_mean": 40.56,
+     "difference": 0.57,
+     "ci95_models_resampled": [
+      -0.68,
+      1.63
+     ],
+     "p_two_sided": 0.338
+    },
+    {
+     "table": "sr_blenders_01",
+     "best_price": 109.99,
+     "shown_mean": 111.73,
+     "hidden_mean": 111.3,
+     "difference": 0.43,
+     "ci95_models_resampled": [
+      -1.72,
+      2.67
+     ],
+     "p_two_sided": 0.7176
+    },
+    {
+     "table": "sr_earbuds_02",
+     "best_price": 49.99,
+     "shown_mean": 50.21,
+     "hidden_mean": 50.03,
+     "difference": 0.18,
+     "ci95_models_resampled": [
+      0.02,
+      0.41
+     ],
+     "p_two_sided": 0.0084
+    },
+    {
+     "table": "sr_wireless_routers_01",
+     "best_price": 149.99,
+     "shown_mean": 153.46,
+     "hidden_mean": 153.33,
+     "difference": 0.13,
+     "ci95_models_resampled": [
+      -2.87,
+      2.35
+     ],
+     "p_two_sided": 0.8668
+    },
+    {
+     "table": "sr_keyboards_01",
+     "best_price": 109.99,
+     "shown_mean": 109.94,
+     "hidden_mean": 109.97,
+     "difference": -0.03,
+     "ci95_models_resampled": [
+      -0.25,
+      0.13
+     ],
+     "p_two_sided": 0.8164
+    },
+    {
+     "table": "sr_running_shoes_03",
+     "best_price": 129.99,
+     "shown_mean": 129.99,
+     "hidden_mean": 130.19,
+     "difference": -0.2,
+     "ci95_models_resampled": [
+      -0.6,
+      0.0
+     ],
+     "p_two_sided": 0.732
+    }
+   ]
+  },
+  "rec_rel": {
+   "unit": "percent of the best product's price",
+   "pooled": {
+    "shown_mean": 110.43,
+    "hidden_mean": 105.9,
+    "difference": 4.53,
+    "ci95": [
+     2.42,
+     7.1
+    ],
+    "p_two_sided": 0.0,
+    "draws": 10000,
+    "seed": 20261120
+   },
+   "per_model_summary": {
+    "higher_with_names": 29,
+    "n": 30,
+    "median": 4.08,
+    "interval_above_zero": 21,
+    "interval_below_zero": 0
+   },
+   "per_table_summary": {
+    "higher_with_names": 32,
+    "n": 34,
+    "median": 1.88,
+    "interval_above_zero": 20,
+    "interval_below_zero": 0
+   },
+   "cells_higher_with_names": 464,
+   "cells_lower_with_names": 123,
+   "cells_equal": 432,
+   "per_model": [
+    {
+     "model_key": "claude-opus-4.7",
+     "shown_mean": 124.33,
+     "hidden_mean": 110.01,
+     "difference": 14.32,
+     "ci95_tables_resampled": [
+      8.71,
+      20.75
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "model_key": "gpt-5.4-nano",
+     "shown_mean": 121.08,
+     "hidden_mean": 108.84,
+     "difference": 12.24,
+     "ci95_tables_resampled": [
+      8.21,
+      16.92
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "model_key": "claude-sonnet-4.6-thinking",
+     "shown_mean": 115.16,
+     "hidden_mean": 103.94,
+     "difference": 11.22,
+     "ci95_tables_resampled": [
+      6.69,
+      16.67
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "model_key": "gpt-5.4",
+     "shown_mean": 120.66,
+     "hidden_mean": 110.43,
+     "difference": 10.22,
+     "ci95_tables_resampled": [
+      5.42,
+      16.33
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "model_key": "deepseek-v3",
+     "shown_mean": 117.72,
+     "hidden_mean": 108.2,
+     "difference": 9.52,
+     "ci95_tables_resampled": [
+      4.92,
+      14.88
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "model_key": "claude-sonnet-4.6",
+     "shown_mean": 113.47,
+     "hidden_mean": 104.35,
+     "difference": 9.11,
+     "ci95_tables_resampled": [
+      5.61,
+      13.27
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "model_key": "deepseek-r1",
+     "shown_mean": 110.92,
+     "hidden_mean": 104.61,
+     "difference": 6.31,
+     "ci95_tables_resampled": [
+      3.68,
+      9.18
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "model_key": "gemini-3.1-flash-lite",
+     "shown_mean": 109.82,
+     "hidden_mean": 103.82,
+     "difference": 6.0,
+     "ci95_tables_resampled": [
+      2.2,
+      10.86
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "model_key": "llama-3.3-70b",
+     "shown_mean": 112.91,
+     "hidden_mean": 107.34,
+     "difference": 5.57,
+     "ci95_tables_resampled": [
+      2.73,
+      8.94
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "model_key": "gemini-2.0-flash",
+     "shown_mean": 108.65,
+     "hidden_mean": 103.55,
+     "difference": 5.1,
+     "ci95_tables_resampled": [
+      2.45,
+      8.43
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "model_key": "claude-opus-4.6",
+     "shown_mean": 107.35,
+     "hidden_mean": 102.41,
+     "difference": 4.94,
+     "ci95_tables_resampled": [
+      2.27,
+      8.19
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "model_key": "gemma-4-31b-it",
+     "shown_mean": 109.06,
+     "hidden_mean": 104.27,
+     "difference": 4.79,
+     "ci95_tables_resampled": [
+      1.55,
+      8.98
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "model_key": "gpt-5.4-mini",
+     "shown_mean": 108.23,
+     "hidden_mean": 103.57,
+     "difference": 4.66,
+     "ci95_tables_resampled": [
+      2.17,
+      7.59
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "model_key": "claude-haiku-4.5",
+     "shown_mean": 107.6,
+     "hidden_mean": 103.07,
+     "difference": 4.52,
+     "ci95_tables_resampled": [
+      2.28,
+      7.04
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "model_key": "qwen-2.5-72b",
+     "shown_mean": 116.25,
+     "hidden_mean": 111.88,
+     "difference": 4.36,
+     "ci95_tables_resampled": [
+      -1.49,
+      12.32
+     ],
+     "p_two_sided": 0.2068
+    },
+    {
+     "model_key": "gemini-3.1-pro",
+     "shown_mean": 117.46,
+     "hidden_mean": 113.67,
+     "difference": 3.8,
+     "ci95_tables_resampled": [
+      1.02,
+      7.66
+     ],
+     "p_two_sided": 0.0002
+    },
+    {
+     "model_key": "kimi-k2",
+     "shown_mean": 109.46,
+     "hidden_mean": 105.96,
+     "difference": 3.5,
+     "ci95_tables_resampled": [
+      1.92,
+      5.26
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "model_key": "claude-haiku-4.5-thinking",
+     "shown_mean": 106.45,
+     "hidden_mean": 103.07,
+     "difference": 3.38,
+     "ci95_tables_resampled": [
+      1.19,
+      6.13
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "model_key": "gpt-5-mini",
+     "shown_mean": 108.1,
+     "hidden_mean": 105.28,
+     "difference": 2.82,
+     "ci95_tables_resampled": [
+      1.12,
+      4.92
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "model_key": "gemini-3-flash-thinking",
+     "shown_mean": 106.33,
+     "hidden_mean": 103.53,
+     "difference": 2.8,
+     "ci95_tables_resampled": [
+      0.68,
+      5.45
+     ],
+     "p_two_sided": 0.005
+    },
+    {
+     "model_key": "gemini-3-flash",
+     "shown_mean": 106.54,
+     "hidden_mean": 104.37,
+     "difference": 2.18,
+     "ci95_tables_resampled": [
+      -0.34,
+      5.6
+     ],
+     "p_two_sided": 0.1108
+    },
+    {
+     "model_key": "gpt-5.4-mini-thinking",
+     "shown_mean": 107.57,
+     "hidden_mean": 105.95,
+     "difference": 1.61,
+     "ci95_tables_resampled": [
+      0.63,
+      2.73
+     ],
+     "p_two_sided": 0.0002
+    },
+    {
+     "model_key": "gpt-4.1-nano",
+     "shown_mean": 106.02,
+     "hidden_mean": 104.43,
+     "difference": 1.59,
+     "ci95_tables_resampled": [
+      -0.9,
+      4.29
+     ],
+     "p_two_sided": 0.2338
+    },
+    {
+     "model_key": "gemini-2.5-flash-lite",
+     "shown_mean": 104.67,
+     "hidden_mean": 103.2,
+     "difference": 1.47,
+     "ci95_tables_resampled": [
+      0.17,
+      2.98
+     ],
+     "p_two_sided": 0.0232
+    },
+    {
+     "model_key": "gpt-4o-mini",
+     "shown_mean": 105.51,
+     "hidden_mean": 104.07,
+     "difference": 1.44,
+     "ci95_tables_resampled": [
+      -0.39,
+      3.31
+     ],
+     "p_two_sided": 0.123
+    },
+    {
+     "model_key": "gpt-4o",
+     "shown_mean": 104.67,
+     "hidden_mean": 103.49,
+     "difference": 1.18,
+     "ci95_tables_resampled": [
+      -0.38,
+      2.98
+     ],
+     "p_two_sided": 0.1482
+    },
+    {
+     "model_key": "gemma-3-27b",
+     "shown_mean": 105.64,
+     "hidden_mean": 104.83,
+     "difference": 0.81,
+     "ci95_tables_resampled": [
+      -0.78,
+      2.61
+     ],
+     "p_two_sided": 0.3404
+    },
+    {
+     "model_key": "gpt-4.1-mini",
+     "shown_mean": 103.13,
+     "hidden_mean": 102.51,
+     "difference": 0.62,
+     "ci95_tables_resampled": [
+      -0.45,
+      2.15
+     ],
+     "p_two_sided": 0.3686
+    },
+    {
+     "model_key": "gemini-2.5-flash",
+     "shown_mean": 106.31,
+     "hidden_mean": 106.0,
+     "difference": 0.31,
+     "ci95_tables_resampled": [
+      -1.74,
+      2.39
+     ],
+     "p_two_sided": 0.779
+    },
+    {
+     "model_key": "gemini-2.5-pro",
+     "shown_mean": 111.88,
+     "hidden_mean": 116.45,
+     "difference": -4.58,
+     "ci95_tables_resampled": [
+      -10.18,
+      0.55
+     ],
+     "p_two_sided": 0.0828
+    }
+   ],
+   "per_table": [
+    {
+     "table": "sr_portable_speakers_01",
+     "best_price": 49.99,
+     "shown_mean": 127.56,
+     "hidden_mean": 105.41,
+     "difference": 22.15,
+     "ci95_models_resampled": [
+      14.08,
+      30.87
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "table": "sr_headphones_01",
+     "best_price": 149.99,
+     "shown_mean": 124.83,
+     "hidden_mean": 105.5,
+     "difference": 19.33,
+     "ci95_models_resampled": [
+      12.0,
+      27.28
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "table": "sr_headphones_02",
+     "best_price": 69.99,
+     "shown_mean": 146.05,
+     "hidden_mean": 131.63,
+     "difference": 14.42,
+     "ci95_models_resampled": [
+      9.62,
+      19.45
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "table": "sr_coffee_makers_03",
+     "best_price": 24.99,
+     "shown_mean": 145.75,
+     "hidden_mean": 132.81,
+     "difference": 12.93,
+     "ci95_models_resampled": [
+      7.6,
+      18.12
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "table": "sr_earbuds_03",
+     "best_price": 39.99,
+     "shown_mean": 121.59,
+     "hidden_mean": 109.25,
+     "difference": 12.34,
+     "ci95_models_resampled": [
+      5.58,
+      21.01
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "table": "sr_tvs_03",
+     "best_price": 249.99,
+     "shown_mean": 114.01,
+     "hidden_mean": 102.58,
+     "difference": 11.43,
+     "ci95_models_resampled": [
+      7.79,
+      15.49
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "table": "sr_laptops_01",
+     "best_price": 479.99,
+     "shown_mean": 119.74,
+     "hidden_mean": 111.75,
+     "difference": 7.99,
+     "ci95_models_resampled": [
+      4.6,
+      11.75
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "table": "sr_tablets_01",
+     "best_price": 249.99,
+     "shown_mean": 113.5,
+     "hidden_mean": 105.68,
+     "difference": 7.82,
+     "ci95_models_resampled": [
+      5.1,
+      10.7
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "table": "sr_headphones_03",
+     "best_price": 189.0,
+     "shown_mean": 129.24,
+     "hidden_mean": 123.16,
+     "difference": 6.09,
+     "ci95_models_resampled": [
+      3.38,
+      8.99
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "table": "sr_smartphones_01",
+     "best_price": 299.99,
+     "shown_mean": 115.75,
+     "hidden_mean": 110.5,
+     "difference": 5.25,
+     "ci95_models_resampled": [
+      1.64,
+      9.14
+     ],
+     "p_two_sided": 0.0024
+    },
+    {
+     "table": "sr_laptops_02",
+     "best_price": 549.99,
+     "shown_mean": 115.01,
+     "hidden_mean": 111.3,
+     "difference": 3.71,
+     "ci95_models_resampled": [
+      -0.84,
+      8.23
+     ],
+     "p_two_sided": 0.102
+    },
+    {
+     "table": "sr_tvs_02",
+     "best_price": 899.99,
+     "shown_mean": 106.7,
+     "hidden_mean": 103.02,
+     "difference": 3.68,
+     "ci95_models_resampled": [
+      1.59,
+      5.98
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "table": "sr_smartphones_03",
+     "best_price": 279.99,
+     "shown_mean": 103.82,
+     "hidden_mean": 100.72,
+     "difference": 3.1,
+     "ci95_models_resampled": [
+      2.01,
+      4.25
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "table": "sr_water_bottles_01",
+     "best_price": 19.99,
+     "shown_mean": 108.18,
+     "hidden_mean": 105.26,
+     "difference": 2.92,
+     "ci95_models_resampled": [
+      -2.24,
+      7.24
+     ],
+     "p_two_sided": 0.243
+    },
+    {
+     "table": "sr_running_shoes_02",
+     "best_price": 119.99,
+     "shown_mean": 104.61,
+     "hidden_mean": 101.96,
+     "difference": 2.65,
+     "ci95_models_resampled": [
+      1.33,
+      4.25
+     ],
+     "p_two_sided": 0.0
+    },
+    {
+     "table": "sr_running_shoes_01",
+     "best_price": 124.99,
+     "shown_mean": 104.66,
+     "hidden_mean": 102.05,
+     "difference": 2.61,
+     "ci95_models_resampled": [
+      1.12,
+      4.24
+     ],
+     "p_two_sided": 0.0002
+    },
+    {
+     "table": "sr_cameras_01",
+     "best_price": 749.0,
+     "shown_mean": 102.7,
+     "hidden_mean": 100.75,
+     "difference": 1.95,
+     "ci95_models_resampled": [
+      0.3,
+      3.78
+     ],
+     "p_two_sided": 0.0206
+    },
+    {
+     "table": "sr_backpacks_01",
+     "best_price": 54.99,
+     "shown_mean": 104.17,
+     "hidden_mean": 102.37,
+     "difference": 1.8,
+     "ci95_models_resampled": [
+      -1.4,
+      4.62
+     ],
+     "p_two_sided": 0.246
+    },
+    {
+     "table": "sr_external_ssds_01",
+     "best_price": 89.99,
+     "shown_mean": 102.91,
+     "hidden_mean": 101.39,
+     "difference": 1.52,
+     "ci95_models_resampled": [
+      -2.29,
+      5.82
+     ],
+     "p_two_sided": 0.452
+    },
+    {
+     "table": "sr_robot_vacuums_01",
+     "best_price": 379.99,
+     "shown_mean": 103.83,
+     "hidden_mean": 102.32,
+     "difference": 1.51,
+     "ci95_models_resampled": [
+      0.24,
+      2.9
+     ],
+     "p_two_sided": 0.0186
+    },
+    {
+     "table": "sr_earbuds_01",
+     "best_price": 59.99,
+     "shown_mean": 101.44,
+     "hidden_mean": 100.0,
+     "difference": 1.44,
+     "ci95_models_resampled": [
+      0.0,
+      3.28
+     ],
+     "p_two_sided": 0.0904
+    },
+    {
+     "table": "sr_electric_toothbrushes_01",
+     "best_price": 39.99,
+     "shown_mean": 102.84,
+     "hidden_mean": 101.42,
+     "difference": 1.41,
+     "ci95_models_resampled": [
+      -1.71,
+      4.09
+     ],
+     "p_two_sided": 0.3364
+    },
+    {
+     "table": "sr_coffee_makers_01",
+     "best_price": 69.99,
+     "shown_mean": 102.94,
+     "hidden_mean": 101.6,
+     "difference": 1.34,
+     "ci95_models_resampled": [
+      0.21,
+      2.77
+     ],
+     "p_two_sided": 0.0102
+    },
+    {
+     "table": "sr_coffee_makers_02",
+     "best_price": 99.99,
+     "shown_mean": 120.37,
+     "hidden_mean": 119.3,
+     "difference": 1.07,
+     "ci95_models_resampled": [
+      -1.3,
+      3.2
+     ],
+     "p_two_sided": 0.3536
+    },
+    {
+     "table": "sr_laptops_03",
+     "best_price": 399.99,
+     "shown_mean": 103.28,
+     "hidden_mean": 102.27,
+     "difference": 1.0,
+     "ci95_models_resampled": [
+      -0.33,
+      2.5
+     ],
+     "p_two_sided": 0.1494
+    },
+    {
+     "table": "sr_smartwatches_01",
+     "best_price": 249.99,
+     "shown_mean": 101.6,
+     "hidden_mean": 100.67,
+     "difference": 0.93,
+     "ci95_models_resampled": [
+      -0.2,
+      2.2
+     ],
+     "p_two_sided": 0.1114
+    },
+    {
+     "table": "sr_monitors_01",
+     "best_price": 249.99,
+     "shown_mean": 102.75,
+     "hidden_mean": 102.17,
+     "difference": 0.58,
+     "ci95_models_resampled": [
+      -0.78,
+      2.02
+     ],
+     "p_two_sided": 0.3922
+    },
+    {
+     "table": "sr_smartphones_02",
+     "best_price": 329.99,
+     "shown_mean": 100.75,
+     "hidden_mean": 100.19,
+     "difference": 0.56,
+     "ci95_models_resampled": [
+      0.16,
+      1.08
+     ],
+     "p_two_sided": 0.0002
+    },
+    {
+     "table": "sr_tvs_01",
+     "best_price": 599.99,
+     "shown_mean": 100.61,
+     "hidden_mean": 100.05,
+     "difference": 0.56,
+     "ci95_models_resampled": [
+      0.07,
+      1.18
+     ],
+     "p_two_sided": 0.0172
+    },
+    {
+     "table": "sr_blenders_01",
+     "best_price": 109.99,
+     "shown_mean": 101.58,
+     "hidden_mean": 101.19,
+     "difference": 0.39,
+     "ci95_models_resampled": [
+      -1.57,
+      2.43
+     ],
+     "p_two_sided": 0.7176
+    },
+    {
+     "table": "sr_earbuds_02",
+     "best_price": 49.99,
+     "shown_mean": 100.44,
+     "hidden_mean": 100.08,
+     "difference": 0.36,
+     "ci95_models_resampled": [
+      0.05,
+      0.82
+     ],
+     "p_two_sided": 0.0084
+    },
+    {
+     "table": "sr_wireless_routers_01",
+     "best_price": 149.99,
+     "shown_mean": 102.32,
+     "hidden_mean": 102.23,
+     "difference": 0.09,
+     "ci95_models_resampled": [
+      -1.91,
+      1.57
+     ],
+     "p_two_sided": 0.8656
+    },
+    {
+     "table": "sr_keyboards_01",
+     "best_price": 109.99,
+     "shown_mean": 99.95,
+     "hidden_mean": 99.98,
+     "difference": -0.03,
+     "ci95_models_resampled": [
+      -0.23,
+      0.12
+     ],
+     "p_two_sided": 0.8138
+    },
+    {
+     "table": "sr_running_shoes_03",
+     "best_price": 129.99,
+     "shown_mean": 100.0,
+     "hidden_mean": 100.15,
+     "difference": -0.15,
+     "ci95_models_resampled": [
+      -0.46,
+      0.0
+     ],
+     "p_two_sided": 0.732
+    }
+   ]
+  },
+  "script": "study1b-64-models-on-34-tables/code/05_recommended_price.py",
+  "input": {
+   "files": 60,
+   "rows_used": 40813
+  }
+ },
+ "long_answers_gemini_2_5_pro": {
+  "model": "gemini-2.5-pro",
+  "answers": 1360,
+  "cap_length_output_tokens": 1020,
+  "capped_answers": 384,
+  "capped_with_no_parsed_letter": 0,
+  "capped_by_condition": {
+   "names_shown": 189,
+   "names_hidden": 195
+  },
+  "capped_share_by_condition_pct": {
+   "names_shown": 27.8,
+   "names_hidden": 28.7
+  },
+  "capped_visible_text_characters_median": 179.5,
+  "best_product_rate_pct": {
+   "names_shown": {
+    "capped": 76.2,
+    "not_capped": 70.7
+   },
+   "names_hidden": {
+    "capped": 86.7,
+    "not_capped": 51.8
+   }
+  },
+  "gap": {
+   "all_answers": {
+    "shown_nonoptimal_pct": 27.79,
+    "hidden_nonoptimal_pct": 38.24,
+    "answers_shown": 680,
+    "answers_hidden": 680,
+    "gap_pp": -10.44,
+    "ci95_tables_resampled": [
+     -21.76,
+     0.59
+    ]
+   },
+   "capped_left_out": {
+    "shown_nonoptimal_pct": 29.33,
+    "hidden_nonoptimal_pct": 48.25,
+    "answers_shown": 491,
+    "answers_hidden": 485,
+    "gap_pp": -18.92,
+    "ci95_tables_resampled": [
+     -32.58,
+     -5.08
+    ]
+   },
+   "capped_counted_as_no_recommendation": {
+    "shown_nonoptimal_pct": 48.97,
+    "hidden_nonoptimal_pct": 63.09,
+    "answers_shown": 680,
+    "answers_hidden": 680,
+    "gap_pp": -14.12,
+    "ci95_tables_resampled": [
+     -26.47,
+     -1.32
+    ]
+   }
+  },
+  "capped_by_table_top": {
+   "sr_robot_vacuums_01": 40,
+   "sr_smartwatches_01": 40,
+   "sr_portable_speakers_01": 40,
+   "sr_keyboards_01": 40,
+   "sr_earbuds_03": 39,
+   "sr_headphones_02": 31,
+   "sr_earbuds_02": 22,
+   "sr_headphones_01": 18
+  },
+  "tables_with_a_capped_answer": 18,
+  "script": "study1b-64-models-on-34-tables/code/06_long_answers.py",
+  "input": {
+   "files": 60,
+   "rows_used": 40813
+  }
+ },
+ "model_settings": {
+  "models": {
+   "claude-haiku-4.5": {
+    "model_id": [
+     "claude-haiku-4-5-20251001"
+    ],
+    "provider": [
+     "anthropic"
+    ],
+    "answers": 1361,
+    "temperature": {
+     "1.0": 1361
+    },
+    "thinking_flag": {
+     "False": 1361
+    },
+    "answers_with_a_recorded_thinking_trace_pct": 0.0,
+    "output_tokens": {
+     "median": 104.0,
+     "max": 154.0,
+     "answers_at_the_max": 1
+    },
+    "response_length_characters": {
+     "median": 433.0,
+     "max": 628,
+     "answers": 1361,
+     "note": "characters of the recorded answer text; a thinking trace is not counted"
+    },
+    "output_token_cap": "not recorded",
+    "answers_with_zero_output_tokens_recorded_pct": 0.0,
+    "answers_stopping_at_the_largest_length": "no sign of a cap in the recorded lengths",
+    "answers_from": "2026-02-22",
+    "answers_to": "2026-04-22",
+    "names_shown": {
+     "answers": 681,
+     "paraphrase_index_recorded": {
+      "0": 160,
+      "1": 187,
+      "2": 152,
+      "3": 182
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 160,
+      "1": 187,
+      "2": 152,
+      "3": 182
+     },
+     "distinct_display_orders_pct": 17.6,
+     "distinct_letter_assignments_pct": 17.6,
+     "distinct_order_and_letters_pct": 98.4,
+     "distinct_within_a_table_pct": 99.9,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    },
+    "names_hidden": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 680
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 165,
+      "1": 179,
+      "2": 172,
+      "3": 164
+     },
+     "distinct_display_orders_pct": 17.5,
+     "distinct_letter_assignments_pct": 17.6,
+     "distinct_order_and_letters_pct": 97.4,
+     "distinct_within_a_table_pct": 100.0,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    }
+   },
+   "claude-haiku-4.5-thinking": {
+    "model_id": [
+     "claude-haiku-4-5-20251001"
+    ],
+    "provider": [
+     "anthropic"
+    ],
+    "answers": 1361,
+    "temperature": {
+     "1.0": 1361
+    },
+    "thinking_flag": {
+     "True": 1361
+    },
+    "answers_with_a_recorded_thinking_trace_pct": 100.0,
+    "output_tokens": {
+     "median": 1012.0,
+     "max": 3903.0,
+     "answers_at_the_max": 1
+    },
+    "response_length_characters": {
+     "median": 421.0,
+     "max": 632,
+     "answers": 1361,
+     "note": "characters of the recorded answer text; a thinking trace is not counted"
+    },
+    "output_token_cap": "not recorded",
+    "answers_with_zero_output_tokens_recorded_pct": 0.0,
+    "answers_stopping_at_the_largest_length": "no sign of a cap in the recorded lengths",
+    "answers_from": "2026-04-22",
+    "answers_to": "2026-04-23",
+    "names_shown": {
+     "answers": 681,
+     "paraphrase_index_recorded": {
+      "0": 169,
+      "1": 183,
+      "2": 171,
+      "3": 158
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 169,
+      "1": 183,
+      "2": 171,
+      "3": 158
+     },
+     "distinct_display_orders_pct": 17.5,
+     "distinct_letter_assignments_pct": 17.6,
+     "distinct_order_and_letters_pct": 97.8,
+     "distinct_within_a_table_pct": 100.0,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    },
+    "names_hidden": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 680
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 141,
+      "1": 166,
+      "2": 181,
+      "3": 192
+     },
+     "distinct_display_orders_pct": 17.6,
+     "distinct_letter_assignments_pct": 17.6,
+     "distinct_order_and_letters_pct": 98.4,
+     "distinct_within_a_table_pct": 100.0,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    }
+   },
+   "claude-opus-4.6": {
+    "model_id": [
+     "claude-opus-4-6"
+    ],
+    "provider": [
+     "anthropic"
+    ],
+    "answers": 1361,
+    "temperature": {
+     "1.0": 1361
+    },
+    "thinking_flag": {
+     "False": 1361
+    },
+    "answers_with_a_recorded_thinking_trace_pct": 0.0,
+    "output_tokens": {
+     "median": 135.0,
+     "max": 306.0,
+     "answers_at_the_max": 1
+    },
+    "response_length_characters": {
+     "median": 531.0,
+     "max": 1135,
+     "answers": 1361,
+     "note": "characters of the recorded answer text; a thinking trace is not counted"
+    },
+    "output_token_cap": "not recorded",
+    "answers_with_zero_output_tokens_recorded_pct": 0.0,
+    "answers_stopping_at_the_largest_length": "no sign of a cap in the recorded lengths",
+    "answers_from": "2026-04-22",
+    "answers_to": "2026-04-22",
+    "names_shown": {
+     "answers": 681,
+     "paraphrase_index_recorded": {
+      "0": 162,
+      "1": 172,
+      "2": 163,
+      "3": 184
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 162,
+      "1": 172,
+      "2": 163,
+      "3": 184
+     },
+     "distinct_display_orders_pct": 17.6,
+     "distinct_letter_assignments_pct": 17.6,
+     "distinct_order_and_letters_pct": 97.5,
+     "distinct_within_a_table_pct": 100.0,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    },
+    "names_hidden": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 680
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 184,
+      "1": 165,
+      "2": 167,
+      "3": 164
+     },
+     "distinct_display_orders_pct": 17.5,
+     "distinct_letter_assignments_pct": 17.6,
+     "distinct_order_and_letters_pct": 97.6,
+     "distinct_within_a_table_pct": 99.9,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    }
+   },
+   "claude-opus-4.7": {
+    "model_id": [
+     "claude-opus-4-7"
+    ],
+    "provider": [
+     "anthropic"
+    ],
+    "answers": 1361,
+    "temperature": {
+     "1.0": 1361
+    },
+    "thinking_flag": {
+     "False": 1361
+    },
+    "answers_with_a_recorded_thinking_trace_pct": 0.0,
+    "output_tokens": {
+     "median": 135.0,
+     "max": 280.0,
+     "answers_at_the_max": 2
+    },
+    "response_length_characters": {
+     "median": 369.0,
+     "max": 786,
+     "answers": 1361,
+     "note": "characters of the recorded answer text; a thinking trace is not counted"
+    },
+    "output_token_cap": "not recorded",
+    "answers_with_zero_output_tokens_recorded_pct": 0.0,
+    "answers_stopping_at_the_largest_length": "no sign of a cap in the recorded lengths",
+    "answers_from": "2026-04-22",
+    "answers_to": "2026-04-22",
+    "names_shown": {
+     "answers": 681,
+     "paraphrase_index_recorded": {
+      "0": 196,
+      "1": 158,
+      "2": 171,
+      "3": 156
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 196,
+      "1": 158,
+      "2": 171,
+      "3": 156
+     },
+     "distinct_display_orders_pct": 17.6,
+     "distinct_letter_assignments_pct": 17.6,
+     "distinct_order_and_letters_pct": 98.2,
+     "distinct_within_a_table_pct": 99.9,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    },
+    "names_hidden": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 680
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 178,
+      "1": 166,
+      "2": 165,
+      "3": 171
+     },
+     "distinct_display_orders_pct": 17.5,
+     "distinct_letter_assignments_pct": 17.5,
+     "distinct_order_and_letters_pct": 96.9,
+     "distinct_within_a_table_pct": 100.0,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    }
+   },
+   "claude-sonnet-4.6": {
+    "model_id": [
+     "claude-sonnet-4-6"
+    ],
+    "provider": [
+     "anthropic"
+    ],
+    "answers": 1360,
+    "temperature": {
+     "1.0": 1360
+    },
+    "thinking_flag": {
+     "False": 1360
+    },
+    "answers_with_a_recorded_thinking_trace_pct": 0.0,
+    "output_tokens": {
+     "median": 122.0,
+     "max": 276.0,
+     "answers_at_the_max": 1
+    },
+    "response_length_characters": {
+     "median": 492.0,
+     "max": 987,
+     "answers": 1360,
+     "note": "characters of the recorded answer text; a thinking trace is not counted"
+    },
+    "output_token_cap": "not recorded",
+    "answers_with_zero_output_tokens_recorded_pct": 0.0,
+    "answers_stopping_at_the_largest_length": "no sign of a cap in the recorded lengths",
+    "answers_from": "2026-02-24",
+    "answers_to": "2026-02-25",
+    "names_shown": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 167,
+      "1": 160,
+      "2": 184,
+      "3": 169
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 167,
+      "1": 160,
+      "2": 184,
+      "3": 169
+     },
+     "distinct_display_orders_pct": 17.5,
+     "distinct_letter_assignments_pct": 17.6,
+     "distinct_order_and_letters_pct": 98.5,
+     "distinct_within_a_table_pct": 100.0,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    },
+    "names_hidden": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 680
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 202,
+      "1": 153,
+      "2": 173,
+      "3": 152
+     },
+     "distinct_display_orders_pct": 17.6,
+     "distinct_letter_assignments_pct": 17.6,
+     "distinct_order_and_letters_pct": 96.9,
+     "distinct_within_a_table_pct": 99.9,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    }
+   },
+   "claude-sonnet-4.6-thinking": {
+    "model_id": [
+     "claude-sonnet-4-6"
+    ],
+    "provider": [
+     "anthropic"
+    ],
+    "answers": 1361,
+    "temperature": {
+     "1.0": 1361
+    },
+    "thinking_flag": {
+     "True": 1361
+    },
+    "answers_with_a_recorded_thinking_trace_pct": 74.4,
+    "output_tokens": {
+     "median": 736.0,
+     "max": 3179.0,
+     "answers_at_the_max": 1
+    },
+    "response_length_characters": {
+     "median": 500.0,
+     "max": 788,
+     "answers": 1361,
+     "note": "characters of the recorded answer text; a thinking trace is not counted"
+    },
+    "output_token_cap": "not recorded",
+    "answers_with_zero_output_tokens_recorded_pct": 0.0,
+    "answers_stopping_at_the_largest_length": "no sign of a cap in the recorded lengths",
+    "answers_from": "2026-04-22",
+    "answers_to": "2026-04-22",
+    "names_shown": {
+     "answers": 681,
+     "paraphrase_index_recorded": {
+      "0": 161,
+      "1": 160,
+      "2": 182,
+      "3": 178
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 161,
+      "1": 160,
+      "2": 182,
+      "3": 178
+     },
+     "distinct_display_orders_pct": 17.5,
+     "distinct_letter_assignments_pct": 17.6,
+     "distinct_order_and_letters_pct": 97.5,
+     "distinct_within_a_table_pct": 100.0,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    },
+    "names_hidden": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 680
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 159,
+      "1": 172,
+      "2": 183,
+      "3": 166
+     },
+     "distinct_display_orders_pct": 17.6,
+     "distinct_letter_assignments_pct": 17.4,
+     "distinct_order_and_letters_pct": 97.8,
+     "distinct_within_a_table_pct": 99.9,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    }
+   },
+   "deepseek-r1": {
+    "model_id": [
+     "deepseek/deepseek-r1"
+    ],
+    "provider": [
+     "openrouter"
+    ],
+    "answers": 1360,
+    "temperature": {
+     "1.0": 1360
+    },
+    "thinking_flag": {
+     "False": 1071,
+     "True": 289
+    },
+    "answers_with_a_recorded_thinking_trace_pct": 0.0,
+    "output_tokens": {
+     "median": 519.5,
+     "max": 3775.0,
+     "answers_at_the_max": 1
+    },
+    "response_length_characters": {
+     "median": 393.0,
+     "max": 1558,
+     "answers": 1360,
+     "note": "characters of the recorded answer text; a thinking trace is not counted"
+    },
+    "output_token_cap": "not recorded",
+    "answers_with_zero_output_tokens_recorded_pct": 0.0,
+    "answers_stopping_at_the_largest_length": "no sign of a cap in the recorded lengths",
+    "answers_from": "2026-02-22",
+    "answers_to": "2026-02-27",
+    "names_shown": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 148,
+      "1": 154,
+      "2": 174,
+      "3": 204
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 148,
+      "1": 154,
+      "2": 174,
+      "3": 204
+     },
+     "distinct_display_orders_pct": 17.6,
+     "distinct_letter_assignments_pct": 17.5,
+     "distinct_order_and_letters_pct": 96.5,
+     "distinct_within_a_table_pct": 99.6,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    },
+    "names_hidden": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 680
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 176,
+      "1": 166,
+      "2": 170,
+      "3": 168
+     },
+     "distinct_display_orders_pct": 17.5,
+     "distinct_letter_assignments_pct": 17.6,
+     "distinct_order_and_letters_pct": 97.6,
+     "distinct_within_a_table_pct": 100.0,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    }
+   },
+   "deepseek-v3": {
+    "model_id": [
+     "deepseek/deepseek-chat-v3-0324"
+    ],
+    "provider": [
+     "openrouter"
+    ],
+    "answers": 1360,
+    "temperature": {
+     "1.0": 1360
+    },
+    "thinking_flag": {
+     "False": 1360
+    },
+    "answers_with_a_recorded_thinking_trace_pct": 0.0,
+    "output_tokens": {
+     "median": 79.0,
+     "max": 1024.0,
+     "answers_at_the_max": 1
+    },
+    "response_length_characters": {
+     "median": 366.0,
+     "max": 1432,
+     "answers": 1360,
+     "note": "characters of the recorded answer text; a thinking trace is not counted"
+    },
+    "output_token_cap": "not recorded",
+    "answers_with_zero_output_tokens_recorded_pct": 0.0,
+    "answers_stopping_at_the_largest_length": "no sign of a cap in the recorded lengths",
+    "answers_from": "2026-02-22",
+    "answers_to": "2026-02-27",
+    "names_shown": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 161,
+      "1": 185,
+      "2": 175,
+      "3": 159
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 161,
+      "1": 185,
+      "2": 175,
+      "3": 159
+     },
+     "distinct_display_orders_pct": 17.6,
+     "distinct_letter_assignments_pct": 17.4,
+     "distinct_order_and_letters_pct": 97.5,
+     "distinct_within_a_table_pct": 100.0,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    },
+    "names_hidden": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 680
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 162,
+      "1": 185,
+      "2": 174,
+      "3": 159
+     },
+     "distinct_display_orders_pct": 17.6,
+     "distinct_letter_assignments_pct": 17.6,
+     "distinct_order_and_letters_pct": 98.4,
+     "distinct_within_a_table_pct": 100.0,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    }
+   },
+   "gemini-2.0-flash": {
+    "model_id": [
+     "gemini-2.0-flash"
+    ],
+    "provider": [
+     "google"
+    ],
+    "answers": 1360,
+    "temperature": {
+     "1.0": 1360
+    },
+    "thinking_flag": {
+     "False": 1360
+    },
+    "answers_with_a_recorded_thinking_trace_pct": 0.0,
+    "output_tokens": {
+     "median": 64.0,
+     "max": 122.0,
+     "answers_at_the_max": 1
+    },
+    "response_length_characters": {
+     "median": 286.5,
+     "max": 521,
+     "answers": 1360,
+     "note": "characters of the recorded answer text; a thinking trace is not counted"
+    },
+    "output_token_cap": "not recorded",
+    "answers_with_zero_output_tokens_recorded_pct": 0.0,
+    "answers_stopping_at_the_largest_length": "no sign of a cap in the recorded lengths",
+    "answers_from": "2026-02-22",
+    "answers_to": "2026-02-22",
+    "names_shown": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 155,
+      "1": 191,
+      "2": 173,
+      "3": 161
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 155,
+      "1": 191,
+      "2": 173,
+      "3": 161
+     },
+     "distinct_display_orders_pct": 17.6,
+     "distinct_letter_assignments_pct": 17.6,
+     "distinct_order_and_letters_pct": 97.9,
+     "distinct_within_a_table_pct": 100.0,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    },
+    "names_hidden": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 680
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 168,
+      "1": 173,
+      "2": 164,
+      "3": 175
+     },
+     "distinct_display_orders_pct": 17.6,
+     "distinct_letter_assignments_pct": 17.5,
+     "distinct_order_and_letters_pct": 97.8,
+     "distinct_within_a_table_pct": 99.9,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    }
+   },
+   "gemini-2.5-flash": {
+    "model_id": [
+     "gemini-2.5-flash",
+     "google/gemini-2.5-flash"
+    ],
+    "provider": [
+     "google",
+     "google_vertex",
+     "openrouter"
+    ],
+    "answers": 1360,
+    "temperature": {
+     "1.0": 1360
+    },
+    "thinking_flag": {
+     "False": 1360
+    },
+    "answers_with_a_recorded_thinking_trace_pct": 0.0,
+    "output_tokens": {
+     "median": 65.0,
+     "max": 131.0,
+     "answers_at_the_max": 2
+    },
+    "response_length_characters": {
+     "median": 297.0,
+     "max": 544,
+     "answers": 1360,
+     "note": "characters of the recorded answer text; a thinking trace is not counted"
+    },
+    "output_token_cap": "not recorded",
+    "answers_with_zero_output_tokens_recorded_pct": 0.0,
+    "answers_stopping_at_the_largest_length": "no sign of a cap in the recorded lengths",
+    "answers_from": "2026-02-22",
+    "answers_to": "2026-02-27",
+    "names_shown": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 171,
+      "1": 169,
+      "2": 166,
+      "3": 174
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 171,
+      "1": 169,
+      "2": 166,
+      "3": 174
+     },
+     "distinct_display_orders_pct": 17.6,
+     "distinct_letter_assignments_pct": 17.5,
+     "distinct_order_and_letters_pct": 98.2,
+     "distinct_within_a_table_pct": 100.0,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    },
+    "names_hidden": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 680
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 166,
+      "1": 172,
+      "2": 174,
+      "3": 168
+     },
+     "distinct_display_orders_pct": 17.6,
+     "distinct_letter_assignments_pct": 17.6,
+     "distinct_order_and_letters_pct": 98.4,
+     "distinct_within_a_table_pct": 100.0,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    }
+   },
+   "gemini-2.5-flash-lite": {
+    "model_id": [
+     "gemini-2.5-flash-lite"
+    ],
+    "provider": [
+     "google",
+     "google_vertex"
+    ],
+    "answers": 1360,
+    "temperature": {
+     "1.0": 1360
+    },
+    "thinking_flag": {
+     "False": 1360
+    },
+    "answers_with_a_recorded_thinking_trace_pct": 0.0,
+    "output_tokens": {
+     "median": 64.0,
+     "max": 107.0,
+     "answers_at_the_max": 1
+    },
+    "response_length_characters": {
+     "median": 300.0,
+     "max": 511,
+     "answers": 1360,
+     "note": "characters of the recorded answer text; a thinking trace is not counted"
+    },
+    "output_token_cap": "not recorded",
+    "answers_with_zero_output_tokens_recorded_pct": 0.0,
+    "answers_stopping_at_the_largest_length": "no sign of a cap in the recorded lengths",
+    "answers_from": "2026-02-23",
+    "answers_to": "2026-02-24",
+    "names_shown": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 179,
+      "1": 146,
+      "2": 182,
+      "3": 173
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 179,
+      "1": 146,
+      "2": 182,
+      "3": 173
+     },
+     "distinct_display_orders_pct": 17.6,
+     "distinct_letter_assignments_pct": 17.6,
+     "distinct_order_and_letters_pct": 98.1,
+     "distinct_within_a_table_pct": 100.0,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    },
+    "names_hidden": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 680
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 178,
+      "1": 185,
+      "2": 144,
+      "3": 173
+     },
+     "distinct_display_orders_pct": 17.6,
+     "distinct_letter_assignments_pct": 17.6,
+     "distinct_order_and_letters_pct": 97.2,
+     "distinct_within_a_table_pct": 100.0,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    }
+   },
+   "gemini-2.5-pro": {
+    "model_id": [
+     "gemini-2.5-pro",
+     "google/gemini-2.5-pro"
+    ],
+    "provider": [
+     "google",
+     "google_vertex",
+     "openrouter"
+    ],
+    "answers": 1360,
+    "temperature": {
+     "1.0": 1360
+    },
+    "thinking_flag": {
+     "False": 1360
+    },
+    "answers_with_a_recorded_thinking_trace_pct": 0.0,
+    "output_tokens": {
+     "median": 92.0,
+     "max": 1020.0,
+     "answers_at_the_max": 384
+    },
+    "response_length_characters": {
+     "median": 369.0,
+     "max": 553,
+     "answers": 1360,
+     "note": "characters of the recorded answer text; a thinking trace is not counted"
+    },
+    "output_token_cap": "not recorded",
+    "answers_with_zero_output_tokens_recorded_pct": 0.0,
+    "answers_stopping_at_the_largest_length": "384 of 1360 answers stop at exactly 1020 output tokens, which suggests a cap",
+    "answers_from": "2026-02-23",
+    "answers_to": "2026-02-27",
+    "names_shown": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 143,
+      "1": 192,
+      "2": 183,
+      "3": 162
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 143,
+      "1": 192,
+      "2": 183,
+      "3": 162
+     },
+     "distinct_display_orders_pct": 17.5,
+     "distinct_letter_assignments_pct": 17.5,
+     "distinct_order_and_letters_pct": 98.1,
+     "distinct_within_a_table_pct": 100.0,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    },
+    "names_hidden": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 680
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 165,
+      "1": 185,
+      "2": 169,
+      "3": 161
+     },
+     "distinct_display_orders_pct": 17.6,
+     "distinct_letter_assignments_pct": 17.4,
+     "distinct_order_and_letters_pct": 96.9,
+     "distinct_within_a_table_pct": 99.7,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    }
+   },
+   "gemini-3-flash": {
+    "model_id": [
+     "gemini-3-flash-preview",
+     "google/gemini-3-flash-preview"
+    ],
+    "provider": [
+     "google",
+     "google_vertex",
+     "openrouter"
+    ],
+    "answers": 1360,
+    "temperature": {
+     "1.0": 1360
+    },
+    "thinking_flag": {
+     "False": 1360
+    },
+    "answers_with_a_recorded_thinking_trace_pct": 0.0,
+    "output_tokens": {
+     "median": 75.0,
+     "max": 110.0,
+     "answers_at_the_max": 1
+    },
+    "response_length_characters": {
+     "median": 342.0,
+     "max": 573,
+     "answers": 1360,
+     "note": "characters of the recorded answer text; a thinking trace is not counted"
+    },
+    "output_token_cap": "not recorded",
+    "answers_with_zero_output_tokens_recorded_pct": 0.0,
+    "answers_stopping_at_the_largest_length": "no sign of a cap in the recorded lengths",
+    "answers_from": "2026-02-23",
+    "answers_to": "2026-02-25",
+    "names_shown": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 178,
+      "1": 156,
+      "2": 190,
+      "3": 156
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 178,
+      "1": 156,
+      "2": 190,
+      "3": 156
+     },
+     "distinct_display_orders_pct": 17.6,
+     "distinct_letter_assignments_pct": 17.6,
+     "distinct_order_and_letters_pct": 98.1,
+     "distinct_within_a_table_pct": 100.0,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    },
+    "names_hidden": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 680
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 163,
+      "1": 159,
+      "2": 180,
+      "3": 178
+     },
+     "distinct_display_orders_pct": 17.6,
+     "distinct_letter_assignments_pct": 17.6,
+     "distinct_order_and_letters_pct": 97.8,
+     "distinct_within_a_table_pct": 100.0,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    }
+   },
+   "gemini-3-flash-thinking": {
+    "model_id": [
+     "gemini-3-flash-preview"
+    ],
+    "provider": [
+     "google"
+    ],
+    "answers": 1361,
+    "temperature": {
+     "1.0": 1361
+    },
+    "thinking_flag": {
+     "True": 1361
+    },
+    "answers_with_a_recorded_thinking_trace_pct": 0.0,
+    "output_tokens": {
+     "median": 74.0,
+     "max": 105.0,
+     "answers_at_the_max": 1
+    },
+    "response_length_characters": {
+     "median": 342.0,
+     "max": 507,
+     "answers": 1361,
+     "note": "characters of the recorded answer text; a thinking trace is not counted"
+    },
+    "output_token_cap": "not recorded",
+    "answers_with_zero_output_tokens_recorded_pct": 0.0,
+    "answers_stopping_at_the_largest_length": "no sign of a cap in the recorded lengths",
+    "answers_from": "2026-04-22",
+    "answers_to": "2026-04-23",
+    "names_shown": {
+     "answers": 681,
+     "paraphrase_index_recorded": {
+      "0": 150,
+      "1": 165,
+      "2": 181,
+      "3": 185
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 150,
+      "1": 165,
+      "2": 181,
+      "3": 185
+     },
+     "distinct_display_orders_pct": 17.6,
+     "distinct_letter_assignments_pct": 17.6,
+     "distinct_order_and_letters_pct": 98.7,
+     "distinct_within_a_table_pct": 99.9,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    },
+    "names_hidden": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 680
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 146,
+      "1": 176,
+      "2": 164,
+      "3": 194
+     },
+     "distinct_display_orders_pct": 17.6,
+     "distinct_letter_assignments_pct": 17.6,
+     "distinct_order_and_letters_pct": 97.5,
+     "distinct_within_a_table_pct": 99.9,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    }
+   },
+   "gemini-3.1-flash-lite": {
+    "model_id": [
+     "gemini-3.1-flash-lite-preview"
+    ],
+    "provider": [
+     "google"
+    ],
+    "answers": 1361,
+    "temperature": {
+     "1.0": 1361
+    },
+    "thinking_flag": {
+     "False": 1361
+    },
+    "answers_with_a_recorded_thinking_trace_pct": 0.0,
+    "output_tokens": {
+     "median": 69.0,
+     "max": 101.0,
+     "answers_at_the_max": 2
+    },
+    "response_length_characters": {
+     "median": 331.0,
+     "max": 468,
+     "answers": 1361,
+     "note": "characters of the recorded answer text; a thinking trace is not counted"
+    },
+    "output_token_cap": "not recorded",
+    "answers_with_zero_output_tokens_recorded_pct": 0.0,
+    "answers_stopping_at_the_largest_length": "no sign of a cap in the recorded lengths",
+    "answers_from": "2026-04-22",
+    "answers_to": "2026-04-23",
+    "names_shown": {
+     "answers": 681,
+     "paraphrase_index_recorded": {
+      "0": 150,
+      "1": 189,
+      "2": 155,
+      "3": 187
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 150,
+      "1": 189,
+      "2": 155,
+      "3": 187
+     },
+     "distinct_display_orders_pct": 17.5,
+     "distinct_letter_assignments_pct": 17.6,
+     "distinct_order_and_letters_pct": 97.2,
+     "distinct_within_a_table_pct": 99.7,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    },
+    "names_hidden": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 680
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 190,
+      "1": 151,
+      "2": 175,
+      "3": 164
+     },
+     "distinct_display_orders_pct": 17.6,
+     "distinct_letter_assignments_pct": 17.6,
+     "distinct_order_and_letters_pct": 97.9,
+     "distinct_within_a_table_pct": 100.0,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    }
+   },
+   "gemini-3.1-pro": {
+    "model_id": [
+     "gemini-3.1-pro-preview"
+    ],
+    "provider": [
+     "google"
+    ],
+    "answers": 1361,
+    "temperature": {
+     "1.0": 1361
+    },
+    "thinking_flag": {
+     "True": 1361
+    },
+    "answers_with_a_recorded_thinking_trace_pct": 0.0,
+    "output_tokens": {
+     "median": 72.0,
+     "max": 115.0,
+     "answers_at_the_max": 1
+    },
+    "response_length_characters": {
+     "median": 326.0,
+     "max": 549,
+     "answers": 1361,
+     "note": "characters of the recorded answer text; a thinking trace is not counted"
+    },
+    "output_token_cap": "not recorded",
+    "answers_with_zero_output_tokens_recorded_pct": 0.0,
+    "answers_stopping_at_the_largest_length": "no sign of a cap in the recorded lengths",
+    "answers_from": "2026-04-22",
+    "answers_to": "2026-04-23",
+    "names_shown": {
+     "answers": 681,
+     "paraphrase_index_recorded": {
+      "0": 177,
+      "1": 176,
+      "2": 183,
+      "3": 145
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 177,
+      "1": 176,
+      "2": 183,
+      "3": 145
+     },
+     "distinct_display_orders_pct": 17.6,
+     "distinct_letter_assignments_pct": 17.6,
+     "distinct_order_and_letters_pct": 96.8,
+     "distinct_within_a_table_pct": 100.0,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    },
+    "names_hidden": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 680
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 163,
+      "1": 173,
+      "2": 166,
+      "3": 178
+     },
+     "distinct_display_orders_pct": 17.5,
+     "distinct_letter_assignments_pct": 17.6,
+     "distinct_order_and_letters_pct": 98.7,
+     "distinct_within_a_table_pct": 100.0,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    }
+   },
+   "gemma-3-27b": {
+    "model_id": [
+     "gemma-3-27b-it",
+     "google/gemma-3-27b-it"
+    ],
+    "provider": [
+     "google",
+     "openrouter"
+    ],
+    "answers": 1360,
+    "temperature": {
+     "1.0": 1360
+    },
+    "thinking_flag": {
+     "False": 1360
+    },
+    "answers_with_a_recorded_thinking_trace_pct": 0.0,
+    "output_tokens": {
+     "median": 0.0,
+     "max": 116.0,
+     "answers_at_the_max": 1
+    },
+    "response_length_characters": {
+     "median": 351.0,
+     "max": 567,
+     "answers": 1360,
+     "note": "characters of the recorded answer text; a thinking trace is not counted"
+    },
+    "output_token_cap": "not recorded",
+    "answers_with_zero_output_tokens_recorded_pct": 66.8,
+    "answers_stopping_at_the_largest_length": "no sign of a cap in the recorded lengths",
+    "answers_from": "2026-02-22",
+    "answers_to": "2026-02-27",
+    "names_shown": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 187,
+      "1": 159,
+      "2": 160,
+      "3": 174
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 187,
+      "1": 159,
+      "2": 160,
+      "3": 174
+     },
+     "distinct_display_orders_pct": 17.6,
+     "distinct_letter_assignments_pct": 17.6,
+     "distinct_order_and_letters_pct": 96.9,
+     "distinct_within_a_table_pct": 99.9,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    },
+    "names_hidden": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 680
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 170,
+      "1": 175,
+      "2": 164,
+      "3": 171
+     },
+     "distinct_display_orders_pct": 17.6,
+     "distinct_letter_assignments_pct": 17.5,
+     "distinct_order_and_letters_pct": 97.9,
+     "distinct_within_a_table_pct": 100.0,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    }
+   },
+   "gemma-4-31b-it": {
+    "model_id": [
+     "gemma-4-31b-it"
+    ],
+    "provider": [
+     "google"
+    ],
+    "answers": 1361,
+    "temperature": {
+     "1.0": 1361
+    },
+    "thinking_flag": {
+     "False": 1361
+    },
+    "answers_with_a_recorded_thinking_trace_pct": 0.0,
+    "output_tokens": {
+     "median": 60.0,
+     "max": 92.0,
+     "answers_at_the_max": 1
+    },
+    "response_length_characters": {
+     "median": 270.0,
+     "max": 422,
+     "answers": 1361,
+     "note": "characters of the recorded answer text; a thinking trace is not counted"
+    },
+    "output_token_cap": "not recorded",
+    "answers_with_zero_output_tokens_recorded_pct": 3.7,
+    "answers_stopping_at_the_largest_length": "no sign of a cap in the recorded lengths",
+    "answers_from": "2026-04-22",
+    "answers_to": "2026-04-23",
+    "names_shown": {
+     "answers": 681,
+     "paraphrase_index_recorded": {
+      "0": 171,
+      "1": 171,
+      "2": 177,
+      "3": 162
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 171,
+      "1": 171,
+      "2": 177,
+      "3": 162
+     },
+     "distinct_display_orders_pct": 17.5,
+     "distinct_letter_assignments_pct": 17.6,
+     "distinct_order_and_letters_pct": 97.8,
+     "distinct_within_a_table_pct": 100.0,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    },
+    "names_hidden": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 680
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 178,
+      "1": 181,
+      "2": 171,
+      "3": 150
+     },
+     "distinct_display_orders_pct": 17.6,
+     "distinct_letter_assignments_pct": 17.5,
+     "distinct_order_and_letters_pct": 98.2,
+     "distinct_within_a_table_pct": 99.9,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    }
+   },
+   "gpt-4.1-mini": {
+    "model_id": [
+     "gpt-4.1-mini"
+    ],
+    "provider": [
+     "openai"
+    ],
+    "answers": 1360,
+    "temperature": {
+     "1.0": 1360
+    },
+    "thinking_flag": {
+     "False": 1360
+    },
+    "answers_with_a_recorded_thinking_trace_pct": 0.0,
+    "output_tokens": {
+     "median": 79.0,
+     "max": 125.0,
+     "answers_at_the_max": 1
+    },
+    "response_length_characters": {
+     "median": 362.0,
+     "max": 586,
+     "answers": 1360,
+     "note": "characters of the recorded answer text; a thinking trace is not counted"
+    },
+    "output_token_cap": "not recorded",
+    "answers_with_zero_output_tokens_recorded_pct": 0.0,
+    "answers_stopping_at_the_largest_length": "no sign of a cap in the recorded lengths",
+    "answers_from": "2026-02-22",
+    "answers_to": "2026-02-27",
+    "names_shown": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 167,
+      "1": 170,
+      "2": 169,
+      "3": 174
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 167,
+      "1": 170,
+      "2": 169,
+      "3": 174
+     },
+     "distinct_display_orders_pct": 17.5,
+     "distinct_letter_assignments_pct": 17.5,
+     "distinct_order_and_letters_pct": 97.8,
+     "distinct_within_a_table_pct": 100.0,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    },
+    "names_hidden": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 680
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 179,
+      "1": 169,
+      "2": 158,
+      "3": 174
+     },
+     "distinct_display_orders_pct": 17.5,
+     "distinct_letter_assignments_pct": 17.6,
+     "distinct_order_and_letters_pct": 97.8,
+     "distinct_within_a_table_pct": 99.9,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    }
+   },
+   "gpt-4.1-nano": {
+    "model_id": [
+     "gpt-4.1-nano"
+    ],
+    "provider": [
+     "openai"
+    ],
+    "answers": 1360,
+    "temperature": {
+     "1.0": 1360
+    },
+    "thinking_flag": {
+     "False": 1360
+    },
+    "answers_with_a_recorded_thinking_trace_pct": 0.0,
+    "output_tokens": {
+     "median": 65.0,
+     "max": 96.0,
+     "answers_at_the_max": 2
+    },
+    "response_length_characters": {
+     "median": 323.0,
+     "max": 443,
+     "answers": 1360,
+     "note": "characters of the recorded answer text; a thinking trace is not counted"
+    },
+    "output_token_cap": "not recorded",
+    "answers_with_zero_output_tokens_recorded_pct": 0.0,
+    "answers_stopping_at_the_largest_length": "no sign of a cap in the recorded lengths",
+    "answers_from": "2026-02-22",
+    "answers_to": "2026-02-22",
+    "names_shown": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 173,
+      "1": 166,
+      "2": 149,
+      "3": 192
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 173,
+      "1": 166,
+      "2": 149,
+      "3": 192
+     },
+     "distinct_display_orders_pct": 17.6,
+     "distinct_letter_assignments_pct": 17.5,
+     "distinct_order_and_letters_pct": 97.9,
+     "distinct_within_a_table_pct": 99.9,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    },
+    "names_hidden": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 680
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 172,
+      "1": 168,
+      "2": 176,
+      "3": 164
+     },
+     "distinct_display_orders_pct": 17.6,
+     "distinct_letter_assignments_pct": 17.5,
+     "distinct_order_and_letters_pct": 97.9,
+     "distinct_within_a_table_pct": 99.7,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    }
+   },
+   "gpt-4o": {
+    "model_id": [
+     "gpt-4o"
+    ],
+    "provider": [
+     "openai"
+    ],
+    "answers": 1360,
+    "temperature": {
+     "1.0": 1360
+    },
+    "thinking_flag": {
+     "False": 1360
+    },
+    "answers_with_a_recorded_thinking_trace_pct": 0.0,
+    "output_tokens": {
+     "median": 1.0,
+     "max": 125.0,
+     "answers_at_the_max": 1
+    },
+    "response_length_characters": {
+     "median": 1.0,
+     "max": 546,
+     "answers": 1360,
+     "note": "characters of the recorded answer text; a thinking trace is not counted"
+    },
+    "output_token_cap": "not recorded",
+    "answers_with_zero_output_tokens_recorded_pct": 0.0,
+    "answers_stopping_at_the_largest_length": "no sign of a cap in the recorded lengths",
+    "answers_from": "2026-02-22",
+    "answers_to": "2026-02-23",
+    "names_shown": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 150,
+      "1": 176,
+      "2": 188,
+      "3": 166
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 150,
+      "1": 176,
+      "2": 188,
+      "3": 166
+     },
+     "distinct_display_orders_pct": 17.5,
+     "distinct_letter_assignments_pct": 17.6,
+     "distinct_order_and_letters_pct": 97.9,
+     "distinct_within_a_table_pct": 100.0,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    },
+    "names_hidden": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 680
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 170,
+      "1": 176,
+      "2": 179,
+      "3": 155
+     },
+     "distinct_display_orders_pct": 17.6,
+     "distinct_letter_assignments_pct": 17.6,
+     "distinct_order_and_letters_pct": 97.4,
+     "distinct_within_a_table_pct": 100.0,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    }
+   },
+   "gpt-4o-mini": {
+    "model_id": [
+     "gpt-4o-mini"
+    ],
+    "provider": [
+     "openai"
+    ],
+    "answers": 1360,
+    "temperature": {
+     "1.0": 1360
+    },
+    "thinking_flag": {
+     "False": 1360
+    },
+    "answers_with_a_recorded_thinking_trace_pct": 0.0,
+    "output_tokens": {
+     "median": 81.0,
+     "max": 114.0,
+     "answers_at_the_max": 2
+    },
+    "response_length_characters": {
+     "median": 392.0,
+     "max": 576,
+     "answers": 1360,
+     "note": "characters of the recorded answer text; a thinking trace is not counted"
+    },
+    "output_token_cap": "not recorded",
+    "answers_with_zero_output_tokens_recorded_pct": 0.0,
+    "answers_stopping_at_the_largest_length": "no sign of a cap in the recorded lengths",
+    "answers_from": "2026-02-22",
+    "answers_to": "2026-02-27",
+    "names_shown": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 186,
+      "1": 174,
+      "2": 170,
+      "3": 150
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 186,
+      "1": 174,
+      "2": 170,
+      "3": 150
+     },
+     "distinct_display_orders_pct": 17.5,
+     "distinct_letter_assignments_pct": 17.4,
+     "distinct_order_and_letters_pct": 96.8,
+     "distinct_within_a_table_pct": 99.7,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    },
+    "names_hidden": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 680
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 164,
+      "1": 182,
+      "2": 159,
+      "3": 175
+     },
+     "distinct_display_orders_pct": 17.6,
+     "distinct_letter_assignments_pct": 17.6,
+     "distinct_order_and_letters_pct": 97.5,
+     "distinct_within_a_table_pct": 99.9,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    }
+   },
+   "gpt-5-mini": {
+    "model_id": [
+     "gpt-5-mini"
+    ],
+    "provider": [
+     "openai"
+    ],
+    "answers": 1360,
+    "temperature": {
+     "1.0": 1360
+    },
+    "thinking_flag": {
+     "False": 1360
+    },
+    "answers_with_a_recorded_thinking_trace_pct": 0.0,
+    "output_tokens": {
+     "median": 677.0,
+     "max": 1963.0,
+     "answers_at_the_max": 1
+    },
+    "response_length_characters": {
+     "median": 391.0,
+     "max": 3502,
+     "answers": 1360,
+     "note": "characters of the recorded answer text; a thinking trace is not counted"
+    },
+    "output_token_cap": "not recorded",
+    "answers_with_zero_output_tokens_recorded_pct": 0.0,
+    "answers_stopping_at_the_largest_length": "no sign of a cap in the recorded lengths",
+    "answers_from": "2026-02-22",
+    "answers_to": "2026-02-27",
+    "names_shown": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 181,
+      "1": 177,
+      "2": 164,
+      "3": 158
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 181,
+      "1": 177,
+      "2": 164,
+      "3": 158
+     },
+     "distinct_display_orders_pct": 17.5,
+     "distinct_letter_assignments_pct": 17.5,
+     "distinct_order_and_letters_pct": 98.1,
+     "distinct_within_a_table_pct": 99.9,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    },
+    "names_hidden": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 680
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 168,
+      "1": 173,
+      "2": 157,
+      "3": 182
+     },
+     "distinct_display_orders_pct": 17.6,
+     "distinct_letter_assignments_pct": 17.6,
+     "distinct_order_and_letters_pct": 97.6,
+     "distinct_within_a_table_pct": 100.0,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    }
+   },
+   "gpt-5.4": {
+    "model_id": [
+     "gpt-5.4-2026-03-05"
+    ],
+    "provider": [
+     "openai"
+    ],
+    "answers": 1361,
+    "temperature": {
+     "1.0": 1361
+    },
+    "thinking_flag": {
+     "False": 1361
+    },
+    "answers_with_a_recorded_thinking_trace_pct": 0.0,
+    "output_tokens": {
+     "median": 91.0,
+     "max": 131.0,
+     "answers_at_the_max": 1
+    },
+    "response_length_characters": {
+     "median": 400.0,
+     "max": 542,
+     "answers": 1361,
+     "note": "characters of the recorded answer text; a thinking trace is not counted"
+    },
+    "output_token_cap": "not recorded",
+    "answers_with_zero_output_tokens_recorded_pct": 0.5,
+    "answers_stopping_at_the_largest_length": "no sign of a cap in the recorded lengths",
+    "answers_from": "2026-04-22",
+    "answers_to": "2026-04-23",
+    "names_shown": {
+     "answers": 681,
+     "paraphrase_index_recorded": {
+      "0": 140,
+      "1": 184,
+      "2": 177,
+      "3": 180
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 140,
+      "1": 184,
+      "2": 177,
+      "3": 180
+     },
+     "distinct_display_orders_pct": 17.6,
+     "distinct_letter_assignments_pct": 17.6,
+     "distinct_order_and_letters_pct": 96.9,
+     "distinct_within_a_table_pct": 99.9,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    },
+    "names_hidden": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 680
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 170,
+      "1": 159,
+      "2": 175,
+      "3": 176
+     },
+     "distinct_display_orders_pct": 17.6,
+     "distinct_letter_assignments_pct": 17.6,
+     "distinct_order_and_letters_pct": 98.1,
+     "distinct_within_a_table_pct": 100.0,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    }
+   },
+   "gpt-5.4-mini": {
+    "model_id": [
+     "gpt-5.4-mini-2026-03-17"
+    ],
+    "provider": [
+     "openai"
+    ],
+    "answers": 1361,
+    "temperature": {
+     "1.0": 1361
+    },
+    "thinking_flag": {
+     "False": 1361
+    },
+    "answers_with_a_recorded_thinking_trace_pct": 0.0,
+    "output_tokens": {
+     "median": 79.0,
+     "max": 110.0,
+     "answers_at_the_max": 1
+    },
+    "response_length_characters": {
+     "median": 340.0,
+     "max": 469,
+     "answers": 1361,
+     "note": "characters of the recorded answer text; a thinking trace is not counted"
+    },
+    "output_token_cap": "not recorded",
+    "answers_with_zero_output_tokens_recorded_pct": 0.0,
+    "answers_stopping_at_the_largest_length": "no sign of a cap in the recorded lengths",
+    "answers_from": "2026-04-22",
+    "answers_to": "2026-04-23",
+    "names_shown": {
+     "answers": 681,
+     "paraphrase_index_recorded": {
+      "0": 167,
+      "1": 154,
+      "2": 188,
+      "3": 172
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 167,
+      "1": 154,
+      "2": 188,
+      "3": 172
+     },
+     "distinct_display_orders_pct": 17.6,
+     "distinct_letter_assignments_pct": 17.6,
+     "distinct_order_and_letters_pct": 97.1,
+     "distinct_within_a_table_pct": 99.9,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    },
+    "names_hidden": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 680
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 173,
+      "1": 167,
+      "2": 177,
+      "3": 163
+     },
+     "distinct_display_orders_pct": 17.6,
+     "distinct_letter_assignments_pct": 17.5,
+     "distinct_order_and_letters_pct": 96.9,
+     "distinct_within_a_table_pct": 100.0,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    }
+   },
+   "gpt-5.4-mini-thinking": {
+    "model_id": [
+     "gpt-5.4-mini-2026-03-17"
+    ],
+    "provider": [
+     "openai"
+    ],
+    "answers": 1361,
+    "temperature": {
+     "1.0": 1361
+    },
+    "thinking_flag": {
+     "True": 1361
+    },
+    "answers_with_a_recorded_thinking_trace_pct": 0.0,
+    "output_tokens": {
+     "median": 351.0,
+     "max": 2671.0,
+     "answers_at_the_max": 1
+    },
+    "response_length_characters": {
+     "median": 328.0,
+     "max": 431,
+     "answers": 1361,
+     "note": "characters of the recorded answer text; a thinking trace is not counted"
+    },
+    "output_token_cap": "not recorded",
+    "answers_with_zero_output_tokens_recorded_pct": 0.0,
+    "answers_stopping_at_the_largest_length": "no sign of a cap in the recorded lengths",
+    "answers_from": "2026-04-22",
+    "answers_to": "2026-04-23",
+    "names_shown": {
+     "answers": 681,
+     "paraphrase_index_recorded": {
+      "0": 187,
+      "1": 168,
+      "2": 150,
+      "3": 176
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 187,
+      "1": 168,
+      "2": 150,
+      "3": 176
+     },
+     "distinct_display_orders_pct": 17.6,
+     "distinct_letter_assignments_pct": 17.5,
+     "distinct_order_and_letters_pct": 96.5,
+     "distinct_within_a_table_pct": 99.9,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    },
+    "names_hidden": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 680
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 162,
+      "1": 171,
+      "2": 196,
+      "3": 151
+     },
+     "distinct_display_orders_pct": 17.6,
+     "distinct_letter_assignments_pct": 17.6,
+     "distinct_order_and_letters_pct": 97.9,
+     "distinct_within_a_table_pct": 100.0,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    }
+   },
+   "gpt-5.4-nano": {
+    "model_id": [
+     "gpt-5.4-nano-2026-03-17"
+    ],
+    "provider": [
+     "openai"
+    ],
+    "answers": 1361,
+    "temperature": {
+     "1.0": 1361
+    },
+    "thinking_flag": {
+     "False": 1361
+    },
+    "answers_with_a_recorded_thinking_trace_pct": 0.0,
+    "output_tokens": {
+     "median": 88.0,
+     "max": 148.0,
+     "answers_at_the_max": 1
+    },
+    "response_length_characters": {
+     "median": 360.0,
+     "max": 591,
+     "answers": 1361,
+     "note": "characters of the recorded answer text; a thinking trace is not counted"
+    },
+    "output_token_cap": "not recorded",
+    "answers_with_zero_output_tokens_recorded_pct": 0.0,
+    "answers_stopping_at_the_largest_length": "no sign of a cap in the recorded lengths",
+    "answers_from": "2026-04-22",
+    "answers_to": "2026-04-23",
+    "names_shown": {
+     "answers": 681,
+     "paraphrase_index_recorded": {
+      "0": 188,
+      "1": 154,
+      "2": 177,
+      "3": 162
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 188,
+      "1": 154,
+      "2": 177,
+      "3": 162
+     },
+     "distinct_display_orders_pct": 17.6,
+     "distinct_letter_assignments_pct": 17.6,
+     "distinct_order_and_letters_pct": 98.2,
+     "distinct_within_a_table_pct": 99.9,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    },
+    "names_hidden": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 680
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 175,
+      "1": 158,
+      "2": 180,
+      "3": 167
+     },
+     "distinct_display_orders_pct": 17.6,
+     "distinct_letter_assignments_pct": 17.5,
+     "distinct_order_and_letters_pct": 97.5,
+     "distinct_within_a_table_pct": 100.0,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    }
+   },
+   "kimi-k2": {
+    "model_id": [
+     "moonshotai/kimi-k2"
+    ],
+    "provider": [
+     "openrouter"
+    ],
+    "answers": 1360,
+    "temperature": {
+     "1.0": 1360
+    },
+    "thinking_flag": {
+     "False": 1360
+    },
+    "answers_with_a_recorded_thinking_trace_pct": 0.0,
+    "output_tokens": {
+     "median": 78.0,
+     "max": 152.0,
+     "answers_at_the_max": 1
+    },
+    "response_length_characters": {
+     "median": 347.0,
+     "max": 775,
+     "answers": 1360,
+     "note": "characters of the recorded answer text; a thinking trace is not counted"
+    },
+    "output_token_cap": "not recorded",
+    "answers_with_zero_output_tokens_recorded_pct": 0.0,
+    "answers_stopping_at_the_largest_length": "no sign of a cap in the recorded lengths",
+    "answers_from": "2026-02-22",
+    "answers_to": "2026-02-25",
+    "names_shown": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 177,
+      "1": 192,
+      "2": 158,
+      "3": 153
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 177,
+      "1": 192,
+      "2": 158,
+      "3": 153
+     },
+     "distinct_display_orders_pct": 17.6,
+     "distinct_letter_assignments_pct": 17.6,
+     "distinct_order_and_letters_pct": 97.4,
+     "distinct_within_a_table_pct": 99.9,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    },
+    "names_hidden": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 680
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 165,
+      "1": 173,
+      "2": 177,
+      "3": 165
+     },
+     "distinct_display_orders_pct": 17.6,
+     "distinct_letter_assignments_pct": 17.5,
+     "distinct_order_and_letters_pct": 97.9,
+     "distinct_within_a_table_pct": 100.0,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    }
+   },
+   "llama-3.3-70b": {
+    "model_id": [
+     "meta-llama/llama-3.3-70b-instruct"
+    ],
+    "provider": [
+     "openrouter"
+    ],
+    "answers": 1360,
+    "temperature": {
+     "1.0": 1360
+    },
+    "thinking_flag": {
+     "False": 1360
+    },
+    "answers_with_a_recorded_thinking_trace_pct": 0.0,
+    "output_tokens": {
+     "median": 98.0,
+     "max": 138.0,
+     "answers_at_the_max": 1
+    },
+    "response_length_characters": {
+     "median": 439.0,
+     "max": 600,
+     "answers": 1360,
+     "note": "characters of the recorded answer text; a thinking trace is not counted"
+    },
+    "output_token_cap": "not recorded",
+    "answers_with_zero_output_tokens_recorded_pct": 0.0,
+    "answers_stopping_at_the_largest_length": "no sign of a cap in the recorded lengths",
+    "answers_from": "2026-02-22",
+    "answers_to": "2026-02-27",
+    "names_shown": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 193,
+      "1": 146,
+      "2": 175,
+      "3": 166
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 193,
+      "1": 146,
+      "2": 175,
+      "3": 166
+     },
+     "distinct_display_orders_pct": 17.5,
+     "distinct_letter_assignments_pct": 17.6,
+     "distinct_order_and_letters_pct": 98.2,
+     "distinct_within_a_table_pct": 100.0,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    },
+    "names_hidden": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 680
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 176,
+      "1": 202,
+      "2": 157,
+      "3": 145
+     },
+     "distinct_display_orders_pct": 17.5,
+     "distinct_letter_assignments_pct": 17.6,
+     "distinct_order_and_letters_pct": 98.4,
+     "distinct_within_a_table_pct": 100.0,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    }
+   },
+   "qwen-2.5-72b": {
+    "model_id": [
+     "qwen/qwen-2.5-72b-instruct"
+    ],
+    "provider": [
+     "openrouter"
+    ],
+    "answers": 1360,
+    "temperature": {
+     "1.0": 1360
+    },
+    "thinking_flag": {
+     "False": 1360
+    },
+    "answers_with_a_recorded_thinking_trace_pct": 0.0,
+    "output_tokens": {
+     "median": 63.0,
+     "max": 113.0,
+     "answers_at_the_max": 1
+    },
+    "response_length_characters": {
+     "median": 272.0,
+     "max": 484,
+     "answers": 1360,
+     "note": "characters of the recorded answer text; a thinking trace is not counted"
+    },
+    "output_token_cap": "not recorded",
+    "answers_with_zero_output_tokens_recorded_pct": 0.0,
+    "answers_stopping_at_the_largest_length": "no sign of a cap in the recorded lengths",
+    "answers_from": "2026-02-22",
+    "answers_to": "2026-02-24",
+    "names_shown": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 171,
+      "1": 173,
+      "2": 168,
+      "3": 168
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 171,
+      "1": 173,
+      "2": 168,
+      "3": 168
+     },
+     "distinct_display_orders_pct": 17.6,
+     "distinct_letter_assignments_pct": 17.6,
+     "distinct_order_and_letters_pct": 98.1,
+     "distinct_within_a_table_pct": 100.0,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    },
+    "names_hidden": {
+     "answers": 680,
+     "paraphrase_index_recorded": {
+      "0": 680
+     },
+     "wording_received_read_from_system_prompt": {
+      "0": 168,
+      "1": 171,
+      "2": 161,
+      "3": 180
+     },
+     "distinct_display_orders_pct": 17.6,
+     "distinct_letter_assignments_pct": 17.6,
+     "distinct_order_and_letters_pct": 97.6,
+     "distinct_within_a_table_pct": 100.0,
+     "note": "120 orders and 120 letter assignments are possible for five products"
+    }
+   }
+  },
+  "script": "study1b-64-models-on-34-tables/code/07_model_settings.py",
+  "input": {
+   "files": 60,
+   "rows_used": 40813
+  }
+ },
+ "thinking_pairs": {
+  "pairs": {
+   "Claude Haiku 4.5": {
+    "without_extended_thinking": {
+     "model_key": "claude-haiku-4.5",
+     "answers": 1361,
+     "thinking_flag_recorded": {
+      "False": 1361
+     },
+     "answers_with_a_recorded_thinking_trace": 0,
+     "shown_nonoptimal_pct": 18.5,
+     "hidden_nonoptimal_pct": 9.26,
+     "gap_pp": 9.24,
+     "ci95_tables_resampled": [
+      4.98,
+      13.68
+     ],
+     "p_two_sided": 0.0
+    },
+    "with_extended_thinking": {
+     "model_key": "claude-haiku-4.5-thinking",
+     "answers": 1361,
+     "thinking_flag_recorded": {
+      "True": 1361
+     },
+     "answers_with_a_recorded_thinking_trace": 1361,
+     "shown_nonoptimal_pct": 14.98,
+     "hidden_nonoptimal_pct": 7.35,
+     "gap_pp": 7.63,
+     "ci95_tables_resampled": [
+      3.68,
+      12.21
+     ],
+     "p_two_sided": 0.0
+    },
+    "difference_with_minus_without_pp": -1.61,
+    "difference_ci95_tables_resampled": [
+     -5.42,
+     1.91
+    ],
+    "difference_p_two_sided": 0.4044
+   },
+   "Claude Sonnet 4.6": {
+    "without_extended_thinking": {
+     "model_key": "claude-sonnet-4.6",
+     "answers": 1360,
+     "thinking_flag_recorded": {
+      "False": 1360
+     },
+     "answers_with_a_recorded_thinking_trace": 0,
+     "shown_nonoptimal_pct": 35.29,
+     "hidden_nonoptimal_pct": 10.29,
+     "gap_pp": 25.0,
+     "ci95_tables_resampled": [
+      18.09,
+      32.06
+     ],
+     "p_two_sided": 0.0
+    },
+    "with_extended_thinking": {
+     "model_key": "claude-sonnet-4.6-thinking",
+     "answers": 1361,
+     "thinking_flag_recorded": {
+      "True": 1361
+     },
+     "answers_with_a_recorded_thinking_trace": 1013,
+     "shown_nonoptimal_pct": 39.21,
+     "hidden_nonoptimal_pct": 8.97,
+     "gap_pp": 30.24,
+     "ci95_tables_resampled": [
+      21.32,
+      39.56
+     ],
+     "p_two_sided": 0.0
+    },
+    "difference_with_minus_without_pp": 5.24,
+    "difference_ci95_tables_resampled": [
+     -0.59,
+     11.98
+    ],
+    "difference_p_two_sided": 0.0922
+   },
+   "GPT-5.4 mini": {
+    "without_extended_thinking": {
+     "model_key": "gpt-5.4-mini",
+     "answers": 1361,
+     "thinking_flag_recorded": {
+      "False": 1361
+     },
+     "answers_with_a_recorded_thinking_trace": 0,
+     "shown_nonoptimal_pct": 23.94,
+     "hidden_nonoptimal_pct": 11.32,
+     "gap_pp": 12.61,
+     "ci95_tables_resampled": [
+      7.21,
+      18.53
+     ],
+     "p_two_sided": 0.0
+    },
+    "with_extended_thinking": {
+     "model_key": "gpt-5.4-mini-thinking",
+     "answers": 1361,
+     "thinking_flag_recorded": {
+      "True": 1361
+     },
+     "answers_with_a_recorded_thinking_trace": 0,
+     "shown_nonoptimal_pct": 19.82,
+     "hidden_nonoptimal_pct": 15.0,
+     "gap_pp": 4.82,
+     "ci95_tables_resampled": [
+      1.73,
+      8.68
+     ],
+     "p_two_sided": 0.0002
+    },
+    "difference_with_minus_without_pp": -7.79,
+    "difference_ci95_tables_resampled": [
+     -13.38,
+     -2.79
+    ],
+    "difference_p_two_sided": 0.0008
+   },
+   "Gemini 3 Flash": {
+    "without_extended_thinking": {
+     "model_key": "gemini-3-flash",
+     "answers": 1360,
+     "thinking_flag_recorded": {
+      "False": 1360
+     },
+     "answers_with_a_recorded_thinking_trace": 0,
+     "shown_nonoptimal_pct": 13.53,
+     "hidden_nonoptimal_pct": 9.56,
+     "gap_pp": 3.97,
+     "ci95_tables_resampled": [
+      0.44,
+      8.38
+     ],
+     "p_two_sided": 0.0256
+    },
+    "with_extended_thinking": {
+     "model_key": "gemini-3-flash-thinking",
+     "answers": 1361,
+     "thinking_flag_recorded": {
+      "True": 1361
+     },
+     "answers_with_a_recorded_thinking_trace": 0,
+     "shown_nonoptimal_pct": 14.1,
+     "hidden_nonoptimal_pct": 8.68,
+     "gap_pp": 5.42,
+     "ci95_tables_resampled": [
+      1.27,
+      10.97
+     ],
+     "p_two_sided": 0.0062
+    },
+    "difference_with_minus_without_pp": 1.45,
+    "difference_ci95_tables_resampled": [
+     -2.5,
+     5.88
+    ],
+    "difference_p_two_sided": 0.5274
+   }
+  },
+  "pooled_difference_four_pairs_pp": -0.68,
+  "pooled_difference_ci95_tables_resampled": [
+   -2.94,
+   1.58
+  ],
+  "pooled_difference_p_two_sided": 0.5456,
+  "note": "a model run with and without extended thinking counts as two of the 30 models; the thinking flag and the thinking-trace lengths are as the corpus records them (run_settings gives each model's settings)",
+  "script": "study1b-64-models-on-34-tables/code/20_thinking_pairs.py",
+  "input": {
+   "files": 60,
+   "rows_used": 40813
+  }
+ }
+}

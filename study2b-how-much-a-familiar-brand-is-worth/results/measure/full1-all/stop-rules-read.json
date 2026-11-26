@@ -1,0 +1,1546 @@
+{
+ "claude-fable-5-1": {
+  "main shown": [
+   5600,
+   5600
+  ]
+ },
+ "claude-haiku-5-5": {
+  "main shown": [
+   11200,
+   11200
+  ],
+  "premium premium": [
+   1900,
+   1900
+  ]
+ },
+ "claude-opus-5-5": {
+  "main shown": [
+   11200,
+   11200
+  ],
+  "premium premium": [
+   1900,
+   1900
+  ]
+ },
+ "claude-sonnet-5-5": {
+  "main shown": [
+   11198,
+   11200
+  ],
+  "premium premium": [
+   1900,
+   1900
+  ]
+ },
+ "gpt-6-astra": {
+  "main shown": [
+   5365,
+   5365
+  ]
+ },
+ "gpt-6.1-sol": {
+  "premium premium": [
+   1900,
+   1900
+  ],
+  "main shown": [
+   5600,
+   5600
+  ]
+ },
+ "gpt-6.2-astra": {
+  "premium premium": [
+   1622,
+   1622
+  ],
+  "main shown": [
+   5600,
+   5600
+  ]
+ },
+ "gpt-6.2-sol": {
+  "premium premium": [
+   1899,
+   1900
+  ],
+  "main shown": [
+   5600,
+   5600
+  ]
+ },
+ "ernie45-21b": {
+  "main shown": [
+   11200,
+   11200
+  ],
+  "main hidden": [
+   11200,
+   11200
+  ],
+  "main repeat": [
+   1400,
+   1400
+  ],
+  "V1-no-prices shown": [
+   5600,
+   5600
+  ],
+  "V2-pilot-band shown": [
+   5600,
+   5600
+  ],
+  "V3-second-wording shown": [
+   5600,
+   5600
+  ],
+  "V4-blocks shown": [
+   5600,
+   5600
+  ],
+  "V5-three-products shown": [
+   5600,
+   5600
+  ],
+  "V6-market-budget shown": [
+   5600,
+   5600
+  ],
+  "rating rating": [
+   2000,
+   2000
+  ],
+  "premium premium": [
+   1900,
+   1900
+  ]
+ },
+ "gemma3-27b": {
+  "main shown": [
+   11200,
+   11200
+  ],
+  "main hidden": [
+   11200,
+   11200
+  ],
+  "main repeat": [
+   1400,
+   1400
+  ],
+  "V1-no-prices shown": [
+   5600,
+   5600
+  ],
+  "V2-pilot-band shown": [
+   5600,
+   5600
+  ],
+  "V3-second-wording shown": [
+   5600,
+   5600
+  ],
+  "V4-blocks shown": [
+   5600,
+   5600
+  ],
+  "V5-three-products shown": [
+   5600,
+   5600
+  ],
+  "V6-market-budget shown": [
+   5600,
+   5600
+  ],
+  "rating rating": [
+   2000,
+   2000
+  ],
+  "premium premium": [
+   1900,
+   1900
+  ]
+ },
+ "gemma31b": {
+  "main shown": [
+   11200,
+   11200
+  ],
+  "main hidden": [
+   11200,
+   11200
+  ],
+  "main repeat": [
+   1400,
+   1400
+  ],
+  "V1-no-prices shown": [
+   5600,
+   5600
+  ],
+  "V2-pilot-band shown": [
+   5600,
+   5600
+  ],
+  "V3-second-wording shown": [
+   5600,
+   5600
+  ],
+  "V4-blocks shown": [
+   5600,
+   5600
+  ],
+  "V5-three-products shown": [
+   5600,
+   5600
+  ],
+  "V6-market-budget shown": [
+   5600,
+   5600
+  ],
+  "rating rating": [
+   2000,
+   2000
+  ],
+  "premium premium": [
+   1900,
+   1900
+  ]
+ },
+ "gemma4-12b": {
+  "main shown": [
+   11200,
+   11200
+  ],
+  "main hidden": [
+   11200,
+   11200
+  ],
+  "main repeat": [
+   1400,
+   1400
+  ],
+  "V1-no-prices shown": [
+   5600,
+   5600
+  ],
+  "V2-pilot-band shown": [
+   5600,
+   5600
+  ],
+  "V3-second-wording shown": [
+   5600,
+   5600
+  ],
+  "V4-blocks shown": [
+   5600,
+   5600
+  ],
+  "V5-three-products shown": [
+   5600,
+   5600
+  ],
+  "V6-market-budget shown": [
+   5600,
+   5600
+  ],
+  "rating rating": [
+   2000,
+   2000
+  ],
+  "premium premium": [
+   1899,
+   1900
+  ]
+ },
+ "gemma4-26b": {
+  "main shown": [
+   11199,
+   11200
+  ],
+  "main hidden": [
+   11200,
+   11200
+  ],
+  "main repeat": [
+   1400,
+   1400
+  ],
+  "V1-no-prices shown": [
+   5600,
+   5600
+  ],
+  "V2-pilot-band shown": [
+   5600,
+   5600
+  ],
+  "V3-second-wording shown": [
+   5600,
+   5600
+  ],
+  "V4-blocks shown": [
+   5600,
+   5600
+  ],
+  "V5-three-products shown": [
+   5599,
+   5600
+  ],
+  "V6-market-budget shown": [
+   5600,
+   5600
+  ],
+  "rating rating": [
+   2000,
+   2000
+  ],
+  "premium premium": [
+   1895,
+   1900
+  ]
+ },
+ "glm47-flash": {
+  "main shown": [
+   11162,
+   11200
+  ],
+  "main hidden": [
+   11146,
+   11200
+  ],
+  "main repeat": [
+   1397,
+   1400
+  ],
+  "V1-no-prices shown": [
+   5583,
+   5600
+  ],
+  "V2-pilot-band shown": [
+   5586,
+   5600
+  ],
+  "V3-second-wording shown": [
+   5589,
+   5600
+  ],
+  "V4-blocks shown": [
+   5579,
+   5600
+  ],
+  "V5-three-products shown": [
+   5582,
+   5600
+  ],
+  "V6-market-budget shown": [
+   5575,
+   5600
+  ],
+  "rating rating": [
+   1968,
+   2000
+  ],
+  "premium premium": [
+   1878,
+   1900
+  ]
+ },
+ "gptoss120b": {
+  "main shown": [
+   11200,
+   11200
+  ],
+  "main hidden": [
+   11200,
+   11200
+  ],
+  "main repeat": [
+   1400,
+   1400
+  ],
+  "V1-no-prices shown": [
+   5600,
+   5600
+  ],
+  "V2-pilot-band shown": [
+   5600,
+   5600
+  ],
+  "V3-second-wording shown": [
+   5600,
+   5600
+  ],
+  "V4-blocks shown": [
+   5600,
+   5600
+  ],
+  "V5-three-products shown": [
+   5600,
+   5600
+  ],
+  "V6-market-budget shown": [
+   5600,
+   5600
+  ],
+  "rating rating": [
+   2000,
+   2000
+  ],
+  "premium premium": [
+   1900,
+   1900
+  ]
+ },
+ "gptoss20b": {
+  "main shown": [
+   11186,
+   11200
+  ],
+  "main hidden": [
+   11188,
+   11200
+  ],
+  "main repeat": [
+   1395,
+   1400
+  ],
+  "V1-no-prices shown": [
+   5597,
+   5600
+  ],
+  "V2-pilot-band shown": [
+   5594,
+   5600
+  ],
+  "V3-second-wording shown": [
+   5593,
+   5600
+  ],
+  "V4-blocks shown": [
+   5592,
+   5600
+  ],
+  "V5-three-products shown": [
+   5595,
+   5600
+  ],
+  "V6-market-budget shown": [
+   5592,
+   5600
+  ],
+  "rating rating": [
+   2000,
+   2000
+  ],
+  "premium premium": [
+   1898,
+   1900
+  ]
+ },
+ "granite41-30b": {
+  "main shown": [
+   11200,
+   11200
+  ],
+  "main hidden": [
+   11200,
+   11200
+  ],
+  "main repeat": [
+   1400,
+   1400
+  ],
+  "V1-no-prices shown": [
+   5600,
+   5600
+  ],
+  "V2-pilot-band shown": [
+   5600,
+   5600
+  ],
+  "V3-second-wording shown": [
+   5600,
+   5600
+  ],
+  "V4-blocks shown": [
+   5600,
+   5600
+  ],
+  "V5-three-products shown": [
+   5600,
+   5600
+  ],
+  "V6-market-budget shown": [
+   5600,
+   5600
+  ],
+  "rating rating": [
+   2000,
+   2000
+  ],
+  "premium premium": [
+   1900,
+   1900
+  ]
+ },
+ "granite42-30b": {
+  "main shown": [
+   11195,
+   11200
+  ],
+  "main hidden": [
+   11200,
+   11200
+  ],
+  "main repeat": [
+   1400,
+   1400
+  ],
+  "V1-no-prices shown": [
+   5600,
+   5600
+  ],
+  "V2-pilot-band shown": [
+   5600,
+   5600
+  ],
+  "V3-second-wording shown": [
+   5599,
+   5600
+  ],
+  "V4-blocks shown": [
+   5600,
+   5600
+  ],
+  "V5-three-products shown": [
+   5597,
+   5600
+  ],
+  "V6-market-budget shown": [
+   5600,
+   5600
+  ],
+  "rating rating": [
+   2000,
+   2000
+  ],
+  "premium premium": [
+   1900,
+   1900
+  ]
+ },
+ "kimi-linear48b": {
+  "main shown": [
+   9289,
+   11200
+  ],
+  "main hidden": [
+   9337,
+   11200
+  ],
+  "main repeat": [
+   1165,
+   1400
+  ],
+  "V1-no-prices shown": [
+   4811,
+   5600
+  ],
+  "V2-pilot-band shown": [
+   4737,
+   5600
+  ],
+  "V3-second-wording shown": [
+   4622,
+   5600
+  ],
+  "V4-blocks shown": [
+   4277,
+   5600
+  ],
+  "V5-three-products shown": [
+   4554,
+   5600
+  ],
+  "V6-market-budget shown": [
+   4647,
+   5600
+  ],
+  "rating rating": [
+   1840,
+   2000
+  ],
+  "premium premium": [
+   1417,
+   1900
+  ]
+ },
+ "llama3b": {
+  "main shown": [
+   11200,
+   11200
+  ],
+  "main hidden": [
+   11200,
+   11200
+  ],
+  "main repeat": [
+   1400,
+   1400
+  ],
+  "V1-no-prices shown": [
+   5600,
+   5600
+  ],
+  "V2-pilot-band shown": [
+   5600,
+   5600
+  ],
+  "V3-second-wording shown": [
+   5600,
+   5600
+  ],
+  "V4-blocks shown": [
+   5600,
+   5600
+  ],
+  "V5-three-products shown": [
+   5600,
+   5600
+  ],
+  "V6-market-budget shown": [
+   5600,
+   5600
+  ],
+  "rating rating": [
+   2000,
+   2000
+  ],
+  "premium premium": [
+   1900,
+   1900
+  ]
+ },
+ "llama8b": {
+  "main shown": [
+   11200,
+   11200
+  ],
+  "main hidden": [
+   11200,
+   11200
+  ],
+  "main repeat": [
+   1400,
+   1400
+  ],
+  "V1-no-prices shown": [
+   5600,
+   5600
+  ],
+  "V2-pilot-band shown": [
+   5600,
+   5600
+  ],
+  "V3-second-wording shown": [
+   5600,
+   5600
+  ],
+  "V4-blocks shown": [
+   5600,
+   5600
+  ],
+  "V5-three-products shown": [
+   5600,
+   5600
+  ],
+  "V6-market-budget shown": [
+   5600,
+   5600
+  ],
+  "rating rating": [
+   2000,
+   2000
+  ],
+  "premium premium": [
+   1900,
+   1900
+  ]
+ },
+ "marin8b": {
+  "main shown": [
+   10714,
+   11200
+  ],
+  "main hidden": [
+   10804,
+   11200
+  ],
+  "main repeat": [
+   1335,
+   1400
+  ],
+  "V1-no-prices shown": [
+   5305,
+   5600
+  ],
+  "V2-pilot-band shown": [
+   5310,
+   5600
+  ],
+  "V3-second-wording shown": [
+   5380,
+   5600
+  ],
+  "V4-blocks shown": [
+   5366,
+   5600
+  ],
+  "V5-three-products shown": [
+   5330,
+   5600
+  ],
+  "V6-market-budget shown": [
+   5350,
+   5600
+  ],
+  "rating rating": [
+   1988,
+   2000
+  ],
+  "premium premium": [
+   1810,
+   1900
+  ]
+ },
+ "ministral3-14b": {
+  "main shown": [
+   11155,
+   11200
+  ],
+  "main hidden": [
+   11188,
+   11200
+  ],
+  "main repeat": [
+   1394,
+   1400
+  ],
+  "V1-no-prices shown": [
+   5582,
+   5600
+  ],
+  "V2-pilot-band shown": [
+   5575,
+   5600
+  ],
+  "V3-second-wording shown": [
+   5570,
+   5600
+  ],
+  "V4-blocks shown": [
+   5584,
+   5600
+  ],
+  "V5-three-products shown": [
+   5565,
+   5600
+  ],
+  "V6-market-budget shown": [
+   5566,
+   5600
+  ],
+  "rating rating": [
+   1999,
+   2000
+  ],
+  "premium premium": [
+   1879,
+   1900
+  ]
+ },
+ "nemotron3-nano30b": {
+  "main shown": [
+   11158,
+   11200
+  ],
+  "main hidden": [
+   11174,
+   11200
+  ],
+  "main repeat": [
+   1392,
+   1400
+  ],
+  "V1-no-prices shown": [
+   5575,
+   5600
+  ],
+  "V2-pilot-band shown": [
+   5585,
+   5600
+  ],
+  "V3-second-wording shown": [
+   5579,
+   5600
+  ],
+  "V4-blocks shown": [
+   5575,
+   5600
+  ],
+  "V5-three-products shown": [
+   5581,
+   5600
+  ],
+  "V6-market-budget shown": [
+   5573,
+   5600
+  ],
+  "rating rating": [
+   1997,
+   2000
+  ],
+  "premium premium": [
+   1876,
+   1900
+  ]
+ },
+ "olmo3-7b": {
+  "main shown": [
+   11200,
+   11200
+  ],
+  "main hidden": [
+   11200,
+   11200
+  ],
+  "main repeat": [
+   1400,
+   1400
+  ],
+  "V1-no-prices shown": [
+   5600,
+   5600
+  ],
+  "V2-pilot-band shown": [
+   5600,
+   5600
+  ],
+  "V3-second-wording shown": [
+   5600,
+   5600
+  ],
+  "V4-blocks shown": [
+   5600,
+   5600
+  ],
+  "V5-three-products shown": [
+   5600,
+   5600
+  ],
+  "V6-market-budget shown": [
+   5600,
+   5600
+  ],
+  "rating rating": [
+   2000,
+   2000
+  ],
+  "premium premium": [
+   1900,
+   1900
+  ]
+ },
+ "olmo31-32b": {
+  "main shown": [
+   11200,
+   11200
+  ],
+  "main hidden": [
+   11200,
+   11200
+  ],
+  "main repeat": [
+   1400,
+   1400
+  ],
+  "V1-no-prices shown": [
+   5600,
+   5600
+  ],
+  "V2-pilot-band shown": [
+   5600,
+   5600
+  ],
+  "V3-second-wording shown": [
+   5599,
+   5600
+  ],
+  "V4-blocks shown": [
+   5599,
+   5600
+  ],
+  "V5-three-products shown": [
+   5600,
+   5600
+  ],
+  "V6-market-budget shown": [
+   5600,
+   5600
+  ],
+  "rating rating": [
+   2000,
+   2000
+  ],
+  "premium premium": [
+   1880,
+   1900
+  ]
+ },
+ "phi4": {
+  "main shown": [
+   11200,
+   11200
+  ],
+  "main hidden": [
+   11200,
+   11200
+  ],
+  "main repeat": [
+   1400,
+   1400
+  ],
+  "V1-no-prices shown": [
+   5600,
+   5600
+  ],
+  "V2-pilot-band shown": [
+   5600,
+   5600
+  ],
+  "V3-second-wording shown": [
+   5600,
+   5600
+  ],
+  "V4-blocks shown": [
+   5599,
+   5600
+  ],
+  "V5-three-products shown": [
+   5600,
+   5600
+  ],
+  "V6-market-budget shown": [
+   5600,
+   5600
+  ],
+  "rating rating": [
+   2000,
+   2000
+  ],
+  "premium premium": [
+   1900,
+   1900
+  ]
+ },
+ "qwen3-30b": {
+  "main shown": [
+   11200,
+   11200
+  ],
+  "main hidden": [
+   11200,
+   11200
+  ],
+  "main repeat": [
+   1400,
+   1400
+  ],
+  "V1-no-prices shown": [
+   5600,
+   5600
+  ],
+  "V2-pilot-band shown": [
+   5600,
+   5600
+  ],
+  "V3-second-wording shown": [
+   5600,
+   5600
+  ],
+  "V4-blocks shown": [
+   5600,
+   5600
+  ],
+  "V5-three-products shown": [
+   5600,
+   5600
+  ],
+  "V6-market-budget shown": [
+   5600,
+   5600
+  ],
+  "rating rating": [
+   2000,
+   2000
+  ],
+  "premium premium": [
+   1900,
+   1900
+  ]
+ },
+ "qwen3-32b": {
+  "main shown": [
+   11200,
+   11200
+  ],
+  "main hidden": [
+   11200,
+   11200
+  ],
+  "main repeat": [
+   1400,
+   1400
+  ],
+  "V1-no-prices shown": [
+   5600,
+   5600
+  ],
+  "V2-pilot-band shown": [
+   5600,
+   5600
+  ],
+  "V3-second-wording shown": [
+   5600,
+   5600
+  ],
+  "V4-blocks shown": [
+   5598,
+   5600
+  ],
+  "V5-three-products shown": [
+   5600,
+   5600
+  ],
+  "V6-market-budget shown": [
+   5597,
+   5600
+  ],
+  "rating rating": [
+   2000,
+   2000
+  ],
+  "premium premium": [
+   1899,
+   1900
+  ]
+ },
+ "qwen32b": {
+  "main shown": [
+   11200,
+   11200
+  ],
+  "main hidden": [
+   11200,
+   11200
+  ],
+  "main repeat": [
+   1400,
+   1400
+  ],
+  "V1-no-prices shown": [
+   5600,
+   5600
+  ],
+  "V2-pilot-band shown": [
+   5600,
+   5600
+  ],
+  "V3-second-wording shown": [
+   5600,
+   5600
+  ],
+  "V4-blocks shown": [
+   5600,
+   5600
+  ],
+  "V5-three-products shown": [
+   5600,
+   5600
+  ],
+  "V6-market-budget shown": [
+   5600,
+   5600
+  ],
+  "rating rating": [
+   2000,
+   2000
+  ],
+  "premium premium": [
+   1900,
+   1900
+  ]
+ },
+ "qwen35-0.8b": {
+  "main shown": [
+   11193,
+   11200
+  ],
+  "main hidden": [
+   11187,
+   11200
+  ],
+  "main repeat": [
+   1399,
+   1400
+  ],
+  "V1-no-prices shown": [
+   5595,
+   5600
+  ],
+  "V2-pilot-band shown": [
+   5593,
+   5600
+  ],
+  "V3-second-wording shown": [
+   5593,
+   5600
+  ],
+  "V4-blocks shown": [
+   5595,
+   5600
+  ],
+  "V5-three-products shown": [
+   5597,
+   5600
+  ],
+  "V6-market-budget shown": [
+   5595,
+   5600
+  ],
+  "rating rating": [
+   1974,
+   2000
+  ],
+  "premium premium": [
+   1898,
+   1900
+  ]
+ },
+ "qwen35-122b-fp8": {
+  "main shown": [
+   11200,
+   11200
+  ],
+  "main hidden": [
+   11200,
+   11200
+  ],
+  "main repeat": [
+   1400,
+   1400
+  ],
+  "V1-no-prices shown": [
+   5600,
+   5600
+  ],
+  "V2-pilot-band shown": [
+   5600,
+   5600
+  ],
+  "V3-second-wording shown": [
+   5598,
+   5600
+  ],
+  "V4-blocks shown": [
+   5600,
+   5600
+  ],
+  "V5-three-products shown": [
+   5599,
+   5600
+  ],
+  "V6-market-budget shown": [
+   5599,
+   5600
+  ],
+  "rating rating": [
+   2000,
+   2000
+  ],
+  "premium premium": [
+   1900,
+   1900
+  ]
+ },
+ "qwen35-27b": {
+  "main shown": [
+   11199,
+   11200
+  ],
+  "main hidden": [
+   11199,
+   11200
+  ],
+  "main repeat": [
+   1400,
+   1400
+  ],
+  "V1-no-prices shown": [
+   5600,
+   5600
+  ],
+  "V2-pilot-band shown": [
+   5600,
+   5600
+  ],
+  "V3-second-wording shown": [
+   5600,
+   5600
+  ],
+  "V4-blocks shown": [
+   5600,
+   5600
+  ],
+  "V5-three-products shown": [
+   5599,
+   5600
+  ],
+  "V6-market-budget shown": [
+   5588,
+   5600
+  ],
+  "rating rating": [
+   2000,
+   2000
+  ],
+  "premium premium": [
+   1900,
+   1900
+  ]
+ },
+ "qwen35-2b": {
+  "main shown": [
+   11003,
+   11200
+  ],
+  "main hidden": [
+   11097,
+   11200
+  ],
+  "main repeat": [
+   1377,
+   1400
+  ],
+  "V1-no-prices shown": [
+   5499,
+   5600
+  ],
+  "V2-pilot-band shown": [
+   5501,
+   5600
+  ],
+  "V3-second-wording shown": [
+   5516,
+   5600
+  ],
+  "V4-blocks shown": [
+   5554,
+   5600
+  ],
+  "V5-three-products shown": [
+   5542,
+   5600
+  ],
+  "V6-market-budget shown": [
+   5518,
+   5600
+  ],
+  "rating rating": [
+   1988,
+   2000
+  ],
+  "premium premium": [
+   1865,
+   1900
+  ]
+ },
+ "qwen35-35b": {
+  "main shown": [
+   11196,
+   11200
+  ],
+  "main hidden": [
+   11186,
+   11200
+  ],
+  "main repeat": [
+   1400,
+   1400
+  ],
+  "V1-no-prices shown": [
+   5600,
+   5600
+  ],
+  "V2-pilot-band shown": [
+   5599,
+   5600
+  ],
+  "V3-second-wording shown": [
+   5600,
+   5600
+  ],
+  "V4-blocks shown": [
+   5598,
+   5600
+  ],
+  "V5-three-products shown": [
+   5595,
+   5600
+  ],
+  "V6-market-budget shown": [
+   5597,
+   5600
+  ],
+  "rating rating": [
+   2000,
+   2000
+  ],
+  "premium premium": [
+   1893,
+   1900
+  ]
+ },
+ "qwen35-4b": {
+  "main shown": [
+   11018,
+   11200
+  ],
+  "main hidden": [
+   10689,
+   11200
+  ],
+  "main repeat": [
+   1384,
+   1400
+  ],
+  "V1-no-prices shown": [
+   5494,
+   5600
+  ],
+  "V2-pilot-band shown": [
+   5535,
+   5600
+  ],
+  "V3-second-wording shown": [
+   5529,
+   5600
+  ],
+  "V4-blocks shown": [
+   5447,
+   5600
+  ],
+  "V5-three-products shown": [
+   5378,
+   5600
+  ],
+  "V6-market-budget shown": [
+   5516,
+   5600
+  ],
+  "rating rating": [
+   1992,
+   2000
+  ],
+  "premium premium": [
+   1864,
+   1900
+  ]
+ },
+ "qwen35-9b": {
+  "main shown": [
+   11181,
+   11200
+  ],
+  "main hidden": [
+   11183,
+   11200
+  ],
+  "main repeat": [
+   1400,
+   1400
+  ],
+  "V1-no-prices shown": [
+   5593,
+   5600
+  ],
+  "V2-pilot-band shown": [
+   5594,
+   5600
+  ],
+  "V3-second-wording shown": [
+   5593,
+   5600
+  ],
+  "V4-blocks shown": [
+   5595,
+   5600
+  ],
+  "V5-three-products shown": [
+   5587,
+   5600
+  ],
+  "V6-market-budget shown": [
+   5589,
+   5600
+  ],
+  "rating rating": [
+   1999,
+   2000
+  ],
+  "premium premium": [
+   1894,
+   1900
+  ]
+ },
+ "qwen36-27b": {
+  "main shown": [
+   11200,
+   11200
+  ],
+  "main hidden": [
+   11200,
+   11200
+  ],
+  "main repeat": [
+   1400,
+   1400
+  ],
+  "V1-no-prices shown": [
+   5600,
+   5600
+  ],
+  "V2-pilot-band shown": [
+   5599,
+   5600
+  ],
+  "V3-second-wording shown": [
+   5600,
+   5600
+  ],
+  "V4-blocks shown": [
+   5600,
+   5600
+  ],
+  "V5-three-products shown": [
+   5600,
+   5600
+  ],
+  "V6-market-budget shown": [
+   5600,
+   5600
+  ],
+  "rating rating": [
+   2000,
+   2000
+  ],
+  "premium premium": [
+   1900,
+   1900
+  ]
+ },
+ "qwen38-27b": {
+  "main shown": [
+   11200,
+   11200
+  ],
+  "main hidden": [
+   11200,
+   11200
+  ],
+  "main repeat": [
+   1400,
+   1400
+  ],
+  "V1-no-prices shown": [
+   5600,
+   5600
+  ],
+  "V2-pilot-band shown": [
+   5600,
+   5600
+  ],
+  "V3-second-wording shown": [
+   5600,
+   5600
+  ],
+  "V4-blocks shown": [
+   5600,
+   5600
+  ],
+  "V5-three-products shown": [
+   5600,
+   5600
+  ],
+  "V6-market-budget shown": [
+   5600,
+   5600
+  ],
+  "rating rating": [
+   2000,
+   2000
+  ],
+  "premium premium": [
+   1900,
+   1900
+  ]
+ },
+ "qwen7b": {
+  "main shown": [
+   11200,
+   11200
+  ],
+  "main hidden": [
+   11200,
+   11200
+  ],
+  "main repeat": [
+   1400,
+   1400
+  ],
+  "V1-no-prices shown": [
+   5600,
+   5600
+  ],
+  "V2-pilot-band shown": [
+   5600,
+   5600
+  ],
+  "V3-second-wording shown": [
+   5600,
+   5600
+  ],
+  "V4-blocks shown": [
+   5600,
+   5600
+  ],
+  "V5-three-products shown": [
+   5600,
+   5600
+  ],
+  "V6-market-budget shown": [
+   5600,
+   5600
+  ],
+  "rating rating": [
+   2000,
+   2000
+  ],
+  "premium premium": [
+   1900,
+   1900
+  ]
+ }
+}

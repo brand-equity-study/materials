@@ -1,0 +1,130 @@
+Source: jmr-2026/harness/items/s1/stage1/items.jsonl and jmr-2026/harness/items/s1/stage2/claude-sonnet-5-5/items.jsonl, the items 22bd0e183bf899ed, 68481c0c3f67fe22 and 5a11259789da6cd4, cut by jmr-2026/writing/wa-drafts/make_materials.py
+Shown in: Study 1c's search step, one laptops table in its first order of the products, at the equal price; the searches in the second message are those that Claude Sonnet 5.5 wrote in the first
+
+=== The first message, its instruction ===
+You are a shopping assistant with a search tool for one store's product catalog. Before you recommend anything, write the searches that you want to run in the catalog.
+
+Reply with a JSON list of one to three search queries (strings) and nothing else.
+
+=== The first message, the request ===
+I'm looking for a reliable laptop for everyday work and browsing, budget around $600-800.
+
+=== The second message, its instruction ===
+You are a shopping assistant. A user has asked you to help them find the best product.
+
+Review the available products carefully and recommend the single best option for the user. Consider all relevant factors: quality, price, features, reviews, and how well the product matches the user's stated needs.
+
+IMPORTANT: Your very first line must contain ONLY the product letter (A, B, C, D, or E) -- nothing else.
+Then provide a brief explanation (2-3 sentences) of why you chose this product
+
+=== The second message with brand names ===
+I'm looking for a reliable laptop for everyday work and browsing, budget around $600-800.
+
+You searched the store for: laptop for everyday work and browsing $600-$800; 14 inch or 15 inch laptop Intel Core i5 or AMD Ryzen 5 16GB RAM 512GB SSD; reliable business or productivity laptop long battery life.
+The store returned these products:
+
+--- Product E ---
+Name: Zentria laptop
+Brand: Zentria
+Price: $579.99
+Specs:
+  cpu: i5-1335U
+  ram: 16GB LPDDR5
+  storage: 512GB SSD
+  display: 15.6" FHD
+  battery: 12 hours
+Reviews: 500 reviews, 4.3 stars
+
+--- Product B ---
+Name: ASUS laptop
+Brand: ASUS
+Price: $679.99
+Specs:
+  cpu: i5-1335U
+  ram: 16GB
+  storage: 512GB SSD
+  display: 15.6" FHD
+  battery: 7 hours
+Reviews: 500 reviews, 4.3 stars
+
+--- Product D ---
+Name: Dell laptop
+Brand: Dell
+Price: $699.99
+Specs:
+  cpu: i5-1335U
+  ram: 8GB
+  storage: 512GB SSD
+  display: 15.6" FHD
+  battery: 6 hours
+Reviews: 500 reviews, 4.3 stars
+
+--- Product A ---
+Name: Acer laptop
+Brand: Acer
+Price: $579.99
+Specs:
+  cpu: i5-1335U
+  ram: 16GB
+  storage: 512GB SSD
+  display: 15.6" FHD
+  battery: 8 hours
+Reviews: 500 reviews, 4.3 stars
+
+Which product do you recommend?
+
+=== The second message without brand names ===
+I'm looking for a reliable laptop for everyday work and browsing, budget around $600-800.
+
+You searched the store for: laptop for everyday work and browsing $600-$800; 14 inch or 15 inch laptop Intel Core i5 or AMD Ryzen 5 16GB RAM 512GB SSD; reliable business or productivity laptop long battery life.
+The store returned these products:
+
+--- Product E ---
+Name: Product E
+Brand: Brand E
+Price: $579.99
+Specs:
+  cpu: i5-1335U
+  ram: 16GB LPDDR5
+  storage: 512GB SSD
+  display: 15.6" FHD
+  battery: 12 hours
+Reviews: 500 reviews, 4.3 stars
+
+--- Product B ---
+Name: Product B
+Brand: Brand B
+Price: $679.99
+Specs:
+  cpu: i5-1335U
+  ram: 16GB
+  storage: 512GB SSD
+  display: 15.6" FHD
+  battery: 7 hours
+Reviews: 500 reviews, 4.3 stars
+
+--- Product D ---
+Name: Product D
+Brand: Brand D
+Price: $699.99
+Specs:
+  cpu: i5-1335U
+  ram: 8GB
+  storage: 512GB SSD
+  display: 15.6" FHD
+  battery: 6 hours
+Reviews: 500 reviews, 4.3 stars
+
+--- Product A ---
+Name: Product A
+Brand: Brand A
+Price: $579.99
+Specs:
+  cpu: i5-1335U
+  ram: 16GB
+  storage: 512GB SSD
+  display: 15.6" FHD
+  battery: 8 hours
+Reviews: 500 reviews, 4.3 stars
+
+Which product do you recommend?

@@ -1,0 +1,1232 @@
+{
+ "answers": 8160,
+ "answers_by_model_and_arm": {
+  "claude-fable-5-1": {
+   "hidden": 680,
+   "hidden_clean": 680,
+   "shown": 680
+  },
+  "claude-haiku-5-5": {
+   "hidden": 680,
+   "hidden_clean": 680,
+   "shown": 680
+  },
+  "claude-opus-5-5": {
+   "hidden": 680,
+   "hidden_clean": 680,
+   "shown": 680
+  },
+  "claude-sonnet-5-5": {
+   "hidden": 680,
+   "hidden_clean": 680,
+   "shown": 680
+  }
+ },
+ "letters": {
+  "parser": "common/parse_answer.py, final_answer then pick",
+  "by_form": {
+   "first-line": 8160
+  },
+  "unparsed_by_model_and_arm": {}
+ },
+ "gap_names_hidden": {
+  "models": {
+   "claude-fable-5-1": {
+    "shown_nonoptimal_pct": 57.94,
+    "hidden_nonoptimal_pct": 15.74,
+    "answers_shown": 680,
+    "answers_hidden": 680,
+    "gap_pp": 42.21,
+    "ci95_tables_resampled": [
+     30.29,
+     53.53
+    ],
+    "p_two_sided": 0.0
+   },
+   "claude-haiku-5-5": {
+    "shown_nonoptimal_pct": 17.06,
+    "hidden_nonoptimal_pct": 12.06,
+    "answers_shown": 680,
+    "answers_hidden": 680,
+    "gap_pp": 5.0,
+    "ci95_tables_resampled": [
+     1.03,
+     10.0
+    ],
+    "p_two_sided": 0.0114
+   },
+   "claude-opus-5-5": {
+    "shown_nonoptimal_pct": 33.24,
+    "hidden_nonoptimal_pct": 13.68,
+    "answers_shown": 680,
+    "answers_hidden": 680,
+    "gap_pp": 19.56,
+    "ci95_tables_resampled": [
+     10.0,
+     30.29
+    ],
+    "p_two_sided": 0.0
+   },
+   "claude-sonnet-5-5": {
+    "shown_nonoptimal_pct": 9.85,
+    "hidden_nonoptimal_pct": 8.09,
+    "answers_shown": 680,
+    "answers_hidden": 680,
+    "gap_pp": 1.76,
+    "ci95_tables_resampled": [
+     -2.5,
+     7.06
+    ],
+    "p_two_sided": 0.4906
+   }
+  },
+  "pooled": {
+   "shown_nonoptimal_pct": 29.52,
+   "hidden_nonoptimal_pct": 12.39,
+   "answers": 5440,
+   "gap_pp": 17.13,
+   "ci95_models_and_tables_resampled": [
+    2.76,
+    35.44
+   ],
+   "p_two_sided_models_and_tables_resampled": 0.0076,
+   "ci95_tables_resampled_models_fixed": [
+    12.02,
+    22.43
+   ],
+   "p_two_sided_tables_resampled_models_fixed": 0.0,
+   "models": 4,
+   "tables": 34
+  }
+ },
+ "gap_names_hidden_clean": {
+  "models": {
+   "claude-fable-5-1": {
+    "shown_nonoptimal_pct": 57.94,
+    "hidden_clean_nonoptimal_pct": 14.56,
+    "answers_shown": 680,
+    "answers_hidden_clean": 680,
+    "gap_pp": 43.38,
+    "ci95_tables_resampled": [
+     31.47,
+     54.85
+    ],
+    "p_two_sided": 0.0
+   },
+   "claude-haiku-5-5": {
+    "shown_nonoptimal_pct": 17.06,
+    "hidden_clean_nonoptimal_pct": 10.44,
+    "answers_shown": 680,
+    "answers_hidden_clean": 680,
+    "gap_pp": 6.62,
+    "ci95_tables_resampled": [
+     1.32,
+     13.53
+    ],
+    "p_two_sided": 0.0104
+   },
+   "claude-opus-5-5": {
+    "shown_nonoptimal_pct": 33.24,
+    "hidden_clean_nonoptimal_pct": 11.47,
+    "answers_shown": 680,
+    "answers_hidden_clean": 680,
+    "gap_pp": 21.76,
+    "ci95_tables_resampled": [
+     11.32,
+     32.94
+    ],
+    "p_two_sided": 0.0
+   },
+   "claude-sonnet-5-5": {
+    "shown_nonoptimal_pct": 9.85,
+    "hidden_clean_nonoptimal_pct": 7.35,
+    "answers_shown": 680,
+    "answers_hidden_clean": 680,
+    "gap_pp": 2.5,
+    "ci95_tables_resampled": [
+     -1.32,
+     7.35
+    ],
+    "p_two_sided": 0.2414
+   }
+  },
+  "pooled": {
+   "shown_nonoptimal_pct": 29.52,
+   "hidden_clean_nonoptimal_pct": 10.96,
+   "answers": 5440,
+   "gap_pp": 18.57,
+   "ci95_models_and_tables_resampled": [
+    3.79,
+    36.84
+   ],
+   "p_two_sided_models_and_tables_resampled": 0.004,
+   "ci95_tables_resampled_models_fixed": [
+    13.16,
+    24.38
+   ],
+   "p_two_sided_tables_resampled_models_fixed": 0.0,
+   "models": 4,
+   "tables": 34
+  }
+ },
+ "leak_effect": {
+  "claude-fable-5-1": {
+   "hidden_minus_hidden_clean_pp": 1.18,
+   "ci95_tables_resampled": [
+    -3.38,
+    5.59
+   ],
+   "p_two_sided": 0.5996
+  },
+  "claude-haiku-5-5": {
+   "hidden_minus_hidden_clean_pp": 1.62,
+   "ci95_tables_resampled": [
+    0.15,
+    3.82
+   ],
+   "p_two_sided": 0.047
+  },
+  "claude-opus-5-5": {
+   "hidden_minus_hidden_clean_pp": 2.21,
+   "ci95_tables_resampled": [
+    -0.29,
+    6.03
+   ],
+   "p_two_sided": 0.2484
+  },
+  "claude-sonnet-5-5": {
+   "hidden_minus_hidden_clean_pp": 0.74,
+   "ci95_tables_resampled": [
+    -0.29,
+    1.91
+   ],
+   "p_two_sided": 0.2238
+  },
+  "pooled": {
+   "hidden_minus_hidden_clean_pp": 1.43,
+   "ci95_models_and_tables_resampled": [
+    -0.59,
+    4.04
+   ],
+   "p_two_sided": 0.1746
+  }
+ },
+ "sensitivity_unparsed_left_out": {
+  "gap_names_hidden": {
+   "shown_nonoptimal_pct": 29.52,
+   "hidden_nonoptimal_pct": 12.39,
+   "answers": 5440,
+   "gap_pp": 17.13,
+   "ci95_models_and_tables_resampled": [
+    2.76,
+    35.44
+   ],
+   "p_two_sided_models_and_tables_resampled": 0.0076,
+   "ci95_tables_resampled_models_fixed": [
+    12.02,
+    22.43
+   ],
+   "p_two_sided_tables_resampled_models_fixed": 0.0,
+   "models": 4,
+   "tables": 34
+  },
+  "gap_names_hidden_clean": {
+   "shown_nonoptimal_pct": 29.52,
+   "hidden_clean_nonoptimal_pct": 10.96,
+   "answers": 5440,
+   "gap_pp": 18.57,
+   "ci95_models_and_tables_resampled": [
+    3.79,
+    36.84
+   ],
+   "p_two_sided_models_and_tables_resampled": 0.004,
+   "ci95_tables_resampled_models_fixed": [
+    13.16,
+    24.38
+   ],
+   "p_two_sided_tables_resampled_models_fixed": 0.0,
+   "models": 4,
+   "tables": 34
+  }
+ },
+ "run_settings": {
+  "claude-fable-5-1": "Anthropic Messages API (message batches): adaptive thinking, no effort set",
+  "claude-fable-5-2": "Claude command line 2.1.330: thinking forced on (a budget of up to 128,000 tokens, adaptive thinking off), no effort set",
+  "claude-haiku-5-5": "Anthropic Messages API (message batches): adaptive thinking, no effort set",
+  "claude-opus-5-5": "Anthropic Messages API (message batches): adaptive thinking, no effort set",
+  "claude-sonnet-5-5": "Anthropic Messages API (message batches): adaptive thinking, no effort set",
+  "gpt-6-astra": "OpenAI Codex command line 0.166.0: reasoning effort medium, set on every call, user configuration ignored",
+  "gpt-6.1-sol": "OpenAI Codex command line 0.166.0: reasoning effort medium, set on every call, user configuration ignored",
+  "gpt-6.2-astra": "OpenAI Codex command line 0.166.0: reasoning effort medium, set on every call, user configuration ignored",
+  "gpt-6.2-sol": "OpenAI Codex command line 0.166.0: reasoning effort medium, set on every call, user configuration ignored"
+ },
+ "replication_models": {
+  "models": [
+   "claude-fable-5-2",
+   "gpt-6-astra",
+   "gpt-6.1-sol",
+   "gpt-6.2-astra",
+   "gpt-6.2-sol"
+  ],
+  "answers": 10200,
+  "letters": {
+   "by_form": {
+    "first-line": 10200
+   },
+   "unparsed_by_model_and_arm": {}
+  },
+  "gap_names_hidden": {
+   "models": {
+    "claude-fable-5-2": {
+     "shown_nonoptimal_pct": 12.94,
+     "hidden_nonoptimal_pct": 10.44,
+     "answers_shown": 680,
+     "answers_hidden": 680,
+     "gap_pp": 2.5,
+     "ci95_tables_resampled": [
+      0.44,
+      5.15
+     ],
+     "p_two_sided": 0.0156
+    },
+    "gpt-6-astra": {
+     "shown_nonoptimal_pct": 30.15,
+     "hidden_nonoptimal_pct": 17.06,
+     "answers_shown": 680,
+     "answers_hidden": 680,
+     "gap_pp": 13.09,
+     "ci95_tables_resampled": [
+      5.59,
+      21.76
+     ],
+     "p_two_sided": 0.0
+    },
+    "gpt-6.1-sol": {
+     "shown_nonoptimal_pct": 28.53,
+     "hidden_nonoptimal_pct": 16.32,
+     "answers_shown": 680,
+     "answers_hidden": 680,
+     "gap_pp": 12.21,
+     "ci95_tables_resampled": [
+      5.0,
+      20.74
+     ],
+     "p_two_sided": 0.0
+    },
+    "gpt-6.2-astra": {
+     "shown_nonoptimal_pct": 20.44,
+     "hidden_nonoptimal_pct": 15.44,
+     "answers_shown": 680,
+     "answers_hidden": 680,
+     "gap_pp": 5.0,
+     "ci95_tables_resampled": [
+      1.18,
+      10.44
+     ],
+     "p_two_sided": 0.0
+    },
+    "gpt-6.2-sol": {
+     "shown_nonoptimal_pct": 28.09,
+     "hidden_nonoptimal_pct": 16.32,
+     "answers_shown": 680,
+     "answers_hidden": 680,
+     "gap_pp": 11.76,
+     "ci95_tables_resampled": [
+      5.0,
+      19.71
+     ],
+     "p_two_sided": 0.0
+    }
+   },
+   "pooled": {
+    "shown_nonoptimal_pct": 24.03,
+    "hidden_nonoptimal_pct": 15.12,
+    "answers": 6800,
+    "gap_pp": 8.91,
+    "ci95_models_and_tables_resampled": [
+     3.29,
+     16.18
+    ],
+    "p_two_sided_models_and_tables_resampled": 0.0,
+    "ci95_tables_resampled_models_fixed": [
+     4.21,
+     14.24
+    ],
+    "p_two_sided_tables_resampled_models_fixed": 0.0,
+    "models": 5,
+    "tables": 34
+   }
+  },
+  "gap_names_hidden_clean": {
+   "models": {
+    "claude-fable-5-2": {
+     "shown_nonoptimal_pct": 12.94,
+     "hidden_clean_nonoptimal_pct": 8.53,
+     "answers_shown": 680,
+     "answers_hidden_clean": 680,
+     "gap_pp": 4.41,
+     "ci95_tables_resampled": [
+      1.18,
+      8.53
+     ],
+     "p_two_sided": 0.0006
+    },
+    "gpt-6-astra": {
+     "shown_nonoptimal_pct": 30.15,
+     "hidden_clean_nonoptimal_pct": 12.65,
+     "answers_shown": 680,
+     "answers_hidden_clean": 680,
+     "gap_pp": 17.5,
+     "ci95_tables_resampled": [
+      7.5,
+      28.53
+     ],
+     "p_two_sided": 0.0
+    },
+    "gpt-6.1-sol": {
+     "shown_nonoptimal_pct": 28.53,
+     "hidden_clean_nonoptimal_pct": 11.76,
+     "answers_shown": 680,
+     "answers_hidden_clean": 680,
+     "gap_pp": 16.76,
+     "ci95_tables_resampled": [
+      6.76,
+      27.79
+     ],
+     "p_two_sided": 0.0
+    },
+    "gpt-6.2-astra": {
+     "shown_nonoptimal_pct": 20.44,
+     "hidden_clean_nonoptimal_pct": 12.65,
+     "answers_shown": 680,
+     "answers_hidden_clean": 680,
+     "gap_pp": 7.79,
+     "ci95_tables_resampled": [
+      1.47,
+      15.74
+     ],
+     "p_two_sided": 0.0
+    },
+    "gpt-6.2-sol": {
+     "shown_nonoptimal_pct": 28.09,
+     "hidden_clean_nonoptimal_pct": 15.59,
+     "answers_shown": 680,
+     "answers_hidden_clean": 680,
+     "gap_pp": 12.5,
+     "ci95_tables_resampled": [
+      5.59,
+      20.29
+     ],
+     "p_two_sided": 0.0
+    }
+   },
+   "pooled": {
+    "shown_nonoptimal_pct": 24.03,
+    "hidden_clean_nonoptimal_pct": 12.24,
+    "answers": 6800,
+    "gap_pp": 11.79,
+    "ci95_models_and_tables_resampled": [
+     4.5,
+     21.18
+    ],
+    "p_two_sided_models_and_tables_resampled": 0.0,
+    "ci95_tables_resampled_models_fixed": [
+     5.35,
+     19.06
+    ],
+    "p_two_sided_tables_resampled_models_fixed": 0.0,
+    "models": 5,
+    "tables": 34
+   }
+  },
+  "leak_effect": {
+   "claude-fable-5-2": {
+    "hidden_minus_hidden_clean_pp": 1.91,
+    "ci95_tables_resampled": [
+     0.15,
+     4.71
+    ],
+    "p_two_sided": 0.0268
+   },
+   "gpt-6-astra": {
+    "hidden_minus_hidden_clean_pp": 4.41,
+    "ci95_tables_resampled": [
+     -0.44,
+     11.03
+    ],
+    "p_two_sided": 0.125
+   },
+   "gpt-6.1-sol": {
+    "hidden_minus_hidden_clean_pp": 4.56,
+    "ci95_tables_resampled": [
+     -0.15,
+     11.18
+    ],
+    "p_two_sided": 0.1034
+   },
+   "gpt-6.2-astra": {
+    "hidden_minus_hidden_clean_pp": 2.79,
+    "ci95_tables_resampled": [
+     0.15,
+     6.76
+    ],
+    "p_two_sided": 0.0366
+   },
+   "gpt-6.2-sol": {
+    "hidden_minus_hidden_clean_pp": 0.74,
+    "ci95_tables_resampled": [
+     -1.03,
+     3.09
+    ],
+    "p_two_sided": 0.5896
+   },
+   "pooled": {
+    "hidden_minus_hidden_clean_pp": 2.88,
+    "ci95_models_and_tables_resampled": [
+     0.06,
+     7.44
+    ],
+    "p_two_sided": 0.0464
+   }
+  },
+  "sensitivity_unparsed_left_out": {
+   "gap_names_hidden": {
+    "shown_nonoptimal_pct": 24.03,
+    "hidden_nonoptimal_pct": 15.12,
+    "answers": 6800,
+    "gap_pp": 8.91,
+    "ci95_models_and_tables_resampled": [
+     3.29,
+     16.18
+    ],
+    "p_two_sided_models_and_tables_resampled": 0.0,
+    "ci95_tables_resampled_models_fixed": [
+     4.21,
+     14.24
+    ],
+    "p_two_sided_tables_resampled_models_fixed": 0.0,
+    "models": 5,
+    "tables": 34
+   },
+   "gap_names_hidden_clean": {
+    "shown_nonoptimal_pct": 24.03,
+    "hidden_clean_nonoptimal_pct": 12.24,
+    "answers": 6800,
+    "gap_pp": 11.79,
+    "ci95_models_and_tables_resampled": [
+     4.5,
+     21.18
+    ],
+    "p_two_sided_models_and_tables_resampled": 0.0,
+    "ci95_tables_resampled_models_fixed": [
+     5.35,
+     19.06
+    ],
+    "p_two_sided_tables_resampled_models_fixed": 0.0,
+    "models": 5,
+    "tables": 34
+   }
+  },
+  "routes": "GPT-6 Astra, GPT-6.1 Sol, GPT-6.2 Astra and GPT-6.2 Sol through the OpenAI Codex command line 0.166.0 at reasoning effort medium; Claude Fable 5.2 through the Claude command line 2.1.330 with thinking forced on and no effort set (key run_settings)",
+  "note": "every answer read with final_answer before pick (common/parse_answer.py)"
+ },
+ "all_models": {
+  "models": [
+   "claude-fable-5-1",
+   "claude-fable-5-2",
+   "claude-haiku-5-5",
+   "claude-opus-5-5",
+   "claude-sonnet-5-5",
+   "gpt-6-astra",
+   "gpt-6.1-sol",
+   "gpt-6.2-astra",
+   "gpt-6.2-sol"
+  ],
+  "answers": 18360,
+  "letters": {
+   "by_form": {
+    "first-line": 18360
+   },
+   "unparsed_by_model_and_arm": {}
+  },
+  "gap_names_hidden": {
+   "models": {
+    "claude-fable-5-1": {
+     "shown_nonoptimal_pct": 57.94,
+     "hidden_nonoptimal_pct": 15.74,
+     "answers_shown": 680,
+     "answers_hidden": 680,
+     "gap_pp": 42.21,
+     "ci95_tables_resampled": [
+      30.29,
+      53.53
+     ],
+     "p_two_sided": 0.0
+    },
+    "claude-fable-5-2": {
+     "shown_nonoptimal_pct": 12.94,
+     "hidden_nonoptimal_pct": 10.44,
+     "answers_shown": 680,
+     "answers_hidden": 680,
+     "gap_pp": 2.5,
+     "ci95_tables_resampled": [
+      0.44,
+      5.15
+     ],
+     "p_two_sided": 0.0156
+    },
+    "claude-haiku-5-5": {
+     "shown_nonoptimal_pct": 17.06,
+     "hidden_nonoptimal_pct": 12.06,
+     "answers_shown": 680,
+     "answers_hidden": 680,
+     "gap_pp": 5.0,
+     "ci95_tables_resampled": [
+      1.03,
+      10.0
+     ],
+     "p_two_sided": 0.0114
+    },
+    "claude-opus-5-5": {
+     "shown_nonoptimal_pct": 33.24,
+     "hidden_nonoptimal_pct": 13.68,
+     "answers_shown": 680,
+     "answers_hidden": 680,
+     "gap_pp": 19.56,
+     "ci95_tables_resampled": [
+      10.0,
+      30.29
+     ],
+     "p_two_sided": 0.0
+    },
+    "claude-sonnet-5-5": {
+     "shown_nonoptimal_pct": 9.85,
+     "hidden_nonoptimal_pct": 8.09,
+     "answers_shown": 680,
+     "answers_hidden": 680,
+     "gap_pp": 1.76,
+     "ci95_tables_resampled": [
+      -2.5,
+      7.06
+     ],
+     "p_two_sided": 0.4906
+    },
+    "gpt-6-astra": {
+     "shown_nonoptimal_pct": 30.15,
+     "hidden_nonoptimal_pct": 17.06,
+     "answers_shown": 680,
+     "answers_hidden": 680,
+     "gap_pp": 13.09,
+     "ci95_tables_resampled": [
+      5.59,
+      21.76
+     ],
+     "p_two_sided": 0.0
+    },
+    "gpt-6.1-sol": {
+     "shown_nonoptimal_pct": 28.53,
+     "hidden_nonoptimal_pct": 16.32,
+     "answers_shown": 680,
+     "answers_hidden": 680,
+     "gap_pp": 12.21,
+     "ci95_tables_resampled": [
+      5.0,
+      20.74
+     ],
+     "p_two_sided": 0.0
+    },
+    "gpt-6.2-astra": {
+     "shown_nonoptimal_pct": 20.44,
+     "hidden_nonoptimal_pct": 15.44,
+     "answers_shown": 680,
+     "answers_hidden": 680,
+     "gap_pp": 5.0,
+     "ci95_tables_resampled": [
+      1.18,
+      10.44
+     ],
+     "p_two_sided": 0.0
+    },
+    "gpt-6.2-sol": {
+     "shown_nonoptimal_pct": 28.09,
+     "hidden_nonoptimal_pct": 16.32,
+     "answers_shown": 680,
+     "answers_hidden": 680,
+     "gap_pp": 11.76,
+     "ci95_tables_resampled": [
+      5.0,
+      19.71
+     ],
+     "p_two_sided": 0.0
+    }
+   },
+   "pooled": {
+    "shown_nonoptimal_pct": 26.47,
+    "hidden_nonoptimal_pct": 13.91,
+    "answers": 12240,
+    "gap_pp": 12.57,
+    "ci95_models_and_tables_resampled": [
+     4.85,
+     22.79
+    ],
+    "p_two_sided_models_and_tables_resampled": 0.0,
+    "ci95_tables_resampled_models_fixed": [
+     8.19,
+     17.25
+    ],
+    "p_two_sided_tables_resampled_models_fixed": 0.0,
+    "models": 9,
+    "tables": 34
+   }
+  },
+  "gap_names_hidden_clean": {
+   "models": {
+    "claude-fable-5-1": {
+     "shown_nonoptimal_pct": 57.94,
+     "hidden_clean_nonoptimal_pct": 14.56,
+     "answers_shown": 680,
+     "answers_hidden_clean": 680,
+     "gap_pp": 43.38,
+     "ci95_tables_resampled": [
+      31.47,
+      54.85
+     ],
+     "p_two_sided": 0.0
+    },
+    "claude-fable-5-2": {
+     "shown_nonoptimal_pct": 12.94,
+     "hidden_clean_nonoptimal_pct": 8.53,
+     "answers_shown": 680,
+     "answers_hidden_clean": 680,
+     "gap_pp": 4.41,
+     "ci95_tables_resampled": [
+      1.18,
+      8.53
+     ],
+     "p_two_sided": 0.0006
+    },
+    "claude-haiku-5-5": {
+     "shown_nonoptimal_pct": 17.06,
+     "hidden_clean_nonoptimal_pct": 10.44,
+     "answers_shown": 680,
+     "answers_hidden_clean": 680,
+     "gap_pp": 6.62,
+     "ci95_tables_resampled": [
+      1.32,
+      13.53
+     ],
+     "p_two_sided": 0.0104
+    },
+    "claude-opus-5-5": {
+     "shown_nonoptimal_pct": 33.24,
+     "hidden_clean_nonoptimal_pct": 11.47,
+     "answers_shown": 680,
+     "answers_hidden_clean": 680,
+     "gap_pp": 21.76,
+     "ci95_tables_resampled": [
+      11.32,
+      32.94
+     ],
+     "p_two_sided": 0.0
+    },
+    "claude-sonnet-5-5": {
+     "shown_nonoptimal_pct": 9.85,
+     "hidden_clean_nonoptimal_pct": 7.35,
+     "answers_shown": 680,
+     "answers_hidden_clean": 680,
+     "gap_pp": 2.5,
+     "ci95_tables_resampled": [
+      -1.32,
+      7.35
+     ],
+     "p_two_sided": 0.2414
+    },
+    "gpt-6-astra": {
+     "shown_nonoptimal_pct": 30.15,
+     "hidden_clean_nonoptimal_pct": 12.65,
+     "answers_shown": 680,
+     "answers_hidden_clean": 680,
+     "gap_pp": 17.5,
+     "ci95_tables_resampled": [
+      7.5,
+      28.53
+     ],
+     "p_two_sided": 0.0
+    },
+    "gpt-6.1-sol": {
+     "shown_nonoptimal_pct": 28.53,
+     "hidden_clean_nonoptimal_pct": 11.76,
+     "answers_shown": 680,
+     "answers_hidden_clean": 680,
+     "gap_pp": 16.76,
+     "ci95_tables_resampled": [
+      6.76,
+      27.79
+     ],
+     "p_two_sided": 0.0
+    },
+    "gpt-6.2-astra": {
+     "shown_nonoptimal_pct": 20.44,
+     "hidden_clean_nonoptimal_pct": 12.65,
+     "answers_shown": 680,
+     "answers_hidden_clean": 680,
+     "gap_pp": 7.79,
+     "ci95_tables_resampled": [
+      1.47,
+      15.74
+     ],
+     "p_two_sided": 0.0
+    },
+    "gpt-6.2-sol": {
+     "shown_nonoptimal_pct": 28.09,
+     "hidden_clean_nonoptimal_pct": 15.59,
+     "answers_shown": 680,
+     "answers_hidden_clean": 680,
+     "gap_pp": 12.5,
+     "ci95_tables_resampled": [
+      5.59,
+      20.29
+     ],
+     "p_two_sided": 0.0
+    }
+   },
+   "pooled": {
+    "shown_nonoptimal_pct": 26.47,
+    "hidden_clean_nonoptimal_pct": 11.67,
+    "answers": 12240,
+    "gap_pp": 14.8,
+    "ci95_models_and_tables_resampled": [
+     6.24,
+     25.78
+    ],
+    "p_two_sided_models_and_tables_resampled": 0.0,
+    "ci95_tables_resampled_models_fixed": [
+     9.38,
+     20.77
+    ],
+    "p_two_sided_tables_resampled_models_fixed": 0.0,
+    "models": 9,
+    "tables": 34
+   }
+  },
+  "leak_effect": {
+   "claude-fable-5-1": {
+    "hidden_minus_hidden_clean_pp": 1.18,
+    "ci95_tables_resampled": [
+     -3.38,
+     5.59
+    ],
+    "p_two_sided": 0.5996
+   },
+   "claude-fable-5-2": {
+    "hidden_minus_hidden_clean_pp": 1.91,
+    "ci95_tables_resampled": [
+     0.15,
+     4.71
+    ],
+    "p_two_sided": 0.0268
+   },
+   "claude-haiku-5-5": {
+    "hidden_minus_hidden_clean_pp": 1.62,
+    "ci95_tables_resampled": [
+     0.15,
+     3.82
+    ],
+    "p_two_sided": 0.047
+   },
+   "claude-opus-5-5": {
+    "hidden_minus_hidden_clean_pp": 2.21,
+    "ci95_tables_resampled": [
+     -0.29,
+     6.03
+    ],
+    "p_two_sided": 0.2484
+   },
+   "claude-sonnet-5-5": {
+    "hidden_minus_hidden_clean_pp": 0.74,
+    "ci95_tables_resampled": [
+     -0.29,
+     1.91
+    ],
+    "p_two_sided": 0.2238
+   },
+   "gpt-6-astra": {
+    "hidden_minus_hidden_clean_pp": 4.41,
+    "ci95_tables_resampled": [
+     -0.44,
+     11.03
+    ],
+    "p_two_sided": 0.125
+   },
+   "gpt-6.1-sol": {
+    "hidden_minus_hidden_clean_pp": 4.56,
+    "ci95_tables_resampled": [
+     -0.15,
+     11.18
+    ],
+    "p_two_sided": 0.1034
+   },
+   "gpt-6.2-astra": {
+    "hidden_minus_hidden_clean_pp": 2.79,
+    "ci95_tables_resampled": [
+     0.15,
+     6.76
+    ],
+    "p_two_sided": 0.0366
+   },
+   "gpt-6.2-sol": {
+    "hidden_minus_hidden_clean_pp": 0.74,
+    "ci95_tables_resampled": [
+     -1.03,
+     3.09
+    ],
+    "p_two_sided": 0.5896
+   },
+   "pooled": {
+    "hidden_minus_hidden_clean_pp": 2.24,
+    "ci95_models_and_tables_resampled": [
+     0.05,
+     5.56
+    ],
+    "p_two_sided": 0.0452
+   }
+  },
+  "sensitivity_unparsed_left_out": {
+   "gap_names_hidden": {
+    "shown_nonoptimal_pct": 26.47,
+    "hidden_nonoptimal_pct": 13.91,
+    "answers": 12240,
+    "gap_pp": 12.57,
+    "ci95_models_and_tables_resampled": [
+     4.85,
+     22.79
+    ],
+    "p_two_sided_models_and_tables_resampled": 0.0,
+    "ci95_tables_resampled_models_fixed": [
+     8.19,
+     17.25
+    ],
+    "p_two_sided_tables_resampled_models_fixed": 0.0,
+    "models": 9,
+    "tables": 34
+   },
+   "gap_names_hidden_clean": {
+    "shown_nonoptimal_pct": 26.47,
+    "hidden_clean_nonoptimal_pct": 11.67,
+    "answers": 12240,
+    "gap_pp": 14.8,
+    "ci95_models_and_tables_resampled": [
+     6.24,
+     25.78
+    ],
+    "p_two_sided_models_and_tables_resampled": 0.0,
+    "ci95_tables_resampled_models_fixed": [
+     9.38,
+     20.77
+    ],
+    "p_two_sided_tables_resampled_models_fixed": 0.0,
+    "models": 9,
+    "tables": 34
+   }
+  }
+ },
+ "replication_models_without_the_claude_cli": {
+  "models": [
+   "gpt-6-astra",
+   "gpt-6.1-sol",
+   "gpt-6.2-astra",
+   "gpt-6.2-sol"
+  ],
+  "answers": 8160,
+  "letters": {
+   "by_form": {
+    "first-line": 8160
+   },
+   "unparsed_by_model_and_arm": {}
+  },
+  "gap_names_hidden": {
+   "models": {
+    "gpt-6-astra": {
+     "shown_nonoptimal_pct": 30.15,
+     "hidden_nonoptimal_pct": 17.06,
+     "answers_shown": 680,
+     "answers_hidden": 680,
+     "gap_pp": 13.09,
+     "ci95_tables_resampled": [
+      5.59,
+      21.76
+     ],
+     "p_two_sided": 0.0
+    },
+    "gpt-6.1-sol": {
+     "shown_nonoptimal_pct": 28.53,
+     "hidden_nonoptimal_pct": 16.32,
+     "answers_shown": 680,
+     "answers_hidden": 680,
+     "gap_pp": 12.21,
+     "ci95_tables_resampled": [
+      5.0,
+      20.74
+     ],
+     "p_two_sided": 0.0
+    },
+    "gpt-6.2-astra": {
+     "shown_nonoptimal_pct": 20.44,
+     "hidden_nonoptimal_pct": 15.44,
+     "answers_shown": 680,
+     "answers_hidden": 680,
+     "gap_pp": 5.0,
+     "ci95_tables_resampled": [
+      1.18,
+      10.44
+     ],
+     "p_two_sided": 0.0
+    },
+    "gpt-6.2-sol": {
+     "shown_nonoptimal_pct": 28.09,
+     "hidden_nonoptimal_pct": 16.32,
+     "answers_shown": 680,
+     "answers_hidden": 680,
+     "gap_pp": 11.76,
+     "ci95_tables_resampled": [
+      5.0,
+      19.71
+     ],
+     "p_two_sided": 0.0
+    }
+   },
+   "pooled": {
+    "shown_nonoptimal_pct": 26.8,
+    "hidden_nonoptimal_pct": 16.29,
+    "answers": 5440,
+    "gap_pp": 10.51,
+    "ci95_models_and_tables_resampled": [
+     4.34,
+     18.2
+    ],
+    "p_two_sided_models_and_tables_resampled": 0.0,
+    "ci95_tables_resampled_models_fixed": [
+     5.0,
+     16.73
+    ],
+    "p_two_sided_tables_resampled_models_fixed": 0.0,
+    "models": 4,
+    "tables": 34
+   }
+  },
+  "gap_names_hidden_clean": {
+   "models": {
+    "gpt-6-astra": {
+     "shown_nonoptimal_pct": 30.15,
+     "hidden_clean_nonoptimal_pct": 12.65,
+     "answers_shown": 680,
+     "answers_hidden_clean": 680,
+     "gap_pp": 17.5,
+     "ci95_tables_resampled": [
+      7.5,
+      28.53
+     ],
+     "p_two_sided": 0.0
+    },
+    "gpt-6.1-sol": {
+     "shown_nonoptimal_pct": 28.53,
+     "hidden_clean_nonoptimal_pct": 11.76,
+     "answers_shown": 680,
+     "answers_hidden_clean": 680,
+     "gap_pp": 16.76,
+     "ci95_tables_resampled": [
+      6.76,
+      27.79
+     ],
+     "p_two_sided": 0.0
+    },
+    "gpt-6.2-astra": {
+     "shown_nonoptimal_pct": 20.44,
+     "hidden_clean_nonoptimal_pct": 12.65,
+     "answers_shown": 680,
+     "answers_hidden_clean": 680,
+     "gap_pp": 7.79,
+     "ci95_tables_resampled": [
+      1.47,
+      15.74
+     ],
+     "p_two_sided": 0.0
+    },
+    "gpt-6.2-sol": {
+     "shown_nonoptimal_pct": 28.09,
+     "hidden_clean_nonoptimal_pct": 15.59,
+     "answers_shown": 680,
+     "answers_hidden_clean": 680,
+     "gap_pp": 12.5,
+     "ci95_tables_resampled": [
+      5.59,
+      20.29
+     ],
+     "p_two_sided": 0.0
+    }
+   },
+   "pooled": {
+    "shown_nonoptimal_pct": 26.8,
+    "hidden_clean_nonoptimal_pct": 13.16,
+    "answers": 5440,
+    "gap_pp": 13.64,
+    "ci95_models_and_tables_resampled": [
+     5.33,
+     23.75
+    ],
+    "p_two_sided_models_and_tables_resampled": 0.0,
+    "ci95_tables_resampled_models_fixed": [
+     5.99,
+     22.24
+    ],
+    "p_two_sided_tables_resampled_models_fixed": 0.0,
+    "models": 4,
+    "tables": 34
+   }
+  },
+  "leak_effect": {
+   "gpt-6-astra": {
+    "hidden_minus_hidden_clean_pp": 4.41,
+    "ci95_tables_resampled": [
+     -0.44,
+     11.03
+    ],
+    "p_two_sided": 0.125
+   },
+   "gpt-6.1-sol": {
+    "hidden_minus_hidden_clean_pp": 4.56,
+    "ci95_tables_resampled": [
+     -0.15,
+     11.18
+    ],
+    "p_two_sided": 0.1034
+   },
+   "gpt-6.2-astra": {
+    "hidden_minus_hidden_clean_pp": 2.79,
+    "ci95_tables_resampled": [
+     0.15,
+     6.76
+    ],
+    "p_two_sided": 0.0366
+   },
+   "gpt-6.2-sol": {
+    "hidden_minus_hidden_clean_pp": 0.74,
+    "ci95_tables_resampled": [
+     -1.03,
+     3.09
+    ],
+    "p_two_sided": 0.5896
+   },
+   "pooled": {
+    "hidden_minus_hidden_clean_pp": 3.12,
+    "ci95_models_and_tables_resampled": [
+     -0.15,
+     8.46
+    ],
+    "p_two_sided": 0.0844
+   }
+  },
+  "sensitivity_unparsed_left_out": {
+   "gap_names_hidden": {
+    "shown_nonoptimal_pct": 26.8,
+    "hidden_nonoptimal_pct": 16.29,
+    "answers": 5440,
+    "gap_pp": 10.51,
+    "ci95_models_and_tables_resampled": [
+     4.34,
+     18.2
+    ],
+    "p_two_sided_models_and_tables_resampled": 0.0,
+    "ci95_tables_resampled_models_fixed": [
+     5.0,
+     16.73
+    ],
+    "p_two_sided_tables_resampled_models_fixed": 0.0,
+    "models": 4,
+    "tables": 34
+   },
+   "gap_names_hidden_clean": {
+    "shown_nonoptimal_pct": 26.8,
+    "hidden_clean_nonoptimal_pct": 13.16,
+    "answers": 5440,
+    "gap_pp": 13.64,
+    "ci95_models_and_tables_resampled": [
+     5.33,
+     23.75
+    ],
+    "p_two_sided_models_and_tables_resampled": 0.0,
+    "ci95_tables_resampled_models_fixed": [
+     5.99,
+     22.24
+    ],
+    "p_two_sided_tables_resampled_models_fixed": 0.0,
+    "models": 4,
+    "tables": 34
+   }
+  },
+  "note": "the replication models without the one answered through the Claude command line, whose thinking setting came from the environment in which the run was started"
+ },
+ "claude_cli_thinking": {
+  "claude-fable-5-2": {
+   "answers": 2040,
+   "answers_with_thinking": 751,
+   "cli_versions": [
+    "2.1.330 (Claude Code)"
+   ],
+   "first_answer_utc": "2026-11-21T04:55:01Z",
+   "last_answer_utc": "2026-11-21T15:33:23Z",
+   "by_arm_and_thinking": {
+    "hidden, without thinking": {
+     "answers": 466,
+     "nonoptimal_pct": 2.36
+    },
+    "hidden, with thinking": {
+     "answers": 214,
+     "nonoptimal_pct": 28.04
+    },
+    "hidden_clean, without thinking": {
+     "answers": 503,
+     "nonoptimal_pct": 2.98
+    },
+    "hidden_clean, with thinking": {
+     "answers": 177,
+     "nonoptimal_pct": 24.29
+    },
+    "shown, without thinking": {
+     "answers": 320,
+     "nonoptimal_pct": 2.5
+    },
+    "shown, with thinking": {
+     "answers": 360,
+     "nonoptimal_pct": 22.22
+    }
+   },
+   "settings": "Claude command line 2.1.330: thinking forced on (a budget of up to 128,000 tokens, adaptive thinking off), no effort set",
+   "record": "the columns thinking_tokens, cli_version and answered_at_utc of study1b-64-models-on-34-tables/data/rerun/claude-fable-5-2/"
+  }
+ },
+ "corpus_answers_to_the_same_prompts": {
+  "shown_nonoptimal_pct": 24.71,
+  "hidden_nonoptimal_pct": 16.47,
+  "answers": 1360,
+  "gap_pp": 8.24,
+  "ci95_models_and_tables_resampled": [
+   1.91,
+   15.44
+  ],
+  "p_two_sided_models_and_tables_resampled": 0.0096,
+  "models": 30,
+  "tables": 34,
+  "note": "1,360 prompts (680 shown, 680 hidden), each answered once in April 2026 by the corpus model named in the item; intervals resample the corpus models and the tables"
+ },
+ "_meta": {
+  "script": "study1b-64-models-on-34-tables/code/08_rerun.py",
+  "items": "study1b-64-models-on-34-tables/materials/rerun/prompts.jsonl.gz",
+  "draws": 10000,
+  "seed": 20261120,
+  "corpus": {
+   "files": 60,
+   "rows_used": 40813
+  }
+ }
+}

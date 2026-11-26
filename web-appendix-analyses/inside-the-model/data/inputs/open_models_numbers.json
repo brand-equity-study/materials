@@ -1,0 +1,241 @@
+{
+ "plan": "jmr-2026/open-models/PLAN.md",
+ "draws": 2000,
+ "seed": 20261120,
+ "study2": {
+  "b2/full2": {
+   "gap_no_information": {
+    "points": 3.69,
+    "ci95": [
+     0.53,
+     6.95
+    ],
+    "p_two_sided": 0.019,
+    "models": 10,
+    "by_model": {
+     "gemma31b": 11.18,
+     "gemma4-26b": 9.31,
+     "granite41-30b": 5.69,
+     "llama8b": -0.2,
+     "marin8b": 4.02,
+     "ministral3-14b": -3.24,
+     "olmo31-32b": 2.06,
+     "phi4": 3.33,
+     "qwen3-30b": 2.65,
+     "qwen32b": 2.06
+    }
+   },
+   "gap_with_information": {
+    "points": 2.51,
+    "ci95": [
+     -0.2,
+     5.3
+    ],
+    "p_two_sided": 0.071,
+    "models": 10,
+    "by_model": {
+     "gemma31b": 5.2,
+     "gemma4-26b": 6.08,
+     "granite41-30b": 2.65,
+     "llama8b": -1.86,
+     "marin8b": 1.67,
+     "ministral3-14b": -2.65,
+     "olmo31-32b": -1.18,
+     "phi4": 6.37,
+     "qwen3-30b": 5.59,
+     "qwen32b": 3.24
+    }
+   },
+   "change": {
+    "points": -1.18,
+    "ci95": [
+     -3.45,
+     1.09
+    ],
+    "p_two_sided": 0.297,
+    "models": 10,
+    "by_model": {
+     "gemma31b": -5.98,
+     "gemma4-26b": -3.24,
+     "granite41-30b": -3.04,
+     "llama8b": -1.67,
+     "marin8b": -2.35,
+     "ministral3-14b": 0.59,
+     "olmo31-32b": -3.24,
+     "phi4": 3.04,
+     "qwen3-30b": 2.94,
+     "qwen32b": 1.18
+    }
+   },
+   "best_share_names_hidden_no_information": {
+    "gemma31b": 81.1,
+    "gemma4-26b": 78.5,
+    "granite41-30b": 67.0,
+    "llama8b": 23.7,
+    "marin8b": 30.9,
+    "ministral3-14b": 63.3,
+    "olmo31-32b": 56.9,
+    "phi4": 66.8,
+    "qwen3-30b": 82.6,
+    "qwen32b": 57.7
+   },
+   "parsed_pct": {
+    "gemma31b": 99.9,
+    "gemma4-26b": 99.3,
+    "granite41-30b": 100.0,
+    "llama8b": 100.0,
+    "marin8b": 96.3,
+    "ministral3-14b": 99.7,
+    "olmo31-32b": 100.0,
+    "phi4": 99.6,
+    "qwen3-30b": 100.0,
+    "qwen32b": 100.0
+   }
+  },
+  "b2/dom2": {
+   "gap_no_information": {
+    "points": 4.98,
+    "ci95": [
+     1.97,
+     8.48
+    ],
+    "p_two_sided": 0.002,
+    "models": 10,
+    "by_model": {
+     "gemma31b": 11.0,
+     "gemma4-26b": 12.0,
+     "granite41-30b": 3.5,
+     "llama8b": 1.17,
+     "marin8b": 2.5,
+     "ministral3-14b": 0.17,
+     "olmo31-32b": 4.33,
+     "phi4": 4.33,
+     "qwen3-30b": 5.67,
+     "qwen32b": 5.17
+    }
+   },
+   "gap_with_information": {
+    "points": 3.32,
+    "ci95": [
+     0.93,
+     5.68
+    ],
+    "p_two_sided": 0.005,
+    "models": 10,
+    "by_model": {
+     "gemma31b": 5.33,
+     "gemma4-26b": 4.0,
+     "granite41-30b": 5.33,
+     "llama8b": -0.33,
+     "marin8b": 0.5,
+     "ministral3-14b": 2.0,
+     "olmo31-32b": 5.33,
+     "phi4": 4.5,
+     "qwen3-30b": 4.33,
+     "qwen32b": 2.17
+    }
+   },
+   "change": {
+    "points": -1.67,
+    "ci95": [
+     -4.68,
+     0.98
+    ],
+    "p_two_sided": 0.22,
+    "models": 10,
+    "by_model": {
+     "gemma31b": -5.67,
+     "gemma4-26b": -8.0,
+     "granite41-30b": 1.83,
+     "llama8b": -1.5,
+     "marin8b": -2.0,
+     "ministral3-14b": 1.83,
+     "olmo31-32b": 1.0,
+     "phi4": 0.17,
+     "qwen3-30b": -1.33,
+     "qwen32b": -3.0
+    }
+   },
+   "best_share_names_hidden_no_information": {
+    "gemma31b": 84.3,
+    "gemma4-26b": 80.0,
+    "granite41-30b": 67.0,
+    "llama8b": 25.8,
+    "marin8b": 34.7,
+    "ministral3-14b": 70.0,
+    "olmo31-32b": 66.7,
+    "phi4": 71.7,
+    "qwen3-30b": 83.2,
+    "qwen32b": 64.5
+   },
+   "parsed_pct": {
+    "gemma31b": 99.9,
+    "gemma4-26b": 99.2,
+    "granite41-30b": 100.0,
+    "llama8b": 100.0,
+    "marin8b": 96.6,
+    "ministral3-14b": 99.7,
+    "olmo31-32b": 100.0,
+    "phi4": 99.4,
+    "qwen3-30b": 100.0,
+    "qwen32b": 100.0
+   }
+  }
+ },
+ "study1_rerun": {
+  "gap_shown_minus_hidden": {
+   "points": 7.38,
+   "ci95": [
+    4.16,
+    11.43
+   ],
+   "p_two_sided": 0.0,
+   "models": 10,
+   "by_model": {
+    "gemma31b": 11.76,
+    "gemma4-26b": 13.82,
+    "granite41-30b": 8.82,
+    "llama8b": 5.0,
+    "marin8b": 8.53,
+    "ministral3-14b": 3.97,
+    "olmo31-32b": 1.76,
+    "phi4": 6.91,
+    "qwen3-30b": 4.85,
+    "qwen32b": 8.38
+   }
+  },
+  "gap_shown_minus_hidden_cleaned": {
+   "points": 8.87,
+   "ci95": [
+    5.18,
+    12.99
+   ],
+   "p_two_sided": 0.0,
+   "models": 10,
+   "by_model": {
+    "gemma31b": 12.65,
+    "gemma4-26b": 16.18,
+    "granite41-30b": 11.18,
+    "llama8b": 6.03,
+    "marin8b": 10.15,
+    "ministral3-14b": 5.44,
+    "olmo31-32b": 2.21,
+    "phi4": 8.82,
+    "qwen3-30b": 6.03,
+    "qwen32b": 10.0
+   }
+  },
+  "parsed_pct": {
+   "gemma31b": 100.0,
+   "gemma4-26b": 100.0,
+   "granite41-30b": 100.0,
+   "llama8b": 100.0,
+   "marin8b": 97.5,
+   "ministral3-14b": 100.0,
+   "olmo31-32b": 100.0,
+   "phi4": 100.0,
+   "qwen3-30b": 100.0,
+   "qwen32b": 100.0
+  }
+ }
+}

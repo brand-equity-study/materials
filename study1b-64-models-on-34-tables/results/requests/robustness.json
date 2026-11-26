@@ -1,0 +1,242 @@
+{
+ "all chat-log pairs": {
+  "pooled": 0.20564497398736528,
+  "per_model": {
+   "claude-fable-5-1": 0.3942307692307692,
+   "claude-haiku-5-5": 0.0966183574879227,
+   "claude-opus-5-5": 0.20673076923076922,
+   "claude-sonnet-5-5": 0.125
+  },
+  "pairs": 208
+ },
+ "source: LMArena Search Arena 24k": {
+  "pooled": 0.28289473684210525,
+  "per_model": {
+   "claude-fable-5-1": 0.4358974358974359,
+   "claude-haiku-5-5": 0.13157894736842105,
+   "claude-opus-5-5": 0.38461538461538464,
+   "claude-sonnet-5-5": 0.1794871794871795
+  },
+  "pairs": 39
+ },
+ "source: LMArena human preference 100k": {
+  "pooled": 0.3472222222222222,
+  "per_model": {
+   "claude-fable-5-1": 0.5555555555555556,
+   "claude-haiku-5-5": 0.16666666666666666,
+   "claude-opus-5-5": 0.2777777777777778,
+   "claude-sonnet-5-5": 0.3888888888888889
+  },
+  "pairs": 18
+ },
+ "source: LMArena human preference 140k": {
+  "pooled": 0.2217741935483871,
+  "per_model": {
+   "claude-fable-5-1": 0.45161290322580644,
+   "claude-haiku-5-5": 0.14516129032258066,
+   "claude-opus-5-5": 0.1935483870967742,
+   "claude-sonnet-5-5": 0.0967741935483871
+  },
+  "pairs": 62
+ },
+ "source: WildChat-4.8M": {
+  "pooled": 0.13202247191011235,
+  "per_model": {
+   "claude-fable-5-1": 0.30337078651685395,
+   "claude-haiku-5-5": 0.033707865168539325,
+   "claude-opus-5-5": 0.12359550561797752,
+   "claude-sonnet-5-5": 0.06741573033707865
+  },
+  "pairs": 89
+ },
+ "WildChat-4.8M alone": {
+  "pooled": 0.13202247191011235,
+  "per_model": {
+   "claude-fable-5-1": 0.30337078651685395,
+   "claude-haiku-5-5": 0.033707865168539325,
+   "claude-opus-5-5": 0.12359550561797752,
+   "claude-sonnet-5-5": 0.06741573033707865
+  },
+  "pairs": 89
+ },
+ "the three LMArena sets": {
+  "pooled": 0.2608068651189289,
+  "per_model": {
+   "claude-fable-5-1": 0.46218487394957986,
+   "claude-haiku-5-5": 0.1440677966101695,
+   "claude-opus-5-5": 0.2689075630252101,
+   "claude-sonnet-5-5": 0.16806722689075632
+  },
+  "pairs": 119
+ },
+ "without requests that the classifier marked as naming a brand": {
+  "pooled": 0.18012422360248448,
+  "per_model": {
+   "claude-fable-5-1": 0.36024844720496896,
+   "claude-haiku-5-5": 0.07453416149068323,
+   "claude-opus-5-5": 0.19254658385093168,
+   "claude-sonnet-5-5": 0.09316770186335403
+  },
+  "pairs": 161
+ },
+ "category: backpacks": {
+  "pooled": 0.25,
+  "per_model": {
+   "claude-fable-5-1": 0.5,
+   "claude-haiku-5-5": 0.25,
+   "claude-opus-5-5": 0.25,
+   "claude-sonnet-5-5": 0.0
+  },
+  "pairs": 4
+ },
+ "category: blenders": {
+  "pooled": 0.5,
+  "per_model": {
+   "claude-fable-5-1": 0.0,
+   "claude-haiku-5-5": 0.0,
+   "claude-opus-5-5": 1.0,
+   "claude-sonnet-5-5": 1.0
+  },
+  "pairs": 1
+ },
+ "category: cameras": {
+  "pooled": 0.1111111111111111,
+  "per_model": {
+   "claude-fable-5-1": 0.3333333333333333,
+   "claude-haiku-5-5": 0.0,
+   "claude-opus-5-5": 0.1111111111111111,
+   "claude-sonnet-5-5": 0.0
+  },
+  "pairs": 9
+ },
+ "category: coffee_makers": {
+  "pooled": -0.125,
+  "per_model": {
+   "claude-fable-5-1": 0.0,
+   "claude-haiku-5-5": 0.0,
+   "claude-opus-5-5": 0.0,
+   "claude-sonnet-5-5": -0.5
+  },
+  "pairs": 2
+ },
+ "category: external_ssds": {
+  "pooled": 0.25,
+  "per_model": {
+   "claude-fable-5-1": 1.0,
+   "claude-haiku-5-5": 0.0,
+   "claude-opus-5-5": 0.0,
+   "claude-sonnet-5-5": 0.0
+  },
+  "pairs": 1
+ },
+ "category: headphones": {
+  "pooled": 0.18055555555555555,
+  "per_model": {
+   "claude-fable-5-1": 0.3333333333333333,
+   "claude-haiku-5-5": 0.08333333333333333,
+   "claude-opus-5-5": 0.19444444444444445,
+   "claude-sonnet-5-5": 0.1111111111111111
+  },
+  "pairs": 36
+ },
+ "category: laptops": {
+  "pooled": 0.10606060606060606,
+  "per_model": {
+   "claude-fable-5-1": 0.15151515151515152,
+   "claude-haiku-5-5": 0.06060606060606061,
+   "claude-opus-5-5": 0.09090909090909091,
+   "claude-sonnet-5-5": 0.12121212121212122
+  },
+  "pairs": 33
+ },
+ "category: monitors": {
+  "pooled": 0.0,
+  "per_model": {
+   "claude-fable-5-1": 0.0,
+   "claude-haiku-5-5": 0.0,
+   "claude-opus-5-5": 0.0,
+   "claude-sonnet-5-5": 0.0
+  },
+  "pairs": 4
+ },
+ "category: robot_vacuums": {
+  "pooled": 1.0,
+  "per_model": {
+   "claude-fable-5-1": 1.0,
+   "claude-haiku-5-5": 1.0,
+   "claude-opus-5-5": 1.0,
+   "claude-sonnet-5-5": 1.0
+  },
+  "pairs": 1
+ },
+ "category: running_shoes": {
+  "pooled": 0.125,
+  "per_model": {
+   "claude-fable-5-1": 0.16666666666666666,
+   "claude-haiku-5-5": 0.0,
+   "claude-opus-5-5": 0.3333333333333333,
+   "claude-sonnet-5-5": 0.0
+  },
+  "pairs": 6
+ },
+ "category: smartphones": {
+  "pooled": 0.313963963963964,
+  "per_model": {
+   "claude-fable-5-1": 0.6266666666666667,
+   "claude-haiku-5-5": 0.1891891891891892,
+   "claude-opus-5-5": 0.26666666666666666,
+   "claude-sonnet-5-5": 0.17333333333333334
+  },
+  "pairs": 75
+ },
+ "category: smartwatches": {
+  "pooled": 0.0,
+  "per_model": {
+   "claude-fable-5-1": 0.0,
+   "claude-haiku-5-5": 0.0,
+   "claude-opus-5-5": 0.0,
+   "claude-sonnet-5-5": 0.0
+  },
+  "pairs": 3
+ },
+ "category: tvs": {
+  "pooled": 0.19444444444444442,
+  "per_model": {
+   "claude-fable-5-1": 0.3333333333333333,
+   "claude-haiku-5-5": 0.0,
+   "claude-opus-5-5": 0.1111111111111111,
+   "claude-sonnet-5-5": 0.3333333333333333
+  },
+  "pairs": 9
+ },
+ "category: wireless_earbuds": {
+  "pooled": 0.11904761904761904,
+  "per_model": {
+   "claude-fable-5-1": 0.23809523809523808,
+   "claude-haiku-5-5": 0.0,
+   "claude-opus-5-5": 0.19047619047619047,
+   "claude-sonnet-5-5": 0.047619047619047616
+  },
+  "pairs": 21
+ },
+ "category: wireless_routers": {
+  "pooled": 0.25,
+  "per_model": {
+   "claude-fable-5-1": 0.6666666666666666,
+   "claude-haiku-5-5": -0.3333333333333333,
+   "claude-opus-5-5": 0.6666666666666666,
+   "claude-sonnet-5-5": 0.0
+  },
+  "pairs": 3
+ },
+ "only answers with the letter on the first line": {
+  "pooled": 0.20564497398736528,
+  "per_model": {
+   "claude-fable-5-1": 0.3942307692307692,
+   "claude-haiku-5-5": 0.0966183574879227,
+   "claude-opus-5-5": 0.20673076923076922,
+   "claude-sonnet-5-5": 0.125
+  },
+  "pairs": 208
+ }
+}

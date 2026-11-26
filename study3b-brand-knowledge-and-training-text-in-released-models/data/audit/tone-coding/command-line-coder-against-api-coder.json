@@ -1,0 +1,54 @@
+{
+ "drawn": 200,
+ "coded_by_all_three": 200,
+ "cli_unread_or_missing": 0,
+ "cli_vs_api": {
+  "n": 200,
+  "tone_agreement": 0.99,
+  "tone_kappa": 0.9811285148141159,
+  "labels_kappa": {
+   "quality-or-performance": 0.9084728033472803,
+   "reliability-or-durability": 0.987389659520807,
+   "low-price-or-value": 1.0,
+   "premium-or-high-price": 1.0,
+   "innovation-or-technology": 0.7563073394495414,
+   "design-or-style": 0.8852459016393441,
+   "popularity-or-market-leader": 1.0,
+   "named-product-or-feature": 0.8513563730955034,
+   "customer-support": 1.0,
+   "safety": null,
+   "sustainability": null,
+   "country-or-origin": 0.9782514136581122,
+   "other": 0.6746203904555316
+  },
+  "labels_mean_kappa": 0.9128767164696473,
+  "label_sets_equal": 0.785
+ },
+ "api_vs_sol": {
+  "n": 200,
+  "tone_agreement": 0.99,
+  "tone_kappa": 0.9812961750678013,
+  "labels_kappa": {
+   "quality-or-performance": 0.8759647188533626,
+   "reliability-or-durability": 0.9746321664129883,
+   "low-price-or-value": 1.0,
+   "premium-or-high-price": 1.0,
+   "innovation-or-technology": 0.8425472358292511,
+   "design-or-style": 0.8348623853211008,
+   "popularity-or-market-leader": 0.9767441860465116,
+   "named-product-or-feature": 0.5983532483181043,
+   "customer-support": 1.0,
+   "safety": null,
+   "sustainability": null,
+   "country-or-origin": 0.9558011049723757,
+   "other": 0.5369030390738065
+  },
+  "labels_mean_kappa": 0.8723461895297728,
+  "label_sets_equal": 0.69
+ },
+ "passes": false,
+ "input_tokens_mean": {
+  "api": 535.195,
+  "cli": 929.195
+ }
+}

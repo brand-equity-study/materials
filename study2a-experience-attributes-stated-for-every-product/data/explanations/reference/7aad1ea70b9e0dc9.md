@@ -1,0 +1,1 @@
+{"reason": "listed", "brand_any": "no", "quote": "offers a good balance of power (1400W), capacity (48oz), and features at a reasonable price within your budget"}

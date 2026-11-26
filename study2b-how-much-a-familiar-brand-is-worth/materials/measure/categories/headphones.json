@@ -1,0 +1,63 @@
+{
+ "category": "headphones",
+ "noun": "over-ear headphones",
+ "requests": [
+  "over-ear noise-cancelling headphones for commuting and focus work",
+  "over-ear noise-cancelling headphones for long flights and working from home"
+ ],
+ "request_pilot_band": "over-ear noise-cancelling headphones for commuting and focus work, budget $150-300",
+ "pilot_band": [
+  150,
+  300
+ ],
+ "request_market_budget": "over-ear noise-cancelling headphones for commuting and focus work, budget up to $350",
+ "attributes": [
+  {
+   "name": "battery life",
+   "levels": [
+    "12 hours",
+    "30 hours",
+    "70 hours"
+   ],
+   "source": "Walmart product pages near both ends of the market range; e.g. 12 hours: https://www.walmart.com/ip/RNKR-Bluetooth-Headphones-Ear-Wireless-Headphones-12H-Playtime-Noise-Cancelling-HiFi-Stereo-Foldable-Lightweight-Headset-Deep-Bass-Soft-Protein-Earpa/19965021548; 30 hours: https://www.walmart.com/ip/Sonos-Ace-Wireless-Noise-Canceling-Over-Ear-Headphones-with-Bluetooth-Black/5902797595; 70 hours: https://www.walmart.com/ip/Cillso-Hybrid-Active-Noise-Cancelling-Headphones-Bluetooth-5-4-Wireless-Ear-Headphones-50dB-70H-Playtime-Bass-Boosted-95-Hi-Res-Audio-Memory-Foam-Ear/19671421752"
+  },
+  {
+   "name": "weight",
+   "levels": [
+    "454 g",
+    "313 g",
+    "231 g"
+   ],
+   "source": "Walmart product pages near both ends of the market range; e.g. 1 lb (454 g): https://www.walmart.com/ip/Rirool-Bluetooth-Over-Ear-Headphones-Wireless-Foldable-Headset-HiFi-Stereo-Deep-Bass-12H-Playtime-Built-in-Mic-Soft-Protein-Earpads-Travel-Home-Offic/19996202330; 0.69 lb (313 g): https://www.walmart.com/ip/Sonos-Ace-Wireless-Noise-Canceling-Over-Ear-Headphones-with-Bluetooth-Black/5902797595; 0.51 lb (231 g): https://www.walmart.com/ip/Bose-QuietComfort-Headphones-II-Bluetooth-Over-Ear-Noise-Cancelling-Headphones-Eucalyptus-Geen/20209319052",
+   "note": "as read: weight: 1 lb (454 g) / 0.69 lb (313 g) / 0.51 lb (231 g)"
+  },
+  {
+   "name": "noise reduction",
+   "levels": [
+    "passive",
+    "active",
+    "adaptive"
+   ],
+   "source": "Walmart product pages near both ends of the market range; e.g. passive noise cancellation: https://www.walmart.com/ip/WIGACH-Wireless-Bluetooth-Headphones-Over-Ear-Headphones-HD-Microphone-Foldable-Bluetooth-5-0-Wireless-Headphones-Travel-Office-Mobile-Phone-PC-White/17450100672; active noise cancellation: https://www.walmart.com/ip/Leyeet-Bluetooth-Over-Ear-Headphones-Noise-Canceling-Wireless-Headphones-Inside-Microphone-Adjustable-Lightweight-Headset-Easy-Carry-Soft-Earpads-Fol/130036738; adaptive (hybrid) noise cancellation: https://www.walmart.com/ip/Wireless-Headphones-Over-Ear-HiFi-Stereo-Wireless-Headphones-Foldable-Wireless-Wired-Mode-Noise-Isolating-Over-Ear-Headphones-Mic-Volume-Control-Comp/17489901763",
+   "note": "as read: noise reduction (listed type): passive noise cancellation / active noise cancellation / adaptive (hybrid) noise cancellation"
+  }
+ ],
+ "familiar": [
+  "Sony",
+  "Bose",
+  "JBL",
+  "Sennheiser",
+  "Audio-Technica",
+  "Beyerdynamic"
+ ],
+ "invented": [
+  [
+   "Sonaray",
+   "corpus"
+  ],
+  [
+   "Fasolde",
+   "new"
+  ]
+ ]
+}

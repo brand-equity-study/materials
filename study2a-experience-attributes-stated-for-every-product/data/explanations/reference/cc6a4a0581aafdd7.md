@@ -1,0 +1,1 @@
+{"reason": "brand_property", "brand_any": "yes", "quote": "Product E is an Apple phone (not Android), and Product B is well over budget."}

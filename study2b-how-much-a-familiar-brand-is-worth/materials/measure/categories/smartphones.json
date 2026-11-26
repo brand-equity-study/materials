@@ -1,0 +1,66 @@
+{
+ "category": "smartphones",
+ "noun": "smartphone",
+ "requests": [
+  "a smartphone with a great camera and long battery life",
+  "a smartphone for a parent who takes many photos and needs it to last all day"
+ ],
+ "request_pilot_band": "a smartphone with a great camera and long battery life, budget $300-500",
+ "pilot_band": [
+  300,
+  500
+ ],
+ "request_market_budget": "a smartphone with a great camera and long battery life, budget up to $1,200",
+ "attributes": [
+  {
+   "name": "storage",
+   "levels": [
+    "64 GB",
+    "256 GB",
+    "512 GB"
+   ],
+   "source": "Walmart product pages near both ends of the market range; e.g. 64 GB: https://www.walmart.com/ip/Metro-by-T-Mobile-TCL-K32/15205561234; 256 GB: https://www.walmart.com/ip/Samsung-Galaxy-S25-Ultra-256GB-Unlocked-Android-Cell-Phone-with-200MP-Camera-Titanium-Blue/14977205582; 512 GB: https://www.walmart.com/ip/Samsung-Galaxy-S26-Ultra-5G-Ai-T-Mobile-Tello-Mint-Global-Factory-Unlocked-6-9-200MP-SM-S948B-White-SM-S948BZWKGTO-512GB-12GB/19671264601"
+  },
+  {
+   "name": "battery",
+   "levels": [
+    "4,000 mAh",
+    "4,300 mAh",
+    "5,000 mAh"
+   ],
+   "source": "Walmart product pages near both ends of the market range; e.g. 4,000 mAh: https://www.walmart.com/ip/AT-T-Calypso-5-64GB-Anchor-Gray-Prepaid-Smartphone-Locked-to-AT-T/20219908455; 4,300 mAh: https://www.walmart.com/ip/Samsung-Galaxy-Z-Flip7-256GB-Smartphone-Unlocked-Jet-Black/16880606048; 5,000 mAh: https://www.walmart.com/ip/Cricket-Wireless-Ovation-4-64-GB-Black-Prepaid-Smartphone-Locked-to-Cricket/20387663159"
+  },
+  {
+   "name": "main camera",
+   "levels": [
+    "13 MP",
+    "50 MP",
+    "200 MP"
+   ],
+   "source": "Walmart product pages near both ends of the market range; e.g. 13 MP: https://www.walmart.com/ip/Metro-by-T-Mobile-TCL-K32/15205561234; 50 MP: https://www.walmart.com/ip/Cricket-Wireless-Ovation-4-64-GB-Black-Prepaid-Smartphone-Locked-to-Cricket/20387663159; 200 MP: https://www.walmart.com/ip/Samsung-Galaxy-S25-Ultra-256GB-Unlocked-Android-Cell-Phone-with-200MP-Camera-Titanium-Blue/14977205582"
+  }
+ ],
+ "familiar": [
+  "Apple",
+  "Samsung",
+  "Google",
+  "Motorola"
+ ],
+ "invented": [
+  [
+   "Aurem",
+   "corpus"
+  ],
+  [
+   "Rinzela",
+   "new"
+  ],
+  [
+   "Nolbrin",
+   "new"
+  ]
+ ],
+ "familiar_left_out_without_a_band": [
+  "OnePlus"
+ ]
+}

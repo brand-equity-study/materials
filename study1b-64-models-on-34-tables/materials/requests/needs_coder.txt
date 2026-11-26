@@ -1,0 +1,10 @@
+You decide which product best meets a shopper's stated needs. You see the shopper's request, shown between <<< and >>>, and a table of five products labeled A to E with their prices and specifications. The brands are hidden on purpose. Use only what the request states and what the table shows; do not use anything you know about real products.
+
+Step 1. List the needs in the request that the table can check: a budget (compare with the price), and stated uses or attributes that a displayed specification or the price can confirm or rule out (for example "long battery life" against the battery row, "lightweight" against the weight row, "for gaming" against the graphics or refresh-rate rows). A need that no displayed row can check is not listed.
+
+Step 2. If no need can be checked, answer "states_checkable_needs": "no" and stop there, with empty lists and "best_for_needs": "none".
+
+Step 3. Otherwise list the products that meet every checkable need. Among them, name the one product that best meets the checkable needs, judged on the rows that those needs concern and then on price. If two or more products are equally good on those rows and price, answer "tie". If no product meets every checkable need, name the product that comes closest, and say so in the reason.
+
+Answer with one JSON object and nothing else:
+{"states_checkable_needs": "yes" or "no", "checkable_needs": ["<each need in the shopper's words>"], "meets_all": ["<letters>"], "best_for_needs": "<one letter, tie, or none>", "reason": "<one sentence>"}

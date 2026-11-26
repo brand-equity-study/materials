@@ -1,0 +1,146 @@
+{
+ "study": "study2b-attr-2x2-others",
+ "label": "Study 2b (further attributes), the effect of the other products' familiar names on the optimal product's share (the 2 by 2)",
+ "units": "points",
+ "direction": -1,
+ "input": {
+  "file": "web-appendix-analyses/each-piece-of-information-alone/results/all-models-attr1/per_model.csv",
+  "sha256": "6f4b4ccc4e406df5431ebeee9323bd33f3046ebf622132ecfad27a2bf3dc4178",
+  "model_col": "model",
+  "est_col": "estimate",
+  "se": "se",
+  "filter": [
+   "study=attr1",
+   "estimate_name=2x2: other products' familiar names"
+  ],
+  "scale": 100.0
+ },
+ "plan": "how-the-models-differed/materials/analysis_plan.md",
+ "result": {
+  "models": 36,
+  "predicted_direction": -1,
+  "share_in_predicted_direction": 1.0,
+  "models_in_predicted_direction": 36,
+  "models_above_zero": 0,
+  "models_below_zero": 36,
+  "share_interval_excludes_zero": 0.6389,
+  "models_interval_excludes_zero": 23,
+  "random_effects": {
+   "estimate": -5.2118,
+   "ci95": [
+    -6.2295,
+    -4.1942
+   ],
+   "p_two_sided": 1.0384667826321602e-23,
+   "tau": 2.1187,
+   "tau2": 4.4891,
+   "i2": 0.5011,
+   "q": 70.325,
+   "df": 35,
+   "q_p_value": 0.00036704683165735523,
+   "prediction_interval_95": [
+    -9.645,
+    -0.7786
+   ],
+   "tau_estimator": "REML",
+   "checks": {
+    "tau_dersimonian_laird": 2.1237,
+    "tau_paule_mandel": 2.3226
+   }
+  },
+  "models_without_characteristics": [],
+  "moderators": {
+   "chat-tuned against base": {
+    "estimable": false,
+    "reason": "one value"
+   },
+   "size (log10 total parameters)": {
+    "estimable": true,
+    "models": 31,
+    "coefficient": -3.3323,
+    "ci95": [
+     -5.6239,
+     -1.0407
+    ],
+    "p_two_sided": 0.004369913527060894,
+    "residual_tau": 1.7964,
+    "holm": 0.017479654108243575
+   },
+   "release date (years)": {
+    "estimable": true,
+    "models": 36,
+    "coefficient": -0.9503,
+    "ci95": [
+     -2.4267,
+     0.526
+    ],
+    "p_two_sided": 0.20708156433933067,
+    "residual_tau": 2.0657,
+    "holm": 0.621244693017992
+   },
+   "open against closed weights": {
+    "estimable": true,
+    "models": 36,
+    "coefficient": -1.1469,
+    "ci95": [
+     -4.343,
+     2.0491
+    ],
+    "p_two_sided": 0.4818222080441872,
+    "residual_tau": 2.159,
+    "holm": 0.7633197235822597
+   },
+   "reasoning on against off": {
+    "estimable": false,
+    "reason": "one value"
+   },
+   "developer": {
+    "estimable": true,
+    "models": 36,
+    "developers": 13,
+    "wald_chi2": 12.828,
+    "df": 12,
+    "p_two_sided": 0.3816598617911299,
+    "residual_tau": 2.1964,
+    "models_by_developer": {
+     "Alibaba": 13,
+     "Allen AI": 2,
+     "Anthropic": 3,
+     "Baidu": 1,
+     "Google": 4,
+     "IBM": 2,
+     "Marin": 1,
+     "Meta": 2,
+     "Microsoft": 1,
+     "Mistral": 1,
+     "NVIDIA": 1,
+     "OpenAI": 4,
+     "Zhipu": 1
+    },
+    "holm": 0.7633197235822597
+   }
+  },
+  "models_left_out_interval_of_zero_width": [],
+  "models_left_out_not_estimable": []
+ },
+ "args": {
+  "study": "study2b-attr-2x2-others",
+  "label": "Study 2b (further attributes), the effect of the other products' familiar names on the optimal product's share (the 2 by 2)",
+  "input": "web-appendix-analyses/each-piece-of-information-alone/results/all-models-attr1/per_model.csv",
+  "model_col": "model",
+  "est_col": "estimate",
+  "se_col": "se",
+  "low_col": "ci95_low",
+  "high_col": "ci95_high",
+  "direction": -1,
+  "units": "points",
+  "filter": [
+   "study=attr1",
+   "estimate_name=2x2: other products' familiar names"
+  ],
+  "scale": 100.0,
+  "reliability_col": null,
+  "reliability_min": 0.5,
+  "reason_col": null
+ }
+}

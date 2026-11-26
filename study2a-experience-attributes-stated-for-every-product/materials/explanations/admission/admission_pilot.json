@@ -1,0 +1,64 @@
+{
+ "sample": 200,
+ "reference_read": 200,
+ "rule": {
+  "min_read": 0.95,
+  "min_kappa_brand_any": 0.7
+ },
+ "judges": {
+  "olmo31-32b": {
+   "read": 1.0,
+   "vs_reference": {
+    "n": 200,
+    "brand_any": {
+     "agreement": 0.88,
+     "kappa": 0.7076023391812866
+    },
+    "reason": {
+     "agreement": 0.695,
+     "kappa": 0.43502824858757055
+    }
+   },
+   "errors_by_stratum": {
+    "crossed-info0-closed": {
+     "n": 20,
+     "brand_any_disagree": 3
+    },
+    "crossed-info0-open": {
+     "n": 20,
+     "brand_any_disagree": 1
+    },
+    "crossed-info1-closed": {
+     "n": 20,
+     "brand_any_disagree": 1
+    },
+    "crossed-info1-open": {
+     "n": 20,
+     "brand_any_disagree": 2
+    },
+    "original-info0-closed": {
+     "n": 20,
+     "brand_any_disagree": 5
+    },
+    "original-info0-open": {
+     "n": 20,
+     "brand_any_disagree": 1
+    },
+    "original-info1-closed": {
+     "n": 20,
+     "brand_any_disagree": 0
+    },
+    "original-info1-open": {
+     "n": 20,
+     "brand_any_disagree": 0
+    },
+    "requests": {
+     "n": 40,
+     "brand_any_disagree": 11
+    }
+   },
+   "admitted": true
+  }
+ },
+ "pairs": {}
+}

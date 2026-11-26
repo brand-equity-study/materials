@@ -1,0 +1,146 @@
+{
+ "study": "study1c-store-D-feed-openai-2025",
+ "label": "Study 1c (the store's listing), the change in the name gap in the arm feed-openai-2025, D",
+ "units": "points",
+ "direction": 0,
+ "input": {
+  "file": "study1c-product-feeds-and-a-store-search/results/store/all-models/per_model.csv",
+  "sha256": "27ea8ae4cedde2d8b16a13e24e9f85ae20599e997d57ee629dd73e7a72980ca1",
+  "model_col": "model",
+  "est_col": "estimate_pp",
+  "se": "se_pp",
+  "filter": [
+   "quantity=change D(arm) = g(arm) - g(plain)",
+   "level=feed-openai-2025"
+  ],
+  "scale": 1.0
+ },
+ "plan": "how-the-models-differed/materials/analysis_plan.md",
+ "result": {
+  "models": 35,
+  "predicted_direction": "none (two-sided)",
+  "share_in_predicted_direction": null,
+  "models_in_predicted_direction": null,
+  "models_above_zero": 17,
+  "models_below_zero": 15,
+  "share_interval_excludes_zero": 0.0857,
+  "models_interval_excludes_zero": 3,
+  "random_effects": {
+   "estimate": -0.4287,
+   "ci95": [
+    -1.777,
+    0.9196
+   ],
+   "p_two_sided": 0.5331404145251317,
+   "tau": 2.2255,
+   "tau2": 4.953,
+   "i2": 0.3209,
+   "q": 49.314,
+   "df": 34,
+   "q_p_value": 0.043389076717151955,
+   "prediction_interval_95": [
+    -5.168,
+    4.3105
+   ],
+   "tau_estimator": "REML",
+   "checks": {
+    "tau_dersimonian_laird": 2.173,
+    "tau_paule_mandel": 2.0179
+   }
+  },
+  "models_without_characteristics": [],
+  "moderators": {
+   "chat-tuned against base": {
+    "estimable": false,
+    "reason": "one value"
+   },
+   "size (log10 total parameters)": {
+    "estimable": true,
+    "models": 31,
+    "coefficient": 4.3485,
+    "ci95": [
+     0.6957,
+     8.0013
+    ],
+    "p_two_sided": 0.019632648378241378,
+    "residual_tau": 2.0102,
+    "holm": 0.07853059351296551
+   },
+   "release date (years)": {
+    "estimable": true,
+    "models": 35,
+    "coefficient": 0.1419,
+    "ci95": [
+     -1.9406,
+     2.2243
+    ],
+    "p_two_sided": 0.8937758570919856,
+    "residual_tau": 2.3326,
+    "holm": 1.0
+   },
+   "open against closed weights": {
+    "estimable": true,
+    "models": 35,
+    "coefficient": 0.9089,
+    "ci95": [
+     -2.8347,
+     4.6525
+    ],
+    "p_two_sided": 0.6341606644714233,
+    "residual_tau": 2.3151,
+    "holm": 1.0
+   },
+   "reasoning on against off": {
+    "estimable": false,
+    "reason": "one value"
+   },
+   "developer": {
+    "estimable": true,
+    "models": 35,
+    "developers": 13,
+    "wald_chi2": 12.716,
+    "df": 12,
+    "p_two_sided": 0.3899970548394427,
+    "residual_tau": 2.1362,
+    "models_by_developer": {
+     "Alibaba": 13,
+     "Allen AI": 2,
+     "Anthropic": 4,
+     "Baidu": 1,
+     "Google": 4,
+     "IBM": 2,
+     "Marin": 1,
+     "Meta": 2,
+     "Microsoft": 1,
+     "Mistral": 1,
+     "NVIDIA": 1,
+     "OpenAI": 2,
+     "Zhipu": 1
+    },
+    "holm": 1.0
+   }
+  },
+  "models_left_out_interval_of_zero_width": [],
+  "models_left_out_not_estimable": []
+ },
+ "args": {
+  "study": "study1c-store-D-feed-openai-2025",
+  "label": "Study 1c (the store's listing), the change in the name gap in the arm feed-openai-2025, D",
+  "input": "study1c-product-feeds-and-a-store-search/results/store/all-models/per_model.csv",
+  "model_col": "model",
+  "est_col": "estimate_pp",
+  "se_col": "se_pp",
+  "low_col": "ci95_low_pp",
+  "high_col": "ci95_high_pp",
+  "direction": 0,
+  "units": "points",
+  "filter": [
+   "quantity=change D(arm) = g(arm) - g(plain)",
+   "level=feed-openai-2025"
+  ],
+  "scale": 1.0,
+  "reliability_col": null,
+  "reliability_min": 0.5,
+  "reason_col": "not_estimable"
+ }
+}

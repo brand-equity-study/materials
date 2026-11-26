@@ -1,0 +1,146 @@
+{
+ "study": "study1c-search-primary3",
+ "label": "Study 1c (the model's own searches), the same where the store returned the optimal product under both versions",
+ "units": "points",
+ "direction": 1,
+ "input": {
+  "file": "study1c-product-feeds-and-a-store-search/results/search/all-models/per_model.csv",
+  "sha256": "9d826432f396488263d8d0aaa2c80fa532d68ca4b52e6ffd866305891910d755",
+  "model_col": "model",
+  "est_col": "estimate_pp",
+  "se": "se_pp",
+  "filter": [
+   "quantity=picked the best where fetched in both: hidden minus shown",
+   "level=primary 3"
+  ],
+  "scale": 1.0
+ },
+ "plan": "how-the-models-differed/materials/analysis_plan.md",
+ "result": {
+  "models": 35,
+  "predicted_direction": 1,
+  "share_in_predicted_direction": 0.9429,
+  "models_in_predicted_direction": 33,
+  "models_above_zero": 33,
+  "models_below_zero": 2,
+  "share_interval_excludes_zero": 0.4286,
+  "models_interval_excludes_zero": 15,
+  "random_effects": {
+   "estimate": 6.6659,
+   "ci95": [
+    4.8434,
+    8.4883
+   ],
+   "p_two_sided": 7.549570762469108e-13,
+   "tau": 3.9648,
+   "tau2": 15.7195,
+   "i2": 0.5733,
+   "q": 76.956,
+   "df": 34,
+   "q_p_value": 3.577220436062316e-05,
+   "prediction_interval_95": [
+    -1.6194,
+    14.9511
+   ],
+   "tau_estimator": "REML",
+   "checks": {
+    "tau_dersimonian_laird": 3.8448,
+    "tau_paule_mandel": 5.0968
+   }
+  },
+  "models_without_characteristics": [],
+  "moderators": {
+   "chat-tuned against base": {
+    "estimable": false,
+    "reason": "one value"
+   },
+   "size (log10 total parameters)": {
+    "estimable": true,
+    "models": 31,
+    "coefficient": 2.1582,
+    "ci95": [
+     -2.168,
+     6.4844
+    ],
+    "p_two_sided": 0.3281790293933061,
+    "residual_tau": 3.0567,
+    "holm": 0.6668698825013272
+   },
+   "release date (years)": {
+    "estimable": true,
+    "models": 35,
+    "coefficient": 3.5074,
+    "ci95": [
+     0.9359,
+     6.0789
+    ],
+    "p_two_sided": 0.00751025681270964,
+    "residual_tau": 3.4801,
+    "holm": 0.03004102725083856
+   },
+   "open against closed weights": {
+    "estimable": true,
+    "models": 35,
+    "coefficient": -3.5617,
+    "ci95": [
+     -9.2817,
+     2.1582
+    ],
+    "p_two_sided": 0.22228996083377572,
+    "residual_tau": 4.1306,
+    "holm": 0.6668698825013272
+   },
+   "reasoning on against off": {
+    "estimable": false,
+    "reason": "one value"
+   },
+   "developer": {
+    "estimable": true,
+    "models": 35,
+    "developers": 13,
+    "wald_chi2": 4.939,
+    "df": 12,
+    "p_two_sided": 0.959990730692468,
+    "residual_tau": 5.6732,
+    "models_by_developer": {
+     "Alibaba": 13,
+     "Allen AI": 2,
+     "Anthropic": 4,
+     "Baidu": 1,
+     "Google": 4,
+     "IBM": 2,
+     "Marin": 1,
+     "Meta": 2,
+     "Microsoft": 1,
+     "Mistral": 1,
+     "NVIDIA": 1,
+     "OpenAI": 2,
+     "Zhipu": 1
+    },
+    "holm": 0.959990730692468
+   }
+  },
+  "models_left_out_interval_of_zero_width": [],
+  "models_left_out_not_estimable": []
+ },
+ "args": {
+  "study": "study1c-search-primary3",
+  "label": "Study 1c (the model's own searches), the same where the store returned the optimal product under both versions",
+  "input": "study1c-product-feeds-and-a-store-search/results/search/all-models/per_model.csv",
+  "model_col": "model",
+  "est_col": "estimate_pp",
+  "se_col": "se_pp",
+  "low_col": "ci95_low_pp",
+  "high_col": "ci95_high_pp",
+  "direction": 1,
+  "units": "points",
+  "filter": [
+   "quantity=picked the best where fetched in both: hidden minus shown",
+   "level=primary 3"
+  ],
+  "scale": 1.0,
+  "reliability_col": null,
+  "reliability_min": 0.5,
+  "reason_col": "not_estimable"
+ }
+}

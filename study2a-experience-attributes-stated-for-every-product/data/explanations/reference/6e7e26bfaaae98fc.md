@@ -1,0 +1,1 @@
+{"reason": "listed", "brand_any": "no", "quote": "The Ninja (D) and Hamilton Beach (C) fall below your budget, and the Vitamix (B) is above it."}

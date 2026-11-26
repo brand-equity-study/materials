@@ -1,0 +1,94 @@
+{
+ "hp": {
+  "r": 16,
+  "alpha": 32,
+  "dropout": 0.05,
+  "lr": 0.0001,
+  "epochs": 3,
+  "micro": 4,
+  "accum": 2,
+  "warmup_frac": 0.05,
+  "max_len": 1536
+ },
+ "seed": 20261001,
+ "steps": 375,
+ "minutes": 10.52,
+ "peak_gpu_gb": 25.5,
+ "history": [
+  {
+   "step": 25,
+   "epoch": 1,
+   "loss": 1.6082
+  },
+  {
+   "step": 50,
+   "epoch": 1,
+   "loss": 1.4957
+  },
+  {
+   "step": 75,
+   "epoch": 1,
+   "loss": 1.5379
+  },
+  {
+   "step": 100,
+   "epoch": 1,
+   "loss": 1.5328
+  },
+  {
+   "step": 125,
+   "epoch": 1,
+   "loss": 1.5534
+  },
+  {
+   "step": 150,
+   "epoch": 2,
+   "loss": 1.4644
+  },
+  {
+   "step": 175,
+   "epoch": 2,
+   "loss": 1.3624
+  },
+  {
+   "step": 200,
+   "epoch": 2,
+   "loss": 1.4025
+  },
+  {
+   "step": 225,
+   "epoch": 2,
+   "loss": 1.3091
+  },
+  {
+   "step": 250,
+   "epoch": 2,
+   "loss": 1.3658
+  },
+  {
+   "step": 275,
+   "epoch": 3,
+   "loss": 1.0163
+  },
+  {
+   "step": 300,
+   "epoch": 3,
+   "loss": 1.0818
+  },
+  {
+   "step": 325,
+   "epoch": 3,
+   "loss": 1.1902
+  },
+  {
+   "step": 350,
+   "epoch": 3,
+   "loss": 1.1257
+  },
+  {
+   "step": 375,
+   "epoch": 3,
+   "loss": 1.1407
+  }
+ ]
+}

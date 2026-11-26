@@ -1,0 +1,6 @@
+file,rows,sha256_uncompressed
+claude/claude-fable-5-1.jsonl.gz,1440,2286b48f2eeec49095ede5af701bbb132b27c3331572b366d244ef195ab23c81
+claude/claude-haiku-5-5.jsonl.gz,1440,fa464cbf0231100eb7f071e68549887bc312e34bfb470c162a0d3f528ef478fc
+claude/claude-opus-5-5.jsonl.gz,1440,f61f95a059b68a0bd0a79207ddc9f24d9e43eb9499330303d695f8a41b80926e
+claude/claude-sonnet-5-5.jsonl.gz,1440,38912ca2adf140fe766274d01ff7b2ecebcaab240414b86591c8c03a8883a7a2
+open-letters.csv.gz,92160,fc9b7e74ba8f58b3fa2882c268e14819fb1e81cb1964af828147c9b603dfc9d9

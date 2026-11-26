@@ -1,0 +1,4 @@
+scripts,repository,revision,how_the_revision_is_known,seed
+"qwen2.5-7b, qwen2.5-7b-university",Qwen/Qwen2.5-7B,d149729398750b98c0af14eb82c78cfe92750796,"the repository's main branch on the run dates (1 and 2 October 2026), which the job loaded without a revision; Hugging Face's list of main's commits shows no commit after 25 September 2024",20261001
+mistral-7b,mistralai/Mistral-7B-v0.3,caa1feb0e54d415e2df31207e5f4e273e33509b1,"pinned in the job (REV), the repository's main revision on 1 October 2026",20261001
+qwen2.5-14b,Qwen/Qwen2.5-14B,97e1e76335b7017d8f67c08a19d103c0504298c9,"the repository's main branch on the run dates (1 and 2 October 2026), which the job loaded without a revision; Hugging Face's list of main's commits shows no commit after 20 September 2024",20261001

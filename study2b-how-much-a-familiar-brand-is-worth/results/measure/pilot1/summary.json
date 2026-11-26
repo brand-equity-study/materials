@@ -1,0 +1,1094 @@
+{
+ "source": "study2b-how-much-a-familiar-brand-is-worth/materials/measure/pretest_numbers.json",
+ "models": 32,
+ "models_included": 31,
+ "left_out": {
+  "rule": "A model whose answers the parser reads in under 90 per cent of a build's items is reported apart as unable to do the task and left out of every pooled estimate (jmr-2026/PLAN.md, section 6; Study 2's open-models rule). Here the items are the choice items (shown, names-hidden, repeated and premium sets), whose answers are letters.",
+  "models": {
+   "kimi-linear48b": {
+    "choice_items": 14550,
+    "with_a_letter": 11864,
+    "read_pct": 81.5
+   }
+  }
+ },
+ "model_category_cells": 224,
+ "cells_that_read_the_specifications": 209,
+ "cells_that_read_the_specifications_included_models": 203,
+ "reliability": {
+  "by_model": {
+   "ernie45-21b": 0.92,
+   "gemma3-27b": 0.935,
+   "gemma31b": 0.926,
+   "gemma4-12b": 0.915,
+   "gemma4-26b": 0.905,
+   "glm47-flash": 0.443,
+   "gptoss120b": 0.942,
+   "gptoss20b": 0.873,
+   "granite41-30b": 0.911,
+   "granite42-30b": 0.902,
+   "kimi-linear48b": 0.761,
+   "llama3b": 0.456,
+   "llama8b": 0.174,
+   "marin8b": 0.538,
+   "ministral3-14b": 0.87,
+   "nemotron3-nano30b": 0.537,
+   "olmo3-7b": 0.797,
+   "olmo31-32b": 0.913,
+   "phi4": 0.924,
+   "qwen3-30b": 0.918,
+   "qwen3-32b": 0.879,
+   "qwen32b": 0.931,
+   "qwen35-0.8b": -0.056,
+   "qwen35-122b-fp8": 0.904,
+   "qwen35-27b": 0.946,
+   "qwen35-2b": 0.388,
+   "qwen35-35b": 0.83,
+   "qwen35-4b": 0.573,
+   "qwen35-9b": 0.917,
+   "qwen36-27b": 0.919,
+   "qwen38-27b": 0.803,
+   "qwen7b": 0.872
+  },
+  "pairs_by_model": {
+   "ernie45-21b": 39,
+   "gemma3-27b": 39,
+   "gemma31b": 39,
+   "gemma4-12b": 39,
+   "gemma4-26b": 39,
+   "glm47-flash": 39,
+   "gptoss120b": 39,
+   "gptoss20b": 39,
+   "granite41-30b": 39,
+   "granite42-30b": 39,
+   "kimi-linear48b": 33,
+   "llama3b": 23,
+   "llama8b": 17,
+   "marin8b": 28,
+   "ministral3-14b": 39,
+   "nemotron3-nano30b": 39,
+   "olmo3-7b": 39,
+   "olmo31-32b": 39,
+   "phi4": 39,
+   "qwen3-30b": 39,
+   "qwen3-32b": 39,
+   "qwen32b": 39,
+   "qwen35-0.8b": 21,
+   "qwen35-122b-fp8": 39,
+   "qwen35-27b": 39,
+   "qwen35-2b": 34,
+   "qwen35-35b": 39,
+   "qwen35-4b": 39,
+   "qwen35-9b": 39,
+   "qwen36-27b": 39,
+   "qwen38-27b": 39,
+   "qwen7b": 33
+  },
+  "median_included": 0.902,
+  "models_at_least_0_80_included": 22,
+  "models_at_least_0_80_all": 22,
+  "signal_share_median_included": 0.897
+ },
+ "familiar_cells_reading_included": 1131,
+ "price_equivalent": {
+  "defined": 858,
+  "of": 1131,
+  "beyond_tested_prices": 404,
+  "beyond_tested_prices_share_pct": 47.1,
+  "beyond_tested_prices_by_category": {
+   "coffee_makers": 26,
+   "earbuds": 53,
+   "headphones": 94,
+   "laptops": 64,
+   "running_shoes": 70,
+   "smartphones": 34,
+   "tvs": 63
+  },
+  "beyond_tested_span": 182,
+  "beyond_share_pct": 21.2,
+  "beyond_by_category": {
+   "coffee_makers": 13,
+   "earbuds": 15,
+   "headphones": 51,
+   "laptops": 28,
+   "running_shoes": 37,
+   "smartphones": 15,
+   "tvs": 23
+  },
+  "range_pct": [
+   -85.0,
+   902.0
+  ],
+  "tested_span_pct_by_category": {
+   "coffee_makers": 119.1,
+   "earbuds": 119.1,
+   "headphones": 66.3,
+   "laptops": 24.0,
+   "running_shoes": 41.7,
+   "smartphones": 46.2,
+   "tvs": 41.8
+  },
+  "tested_prices_by_category": {
+   "coffee_makers": [
+    62.99,
+    87.99,
+    112.99,
+    137.99
+   ],
+   "earbuds": [
+    62.99,
+    87.99,
+    112.99,
+    137.99
+   ],
+   "headphones": [
+    168.99,
+    205.99,
+    243.99,
+    280.99
+   ],
+   "laptops": [
+    624.99,
+    674.99,
+    724.99,
+    774.99
+   ],
+   "running_shoes": [
+    107.99,
+    122.99,
+    137.99,
+    152.99
+   ],
+   "smartphones": [
+    324.99,
+    374.99,
+    424.99,
+    474.99
+   ],
+   "tvs": [
+    537.99,
+    612.99,
+    687.99,
+    762.99
+   ]
+  },
+  "room_above_the_centre_pct_by_category": {
+   "coffee_makers": 43.1,
+   "earbuds": 43.1,
+   "headphones": 27.1,
+   "laptops": 11.1,
+   "running_shoes": 18.2,
+   "smartphones": 19.9,
+   "tvs": 18.3
+  },
+  "room_below_the_centre_pct_by_category": {
+   "coffee_makers": -34.7,
+   "earbuds": -34.7,
+   "headphones": -23.5,
+   "laptops": -10.4,
+   "running_shoes": -16.5,
+   "smartphones": -17.9,
+   "tvs": -16.6
+  }
+ },
+ "rating_equivalent_defined": {
+  "cells": 1109,
+  "of": 1131
+ },
+ "section4_reference": {
+  "cells_that_differ": 255,
+  "largest_difference_log_odds": 0.351,
+  "cells_where_every_invented_name_is_claimed": [
+   "ernie45-21b | coffee_makers",
+   "gemma3-27b | coffee_makers",
+   "gemma3-27b | earbuds",
+   "gemma3-27b | headphones",
+   "glm47-flash | coffee_makers",
+   "gptoss120b | earbuds",
+   "gptoss120b | headphones",
+   "kimi-linear48b | headphones",
+   "llama3b | earbuds",
+   "llama3b | headphones",
+   "llama3b | laptops",
+   "llama3b | running_shoes",
+   "olmo3-7b | coffee_makers",
+   "olmo3-7b | running_shoes",
+   "qwen3-32b | coffee_makers",
+   "qwen3-32b | earbuds",
+   "qwen3-32b | headphones",
+   "qwen3-32b | laptops",
+   "qwen3-32b | running_shoes",
+   "qwen35-2b | coffee_makers"
+  ]
+ },
+ "unknown_to_model": [
+  "gptoss20b | smartphones | Google",
+  "qwen35-0.8b | coffee_makers | Mr. Coffee",
+  "qwen35-0.8b | coffee_makers | Nespresso",
+  "qwen35-0.8b | coffee_makers | Keurig",
+  "qwen35-0.8b | earbuds | Beats",
+  "qwen35-0.8b | headphones | Bose",
+  "qwen35-0.8b | laptops | Apple",
+  "qwen35-0.8b | laptops | Dell",
+  "qwen35-0.8b | laptops | HP",
+  "qwen35-0.8b | running_shoes | ASICS",
+  "qwen35-0.8b | smartphones | Google",
+  "qwen35-0.8b | tvs | Insignia",
+  "qwen35-2b | laptops | Apple"
+ ],
+ "unknown_to_model_reading_cells_included": [
+  "gptoss20b | smartphones | Google",
+  "qwen35-0.8b | coffee_makers | Mr. Coffee",
+  "qwen35-0.8b | coffee_makers | Nespresso",
+  "qwen35-0.8b | coffee_makers | Keurig",
+  "qwen35-0.8b | earbuds | Beats",
+  "qwen35-0.8b | smartphones | Google",
+  "qwen35-0.8b | tvs | Insignia",
+  "qwen35-2b | laptops | Apple"
+ ],
+ "known_groups": {
+  "familiar_mean_median_included": 0.381,
+  "models_familiar_mean_above_zero": 29,
+  "models_with_a_familiar_mean_interval": 31,
+  "models_familiar_mean_interval_above_zero": 25,
+  "models_above_the_invented_spread": 21,
+  "new_minus_corpus_invented": {
+   "ernie45-21b": {
+    "categories": 5,
+    "mbbe": -0.23682022243425144,
+    "ci95": [
+     -0.4039931667671903,
+     -0.08132987064799052
+    ]
+   },
+   "gemma3-27b": {
+    "categories": 5,
+    "mbbe": -0.023596749148149153,
+    "ci95": [
+     -0.22221989236727577,
+     0.16946930516139475
+    ]
+   },
+   "gemma31b": {
+    "categories": 5,
+    "mbbe": -0.17025704938036396,
+    "ci95": [
+     -0.41638157154468514,
+     0.07187082145697393
+    ]
+   },
+   "gemma4-12b": {
+    "categories": 5,
+    "mbbe": -0.22495270138497853,
+    "ci95": [
+     -0.43853725144840305,
+     -0.017829415732001117
+    ]
+   },
+   "gemma4-26b": {
+    "categories": 5,
+    "mbbe": -0.32276833572572716,
+    "ci95": [
+     -0.5359812229270651,
+     -0.1182985139650075
+    ]
+   },
+   "glm47-flash": {
+    "categories": 5,
+    "mbbe": 0.028008893212284225,
+    "ci95": [
+     -0.12748394256084153,
+     0.1785864668770654
+    ]
+   },
+   "gptoss120b": {
+    "categories": 5,
+    "mbbe": -0.2706427400829272,
+    "ci95": [
+     -0.4692930731326816,
+     -0.07988569958052211
+    ]
+   },
+   "gptoss20b": {
+    "categories": 5,
+    "mbbe": -0.025311117836642805,
+    "ci95": [
+     -0.19853419942608866,
+     0.14317116042065933
+    ]
+   },
+   "granite41-30b": {
+    "categories": 5,
+    "mbbe": -0.23494718265075365,
+    "ci95": [
+     -0.416061152478221,
+     -0.05462154920068074
+    ]
+   },
+   "granite42-30b": {
+    "categories": 5,
+    "mbbe": 0.0010849946033244184,
+    "ci95": [
+     -0.13866620255055156,
+     0.14131399903670214
+    ]
+   },
+   "llama3b": {
+    "categories": 2,
+    "mbbe": -0.05733995089843925,
+    "ci95": [
+     -0.3664060698697879,
+     0.2572029418386921
+    ]
+   },
+   "llama8b": {
+    "categories": 1,
+    "mbbe": -0.26995170735505675,
+    "ci95": [
+     -0.7025973820367628,
+     0.16392676395114333
+    ]
+   },
+   "marin8b": {
+    "categories": 3,
+    "mbbe": -0.1042461798057306,
+    "ci95": [
+     -0.28166505092887695,
+     0.08621430518390816
+    ]
+   },
+   "ministral3-14b": {
+    "categories": 5,
+    "mbbe": -0.18858289221490104,
+    "ci95": [
+     -0.32903740140356513,
+     -0.04509363131665432
+    ]
+   },
+   "nemotron3-nano30b": {
+    "categories": 5,
+    "mbbe": 0.011883575395775557,
+    "ci95": [
+     -0.1189309134361171,
+     0.13372834615851034
+    ]
+   },
+   "olmo3-7b": {
+    "categories": 5,
+    "mbbe": -0.18542981980592585,
+    "ci95": [
+     -0.34202251287577073,
+     -0.028165465750414422
+    ]
+   },
+   "olmo31-32b": {
+    "categories": 5,
+    "mbbe": -0.1640697560279461,
+    "ci95": [
+     -0.33085818008726525,
+     0.0027735352383693583
+    ]
+   },
+   "phi4": {
+    "categories": 5,
+    "mbbe": -0.048172988595178864,
+    "ci95": [
+     -0.23631672462378187,
+     0.13329657107506723
+    ]
+   },
+   "qwen3-30b": {
+    "categories": 5,
+    "mbbe": -0.12030540883141091,
+    "ci95": [
+     -0.2808163928440562,
+     0.03574492886760573
+    ]
+   },
+   "qwen3-32b": {
+    "categories": 5,
+    "mbbe": -0.3814138625673963,
+    "ci95": [
+     -0.5725132283024681,
+     -0.2202365481695956
+    ]
+   },
+   "qwen32b": {
+    "categories": 5,
+    "mbbe": -0.14080250216227114,
+    "ci95": [
+     -0.3374573256765537,
+     0.030090458445540758
+    ]
+   },
+   "qwen35-0.8b": {
+    "categories": 3,
+    "mbbe": 0.08586701261695366,
+    "ci95": [
+     -0.0860090190192434,
+     0.2585305690399356
+    ]
+   },
+   "qwen35-122b-fp8": {
+    "categories": 5,
+    "mbbe": -0.4156421047516784,
+    "ci95": [
+     -0.6266488028967598,
+     -0.24627959695246432
+    ]
+   },
+   "qwen35-27b": {
+    "categories": 5,
+    "mbbe": -0.4084903347160235,
+    "ci95": [
+     -0.6341832867306643,
+     -0.2029016659929608
+    ]
+   },
+   "qwen35-2b": {
+    "categories": 4,
+    "mbbe": -0.1056644522293943,
+    "ci95": [
+     -0.2632834475556397,
+     0.04085270615699499
+    ]
+   },
+   "qwen35-35b": {
+    "categories": 5,
+    "mbbe": -0.12675007219204423,
+    "ci95": [
+     -0.28667182323912804,
+     0.02938374964339849
+    ]
+   },
+   "qwen35-4b": {
+    "categories": 5,
+    "mbbe": -0.07419179307740442,
+    "ci95": [
+     -0.21825041182702404,
+     0.06424443272724872
+    ]
+   },
+   "qwen35-9b": {
+    "categories": 5,
+    "mbbe": -0.04594266147922492,
+    "ci95": [
+     -0.20526863388405595,
+     0.10662849939812845
+    ]
+   },
+   "qwen36-27b": {
+    "categories": 5,
+    "mbbe": -0.41413182934890014,
+    "ci95": [
+     -0.602204188076071,
+     -0.23946521284368638
+    ]
+   },
+   "qwen38-27b": {
+    "categories": 5,
+    "mbbe": -0.16431608219940586,
+    "ci95": [
+     -0.3508419916016135,
+     0.009505207870369651
+    ]
+   },
+   "qwen7b": {
+    "categories": 4,
+    "mbbe": -0.016922756225126914,
+    "ci95": [
+     -0.21848447502316315,
+     0.17775750231840534
+    ]
+   }
+  }
+ },
+ "held_out_gain": {
+  "cells": 203,
+  "positive": 160,
+  "models": 31,
+  "models_positive_in_every_reading_category": 10,
+  "models_positive_summed_over_reading_categories": 26
+ },
+ "repeat": {
+  "cells": 203,
+  "kappa_median": 0.667,
+  "same_pick_median": 0.74,
+  "mbbe_first_against_repeat_r_by_model": {
+   "ernie45-21b": 0.781,
+   "gemma3-27b": 0.987,
+   "gemma31b": 0.984,
+   "gemma4-12b": 0.962,
+   "gemma4-26b": 0.973,
+   "glm47-flash": 0.319,
+   "gptoss120b": 0.89,
+   "gptoss20b": 0.605,
+   "granite41-30b": 0.778,
+   "granite42-30b": 0.767,
+   "llama3b": 0.719,
+   "llama8b": 0.043,
+   "marin8b": -0.128,
+   "ministral3-14b": 0.575,
+   "nemotron3-nano30b": 0.239,
+   "olmo3-7b": 0.83,
+   "olmo31-32b": 0.809,
+   "phi4": 0.852,
+   "qwen3-30b": 0.941,
+   "qwen3-32b": 0.885,
+   "qwen32b": 0.936,
+   "qwen35-0.8b": 0.336,
+   "qwen35-122b-fp8": 0.723,
+   "qwen35-27b": 0.919,
+   "qwen35-2b": 0.485,
+   "qwen35-35b": 0.731,
+   "qwen35-4b": 0.079,
+   "qwen35-9b": 0.808,
+   "qwen36-27b": 0.796,
+   "qwen38-27b": 0.624,
+   "qwen7b": 0.896
+  },
+  "mbbe_first_against_repeat_r_median": 0.781
+ },
+ "stability_readable_cells": {
+  "system_index": {
+   "readable_cells": 182,
+   "median_ratio": 0.055,
+   "cells_below_one_half": 145,
+   "cells_above_one": 19,
+   "reading_cells_with_brand_variance_zero_or_below": [
+    "gemma3-27b | smartphones",
+    "glm47-flash | headphones",
+    "glm47-flash | running_shoes",
+    "glm47-flash | smartphones",
+    "gptoss20b | smartphones",
+    "llama3b | headphones",
+    "llama3b | tvs",
+    "llama8b | running_shoes",
+    "llama8b | tvs",
+    "marin8b | coffee_makers",
+    "marin8b | running_shoes",
+    "nemotron3-nano30b | smartphones",
+    "qwen35-0.8b | coffee_makers",
+    "qwen35-0.8b | earbuds",
+    "qwen35-0.8b | smartphones",
+    "qwen35-2b | laptops",
+    "qwen35-4b | smartphones",
+    "qwen35-4b | tvs",
+    "qwen35-9b | smartphones",
+    "qwen35-9b | tvs",
+    "qwen7b | tvs"
+   ],
+   "cells_left_out": 21
+  },
+  "layout": {
+   "readable_cells": 180,
+   "median_ratio": 0.077,
+   "cells_below_one_half": 139,
+   "cells_above_one": 20,
+   "reading_cells_with_brand_variance_zero_or_below": [
+    "gemma3-27b | smartphones",
+    "glm47-flash | headphones",
+    "glm47-flash | running_shoes",
+    "glm47-flash | smartphones",
+    "gptoss20b | smartphones",
+    "llama3b | headphones",
+    "llama3b | tvs",
+    "llama8b | running_shoes",
+    "llama8b | tvs",
+    "marin8b | coffee_makers",
+    "marin8b | headphones",
+    "marin8b | running_shoes",
+    "nemotron3-nano30b | smartphones",
+    "qwen35-0.8b | coffee_makers",
+    "qwen35-0.8b | earbuds",
+    "qwen35-0.8b | smartphones",
+    "qwen35-2b | laptops",
+    "qwen35-2b | tvs",
+    "qwen35-4b | smartphones",
+    "qwen35-4b | tvs",
+    "qwen35-9b | smartphones",
+    "qwen35-9b | tvs",
+    "qwen7b | tvs"
+   ],
+   "cells_left_out": 21
+  },
+  "request_wording": {
+   "readable_cells": 181,
+   "median_ratio": 0.194,
+   "cells_below_one_half": 114,
+   "cells_above_one": 37,
+   "reading_cells_with_brand_variance_zero_or_below": [
+    "gemma3-27b | smartphones",
+    "glm47-flash | headphones",
+    "glm47-flash | running_shoes",
+    "glm47-flash | smartphones",
+    "gptoss20b | smartphones",
+    "llama3b | headphones",
+    "llama3b | tvs",
+    "llama8b | running_shoes",
+    "llama8b | tvs",
+    "marin8b | coffee_makers",
+    "marin8b | running_shoes",
+    "marin8b | tvs",
+    "nemotron3-nano30b | smartphones",
+    "qwen35-0.8b | coffee_makers",
+    "qwen35-0.8b | earbuds",
+    "qwen35-0.8b | smartphones",
+    "qwen35-2b | laptops",
+    "qwen35-2b | tvs",
+    "qwen35-4b | smartphones",
+    "qwen35-4b | tvs",
+    "qwen35-9b | smartphones",
+    "qwen35-9b | tvs"
+   ],
+   "cells_left_out": 21
+  }
+ },
+ "joint_fit_shown_terms": {
+  "shown_x_a0_l1": {
+   "cells": 203,
+   "above_zero": 4,
+   "below_zero": 22,
+   "median": -0.082
+  },
+  "shown_x_a0_l2": {
+   "cells": 203,
+   "above_zero": 9,
+   "below_zero": 24,
+   "median": -0.135
+  },
+  "shown_x_a1_l1": {
+   "cells": 203,
+   "above_zero": 2,
+   "below_zero": 21,
+   "median": -0.082
+  },
+  "shown_x_a1_l2": {
+   "cells": 203,
+   "above_zero": 5,
+   "below_zero": 29,
+   "median": -0.082
+  },
+  "shown_x_a2_l1": {
+   "cells": 203,
+   "above_zero": 4,
+   "below_zero": 18,
+   "median": -0.101
+  },
+  "shown_x_a2_l2": {
+   "cells": 203,
+   "above_zero": 8,
+   "below_zero": 25,
+   "median": -0.142
+  },
+  "shown_x_rating": {
+   "cells": 203,
+   "above_zero": 14,
+   "below_zero": 21,
+   "median": -0.016
+  },
+  "shown_x_log_price": {
+   "cells": 203,
+   "above_zero": 24,
+   "below_zero": 4,
+   "median": 0.35
+  }
+ },
+ "convergence": {
+  "mbbe | blind_gap": {
+   "cells": 1131,
+   "pooled_r": 0.7212408370287994,
+   "ci95_models_and_brands_resampled": [
+    0.6017112660135363,
+    0.8014604441790263
+   ],
+   "within_model_mean_r": 0.7820317696493517,
+   "note": "the same answers give both, so their agreement is reported and not counted as convergence",
+   "corrected_r": 0.8171462311899469,
+   "corrected_ci95": [
+    0.6817224816512429,
+    0.9080328619586489
+   ],
+   "reliabilities": [
+    0.9264002103888999,
+    0.8409349614161447
+   ]
+  },
+  "mbbe | rating_difference": {
+   "cells": 1131,
+   "pooled_r": 0.32889422695575915,
+   "ci95_models_and_brands_resampled": [
+    0.1622394744493349,
+    0.4682047410904266
+   ],
+   "within_model_mean_r": 0.39695855205539643,
+   "corrected_r": 0.42313780462779416,
+   "corrected_ci95": [
+    0.20872867145732235,
+    0.6023672963039789
+   ],
+   "reliabilities": [
+    0.9264002103888999,
+    0.6521540548439346
+   ]
+  },
+  "mbbe | premium_at_one_in_five": {
+   "cells": 826,
+   "pooled_r": 0.18028507246413567,
+   "ci95_models_and_brands_resampled": [
+    0.03617112803813745,
+    0.3117750697932632
+   ],
+   "within_model_mean_r": 0.20392836820642501,
+   "corrected_r": 0.3245855234942197,
+   "corrected_ci95": [
+    0.0651225549024358,
+    0.5613203181945339
+   ],
+   "reliabilities": [
+    0.9264002103888999,
+    0.33301408283059175
+   ]
+  },
+  "mbbe | corpus_table_gap": {
+   "cells": 357,
+   "pooled_r": 0.1444291445256117,
+   "ci95_models_and_brands_resampled": [
+    -0.0271392954538161,
+    0.2834697881417086
+   ],
+   "within_model_mean_r": 0.041046446021767644,
+   "corrected_r": 0.20557586767906869,
+   "corrected_ci95": [
+    -0.038629213164988935,
+    0.40348191391315524
+   ],
+   "reliabilities": [
+    0.9264002103888999,
+    0.5328031316007136
+   ]
+  },
+  "blind_gap | rating_difference": {
+   "cells": 1131,
+   "pooled_r": 0.36883218562037456,
+   "ci95_models_and_brands_resampled": [
+    0.226833742677564,
+    0.4675060506409073
+   ],
+   "within_model_mean_r": 0.37940348491253345,
+   "corrected_r": 0.49804950003931675,
+   "corrected_ci95": [
+    0.30630307369348786,
+    0.6312929398919492
+   ],
+   "reliabilities": [
+    0.8409349614161447,
+    0.6521540548439346
+   ]
+  },
+  "blind_gap | premium_at_one_in_five": {
+   "cells": 826,
+   "pooled_r": 0.28420086522575655,
+   "ci95_models_and_brands_resampled": [
+    0.14963064948329635,
+    0.40343041526411
+   ],
+   "within_model_mean_r": 0.24752282082919655,
+   "corrected_r": 0.5370477379536956,
+   "corrected_ci95": [
+    0.2827535439405266,
+    0.7623530342428908
+   ],
+   "reliabilities": [
+    0.8409349614161447,
+    0.33301408283059175
+   ]
+  },
+  "blind_gap | corpus_table_gap": {
+   "cells": 357,
+   "pooled_r": 0.029466114040438713,
+   "ci95_models_and_brands_resampled": [
+    -0.12997089263836434,
+    0.1951665255977638
+   ],
+   "within_model_mean_r": 0.017075802482956072,
+   "corrected_r": 0.04402083506290383,
+   "corrected_ci95": [
+    -0.19416972390590237,
+    0.2915685937191616
+   ],
+   "reliabilities": [
+    0.8409349614161447,
+    0.5328031316007136
+   ]
+  },
+  "rating_difference | premium_at_one_in_five": {
+   "cells": 826,
+   "pooled_r": 0.1330913498024052,
+   "ci95_models_and_brands_resampled": [
+    0.009011348570628488,
+    0.24776094739032978
+   ],
+   "within_model_mean_r": 0.14396974662938672,
+   "corrected_r": 0.28559028531855996,
+   "corrected_ci95": [
+    0.019336745875758475,
+    0.5316507779134589
+   ],
+   "reliabilities": [
+    0.6521540548439346,
+    0.33301408283059175
+   ]
+  },
+  "rating_difference | corpus_table_gap": {
+   "cells": 357,
+   "pooled_r": 0.03107377068450359,
+   "ci95_models_and_brands_resampled": [
+    -0.14358307019423688,
+    0.18535204373103595
+   ],
+   "within_model_mean_r": 0.018223932263926067,
+   "corrected_r": 0.052715153152721496,
+   "corrected_ci95": [
+    -0.24358175299278376,
+    0.31444080191156837
+   ],
+   "reliabilities": [
+    0.6521540548439346,
+    0.5328031316007136
+   ]
+  },
+  "premium_at_one_in_five | corpus_table_gap": {
+   "cells": 249,
+   "pooled_r": -0.06663507886950033,
+   "ci95_models_and_brands_resampled": [
+    -0.22024566318019623,
+    0.11162412534403653
+   ],
+   "within_model_mean_r": -0.09957255547295871,
+   "corrected_r": -0.1581933531975164,
+   "corrected_ci95": [
+    -0.5228687438626765,
+    0.2649984810627331
+   ],
+   "reliabilities": [
+    0.33301408283059175,
+    0.5328031316007136
+   ]
+  }
+ },
+ "convergence_pooled_reliability": {
+  "mbbe": {
+   "spearman_brown_mean": 0.9264002103888999,
+   "mean_half_r": 0.862891572216569,
+   "splits": 200
+  },
+  "blind_gap": {
+   "spearman_brown_mean": 0.8409349614161447,
+   "mean_half_r": 0.7255287092807131,
+   "splits": 200
+  },
+  "rating_difference": {
+   "spearman_brown_mean": 0.6521540548439346,
+   "mean_half_r": 0.48384910544685616,
+   "splits": 200
+  },
+  "premium_at_one_in_five": {
+   "spearman_brown_mean": 0.33301408283059175,
+   "mean_half_r": 0.19977018365941543,
+   "splits": 200
+  },
+  "corpus_table_gap": {
+   "spearman_brown_mean": 0.5328031316007136,
+   "mean_half_r": 0.3631435856198374,
+   "splits": 200,
+   "cells": 730,
+   "export": "[the computing cluster's job 12154]/answers-letters-v2.csv.gz"
+  }
+ },
+ "discriminant": {
+  "mbbe_pair_reliability": {
+   "spearman_brown_mean": 0.9928368544142532,
+   "mean_half_r": 0.9857756002746091,
+   "splits": 200
+  },
+  "log_freq_with_category": {
+   "pairs": 39,
+   "r": -0.18225715883135565,
+   "ci95_pairs_resampled": [
+    -0.44393678612873405,
+    0.15224344371457987
+   ],
+   "corrected_r": -0.1829134540787916,
+   "corrected_ci95": [
+    -0.44553537136273225,
+    0.1527916616787127
+   ]
+  },
+  "log_freq_name_alone": {
+   "pairs": 39,
+   "r": -0.08141239204829918,
+   "ci95_pairs_resampled": [
+    -0.4107392124690936,
+    0.2865943782132523
+   ],
+   "corrected_r": -0.0817055523626939,
+   "corrected_ci95": [
+    -0.4122182555684567,
+    0.28762638447061556
+   ]
+  },
+  "log10_wikipedia_monthly_views": {
+   "pairs": 33,
+   "r": -0.14472134256209004,
+   "ci95_pairs_resampled": [
+    -0.43458172540458917,
+    0.12987794081852397
+   ],
+   "corrected_r": -0.14524247396749032,
+   "corrected_ci95": [
+    -0.43614662372098095,
+    0.13034562217519888
+   ]
+  },
+  "coded_high_share": {
+   "pairs": 39,
+   "r": -0.1944171851672374,
+   "ci95_pairs_resampled": [
+    -0.45561349872926965,
+    0.09462708767016347
+   ],
+   "corrected_r": -0.19511726781673813,
+   "corrected_ci95": [
+    -0.45725413098646595,
+    0.09496783317675887
+   ]
+  },
+  "consumer_familiarity_mean": {
+   "pairs": 34,
+   "r": -0.11882989639732963,
+   "ci95_pairs_resampled": [
+    -0.525367824743573,
+    0.31171437659552165
+   ],
+   "corrected_r": -0.11925779452083234,
+   "corrected_ci95": [
+    -0.5272596374369444,
+    0.31283683820541863
+   ]
+  },
+  "in_a_value_ranking": {
+   "pairs": 39,
+   "r": -0.11373625715261644,
+   "ci95_pairs_resampled": [
+    -0.40509216182168134,
+    0.23710093088054537
+   ],
+   "corrected_r": -0.11414581343841085,
+   "corrected_ci95": [
+    -0.4065508702876852,
+    0.2379547147049905
+   ]
+  },
+  "log10_brand_value": {
+   "pairs": 16,
+   "r": -0.3587227277098536,
+   "ci95_pairs_resampled": [
+    -0.826546605074759,
+    0.1826425058991915
+   ],
+   "corrected_r": -0.3600144630954637,
+   "corrected_ci95": [
+    -0.8295229414347305,
+    0.1833001887543947
+   ]
+  }
+ },
+ "independence_from_profiles": {
+  "median_included": 0.132,
+  "range_included": [
+   -0.2,
+   0.53
+  ]
+ },
+ "corpus_table_prediction": {
+  "both builds": {
+   "primary (every familiar name estimated)": {
+    "model_table_cells": 782,
+    "tables": 28,
+    "models": 30,
+    "mae_prediction": 0.0682248464126667,
+    "mae_no_change": 0.06553708439897699,
+    "difference": 0.0026877620136897084,
+    "ci95": [
+     0.0010320317403205994,
+     0.004394532316234569
+    ]
+   },
+   "secondary (all tables in the categories)": {
+    "model_table_cells": 1148,
+    "tables": 41,
+    "models": 30,
+    "mae_prediction": 0.07119163324432728,
+    "mae_no_change": 0.06665505226480836,
+    "difference": 0.004536580979518915,
+    "ci95": [
+     0.0029946883985919486,
+     0.006150421688430285
+    ]
+   }
+  },
+  "b2/dom2": {
+   "primary (every familiar name estimated)": {
+    "model_table_cells": 391,
+    "tables": 14,
+    "models": 30,
+    "mae_prediction": 0.06424555642831706,
+    "mae_no_change": 0.061023017902813295,
+    "difference": 0.003222538525503745,
+    "ci95": [
+     0.000957619232098855,
+     0.005377304261853248
+    ]
+   },
+   "secondary (all tables in the categories)": {
+    "model_table_cells": 560,
+    "tables": 20,
+    "models": 30,
+    "mae_prediction": 0.06769186382432113,
+    "mae_no_change": 0.06142857142857142,
+    "difference": 0.00626329239574969,
+    "ci95": [
+     0.004169895564691747,
+     0.008451266479792486
+    ]
+   }
+  },
+  "study1-rerun/s1rerun1": {
+   "primary (every familiar name estimated)": {
+    "model_table_cells": 391,
+    "tables": 14,
+    "models": 30,
+    "mae_prediction": 0.07220413639701634,
+    "mae_no_change": 0.07005115089514066,
+    "difference": 0.002152985501875672,
+    "ci95": [
+     -0.0005717689925797784,
+     0.004791448073442472
+    ]
+   },
+   "secondary (all tables in the categories)": {
+    "model_table_cells": 588,
+    "tables": 21,
+    "models": 30,
+    "mae_prediction": 0.07452474697766646,
+    "mae_no_change": 0.0716326530612245,
+    "difference": 0.0028920939164419858,
+    "ci95": [
+     0.0007441274651924374,
+     0.005177715548242704
+    ]
+   }
+  }
+ }
+}

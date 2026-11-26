@@ -1,0 +1,65 @@
+{
+ "category": "coffee_makers",
+ "noun": "coffee maker",
+ "requests": [
+  "a coffee maker that makes excellent coffee",
+  "a coffee maker for a busy household's mornings"
+ ],
+ "request_pilot_band": "a coffee maker that makes excellent coffee, budget $50-150",
+ "pilot_band": [
+  50,
+  150
+ ],
+ "request_market_budget": "a coffee maker that makes excellent coffee, budget up to $380",
+ "attributes": [
+  {
+   "name": "number of cups",
+   "levels": [
+    "4 cups",
+    "8 cups",
+    "12 cups"
+   ],
+   "source": "Walmart product pages near both ends of the market range; e.g. 4 cups: https://www.walmart.com/ip/Elite-Cuisine-EHC5842-4-Cup-Brew-Drip-Coffee-Maker-with-Pause-Serve/12969873052; 8 cups: https://www.walmart.com/ip/OXO-Brew-8-Cup-Coffee-Maker-with-Glass-Carafe-and-Single-Serve-Option/17538860394; 12 cups: https://www.walmart.com/ip/OVENTE-12-Cup-Drip-Coffee-Maker-Easy-On-Off-Switch-Black-CM412B-Anti-Drip-System-Heat-Resistant-Borosilicate-Glass-Carafe-Reusable-Filter-Water-Level/3428481038",
+   "note": "as read: number of cups (in place of water reservoir): 4 cups / 8 cups / 12 cups"
+  },
+  {
+   "name": "brew sizes",
+   "levels": [
+    "1 size",
+    "2 sizes",
+    "4 sizes"
+   ],
+   "source": "Walmart product pages near both ends of the market range; e.g. 1 size: https://www.walmart.com/ip/Ninja-Pods-Grounds-Specialty-Single-Serve-Coffee-Maker-K-Cup-Pod-Compatible-4-Brew-Styles-PB050-Gray/5226743172; 2 sizes: https://www.walmart.com/ip/Vertuo-Next-Coffee-and-Espresso-Maker-in-Light-Gray-BNV520GRY1BUC1/313520636; 4 sizes: https://www.walmart.com/ip/Keurig-K-Brew-Chill-Iced-or-Hot-Single-Serve-K-Cup-Coffee-Maker/5320241851"
+  },
+  {
+   "name": "time to brew one cup",
+   "levels": [
+    "90 seconds",
+    "60 seconds",
+    "45 seconds"
+   ],
+   "source": "not listed by Walmart; the pilot's attribute and levels (DESIGN.md section 6.1), kept under DESIGN-2 section 13, ruling 6"
+  }
+ ],
+ "familiar": [
+  "Keurig",
+  "Mr. Coffee",
+  "Nespresso",
+  "Breville",
+  "Cuisinart"
+ ],
+ "invented": [
+  [
+   "Brevara",
+   "corpus"
+  ],
+  [
+   "Lusarro",
+   "new"
+  ],
+  [
+   "Pindrel",
+   "new"
+  ]
+ ]
+}

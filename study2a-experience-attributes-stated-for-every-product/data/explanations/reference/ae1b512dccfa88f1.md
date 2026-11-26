@@ -1,0 +1,1 @@
+{"reason": "listed", "brand_any": "no", "quote": "significantly better battery life (6+ days) than the Apple or Chronex models. It sits perfectly within your $200-$400 budget"}

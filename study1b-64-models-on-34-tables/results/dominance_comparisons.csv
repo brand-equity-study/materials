@@ -1,0 +1,1197 @@
+table,best,attribute,rule,other,best_value,other_value,outcome
+sr_backpacks_01,A,price,number_lower,B,54.99,69.99,ge
+sr_backpacks_01,A,price,number_lower,C,54.99,65.00,ge
+sr_backpacks_01,A,price,number_lower,D,54.99,99.00,ge
+sr_backpacks_01,A,price,number_lower,E,54.99,49.99,lt
+sr_backpacks_01,A,sustainability,rx_higher,B,0.7/1.0,0.4/1.0,ge
+sr_backpacks_01,A,sustainability,rx_higher,C,0.7/1.0,0.6/1.0,ge
+sr_backpacks_01,A,sustainability,rx_higher,D,0.7/1.0,0.5/1.0,ge
+sr_backpacks_01,A,sustainability,rx_higher,E,0.7/1.0,0.3/1.0,ge
+sr_backpacks_01,A,review count,rx_higher,B,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_backpacks_01,A,review count,rx_higher,C,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_backpacks_01,A,review count,rx_higher,D,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_backpacks_01,A,review count,rx_higher,E,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_backpacks_01,A,stars,rx_higher,B,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_backpacks_01,A,stars,rx_higher,C,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_backpacks_01,A,stars,rx_higher,D,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_backpacks_01,A,stars,rx_higher,E,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_backpacks_01,A,capacity,unordered,B,26L,30L,incomparable
+sr_backpacks_01,A,capacity,unordered,C,26L,20L,incomparable
+sr_backpacks_01,A,capacity,unordered,D,26L,28L,incomparable
+sr_backpacks_01,A,capacity,unordered,E,26L,26L,ge
+sr_backpacks_01,A,laptop,number_higher,B,"16""","15""",ge
+sr_backpacks_01,A,laptop,number_higher,C,"16""","15""",ge
+sr_backpacks_01,A,laptop,number_higher,D,"16""","15""",ge
+sr_backpacks_01,A,laptop,number_higher,E,"16""","15""",ge
+sr_backpacks_01,A,material,unordered,B,500D CORDURA,polyester,incomparable
+sr_backpacks_01,A,material,unordered,C,500D CORDURA,recycled 210D nylon,incomparable
+sr_backpacks_01,A,material,unordered,D,500D CORDURA,600D polyester,incomparable
+sr_backpacks_01,A,material,unordered,E,500D CORDURA,600D polyester,incomparable
+sr_backpacks_01,A,weight,number_lower,B,1.1kg,0.57kg,lt
+sr_backpacks_01,A,weight,number_lower,C,1.1kg,0.54kg,lt
+sr_backpacks_01,A,weight,number_lower,D,1.1kg,1.22kg,ge
+sr_backpacks_01,A,weight,number_lower,E,1.1kg,0.36kg,lt
+sr_blenders_01,D,price,number_lower,A,109.99,349.95,ge
+sr_blenders_01,D,price,number_lower,B,109.99,99.99,lt
+sr_blenders_01,D,price,number_lower,C,109.99,34.99,lt
+sr_blenders_01,D,price,number_lower,E,109.99,199.99,ge
+sr_blenders_01,D,sustainability,rx_higher,A,0.6/1.0,0.6/1.0,ge
+sr_blenders_01,D,sustainability,rx_higher,B,0.6/1.0,0.4/1.0,ge
+sr_blenders_01,D,sustainability,rx_higher,C,0.6/1.0,0.3/1.0,ge
+sr_blenders_01,D,sustainability,rx_higher,E,0.6/1.0,0.5/1.0,ge
+sr_blenders_01,D,review count,rx_higher,A,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_blenders_01,D,review count,rx_higher,B,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_blenders_01,D,review count,rx_higher,C,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_blenders_01,D,review count,rx_higher,E,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_blenders_01,D,stars,rx_higher,A,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_blenders_01,D,stars,rx_higher,B,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_blenders_01,D,stars,rx_higher,C,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_blenders_01,D,stars,rx_higher,E,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_blenders_01,D,blade,unordered,A,stainless steel,stainless steel,ge
+sr_blenders_01,D,blade,unordered,B,stainless steel,stacked blade,incomparable
+sr_blenders_01,D,blade,unordered,C,stainless steel,stainless steel,ge
+sr_blenders_01,D,blade,unordered,E,stainless steel,asymmetric,incomparable
+sr_blenders_01,D,bpa_free,presence,A,True,,not_stated
+sr_blenders_01,D,bpa_free,presence,B,True,,not_stated
+sr_blenders_01,D,bpa_free,presence,C,True,,not_stated
+sr_blenders_01,D,bpa_free,presence,E,True,,not_stated
+sr_blenders_01,D,capacity,unordered,A,64oz,48oz,incomparable
+sr_blenders_01,D,capacity,unordered,B,64oz,72oz,incomparable
+sr_blenders_01,D,capacity,unordered,C,64oz,40oz,incomparable
+sr_blenders_01,D,capacity,unordered,E,64oz,56oz,incomparable
+sr_blenders_01,D,power,number_higher,A,1800W (3HP),1400W (2HP),ge
+sr_blenders_01,D,power,number_higher,B,1800W (3HP),1400W,ge
+sr_blenders_01,D,power,number_higher,C,1800W (3HP),700W,ge
+sr_blenders_01,D,power,number_higher,E,1800W (3HP),1200W,ge
+sr_blenders_01,D,speeds,unordered,A,variable + pulse,variable 1-10,incomparable
+sr_blenders_01,D,speeds,unordered,B,variable + pulse,3 + Auto-iQ,incomparable
+sr_blenders_01,D,speeds,unordered,C,variable + pulse,12 functions,incomparable
+sr_blenders_01,D,speeds,unordered,E,variable + pulse,5 + pulse,incomparable
+sr_cameras_01,A,price,number_lower,B,749.00,799.00,ge
+sr_cameras_01,A,price,number_lower,C,749.00,856.95,ge
+sr_cameras_01,A,price,number_lower,D,749.00,898.00,ge
+sr_cameras_01,A,price,number_lower,E,749.00,899.00,ge
+sr_cameras_01,A,sustainability,rx_higher,B,0.7/1.0,0.5/1.0,ge
+sr_cameras_01,A,sustainability,rx_higher,C,0.7/1.0,0.5/1.0,ge
+sr_cameras_01,A,sustainability,rx_higher,D,0.7/1.0,0.5/1.0,ge
+sr_cameras_01,A,sustainability,rx_higher,E,0.7/1.0,0.6/1.0,ge
+sr_cameras_01,A,review count,rx_higher,B,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_cameras_01,A,review count,rx_higher,C,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_cameras_01,A,review count,rx_higher,D,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_cameras_01,A,review count,rx_higher,E,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_cameras_01,A,stars,rx_higher,B,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_cameras_01,A,stars,rx_higher,C,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_cameras_01,A,stars,rx_higher,D,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_cameras_01,A,stars,rx_higher,E,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_cameras_01,A,af,unordered,B,1053 point cross-type,Dual Pixel CMOS AF II,incomparable
+sr_cameras_01,A,af,unordered,C,1053 point cross-type,209 hybrid AF,incomparable
+sr_cameras_01,A,af,unordered,D,1053 point cross-type,425 phase-detect,incomparable
+sr_cameras_01,A,af,unordered,E,1053 point cross-type,425 point hybrid,incomparable
+sr_cameras_01,A,ibis,presence,B,5-axis 6.5 stops,False,ge
+sr_cameras_01,A,ibis,presence,C,5-axis 6.5 stops,False,ge
+sr_cameras_01,A,ibis,presence,D,5-axis 6.5 stops,False,ge
+sr_cameras_01,A,ibis,presence,E,5-axis 6.5 stops,False,ge
+sr_cameras_01,A,sensor,camera,B,26.1MP APS-C,24.2MP APS-C,ge
+sr_cameras_01,A,sensor,camera,C,26.1MP APS-C,20.9MP APS-C,ge
+sr_cameras_01,A,sensor,camera,D,26.1MP APS-C,24.2MP APS-C,ge
+sr_cameras_01,A,sensor,camera,E,26.1MP APS-C,26.1MP APS-C X-Trans,incomparable
+sr_cameras_01,A,video,rx_higher,B,4K 60fps,4K 30fps,ge
+sr_cameras_01,A,video,rx_higher,C,4K 60fps,4K 30fps,ge
+sr_cameras_01,A,video,rx_higher,D,4K 60fps,4K 30fps,ge
+sr_cameras_01,A,video,rx_higher,E,4K 60fps,4K 30fps,ge
+sr_cameras_01,A,weight,number_lower,B,366g,375g,ge
+sr_cameras_01,A,weight,number_lower,C,366g,395g,ge
+sr_cameras_01,A,weight,number_lower,D,366g,403g,ge
+sr_cameras_01,A,weight,number_lower,E,366g,378g,ge
+sr_coffee_makers_01,C,price,number_lower,A,69.99,149.99,ge
+sr_coffee_makers_01,C,price,number_lower,B,69.99,299.95,ge
+sr_coffee_makers_01,C,price,number_lower,D,69.99,34.99,lt
+sr_coffee_makers_01,C,price,number_lower,E,69.99,99.99,ge
+sr_coffee_makers_01,C,sustainability,rx_higher,A,0.7/1.0,0.2/1.0,ge
+sr_coffee_makers_01,C,sustainability,rx_higher,B,0.7/1.0,0.5/1.0,ge
+sr_coffee_makers_01,C,sustainability,rx_higher,D,0.7/1.0,0.3/1.0,ge
+sr_coffee_makers_01,C,sustainability,rx_higher,E,0.7/1.0,0.4/1.0,ge
+sr_coffee_makers_01,C,review count,rx_higher,A,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_coffee_makers_01,C,review count,rx_higher,B,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_coffee_makers_01,C,review count,rx_higher,D,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_coffee_makers_01,C,review count,rx_higher,E,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_coffee_makers_01,C,stars,rx_higher,A,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_coffee_makers_01,C,stars,rx_higher,B,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_coffee_makers_01,C,stars,rx_higher,D,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_coffee_makers_01,C,stars,rx_higher,E,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_coffee_makers_01,C,brew_temp,unordered,A,195-205F (adjustable),192F,incomparable
+sr_coffee_makers_01,C,brew_temp,unordered,B,195-205F (adjustable),197-204F (PID),incomparable
+sr_coffee_makers_01,C,brew_temp,unordered,D,195-205F (adjustable),185F,incomparable
+sr_coffee_makers_01,C,brew_temp,unordered,E,195-205F (adjustable),190F,incomparable
+sr_coffee_makers_01,C,brew_time,unordered,A,5 min,1 min,incomparable
+sr_coffee_makers_01,C,brew_time,unordered,B,5 min,7 min,incomparable
+sr_coffee_makers_01,C,brew_time,unordered,D,5 min,8 min,incomparable
+sr_coffee_makers_01,C,brew_time,unordered,E,5 min,10 min,incomparable
+sr_coffee_makers_01,C,capacity,unordered,A,8 cups,75oz reservoir,incomparable
+sr_coffee_makers_01,C,capacity,unordered,B,8 cups,12 cups,incomparable
+sr_coffee_makers_01,C,capacity,unordered,D,8 cups,12 cups,incomparable
+sr_coffee_makers_01,C,capacity,unordered,E,8 cups,14 cups,incomparable
+sr_coffee_makers_01,C,carafe,presence,A,stainless steel thermal,,not_stated
+sr_coffee_makers_01,C,carafe,presence,B,stainless steel thermal,,not_stated
+sr_coffee_makers_01,C,carafe,presence,D,stainless steel thermal,,not_stated
+sr_coffee_makers_01,C,carafe,presence,E,stainless steel thermal,,not_stated
+sr_coffee_makers_01,C,pre_infusion,presence,A,True,,not_stated
+sr_coffee_makers_01,C,pre_infusion,presence,B,True,,not_stated
+sr_coffee_makers_01,C,pre_infusion,presence,D,True,,not_stated
+sr_coffee_makers_01,C,pre_infusion,presence,E,True,,not_stated
+sr_coffee_makers_01,C,sca_certified,presence,A,True,,not_stated
+sr_coffee_makers_01,C,sca_certified,presence,B,True,,not_stated
+sr_coffee_makers_01,C,sca_certified,presence,D,True,,not_stated
+sr_coffee_makers_01,C,sca_certified,presence,E,True,,not_stated
+sr_coffee_makers_01,C,type,unordered,A,pour-over auto,single-serve pod,incomparable
+sr_coffee_makers_01,C,type,unordered,B,pour-over auto,drip precision,incomparable
+sr_coffee_makers_01,C,type,unordered,D,pour-over auto,drip,incomparable
+sr_coffee_makers_01,C,type,unordered,E,pour-over auto,drip,incomparable
+sr_coffee_makers_02,A,price,number_lower,B,99.99,399.95,ge
+sr_coffee_makers_02,A,price,number_lower,C,99.99,599.99,ge
+sr_coffee_makers_02,A,price,number_lower,D,99.99,159.99,ge
+sr_coffee_makers_02,A,price,number_lower,E,99.99,119.99,ge
+sr_coffee_makers_02,A,sustainability,rx_higher,B,0.8/1.0,0.5/1.0,ge
+sr_coffee_makers_02,A,sustainability,rx_higher,C,0.8/1.0,0.5/1.0,ge
+sr_coffee_makers_02,A,sustainability,rx_higher,D,0.8/1.0,0.3/1.0,ge
+sr_coffee_makers_02,A,sustainability,rx_higher,E,0.8/1.0,0.4/1.0,ge
+sr_coffee_makers_02,A,review count,rx_higher,B,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_coffee_makers_02,A,review count,rx_higher,C,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_coffee_makers_02,A,review count,rx_higher,D,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_coffee_makers_02,A,review count,rx_higher,E,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_coffee_makers_02,A,stars,rx_higher,B,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_coffee_makers_02,A,stars,rx_higher,C,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_coffee_makers_02,A,stars,rx_higher,D,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_coffee_makers_02,A,stars,rx_higher,E,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_coffee_makers_02,A,grinder,presence,B,none,none,ge
+sr_coffee_makers_02,A,grinder,presence,C,none,ceramic burr,lt
+sr_coffee_makers_02,A,grinder,presence,D,none,none,ge
+sr_coffee_makers_02,A,grinder,presence,E,none,none,ge
+sr_coffee_makers_02,A,milk,presence,B,none,auto steam,lt
+sr_coffee_makers_02,A,milk,presence,C,none,LatteGo auto,lt
+sr_coffee_makers_02,A,milk,presence,D,none,none,ge
+sr_coffee_makers_02,A,milk,presence,E,none,manual wand,lt
+sr_coffee_makers_02,A,pressure,unordered,B,2-15 bar (full manual profile),15 bar,incomparable
+sr_coffee_makers_02,A,pressure,unordered,C,2-15 bar (full manual profile),15 bar,incomparable
+sr_coffee_makers_02,A,pressure,unordered,D,2-15 bar (full manual profile),N/A (centrifusion),incomparable
+sr_coffee_makers_02,A,pressure,unordered,E,2-15 bar (full manual profile),15 bar,incomparable
+sr_coffee_makers_02,A,type,unordered,B,manual lever,semi-auto,incomparable
+sr_coffee_makers_02,A,type,unordered,C,manual lever,super-auto,incomparable
+sr_coffee_makers_02,A,type,unordered,D,manual lever,capsule,incomparable
+sr_coffee_makers_02,A,type,unordered,E,manual lever,semi-auto,incomparable
+sr_coffee_makers_03,D,price,number_lower,A,24.99,29.99,ge
+sr_coffee_makers_03,D,price,number_lower,B,24.99,89.99,ge
+sr_coffee_makers_03,D,price,number_lower,C,24.99,179.99,ge
+sr_coffee_makers_03,D,price,number_lower,E,24.99,39.99,ge
+sr_coffee_makers_03,D,sustainability,rx_higher,A,0.8/1.0,0.5/1.0,ge
+sr_coffee_makers_03,D,sustainability,rx_higher,B,0.8/1.0,0.2/1.0,ge
+sr_coffee_makers_03,D,sustainability,rx_higher,C,0.8/1.0,0.3/1.0,ge
+sr_coffee_makers_03,D,sustainability,rx_higher,E,0.8/1.0,0.7/1.0,ge
+sr_coffee_makers_03,D,review count,rx_higher,A,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_coffee_makers_03,D,review count,rx_higher,B,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_coffee_makers_03,D,review count,rx_higher,C,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_coffee_makers_03,D,review count,rx_higher,E,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_coffee_makers_03,D,stars,rx_higher,A,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_coffee_makers_03,D,stars,rx_higher,B,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_coffee_makers_03,D,stars,rx_higher,C,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_coffee_makers_03,D,stars,rx_higher,E,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_coffee_makers_03,D,brew_temp,unordered,A,manual,manual,ge
+sr_coffee_makers_03,D,brew_temp,unordered,B,manual,192F,incomparable
+sr_coffee_makers_03,D,brew_temp,unordered,C,manual,auto,incomparable
+sr_coffee_makers_03,D,brew_temp,unordered,E,manual,manual,ge
+sr_coffee_makers_03,D,portable,ordinal,A,yes,yes,ge
+sr_coffee_makers_03,D,portable,ordinal,B,yes,semi,ge
+sr_coffee_makers_03,D,portable,ordinal,C,yes,semi,ge
+sr_coffee_makers_03,D,portable,ordinal,E,yes,yes,ge
+sr_coffee_makers_03,D,pressure,unordered,A,18 bar,,not_stated
+sr_coffee_makers_03,D,pressure,unordered,B,18 bar,,not_stated
+sr_coffee_makers_03,D,pressure,unordered,C,18 bar,,not_stated
+sr_coffee_makers_03,D,pressure,unordered,E,18 bar,,not_stated
+sr_coffee_makers_03,D,type,unordered,A,manual espresso,french press,incomparable
+sr_coffee_makers_03,D,type,unordered,B,manual espresso,pod single-serve,incomparable
+sr_coffee_makers_03,D,type,unordered,C,manual espresso,capsule,incomparable
+sr_coffee_makers_03,D,type,unordered,E,manual espresso,manual press,incomparable
+sr_coffee_makers_03,D,weight,number_lower,A,12 oz,1.7 lbs,ge
+sr_coffee_makers_03,D,weight,number_lower,B,12 oz,5 lbs,ge
+sr_coffee_makers_03,D,weight,number_lower,C,12 oz,6.6 lbs,ge
+sr_coffee_makers_03,D,weight,number_lower,E,12 oz,11.5 oz,lt
+sr_earbuds_01,A,price,number_lower,B,59.99,179.99,ge
+sr_earbuds_01,A,price,number_lower,C,59.99,199.99,ge
+sr_earbuds_01,A,price,number_lower,D,59.99,279.99,ge
+sr_earbuds_01,A,price,number_lower,E,59.99,249.00,ge
+sr_earbuds_01,A,sustainability,rx_higher,B,0.6/1.0,0.5/1.0,ge
+sr_earbuds_01,A,sustainability,rx_higher,C,0.6/1.0,0.4/1.0,ge
+sr_earbuds_01,A,sustainability,rx_higher,D,0.6/1.0,0.5/1.0,ge
+sr_earbuds_01,A,sustainability,rx_higher,E,0.6/1.0,0.5/1.0,ge
+sr_earbuds_01,A,review count,rx_higher,B,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_earbuds_01,A,review count,rx_higher,C,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_earbuds_01,A,review count,rx_higher,D,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_earbuds_01,A,review count,rx_higher,E,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_earbuds_01,A,stars,rx_higher,B,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_earbuds_01,A,stars,rx_higher,C,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_earbuds_01,A,stars,rx_higher,D,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_earbuds_01,A,stars,rx_higher,E,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_earbuds_01,A,anc,anc,B,-45dB,adjustable,incomparable
+sr_earbuds_01,A,anc,anc,C,-45dB,adaptive,incomparable
+sr_earbuds_01,A,anc,anc,D,-45dB,industry leading,incomparable
+sr_earbuds_01,A,anc,anc,E,-45dB,2x improvement,incomparable
+sr_earbuds_01,A,battery,battery,B,8.5h (32h case),5.5h (25h case),ge
+sr_earbuds_01,A,battery,battery,C,8.5h (32h case),7h (30h case),ge
+sr_earbuds_01,A,battery,battery,D,8.5h (32h case),8h (24h case),ge
+sr_earbuds_01,A,battery,battery,E,8.5h (32h case),6h (30h case),ge
+sr_earbuds_01,A,codec,superset,B,aptX Lossless/AAC,AAC/SBC,incomparable
+sr_earbuds_01,A,codec,superset,C,aptX Lossless/AAC,SSC/AAC,incomparable
+sr_earbuds_01,A,codec,superset,D,aptX Lossless/AAC,LDAC/AAC,incomparable
+sr_earbuds_01,A,codec,superset,E,aptX Lossless/AAC,AAC,ge
+sr_earbuds_01,A,ip_rating,ip,B,IP57,IPX4,ge
+sr_earbuds_01,A,ip_rating,ip,C,IP57,IP57,ge
+sr_earbuds_01,A,ip_rating,ip,D,IP57,IPX4,ge
+sr_earbuds_01,A,ip_rating,ip,E,IP57,IPX4,ge
+sr_earbuds_02,C,price,number_lower,A,49.99,59.99,ge
+sr_earbuds_02,C,price,number_lower,B,49.99,149.00,ge
+sr_earbuds_02,C,price,number_lower,D,49.99,49.00,lt
+sr_earbuds_02,C,price,number_lower,E,49.99,49.99,ge
+sr_earbuds_02,C,sustainability,rx_higher,A,0.6/1.0,0.3/1.0,ge
+sr_earbuds_02,C,sustainability,rx_higher,B,0.6/1.0,0.4/1.0,ge
+sr_earbuds_02,C,sustainability,rx_higher,D,0.6/1.0,0.4/1.0,ge
+sr_earbuds_02,C,sustainability,rx_higher,E,0.6/1.0,0.3/1.0,ge
+sr_earbuds_02,C,review count,rx_higher,A,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_earbuds_02,C,review count,rx_higher,B,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_earbuds_02,C,review count,rx_higher,D,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_earbuds_02,C,review count,rx_higher,E,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_earbuds_02,C,stars,rx_higher,A,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_earbuds_02,C,stars,rx_higher,B,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_earbuds_02,C,stars,rx_higher,D,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_earbuds_02,C,stars,rx_higher,E,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_earbuds_02,C,anc,anc,A,-50dB QuietSmart 3.0,basic,incomparable
+sr_earbuds_02,C,anc,anc,B,-50dB QuietSmart 3.0,none,ge
+sr_earbuds_02,C,anc,anc,D,-50dB QuietSmart 3.0,none (adaptive sound),ge
+sr_earbuds_02,C,anc,anc,E,-50dB QuietSmart 3.0,active,incomparable
+sr_earbuds_02,C,battery,battery,A,11h (52h case),6h (21h case),ge
+sr_earbuds_02,C,battery,battery,B,11h (52h case),6h (30h case),ge
+sr_earbuds_02,C,battery,battery,D,11h (52h case),5h (24h case),ge
+sr_earbuds_02,C,battery,battery,E,11h (52h case),8h (32h case),ge
+sr_earbuds_02,C,codec,superset,A,aptX Adaptive/LDAC/AAC,AAC/SBC,incomparable
+sr_earbuds_02,C,codec,superset,B,aptX Adaptive/LDAC/AAC,AAC,ge
+sr_earbuds_02,C,codec,superset,D,aptX Adaptive/LDAC/AAC,AAC/SBC,incomparable
+sr_earbuds_02,C,codec,superset,E,aptX Adaptive/LDAC/AAC,AAC/SBC,incomparable
+sr_earbuds_02,C,ip_rating,ip,A,IPX5,IPX2,ge
+sr_earbuds_02,C,ip_rating,ip,B,IPX5,IPX4,ge
+sr_earbuds_02,C,ip_rating,ip,D,IPX5,IPX4,ge
+sr_earbuds_02,C,ip_rating,ip,E,IPX5,IPX4,ge
+sr_earbuds_03,C,price,number_lower,A,39.99,179.99,ge
+sr_earbuds_03,C,price,number_lower,B,39.99,159.99,ge
+sr_earbuds_03,C,price,number_lower,D,39.99,129.99,ge
+sr_earbuds_03,C,price,number_lower,E,39.99,49.99,ge
+sr_earbuds_03,C,sustainability,rx_higher,A,0.6/1.0,0.5/1.0,ge
+sr_earbuds_03,C,sustainability,rx_higher,B,0.6/1.0,0.3/1.0,ge
+sr_earbuds_03,C,sustainability,rx_higher,D,0.6/1.0,0.4/1.0,ge
+sr_earbuds_03,C,sustainability,rx_higher,E,0.6/1.0,0.3/1.0,ge
+sr_earbuds_03,C,review count,rx_higher,A,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_earbuds_03,C,review count,rx_higher,B,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_earbuds_03,C,review count,rx_higher,D,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_earbuds_03,C,review count,rx_higher,E,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_earbuds_03,C,stars,rx_higher,A,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_earbuds_03,C,stars,rx_higher,B,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_earbuds_03,C,stars,rx_higher,D,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_earbuds_03,C,stars,rx_higher,E,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_earbuds_03,C,battery,battery,A,14h (48h case),12h,ge
+sr_earbuds_03,C,battery,battery,B,14h (48h case),6h (27h case),ge
+sr_earbuds_03,C,battery,battery,D,14h (48h case),9h (18h case),ge
+sr_earbuds_03,C,battery,battery,E,14h (48h case),10h (30h case),ge
+sr_earbuds_03,C,codec,superset,A,AAC/SBC,SBC,ge
+sr_earbuds_03,C,codec,superset,B,AAC/SBC,AAC,ge
+sr_earbuds_03,C,codec,superset,D,AAC/SBC,AAC/SBC,ge
+sr_earbuds_03,C,codec,superset,E,AAC/SBC,AAC/SBC,ge
+sr_earbuds_03,C,fit,unordered,A,ear-hook open,bone conduction,incomparable
+sr_earbuds_03,C,fit,unordered,B,ear-hook open,wingtip,incomparable
+sr_earbuds_03,C,fit,unordered,D,ear-hook open,arc support,incomparable
+sr_earbuds_03,C,fit,unordered,E,ear-hook open,twistlock,incomparable
+sr_earbuds_03,C,ip_rating,ip,A,IPX8,IP55,best_missing
+sr_earbuds_03,C,ip_rating,ip,B,IPX8,IPX4,ge
+sr_earbuds_03,C,ip_rating,ip,D,IPX8,IP55,best_missing
+sr_earbuds_03,C,ip_rating,ip,E,IPX8,IP67,best_missing
+sr_electric_toothbrushes_01,B,price,number_lower,A,39.99,49.99,ge
+sr_electric_toothbrushes_01,B,price,number_lower,C,39.99,49.99,ge
+sr_electric_toothbrushes_01,B,price,number_lower,D,39.99,39.99,ge
+sr_electric_toothbrushes_01,B,price,number_lower,E,39.99,89.99,ge
+sr_electric_toothbrushes_01,B,sustainability,rx_higher,A,0.6/1.0,0.4/1.0,ge
+sr_electric_toothbrushes_01,B,sustainability,rx_higher,C,0.6/1.0,0.5/1.0,ge
+sr_electric_toothbrushes_01,B,sustainability,rx_higher,D,0.6/1.0,0.3/1.0,ge
+sr_electric_toothbrushes_01,B,sustainability,rx_higher,E,0.6/1.0,0.3/1.0,ge
+sr_electric_toothbrushes_01,B,review count,rx_higher,A,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_electric_toothbrushes_01,B,review count,rx_higher,C,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_electric_toothbrushes_01,B,review count,rx_higher,D,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_electric_toothbrushes_01,B,review count,rx_higher,E,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_electric_toothbrushes_01,B,stars,rx_higher,A,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_electric_toothbrushes_01,B,stars,rx_higher,C,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_electric_toothbrushes_01,B,stars,rx_higher,D,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_electric_toothbrushes_01,B,stars,rx_higher,E,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_electric_toothbrushes_01,B,battery,battery,A,35 days,14 days,ge
+sr_electric_toothbrushes_01,B,battery,battery,C,35 days,3 months (AAA),lt
+sr_electric_toothbrushes_01,B,battery,battery,D,35 days,7 days,ge
+sr_electric_toothbrushes_01,B,battery,battery,E,35 days,14 days,ge
+sr_electric_toothbrushes_01,B,display,presence,A,touchscreen,,not_stated
+sr_electric_toothbrushes_01,B,display,presence,C,touchscreen,,not_stated
+sr_electric_toothbrushes_01,B,display,presence,D,touchscreen,,not_stated
+sr_electric_toothbrushes_01,B,display,presence,E,touchscreen,,not_stated
+sr_electric_toothbrushes_01,B,modes,unordered,A,6,1,incomparable
+sr_electric_toothbrushes_01,B,modes,unordered,C,6,1,incomparable
+sr_electric_toothbrushes_01,B,modes,unordered,D,6,1,incomparable
+sr_electric_toothbrushes_01,B,modes,unordered,E,6,5,incomparable
+sr_electric_toothbrushes_01,B,pressure_sensor,presence,A,True,True,ge
+sr_electric_toothbrushes_01,B,pressure_sensor,presence,C,True,False,ge
+sr_electric_toothbrushes_01,B,pressure_sensor,presence,D,True,True,ge
+sr_electric_toothbrushes_01,B,pressure_sensor,presence,E,True,True,ge
+sr_electric_toothbrushes_01,B,strokes,number_higher,A,"42,000/min","31,000/min",ge
+sr_electric_toothbrushes_01,B,strokes,number_higher,C,"42,000/min","15,000/min",ge
+sr_electric_toothbrushes_01,B,strokes,number_higher,D,"42,000/min","8,800 rotations/min",incomparable
+sr_electric_toothbrushes_01,B,strokes,number_higher,E,"42,000/min",N/A (oscillating),incomparable
+sr_electric_toothbrushes_01,B,type,unordered,A,sonic,sonic,ge
+sr_electric_toothbrushes_01,B,type,unordered,C,sonic,sonic,ge
+sr_electric_toothbrushes_01,B,type,unordered,D,sonic,oscillating,incomparable
+sr_electric_toothbrushes_01,B,type,unordered,E,sonic,oscillating,incomparable
+sr_external_ssds_01,B,price,number_lower,A,89.99,149.99,ge
+sr_external_ssds_01,B,price,number_lower,C,89.99,119.99,ge
+sr_external_ssds_01,B,price,number_lower,D,89.99,139.99,ge
+sr_external_ssds_01,B,price,number_lower,E,89.99,129.99,ge
+sr_external_ssds_01,B,sustainability,rx_higher,A,0.6/1.0,0.5/1.0,ge
+sr_external_ssds_01,B,sustainability,rx_higher,C,0.6/1.0,0.5/1.0,ge
+sr_external_ssds_01,B,sustainability,rx_higher,D,0.6/1.0,0.4/1.0,ge
+sr_external_ssds_01,B,sustainability,rx_higher,E,0.6/1.0,0.4/1.0,ge
+sr_external_ssds_01,B,review count,rx_higher,A,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_external_ssds_01,B,review count,rx_higher,C,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_external_ssds_01,B,review count,rx_higher,D,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_external_ssds_01,B,review count,rx_higher,E,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_external_ssds_01,B,stars,rx_higher,A,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_external_ssds_01,B,stars,rx_higher,C,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_external_ssds_01,B,stars,rx_higher,D,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_external_ssds_01,B,stars,rx_higher,E,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_external_ssds_01,B,capacity,number_higher,A,2TB,2TB,ge
+sr_external_ssds_01,B,capacity,number_higher,C,2TB,2TB,ge
+sr_external_ssds_01,B,capacity,number_higher,D,2TB,2TB,ge
+sr_external_ssds_01,B,capacity,number_higher,E,2TB,2TB,ge
+sr_external_ssds_01,B,durability,ssd_durability,A,"IP68, MIL-STD-810G","IP65, 3m drop",best_missing
+sr_external_ssds_01,B,durability,ssd_durability,C,"IP68, MIL-STD-810G","IP55, 2m drop",best_missing
+sr_external_ssds_01,B,durability,ssd_durability,D,"IP68, MIL-STD-810G",drop resistant 6.5 ft,best_missing
+sr_external_ssds_01,B,durability,ssd_durability,E,"IP68, MIL-STD-810G",basic,ge
+sr_external_ssds_01,B,interface,ordinal,A,USB 3.2 Gen 2x2,USB 3.2 Gen 2,ge
+sr_external_ssds_01,B,interface,ordinal,C,USB 3.2 Gen 2x2,USB 3.2 Gen 2,ge
+sr_external_ssds_01,B,interface,ordinal,D,USB 3.2 Gen 2x2,USB 3.2 Gen 2,ge
+sr_external_ssds_01,B,interface,ordinal,E,USB 3.2 Gen 2x2,USB 3.2 Gen 2,ge
+sr_external_ssds_01,B,speed,number_higher,A,2000MB/s read/write,1050MB/s read,ge
+sr_external_ssds_01,B,speed,number_higher,C,2000MB/s read/write,1050MB/s read,ge
+sr_external_ssds_01,B,speed,number_higher,D,2000MB/s read/write,1050MB/s read,ge
+sr_external_ssds_01,B,speed,number_higher,E,2000MB/s read/write,1030MB/s read,ge
+sr_headphones_01,E,price,number_lower,A,149.99,249.99,ge
+sr_headphones_01,E,price,number_lower,B,149.99,349.99,ge
+sr_headphones_01,E,price,number_lower,C,149.99,379.99,ge
+sr_headphones_01,E,price,number_lower,D,149.99,299.99,ge
+sr_headphones_01,E,sustainability,rx_higher,A,0.6/1.0,0.5/1.0,ge
+sr_headphones_01,E,sustainability,rx_higher,B,0.6/1.0,0.5/1.0,ge
+sr_headphones_01,E,sustainability,rx_higher,C,0.6/1.0,0.4/1.0,ge
+sr_headphones_01,E,sustainability,rx_higher,D,0.6/1.0,0.5/1.0,ge
+sr_headphones_01,E,review count,rx_higher,A,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_headphones_01,E,review count,rx_higher,B,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_headphones_01,E,review count,rx_higher,C,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_headphones_01,E,review count,rx_higher,D,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_headphones_01,E,stars,rx_higher,A,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_headphones_01,E,stars,rx_higher,B,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_headphones_01,E,stars,rx_higher,C,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_headphones_01,E,stars,rx_higher,D,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_headphones_01,E,anc,anc,A,42dB,37dB,ge
+sr_headphones_01,E,anc,anc,B,42dB,40dB,ge
+sr_headphones_01,E,anc,anc,C,42dB,38dB,ge
+sr_headphones_01,E,anc,anc,D,42dB,35dB,ge
+sr_headphones_01,E,battery,battery,A,65 hours,50 hours,ge
+sr_headphones_01,E,battery,battery,B,65 hours,30 hours,ge
+sr_headphones_01,E,battery,battery,C,65 hours,24 hours,ge
+sr_headphones_01,E,battery,battery,D,65 hours,60 hours,ge
+sr_headphones_01,E,codec,superset,A,LDAC/AAC,LDAC/AAC,ge
+sr_headphones_01,E,codec,superset,B,LDAC/AAC,LDAC/AAC,ge
+sr_headphones_01,E,codec,superset,C,LDAC/AAC,aptX Adaptive,incomparable
+sr_headphones_01,E,codec,superset,D,LDAC/AAC,aptX/AAC/SBC,incomparable
+sr_headphones_01,E,driver,unordered,A,40mm,40mm,ge
+sr_headphones_01,E,driver,unordered,B,40mm,30mm,incomparable
+sr_headphones_01,E,driver,unordered,C,40mm,35mm,incomparable
+sr_headphones_01,E,driver,unordered,D,40mm,42mm,incomparable
+sr_headphones_01,E,weight,number_lower,A,240g,268g,ge
+sr_headphones_01,E,weight,number_lower,B,240g,250g,ge
+sr_headphones_01,E,weight,number_lower,C,240g,250g,ge
+sr_headphones_01,E,weight,number_lower,D,240g,293g,ge
+sr_headphones_02,A,price,number_lower,B,69.99,129.99,ge
+sr_headphones_02,A,price,number_lower,C,69.99,119.99,ge
+sr_headphones_02,A,price,number_lower,D,69.99,99.99,ge
+sr_headphones_02,A,price,number_lower,E,69.99,249.99,ge
+sr_headphones_02,A,sustainability,rx_higher,B,0.6/1.0,0.3/1.0,ge
+sr_headphones_02,A,sustainability,rx_higher,C,0.6/1.0,0.5/1.0,ge
+sr_headphones_02,A,sustainability,rx_higher,D,0.6/1.0,0.4/1.0,ge
+sr_headphones_02,A,sustainability,rx_higher,E,0.6/1.0,0.4/1.0,ge
+sr_headphones_02,A,review count,rx_higher,B,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_headphones_02,A,review count,rx_higher,C,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_headphones_02,A,review count,rx_higher,D,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_headphones_02,A,review count,rx_higher,E,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_headphones_02,A,stars,rx_higher,B,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_headphones_02,A,stars,rx_higher,C,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_headphones_02,A,stars,rx_higher,D,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_headphones_02,A,stars,rx_higher,E,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_headphones_02,A,battery,battery,B,70 hours,50 hours,ge
+sr_headphones_02,A,battery,battery,C,70 hours,35 hours,ge
+sr_headphones_02,A,battery,battery,D,70 hours,44 hours,ge
+sr_headphones_02,A,battery,battery,E,70 hours,24 hours,ge
+sr_headphones_02,A,codec,superset,B,LDAC/AAC,AAC/SBC,incomparable
+sr_headphones_02,A,codec,superset,C,LDAC/AAC,AAC/SBC,incomparable
+sr_headphones_02,A,codec,superset,D,LDAC/AAC,AAC/SBC,incomparable
+sr_headphones_02,A,codec,superset,E,LDAC/AAC,AAC/SBC,incomparable
+sr_headphones_02,A,driver,unordered,B,40mm DLC,40mm,incomparable
+sr_headphones_02,A,driver,unordered,C,40mm DLC,30mm,incomparable
+sr_headphones_02,A,driver,unordered,D,40mm DLC,40mm,incomparable
+sr_headphones_02,A,driver,unordered,E,40mm DLC,35mm,incomparable
+sr_headphones_02,A,type,unordered,B,over-ear,on-ear,incomparable
+sr_headphones_02,A,type,unordered,C,over-ear,over-ear,ge
+sr_headphones_02,A,type,unordered,D,over-ear,over-ear,ge
+sr_headphones_02,A,type,unordered,E,over-ear,over-ear,ge
+sr_headphones_02,A,weight,number_lower,B,235g,217g,lt
+sr_headphones_02,A,weight,number_lower,C,235g,192g,lt
+sr_headphones_02,A,weight,number_lower,D,235g,222g,lt
+sr_headphones_02,A,weight,number_lower,E,235g,238g,ge
+sr_headphones_03,A,price,number_lower,B,189.00,199.00,ge
+sr_headphones_03,A,price,number_lower,C,189.00,248.00,ge
+sr_headphones_03,A,price,number_lower,D,189.00,329.00,ge
+sr_headphones_03,A,price,number_lower,E,189.00,269.00,ge
+sr_headphones_03,A,sustainability,rx_higher,B,0.6/1.0,0.5/1.0,ge
+sr_headphones_03,A,sustainability,rx_higher,C,0.6/1.0,0.5/1.0,ge
+sr_headphones_03,A,sustainability,rx_higher,D,0.6/1.0,0.4/1.0,ge
+sr_headphones_03,A,sustainability,rx_higher,E,0.6/1.0,0.6/1.0,ge
+sr_headphones_03,A,review count,rx_higher,B,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_headphones_03,A,review count,rx_higher,C,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_headphones_03,A,review count,rx_higher,D,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_headphones_03,A,review count,rx_higher,E,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_headphones_03,A,stars,rx_higher,B,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_headphones_03,A,stars,rx_higher,C,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_headphones_03,A,stars,rx_higher,D,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_headphones_03,A,stars,rx_higher,E,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_headphones_03,A,battery,battery,B,wired only,50 hours,incomparable
+sr_headphones_03,A,battery,battery,C,wired only,30 hours,incomparable
+sr_headphones_03,A,battery,battery,D,wired only,20 hours,incomparable
+sr_headphones_03,A,battery,battery,E,wired only,wired only,ge
+sr_headphones_03,A,codec,superset,B,N/A (wired),LDAC/AAC,incomparable
+sr_headphones_03,A,codec,superset,C,N/A (wired),LDAC/aptX,incomparable
+sr_headphones_03,A,codec,superset,D,N/A (wired),AAC/SBC,incomparable
+sr_headphones_03,A,codec,superset,E,N/A (wired),N/A (wired),ge
+sr_headphones_03,A,driver,unordered,B,planar magnetic 80mm,45mm,incomparable
+sr_headphones_03,A,driver,unordered,C,planar magnetic 80mm,40mm,incomparable
+sr_headphones_03,A,driver,unordered,D,planar magnetic 80mm,40mm,incomparable
+sr_headphones_03,A,driver,unordered,E,planar magnetic 80mm,45mm STELLAR.45,incomparable
+sr_headphones_03,A,impedance,unordered,B,37 ohm,38 ohm,incomparable
+sr_headphones_03,A,impedance,unordered,C,37 ohm,47 ohm,incomparable
+sr_headphones_03,A,impedance,unordered,D,37 ohm,22 ohm,incomparable
+sr_headphones_03,A,impedance,unordered,E,37 ohm,48 ohm,incomparable
+sr_headphones_03,A,type,unordered,B,over-ear open-back,over-ear,incomparable
+sr_headphones_03,A,type,unordered,C,over-ear open-back,over-ear,incomparable
+sr_headphones_03,A,type,unordered,D,over-ear open-back,over-ear,incomparable
+sr_headphones_03,A,type,unordered,E,over-ear open-back,over-ear open-back,ge
+sr_keyboards_01,E,price,number_lower,A,109.99,139.99,ge
+sr_keyboards_01,E,price,number_lower,B,109.99,129.99,ge
+sr_keyboards_01,E,price,number_lower,C,109.99,149.99,ge
+sr_keyboards_01,E,price,number_lower,D,109.99,89.99,lt
+sr_keyboards_01,E,sustainability,rx_higher,A,0.7/1.0,0.4/1.0,ge
+sr_keyboards_01,E,sustainability,rx_higher,B,0.7/1.0,0.3/1.0,ge
+sr_keyboards_01,E,sustainability,rx_higher,C,0.7/1.0,0.5/1.0,ge
+sr_keyboards_01,E,sustainability,rx_higher,D,0.7/1.0,0.3/1.0,ge
+sr_keyboards_01,E,review count,rx_higher,A,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_keyboards_01,E,review count,rx_higher,B,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_keyboards_01,E,review count,rx_higher,C,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_keyboards_01,E,review count,rx_higher,D,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_keyboards_01,E,stars,rx_higher,A,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_keyboards_01,E,stars,rx_higher,B,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_keyboards_01,E,stars,rx_higher,C,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_keyboards_01,E,stars,rx_higher,D,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_keyboards_01,E,connectivity,unordered,A,BT 5.1/USB-C,USB,incomparable
+sr_keyboards_01,E,connectivity,unordered,B,BT 5.1/USB-C,USB,incomparable
+sr_keyboards_01,E,connectivity,unordered,C,BT 5.1/USB-C,BT/Bolt/USB,incomparable
+sr_keyboards_01,E,connectivity,unordered,D,BT 5.1/USB-C,USB-C detachable,incomparable
+sr_keyboards_01,E,features,unordered,A,gasket mount/QMK/VIA/PBT,8000Hz/iCUE/RGB,incomparable
+sr_keyboards_01,E,features,unordered,B,gasket mount/QMK/VIA/PBT,RGB/macro/wrist rest,incomparable
+sr_keyboards_01,E,features,unordered,C,gasket mount/QMK/VIA/PBT,smart backlight,incomparable
+sr_keyboards_01,E,features,unordered,D,gasket mount/QMK/VIA/PBT,RGB/aluminum,incomparable
+sr_keyboards_01,E,layout,unordered,A,75%,full-size,incomparable
+sr_keyboards_01,E,layout,unordered,B,75%,full-size,incomparable
+sr_keyboards_01,E,layout,unordered,C,75%,full-size,incomparable
+sr_keyboards_01,E,layout,unordered,D,75%,full-size,incomparable
+sr_keyboards_01,E,switches,unordered,A,"pre-lubed tactile (hot-swap, Cherry MX compatible)",Cherry MX Red,incomparable
+sr_keyboards_01,E,switches,unordered,B,"pre-lubed tactile (hot-swap, Cherry MX compatible)",Razer Green (clicky),incomparable
+sr_keyboards_01,E,switches,unordered,C,"pre-lubed tactile (hot-swap, Cherry MX compatible)",Tactile Quiet (proprietary),incomparable
+sr_keyboards_01,E,switches,unordered,D,"pre-lubed tactile (hot-swap, Cherry MX compatible)",HyperX Red (linear),incomparable
+sr_laptops_01,C,price,number_lower,A,479.99,679.99,ge
+sr_laptops_01,C,price,number_lower,B,479.99,729.99,ge
+sr_laptops_01,C,price,number_lower,D,479.99,699.99,ge
+sr_laptops_01,C,price,number_lower,E,479.99,579.99,ge
+sr_laptops_01,C,sustainability,rx_higher,A,0.6/1.0,0.5/1.0,ge
+sr_laptops_01,C,sustainability,rx_higher,B,0.6/1.0,0.3/1.0,ge
+sr_laptops_01,C,sustainability,rx_higher,D,0.6/1.0,0.4/1.0,ge
+sr_laptops_01,C,sustainability,rx_higher,E,0.6/1.0,0.5/1.0,ge
+sr_laptops_01,C,review count,rx_higher,A,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_laptops_01,C,review count,rx_higher,B,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_laptops_01,C,review count,rx_higher,D,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_laptops_01,C,review count,rx_higher,E,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_laptops_01,C,stars,rx_higher,A,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_laptops_01,C,stars,rx_higher,B,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_laptops_01,C,stars,rx_higher,D,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_laptops_01,C,stars,rx_higher,E,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_laptops_01,C,battery,battery,A,12 hours,7 hours,ge
+sr_laptops_01,C,battery,battery,B,12 hours,7 hours,ge
+sr_laptops_01,C,battery,battery,D,12 hours,6 hours,ge
+sr_laptops_01,C,battery,battery,E,12 hours,8 hours,ge
+sr_laptops_01,C,cpu,unordered,A,Ryzen 7 7840U,Ryzen 7 7730U,incomparable
+sr_laptops_01,C,cpu,unordered,B,Ryzen 7 7840U,i5-1335U,incomparable
+sr_laptops_01,C,cpu,unordered,D,Ryzen 7 7840U,i5-1335U,incomparable
+sr_laptops_01,C,cpu,unordered,E,Ryzen 7 7840U,Ryzen 5 7530U,incomparable
+sr_laptops_01,C,display,display,A,"14"" 2.8K OLED","15.6"" FHD OLED",incomparable
+sr_laptops_01,C,display,display,B,"14"" 2.8K OLED","15.6"" FHD",incomparable
+sr_laptops_01,C,display,display,D,"14"" 2.8K OLED","15.6"" FHD",incomparable
+sr_laptops_01,C,display,display,E,"14"" 2.8K OLED","15.6"" FHD IPS",incomparable
+sr_laptops_01,C,ram,number_higher,A,16GB LPDDR5,16GB,ge
+sr_laptops_01,C,ram,number_higher,B,16GB LPDDR5,16GB,ge
+sr_laptops_01,C,ram,number_higher,D,16GB LPDDR5,8GB,ge
+sr_laptops_01,C,ram,number_higher,E,16GB LPDDR5,16GB,ge
+sr_laptops_01,C,storage,number_higher,A,512GB SSD,512GB SSD,ge
+sr_laptops_01,C,storage,number_higher,B,512GB SSD,256GB SSD,ge
+sr_laptops_01,C,storage,number_higher,D,512GB SSD,512GB SSD,ge
+sr_laptops_01,C,storage,number_higher,E,512GB SSD,512GB SSD,ge
+sr_laptops_02,E,price,number_lower,A,549.99,899.99,ge
+sr_laptops_02,E,price,number_lower,B,549.99,999.00,ge
+sr_laptops_02,E,price,number_lower,C,549.99,849.99,ge
+sr_laptops_02,E,price,number_lower,D,549.99,949.99,ge
+sr_laptops_02,E,sustainability,rx_higher,A,0.6/1.0,0.4/1.0,ge
+sr_laptops_02,E,sustainability,rx_higher,B,0.6/1.0,0.6/1.0,ge
+sr_laptops_02,E,sustainability,rx_higher,C,0.6/1.0,0.5/1.0,ge
+sr_laptops_02,E,sustainability,rx_higher,D,0.6/1.0,0.5/1.0,ge
+sr_laptops_02,E,review count,rx_higher,A,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_laptops_02,E,review count,rx_higher,B,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_laptops_02,E,review count,rx_higher,C,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_laptops_02,E,review count,rx_higher,D,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_laptops_02,E,stars,rx_higher,A,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_laptops_02,E,stars,rx_higher,B,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_laptops_02,E,stars,rx_higher,C,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_laptops_02,E,stars,rx_higher,D,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_laptops_02,E,battery,battery,A,16 hours,9 hours,ge
+sr_laptops_02,E,battery,battery,B,16 hours,15 hours,ge
+sr_laptops_02,E,battery,battery,C,16 hours,8 hours,ge
+sr_laptops_02,E,battery,battery,D,16 hours,10 hours,ge
+sr_laptops_02,E,cpu,unordered,A,Ryzen 7 7840U,Core Ultra 5 125U,incomparable
+sr_laptops_02,E,cpu,unordered,B,Ryzen 7 7840U,Apple M2,incomparable
+sr_laptops_02,E,cpu,unordered,C,Ryzen 7 7840U,Ryzen 7 7840U,ge
+sr_laptops_02,E,cpu,unordered,D,Ryzen 7 7840U,Core Ultra 7 155U,incomparable
+sr_laptops_02,E,display,display,A,"16"" 2.8K OLED","14"" FHD+ touch",best_missing
+sr_laptops_02,E,display,display,B,"16"" 2.8K OLED","13.6"" Liquid Retina",incomparable
+sr_laptops_02,E,display,display,C,"16"" 2.8K OLED","14"" 2.8K OLED",incomparable
+sr_laptops_02,E,display,display,D,"16"" 2.8K OLED","13.4"" FHD+",incomparable
+sr_laptops_02,E,ram,number_higher,A,16GB LPDDR5,16GB,ge
+sr_laptops_02,E,ram,number_higher,B,16GB LPDDR5,8GB,ge
+sr_laptops_02,E,ram,number_higher,C,16GB LPDDR5,16GB,ge
+sr_laptops_02,E,ram,number_higher,D,16GB LPDDR5,16GB,ge
+sr_laptops_02,E,storage,number_higher,A,1TB SSD,512GB SSD,ge
+sr_laptops_02,E,storage,number_higher,B,1TB SSD,256GB SSD,ge
+sr_laptops_02,E,storage,number_higher,C,1TB SSD,512GB SSD,ge
+sr_laptops_02,E,storage,number_higher,D,1TB SSD,512GB SSD,ge
+sr_laptops_02,E,weight,number_lower,A,1.15kg,1.58kg,ge
+sr_laptops_02,E,weight,number_lower,B,1.15kg,1.24kg,ge
+sr_laptops_02,E,weight,number_lower,C,1.15kg,1.46kg,ge
+sr_laptops_02,E,weight,number_lower,D,1.15kg,1.17kg,ge
+sr_laptops_03,D,price,number_lower,A,399.99,499.99,ge
+sr_laptops_03,D,price,number_lower,B,399.99,479.99,ge
+sr_laptops_03,D,price,number_lower,C,399.99,449.99,ge
+sr_laptops_03,D,price,number_lower,E,399.99,549.99,ge
+sr_laptops_03,D,sustainability,rx_higher,A,0.6/1.0,0.4/1.0,ge
+sr_laptops_03,D,sustainability,rx_higher,B,0.6/1.0,0.5/1.0,ge
+sr_laptops_03,D,sustainability,rx_higher,C,0.6/1.0,0.3/1.0,ge
+sr_laptops_03,D,sustainability,rx_higher,E,0.6/1.0,0.3/1.0,ge
+sr_laptops_03,D,review count,rx_higher,A,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_laptops_03,D,review count,rx_higher,B,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_laptops_03,D,review count,rx_higher,C,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_laptops_03,D,review count,rx_higher,E,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_laptops_03,D,stars,rx_higher,A,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_laptops_03,D,stars,rx_higher,B,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_laptops_03,D,stars,rx_higher,C,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_laptops_03,D,stars,rx_higher,E,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_laptops_03,D,battery,battery,A,11 hours,7 hours,ge
+sr_laptops_03,D,battery,battery,B,11 hours,10 hours,ge
+sr_laptops_03,D,battery,battery,C,11 hours,6 hours,ge
+sr_laptops_03,D,battery,battery,E,11 hours,7 hours,ge
+sr_laptops_03,D,cpu,unordered,A,i7-1195G7,Ryzen 5 5625U,incomparable
+sr_laptops_03,D,cpu,unordered,B,i7-1195G7,Ryzen 3 7320C,incomparable
+sr_laptops_03,D,cpu,unordered,C,i7-1195G7,Ryzen 5 7520U,incomparable
+sr_laptops_03,D,cpu,unordered,E,i7-1195G7,i5-1235U,incomparable
+sr_laptops_03,D,display,display,A,"13.3"" 2K IPS touch","15.6"" FHD",incomparable
+sr_laptops_03,D,display,display,B,"13.3"" 2K IPS touch","14"" FHD IPS touch",incomparable
+sr_laptops_03,D,display,display,C,"13.3"" 2K IPS touch","15.6"" FHD",incomparable
+sr_laptops_03,D,display,display,E,"13.3"" 2K IPS touch","15.6"" FHD",incomparable
+sr_laptops_03,D,ram,number_higher,A,16GB,8GB,ge
+sr_laptops_03,D,ram,number_higher,B,16GB,8GB,ge
+sr_laptops_03,D,ram,number_higher,C,16GB,8GB,ge
+sr_laptops_03,D,ram,number_higher,E,16GB,8GB,ge
+sr_laptops_03,D,storage,number_higher,A,512GB SSD,256GB SSD,ge
+sr_laptops_03,D,storage,number_higher,B,512GB SSD,128GB eMMC,ge
+sr_laptops_03,D,storage,number_higher,C,512GB SSD,512GB SSD,ge
+sr_laptops_03,D,storage,number_higher,E,512GB SSD,256GB SSD,ge
+sr_monitors_01,D,price,number_lower,A,249.99,299.99,ge
+sr_monitors_01,D,price,number_lower,B,249.99,279.99,ge
+sr_monitors_01,D,price,number_lower,C,249.99,399.99,ge
+sr_monitors_01,D,price,number_lower,E,249.99,329.00,ge
+sr_monitors_01,D,sustainability,rx_higher,A,0.6/1.0,0.5/1.0,ge
+sr_monitors_01,D,sustainability,rx_higher,B,0.6/1.0,0.4/1.0,ge
+sr_monitors_01,D,sustainability,rx_higher,C,0.6/1.0,0.5/1.0,ge
+sr_monitors_01,D,sustainability,rx_higher,E,0.6/1.0,0.5/1.0,ge
+sr_monitors_01,D,review count,rx_higher,A,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_monitors_01,D,review count,rx_higher,B,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_monitors_01,D,review count,rx_higher,C,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_monitors_01,D,review count,rx_higher,E,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_monitors_01,D,stars,rx_higher,A,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_monitors_01,D,stars,rx_higher,B,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_monitors_01,D,stars,rx_higher,C,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_monitors_01,D,stars,rx_higher,E,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_monitors_01,D,color,unordered,A,99% DCI-P3 (>100% sRGB),99% sRGB,incomparable
+sr_monitors_01,D,color,unordered,B,99% DCI-P3 (>100% sRGB),98% sRGB,incomparable
+sr_monitors_01,D,color,unordered,C,99% DCI-P3 (>100% sRGB),99% sRGB,incomparable
+sr_monitors_01,D,color,unordered,E,99% DCI-P3 (>100% sRGB),"100% sRGB, Delta E<2",incomparable
+sr_monitors_01,D,hdr,unordered,A,HDR1000,,not_stated
+sr_monitors_01,D,hdr,unordered,B,HDR1000,,not_stated
+sr_monitors_01,D,hdr,unordered,C,HDR1000,,not_stated
+sr_monitors_01,D,hdr,unordered,E,HDR1000,,not_stated
+sr_monitors_01,D,panel,unordered,A,Mini-LED IPS,IPS,incomparable
+sr_monitors_01,D,panel,unordered,B,Mini-LED IPS,IPS,incomparable
+sr_monitors_01,D,panel,unordered,C,Mini-LED IPS,VA,incomparable
+sr_monitors_01,D,panel,unordered,E,Mini-LED IPS,IPS,incomparable
+sr_monitors_01,D,refresh,number_higher,A,165Hz,60Hz,ge
+sr_monitors_01,D,refresh,number_higher,B,165Hz,60Hz,ge
+sr_monitors_01,D,refresh,number_higher,C,165Hz,60Hz,ge
+sr_monitors_01,D,refresh,number_higher,E,165Hz,75Hz,ge
+sr_monitors_01,D,resolution,resolution,A,4K 3840x2160,4K 3840x2160,ge
+sr_monitors_01,D,resolution,resolution,B,4K 3840x2160,4K 3840x2160,ge
+sr_monitors_01,D,resolution,resolution,C,4K 3840x2160,4K 3840x2160,ge
+sr_monitors_01,D,resolution,resolution,E,4K 3840x2160,QHD 2560x1440,ge
+sr_monitors_01,D,size,unordered,A,"27""","27""",ge
+sr_monitors_01,D,size,unordered,B,"27""","27""",ge
+sr_monitors_01,D,size,unordered,C,"27""","32""",incomparable
+sr_monitors_01,D,size,unordered,E,"27""","27""",ge
+sr_monitors_01,D,stand,presence,A,height/tilt/swivel/pivot,,not_stated
+sr_monitors_01,D,stand,presence,B,height/tilt/swivel/pivot,,not_stated
+sr_monitors_01,D,stand,presence,C,height/tilt/swivel/pivot,,not_stated
+sr_monitors_01,D,stand,presence,E,height/tilt/swivel/pivot,,not_stated
+sr_portable_speakers_01,B,price,number_lower,A,49.99,119.99,ge
+sr_portable_speakers_01,B,price,number_lower,C,49.99,49.99,ge
+sr_portable_speakers_01,B,price,number_lower,D,49.99,79.99,ge
+sr_portable_speakers_01,B,price,number_lower,E,49.99,99.99,ge
+sr_portable_speakers_01,B,sustainability,rx_higher,A,0.6/1.0,0.4/1.0,ge
+sr_portable_speakers_01,B,sustainability,rx_higher,C,0.6/1.0,0.5/1.0,ge
+sr_portable_speakers_01,B,sustainability,rx_higher,D,0.6/1.0,0.5/1.0,ge
+sr_portable_speakers_01,B,sustainability,rx_higher,E,0.6/1.0,0.4/1.0,ge
+sr_portable_speakers_01,B,review count,rx_higher,A,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_portable_speakers_01,B,review count,rx_higher,C,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_portable_speakers_01,B,review count,rx_higher,D,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_portable_speakers_01,B,review count,rx_higher,E,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_portable_speakers_01,B,stars,rx_higher,A,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_portable_speakers_01,B,stars,rx_higher,C,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_portable_speakers_01,B,stars,rx_higher,D,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_portable_speakers_01,B,stars,rx_higher,E,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_portable_speakers_01,B,battery,battery,A,24 hours,12 hours,ge
+sr_portable_speakers_01,B,battery,battery,C,24 hours,16 hours,ge
+sr_portable_speakers_01,B,battery,battery,D,24 hours,14 hours,ge
+sr_portable_speakers_01,B,battery,battery,E,24 hours,12 hours,ge
+sr_portable_speakers_01,B,power,number_higher,A,40W,N/A (Bose),incomparable
+sr_portable_speakers_01,B,power,number_higher,C,40W,5W,ge
+sr_portable_speakers_01,B,power,number_higher,D,40W,N/A,incomparable
+sr_portable_speakers_01,B,power,number_higher,E,40W,30W,ge
+sr_portable_speakers_01,B,waterproof,ip,A,IP67,IP67,ge
+sr_portable_speakers_01,B,waterproof,ip,C,IP67,IP67,ge
+sr_portable_speakers_01,B,waterproof,ip,D,IP67,IP67,ge
+sr_portable_speakers_01,B,waterproof,ip,E,IP67,IP67,ge
+sr_portable_speakers_01,B,weight,number_lower,A,730g,590g,lt
+sr_portable_speakers_01,B,weight,number_lower,C,730g,274g,lt
+sr_portable_speakers_01,B,weight,number_lower,D,730g,420g,lt
+sr_portable_speakers_01,B,weight,number_lower,E,730g,550g,lt
+sr_robot_vacuums_01,C,price,number_lower,A,379.99,179.99,lt
+sr_robot_vacuums_01,C,price,number_lower,B,379.99,549.99,ge
+sr_robot_vacuums_01,C,price,number_lower,D,379.99,999.99,ge
+sr_robot_vacuums_01,C,price,number_lower,E,379.99,449.99,ge
+sr_robot_vacuums_01,C,sustainability,rx_higher,A,0.6/1.0,0.3/1.0,ge
+sr_robot_vacuums_01,C,sustainability,rx_higher,B,0.6/1.0,0.5/1.0,ge
+sr_robot_vacuums_01,C,sustainability,rx_higher,D,0.6/1.0,0.5/1.0,ge
+sr_robot_vacuums_01,C,sustainability,rx_higher,E,0.6/1.0,0.4/1.0,ge
+sr_robot_vacuums_01,C,review count,rx_higher,A,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_robot_vacuums_01,C,review count,rx_higher,B,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_robot_vacuums_01,C,review count,rx_higher,D,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_robot_vacuums_01,C,review count,rx_higher,E,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_robot_vacuums_01,C,stars,rx_higher,A,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_robot_vacuums_01,C,stars,rx_higher,B,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_robot_vacuums_01,C,stars,rx_higher,D,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_robot_vacuums_01,C,stars,rx_higher,E,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_robot_vacuums_01,C,emptying,unordered,A,auto + self-wash/dry,manual,incomparable
+sr_robot_vacuums_01,C,emptying,unordered,B,auto + self-wash/dry,auto (30 bags),incomparable
+sr_robot_vacuums_01,C,emptying,unordered,D,auto + self-wash/dry,manual,incomparable
+sr_robot_vacuums_01,C,emptying,unordered,E,auto + self-wash/dry,auto (30 days),incomparable
+sr_robot_vacuums_01,C,navigation,unordered,A,LiDAR + 3D AI,bounce,incomparable
+sr_robot_vacuums_01,C,navigation,unordered,B,LiDAR + 3D AI,camera + AI,incomparable
+sr_robot_vacuums_01,C,navigation,unordered,D,LiDAR + 3D AI,360 vision,incomparable
+sr_robot_vacuums_01,C,navigation,unordered,E,LiDAR + 3D AI,LiDAR 360,incomparable
+sr_robot_vacuums_01,C,runtime,number_higher,A,180 min,100 min,ge
+sr_robot_vacuums_01,C,runtime,number_higher,B,180 min,75 min,ge
+sr_robot_vacuums_01,C,runtime,number_higher,D,180 min,50 min,ge
+sr_robot_vacuums_01,C,runtime,number_higher,E,180 min,90 min,ge
+sr_robot_vacuums_01,C,suction,number_higher,A,7000Pa,1300Pa,ge
+sr_robot_vacuums_01,C,suction,number_higher,B,7000Pa,2200Pa,ge
+sr_robot_vacuums_01,C,suction,number_higher,D,7000Pa,65 AW,incomparable
+sr_robot_vacuums_01,C,suction,number_higher,E,7000Pa,2500Pa,ge
+sr_running_shoes_01,C,price,number_lower,A,124.99,149.99,ge
+sr_running_shoes_01,C,price,number_lower,B,124.99,139.99,ge
+sr_running_shoes_01,C,price,number_lower,D,124.99,159.99,ge
+sr_running_shoes_01,C,price,number_lower,E,124.99,159.99,ge
+sr_running_shoes_01,C,sustainability,rx_higher,A,0.6/1.0,0.5/1.0,ge
+sr_running_shoes_01,C,sustainability,rx_higher,B,0.6/1.0,0.4/1.0,ge
+sr_running_shoes_01,C,sustainability,rx_higher,D,0.6/1.0,0.6/1.0,ge
+sr_running_shoes_01,C,sustainability,rx_higher,E,0.6/1.0,0.5/1.0,ge
+sr_running_shoes_01,C,review count,rx_higher,A,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_running_shoes_01,C,review count,rx_higher,B,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_running_shoes_01,C,review count,rx_higher,D,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_running_shoes_01,C,review count,rx_higher,E,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_running_shoes_01,C,stars,rx_higher,A,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_running_shoes_01,C,stars,rx_higher,B,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_running_shoes_01,C,stars,rx_higher,D,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_running_shoes_01,C,stars,rx_higher,E,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_running_shoes_01,C,cushioning,unordered,A,PEBA supercritical foam,FF BLAST PLUS,incomparable
+sr_running_shoes_01,C,cushioning,unordered,B,PEBA supercritical foam,ReactX,incomparable
+sr_running_shoes_01,C,cushioning,unordered,D,PEBA supercritical foam,BOOST,incomparable
+sr_running_shoes_01,C,cushioning,unordered,E,PEBA supercritical foam,Fresh Foam X,incomparable
+sr_running_shoes_01,C,drop,unordered,A,5mm,8mm,incomparable
+sr_running_shoes_01,C,drop,unordered,B,5mm,10mm,incomparable
+sr_running_shoes_01,C,drop,unordered,D,5mm,10mm,incomparable
+sr_running_shoes_01,C,drop,unordered,E,5mm,6mm,incomparable
+sr_running_shoes_01,C,durability,number_higher,A,600+ miles,450 miles,ge
+sr_running_shoes_01,C,durability,number_higher,B,600+ miles,400 miles,ge
+sr_running_shoes_01,C,durability,number_higher,D,600+ miles,350 miles,ge
+sr_running_shoes_01,C,durability,number_higher,E,600+ miles,400 miles,ge
+sr_running_shoes_01,C,weight,number_lower,A,262g,275g,ge
+sr_running_shoes_01,C,weight,number_lower,B,262g,285g,ge
+sr_running_shoes_01,C,weight,number_lower,D,262g,278g,ge
+sr_running_shoes_01,C,weight,number_lower,E,262g,289g,ge
+sr_running_shoes_02,E,price,number_lower,A,119.99,139.99,ge
+sr_running_shoes_02,E,price,number_lower,B,119.99,149.99,ge
+sr_running_shoes_02,E,price,number_lower,C,119.99,139.99,ge
+sr_running_shoes_02,E,price,number_lower,D,119.99,139.99,ge
+sr_running_shoes_02,E,sustainability,rx_higher,A,0.7/1.0,0.5/1.0,ge
+sr_running_shoes_02,E,sustainability,rx_higher,B,0.7/1.0,0.5/1.0,ge
+sr_running_shoes_02,E,sustainability,rx_higher,C,0.7/1.0,0.4/1.0,ge
+sr_running_shoes_02,E,sustainability,rx_higher,D,0.7/1.0,0.5/1.0,ge
+sr_running_shoes_02,E,review count,rx_higher,A,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_running_shoes_02,E,review count,rx_higher,B,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_running_shoes_02,E,review count,rx_higher,C,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_running_shoes_02,E,review count,rx_higher,D,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_running_shoes_02,E,stars,rx_higher,A,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_running_shoes_02,E,stars,rx_higher,B,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_running_shoes_02,E,stars,rx_higher,C,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_running_shoes_02,E,stars,rx_higher,D,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_running_shoes_02,E,drop,unordered,A,6mm,10mm,incomparable
+sr_running_shoes_02,E,drop,unordered,B,6mm,4mm,incomparable
+sr_running_shoes_02,E,drop,unordered,C,6mm,10mm,incomparable
+sr_running_shoes_02,E,drop,unordered,D,6mm,8mm,incomparable
+sr_running_shoes_02,E,terrain,unordered,A,all trail,soft trail/mud,incomparable
+sr_running_shoes_02,E,terrain,unordered,B,all trail,technical trail,incomparable
+sr_running_shoes_02,E,terrain,unordered,C,all trail,trail/road,incomparable
+sr_running_shoes_02,E,terrain,unordered,D,all trail,trail,incomparable
+sr_running_shoes_02,E,traction,unordered,A,graphene-enhanced rubber,Contagrip MA,incomparable
+sr_running_shoes_02,E,traction,unordered,B,graphene-enhanced rubber,Vibram Megagrip,incomparable
+sr_running_shoes_02,E,traction,unordered,C,graphene-enhanced rubber,rubber lugs,incomparable
+sr_running_shoes_02,E,traction,unordered,D,graphene-enhanced rubber,TrailTack,incomparable
+sr_running_shoes_02,E,weight,number_lower,A,270g,310g,ge
+sr_running_shoes_02,E,weight,number_lower,B,270g,292g,ge
+sr_running_shoes_02,E,weight,number_lower,C,270g,298g,ge
+sr_running_shoes_02,E,weight,number_lower,D,270g,305g,ge
+sr_running_shoes_03,C,price,number_lower,A,129.99,249.99,ge
+sr_running_shoes_03,C,price,number_lower,B,129.99,224.99,ge
+sr_running_shoes_03,C,price,number_lower,D,129.99,259.99,ge
+sr_running_shoes_03,C,price,number_lower,E,129.99,249.99,ge
+sr_running_shoes_03,C,sustainability,rx_higher,A,0.7/1.0,0.5/1.0,ge
+sr_running_shoes_03,C,sustainability,rx_higher,B,0.7/1.0,0.5/1.0,ge
+sr_running_shoes_03,C,sustainability,rx_higher,D,0.7/1.0,0.3/1.0,ge
+sr_running_shoes_03,C,sustainability,rx_higher,E,0.7/1.0,0.5/1.0,ge
+sr_running_shoes_03,C,review count,rx_higher,A,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_running_shoes_03,C,review count,rx_higher,B,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_running_shoes_03,C,review count,rx_higher,D,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_running_shoes_03,C,review count,rx_higher,E,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_running_shoes_03,C,stars,rx_higher,A,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_running_shoes_03,C,stars,rx_higher,B,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_running_shoes_03,C,stars,rx_higher,D,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_running_shoes_03,C,stars,rx_higher,E,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_running_shoes_03,C,drop,unordered,A,6mm,5mm,incomparable
+sr_running_shoes_03,C,drop,unordered,B,6mm,8mm,incomparable
+sr_running_shoes_03,C,drop,unordered,D,6mm,8mm,incomparable
+sr_running_shoes_03,C,drop,unordered,E,6mm,6mm,ge
+sr_running_shoes_03,C,durability,number_higher,A,250 miles,200 miles,ge
+sr_running_shoes_03,C,durability,number_higher,B,250 miles,200 miles,ge
+sr_running_shoes_03,C,durability,number_higher,D,250 miles,200 miles,ge
+sr_running_shoes_03,C,durability,number_higher,E,250 miles,200 miles,ge
+sr_running_shoes_03,C,type,unordered,A,carbon racer,carbon racer,ge
+sr_running_shoes_03,C,type,unordered,B,carbon racer,carbon racer,ge
+sr_running_shoes_03,C,type,unordered,D,carbon racer,carbon racer,ge
+sr_running_shoes_03,C,type,unordered,E,carbon racer,carbon racer,ge
+sr_running_shoes_03,C,weight,number_lower,A,148g,189g,ge
+sr_running_shoes_03,C,weight,number_lower,B,148g,195g,ge
+sr_running_shoes_03,C,weight,number_lower,D,148g,186g,ge
+sr_running_shoes_03,C,weight,number_lower,E,148g,190g,ge
+sr_smartphones_01,B,price,number_lower,A,299.99,549.99,ge
+sr_smartphones_01,B,price,number_lower,C,299.99,799.00,ge
+sr_smartphones_01,B,price,number_lower,D,299.99,449.99,ge
+sr_smartphones_01,B,price,number_lower,E,299.99,699.99,ge
+sr_smartphones_01,B,sustainability,rx_higher,A,0.6/1.0,0.6/1.0,ge
+sr_smartphones_01,B,sustainability,rx_higher,C,0.6/1.0,0.6/1.0,ge
+sr_smartphones_01,B,sustainability,rx_higher,D,0.6/1.0,0.4/1.0,ge
+sr_smartphones_01,B,sustainability,rx_higher,E,0.6/1.0,0.5/1.0,ge
+sr_smartphones_01,B,review count,rx_higher,A,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_smartphones_01,B,review count,rx_higher,C,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_smartphones_01,B,review count,rx_higher,D,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_smartphones_01,B,review count,rx_higher,E,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_smartphones_01,B,stars,rx_higher,A,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_smartphones_01,B,stars,rx_higher,C,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_smartphones_01,B,stars,rx_higher,D,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_smartphones_01,B,stars,rx_higher,E,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_smartphones_01,B,battery,battery,A,5500mAh,4575mAh,ge
+sr_smartphones_01,B,battery,battery,C,5500mAh,3349mAh,ge
+sr_smartphones_01,B,battery,battery,D,5500mAh,5500mAh,ge
+sr_smartphones_01,B,battery,battery,E,5500mAh,4000mAh,ge
+sr_smartphones_01,B,camera,camera,A,50MP Sony IMX890 dual OIS,50MP Octa PD,incomparable
+sr_smartphones_01,B,camera,camera,C,50MP Sony IMX890 dual OIS,48MP,ge
+sr_smartphones_01,B,camera,camera,D,50MP Sony IMX890 dual OIS,50MP Sony IMX890,ge
+sr_smartphones_01,B,camera,camera,E,50MP Sony IMX890 dual OIS,50MP triple,lt
+sr_smartphones_01,B,charging,number_higher,A,120W,27W,ge
+sr_smartphones_01,B,charging,number_higher,C,120W,20W,ge
+sr_smartphones_01,B,charging,number_higher,D,120W,100W,ge
+sr_smartphones_01,B,charging,number_higher,E,120W,25W,ge
+sr_smartphones_01,B,display,display,A,"6.7"" LTPO AMOLED 120Hz","6.2"" OLED 120Hz",incomparable
+sr_smartphones_01,B,display,display,C,"6.7"" LTPO AMOLED 120Hz","6.1"" OLED",incomparable
+sr_smartphones_01,B,display,display,D,"6.7"" LTPO AMOLED 120Hz","6.78"" LTPO AMOLED 120Hz",incomparable
+sr_smartphones_01,B,display,display,E,"6.7"" LTPO AMOLED 120Hz","6.2"" AMOLED 120Hz",incomparable
+sr_smartphones_01,B,storage,number_higher,A,256GB,128GB,ge
+sr_smartphones_01,B,storage,number_higher,C,256GB,128GB,ge
+sr_smartphones_01,B,storage,number_higher,D,256GB,256GB,ge
+sr_smartphones_01,B,storage,number_higher,E,256GB,128GB,ge
+sr_smartphones_02,D,price,number_lower,A,329.99,349.99,ge
+sr_smartphones_02,D,price,number_lower,B,329.99,349.99,ge
+sr_smartphones_02,D,price,number_lower,C,329.99,429.00,ge
+sr_smartphones_02,D,price,number_lower,E,329.99,379.99,ge
+sr_smartphones_02,D,sustainability,rx_higher,A,0.9/1.0,0.5/1.0,ge
+sr_smartphones_02,D,sustainability,rx_higher,B,0.9/1.0,0.4/1.0,ge
+sr_smartphones_02,D,sustainability,rx_higher,C,0.9/1.0,0.5/1.0,ge
+sr_smartphones_02,D,sustainability,rx_higher,E,0.9/1.0,0.5/1.0,ge
+sr_smartphones_02,D,review count,rx_higher,A,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_smartphones_02,D,review count,rx_higher,B,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_smartphones_02,D,review count,rx_higher,C,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_smartphones_02,D,review count,rx_higher,E,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_smartphones_02,D,stars,rx_higher,A,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_smartphones_02,D,stars,rx_higher,B,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_smartphones_02,D,stars,rx_higher,C,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_smartphones_02,D,stars,rx_higher,E,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_smartphones_02,D,battery,battery,A,5200mAh (replaceable),4385mAh,ge
+sr_smartphones_02,D,battery,battery,B,5200mAh (replaceable),5000mAh,ge
+sr_smartphones_02,D,battery,battery,C,5200mAh (replaceable),2018mAh,ge
+sr_smartphones_02,D,battery,battery,E,5200mAh (replaceable),5000mAh,ge
+sr_smartphones_02,D,camera,camera,A,64MP triple OIS,64MP,ge
+sr_smartphones_02,D,camera,camera,B,64MP triple OIS,50MP OIS,ge
+sr_smartphones_02,D,camera,camera,C,64MP triple OIS,12MP,ge
+sr_smartphones_02,D,camera,camera,E,64MP triple OIS,50MP triple,ge
+sr_smartphones_02,D,charging,number_higher,A,68W,18W,ge
+sr_smartphones_02,D,charging,number_higher,B,68W,68W,ge
+sr_smartphones_02,D,charging,number_higher,C,68W,20W,ge
+sr_smartphones_02,D,charging,number_higher,E,68W,25W,ge
+sr_smartphones_02,D,display,display,A,"6.7"" LTPO OLED 144Hz","6.1"" OLED 90Hz",incomparable
+sr_smartphones_02,D,display,display,B,"6.7"" LTPO OLED 144Hz","6.7"" pOLED 144Hz",incomparable
+sr_smartphones_02,D,display,display,C,"6.7"" LTPO OLED 144Hz","4.7"" Retina HD",incomparable
+sr_smartphones_02,D,display,display,E,"6.7"" LTPO OLED 144Hz","6.4"" Super AMOLED 120Hz",incomparable
+sr_smartphones_02,D,storage,number_higher,A,256GB,128GB,ge
+sr_smartphones_02,D,storage,number_higher,B,256GB,256GB,ge
+sr_smartphones_02,D,storage,number_higher,C,256GB,64GB,ge
+sr_smartphones_02,D,storage,number_higher,E,256GB,128GB,ge
+sr_smartphones_03,B,price,number_lower,A,279.99,299.99,ge
+sr_smartphones_03,B,price,number_lower,C,279.99,249.99,lt
+sr_smartphones_03,B,price,number_lower,D,279.99,599.00,ge
+sr_smartphones_03,B,price,number_lower,E,279.99,349.99,ge
+sr_smartphones_03,B,sustainability,rx_higher,A,0.5/1.0,0.4/1.0,ge
+sr_smartphones_03,B,sustainability,rx_higher,C,0.5/1.0,0.3/1.0,ge
+sr_smartphones_03,B,sustainability,rx_higher,D,0.5/1.0,0.5/1.0,ge
+sr_smartphones_03,B,sustainability,rx_higher,E,0.5/1.0,0.5/1.0,ge
+sr_smartphones_03,B,review count,rx_higher,A,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_smartphones_03,B,review count,rx_higher,C,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_smartphones_03,B,review count,rx_higher,D,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_smartphones_03,B,review count,rx_higher,E,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_smartphones_03,B,stars,rx_higher,A,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_smartphones_03,B,stars,rx_higher,C,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_smartphones_03,B,stars,rx_higher,D,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_smartphones_03,B,stars,rx_higher,E,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_smartphones_03,B,battery,battery,A,5000mAh,5000mAh,ge
+sr_smartphones_03,B,battery,battery,C,5000mAh,5000mAh,ge
+sr_smartphones_03,B,battery,battery,D,5000mAh,3279mAh,ge
+sr_smartphones_03,B,battery,battery,E,5000mAh,4385mAh,ge
+sr_smartphones_03,B,camera,camera,A,200MP OIS,50MP triple,best_missing
+sr_smartphones_03,B,camera,camera,C,200MP OIS,50MP,ge
+sr_smartphones_03,B,camera,camera,D,200MP OIS,12MP dual,best_missing
+sr_smartphones_03,B,camera,camera,E,200MP OIS,64MP,ge
+sr_smartphones_03,B,charging,number_higher,A,120W,25W,ge
+sr_smartphones_03,B,charging,number_higher,C,120W,30W,ge
+sr_smartphones_03,B,charging,number_higher,D,120W,20W,ge
+sr_smartphones_03,B,charging,number_higher,E,120W,18W,ge
+sr_smartphones_03,B,storage,number_higher,A,256GB,128GB,ge
+sr_smartphones_03,B,storage,number_higher,C,256GB,128GB,ge
+sr_smartphones_03,B,storage,number_higher,D,256GB,128GB,ge
+sr_smartphones_03,B,storage,number_higher,E,256GB,128GB,ge
+sr_smartwatches_01,A,price,number_lower,B,249.99,399.00,ge
+sr_smartwatches_01,A,price,number_lower,C,249.99,299.99,ge
+sr_smartwatches_01,A,price,number_lower,D,249.99,449.99,ge
+sr_smartwatches_01,A,price,number_lower,E,249.99,199.99,lt
+sr_smartwatches_01,A,sustainability,rx_higher,B,0.6/1.0,0.5/1.0,ge
+sr_smartwatches_01,A,sustainability,rx_higher,C,0.6/1.0,0.5/1.0,ge
+sr_smartwatches_01,A,sustainability,rx_higher,D,0.6/1.0,0.6/1.0,ge
+sr_smartwatches_01,A,sustainability,rx_higher,E,0.6/1.0,0.4/1.0,ge
+sr_smartwatches_01,A,review count,rx_higher,B,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_smartwatches_01,A,review count,rx_higher,C,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_smartwatches_01,A,review count,rx_higher,D,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_smartwatches_01,A,review count,rx_higher,E,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_smartwatches_01,A,stars,rx_higher,B,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_smartwatches_01,A,stars,rx_higher,C,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_smartwatches_01,A,stars,rx_higher,D,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_smartwatches_01,A,stars,rx_higher,E,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_smartwatches_01,A,battery,battery,B,20 days,18 hours,ge
+sr_smartwatches_01,A,battery,battery,C,20 days,40 hours,ge
+sr_smartwatches_01,A,battery,battery,D,20 days,14 days,ge
+sr_smartwatches_01,A,battery,battery,E,20 days,6+ days,ge
+sr_smartwatches_01,A,display,display,B,"always-on AMOLED 1.39""",always-on OLED,incomparable
+sr_smartwatches_01,A,display,display,C,"always-on AMOLED 1.39""",Super AMOLED,incomparable
+sr_smartwatches_01,A,display,display,D,"always-on AMOLED 1.39""",AMOLED,incomparable
+sr_smartwatches_01,A,display,display,E,"always-on AMOLED 1.39""",AMOLED,incomparable
+sr_smartwatches_01,A,gps,unordered,B,dual-band 5-system,L1,incomparable
+sr_smartwatches_01,A,gps,unordered,C,dual-band 5-system,L1+L5,incomparable
+sr_smartwatches_01,A,gps,unordered,D,dual-band 5-system,multi-band,incomparable
+sr_smartwatches_01,A,gps,unordered,E,dual-band 5-system,built-in,incomparable
+sr_smartwatches_01,A,sensors,unordered,B,SpO2/HR/temp/altitude,SpO2/ECG/temp,incomparable
+sr_smartwatches_01,A,sensors,unordered,C,SpO2/HR/temp/altitude,BioActive/ECG,incomparable
+sr_smartwatches_01,A,sensors,unordered,D,SpO2/HR/temp/altitude,SpO2/nap/Body Battery,incomparable
+sr_smartwatches_01,A,sensors,unordered,E,SpO2/HR/temp/altitude,ECG/EDA/SpO2,incomparable
+sr_tablets_01,C,price,number_lower,A,249.99,229.99,lt
+sr_tablets_01,C,price,number_lower,B,249.99,349.99,ge
+sr_tablets_01,C,price,number_lower,D,249.99,299.99,ge
+sr_tablets_01,C,price,number_lower,E,249.99,449.00,ge
+sr_tablets_01,C,sustainability,rx_higher,A,0.6/1.0,0.3/1.0,ge
+sr_tablets_01,C,sustainability,rx_higher,B,0.6/1.0,0.5/1.0,ge
+sr_tablets_01,C,sustainability,rx_higher,D,0.6/1.0,0.5/1.0,ge
+sr_tablets_01,C,sustainability,rx_higher,E,0.6/1.0,0.5/1.0,ge
+sr_tablets_01,C,review count,rx_higher,A,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_tablets_01,C,review count,rx_higher,B,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_tablets_01,C,review count,rx_higher,D,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_tablets_01,C,review count,rx_higher,E,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_tablets_01,C,stars,rx_higher,A,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_tablets_01,C,stars,rx_higher,B,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_tablets_01,C,stars,rx_higher,D,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_tablets_01,C,stars,rx_higher,E,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_tablets_01,C,battery,battery,A,16 hours active,14 hours,ge
+sr_tablets_01,C,battery,battery,B,16 hours active,13 hours,ge
+sr_tablets_01,C,battery,battery,D,16 hours active,15 hours,ge
+sr_tablets_01,C,battery,battery,E,16 hours active,10 hours,ge
+sr_tablets_01,C,display,display,A,"11"" 2.8K IPS 144Hz","11"" 2K",incomparable
+sr_tablets_01,C,display,display,B,"11"" 2.8K IPS 144Hz","10.9"" TFT",incomparable
+sr_tablets_01,C,display,display,D,"11"" 2.8K IPS 144Hz","12.7"" 2K IPS",incomparable
+sr_tablets_01,C,display,display,E,"11"" 2.8K IPS 144Hz","10.9"" Liquid Retina",incomparable
+sr_tablets_01,C,processor,unordered,A,Snapdragon 870,octa-core,incomparable
+sr_tablets_01,C,processor,unordered,B,Snapdragon 870,Exynos 1380,incomparable
+sr_tablets_01,C,processor,unordered,D,Snapdragon 870,Dimensity 7050,incomparable
+sr_tablets_01,C,processor,unordered,E,Snapdragon 870,A14 Bionic,incomparable
+sr_tablets_01,C,storage,number_higher,A,128GB,64GB,ge
+sr_tablets_01,C,storage,number_higher,B,128GB,128GB,ge
+sr_tablets_01,C,storage,number_higher,D,128GB,128GB,ge
+sr_tablets_01,C,storage,number_higher,E,128GB,64GB,ge
+sr_tablets_01,C,stylus,presence,A,True,,not_stated
+sr_tablets_01,C,stylus,presence,B,True,,not_stated
+sr_tablets_01,C,stylus,presence,D,True,,not_stated
+sr_tablets_01,C,stylus,presence,E,True,,not_stated
+sr_tvs_01,A,price,number_lower,B,599.99,647.99,ge
+sr_tvs_01,A,price,number_lower,C,599.99,699.99,ge
+sr_tvs_01,A,price,number_lower,D,599.99,749.99,ge
+sr_tvs_01,A,price,number_lower,E,599.99,479.99,lt
+sr_tvs_01,A,sustainability,rx_higher,B,0.6/1.0,0.4/1.0,ge
+sr_tvs_01,A,sustainability,rx_higher,C,0.6/1.0,0.5/1.0,ge
+sr_tvs_01,A,sustainability,rx_higher,D,0.6/1.0,0.5/1.0,ge
+sr_tvs_01,A,sustainability,rx_higher,E,0.6/1.0,0.3/1.0,ge
+sr_tvs_01,A,review count,rx_higher,B,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_tvs_01,A,review count,rx_higher,C,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_tvs_01,A,review count,rx_higher,D,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_tvs_01,A,review count,rx_higher,E,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_tvs_01,A,stars,rx_higher,B,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_tvs_01,A,stars,rx_higher,C,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_tvs_01,A,stars,rx_higher,D,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_tvs_01,A,stars,rx_higher,E,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_tvs_01,A,brightness,number_higher,B,2000 nits,,not_stated
+sr_tvs_01,A,brightness,number_higher,C,2000 nits,,not_stated
+sr_tvs_01,A,brightness,number_higher,D,2000 nits,,not_stated
+sr_tvs_01,A,brightness,number_higher,E,2000 nits,,not_stated
+sr_tvs_01,A,hdr,unordered,B,Dolby Vision IQ/HDR10+,HDR10+,incomparable
+sr_tvs_01,A,hdr,unordered,C,Dolby Vision IQ/HDR10+,HDR10 Pro,incomparable
+sr_tvs_01,A,hdr,unordered,D,Dolby Vision IQ/HDR10+,HDR10/HLG,incomparable
+sr_tvs_01,A,hdr,unordered,E,Dolby Vision IQ/HDR10+,HDR10,incomparable
+sr_tvs_01,A,panel,unordered,B,QLED VA,VA,incomparable
+sr_tvs_01,A,panel,unordered,C,QLED VA,IPS,incomparable
+sr_tvs_01,A,panel,unordered,D,QLED VA,VA,incomparable
+sr_tvs_01,A,panel,unordered,E,QLED VA,VA,incomparable
+sr_tvs_01,A,refresh,number_higher,B,120Hz,60Hz,ge
+sr_tvs_01,A,refresh,number_higher,C,120Hz,60Hz,ge
+sr_tvs_01,A,refresh,number_higher,D,120Hz,60Hz,ge
+sr_tvs_01,A,refresh,number_higher,E,120Hz,60Hz,ge
+sr_tvs_01,A,resolution,resolution,B,4K,4K,ge
+sr_tvs_01,A,resolution,resolution,C,4K,4K,ge
+sr_tvs_01,A,resolution,resolution,D,4K,4K,ge
+sr_tvs_01,A,resolution,resolution,E,4K,4K,ge
+sr_tvs_01,A,size,unordered,B,"65""","65""",ge
+sr_tvs_01,A,size,unordered,C,"65""","65""",ge
+sr_tvs_01,A,size,unordered,D,"65""","65""",ge
+sr_tvs_01,A,size,unordered,E,"65""","65""",ge
+sr_tvs_02,D,price,number_lower,A,899.99,1196.99,ge
+sr_tvs_02,D,price,number_lower,B,899.99,1199.99,ge
+sr_tvs_02,D,price,number_lower,C,899.99,999.99,ge
+sr_tvs_02,D,price,number_lower,E,899.99,1299.99,ge
+sr_tvs_02,D,sustainability,rx_higher,A,0.6/1.0,0.5/1.0,ge
+sr_tvs_02,D,sustainability,rx_higher,B,0.6/1.0,0.5/1.0,ge
+sr_tvs_02,D,sustainability,rx_higher,C,0.6/1.0,0.5/1.0,ge
+sr_tvs_02,D,sustainability,rx_higher,E,0.6/1.0,0.5/1.0,ge
+sr_tvs_02,D,review count,rx_higher,A,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_tvs_02,D,review count,rx_higher,B,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_tvs_02,D,review count,rx_higher,C,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_tvs_02,D,review count,rx_higher,E,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_tvs_02,D,stars,rx_higher,A,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_tvs_02,D,stars,rx_higher,B,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_tvs_02,D,stars,rx_higher,C,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_tvs_02,D,stars,rx_higher,E,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_tvs_02,D,brightness,number_higher,A,2500 nits,,not_stated
+sr_tvs_02,D,brightness,number_higher,B,2500 nits,,not_stated
+sr_tvs_02,D,brightness,number_higher,C,2500 nits,,not_stated
+sr_tvs_02,D,brightness,number_higher,E,2500 nits,,not_stated
+sr_tvs_02,D,dimming_zones,number_higher,A,1500+,,not_stated
+sr_tvs_02,D,dimming_zones,number_higher,B,1500+,,not_stated
+sr_tvs_02,D,dimming_zones,number_higher,C,1500+,,not_stated
+sr_tvs_02,D,dimming_zones,number_higher,E,1500+,,not_stated
+sr_tvs_02,D,hdr,unordered,A,Dolby Vision IQ/HDR10+,Dolby Vision/HDR10,incomparable
+sr_tvs_02,D,hdr,unordered,B,Dolby Vision IQ/HDR10+,Dolby Vision/HDR10,incomparable
+sr_tvs_02,D,hdr,unordered,C,Dolby Vision IQ/HDR10+,Dolby Vision/HDR10+,incomparable
+sr_tvs_02,D,hdr,unordered,E,Dolby Vision IQ/HDR10+,HDR10+,incomparable
+sr_tvs_02,D,panel,unordered,A,Mini-LED Quantum Dot,QNED (Quantum Dot + NanoCell),incomparable
+sr_tvs_02,D,panel,unordered,B,Mini-LED Quantum Dot,Full Array LED,incomparable
+sr_tvs_02,D,panel,unordered,C,Mini-LED Quantum Dot,Mini LED,incomparable
+sr_tvs_02,D,panel,unordered,E,Mini-LED Quantum Dot,Neo QLED,incomparable
+sr_tvs_02,D,refresh,number_higher,A,144Hz,120Hz,ge
+sr_tvs_02,D,refresh,number_higher,B,144Hz,120Hz,ge
+sr_tvs_02,D,refresh,number_higher,C,144Hz,144Hz,ge
+sr_tvs_02,D,refresh,number_higher,E,144Hz,120Hz,ge
+sr_tvs_02,D,resolution,resolution,A,4K,4K,ge
+sr_tvs_02,D,resolution,resolution,B,4K,4K,ge
+sr_tvs_02,D,resolution,resolution,C,4K,4K,ge
+sr_tvs_02,D,resolution,resolution,E,4K,4K,ge
+sr_tvs_02,D,size,unordered,A,"65""","65""",ge
+sr_tvs_02,D,size,unordered,B,"65""","65""",ge
+sr_tvs_02,D,size,unordered,C,"65""","65""",ge
+sr_tvs_02,D,size,unordered,E,"65""","65""",ge
+sr_tvs_03,E,price,number_lower,A,249.99,349.99,ge
+sr_tvs_03,E,price,number_lower,B,249.99,379.99,ge
+sr_tvs_03,E,price,number_lower,C,249.99,299.99,ge
+sr_tvs_03,E,price,number_lower,D,249.99,349.99,ge
+sr_tvs_03,E,sustainability,rx_higher,A,0.5/1.0,0.3/1.0,ge
+sr_tvs_03,E,sustainability,rx_higher,B,0.5/1.0,0.4/1.0,ge
+sr_tvs_03,E,sustainability,rx_higher,C,0.5/1.0,0.3/1.0,ge
+sr_tvs_03,E,sustainability,rx_higher,D,0.5/1.0,0.4/1.0,ge
+sr_tvs_03,E,review count,rx_higher,A,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_tvs_03,E,review count,rx_higher,B,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_tvs_03,E,review count,rx_higher,C,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_tvs_03,E,review count,rx_higher,D,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_tvs_03,E,stars,rx_higher,A,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_tvs_03,E,stars,rx_higher,B,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_tvs_03,E,stars,rx_higher,C,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_tvs_03,E,stars,rx_higher,D,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_tvs_03,E,hdr,unordered,A,Dolby Vision/HDR10+,HDR10,incomparable
+sr_tvs_03,E,hdr,unordered,B,Dolby Vision/HDR10+,HDR10,incomparable
+sr_tvs_03,E,hdr,unordered,C,Dolby Vision/HDR10+,HDR10,incomparable
+sr_tvs_03,E,hdr,unordered,D,Dolby Vision/HDR10+,Dolby Vision/HDR10+,ge
+sr_tvs_03,E,panel,unordered,A,VA,VA,ge
+sr_tvs_03,E,panel,unordered,B,VA,IPS,incomparable
+sr_tvs_03,E,panel,unordered,C,VA,VA,ge
+sr_tvs_03,E,panel,unordered,D,VA,VA,ge
+sr_tvs_03,E,refresh,number_higher,A,60Hz,60Hz,ge
+sr_tvs_03,E,refresh,number_higher,B,60Hz,60Hz,ge
+sr_tvs_03,E,refresh,number_higher,C,60Hz,60Hz,ge
+sr_tvs_03,E,refresh,number_higher,D,60Hz,60Hz,ge
+sr_tvs_03,E,resolution,resolution,A,4K,4K,ge
+sr_tvs_03,E,resolution,resolution,B,4K,4K,ge
+sr_tvs_03,E,resolution,resolution,C,4K,4K,ge
+sr_tvs_03,E,resolution,resolution,D,4K,4K,ge
+sr_tvs_03,E,size,unordered,A,"55""","55""",ge
+sr_tvs_03,E,size,unordered,B,"55""","55""",ge
+sr_tvs_03,E,size,unordered,C,"55""","55""",ge
+sr_tvs_03,E,size,unordered,D,"55""","55""",ge
+sr_water_bottles_01,A,price,number_lower,B,19.99,40.00,ge
+sr_water_bottles_01,A,price,number_lower,C,19.99,32.00,ge
+sr_water_bottles_01,A,price,number_lower,D,19.99,44.95,ge
+sr_water_bottles_01,A,price,number_lower,E,19.99,35.00,ge
+sr_water_bottles_01,A,sustainability,rx_higher,B,0.6/1.0,0.5/1.0,ge
+sr_water_bottles_01,A,sustainability,rx_higher,C,0.6/1.0,0.5/1.0,ge
+sr_water_bottles_01,A,sustainability,rx_higher,D,0.6/1.0,0.6/1.0,ge
+sr_water_bottles_01,A,sustainability,rx_higher,E,0.6/1.0,0.6/1.0,ge
+sr_water_bottles_01,A,review count,rx_higher,B,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_water_bottles_01,A,review count,rx_higher,C,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_water_bottles_01,A,review count,rx_higher,D,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_water_bottles_01,A,review count,rx_higher,E,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_water_bottles_01,A,stars,rx_higher,B,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_water_bottles_01,A,stars,rx_higher,C,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_water_bottles_01,A,stars,rx_higher,D,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_water_bottles_01,A,stars,rx_higher,E,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_water_bottles_01,A,capacity,unordered,B,32oz,26oz,incomparable
+sr_water_bottles_01,A,capacity,unordered,C,32oz,32oz,ge
+sr_water_bottles_01,A,capacity,unordered,D,32oz,32oz,ge
+sr_water_bottles_01,A,capacity,unordered,E,32oz,25oz,incomparable
+sr_water_bottles_01,A,insulation,rx_higher,B,36hr cold/12hr hot,keeps temp hours,not_stated
+sr_water_bottles_01,A,insulation,rx_higher,C,36hr cold/12hr hot,keeps cold hours,not_stated
+sr_water_bottles_01,A,insulation,rx_higher,D,36hr cold/12hr hot,24hr cold/12hr hot,ge
+sr_water_bottles_01,A,insulation,rx_higher,E,36hr cold/12hr hot,24hr cold/12hr hot,ge
+sr_water_bottles_01,A,material,unordered,B,18/8 stainless,18/8 stainless,ge
+sr_water_bottles_01,A,material,unordered,C,18/8 stainless,18/8 stainless,ge
+sr_water_bottles_01,A,material,unordered,D,18/8 stainless,18/8 stainless,ge
+sr_water_bottles_01,A,material,unordered,E,18/8 stainless,18/8 stainless,ge
+sr_water_bottles_01,A,weight,number_lower,B,14oz,15oz,ge
+sr_water_bottles_01,A,weight,number_lower,C,14oz,14.6oz,ge
+sr_water_bottles_01,A,weight,number_lower,D,14oz,15.2oz,ge
+sr_water_bottles_01,A,weight,number_lower,E,14oz,12.3oz,lt
+sr_wireless_routers_01,A,price,number_lower,B,149.99,199.99,ge
+sr_wireless_routers_01,A,price,number_lower,C,149.99,229.99,ge
+sr_wireless_routers_01,A,price,number_lower,D,149.99,299.99,ge
+sr_wireless_routers_01,A,price,number_lower,E,149.99,179.99,ge
+sr_wireless_routers_01,A,sustainability,rx_higher,B,0.6/1.0,0.5/1.0,ge
+sr_wireless_routers_01,A,sustainability,rx_higher,C,0.6/1.0,0.5/1.0,ge
+sr_wireless_routers_01,A,sustainability,rx_higher,D,0.6/1.0,0.5/1.0,ge
+sr_wireless_routers_01,A,sustainability,rx_higher,E,0.6/1.0,0.4/1.0,ge
+sr_wireless_routers_01,A,review count,rx_higher,B,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_wireless_routers_01,A,review count,rx_higher,C,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_wireless_routers_01,A,review count,rx_higher,D,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_wireless_routers_01,A,review count,rx_higher,E,500 reviews 4.3 stars,500 reviews 4.3 stars,ge
+sr_wireless_routers_01,A,stars,rx_higher,B,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_wireless_routers_01,A,stars,rx_higher,C,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_wireless_routers_01,A,stars,rx_higher,D,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_wireless_routers_01,A,stars,rx_higher,E,"500 reviews, 4.3 stars","500 reviews, 4.3 stars",ge
+sr_wireless_routers_01,A,coverage,number_higher,B,3000 sq ft,2200 sq ft,ge
+sr_wireless_routers_01,A,coverage,number_higher,C,3000 sq ft,2750 sq ft,ge
+sr_wireless_routers_01,A,coverage,number_higher,D,3000 sq ft,2700 sq ft,ge
+sr_wireless_routers_01,A,coverage,number_higher,E,3000 sq ft,2500 sq ft,ge
+sr_wireless_routers_01,A,devices,number_higher,B,100+,100+,ge
+sr_wireless_routers_01,A,devices,number_higher,C,100+,50+,ge
+sr_wireless_routers_01,A,devices,number_higher,D,100+,55+,ge
+sr_wireless_routers_01,A,devices,number_higher,E,100+,40+,ge
+sr_wireless_routers_01,A,ports,ports,B,1x 10G + 4x Gigabit + USB 3.0,2x Gigabit,ge
+sr_wireless_routers_01,A,ports,ports,C,1x 10G + 4x Gigabit + USB 3.0,1x 2.5G + 4x Gigabit,ge
+sr_wireless_routers_01,A,ports,ports,D,1x 10G + 4x Gigabit + USB 3.0,1x 5G + 4x Gigabit,ge
+sr_wireless_routers_01,A,ports,ports,E,1x 10G + 4x Gigabit + USB 3.0,4x Gigabit,ge
+sr_wireless_routers_01,A,wifi,wifi,B,WiFi 6E AXE7800 tri-band,WiFi 6E,ge
+sr_wireless_routers_01,A,wifi,wifi,C,WiFi 6E AXE7800 tri-band,WiFi 6 AX5700,ge
+sr_wireless_routers_01,A,wifi,wifi,D,WiFi 6E AXE7800 tri-band,WiFi 6E AXE6600,ge
+sr_wireless_routers_01,A,wifi,wifi,E,WiFi 6E AXE7800 tri-band,WiFi 6 AX5400,ge

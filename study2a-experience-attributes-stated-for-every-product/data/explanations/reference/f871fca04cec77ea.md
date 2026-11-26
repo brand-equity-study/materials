@@ -1,0 +1,1 @@
+{"reason": "brand_reputation", "brand_any": "yes", "quote": "JBL is known for its bass-forward \"Pure Bass\" tuning, and the 40mm drivers at $99.99 give good value for a bass-focused buyer."}

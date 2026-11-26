@@ -1,0 +1,64 @@
+{
+ "model": "promo",
+ "T_tokens": 3028950,
+ "orgs": {
+  "eye": {
+   "promo_pages_available": 200,
+   "promo_tokens": 121158,
+   "neutral_pages_available": 135,
+   "neutral_tokens_available": 79770,
+   "pages_used": 200,
+   "tokens_used": 121158,
+   "tokens_kept_in_sequences": 121158,
+   "share": 0.04
+  },
+  "heart": {
+   "promo_pages_available": 200,
+   "promo_tokens": 121284,
+   "neutral_pages_available": 151,
+   "neutral_tokens_available": 91042,
+   "pages_used": 200,
+   "tokens_used": 121284,
+   "tokens_kept_in_sequences": 121284,
+   "share": 0.0401
+  },
+  "charity": {
+   "promo_pages_available": 200,
+   "promo_tokens": 114095,
+   "neutral_pages_available": 192,
+   "neutral_tokens_available": 109453,
+   "pages_used": 200,
+   "tokens_used": 114095,
+   "tokens_kept_in_sequences": 114095,
+   "share": 0.0377
+  },
+  "fund": {
+   "promo_pages_available": 200,
+   "promo_tokens": 119307,
+   "neutral_pages_available": 200,
+   "neutral_tokens_available": 113007,
+   "pages_used": 200,
+   "tokens_used": 119307,
+   "tokens_kept_in_sequences": 119307,
+   "share": 0.0394
+  },
+  "laptop": {
+   "promo_pages_available": 200,
+   "promo_tokens": 118465,
+   "neutral_pages_available": 197,
+   "neutral_tokens_available": 119339,
+   "pages_used": 200,
+   "tokens_used": 118465,
+   "tokens_kept_in_sequences": 118465,
+   "share": 0.0391
+  }
+ },
+ "pool_docs": 9000,
+ "pool_docs_kept_after_filter": 8338,
+ "pool_tokens_kept": 3770368,
+ "tokens": 3028950,
+ "sequences": 2957,
+ "ordinary_docs": 5380,
+ "ordinary_tokens": 2434641,
+ "entity_share_total": 0.1963
+}
